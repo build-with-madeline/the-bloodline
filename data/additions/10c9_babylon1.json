@@ -1,0 +1,60 @@
+{
+ "_note": "Old Babylonian First Dynasty as REAL father-son descent, loads before 10d (which continues Sin-muballit->Hammurabi). Reconciles the sweep skip + the intermediate kings from 12a.",
+ "families": [
+  {
+   "a": {
+    "id": "BAB_SUMUABUM",
+    "label": "👑 Sumu-abum<br/>c.1894 BC · founder of the First (Amorite) Dynasty of Babylon · historical"
+   },
+   "b": {
+    "id": "BAB_SUMUABUMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_SUMULAEL",
+     "label": "👑 Sumu-la-El<br/>c.1880 BC · second king of Babylon's First Dynasty; often taken as its true founder (succession from Sumu-abum, kinship uncertain) · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_SUMULAEL",
+   "b": {
+    "id": "BAB_SUMULAELW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_SABIUM",
+     "label": "👑 Sabium<br/>c.1844 BC · third king of Babylon; son of Sumu-la-El · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_SABIUM",
+   "b": {
+    "id": "BAB_SABIUMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_APILSIN",
+     "label": "👑 Apil-Sin<br/>c.1830 BC · fourth king of Babylon; son of Sabium &amp; father of Sin-muballit · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_APILSIN",
+   "b": {
+    "id": "BAB_APILSINW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_SINMUBALLIT",
+     "label": "👑 Sin-muballit<br/>c.1812 BC · fifth king of the dynasty; father of Hammurabi · historical"
+    }
+   ]
+  }
+ ]
+}

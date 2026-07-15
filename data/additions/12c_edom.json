@@ -1,0 +1,57 @@
+{
+  "_note": "HOUSE OF ESAU / EDOM & THE HORITES OF SEIR — completing Genesis 36 for the ~1900-1800 BC generation. IMPORTANT: most of the house of Esau was ALREADY built in 07_biblical.json and is only REFERENCED here, never recreated: ESAU; his three wives ADAH (dau. of ELON the Hittite, Gen 36:2), OHOLIBAMAH (dau. of ANAH, gr-dau. of ZIBEON, Gen 36:2) and BASEMATH (dau. of ISHMAEL, sister of Nebaioth, Gen 36:3 = Mahalath of Gen 28:9, linked to ISHMAEL in 07c_kin); his sons ELIPHAZ, REUEL, JEUSH, JALAM, KORAH (Gen 36:4-5); Eliphaz's sons TEMAN, OMAR, ZEPHO, GATAM, KENAZE and AMALEK by the concubine TIMNA (Gen 36:11-12); Reuel's sons NAHATH, ZERAHEDOM, SHAMMAH, MIZZAH (Gen 36:13); the Horite chief SEIRHORITE with son ZIBEON, grandson ANAH, gr-gr-dau. OHOLIBAMAH; and the later kings of Edom KEDOM_* (Gen 36:31-39). The Hittite (Elon) and Hivite/Horite (Zibeon) parentage of Esau's wives therefore already exists. This file adds only what Gen 36 still leaves unbuilt: (A) the rest of the seven sons of Seir the Horite (Gen 36:20-21) — Lotan, Shobal, Anah, Dishon, Ezer, Dishan (Zibeon already built), plus Lotan's sister TIMNA referenced onto this union so Eliphaz's concubine gains her Horite parentage (Timna sister of Lotan, 1 Chron 1:39; the identification of the two Timnas is the traditional reading). NOTE the two-Anah / two-Dishon crux of Gen 36: the Anah 'who found the hot springs' (36:24) is the son of ZIBEON (the existing ANAH, correctly placed) — distinct from ANAH_SEIR, the Anah listed among Seir's own sons (36:20); likewise Dishon appears both as a son of Seir (DISHON_SEIR, the chief, 36:21) and as a son of Anah (DISHON_ANAH, brother of Oholibamah, 36:25). (B) the Horite sub-lines of Gen 36:22-28: Lotan's sons Hori & Hemam; Shobal's sons Alvan, Manahath, Ebal, Shepho, Onam; Zibeon's other son Aiah (Anah already built); Anah's son Dishon; Dishon-son-of-Seir's sons Hemdan, Eshban, Ithran, Cheran; Ezer's sons Bilhan, Zaavan, Akan; Dishan's sons Uz & Aran. (C) KORAH_ELIPHAZ, listed as a chief descended from Eliphaz in Gen 36:16 though absent from the son-list of 36:11 (a duplicate the Samaritan Pentateuch omits) — added and flagged, distinct from Korah son of Esau. Ids namespaced where a name recurs elsewhere in scripture: ANAH_SEIR, DISHON_SEIR, DISHON_ANAH, UZ_HORITE (vs Uz son of Nahor/Shem), KORAH_ELIPHAZ. Sorts after 07/11 so all referenced parents (SEIRHORITE, ZIBEON, ANAH, ELIPHAZ, TIMNA) already exist; new parents are defined before they are reused.",
+  "families": [
+    {"a": "SEIRHORITE", "b": "SEIRHORITEW", "children": [
+      {"id": "LOTAN", "label": "Lotan<br/>c.1870 BC · son of Seir the Horite; a Horite chief · Genesis 36:20,29"},
+      {"id": "SHOBAL", "label": "Shobal<br/>c.1870 BC · son of Seir the Horite; a Horite chief · Genesis 36:20,29"},
+      {"id": "ANAH_SEIR", "label": "Anah<br/>c.1870 BC · son of Seir the Horite; a Horite chief<br/>(distinct from Anah son of Zibeon) · Genesis 36:20,29"},
+      {"id": "DISHON_SEIR", "label": "Dishon<br/>c.1870 BC · son of Seir the Horite; a Horite chief · Genesis 36:21,30"},
+      {"id": "EZER", "label": "Ezer<br/>c.1870 BC · son of Seir the Horite; a Horite chief · Genesis 36:21,30"},
+      {"id": "DISHAN", "label": "Dishan<br/>c.1870 BC · son of Seir the Horite; a Horite chief · Genesis 36:21,30"},
+      "TIMNA"
+    ]},
+
+    {"a": "LOTAN", "b": {"id": "LOTANW", "label": "—"}, "children": [
+      {"id": "HORI", "label": "Hori<br/>c.1840 BC · son of Lotan · Genesis 36:22"},
+      {"id": "HEMAM", "label": "Hemam (Homam)<br/>c.1840 BC · son of Lotan · Genesis 36:22 &amp; 1 Chronicles 1:39"}
+    ]},
+
+    {"a": "SHOBAL", "b": {"id": "SHOBALW", "label": "—"}, "children": [
+      {"id": "ALVAN", "label": "Alvan (Alian)<br/>c.1840 BC · son of Shobal · Genesis 36:23"},
+      {"id": "MANAHATH", "label": "Manahath<br/>c.1840 BC · son of Shobal · Genesis 36:23"},
+      {"id": "EBAL", "label": "Ebal<br/>c.1840 BC · son of Shobal · Genesis 36:23"},
+      {"id": "SHEPHO", "label": "Shepho (Shephi)<br/>c.1840 BC · son of Shobal · Genesis 36:23"},
+      {"id": "ONAM", "label": "Onam<br/>c.1840 BC · son of Shobal · Genesis 36:23"}
+    ]},
+
+    {"a": "ZIBEON", "b": "ZIBEONW", "children": [
+      {"id": "AIAH", "label": "Aiah<br/>c.1840 BC · son of Zibeon; brother of Anah<br/>who found the hot springs · Genesis 36:24"}
+    ]},
+
+    {"a": "ANAH", "b": "ANAHW", "children": [
+      {"id": "DISHON_ANAH", "label": "Dishon<br/>c.1810 BC · son of Anah; brother of Oholibamah<br/>(distinct from Dishon son of Seir) · Genesis 36:25"}
+    ]},
+
+    {"a": "DISHON_SEIR", "b": {"id": "DISHONSEIRW", "label": "—"}, "children": [
+      {"id": "HEMDAN", "label": "Hemdan (Hamran)<br/>c.1840 BC · son of Dishon · Genesis 36:26"},
+      {"id": "ESHBAN", "label": "Eshban<br/>c.1840 BC · son of Dishon · Genesis 36:26"},
+      {"id": "ITHRAN", "label": "Ithran<br/>c.1840 BC · son of Dishon · Genesis 36:26"},
+      {"id": "CHERAN", "label": "Cheran<br/>c.1840 BC · son of Dishon · Genesis 36:26"}
+    ]},
+
+    {"a": "EZER", "b": {"id": "EZERW", "label": "—"}, "children": [
+      {"id": "BILHAN", "label": "Bilhan<br/>c.1840 BC · son of Ezer · Genesis 36:27"},
+      {"id": "ZAAVAN", "label": "Zaavan<br/>c.1840 BC · son of Ezer · Genesis 36:27"},
+      {"id": "AKAN", "label": "Akan (Jaakan)<br/>c.1840 BC · son of Ezer · Genesis 36:27"}
+    ]},
+
+    {"a": "DISHAN", "b": {"id": "DISHANW", "label": "—"}, "children": [
+      {"id": "UZ_HORITE", "label": "Uz<br/>c.1840 BC · son of Dishan the Horite<br/>(distinct from Uz son of Nahor &amp; Uz son of Aram) · Genesis 36:28"},
+      {"id": "ARAN", "label": "Aran<br/>c.1840 BC · son of Dishan · Genesis 36:28"}
+    ]},
+
+    {"a": "ELIPHAZ", "b": "ELIPHAZW", "children": [
+      {"id": "KORAH_ELIPHAZ", "label": "Korah<br/>c.1760 BC · a chief descended from Eliphaz · Genesis 36:16<br/>&#9888; absent from the son-list of Gen 36:11 &amp; the Samaritan Pentateuch;<br/>distinct from Korah son of Esau"}
+    ]}
+  ]
+}

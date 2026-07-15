@@ -1,0 +1,72 @@
+{
+ "_note": "MESOPOTAMIA, THE AMORITE KINGDOMS (c.1900-1760 BC) — enriches three Old-Babylonian-era succession islands with the families the earlier king-list sweeps skipped. (1) BABYLON FIRST DYNASTY: fills the gap between BAB_SUMUABUM (already in tree) and the previously-placed BAB_SINMUBALLIT/BAB_HAMMURABI with the three intervening kings Sumu-la-El > Sabium > Apil-Sin (ids prefixed BAB_). REAL father-son descent: Sabium was Sumu-la-El's son and Apil-Sin was Sabium's son (Apil-Sin was in turn Sin-muballit's father, but Sin-muballit is NOT created/referenced here — the main agent relinks the chain). UNCERTAIN link: Sumu-abum > Sumu-la-El is dynastic succession, NOT proven father-son; Sumu-abum may not even belong to the same house, and Sumu-la-El is often taken as the true dynastic founder. (2) SHAMSHI-ADAD I (id AS_SHAMSHIADAD1, to be spliced into the Assyrian list by the main agent): the Amorite conqueror who seized Assur and built the first great empire over Upper Mesopotamia; his two sons ruled as viceroys — Ishme-Dagan I at Ekallatum and Yasmah-Adad installed at Mari. Both are GENUINE father-son links. (3) MARI (new house, ids prefixed MARI_): Yahdun-Lim, king of Mari on the middle Euphrates, was overthrown/assassinated in a coup; Shamshi-Adad then annexed Mari and set his son Yasmah-Adad over it (the occupation noted in family 2). After Shamshi-Adad's death (1776 BC) the native Lim dynasty was restored under Zimri-Lim, builder of the great Mari palace and its ~25,000-tablet archive, finally defeated and Mari destroyed by Hammurabi of Babylon in 1761 BC. UNCERTAIN link: Zimri-Lim is called son of Yahdun-Lim in his own inscriptions, but many scholars make him a grandson (or nephew) of Yahdun-Lim — flagged accordingly. SPOUSE-PARENTS rule applied: Zimri-Lim married Shibtu in his Yamhad exile; she was the daughter of Yarim-Lim I, Great King of Yamhad (Aleppo), and queen Gashera (ids prefixed YAM_), added as her real parents. Old Babylonian dates follow the Middle Chronology to match the sibling Babylon/Sumer islands; chain within each dynasty is strictly descending BC. Web-verified against Wikipedia 'Sumu-la-El', 'Sabium', 'Apil-Sin', 'Shamshi-Adad I', 'Ishme-Dagan I', 'Yasmah-Adad', 'Yahdun-Lim', 'Zimri-Lim', 'Shibtu', 'Yarim-Lim I', 'Yamhad', 'Mari, Syria'; and World History Encyclopedia 'Mari'.",
+ "families": [
+  {
+   "a": {
+    "id": "AS_SHAMSHIADAD1",
+    "label": "👑 Shamshi-Adad I<br/>c.1808 BC · Amorite conqueror who seized Assur &amp; built the first great empire over Upper Mesopotamia · historical"
+   },
+   "b": {
+    "id": "AS_SHAMSHIADAD1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ISHMEDAGAN1",
+     "label": "👑 Ishme-Dagan I<br/>c.1780 BC · son of Shamshi-Adad; viceroy at Ekallatum, later succeeded his father · historical"
+    },
+    {
+     "id": "AS_YASMAHADAD",
+     "label": "👑 Yasmah-Adad<br/>c.1795 BC · son of Shamshi-Adad; installed by his father as viceroy over conquered Mari · historical"
+    }
+   ]
+  },
+  {
+   "a": {
+    "id": "MARI_YAHDUNLIM",
+    "label": "👑 Yahdun-Lim<br/>c.1810 BC · king of Mari on the Euphrates; overthrown in a coup, after which Shamshi-Adad annexed Mari &amp; set Yasmah-Adad over it · historical"
+   },
+   "b": {
+    "id": "MARI_YAHDUNLIMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "MARI_ZIMRILIM",
+     "label": "👑 Zimri-Lim<br/>c.1775 BC · restored native king of Mari; builder of the great palace &amp; archive; son (or grandson) of Yahdun-Lim — descent uncertain; defeated by Hammurabi 1761 BC · historical"
+    }
+   ]
+  },
+  {
+   "a": {
+    "id": "YAM_YARIMLIM1",
+    "label": "👑 Yarim-Lim I<br/>c.1780 BC · Great King of Yamhad (Aleppo); father-in-law &amp; ally of Zimri-Lim · historical"
+   },
+   "b": {
+    "id": "YAM_GASHERA",
+    "label": "Gashera<br/>c.1780 BC · queen of Yamhad; wife of Yarim-Lim I · historical"
+   },
+   "children": [
+    {
+     "id": "MARI_SHIBTU",
+     "label": "Shibtu<br/>c.1770 BC · princess of Yamhad; queen of Mari, wife of Zimri-Lim; wielded real authority in his archive · historical"
+    }
+   ]
+  },
+  {
+   "a": "MARI_ZIMRILIM",
+   "b": "MARI_SHIBTU",
+   "children": []
+  },
+  {
+   "a": "AS_OLDBRIDGE",
+   "b": {
+    "id": "AS_OLDBRIDGE_SAW",
+    "label": "—"
+   },
+   "children": [
+    "AS_SHAMSHIADAD1"
+   ]
+  }
+ ]
+}

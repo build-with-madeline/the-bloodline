@@ -189,7 +189,85 @@
   {
    "a": "CN_ZHU",
    "b": {
-    "id": "CN_ZHUW",
+    "id": "CN_ZHU_X",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_HUAI",
+     "label": "👑 Huai (Fen)<br/>c.1900 BC · 8th king of Xia, son of Zhu · SEMI-LEGENDARY (Xia unconfirmed at king level)"
+    }
+   ]
+  },
+  {
+   "a": "CN_HUAI",
+   "b": {
+    "id": "CN_MANGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_MANG",
+     "label": "👑 Mang<br/>c.1855 BC · 9th king of Xia, son of Huai · SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_MANG",
+   "b": {
+    "id": "CN_XIEW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_XIE",
+     "label": "👑 Xie<br/>c.1840 BC · 10th king of Xia, son of Mang; said to have reigned about 25 years · SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_XIE",
+   "b": {
+    "id": "CN_BUJIANGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_BUJIANG",
+     "label": "👑 Bu Jiang<br/>c.1830 BC · 11th king of Xia, son of Xie; remembered as one of the wisest Xia kings — in his 59th year he ceded the throne to his younger brother Jiong · SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_BUJIANG",
+   "b": {
+    "id": "CN_JIONGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_JIONG",
+     "label": "👑 Jiong (Xiong)<br/>c.1770 BC · 12th king of Xia; younger brother of Bu Jiang (both sons of Xie), who ceded the throne to him · SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_JIONG",
+   "b": {
+    "id": "CN_JINW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_JIN",
+     "label": "👑 Jin (Yin Jia)<br/>c.1760 BC · 13th king of Xia, son of Jiong; succeeded by his cousin Kong Jia (son of Bu Jiang), the next king already in the tree · SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_JIN",
+   "b": {
+    "id": "CN_JINW",
     "label": "—"
    },
    "children": [

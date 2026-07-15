@@ -1,0 +1,236 @@
+{
+ "_note": "SLAB c.1900-1790 BC — the OTHER kingdoms active while Hammurabi rose: ELAM's Sukkalmah dynasty, the later kings of LARSA, the middle XIA of China, and the opening of Egypt's 13th Dynasty. FOUR independent short chains, each carrying its own island's prefix so it classifies to the right house; the main agent splices each root onto its island's existing tail. Each root is DEFINED here (as the first family's 'a' object with a label) and left unconnected for the main agent to attach. Rendered as SUCCESSION king-lists, not strict bloodlines: each ruler's single 'child' is the next ruler, paired with a '—' placeholder spouse, EXCEPT where a genuine family is known (noted per-node). Years lead each label and DECREASE down every chain. Status flagged honestly per node. Web-verified against Wikipedia: 'Sukkalmah Dynasty', 'List of Elamite kings', 'Larsa', 'Warad-Sin', 'Rim-Sin I', 'Xia dynasty', 'Zhu of Xia', 'Xie of Xia', 'Jiong of Xia', 'Kong Jia', 'Thirteenth Dynasty of Egypt', 'Sobekhotep I', 'Sonbef', 'Wegaf'. THREAD DETAILS: (1) ELAM/EL_ — the Sukkalmah ('grand regent') dynasty. Succession here was largely AVUNCULAR: several rulers are attested only as 'son of the sister' of their predecessor, not as sons, so the parent-child links below are succession approximations except where noted. Early founders (Eparti, Shilhaha) are eponymous/semi-legendary with very uncertain absolute dates; from Shiruktuh onward the dynasty is firmly HISTORICAL, Siwe-palar-huppak especially (a great rival of Hammurabi, documented in the Mari archives). Absolute dates for the founders are pinned to the conventional c.1900 dynasty start rather than the higher figures (c.1970s) some lists give. (2) LARSA/SUM_ — carries the Larsa king-list on from Abisare (c.1905, its existing tail). Genuine descent: Nur-Adad > Sin-iddinam (father-son); and Kudur-mabuk, the Amorite sheikh of Emutbal who never reigned himself, fathered BOTH Warad-Sin and his brother Rim-Sin I, shown here as his two children. All HISTORICAL. Middle Chronology. (3) CHINA/CN_ — the middle Xia kings filling the gap between Zhu (existing, c.1915) and Kong Jia (existing, c.1740). SEMI-LEGENDARY: the Xia is not archaeologically confirmed at the individual-king level; names, order and reign-lengths come from the Bamboo Annals & Records of the Grand Historian. Real tradition-relationships noted (Bu Jiang ceded to his younger brother Jiong; the existing Kong Jia node was son of Bu Jiang, who succeeded his cousin Jin). Chain ends at Jin for the main agent to join to the existing Kong Jia. (4) EGYPT/EG_ — the start of the 13th Dynasty after Sobekneferu (12th Dynasty ended c.1802). HISTORICAL but poorly documented and chronologically contested: the very order of the first kings is disputed (older scholarship made Wegaf the founder; current reconstructions, e.g. Ryholt, put Sekhemre Khutawy Sobekhotep I first). The dynasty was notoriously UNSTABLE — roughly 50 kings across ~150 years, most reigning only months or a few years. No fabrication: only names, relationships and dates found in the cited sources; every uncertainty is flagged in-node.",
+ "families": [
+  {
+   "a": {
+    "id": "EL_EPARTI",
+    "label": "👑 Eparti (Ebarat)<br/>c.1900 BC · eponymous founder of the Sukkalmah / Epartid dynasty of Elam; titled Sukkalmah &amp; King of Anshan &amp; Susa · SEMI-LEGENDARY, dates very uncertain"
+   },
+   "b": {
+    "id": "EL_EPARTIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_SHILHAHA",
+     "label": "👑 Shilhaha<br/>c.1880 BC · son of Eparti; the ancestor-figure the later grand regents traced their legitimacy to (&quot;son of the sister of Shilhaha&quot;) · SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "EL_SHILHAHA",
+   "b": {
+    "id": "EL_SHILHAHAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_ATTAHUSHU",
+     "label": "👑 Attahushu<br/>c.1860 BC · &quot;son of the sister of Shilhaha&quot; (avuncular succession, not a son); great builder of Susa — raised a temple to Shamash &amp; set up a market with fixed prices · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "EL_ATTAHUSHU",
+   "b": {
+    "id": "EL_ATTAHUSHUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_SUKKALBRIDGE",
+     "label": "👑 the intervening grand regents<br/>c.1820 BC · a bridge across the sukkalmahs whose order &amp; names are lost, between Attahushu &amp; Shiruktuh · HISTORICAL, poorly documented"
+    }
+   ]
+  },
+  {
+   "a": "EL_SUKKALBRIDGE",
+   "b": {
+    "id": "EL_SUKKALBRIDGEW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_SHIRUKTUH",
+     "label": "👑 Shiruktuh (Sirukduh)<br/>c.1792 BC · Sukkalmah of Elam; his reign opens the firmly historical stretch of the dynasty, contemporary with the early years of Hammurabi of Babylon · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "EL_SHIRUKTUH",
+   "b": {
+    "id": "EL_SHIRUKTUHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_SIWEPALAR",
+     "label": "👑 Siwe-palar-huppak<br/>c.1778 BC · &quot;son of the sister of Shiruktuh&quot; (nephew, not son); the most powerful Sukkalmah — a great rival of Hammurabi &amp; Zimri-Lim, styled &quot;Grand Regent&quot; in the Mari letters · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "EL_SIWEPALAR",
+   "b": {
+    "id": "EL_SIWEPALARW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_KUDUZULUSH1",
+     "label": "👑 Kuduzulush I<br/>c.1765 BC · brother of Siwe-palar-huppak (both nephews of Shiruktuh); Sukkal of Susa, then Sukkalmah after his brother · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": {
+    "id": "SUM_SUMUEL",
+    "label": "👑 Sumu-El<br/>c.1894 BC · king of Larsa (r. c.1894-1866); warred with Isin &amp; briefly held Nippur · historical"
+   },
+   "b": {
+    "id": "SUM_SUMUELW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_NURADAD",
+     "label": "👑 Nur-Adad<br/>c.1865 BC · king of Larsa (r. c.1865-1850); came to power after a break in the line (descent from Sumu-El not established) — a great builder at Ur &amp; Larsa · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_NURADAD",
+   "b": {
+    "id": "SUM_NURADADW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_SINIDDINAM",
+     "label": "👑 Sin-iddinam<br/>c.1849 BC · son of Nur-Adad; king of Larsa; dug the Tigris for irrigation &amp; left many royal inscriptions · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_SINIDDINAM",
+   "b": {
+    "id": "SUM_SINIDDINAMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_SINERIBAM",
+     "label": "👑 Sin-eribam<br/>c.1842 BC · king of Larsa (r. c.1842-1841); short reign, kinship to the prior line uncertain · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_SINERIBAM",
+   "b": {
+    "id": "SUM_SINERIBAMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_SINIQISHAM",
+     "label": "👑 Sin-iqisham<br/>c.1840 BC · king of Larsa (r. c.1840-1836); probable son of Sin-eribam · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_SINIQISHAM",
+   "b": {
+    "id": "SUM_SINIQISHAMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_SILLIADAD",
+     "label": "👑 Silli-Adad<br/>c.1835 BC · king of Larsa; reigned barely a year before being overthrown, ending this line · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_SILLIADAD",
+   "b": {
+    "id": "SUM_SILLIADADW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_KUDURMABUK",
+     "label": "Kudur-mabuk<br/>c.1834 BC · Amorite sheikh of Emutbal; never king of Larsa himself, but the power who toppled Silli-Adad &amp; placed his own sons on the throne (succession, not descent from Larsa's kings) · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_KUDURMABUK",
+   "b": {
+    "id": "SUM_KUDURMABUKW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_WARADSIN",
+     "label": "👑 Warad-Sin<br/>c.1834 BC · son of Kudur-mabuk; king of Larsa (r. c.1834-1823), reigning under his father's guiding hand · historical"
+    },
+    {
+     "id": "SUM_RIMSIN1",
+     "label": "👑 Rim-Sin I<br/>c.1822 BC · son of Kudur-mabuk, brother &amp; successor of Warad-Sin; the great last king of Larsa (r. c.1822-1763) — conquered Isin, ruled 60 years, finally defeated by Hammurabi in 1763 BC · historical"
+    }
+   ]
+  },
+  {
+   "a": {
+    "id": "EG_SOBEKHOTEP1",
+    "label": "👑 Sekhemre Khutawy Sobekhotep I<br/>c.1802 BC · in current reconstructions (Ryholt) the FIRST king of the 13th Dynasty, opening it after Sobekneferu closed the 12th · HISTORICAL, poorly documented"
+   },
+   "b": {
+    "id": "EG_SOBEKHOTEP1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_SONBEF",
+     "label": "👑 Sekhemkare Amenemhat Sonbef<br/>c.1800 BC · early 13th-Dynasty king, probably a brother of Sobekhotep I &amp; his successor · HISTORICAL, poorly documented"
+    }
+   ]
+  },
+  {
+   "a": "EG_SONBEF",
+   "b": {
+    "id": "EG_SONBEFW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_WEGAF",
+     "label": "👑 Khutawyre Wegaf<br/>c.1795 BC · a 13th-Dynasty king once thought (older scholarship) to be the dynasty's founder; now usually dated among its early kings · HISTORICAL, placement contested"
+    }
+   ]
+  },
+  {
+   "a": "EG_WEGAF",
+   "b": {
+    "id": "EG_WEGAFW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_DYN13BRIDGE",
+     "label": "👑 the short-lived kings of the 13th Dynasty<br/>c.1793 BC · a bridge across the dynasty's chronic instability — roughly 50 kings in ~150 years, most reigning only months or a few years · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "EG_SOBEKNEFERU",
+   "b": {
+    "id": "EG_SOBEKNEFERU_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    "EG_SOBEKHOTEP1"
+   ]
+  }
+ ]
+}

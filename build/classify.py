@@ -39,6 +39,7 @@ DYNASTIES = [
     ("BYZANTIUM", "Byzantium & the East"),
     ("ANTIQUITY", "Rome & Antiquity"),
     ("SCRIPTURE", "Scripture & the Patriarchs"),
+    ("SUMER", "The Kings of Sumer"),
 ]
 
 # --- explicit id overrides (win over everything) ---
@@ -237,6 +238,8 @@ def seed(pid, label):
         return OVERRIDE[pid]
     if pid.startswith("LK_"):          # Luke's genealogy (David->Nathan->Mary) is all Scripture
         return "SCRIPTURE"
+    if pid.startswith("SUM_"):         # the Sumerian King List (a separate Mesopotamian island)
+        return "SUMER"
     lab = (label or "").lower()
     # HRE regnal id families
     if pid.endswith("HRE") or pid in ("OTTOI","OTTOII","OTTOIII","OTTOIV","OTTOILLUS","HENRYFOWLER",

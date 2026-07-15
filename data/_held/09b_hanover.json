@@ -1,0 +1,40 @@
+{
+  "_note": "The Palatinate -> House of Hanover branch, ~1610-1714, descending from Elizabeth Stuart (the 'Winter Queen', ST_ELIZABETH, created in 09a_stuarts.json which loads before this file). Her marriage to Frederick V, Elector Palatine, produced the line that, via the Act of Settlement 1701, carried the British crown to the House of Hanover. George I (acceded 1714) and George II are the two Hanoverian monarchs of Great Britain in this file. Line stops at Frederick, Prince of Wales (father of the future George III). Union dot = marriage. Standard, well-documented royal genealogy.",
+  "families": [
+    {
+      "note": "Elizabeth Stuart & Frederick V, Elector Palatine -> Charles I Louis, Prince Rupert, Sophia of Hanover",
+      "a": "ST_ELIZABETH",
+      "b": {"id": "HN_FREDERICKV", "label": "Frederick V, Elector Palatine<br/>1596-1632 · the 'Winter King'; King of Bohemia 1619-20"},
+      "children": [
+        {"id": "HN_CHARLESLOUIS", "label": "Charles I Louis, Elector Palatine<br/>1617-1680 · restored to the Palatinate after the Thirty Years' War"},
+        {"id": "HN_RUPERT", "label": "Prince Rupert of the Rhine<br/>1619-1682 · Royalist cavalry commander in the English Civil War"},
+        {"id": "HN_SOPHIA", "label": "Sophia of Hanover<br/>1630-1714 · heiress presumptive to the British throne (Act of Settlement 1701)"}
+      ]
+    },
+    {
+      "note": "Sophia of Hanover & Ernest Augustus, Elector of Hanover -> George I",
+      "a": "HN_SOPHIA",
+      "b": {"id": "HN_ERNESTAUG", "label": "Ernest Augustus, Elector of Hanover<br/>1629-1698 · first Elector of Hanover"},
+      "children": [
+        {"id": "HN_GEORGEI", "label": "👑 George I<br/>1660-1727 · first Hanoverian King of Great Britain (acceded 1714)"}
+      ]
+    },
+    {
+      "note": "George I & Sophia Dorothea of Celle -> George II, Sophia Dorothea (Queen of Prussia)",
+      "a": "HN_GEORGEI",
+      "b": {"id": "HN_SOPHIADOROTHEA", "label": "Sophia Dorothea of Celle<br/>1666-1726 · imprisoned after divorce from George I"},
+      "children": [
+        {"id": "HN_GEORGEII", "label": "👑 George II<br/>1683-1760 · King of Great Britain"},
+        {"id": "HN_SOPHIADOR2", "label": "Sophia Dorothea<br/>1687-1757 · m. Frederick William I; Queen of Prussia"}
+      ]
+    },
+    {
+      "note": "George II & Caroline of Ansbach -> Frederick, Prince of Wales (line stops here)",
+      "a": "HN_GEORGEII",
+      "b": {"id": "HN_CAROLINE", "label": "Caroline of Ansbach<br/>1683-1737 · Queen consort of George II"},
+      "children": [
+        {"id": "HN_FREDPRINCE", "label": "Frederick, Prince of Wales<br/>1707-1751 · heir apparent; father of the future George III"}
+      ]
+    }
+  ]
+}

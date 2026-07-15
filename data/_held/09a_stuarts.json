@@ -1,0 +1,70 @@
+{
+  "_note": "The reigning House of Stuart, 1600-1714, descending from James VI & I (JVI, pre-existing). Covers Charles I through Anne, the last Stuart monarch. Union dot = marriage. Elizabeth Stuart (the 'Winter Queen') is created here but her descent to the House of Hanover is extended in a separate file. Mary II & William III reigned jointly (William was also Mary's first cousin, son of Charles I's daughter Mary, Princess Royal). Standard, well-documented British royal genealogy.",
+  "families": [
+    {
+      "note": "James VI & I & Anne of Denmark -> Henry Frederick, Elizabeth, Charles I",
+      "a": "JVI",
+      "b": {"id": "ST_ANNEDENMARK", "label": "Anne of Denmark<br/>1574-1619 · Queen consort; wife of James VI &amp; I"},
+      "children": [
+        {"id": "ST_HENRYFRED", "label": "Henry Frederick, Prince of Wales<br/>1594-1612 · heir apparent who died young, no issue"},
+        {"id": "ST_ELIZABETH", "label": "Elizabeth Stuart<br/>1596-1662 · the 'Winter Queen'; m. Frederick V, Elector Palatine; her line leads to the House of Hanover"},
+        {"id": "ST_CHARLESI", "label": "👑 Charles I<br/>1600-1649 · King of England, Scotland &amp; Ireland; executed 1649"}
+      ]
+    },
+    {
+      "note": "Charles I & Henrietta Maria of France -> Charles II, Mary, James II, Henry, Henrietta Anne",
+      "a": "ST_CHARLESI",
+      "b": {"id": "ST_HENRIETTAMARIA", "label": "Henrietta Maria of France<br/>1609-1669 · Queen consort; Bourbon princess, daughter of Henri IV"},
+      "children": [
+        {"id": "ST_CHARLESII", "label": "👑 Charles II<br/>1630-1685 · restored to the throne 1660"},
+        {"id": "ST_MARYPR", "label": "Mary, Princess Royal<br/>1631-1660 · m. William II of Orange"},
+        {"id": "ST_JAMESII", "label": "👑 James II &amp; VII<br/>1633-1701 · deposed in 1688"},
+        {"id": "ST_HENRYGLOUC", "label": "Henry, Duke of Gloucester<br/>1640-1660"},
+        {"id": "ST_HENRIETTAANNE", "label": "Henrietta Anne<br/>1644-1670 · m. Philippe I, Duke of Orléans"}
+      ]
+    },
+    {
+      "note": "Mary, Princess Royal & William II of Orange -> William III",
+      "a": "ST_MARYPR",
+      "b": {"id": "ST_WILLIAMIIORANGE", "label": "William II, Prince of Orange<br/>1626-1650 · Stadtholder of the Dutch Republic"},
+      "children": [
+        {"id": "ST_WILLIAMIII", "label": "👑 William III of Orange<br/>1650-1702 · ruled jointly with Mary II"}
+      ]
+    },
+    {
+      "note": "Charles II & Catherine of Braganza -> no legitimate issue",
+      "a": "ST_CHARLESII",
+      "b": {"id": "ST_CATHERINE", "label": "Catherine of Braganza<br/>1638-1705 · Queen consort; Portuguese princess, no legitimate issue"},
+      "children": []
+    },
+    {
+      "note": "James II & Anne Hyde -> Mary II, Anne",
+      "a": "ST_JAMESII",
+      "b": {"id": "ST_ANNEHYDE", "label": "Anne Hyde<br/>1637-1671 · first wife of James II; Duchess of York"},
+      "children": [
+        {"id": "ST_MARYII", "label": "👑 Mary II<br/>1662-1694"},
+        {"id": "ST_ANNEQUEEN", "label": "👑 Anne<br/>1665-1714 · last Stuart monarch"}
+      ]
+    },
+    {
+      "note": "James II & Mary of Modena -> James Francis Edward (the Old Pretender)",
+      "a": "ST_JAMESII",
+      "b": {"id": "ST_MARYMODENA", "label": "Mary of Modena<br/>1658-1718 · second wife of James II; Queen consort"},
+      "children": [
+        {"id": "ST_JAMESFE", "label": "James Francis Edward Stuart<br/>1688-1766 · 'the Old Pretender'"}
+      ]
+    },
+    {
+      "note": "Mary II & William III -> the joint monarchy, no issue",
+      "a": "ST_MARYII",
+      "b": "ST_WILLIAMIII",
+      "children": []
+    },
+    {
+      "note": "Anne & George of Denmark -> no surviving heir; the crown passed to the House of Hanover",
+      "a": "ST_ANNEQUEEN",
+      "b": {"id": "ST_GEORGEDENMARK", "label": "Prince George of Denmark<br/>1653-1708 · consort of Queen Anne; 17 pregnancies, no surviving heir, so the crown passed to the House of Hanover"},
+      "children": []
+    }
+  ]
+}

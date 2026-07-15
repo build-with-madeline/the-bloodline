@@ -1,0 +1,9 @@
+{
+  "_note": "c.4000-3900 BC slab: the named twin-sisters of Cain and Abel from extra-biblical tradition, appended as further daughters of the existing ADAM ● EVE union. Genesis names no sisters; every person here is flagged as tradition with its source. Deliberately NOT added: a second Cain marriage (the spine already weds CAIN to AWAN per Jubilees 4:9, so Aclima is noted as the same wife-role under other traditions rather than given a contradictory union), a marriage for Abel (tradition has him slain young and childless, the quarrel being OVER a sister), and any unnamed extra daughters (07j already carries the Gen 5:4 'other sons & daughters' catch-all; named+sourced people are preferred). Sisters kept distinct from the existing AZURA (Seth's wife in Jubilees) to avoid conflating identities.",
+  "families": [
+    {"a": "ADAM", "b": "EVE", "children": [
+      {"id": "ACLIMA", "label": "Aclima<br/>c.3990 BC · Cain's twin sister &amp; wife in Syriac &amp; Islamic tradition<br/>· 'Qelima' in the Cave of Treasures; 'Luluwa' in the Conflict of Adam &amp; Eve with Satan<br/>· cf. Awan in Jubilees 4:9 · tradition, not named in Genesis"},
+      {"id": "BALBIRA", "label": "Balbira<br/>c.3980 BC · Abel's twin sister · named in the Jewish Seder Hadorot<br/>· Genesis Rabbah 22 reads Abel as born with two twin sisters, the quarrel over a sister leading to his death<br/>· tradition, not named in Genesis"}
+    ]}
+  ]
+}

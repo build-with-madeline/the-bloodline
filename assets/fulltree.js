@@ -190,6 +190,35 @@
   for (let r = 1; r < laneYear.length; r++) laneY[r] = Math.max(laneY[r - 1] + rowH[r - 1] + GAPB, (laneYear[r] - laneYear[0]) * PXY);
   ids.forEach(p => pos[p].y = laneY[lane[p]]);
 
+  // ---- separate disconnected bloodlines into their own column ----
+  // Adam's line and any unconnected tradition (e.g. the Sumerian King List) share
+  // the same era-rows, so the raw layout interleaves them. Keep each one's rows (decades
+  // stay accurate) but slide every non-main component into its own column to the left.
+  (() => {
+    const adj = {};
+    const link = (a, b) => { (adj[a] = adj[a] || []).push(b); (adj[b] = adj[b] || []).push(a); };
+    D.unions.forEach(u => {
+      const ps = u.parents.filter(Boolean);
+      for (let i = 0; i < ps.length; i++) for (let j = i + 1; j < ps.length; j++) link(ps[i], ps[j]);
+      u.children.forEach(c => ps.forEach(p => link(p, c)));
+    });
+    const comp = {}; let ci = 0;
+    ids.forEach(p => { if (comp[p] !== undefined) return; const c = ci++; comp[p] = c; const st = [p]; while (st.length) { const n = st.pop(); (adj[n] || []).forEach(m => { if (comp[m] === undefined) { comp[m] = c; st.push(m); } }); } });
+    const size = {}; ids.forEach(p => size[comp[p]] = (size[comp[p]] || 0) + 1);
+    const comps = Object.keys(size).sort((a, b) => size[b] - size[a]);
+    if (comps.length > 1) {
+      let leftEdge = Math.min(...ids.map(p => pos[p].x));
+      const COLGAP = 520;
+      comps.slice(1).forEach(c => {                       // every component except the biggest
+        const members = ids.filter(p => comp[p] == c);
+        const rightEdge = Math.max(...members.map(p => pos[p].x + CW));
+        const offset = (leftEdge - COLGAP) - rightEdge;   // slide so its right edge sits COLGAP left of everything so far
+        members.forEach(p => pos[p].x += offset);
+        leftEdge = Math.min(...members.map(p => pos[p].x));
+      });
+    }
+  })();
+
   const PAD = 130;
   const minX = Math.min(...ids.map(p => pos[p].x)) - PAD, minY = Math.min(...ids.map(p => pos[p].y)) - PAD;
   const W = Math.max(...ids.map(p => pos[p].x)) + CW + PAD - minX, H = Math.max(...ids.map(p => pos[p].y + cardH[p])) + PAD - minY;

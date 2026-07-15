@@ -5,7 +5,8 @@
       {"id": "CAIN", "label": "Cain<br/>c.3990 BC · Adam's firstborn; slew Abel · Genesis 4"},
       {"id": "ABEL", "label": "Abel<br/>c.3980 BC · the shepherd, killed by Cain · Genesis 4"},
       {"id": "AWAN", "label": "Awan<br/>c.3980 BC · daughter of Adam &amp; Eve; Cain's sister &amp; wife<br/>· named in the Book of Jubilees 4:9 (unnamed in Genesis)"},
-      {"id": "OTHERADAM", "label": "and other sons &amp; daughters<br/>Adam had many more · Genesis 5:4"}
+      "AZURA",
+      {"id": "OTHERADAM", "label": "and other sons &amp; daughters<br/>Genesis 5:4 · the Life of Adam &amp; Eve counts 30 sons &amp; 30 daughters"}
     ]},
     {"a": "CAIN", "b": "AWAN", "children": [
       {"id": "CAINENOCH", "label": "Enoch<br/>son of Cain; a city bore his name · Genesis 4:17<br/>(not Enoch who 'walked with God')"}

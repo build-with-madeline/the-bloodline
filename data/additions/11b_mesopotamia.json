@@ -1,0 +1,191 @@
+{
+ "_note": "MESOPOTAMIA, THE ISIN-LARSA PERIOD (c.2050-1900 BC) — continues the Sumerian/Mesopotamian succession island (ids prefixed SUM_) from its tail, SUM_SHULGI (Shulgi of Ur, c.2094 BC), where it previously dead-ended. It carries the Third Dynasty of Ur to its fall and then splits into the two rival successor dynasties that followed. This is a SUCCESSION king-list, NOT one continuous bloodline; only the runs noted below are genuine father-son descent, and the split into two dynasties is a political succession, not kinship. REAL father-son descent: Shulgi's line runs Shulgi > Amar-Sin (probable son) > Ibbi-Sin, with Shu-Sin between them (Shu-Sin succeeded Amar-Sin and was most likely his brother, i.e. another son of Shulgi, though some make him Amar-Sin's son; Ibbi-Sin is named son of Shu-Sin in the Sumerian King List, so Ibbi-Sin is Shulgi's grandson or great-grandson depending on that debate). Within Isin, Shu-ilishu > Iddin-Dagan > Ishme-Dagan > Lipit-Ishtar are a genuine four-generation father-son chain from founder Ishbi-Erra (Shu-ilishu was Ishbi-Erra's son); Ur-Ninurta was a USURPER unrelated to that line. Within Larsa the father-son links are mostly uncertain (marked). SUCCESSION-only, not bloodline: the split of Ur III into Isin and Larsa (both shown branching from Ibbi-Sin) — Ishbi-Erra was Ibbi-Sin's own breakaway general and Naplanum an Amorite chief, neither a descendant. Ishbi-Erra (c.2017) and Naplanum (c.2025) both declared independence during Ibbi-Sin's failing reign, before Elam's final sack of Ur c.2004 BC; they are placed as his 'children' to show the two dynasties emerging from the collapse. Dates follow the Middle Chronology to match the Babylon island. Web-verified against Wikipedia 'Third Dynasty of Ur', 'Amar-Sin', 'Shu-Suen', 'Ibbi-Sin', 'Dynasty of Isin', 'Ishbi-Erra', 'Shu-Ilishu', 'Lipit-Ishtar', 'Ur-Ninurta', 'Larsa'; and World History Encyclopedia 'Shulgi of Ur'.",
+ "families": [
+  {
+   "a": "SUM_SHULGI",
+   "b": {
+    "id": "SUM_SHULGIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_AMARSIN",
+     "label": "👑 Amar-Sin<br/>c.2046 BC · probable son of Shulgi; Third Dynasty of Ur · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_AMARSIN",
+   "b": {
+    "id": "SUM_AMARSINW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_SHUSIN",
+     "label": "👑 Shu-Sin<br/>c.2037 BC · succeeded Amar-Sin (his brother, both sons of Shulgi — or his son); built a wall against the Amorites · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_SHUSIN",
+   "b": {
+    "id": "SUM_SHUSINW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_IBBISIN",
+     "label": "👑 Ibbi-Sin<br/>c.2028 BC · son of Shu-Sin; last king of Ur III — Ur was sacked by Elam c.2004 BC, ending the empire · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_IBBISIN",
+   "b": {
+    "id": "SUM_IBBISINW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ISHBIERRA",
+     "label": "👑 Ishbi-Erra<br/>c.2017 BC · Ibbi-Sin's general who broke away to found the Dynasty of Isin (succession, not descent) · historical"
+    },
+    {
+     "id": "SUM_NAPLANUM",
+     "label": "👑 Naplanum<br/>c.2025 BC · Amorite chief; founder of the rival Dynasty of Larsa (succession, not descent) · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ISHBIERRA",
+   "b": {
+    "id": "SUM_ISHBIERRAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_SHUILISHU",
+     "label": "👑 Shu-ilishu<br/>c.1984 BC · son of Ishbi-Erra; recovered the statue of the moon-god Nanna from Elam · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_SHUILISHU",
+   "b": {
+    "id": "SUM_SHUILISHUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_IDDINDAGAN",
+     "label": "👑 Iddin-Dagan<br/>c.1974 BC · son of Shu-ilishu; king of Isin · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_IDDINDAGAN",
+   "b": {
+    "id": "SUM_IDDINDAGANW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ISHMEDAGAN",
+     "label": "👑 Ishme-Dagan<br/>c.1953 BC · son of Iddin-Dagan; king of Isin · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ISHMEDAGAN",
+   "b": {
+    "id": "SUM_ISHMEDAGANW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_LIPITISHTAR",
+     "label": "👑 Lipit-Ishtar<br/>c.1934 BC · son of Ishme-Dagan; issued the Code of Lipit-Ishtar, a Sumerian law code older than Hammurabi's · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_LIPITISHTAR",
+   "b": {
+    "id": "SUM_LIPITISHTARW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_URNINURTA",
+     "label": "👑 Ur-Ninurta<br/>c.1923 BC · usurper, unrelated to the founder's line; seized Isin after Lipit-Ishtar · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_NAPLANUM",
+   "b": {
+    "id": "SUM_NAPLANUMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_EMISUM",
+     "label": "👑 Emisum<br/>c.2004 BC · son of Naplanum (uncertain); king of Larsa · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_EMISUM",
+   "b": {
+    "id": "SUM_EMISUMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_SAMIUM",
+     "label": "👑 Samium<br/>c.1976 BC · son of Emisum (uncertain); king of Larsa · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_SAMIUM",
+   "b": {
+    "id": "SUM_SAMIUMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ZABAYA",
+     "label": "👑 Zabaya<br/>c.1941 BC · son of Samium; king of Larsa · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ZABAYA",
+   "b": {
+    "id": "SUM_ZABAYAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_GUNGUNUM",
+     "label": "👑 Gungunum<br/>c.1932 BC · son of Zabaya (uncertain); won Larsa's full independence from Isin and captured Ur · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_GUNGUNUM",
+   "b": {
+    "id": "SUM_GUNGUNUMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ABISARE",
+     "label": "👑 Abisare<br/>c.1905 BC · son of Gungunum (uncertain); warred with Isin for the south · historical"
+    }
+   ]
+  }
+ ]
+}

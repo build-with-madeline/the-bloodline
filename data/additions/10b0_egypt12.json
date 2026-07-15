@@ -1,0 +1,163 @@
+{
+ "_note": "The complete 12th Dynasty of Egypt as REAL father-son descent (not the succession-skip the fast sweep left), with the full royal families -- queens, princes, princesses -- and notable officials. Loads before 10b_egypt.json so Amenemhat III is defined before the New Kingdom chain references him. Replaces the 12th-dyn portion formerly split between 10b + 11a.",
+ "families": [
+  {
+   "note": "Amenemhat I & his queen Neferitatjenen. Amenemhat I was assassinated in a palace conspiracy in his Year 30, the event echoed in the literary 'Instructions of Amenemhat'. His son Senusret I (already in the tree) succeeded; the daughter Neferu III added here became Senusret I's sister-wife.",
+   "a": "EG_AMENEMHAT1",
+   "b": {
+    "id": "EG_NEFERITATJENEN",
+    "label": "Neferitatjenen<br/>c.1990 BC · queen of Amenemhat I; mother of Senusret I · historical (name known only from a figurine of her son; the reading is questioned by Grajetzki)"
+   },
+   "children": [
+    {
+     "id": "EG_NEFERU3",
+     "label": "Neferu III<br/>c.1975 BC · king's daughter of Amenemhat I; sister-wife of Senusret I &amp; mother of Amenemhat II · historical"
+    },
+    {
+     "id": "EG_SENUSRET1",
+     "label": "👑 Senusret I<br/>c.1971 BC · 12th Dynasty; son of Amenemhat I, co-regent then king; consolidated the Middle Kingdom and campaigned deep into Nubia · historical"
+    }
+   ]
+  },
+  {
+   "note": "Senusret I & his sister-wife Neferu III, so far as known his only wife. Their son Amenemhat II succeeded; two daughters were buried near the king's pyramid at Lisht.",
+   "a": "EG_SENUSRET1",
+   "b": "EG_NEFERU3",
+   "children": [
+    {
+     "id": "EG_AMENEMHAT2",
+     "label": "👑 Amenemhat II<br/>c.1929 BC · 12th Dynasty; son of Senusret I &amp; Neferu III; a prosperous reign of Levantine and Punt trade; pyramid at Dahshur · historical"
+    },
+    {
+     "id": "EG_ITAKAYET",
+     "label": "Itakayet<br/>c.1955 BC · king's daughter of Senusret I; buried near his pyramid at Lisht · historical"
+    },
+    {
+     "id": "EG_SEBAT",
+     "label": "Sebat<br/>c.1950 BC · king's daughter of Senusret I; buried near his pyramid at Lisht · historical"
+    }
+   ]
+  },
+  {
+   "note": "Amenemhat II's family. The father-son link to his heir Senusret II is probable but never explicitly stated; the Dahshur princesses' filiation to him is likely but not proven. Flagged accordingly.",
+   "a": "EG_AMENEMHAT2",
+   "b": {
+    "id": "EG_KEMINUB",
+    "label": "Keminub<br/>c.1928 BC · king's wife buried in Amenemhat II's Dahshur pyramid complex · historical — UNCERTAIN: now often read as a later (13th Dynasty) intrusive burial rather than his own queen"
+   },
+   "children": [
+    {
+     "id": "EG_SENUSRET2",
+     "label": "👑 Senusret II<br/>c.1897 BC · 12th Dynasty; successor of Amenemhat II; developed the Faiyum and built the Lahun pyramid · historical (father-son link probable, never explicitly attested)"
+    },
+    {
+     "id": "EG_ITA",
+     "label": "Ita<br/>c.1910 BC · king's daughter buried with her jewellery at Dahshur (tomb found intact, 1894) · historical (filiation to Amenemhat II probable, not certain)"
+    },
+    {
+     "id": "EG_KHNUMET",
+     "label": "Khnumet<br/>c.1910 BC · king's daughter buried with fine jewellery at Dahshur · historical (filiation probable, not certain)"
+    },
+    {
+     "id": "EG_ITAWERET",
+     "label": "Itaweret<br/>c.1908 BC · king's daughter buried at Dahshur · historical (filiation probable, not certain)"
+    }
+   ]
+  },
+  {
+   "note": "Senusret II & his great royal wife Khenemetneferhedjet I Weret, mother of Senusret III (already in the tree). Their daughter Sithathoriunet's intact jewellery-filled tomb was found beside his Lahun pyramid.",
+   "a": "EG_SENUSRET2",
+   "b": {
+    "id": "EG_WERET1",
+    "label": "Khenemetneferhedjet I Weret<br/>c.1895 BC · great royal wife of Senusret II; mother of Senusret III; likely buried at Lahun · historical"
+   },
+   "children": [
+    {
+     "id": "EG_SENUSRET3",
+     "label": "👑 Senusret III<br/>c.1878 BC · 12th Dynasty; warrior-king who broke the power of the provincial nobles and pushed the Nubian frontier to Semna; a reign date fixed by the Sothic cycle · historical"
+    },
+    {
+     "id": "EG_SITHATHORIUNET",
+     "label": "Sithathoriunet<br/>c.1885 BC · king's daughter of Senusret II; her intact treasure of jewellery was found in a tomb beside his Lahun pyramid · historical"
+    },
+    {
+     "id": "EG_NOFRET",
+     "label": "Nofret<br/>c.1888 BC · king's daughter of Senusret II; known from two life-size statues later found at Tanis · historical"
+    }
+   ]
+  },
+  {
+   "note": "Senusret III, the great warrior-king, & queen Khenemetneferhedjet II; his heir Amenemhat III (already in the tree) and the Dahshur royal women Sithathor and Mereret whose jewellery treasures survive. Amenemhat III's exact maternity is not securely attested.",
+   "a": "EG_SENUSRET3",
+   "b": {
+    "id": "EG_WERET2",
+    "label": "Khenemetneferhedjet II<br/>c.1876 BC · queen of Senusret III; known from her burial beside his Dahshur pyramid · historical"
+   },
+   "children": [
+    {
+     "id": "EG_AMENEMHAT3",
+     "label": "👑 Amenemhat III<br/>c.1860 BC · 12th Dynasty; son of Senusret III; peak of Middle Kingdom prosperity; vast Faiyum land-reclamation and the 'Labyrinth' pyramid-temple at Hawara · historical"
+    },
+    {
+     "id": "EG_SITHATHOR",
+     "label": "Sithathor<br/>c.1870 BC · king's daughter of Senusret III; her jewellery cache was found in the Dahshur royal galleries · historical"
+    },
+    {
+     "id": "EG_MERERET",
+     "label": "Mereret<br/>c.1868 BC · royal woman of Senusret III's reign; a famed jewellery treasure was buried in her name at Dahshur · historical"
+    }
+   ]
+  },
+  {
+   "note": "Amenemhat III, peak of Middle Kingdom prosperity, & queen Aat. His line closes the dynasty: co-regent Amenemhat IV, daughter Neferuptah (cartouche-name, predeceased him), and Sobekneferu who reigned as female pharaoh. Amenemhat IV's mother was the lady Hetepti and his descent from Amenemhat III is not certain.",
+   "a": "EG_AMENEMHAT3",
+   "b": {
+    "id": "EG_AAT",
+    "label": "Aat<br/>c.1858 BC · queen of Amenemhat III; buried in his Dahshur pyramid; died young · historical"
+   },
+   "children": [
+    {
+     "id": "EG_AMENEMHAT4",
+     "label": "👑 Amenemhat IV<br/>c.1815 BC · 12th Dynasty; co-regent then successor of Amenemhat III; his mother was the lady Hetepti · historical (son / grandson / stepson of Amenemhat III — filiation UNCERTAIN)"
+    },
+    {
+     "id": "EG_SOBEKNEFERU",
+     "label": "👑 Sobekneferu<br/>c.1806 BC · daughter of Amenemhat III; last ruler of the 12th Dynasty and the first fully attested female pharaoh · historical"
+    },
+    {
+     "id": "EG_NEFERUPTAH",
+     "label": "Neferuptah<br/>c.1840 BC · daughter of Amenemhat III; her name uniquely enclosed in a cartouche; possibly groomed as heir but predeceased him; own small pyramid at Hawara · historical"
+    }
+   ]
+  },
+  {
+   "note": "Notable non-royal of the era: the vizier Intefiqer, a leading official under Amenemhat I and Senusret I, buried within Amenemhat I's pyramid enclosure at Lisht.",
+   "a": {
+    "id": "EG_INTEFIQER",
+    "label": "Intefiqer<br/>c.1960 BC · vizier under Amenemhat I &amp; Senusret I; one of the chief officials of the early 12th Dynasty · historical"
+   },
+   "b": {
+    "id": "EG_SENET",
+    "label": "Senet<br/>c.1958 BC · lady honoured in the Theban tomb TT60 associated with the vizier Intefiqer · historical (whether she was his wife or mother is debated)"
+   },
+   "children": []
+  },
+  {
+   "note": "Notable non-royal family: Khnumhotep II, the Beni Hasan nomarch whose tomb (BH3) preserves the celebrated painted procession of Asiatic traders ('Aamu' of Shu), and his son Khnumhotep III who rose to vizier.",
+   "a": {
+    "id": "EG_KHNUMHOTEP2",
+    "label": "Khnumhotep II<br/>c.1900 BC · Great Chief of the Oryx nome under Amenemhat II &amp; Senusret II; his Beni Hasan tomb shows the procession of Asiatics led by Absha · historical"
+   },
+   "b": {
+    "id": "EG_KHETY",
+    "label": "Khety<br/>c.1898 BC · chief wife of Khnumhotep II; daughter of the nomarch of the neighbouring Jackal (17th) nome · historical"
+   },
+   "children": [
+    {
+     "id": "EG_KHNUMHOTEP3",
+     "label": "Khnumhotep III<br/>c.1875 BC · son of Khnumhotep II; rose from high steward to vizier at the royal court of the 12th Dynasty · historical"
+    }
+   ]
+  }
+ ]
+}

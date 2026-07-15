@@ -1,0 +1,68 @@
+{
+  "_note": "ABRAHAM'S EXTENDED HOUSEHOLD & CONTEMPORARIES (~2000-1900 BC) — the people around Abraham that the main biblical sweep skipped. All from Genesis unless flagged. (1) KETURAH, Abraham's wife after Sarah (called a concubine in 1 Chron 1:32), and her line: her six sons Zimran, Jokshan, Medan, Midian, Ishbak, Shuah (Gen 25:1-2); Jokshan's sons Sheba & Dedan and Dedan's sons Asshurim, Letushim, Leummim (Gen 25:3); Midian's sons Ephah, Epher, Hanoch, Abida, Eldaah (Gen 25:4). Midian did NOT already exist (KEDOM_HADAD is Hadad of Edom who DEFEATED Midian, Gen 36:35), so Midian is created here. (2) NAHOR (Abraham's brother, existing NAHORBRO) & MILCAH's eight sons (Gen 22:20-24): Uz, Buz, Kemuel (father of Aram), Chesed, Hazo, Pildash, Jidlaph, and Bethuel (EXISTS — referenced, appended to the existing NAHORBRO+MILCAH union); plus Nahor's concubine Reumah and her four sons Tebah, Gaham, Tahash, Maacah (kind:concubine, mistress=MILCAH). (3) Contemporaries with no genealogy in scripture, each rendered as its own unplaced island under blank parents, flag on the card: Melchizedek king & priest of Salem (Gen 14:18; 'without genealogy', Heb 7:3), Abimelech king of Gerar (Gen 20-21), Eliezer of Damascus the steward & heir-presumptive (Gen 15:2). (4) The four eastern kings of Genesis 14:1 as a small flagged biblical group under one blank pair — Chedorlaomer of Elam, Amraphel of Shinar, Arioch of Ellasar, Tidal of Goiim; NOT tied to attested rulers here because the identifications (Amraphel=Hammurabi, Tidal=a Tudhaliya, etc.) are all disputed and unconfirmed. NOTE on Sarah: the tradition identifying Sarah with Iscah daughter of Haran (Josephus, Antiquities 1.6.5; b. Sanhedrin 69b) is NOT applied — ISCAH is kept as a distinct person, and Sarah's own scriptural identity as Terah's daughter/Abraham's half-sister (Gen 20:12) is already carried in 07c_kin (TERAHW2). Grandson ids namespaced (SHEBA_KET, DEDAN_KET, HANOCH_MID, ARAM_NAHOR) to avoid collision with the same names elsewhere in scripture (e.g. Sheba/Dedan sons of Raamah in Gen 10:7, Aram son of Shem). Sorts after 07-series so ABRAHAM, NAHORBRO, MILCAH, BETHUEL all exist first; new parents are defined before they are reused.",
+  "families": [
+    {"a": "ABRAHAM", "b": {"id": "KETURAH", "label": "Keturah<br/>c.1935 BC · Abraham's wife after Sarah<br/>(called concubine, 1 Chronicles 1:32) · Genesis 25:1"}, "children": [
+      {"id": "ZIMRAN", "label": "Zimran<br/>c.1865 BC · son of Abraham &amp; Keturah · Genesis 25:2"},
+      {"id": "JOKSHAN", "label": "Jokshan<br/>c.1863 BC · son of Abraham &amp; Keturah · Genesis 25:2"},
+      {"id": "MEDAN", "label": "Medan<br/>c.1861 BC · son of Abraham &amp; Keturah · Genesis 25:2"},
+      {"id": "MIDIAN", "label": "Midian<br/>c.1859 BC · son of Abraham &amp; Keturah; father of the Midianites · Genesis 25:2"},
+      {"id": "ISHBAK", "label": "Ishbak<br/>c.1857 BC · son of Abraham &amp; Keturah · Genesis 25:2"},
+      {"id": "SHUAH", "label": "Shuah<br/>c.1855 BC · son of Abraham &amp; Keturah · Genesis 25:2"}
+    ]},
+
+    {"a": "JOKSHAN", "b": {"id": "JOKSHANW", "label": "—"}, "children": [
+      {"id": "SHEBA_KET", "label": "Sheba<br/>c.1833 BC · son of Jokshan · Genesis 25:3"},
+      {"id": "DEDAN_KET", "label": "Dedan<br/>c.1831 BC · son of Jokshan · Genesis 25:3"}
+    ]},
+    {"a": "DEDAN_KET", "b": {"id": "DEDANKETW", "label": "—"}, "children": [
+      {"id": "ASSHURIM", "label": "Asshurim<br/>c.1805 BC · son of Dedan · Genesis 25:3"},
+      {"id": "LETUSHIM", "label": "Letushim<br/>c.1803 BC · son of Dedan · Genesis 25:3"},
+      {"id": "LEUMMIM", "label": "Leummim<br/>c.1801 BC · son of Dedan · Genesis 25:3"}
+    ]},
+
+    {"a": "MIDIAN", "b": {"id": "MIDIANW", "label": "—"}, "children": [
+      {"id": "EPHAH", "label": "Ephah<br/>c.1829 BC · son of Midian · Genesis 25:4"},
+      {"id": "EPHER", "label": "Epher<br/>c.1827 BC · son of Midian · Genesis 25:4"},
+      {"id": "HANOCH_MID", "label": "Hanoch<br/>c.1825 BC · son of Midian · Genesis 25:4"},
+      {"id": "ABIDA", "label": "Abida<br/>c.1823 BC · son of Midian · Genesis 25:4"},
+      {"id": "ELDAAH", "label": "Eldaah<br/>c.1821 BC · son of Midian · Genesis 25:4"}
+    ]},
+
+    {"a": "NAHORBRO", "b": "MILCAH", "children": [
+      {"id": "UZ", "label": "Uz<br/>c.1958 BC · firstborn of Nahor &amp; Milcah · Genesis 22:21"},
+      {"id": "BUZ", "label": "Buz<br/>c.1956 BC · son of Nahor &amp; Milcah · Genesis 22:21"},
+      {"id": "KEMUEL", "label": "Kemuel<br/>c.1954 BC · son of Nahor &amp; Milcah; father of Aram · Genesis 22:21"},
+      {"id": "CHESED", "label": "Chesed<br/>c.1952 BC · son of Nahor &amp; Milcah · Genesis 22:22"},
+      {"id": "HAZO", "label": "Hazo<br/>c.1950 BC · son of Nahor &amp; Milcah · Genesis 22:22"},
+      {"id": "PILDASH", "label": "Pildash<br/>c.1948 BC · son of Nahor &amp; Milcah · Genesis 22:22"},
+      {"id": "JIDLAPH", "label": "Jidlaph<br/>c.1946 BC · son of Nahor &amp; Milcah · Genesis 22:22"}
+    ]},
+    {"a": "KEMUEL", "b": {"id": "KEMUELW", "label": "—"}, "children": [
+      {"id": "ARAM_NAHOR", "label": "Aram<br/>c.1924 BC · son of Kemuel<br/>(distinct from Aram son of Shem) · Genesis 22:21"}
+    ]},
+
+    {"a": "NAHORBRO", "b": {"id": "REUMAH", "label": "Reumah<br/>c.1965 BC · Nahor's concubine · Genesis 22:24"}, "kind": "concubine", "mistress": "MILCAH", "children": [
+      {"id": "TEBAH", "label": "Tebah<br/>c.1950 BC · son of Nahor &amp; Reumah · Genesis 22:24"},
+      {"id": "GAHAM", "label": "Gaham<br/>c.1948 BC · son of Nahor &amp; Reumah · Genesis 22:24"},
+      {"id": "TAHASH", "label": "Tahash<br/>c.1946 BC · son of Nahor &amp; Reumah · Genesis 22:24"},
+      {"id": "MAACAH", "label": "Maacah<br/>c.1944 BC · son of Nahor &amp; Reumah · Genesis 22:24"}
+    ]},
+
+    {"a": {"id": "MELCHP1", "label": "—"}, "b": {"id": "MELCHP2", "label": "—"}, "children": [
+      {"id": "MELCHIZEDEK", "label": "Melchizedek<br/>c.1900 BC · king of Salem &amp; priest of God Most High;<br/>blessed Abraham · Genesis 14:18-20<br/>(no genealogy given · Hebrews 7:3)"}
+    ]},
+    {"a": {"id": "ABIMELP1", "label": "—"}, "b": {"id": "ABIMELP2", "label": "—"}, "children": [
+      {"id": "ABIMELECH", "label": "Abimelech<br/>c.1900 BC · king of Gerar; contemporary of Abraham · Genesis 20-21"}
+    ]},
+    {"a": {"id": "ELIEZERP1", "label": "—"}, "b": {"id": "ELIEZERP2", "label": "—"}, "children": [
+      {"id": "ELIEZER", "label": "Eliezer of Damascus<br/>c.1900 BC · Abraham's steward &amp; heir-presumptive<br/>before Isaac · Genesis 15:2"}
+    ]},
+
+    {"a": {"id": "GEN14KP1", "label": "Kings of the East<br/>Genesis 14:1 · no genealogy given"}, "b": {"id": "GEN14KP2", "label": "—"}, "children": [
+      {"id": "CHEDORLAOMER", "label": "Chedorlaomer<br/>c.1900 BC · king of Elam; led the eastern coalition · Genesis 14:1<br/>(identification with an attested king disputed)"},
+      {"id": "AMRAPHEL", "label": "Amraphel<br/>c.1900 BC · king of Shinar · Genesis 14:1<br/>(identification with an attested king disputed)"},
+      {"id": "ARIOCH", "label": "Arioch<br/>c.1900 BC · king of Ellasar · Genesis 14:1<br/>(identification with an attested king disputed)"},
+      {"id": "TIDAL", "label": "Tidal<br/>c.1900 BC · king of Goiim (nations) · Genesis 14:1<br/>(identification with an attested king disputed)"}
+    ]}
+  ]
+}

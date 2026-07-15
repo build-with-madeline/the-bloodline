@@ -1,7 +1,18 @@
 {
-  "_note": "Enoch's generation, from the Book of Jubilees 4. Enoch married his first cousin Edna (Jub 4:20), 'the daughter of his father's brother' — so her father Danel is a brother of Jared, i.e. Enoch's uncle. Danel is added as Mahalalel's son (Jared's brother); Edna (created in 07_biblical as Enoch's wife) becomes Danel's daughter, which renders the cousin-marriage correctly. Sorts after 07_biblical so Mahalalel/Edna exist.",
+  "_note": "The full antediluvian wife-web from the Book of Jubilees ch.4. The Genesis-5 patriarchs married first their sisters (Enosh->Noam, Kenan->Mualeleth) then their first cousins (daughter of the father's brother). Each cousin-wife (named on the spine in 07_biblical) is here given her father, who is a BROTHER of the previous patriarch (an 'uncle' branch): Barakil (Mahalalel's uncle), Rasujal (Jared's), Danel (Enoch's), Azrial (Methuselah's), Barakiel (Lamech's), Rakeel (Noah's). Sisters Noam & Mualeleth become daughters of Seth & Enosh. Sorts after 07_biblical so all the wives already exist. Order: each uncle is created before he is used as a parent.",
   "families": [
-    {"a": "MAHALALEL", "b": "MAHALALELW", "children": [{"id": "DANEL", "label": "Danel (Daniel)<br/>c.3540 BC · brother of Jared; Enoch's uncle &amp; father-in-law<br/>· Book of Jubilees 4:20"}]},
-    {"a": "DANEL", "b": {"id": "DANELW", "label": "—"}, "children": ["EDNA"]}
+    {"a": "SETH", "b": "AZURA", "children": ["NOAM"]},
+    {"a": "ENOSH", "b": "NOAM", "children": ["MUALELETH", {"id": "BARAKIL", "label": "Barakil<br/>c.3700 BC · son of Enosh, brother of Kenan; Mahalalel's uncle · Jubilees 4:15"}]},
+    {"a": "BARAKIL", "b": {"id": "BARAKILW", "label": "—"}, "children": ["DINAHMAH"]},
+    {"a": "KENAN", "b": "MUALELETH", "children": [{"id": "RASUJAL", "label": "Rasujal<br/>c.3640 BC · son of Kenan, brother of Mahalalel; Jared's uncle · Jubilees 4:16"}]},
+    {"a": "RASUJAL", "b": {"id": "RASUJALW", "label": "—"}, "children": ["BARAKA"]},
+    {"a": "MAHALALEL", "b": "DINAHMAH", "children": [{"id": "DANEL", "label": "Danel (Daniel)<br/>c.3540 BC · son of Mahalalel, brother of Jared; Enoch's uncle &amp; father-in-law · Jubilees 4:20"}]},
+    {"a": "DANEL", "b": {"id": "DANELW", "label": "—"}, "children": ["EDNA"]},
+    {"a": "JARED", "b": "BARAKA", "children": [{"id": "AZRIAL", "label": "Azrial<br/>c.3400 BC · son of Jared, brother of Enoch; Methuselah's uncle · Jubilees 4:27"}]},
+    {"a": "AZRIAL", "b": {"id": "AZRIALW", "label": "—"}, "children": ["EDNAMETH"]},
+    {"a": "ENOCH", "b": "EDNA", "children": [{"id": "BARAKIEL2", "label": "Barakiel<br/>c.3320 BC · son of Enoch, brother of Methuselah; Lamech's uncle · Jubilees 4:28"}]},
+    {"a": "BARAKIEL2", "b": {"id": "BARAKIEL2W", "label": "—"}, "children": ["BETENOS"]},
+    {"a": "METHUSELAH", "b": "EDNAMETH", "children": [{"id": "RAKEEL", "label": "Rakeel<br/>c.3180 BC · son of Methuselah, brother of Lamech; Noah's uncle · Jubilees 4:33"}]},
+    {"a": "RAKEEL", "b": {"id": "RAKEELW", "label": "—"}, "children": ["NAAMAH"]}
   ]
 }

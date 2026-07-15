@@ -1,7 +1,7 @@
 {
   "_note": "The Table of Nations (Genesis 10): the sons of Japheth (10:2), Ham (10:6) incl. Cush's son Nimrod (10:8), and Shem's other sons (10:22) besides Arphaxad who already carries the line. Ham, Japheth, Shem all exist already. Sorts after 07c.",
   "families": [
-    {"a": "JAPHETH", "b": {"id": "JAPHETHW", "label": "—"}, "children": [
+    {"a": "JAPHETH", "b": {"id": "JAPHETHW", "label": "Adataneses<br/>wife of Japheth · Book of Jubilees 7:16"}, "children": [
       {"id": "GOMER", "label": "Gomer<br/>c.2400 BC · son of Japheth · Genesis 10:2"},
       {"id": "MAGOG", "label": "Magog<br/>son of Japheth · Genesis 10:2"},
       {"id": "MADAI", "label": "Madai<br/>son of Japheth (the Medes) · Genesis 10:2"},
@@ -10,7 +10,7 @@
       {"id": "MESHECH", "label": "Meshech<br/>son of Japheth · Genesis 10:2"},
       {"id": "TIRAS", "label": "Tiras<br/>son of Japheth · Genesis 10:2"}
     ]},
-    {"a": "HAM", "b": {"id": "HAMW", "label": "—"}, "children": [
+    {"a": "HAM", "b": {"id": "HAMW", "label": "Neelatamauk<br/>wife of Ham · Book of Jubilees 7:15"}, "children": [
       {"id": "CUSH", "label": "Cush<br/>c.2400 BC · son of Ham · Genesis 10:6"},
       {"id": "MIZRAIM", "label": "Mizraim<br/>son of Ham (Egypt) · Genesis 10:6"},
       {"id": "PUT", "label": "Put<br/>son of Ham · Genesis 10:6"},

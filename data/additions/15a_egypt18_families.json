@@ -1,0 +1,139 @@
+{
+ "_note": "EGYPT — the ROYAL FAMILIES of the 18th Dynasty (New Kingdom), c.1550-1350 BC. The ten reigning pharaohs (EG_AHMOSE1 -> EG_AMENHOTEP1 -> EG_THUTMOSE1 -> EG_THUTMOSE2 -> EG_HATSHEPSUT -> EG_THUTMOSE3 -> EG_AMENHOTEP2 -> EG_THUTMOSE4 -> EG_AMENHOTEP3 -> EG_AKHENATEN) ALREADY sit in the succession chain defined in 10b_egypt.json and are NOT re-parented here. This file only (a) marries each king to his real queen(s) via CHILDLESS unions {king ● queen, no children} so no successor gains a second parent, and (b) hangs the NON-king children (daughters, princes who never reigned) and notable non-royals under the correct union. Every figure is HISTORICAL, attested by contemporary monuments. All new ids are prefixed EG_ so they classify to the EGYPT house. Dates are conventional New Kingdom estimates (Wikipedia / Britannica); child years are drawn smaller than their parent king's accession year to keep the timeline ordered, and several filiations (Amenemhat's mother, Mutemwiya's Mitanni origin) are genuinely UNCERTAIN and flagged. Loads after 10b_egypt.json and 10b0c_egypt17.json (which define the kings and EG_AHMOSE_NEFERTARI). Verified against Wikipedia entries for each queen (Ahmose, Mutnofret, Iset, Satiah, Merytre-Hatshepsut, Tiaa, Mutemwiya, Tiye), Neferure, Senenmut, and Yuya & Tjuyu.",
+ "families": [
+  {
+   "note": "Ahmose I & his sister-wife Ahmose-Nefertari (EG_AHMOSE_NEFERTARI already exists, defined in 10b0c_egypt17.json as their shared sibling). Childless union: their son Amenhotep I is already the chain successor, so he is NOT re-parented here. Ahmose-Nefertari was the celebrated God's Wife of Amun and matriarch of the dynasty.",
+   "a": "EG_AHMOSE1",
+   "b": "EG_AHMOSE_NEFERTARI",
+   "children": []
+  },
+  {
+   "note": "Thutmose I & his Great Royal Wife Ahmose (probably of royal blood), mother of Hatshepsut. Hatshepsut is already the chain successor and is NOT re-parented; their other attested daughter Nefrubity, who died young, is added here as a non-reigning child.",
+   "a": "EG_THUTMOSE1",
+   "b": {
+    "id": "EG_AHMOSE_QUEEN",
+    "label": "Ahmose<br/>c.1530 BC · Great Royal Wife of Thutmose I; mother of Hatshepsut; probably of royal blood · HISTORICAL"
+   },
+   "children": [
+    {
+     "id": "EG_NEFRUBITY",
+     "label": "Nefrubity<br/>c.1500 BC · daughter of Thutmose I &amp; Queen Ahmose; younger sister of Hatshepsut; died in childhood · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "Thutmose I's secondary wife Mutnofret, mother of the future Thutmose II. Childless union here because Thutmose II is already the chain successor and must not gain a second parent; Mutnofret is recorded so her maternity of Thutmose II is visible.",
+   "a": "EG_THUTMOSE1",
+   "b": {
+    "id": "EG_MUTNOFRET",
+    "label": "Mutnofret<br/>c.1525 BC · secondary wife of Thutmose I; mother of Thutmose II (the successor); also mother of the short-lived princes Wadjmose &amp; Amenmose · HISTORICAL"
+   },
+   "children": []
+  },
+  {
+   "note": "Thutmose II & his half-sister and Great Royal Wife Hatshepsut (both already in the chain — referenced by id, neither re-parented). Their only child was Princess Neferure, a non-reigning daughter, added here. Thutmose III, Thutmose II's successor, was by the secondary wife Iset (next family), NOT by Hatshepsut.",
+   "a": "EG_THUTMOSE2",
+   "b": "EG_HATSHEPSUT",
+   "children": [
+    {
+     "id": "EG_NEFERURE",
+     "label": "Neferure<br/>c.1485 BC · daughter of Thutmose II &amp; Hatshepsut; God's Wife of Amun; tutored by Senenmut; died young · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "Thutmose II's secondary wife Iset (Aset), mother of Thutmose III. Childless union because Thutmose III is already the chain successor and must not be re-parented.",
+   "a": "EG_THUTMOSE2",
+   "b": {
+    "id": "EG_ISET_Q",
+    "label": "Iset<br/>c.1490 BC · secondary wife of Thutmose II; mother of Thutmose III (the successor) · HISTORICAL"
+   },
+   "children": []
+  },
+  {
+   "note": "SENENMUT — notable non-royal, attached as his own node via a childless '—' placeholder union (he is famously not recorded as having married). Chief steward and architect under Hatshepsut, builder of the Deir el-Bahari temple, and tutor and guardian of Princess Neferure.",
+   "a": {
+    "id": "EG_SENENMUT",
+    "label": "Senenmut<br/>c.1490 BC · non-royal; chief steward &amp; royal architect under Hatshepsut; builder of the Deir el-Bahari temple; tutor &amp; guardian of Princess Neferure · HISTORICAL"
+   },
+   "b": {
+    "id": "EG_SENENMUT_W",
+    "label": "—"
+   },
+   "children": []
+  },
+  {
+   "note": "Thutmose III's first Great Royal Wife Satiah, likely mother of the eldest son Prince Amenemhat, who died before his father and so never reigned. Amenemhat is added as a non-reigning child; his maternity by Satiah is probable but UNCERTAIN.",
+   "a": "EG_THUTMOSE3",
+   "b": {
+    "id": "EG_SATIAH",
+    "label": "Satiah<br/>c.1460 BC · first Great Royal Wife of Thutmose III; likely mother of Prince Amenemhat · HISTORICAL"
+   },
+   "children": [
+    {
+     "id": "EG_AMENEMHAT",
+     "label": "Amenemhat<br/>c.1450 BC · eldest son &amp; designated heir of Thutmose III; predeceased his father, so his half-brother Amenhotep II succeeded · HISTORICAL (maternity by Satiah uncertain)"
+    }
+   ]
+  },
+  {
+   "note": "Thutmose III's later Great Royal Wife Merytre-Hatshepsut, mother of the successor Amenhotep II. Childless union because Amenhotep II is already in the chain and must not be re-parented.",
+   "a": "EG_THUTMOSE3",
+   "b": {
+    "id": "EG_MERYTRE",
+    "label": "Merytre-Hatshepsut<br/>c.1455 BC · Great Royal Wife of Thutmose III after Satiah; mother of Amenhotep II (the successor) · HISTORICAL"
+   },
+   "children": []
+  },
+  {
+   "note": "Amenhotep II's Great Royal Wife Tiaa, mother of the successor Thutmose IV. Childless union because Thutmose IV is already in the chain and must not be re-parented.",
+   "a": "EG_AMENHOTEP2",
+   "b": {
+    "id": "EG_TIAA",
+    "label": "Tiaa<br/>c.1430 BC · Great Royal Wife of Amenhotep II; mother of Thutmose IV (the successor) · HISTORICAL"
+   },
+   "children": []
+  },
+  {
+   "note": "Thutmose IV's wife Mutemwiya, mother of the successor Amenhotep III. Childless union because Amenhotep III is already in the chain and must not be re-parented. A later tradition (and the Luxor 'divine birth' scenes) casts her as a Mitanni princess, but her foreign origin is UNCERTAIN.",
+   "a": "EG_THUTMOSE4",
+   "b": {
+    "id": "EG_MUTEMWIYA",
+    "label": "Mutemwiya<br/>c.1410 BC · minor wife of Thutmose IV; mother of Amenhotep III (the successor) · HISTORICAL (a Mitanni-princess origin is claimed but uncertain)"
+   },
+   "children": []
+  },
+  {
+   "note": "SPOUSES-GET-PARENTS: Queen Tiye's non-royal parents, Yuya &amp; Tjuyu (Thuya), the celebrated couple of Akhmim whose near-intact tomb (KV46) survived. Defined here so Tiye (EG_TIYE, a new child) exists before the Amenhotep III union references her. Yuya &amp; Tjuyu are non-royal and carry no crown.",
+   "a": {
+    "id": "EG_YUYA",
+    "label": "Yuya<br/>c.1410 BC · non-royal noble of Akhmim; God's Father, Master of the Horse &amp; commander of chariotry; father of Queen Tiye · HISTORICAL"
+   },
+   "b": {
+    "id": "EG_TJUYU",
+    "label": "Tjuyu (Thuya)<br/>c.1410 BC · non-royal noblewoman; chantress of Amun &amp; Min; mother of Queen Tiye · HISTORICAL"
+   },
+   "children": [
+    {
+     "id": "EG_TIYE",
+     "label": "Tiye<br/>c.1398 BC · Great Royal Wife of Amenhotep III; famously powerful queen &amp; diplomat; mother of Akhenaten and grandmother of Tutankhamun · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "Amenhotep III & his Great Royal Wife Tiye (EG_TIYE, referenced by id from the family above — she is NOT re-parented). Their reigning son Akhenaten is already the chain successor and is NOT re-added; only the non-reigning children are hung here: the eldest daughter Sitamun and the elder son, Crown Prince Thutmose, who predeceased his father.",
+   "a": "EG_AMENHOTEP3",
+   "b": "EG_TIYE",
+   "children": [
+    {
+     "id": "EG_SITAMUN",
+     "label": "Sitamun<br/>c.1375 BC · eldest daughter of Amenhotep III &amp; Tiye; later elevated to Great Royal Wife alongside her own father · HISTORICAL"
+    },
+    {
+     "id": "EG_PRINCE_THUTMOSE",
+     "label": "Thutmose<br/>c.1372 BC · elder son of Amenhotep III &amp; Tiye; Crown Prince &amp; High Priest of Ptah at Memphis; predeceased his father, so his brother Akhenaten succeeded · HISTORICAL"
+    }
+   ]
+  }
+ ]
+}

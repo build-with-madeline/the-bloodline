@@ -1,0 +1,255 @@
+{
+ "_note": "SLAB c.1600-1500 BC — the Near Eastern great-power system after the Hittite sack of Babylon: MITANNI's rise, KASSITE Babylon, the Hittite Middle-Kingdom 'dark age', and ELAM. Four succession king-lists, each with '—' placeholder spouses; REAL father-son links are distinguished from succession/usurpation in every label, and every uncertain link is flagged. Web-verified against Wikipedia ('Mitanni', 'Shaushtatar', 'Kassite dynasty', 'Burnaburiash I', 'Hantili II', 'Alluwamna', 'List of Hittite kings', 'List of Elamite kings', 'Kutir-Nahhunte I') plus Britannica ('Karaindash', 'Kutir-Nahhunte I') and World History Encyclopedia. THREAD 1 MITANNI (MIT_, a NEW Hurrian house of the upper Euphrates): Kirta (SEMI-LEGENDARY founder, defined here as a ROOT node for the main agent to attach as a fresh house) > Shuttarna I (REAL son of Kirta per the sources) > Parrattarna / Parshatatar / Barattarna (relation to Shuttarna I not documented — early Mitannian succession is uncertain, flagged; he expanded Mitanni to dominate Syria, took Aleppo &amp; made Idrimi of Alalakh a vassal, and pressed on Assur; Barattarna and Parshatatar may be one king) > Shaushtatar (REAL son of Parshatatar; conquered Alalakh, Nuzi, Kizzuwatna &amp; sacked Assur, the empire's high-water mark). THREAD 2 KASSITE BABYLON (BAB_, extends the existing BAB_KASAGUM2 = Agum II 'Agum-Kakrime', referenced as a string, NOT recreated): NOTE the task's suggested year for Burnaburiash I (c.1530) is LARGER than the existing Agum II node's c.1500, which would break the child-year-smaller rule, so the successors are dated descending from c.1500 (Kassite absolute chronology is genuinely fuzzy; king-list ORDER is what is anchored). Burnaburiash I (first Kassite to really rule Babylon proper; descent from Agum II not established — succession, flagged) > Kashtiliash III (REAL son of Burnaburiash I) > Ulamburiash (REAL son of Burnaburiash I &amp; thus brother of Kashtiliash III, shown as his successor; conquered the First Sealand Dynasty) > Agum III (REAL son of Kashtiliash III &amp; grandson of Burnaburiash I, shown as successor to his uncle Ulamburiash; campaigned again against the Sealand) > Kadashman-harbe I (relation to Agum III not documented — succession, flagged) > Karaindash (c.1415; relation uncertain, flagged; made the border treaty with Assyria's Ashur-bel-nisheshu). THREAD 3 HITTITE MIDDLE KINGDOM (HIT_, extends the existing HIT_TELIPINU, referenced as a string, NOT recreated): a poorly-documented, usurpation-ridden stretch whose very ORDER is disputed. Alluwamna (NOT descent: son-in-law of Telipinu, married his daughter Harapseki — succession by marriage) > Tahurwaili (a usurper; his placement in the sequence is uncertain — most reconstructions put him before or around Alluwamna, kept here in the task's order but flagged) > Hantili II (REAL son of Alluwamna, attested in a land grant) > Zidanta II (succeeded Hantili II, relation undocumented — succession, flagged; assassinated) > Huzziya II (LIKELY son of Zidanta II — probable descent, flagged) > Muwatalli I (NOT descent: assassinated Huzziya II to seize the throne — usurpation). THREAD 4 ELAM (EL_, extends the existing EL_KUDUZULUSH1 = Kuduzulush I, referenced as a string, NOT recreated): Kutir-Nahhunte I (late-Sukkalmah king, c.1730-1715, famed for a raid deep into Babylonia; the intervening Sukkalmah rulers between Kuduzulush I and him are omitted, and the avuncular Sukkalmah succession means descent is not established — succession, flagged) > then a large dynastic gap of ~230 yrs to the KIDINUID dynasty (c.1500-1400), whose five kings are grouped for convenience only — there is NO evidence they were related to one another: Kidinu (traditionally earliest — succession-by-convention, NOT descent, flagged) > Inshushinak-sunkir-nappipir (Kidinuid; no attested kin link — NOT descent, flagged) > Tan-Ruhuratir II (Kidinuid; no attested kin link — NOT descent, flagged). All dates lead each label and DECREASE down every chain; no fabrication — only names, relationships and dates found in the cited sources, with every uncertainty flagged in-node.",
+ "families": [
+  {
+   "a": {
+    "id": "MIT_KIRTA",
+    "label": "👑 Kirta<br/>c.1500 BC · semi-legendary founder of Mitanni, the Hurrian kingdom of the upper Euphrates (ROOT — main agent to attach as a fresh house) · SEMI-LEGENDARY, dates &amp; historicity uncertain"
+   },
+   "b": {
+    "id": "MIT_KIRTAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "MIT_SHUTTARNA1",
+     "label": "👑 Shuttarna I<br/>c.1490 BC · king of Mitanni; son of Kirta (REAL father-son per the king-list tradition); left a royal seal reused by later Mitannian kings · historical (early Mitannian succession uncertain)"
+    }
+   ]
+  },
+  {
+   "a": "MIT_SHUTTARNA1",
+   "b": {
+    "id": "MIT_SHUTTARNA1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "MIT_PARRATTARNA",
+     "label": "👑 Parrattarna (Parshatatar / Barattarna)<br/>c.1480 BC · king of Mitanni; relation to Shuttarna I not documented — early Mitannian succession uncertain; expanded Mitanni to dominate Syria, took Aleppo &amp; made Idrimi of Alalakh his vassal, pressing on Assur (Barattarna &amp; Parshatatar may be one king) · historical"
+    }
+   ]
+  },
+  {
+   "a": "MIT_PARRATTARNA",
+   "b": {
+    "id": "MIT_PARRATTARNAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "MIT_SHAUSHTATAR",
+     "label": "👑 Shaushtatar<br/>c.1440 BC · king of Mitanni; son of Parshatatar (REAL father-son); conquered Alalakh, Nuzi &amp; Kizzuwatna and sacked Assur, bringing Mitanni to its greatest extent · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_KASAGUM2",
+   "b": {
+    "id": "BAB_KASAGUM2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_BURNABURIASH1",
+     "label": "👑 Burnaburiash I<br/>c.1490 BC · Kassite king, the first to really rule Babylon proper; descent from Agum II not established — succession (dates set descending from the existing Agum II node; Kassite absolute chronology is fuzzy) · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_BURNABURIASH1",
+   "b": {
+    "id": "BAB_BURNABURIASH1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KASHTILIASH3",
+     "label": "👑 Kashtiliash III<br/>c.1470 BC · Kassite king of Babylon; son of Burnaburiash I (REAL father-son) · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_KASHTILIASH3",
+   "b": {
+    "id": "BAB_KASHTILIASH3W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_ULAMBURIASH",
+     "label": "👑 Ulamburiash<br/>c.1460 BC · Kassite king; son of Burnaburiash I &amp; brother of Kashtiliash III (REAL descent, shown as his brother's successor); conquered the First Sealand Dynasty of southern Babylonia · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_ULAMBURIASH",
+   "b": {
+    "id": "BAB_ULAMBURIASHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_AGUM3",
+     "label": "👑 Agum III<br/>c.1445 BC · Kassite king; son of Kashtiliash III &amp; grandson of Burnaburiash I (REAL descent, shown as successor to his uncle Ulamburiash); campaigned again against the Sealand to re-unite the land · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_AGUM3",
+   "b": {
+    "id": "BAB_AGUM3W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KADASHMANHARBE1",
+     "label": "👑 Kadashman-harbe I<br/>c.1430 BC · Kassite king of Babylon; relation to Agum III not documented — succession · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_KADASHMANHARBE1",
+   "b": {
+    "id": "BAB_KADASHMANHARBE1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KARAINDASH",
+     "label": "👑 Karaindash<br/>c.1415 BC · Kassite king of Babylon; relation to predecessor uncertain; made the earliest attested Babylonian-Assyrian border treaty (with Ashur-bel-nisheshu of Assyria) · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_TELIPINU",
+   "b": {
+    "id": "HIT_TELIPINU_MW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_ALLUWAMNA",
+     "label": "👑 Alluwamna<br/>c.1500 BC · Hittite king; not a descendant but son-in-law of Telipinu (married his daughter Harapseki) — succession by marriage · historical (Middle-Kingdom succession obscure)"
+    }
+   ]
+  },
+  {
+   "a": "HIT_ALLUWAMNA",
+   "b": {
+    "id": "HIT_ALLUWAMNAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_TAHURWAILI",
+     "label": "👑 Tahurwaili<br/>c.1490 BC · Hittite king &amp; usurper; his place in the sequence is disputed (many reconstructions put him before or around Alluwamna) — position &amp; kinship uncertain · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_TAHURWAILI",
+   "b": {
+    "id": "HIT_TAHURWAILIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_HANTILI2",
+     "label": "👑 Hantili II<br/>c.1480 BC · Hittite king; son of Alluwamna (REAL father-son, attested in a land-grant document), shown here after the usurper Tahurwaili · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_HANTILI2",
+   "b": {
+    "id": "HIT_HANTILI2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_ZIDANTA2",
+     "label": "👑 Zidanta II<br/>c.1475 BC · Hittite king; succeeded Hantili II, relation not documented — succession; his brief reign ended in assassination · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_ZIDANTA2",
+   "b": {
+    "id": "HIT_ZIDANTA2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_HUZZIYA2",
+     "label": "👑 Huzziya II<br/>c.1470 BC · Hittite king; likely son of Zidanta II (probable father-son, flagged) · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_HUZZIYA2",
+   "b": {
+    "id": "HIT_HUZZIYA2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_MUWATALLI1",
+     "label": "👑 Muwatalli I<br/>c.1465 BC · Hittite king; not a descendant — assassinated Huzziya II to seize the throne (usurpation); himself later killed, closing the turbulent Middle Kingdom · historical"
+    }
+   ]
+  },
+  {
+   "a": "EL_KUDUZULUSH1",
+   "b": {
+    "id": "EL_KUDUZULUSH1_MW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_KUTIRNAHHUNTE1",
+     "label": "👑 Kutir-Nahhunte I<br/>c.1730 BC · late-Sukkalmah king of Elam (r. c.1730-1715); famed for a deep raid into Babylonia (recalled by Ashurbanipal a millennium later); intervening Sukkalmah rulers omitted &amp; avuncular succession means descent from Kuduzulush I is not established — succession · historical"
+    }
+   ]
+  },
+  {
+   "a": "EL_KUTIRNAHHUNTE1",
+   "b": {
+    "id": "EL_KUTIRNAHHUNTE1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_KIDINU",
+     "label": "👑 Kidinu<br/>c.1500 BC · founder-eponym of the Kidinuid dynasty of Elam (Middle Elamite period); follows a ~230-yr gap after the Sukkalmah era — succession-by-convention, NOT descent; titled 'king of Susa &amp; Anshan' · historical"
+    }
+   ]
+  },
+  {
+   "a": "EL_KIDINU",
+   "b": {
+    "id": "EL_KIDINUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_INSHUSHINAKSUNKIR",
+     "label": "👑 Inshushinak-sunkir-nappipir<br/>c.1490 BC · Kidinuid king of Elam; no attested kin link to Kidinu — the Kidinuids are grouped for convenience only, NOT a proven family · historical"
+    }
+   ]
+  },
+  {
+   "a": "EL_INSHUSHINAKSUNKIR",
+   "b": {
+    "id": "EL_INSHUSHINAKSUNKIRW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_TANRUHURATIR2",
+     "label": "👑 Tan-Ruhuratir II<br/>c.1480 BC · Kidinuid king of Elam; no attested kin link to his predecessor — NOT descent, succession-by-convention · historical"
+    }
+   ]
+  }
+ ]
+}

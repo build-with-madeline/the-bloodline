@@ -50,6 +50,7 @@ DYNASTIES = [
     ("YAMHAD", "Yamhad — Aleppo"),
     ("HITTITE", "The Hittite Kings"),
     ("HYKSOS", "The Hyksos"),
+    ("MITANNI", "Mitanni — the Hurrians"),
 ]
 
 # --- explicit id overrides (win over everything) ---
@@ -261,6 +262,7 @@ def seed(pid, label):
     if pid.startswith("YAM_"): return "YAMHAD"
     if pid.startswith("HIT_"): return "HITTITE"
     if pid.startswith("HYK_"): return "HYKSOS"
+    if pid.startswith("MIT_"): return "MITANNI"
     lab = (label or "").lower()
     # HRE regnal id families
     if pid.endswith("HRE") or pid in ("OTTOI","OTTOII","OTTOIII","OTTOIV","OTTOILLUS","HENRYFOWLER",

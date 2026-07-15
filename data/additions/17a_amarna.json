@@ -1,0 +1,90 @@
+{
+ "_note": "EGYPT — the AMARNA royal family and the END of the 18th Dynasty, c.1360-1300 BC. The reigning pharaohs of this stretch (EG_AKHENATEN c.1353 -> EG_TUTANKHAMUN c.1332 -> EG_AY c.1323 -> EG_HOREMHEB c.1319) ALREADY sit in the succession chain defined in 10b_egypt.json and are NEVER re-parented here: each appears only as a spouse ('a' side of a union), never inside a children array. This file (a) marries EG_AKHENATEN to his Great Royal Wife Nefertiti and hangs their six (non-reigning) daughters under that union; (b) records his secondary wife Kiya in a childless union, since her son (if any) must not gain a second parent; (c) marries the boy-king EG_TUTANKHAMUN to his half-sister Ankhesenamun (a genuine brother-sister royal marriage) and hangs their two stillborn daughters; (d) introduces the ephemeral pharaoh Smenkhkare via his attested wife Meritaten; (e) adds the dynasty-ending marriages EG_HOREMHEB x Mutnedjmet and EG_AY x Tey. Every figure is HISTORICAL, attested by contemporary Amarna-period monuments and, for the royal mummies, by the 2010 Hawass DNA study. MANY filiations of this incest-riven period are genuinely debated and are flagged in-line: Tutankhamun's maternity (DNA points to a full sister of Akhenaten, the 'Younger Lady' — NOT Nefertiti and probably NOT Kiya; Kara Cooney and others even propose a daughter), Smenkhkare's identity and his overlap with the shadowy pharaoh Neferneferuaten, whether Mutnedjmet the queen equals Nefertiti's sister Mutbenret (disputed name-reading, no definite proof), and Ay's supposed fatherhood of Nefertiti or brotherhood of Tiye (speculative, unproven). The famous ZANNANZA AFFAIR — the widowed queen's letter to the Hittite king Suppiluliuma I begging for a son to marry, and the murder of prince Zannanza en route — is noted on Ankhesenamun's card; the Hittite side is built by another agent, so no Hittite people are created here. All new ids are prefixed EG_ so they classify to the EGYPT house; child years are drawn smaller than the parent king's chain year to keep the timeline ordered. Loads after 10b_egypt.json (the kings) and 15a_egypt18_families.json (the earlier queens). Verified July 2026 against Wikipedia (Nefertiti, The Younger Lady, Smenkhkare, Mutnedjmet, Mutbenret, Ankhesenamun, Zannanza, Kiya, Meritaten) and National Geographic / Archaeology Magazine coverage of the Tutankhamun DNA study.",
+ "families": [
+  {
+   "note": "EG_AKHENATEN (already the chain successor, referenced by id, NOT re-parented) & his celebrated Great Royal Wife Nefertiti. Their SIX daughters are all attested together on Amarna monuments and were non-reigning, so they are safely hung here as children. Ankhesenpaaten later took the name Ankhesenamun when the Aten cult was abandoned, and married her half-brother Tutankhamun (next-but-one family). Nefertiti's own parentage is unknown; a tradition making Ay her father is flagged in the EG_AY family below.",
+   "a": "EG_AKHENATEN",
+   "b": {
+    "id": "EG_NEFERTITI",
+    "label": "Nefertiti<br/>c.1370 BC · Great Royal Wife of Akhenaten; co-ruler of the Aten revolution &amp; icon of the Berlin bust; some scholars identify her with the later pharaoh Neferneferuaten (debated) · HISTORICAL"
+   },
+   "children": [
+    {
+     "id": "EG_MERITATEN",
+     "label": "Meritaten<br/>c.1349 BC · eldest daughter of Akhenaten &amp; Nefertiti; later Great Royal Wife, probably of the ephemeral king Smenkhkare · HISTORICAL"
+    },
+    {
+     "id": "EG_MEKETATEN",
+     "label": "Meketaten<br/>c.1347 BC · second daughter of Akhenaten &amp; Nefertiti; died young and is shown mourned in the Amarna royal tomb · HISTORICAL"
+    },
+    {
+     "id": "EG_ANKHESENAMUN",
+     "label": "Ankhesenamun (Ankhesenpaaten)<br/>c.1345 BC · third daughter of Akhenaten &amp; Nefertiti; Great Royal Wife of her half-brother Tutankhamun. After his death a widowed Egyptian queen (traditionally her, though the writer is debated) wrote to the Hittite king Suppiluliuma I refusing to 'marry a servant' and asking for a son — the ZANNANZA AFFAIR; prince Zannanza was murdered en route · HISTORICAL"
+    },
+    {
+     "id": "EG_NEFERNEFERUATEN_TASHERIT",
+     "label": "Neferneferuaten Tasherit<br/>c.1340 BC · fourth daughter of Akhenaten &amp; Nefertiti; 'the younger', named for her mother; little attested after childhood · HISTORICAL"
+    },
+    {
+     "id": "EG_NEFERNEFERURE",
+     "label": "Neferneferure<br/>c.1339 BC · fifth daughter of Akhenaten &amp; Nefertiti; probably died in childhood · HISTORICAL"
+    },
+    {
+     "id": "EG_SETEPENRE",
+     "label": "Setepenre<br/>c.1338 BC · sixth and youngest daughter of Akhenaten &amp; Nefertiti; died in early childhood · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "Akhenaten's secondary wife Kiya, in a CHILDLESS union so that no successor gains a second parent. Kiya was long proposed as the mother of Tutankhamun, but the 2010 DNA study points instead to a full sister of Akhenaten (the 'Younger Lady' mummy), and there is no evidence Kiya was his sister — so her maternity of Tutankhamun is FLAGGED and left unlinked rather than asserted.",
+   "a": "EG_AKHENATEN",
+   "b": {
+    "id": "EG_KIYA",
+    "label": "Kiya<br/>c.1360 BC · secondary wife of Akhenaten, styled 'Greatly Beloved'; disappeared late in the reign; once thought to be Tutankhamun's mother, but DNA now favours a sister of Akhenaten — her maternity is UNPROVEN · HISTORICAL"
+   },
+   "children": []
+  },
+  {
+   "note": "EG_TUTANKHAMUN (already the chain successor, referenced by id, NOT re-parented) & his half-sister and Great Royal Wife Ankhesenamun (EG_ANKHESENAMUN, referenced by id from the daughters family above, NOT re-parented) — a genuine brother-sister royal marriage. Their only known offspring were two stillborn daughters, whose mummified foetuses were found in Tutankhamun's tomb (KV62); DNA confirms Tutankhamun as father, and the mother is presumed to be Ankhesenamun though not independently confirmed. Tutankhamun's own maternity (the 'Younger Lady', a sister of Akhenaten) is separately debated and is flagged in the Kiya family above.",
+   "a": "EG_TUTANKHAMUN",
+   "b": "EG_ANKHESENAMUN",
+   "children": [
+    {
+     "id": "EG_TUT_STILLBORN1",
+     "label": "Stillborn daughter (317a)<br/>c.1325 BC · stillborn/premature daughter of Tutankhamun, buried in his tomb KV62; father confirmed by DNA, mother presumed Ankhesenamun · HISTORICAL"
+    },
+    {
+     "id": "EG_TUT_STILLBORN2",
+     "label": "Stillborn daughter (317b)<br/>c.1324 BC · full-term stillborn daughter of Tutankhamun, buried in his tomb KV62; father confirmed by DNA, mother presumed Ankhesenamun · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "The ephemeral pharaoh Smenkhkare, introduced via his attested Great Royal Wife Meritaten (EG_MERITATEN, referenced by id from the daughters family, NOT re-parented) in a childless union. Smenkhkare's identity, the length and timing of his reign, and his overlap with the shadowy king Neferneferuaten are all heavily DEBATED — some argue Smenkhkare and Neferneferuaten are one person, others that Meritaten herself became Neferneferuaten after his death, and his relationship to Akhenaten (son? brother?) is unresolved, so he is deliberately NOT parented under Akhenaten here.",
+   "a": {
+    "id": "EG_SMENKHKARE",
+    "label": "👑 Smenkhkare<br/>c.1335 BC · short-lived pharaoh/co-regent at the close of the Amarna period; married Meritaten; identity and overlap with the king Neferneferuaten heavily DEBATED · HISTORICAL"
+   },
+   "b": "EG_MERITATEN",
+   "children": []
+  },
+  {
+   "note": "Dynasty-ending marriage: EG_HOREMHEB (already the chain successor, referenced by id, NOT re-parented), the general who became the last pharaoh of the 18th Dynasty, & his Great Royal Wife Mutnedjmet. Childless union — a mummified foetus found in Mutnedjmet's tomb suggests she died in or after childbirth without a surviving heir, which is why Horemheb passed the throne to his vizier Ramesses I. Whether this Queen Mutnedjmet is identical to Nefertiti's sister Mutbenret is a disputed name-reading with no definite proof, and is FLAGGED.",
+   "a": "EG_HOREMHEB",
+   "b": {
+    "id": "EG_MUTNEDJMET",
+    "label": "Mutnedjmet<br/>c.1345 BC · Great Royal Wife of Horemheb; possibly identical to Nefertiti's sister Mutbenret (disputed reading, unproven); likely died in childbirth leaving no surviving heir · HISTORICAL"
+   },
+   "children": []
+  },
+  {
+   "note": "EG_AY (already the chain successor, referenced by id, NOT re-parented), the elderly courtier who became pharaoh after Tutankhamun, & his wife Tey, wet-nurse of Nefertiti and later Great Royal Wife. Childless union here. A long-standing tradition makes Ay the father of Nefertiti (Tey being only her nurse, not mother) and/or a brother of Queen Tiye, which would knit him into the royal bloodline — but this is speculative and UNPROVEN, so it is flagged rather than linked as a filiation.",
+   "a": "EG_AY",
+   "b": {
+    "id": "EG_TEY",
+    "label": "Tey<br/>c.1360 BC · wife of Ay and wet-nurse of Nefertiti; became Great Royal Wife when Ay took the throne. Ay is sometimes claimed to be Nefertiti's father or Tiye's brother, but this is UNPROVEN · HISTORICAL"
+   },
+   "children": []
+  }
+ ]
+}

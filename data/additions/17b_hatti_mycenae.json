@@ -1,0 +1,193 @@
+{
+ "_note": "Slab c.1360-1300 BC — the Hittite imperial climax under Suppiluliuma I, the fall of Mitanni with its Hittite marriage-alliance, the parallel rise of Middle Assyria, the Kassite Babylon succession, and the legendary Pelopid/Perseid houses of Mycenae. All prefixes: Hittite HIT_, Mitanni MIT_, Assyria AS_, Kassite Babylon BAB_, Mycenae MYC_. Extends existing string-ref ids (HIT_TUDHALIYA3, MIT_TUSHRATTA, AS_ASHURUBALLIT1, BAB_KARAHARDASH, MYC_PERSEUS/MYC_ELECTRYON/MYC_ALCAEUS, and the deity CRE_ZEUS) without recreating them. THREAD 1 HITTITE: Tudhaliya III > Suppiluliuma I (the great conqueror who restored Hatti from near-collapse, smashed Mitanni & built the empire) > his sons Arnuwanda II (heir), Mursili II (eventual king), Zannanza (the prince sent toward Egypt to marry the widowed queen Ankhesenamun — vanished/murdered en route: the 'Zannanza affair'), Telipinu (priest-king of Aleppo) & Piyassili/Sharri-Kushukh (viceroy of Carchemish), plus an unnamed daughter married to Mitanni. THREAD 2 FALL OF MITANNI + CROSS-MARRIAGE (Hittite x Mitanni): Tushratta > Shattiwaza (his son), who fled to Suppiluliuma after the usurper Shuttarna III seized Mitanni; Suppiluliuma married a daughter to him & reinstalled him as a Hittite puppet king (the two Suppiluliuma-Shattiwaza treaties, c.1345-1323 BC). Rival claimant Shuttarna III (son of Artatama II) was backed by Assyria & Alshe — a Mitanni-Assyria political link (NOT a marriage; no marriage documented, so none fabricated). THREAD 3 ASSYRIA: Ashur-uballit I > Enlil-nirari; Assyria rose as Mitanni fell. THREAD 4 KASSITE BABYLON (succession, following the 14b usurpation convention — child links carry explicit 'not a descendant' notes where the transition was by force): Kara-hardash (already in tree, half-Assyrian grandson of Ashur-uballit) was slain in a Kassite revolt that raised the usurper Nazi-Bugash (Shuzigash); Ashur-uballit I then invaded, killed the usurper & installed Kurigalzu II (said to be a son of Burnaburiash II, restoring the legitimate line) — an Assyria-Babylon link. THREAD 5 MYCENAE (LEGENDARY, flagged): the Pelopid line toward the Trojan War — Pelops & Hippodamia > Atreus & Thyestes; and the Perseid line toward Heracles — Electryon > Alcmene, Alcaeus > Amphitryon, Amphitryon married his Perseid cousin Alcmene, who bore Heracles to Zeus. Middle-chronology dates; every child year is smaller than its parent's; mythological dates are nominal placeholders. Web-verified against Wikipedia 'Suppiluliuma I', 'Zannanza', 'Mursili II', 'Arnuwanda II', 'Shattiwaza', 'Tushratta', 'Kurigalzu II', 'Ashur-uballit I', 'Kassite dynasty', 'Pelops', 'Atreus', and Theoi/greeklegendsandmyths for the Perseids. No fabrication.",
+ "families": [
+  {
+   "note": "HITTITE — Tudhaliya III (existing) to Suppiluliuma I, who restored the empire.",
+   "a": "HIT_TUDHALIYA3",
+   "b": {
+    "id": "HIT_TUDHALIYA3W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_SUPPILULIUMA1",
+     "label": "👑 Suppiluliuma I<br/>c.1350 BC · Great King of the Hittites; son of Tudhaliya III (REAL father-son); the great conqueror who restored Hatti from near-collapse, smashed Mitanni &amp; forged the Hittite empire · historical"
+    }
+   ]
+  },
+  {
+   "note": "HITTITE — Suppiluliuma I's sons, plus the unnamed daughter married into Mitanni (see the cross-marriage family below).",
+   "a": "HIT_SUPPILULIUMA1",
+   "b": {
+    "id": "HIT_SUPPILULIUMA1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_ARNUWANDA2",
+     "label": "👑 Arnuwanda II<br/>c.1322 BC · son &amp; designated heir (tuhkanti) of Suppiluliuma I (REAL father-son); succeeded him but died soon after in the plague that swept Hatti · historical"
+    },
+    {
+     "id": "HIT_MURSILI2",
+     "label": "👑 Mursili II<br/>c.1321 BC · son of Suppiluliuma I (REAL father-son); became Great King after his brother Arnuwanda II; author of the Plague Prayers &amp; the Ten-Year Annals · historical"
+    },
+    {
+     "id": "HIT_ZANNANZA",
+     "label": "Zannanza<br/>c.1325 BC · son of Suppiluliuma I (REAL father-son); sent toward EGYPT to marry the widowed queen (Ankhesenamun, Tutankhamun's widow) but vanished/was murdered en route — the 'Zannanza affair' · historical"
+    },
+    {
+     "id": "HIT_TELIPINU_PRIEST",
+     "label": "👑 Telipinu 'the Priest'<br/>c.1328 BC · son of Suppiluliuma I (REAL father-son); made priest of Kizzuwatna then vassal king of Aleppo (Halab) in Syria · historical"
+    },
+    {
+     "id": "HIT_PIYASSILI",
+     "label": "👑 Piyassili (Sharri-Kushukh)<br/>c.1326 BC · son of Suppiluliuma I (REAL father-son); installed as vassal king / viceroy of Carchemish, governing the former Mitanni lands west of the Euphrates · historical"
+    },
+    {
+     "id": "HIT_SUPPILU_DAUGHTER",
+     "label": "daughter of Suppiluliuma I<br/>c.1330 BC · Hittite princess (name unrecorded); married to Shattiwaza of Mitanni to seal the Hittite-Mitanni vassal treaty · historical"
+    }
+   ]
+  },
+  {
+   "note": "MITANNI — Tushratta (existing Amarna-letters king) to his son Shattiwaza.",
+   "a": "MIT_TUSHRATTA",
+   "b": {
+    "id": "MIT_TUSHRATTAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "MIT_SHATTIWAZA",
+     "label": "👑 Shattiwaza (Kurtiwaza)<br/>c.1330 BC · son of Tushratta (REAL father-son); fled to Suppiluliuma I after the usurper Shuttarna III seized Mitanni; reinstalled as a Hittite puppet king of a shrunken Mitanni/Hanigalbat · historical"
+    }
+   ]
+  },
+  {
+   "note": "CROSS-HOUSE MARRIAGE (Hittite x Mitanni) — a daughter of Suppiluliuma I wed to Shattiwaza of Mitanni, sealing the vassal treaty. Union only; no issue drawn.",
+   "a": "HIT_SUPPILU_DAUGHTER",
+   "b": "MIT_SHATTIWAZA",
+   "children": []
+  },
+  {
+   "note": "MITANNI rival — Shuttarna III, backed by Assyria & Alshe (a Mitanni-Assyria political link, NOT a marriage). Root node; his father Artatama II is distinct from the earlier Artatama I already in the tree, so no re-parenting.",
+   "a": {
+    "id": "MIT_SHUTTARNA3",
+    "label": "👑 Shuttarna III<br/>c.1325 BC · rival Mitanni claimant (son of the pretender Artatama II); seized the throne against Tushratta's line &amp; ruled as a pro-Assyrian king, backed by Ashur-uballit I of Assyria &amp; Alshe, until Shattiwaza &amp; the Hittites ousted him · historical"
+   },
+   "b": {
+    "id": "MIT_SHUTTARNA3W",
+    "label": "—"
+   },
+   "children": []
+  },
+  {
+   "note": "ASSYRIA — Ashur-uballit I (existing founder of Middle Assyria) to Enlil-nirari; Assyria rose as Mitanni collapsed.",
+   "a": "AS_ASHURUBALLIT1",
+   "b": {
+    "id": "AS_ASHURUBALLIT1W2",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ENLILNIRARI",
+     "label": "👑 Enlil-nirari<br/>c.1327 BC · son &amp; successor of Ashur-uballit I (REAL father-son); king of the rising Middle Assyrian state that expanded into former Mitanni territory; fought Kurigalzu II of Babylon at Sugagu; his own son was Adad-nirari I (shown elsewhere directly under Ashur-uballit) · historical"
+    }
+   ]
+  },
+  {
+   "note": "KASSITE BABYLON — Kara-hardash (existing, half-Assyrian grandson of Ashur-uballit) slain in a Kassite revolt; the usurper Nazi-Bugash placed on the throne. Succession-by-usurpation, flagged (14b convention).",
+   "a": "BAB_KARAHARDASH",
+   "b": {
+    "id": "BAB_KARAHARDASHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_NAZIBUGASH",
+     "label": "👑 Nazi-Bugash (Shuzigash)<br/>c.1333 BC · NOT a descendant — a 'son of a nobody' raised to the throne by the Kassite army that revolted against &amp; killed the half-Assyrian Kara-hardash — usurpation · historical"
+    }
+   ]
+  },
+  {
+   "note": "KASSITE BABYLON — Ashur-uballit I of Assyria invaded, destroyed the usurper Nazi-Bugash, and installed Kurigalzu II. Succession by Assyrian intervention (an Assyria-Babylon link), flagged.",
+   "a": "BAB_NAZIBUGASH",
+   "b": {
+    "id": "BAB_NAZIBUGASHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KURIGALZU2",
+     "label": "👑 Kurigalzu II<br/>c.1332 BC · NOT the usurper's heir — installed on the Babylonian throne by Ashur-uballit I of Assyria after he crushed Nazi-Bugash (Assyria-Babylon link); said to be a son of Burnaburiash II, restoring the legitimate Kassite line; later turned on Assyria &amp; fought it at Sugagu · historical"
+    }
+   ]
+  },
+  {
+   "note": "MYCENAE (LEGENDARY) — the Pelopid line toward the Trojan War. Pelops is a root; his descent from Tantalus is not drawn.",
+   "a": {
+    "id": "MYC_PELOPS",
+    "label": "👑 Pelops<br/>c.1350 BC · legendary king of Pisa/Elis; eponym of the Peloponnese; won Hippodamia in the fatal chariot race &amp; founded the accursed House of Pelops · LEGENDARY"
+   },
+   "b": {
+    "id": "MYC_HIPPODAMIA",
+    "label": "Hippodamia<br/>c.1345 BC · daughter of King Oenomaus of Pisa; wife of Pelops; matriarch of the Pelopid line · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_ATREUS",
+     "label": "👑 Atreus<br/>c.1320 BC · son of Pelops &amp; Hippodamia; king of Mycenae; father of Agamemnon &amp; Menelaus; his blood-feud with Thyestes doomed the house · LEGENDARY"
+    },
+    {
+     "id": "MYC_THYESTES",
+     "label": "👑 Thyestes<br/>c.1318 BC · son of Pelops &amp; Hippodamia; rival &amp; brother of Atreus; the two waged the horror-feud of the House of Pelops · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "MYCENAE (LEGENDARY) — the Perseid line toward Heracles. Electryon (existing son of Perseus) to his daughter Alcmene.",
+   "a": "MYC_ELECTRYON",
+   "b": {
+    "id": "MYC_EURYDICE",
+    "label": "Eurydice<br/>c.1355 BC · wife of Electryon of Mycenae; mother of Alcmene · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_ALCMENE",
+     "label": "Alcmene<br/>c.1340 BC · daughter of Electryon; princess of Mycenae; mother of Heracles by Zeus &amp; of Iphicles by Amphitryon · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "MYCENAE (LEGENDARY) — Alcaeus (existing son of Perseus) to his son Amphitryon.",
+   "a": "MYC_ALCAEUS",
+   "b": {
+    "id": "MYC_ALCAEUSW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "MYC_AMPHITRYON",
+     "label": "👑 Amphitryon<br/>c.1345 BC · son of Alcaeus, grandson of Perseus; general of Thebes; mortal husband of Alcmene &amp; foster-father of Heracles · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "MYCENAE (LEGENDARY) — Amphitryon married his Perseid cousin Alcmene (both descend from Perseus); union of the line, no issue drawn here (their mortal son Iphicles).",
+   "a": "MYC_AMPHITRYON",
+   "b": "MYC_ALCMENE",
+   "children": []
+  },
+  {
+   "note": "MYCENAE (LEGENDARY) — Zeus (the existing deity CRE_ZEUS) &amp; Alcmene, parents of Heracles. Mythological union across the legendary set.",
+   "a": "CRE_ZEUS",
+   "b": "MYC_ALCMENE",
+   "children": [
+    {
+     "id": "MYC_HERACLES",
+     "label": "👑 Heracles<br/>c.1300 BC · greatest of the Greek heroes; son of Zeus &amp; Alcmene of Mycenae; his descendants, the Heraclidae, would return to claim the Peloponnese · LEGENDARY"
+    }
+   ]
+  }
+ ]
+}

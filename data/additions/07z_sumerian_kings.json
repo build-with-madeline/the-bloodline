@@ -1,23 +1,229 @@
 {
-  "_note": "The Sumerian King List — a SEPARATE Mesopotamian tradition, deliberately NOT connected to Adam's line. Two honest reasons: (1) no documented bloodline links Sumerian/Akkadian kings to anyone else in this tree (dynasties were broken by conquest), and (2) the historical kings (Gilgamesh ~2700, Enmebaragesi ~2600, Sargon ~2334 BC) predate the biblical Ussher Flood date (~2348 BC), so they can't sit below Noah. Rendered as a SUCCESSION chain (a king-list), not a father-son bloodline — the header says so. Legendary at the top; historical from Enmebaragesi/Sargon down. All ids prefixed SUM_ so they classify to the SUMER house. This is its own root; the tree now has two components by design.",
-  "families": [
-    {"a": {"id": "SUM_HEADER", "label": "The Sumerian King List<br/>c.3400 BC · the succession of Mesopotamian kingship<br/>· a king-list, NOT a father-son bloodline; a separate tradition with no link to Adam's line"}, "b": {"id": "SUM_HEADERW", "label": "—"}, "children": [{"id": "SUM_ALULIM", "label": "Alulim<br/>c.3300 BC · first king of Eridu; 'kingship descended from heaven' · legendary"}]},
-    {"a": "SUM_ALULIM", "b": {"id": "SUM_ALULIMW", "label": "—"}, "children": [{"id": "SUM_ALALNGAR", "label": "Alalngar<br/>c.3270 BC · king of Eridu · legendary"}]},
-    {"a": "SUM_ALALNGAR", "b": {"id": "SUM_ALALNGARW", "label": "—"}, "children": [{"id": "SUM_ENMENLUANA", "label": "En-men-lu-ana<br/>c.3240 BC · king of Bad-tibira · legendary"}]},
-    {"a": "SUM_ENMENLUANA", "b": {"id": "SUM_ENMENLUANAW", "label": "—"}, "children": [{"id": "SUM_ENMENGALANA", "label": "En-men-gal-ana<br/>c.3210 BC · king of Bad-tibira · legendary"}]},
-    {"a": "SUM_ENMENGALANA", "b": {"id": "SUM_ENMENGALANAW", "label": "—"}, "children": [{"id": "SUM_DUMUZID", "label": "Dumuzid the Shepherd<br/>c.3180 BC · king of Bad-tibira; the shepherd-god · legendary"}]},
-    {"a": "SUM_DUMUZID", "b": {"id": "SUM_DUMUZIDW", "label": "—"}, "children": [{"id": "SUM_ENSIPAD", "label": "En-sipad-zid-ana<br/>c.3150 BC · king of Larak · legendary"}]},
-    {"a": "SUM_ENSIPAD", "b": {"id": "SUM_ENSIPADW", "label": "—"}, "children": [{"id": "SUM_ENMENDUR", "label": "En-men-dur-ana (Enmeduranki)<br/>c.3120 BC · 7th king, of Sippar; master of divination — often paralleled with Enoch, the 7th patriarch · legendary"}]},
-    {"a": "SUM_ENMENDUR", "b": {"id": "SUM_ENMENDURW", "label": "—"}, "children": [{"id": "SUM_UBARATUTU", "label": "Ubara-Tutu<br/>c.3000 BC · last king before the flood, of Shuruppak · legendary"}]},
-    {"a": "SUM_UBARATUTU", "b": {"id": "SUM_UBARATUTUW", "label": "—"}, "children": [{"id": "SUM_ZIUSUDRA", "label": "Ziusudra (Utnapishtim)<br/>c.2950 BC · the flood-hero who survived the deluge — the Mesopotamian Noah · legendary"}]},
-    {"a": "SUM_ZIUSUDRA", "b": {"id": "SUM_ZIUSUDRAW", "label": "—"}, "children": [{"id": "SUM_ETANA", "label": "Etana of Kish<br/>c.2850 BC · 'the shepherd who ascended to heaven' · legendary"}]},
-    {"a": "SUM_ETANA", "b": {"id": "SUM_ETANAW", "label": "—"}, "children": [{"id": "SUM_ENMERKAR", "label": "Enmerkar of Uruk<br/>c.2800 BC · built Uruk; hero of Sumerian epic · legendary"}]},
-    {"a": "SUM_ENMERKAR", "b": {"id": "SUM_ENMERKARW", "label": "—"}, "children": [{"id": "SUM_LUGALBANDA", "label": "Lugalbanda of Uruk<br/>c.2760 BC · epic hero; father of Gilgamesh in tradition · legendary"}]},
-    {"a": "SUM_LUGALBANDA", "b": {"id": "SUM_LUGALBANDAW", "label": "—"}, "children": [{"id": "SUM_GILGAMESH", "label": "Gilgamesh of Uruk<br/>c.2700 BC · hero of the Epic of Gilgamesh · legendary (possible historical kernel)"}]},
-    {"a": "SUM_GILGAMESH", "b": {"id": "SUM_GILGAMESHW", "label": "—"}, "children": [{"id": "SUM_ENMEBARAGESI", "label": "Enmebaragesi of Kish<br/>c.2600 BC · earliest king with contemporary inscriptions — the first HISTORICAL figure of the list"}]},
-    {"a": "SUM_ENMEBARAGESI", "b": {"id": "SUM_ENMEBARAGESIW", "label": "—"}, "children": [{"id": "SUM_SARGON", "label": "Sargon of Akkad<br/>c.2334 BC · founder of the Akkadian Empire — the world's first empire · historical"}]},
-    {"a": "SUM_SARGON", "b": {"id": "SUM_SARGONW", "label": "—"}, "children": [{"id": "SUM_NARAMSIN", "label": "Naram-Sin of Akkad<br/>c.2254 BC · Sargon's grandson; declared himself a god · historical"}]},
-    {"a": "SUM_NARAMSIN", "b": {"id": "SUM_NARAMSINW", "label": "—"}, "children": [{"id": "SUM_URNAMMU", "label": "Ur-Nammu of Ur<br/>c.2112 BC · founded the Third Dynasty of Ur; oldest surviving law code · historical"}]},
-    {"a": "SUM_URNAMMU", "b": {"id": "SUM_URNAMMUW", "label": "—"}, "children": [{"id": "SUM_SHULGI", "label": "Shulgi of Ur<br/>c.2094 BC · Ur-Nammu's son; the height of the Ur III empire · historical"}]}
-  ]
+ "_note": "The Sumerian King List — a SEPARATE Mesopotamian tradition, deliberately NOT connected to Adam's line. Two honest reasons: (1) no documented bloodline links Sumerian/Akkadian kings to anyone else in this tree (dynasties were broken by conquest), and (2) the historical kings (Gilgamesh ~2700, Enmebaragesi ~2600, Sargon ~2334 BC) predate the biblical Ussher Flood date (~2348 BC), so they can't sit below Noah. Rendered as a SUCCESSION chain (a king-list), not a father-son bloodline — the header says so. Legendary at the top; historical from Enmebaragesi/Sargon down. All ids prefixed SUM_ so they classify to the SUMER house. This is its own root; the tree now has two components by design.",
+ "families": [
+  {
+   "a": {
+    "id": "SUM_ALULIM",
+    "label": "Alulim<br/>c.3300 BC · first king of Eridu; 'kingship descended from heaven' · legendary"
+   },
+   "b": {
+    "id": "SUM_ALULIMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ALALNGAR",
+     "label": "Alalngar<br/>c.3270 BC · king of Eridu · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ALALNGAR",
+   "b": {
+    "id": "SUM_ALALNGARW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ENMENLUANA",
+     "label": "En-men-lu-ana<br/>c.3240 BC · king of Bad-tibira · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ENMENLUANA",
+   "b": {
+    "id": "SUM_ENMENLUANAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ENMENGALANA",
+     "label": "En-men-gal-ana<br/>c.3210 BC · king of Bad-tibira · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ENMENGALANA",
+   "b": {
+    "id": "SUM_ENMENGALANAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_DUMUZID",
+     "label": "Dumuzid the Shepherd<br/>c.3180 BC · king of Bad-tibira; the shepherd-god · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_DUMUZID",
+   "b": {
+    "id": "SUM_DUMUZIDW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ENSIPAD",
+     "label": "En-sipad-zid-ana<br/>c.3150 BC · king of Larak · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ENSIPAD",
+   "b": {
+    "id": "SUM_ENSIPADW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ENMENDUR",
+     "label": "En-men-dur-ana (Enmeduranki)<br/>c.3120 BC · 7th king, of Sippar; master of divination — often paralleled with Enoch, the 7th patriarch · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ENMENDUR",
+   "b": {
+    "id": "SUM_ENMENDURW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_UBARATUTU",
+     "label": "Ubara-Tutu<br/>c.3000 BC · last king before the flood, of Shuruppak · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_UBARATUTU",
+   "b": {
+    "id": "SUM_UBARATUTUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ZIUSUDRA",
+     "label": "Ziusudra (Utnapishtim)<br/>c.2950 BC · the flood-hero who survived the deluge — the Mesopotamian Noah · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ZIUSUDRA",
+   "b": {
+    "id": "SUM_ZIUSUDRAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ETANA",
+     "label": "Etana of Kish<br/>c.2850 BC · 'the shepherd who ascended to heaven' · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ETANA",
+   "b": {
+    "id": "SUM_ETANAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ENMERKAR",
+     "label": "Enmerkar of Uruk<br/>c.2800 BC · built Uruk; hero of Sumerian epic · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ENMERKAR",
+   "b": {
+    "id": "SUM_ENMERKARW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_LUGALBANDA",
+     "label": "Lugalbanda of Uruk<br/>c.2760 BC · epic hero; father of Gilgamesh in tradition · legendary"
+    }
+   ]
+  },
+  {
+   "a": "SUM_LUGALBANDA",
+   "b": {
+    "id": "SUM_LUGALBANDAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_GILGAMESH",
+     "label": "Gilgamesh of Uruk<br/>c.2700 BC · hero of the Epic of Gilgamesh · legendary (possible historical kernel)"
+    }
+   ]
+  },
+  {
+   "a": "SUM_GILGAMESH",
+   "b": {
+    "id": "SUM_GILGAMESHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_ENMEBARAGESI",
+     "label": "Enmebaragesi of Kish<br/>c.2600 BC · earliest king with contemporary inscriptions — the first HISTORICAL figure of the list"
+    }
+   ]
+  },
+  {
+   "a": "SUM_ENMEBARAGESI",
+   "b": {
+    "id": "SUM_ENMEBARAGESIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_SARGON",
+     "label": "Sargon of Akkad<br/>c.2334 BC · founder of the Akkadian Empire — the world's first empire · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_SARGON",
+   "b": {
+    "id": "SUM_SARGONW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_NARAMSIN",
+     "label": "Naram-Sin of Akkad<br/>c.2254 BC · Sargon's grandson; declared himself a god · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_NARAMSIN",
+   "b": {
+    "id": "SUM_NARAMSINW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_URNAMMU",
+     "label": "Ur-Nammu of Ur<br/>c.2112 BC · founded the Third Dynasty of Ur; oldest surviving law code · historical"
+    }
+   ]
+  },
+  {
+   "a": "SUM_URNAMMU",
+   "b": {
+    "id": "SUM_URNAMMUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SUM_SHULGI",
+     "label": "Shulgi of Ur<br/>c.2094 BC · Ur-Nammu's son; the height of the Ur III empire · historical"
+    }
+   ]
+  }
+ ]
 }

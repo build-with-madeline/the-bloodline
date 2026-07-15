@@ -1,28 +1,271 @@
 {
-  "_note": "Two SEPARATE king-list islands, each its own succession chain with no bloodline link to Adam's line or to each other. (A) THE KINGS OF ELAM (ids prefixed EL_) — the Awan dynasty (c.2400–2100 BC) then the Shimashki dynasty (c.2037–1970 BC) of ancient Iran, from the Susa dynastic king-list. Elam is named in Genesis 10:22 as a son of Shem, but no documented descent connects these historical rulers to that name, so this is rendered as a succession, not a bloodline. Elamite chronology is genuinely uncertain and fragmentary: the early Awan names (Peli through Napilhush) are little more than names in a list, the middle Awan kings (Luhishan, Hishep-ratep) appear in Akkadian sources and are firmer, and Kutik-Inshushinak and the Shimashki kings are firmly historical. Dates are scholarly approximations. (B) THE KINGS OF ASSYRIA (ids prefixed AS_) — the earliest section of the Assyrian King List: the 'seventeen kings who lived in tents' (legendary, uncorroborated by any contemporary record, likely partly invented) down to the first firmly-attested city-kings of Ashur (Puzur-Ashur I through Erishum I, c.2025–1950 BC). Legendary at the top, historical from Puzur-Ashur I down. Each chain is ordered by strictly descending date (earliest BC at top). Sources: Wikipedia 'List of Elamite kings', 'Awan dynasty', 'Shimashki dynasty', 'List of Assyrian kings', 'Puzur-Ashur I', 'Erishum I'; Encyclopaedia Iranica 'Awan'; Potts, The Archaeology of Elam.",
-  "families": [
-    {"a": {"id": "EL_HEADER", "label": "The Kings of Elam<br/>the Awan &amp; Shimashki dynasties of ancient Iran (a king-list)<br/>· Elam is named in Genesis 10:22 as a son of Shem · a separate tradition with no bloodline link here"}, "b": {"id": "EL_HEADERW", "label": "—"}, "children": [{"id": "EL_PELI", "label": "Peli (Pieli)<br/>c.2400 BC · first named king of the Awan dynasty · legendary / a name in the Susa list"}]},
-    {"a": "EL_PELI", "b": {"id": "EL_PELIW", "label": "—"}, "children": [{"id": "EL_TATA", "label": "Tata (Tari)<br/>c.2380 BC · Awan dynasty · legendary / a name in the Susa list"}]},
-    {"a": "EL_TATA", "b": {"id": "EL_TATAW", "label": "—"}, "children": [{"id": "EL_UKKUTAHESH", "label": "Ukkutahesh<br/>c.2360 BC · Awan dynasty · legendary / a name in the Susa list"}]},
-    {"a": "EL_UKKUTAHESH", "b": {"id": "EL_UKKUTAHESHW", "label": "—"}, "children": [{"id": "EL_HISHUR", "label": "Hishur<br/>c.2350 BC · Awan dynasty · legendary / a name in the Susa list"}]},
-    {"a": "EL_HISHUR", "b": {"id": "EL_HISHURW", "label": "—"}, "children": [{"id": "EL_NAPILHUSH", "label": "Napilhush<br/>c.2340 BC · Awan dynasty · legendary / a name in the Susa list"}]},
-    {"a": "EL_NAPILHUSH", "b": {"id": "EL_NAPILHUSHW", "label": "—"}, "children": [{"id": "EL_LUHISHAN", "label": "Luhishan (Luhhishan)<br/>c.2325 BC · Awan king named in Sargon of Akkad's inscriptions · historical (firmer)"}]},
-    {"a": "EL_LUHISHAN", "b": {"id": "EL_LUHISHANW", "label": "—"}, "children": [{"id": "EL_HISHEPRATEP", "label": "Hishep-ratep<br/>c.2260 BC · Awan king; fought Naram-Sin of Akkad · historical (firmer)"}]},
-    {"a": "EL_HISHEPRATEP", "b": {"id": "EL_HISHEPRATEPW", "label": "—"}, "children": [{"id": "EL_KUTIKINSHUSHINAK", "label": "Kutik-Inshushinak (Puzur-Inshushinak)<br/>c.2100 BC · last and greatest king of Awan; freed Elam from Akkad · historical"}]},
-    {"a": "EL_KUTIKINSHUSHINAK", "b": {"id": "EL_KUTIKINSHUSHINAKW", "label": "—"}, "children": [{"id": "EL_GIRNAMME", "label": "Girnamme<br/>c.2037 BC · first king of the Shimashki dynasty; contemporary of Shu-Sin of Ur · historical"}]},
-    {"a": "EL_GIRNAMME", "b": {"id": "EL_GIRNAMMEW", "label": "—"}, "children": [{"id": "EL_KINDATTU", "label": "Kindattu<br/>c.2000 BC · Shimashki king who sacked Ur and ended the Third Dynasty of Ur · historical"}]},
-    {"a": "EL_KINDATTU", "b": {"id": "EL_KINDATTUW", "label": "—"}, "children": [{"id": "EL_IDATTU", "label": "Idattu I (Indattu-Inshushinak)<br/>c.1970 BC · Shimashki king; styled himself 'king of Shimashki and Elam' · historical"}]},
-
-    {"a": {"id": "AS_HEADER", "label": "The Kings of Assyria<br/>the early Assyrian King List — 'kings who lived in tents' down to the first city-kings (a king-list)<br/>· a separate tradition with no bloodline link here"}, "b": {"id": "AS_HEADERW", "label": "—"}, "children": [{"id": "AS_TUDIYA", "label": "Tudiya<br/>c.2450 BC · first of the 'seventeen kings who lived in tents' · legendary"}]},
-    {"a": "AS_TUDIYA", "b": {"id": "AS_TUDIYAW", "label": "—"}, "children": [{"id": "AS_ADAMU", "label": "Adamu<br/>c.2420 BC · second of the kings who lived in tents · legendary"}]},
-    {"a": "AS_ADAMU", "b": {"id": "AS_ADAMUW", "label": "—"}, "children": [{"id": "AS_YANGI", "label": "Yangi<br/>c.2400 BC · a king who lived in tents · legendary"}]},
-    {"a": "AS_YANGI", "b": {"id": "AS_YANGIW", "label": "—"}, "children": [{"id": "AS_HARHARU", "label": "Harharu<br/>c.2350 BC · a king who lived in tents · legendary"}]},
-    {"a": "AS_HARHARU", "b": {"id": "AS_HARHARUW", "label": "—"}, "children": [{"id": "AS_DIDANU", "label": "Didanu<br/>c.2250 BC · a king who lived in tents · legendary"}]},
-    {"a": "AS_DIDANU", "b": {"id": "AS_DIDANUW", "label": "—"}, "children": [{"id": "AS_USHPIA", "label": "Ushpia<br/>c.2050 BC · traditionally credited with founding the temple of Ashur · legendary (semi-historical)"}]},
-    {"a": "AS_USHPIA", "b": {"id": "AS_USHPIAW", "label": "—"}, "children": [{"id": "AS_APIASHAL", "label": "Apiashal<br/>c.2030 BC · son of Ushpia; last of the kings who lived in tents · legendary"}]},
-    {"a": "AS_APIASHAL", "b": {"id": "AS_APIASHALW", "label": "—"}, "children": [{"id": "AS_PUZURASHUR", "label": "Puzur-Ashur I<br/>c.2025 BC · founder of Ashur as an independent city-state · historical (dynasty founder)"}]},
-    {"a": "AS_PUZURASHUR", "b": {"id": "AS_PUZURASHURW", "label": "—"}, "children": [{"id": "AS_SHALIMAHUM", "label": "Shalim-ahum<br/>c.2000 BC · son of Puzur-Ashur I; earliest Assyrian ruler attested in a contemporary inscription · historical"}]},
-    {"a": "AS_SHALIMAHUM", "b": {"id": "AS_SHALIMAHUMW", "label": "—"}, "children": [{"id": "AS_ILUSHUMA", "label": "Ilu-shuma<br/>c.1975 BC · son of Shalim-ahum; early builder-king of Ashur · historical"}]},
-    {"a": "AS_ILUSHUMA", "b": {"id": "AS_ILUSHUMAW", "label": "—"}, "children": [{"id": "AS_ERISHUM", "label": "Erishum I<br/>c.1950 BC · son of Ilu-shuma; expanded Assyrian trade colonies in Anatolia · historical"}]}
-  ]
+ "_note": "Two SEPARATE king-list islands, each its own succession chain with no bloodline link to Adam's line or to each other. (A) THE KINGS OF ELAM (ids prefixed EL_) — the Awan dynasty (c.2400–2100 BC) then the Shimashki dynasty (c.2037–1970 BC) of ancient Iran, from the Susa dynastic king-list. Elam is named in Genesis 10:22 as a son of Shem, but no documented descent connects these historical rulers to that name, so this is rendered as a succession, not a bloodline. Elamite chronology is genuinely uncertain and fragmentary: the early Awan names (Peli through Napilhush) are little more than names in a list, the middle Awan kings (Luhishan, Hishep-ratep) appear in Akkadian sources and are firmer, and Kutik-Inshushinak and the Shimashki kings are firmly historical. Dates are scholarly approximations. (B) THE KINGS OF ASSYRIA (ids prefixed AS_) — the earliest section of the Assyrian King List: the 'seventeen kings who lived in tents' (legendary, uncorroborated by any contemporary record, likely partly invented) down to the first firmly-attested city-kings of Ashur (Puzur-Ashur I through Erishum I, c.2025–1950 BC). Legendary at the top, historical from Puzur-Ashur I down. Each chain is ordered by strictly descending date (earliest BC at top). Sources: Wikipedia 'List of Elamite kings', 'Awan dynasty', 'Shimashki dynasty', 'List of Assyrian kings', 'Puzur-Ashur I', 'Erishum I'; Encyclopaedia Iranica 'Awan'; Potts, The Archaeology of Elam.",
+ "families": [
+  {
+   "a": {
+    "id": "EL_PELI",
+    "label": "Peli (Pieli)<br/>c.2400 BC · first named king of the Awan dynasty · legendary / a name in the Susa list"
+   },
+   "b": {
+    "id": "EL_PELIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_TATA",
+     "label": "Tata (Tari)<br/>c.2380 BC · Awan dynasty · legendary / a name in the Susa list"
+    }
+   ]
+  },
+  {
+   "a": "EL_TATA",
+   "b": {
+    "id": "EL_TATAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_UKKUTAHESH",
+     "label": "Ukkutahesh<br/>c.2360 BC · Awan dynasty · legendary / a name in the Susa list"
+    }
+   ]
+  },
+  {
+   "a": "EL_UKKUTAHESH",
+   "b": {
+    "id": "EL_UKKUTAHESHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_HISHUR",
+     "label": "Hishur<br/>c.2350 BC · Awan dynasty · legendary / a name in the Susa list"
+    }
+   ]
+  },
+  {
+   "a": "EL_HISHUR",
+   "b": {
+    "id": "EL_HISHURW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_NAPILHUSH",
+     "label": "Napilhush<br/>c.2340 BC · Awan dynasty · legendary / a name in the Susa list"
+    }
+   ]
+  },
+  {
+   "a": "EL_NAPILHUSH",
+   "b": {
+    "id": "EL_NAPILHUSHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_LUHISHAN",
+     "label": "Luhishan (Luhhishan)<br/>c.2325 BC · Awan king named in Sargon of Akkad's inscriptions · historical (firmer)"
+    }
+   ]
+  },
+  {
+   "a": "EL_LUHISHAN",
+   "b": {
+    "id": "EL_LUHISHANW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_HISHEPRATEP",
+     "label": "Hishep-ratep<br/>c.2260 BC · Awan king; fought Naram-Sin of Akkad · historical (firmer)"
+    }
+   ]
+  },
+  {
+   "a": "EL_HISHEPRATEP",
+   "b": {
+    "id": "EL_HISHEPRATEPW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_KUTIKINSHUSHINAK",
+     "label": "Kutik-Inshushinak (Puzur-Inshushinak)<br/>c.2100 BC · last and greatest king of Awan; freed Elam from Akkad · historical"
+    }
+   ]
+  },
+  {
+   "a": "EL_KUTIKINSHUSHINAK",
+   "b": {
+    "id": "EL_KUTIKINSHUSHINAKW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_GIRNAMME",
+     "label": "Girnamme<br/>c.2037 BC · first king of the Shimashki dynasty; contemporary of Shu-Sin of Ur · historical"
+    }
+   ]
+  },
+  {
+   "a": "EL_GIRNAMME",
+   "b": {
+    "id": "EL_GIRNAMMEW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_KINDATTU",
+     "label": "Kindattu<br/>c.2000 BC · Shimashki king who sacked Ur and ended the Third Dynasty of Ur · historical"
+    }
+   ]
+  },
+  {
+   "a": "EL_KINDATTU",
+   "b": {
+    "id": "EL_KINDATTUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_IDATTU",
+     "label": "Idattu I (Indattu-Inshushinak)<br/>c.1970 BC · Shimashki king; styled himself 'king of Shimashki and Elam' · historical"
+    }
+   ]
+  },
+  {
+   "a": {
+    "id": "AS_TUDIYA",
+    "label": "Tudiya<br/>c.2450 BC · first of the 'seventeen kings who lived in tents' · legendary"
+   },
+   "b": {
+    "id": "AS_TUDIYAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ADAMU",
+     "label": "Adamu<br/>c.2420 BC · second of the kings who lived in tents · legendary"
+    }
+   ]
+  },
+  {
+   "a": "AS_ADAMU",
+   "b": {
+    "id": "AS_ADAMUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_YANGI",
+     "label": "Yangi<br/>c.2400 BC · a king who lived in tents · legendary"
+    }
+   ]
+  },
+  {
+   "a": "AS_YANGI",
+   "b": {
+    "id": "AS_YANGIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_HARHARU",
+     "label": "Harharu<br/>c.2350 BC · a king who lived in tents · legendary"
+    }
+   ]
+  },
+  {
+   "a": "AS_HARHARU",
+   "b": {
+    "id": "AS_HARHARUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_DIDANU",
+     "label": "Didanu<br/>c.2250 BC · a king who lived in tents · legendary"
+    }
+   ]
+  },
+  {
+   "a": "AS_DIDANU",
+   "b": {
+    "id": "AS_DIDANUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_USHPIA",
+     "label": "Ushpia<br/>c.2050 BC · traditionally credited with founding the temple of Ashur · legendary (semi-historical)"
+    }
+   ]
+  },
+  {
+   "a": "AS_USHPIA",
+   "b": {
+    "id": "AS_USHPIAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_APIASHAL",
+     "label": "Apiashal<br/>c.2030 BC · son of Ushpia; last of the kings who lived in tents · legendary"
+    }
+   ]
+  },
+  {
+   "a": "AS_APIASHAL",
+   "b": {
+    "id": "AS_APIASHALW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_PUZURASHUR",
+     "label": "Puzur-Ashur I<br/>c.2025 BC · founder of Ashur as an independent city-state · historical (dynasty founder)"
+    }
+   ]
+  },
+  {
+   "a": "AS_PUZURASHUR",
+   "b": {
+    "id": "AS_PUZURASHURW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_SHALIMAHUM",
+     "label": "Shalim-ahum<br/>c.2000 BC · son of Puzur-Ashur I; earliest Assyrian ruler attested in a contemporary inscription · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_SHALIMAHUM",
+   "b": {
+    "id": "AS_SHALIMAHUMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ILUSHUMA",
+     "label": "Ilu-shuma<br/>c.1975 BC · son of Shalim-ahum; early builder-king of Ashur · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ILUSHUMA",
+   "b": {
+    "id": "AS_ILUSHUMAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ERISHUM",
+     "label": "Erishum I<br/>c.1950 BC · son of Ilu-shuma; expanded Assyrian trade colonies in Anatolia · historical"
+    }
+   ]
+  }
+ ]
 }

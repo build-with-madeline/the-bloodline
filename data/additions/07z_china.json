@@ -1,22 +1,216 @@
 {
-  "_note": "The Emperors of Ancient China — a SEPARATE East Asian tradition, deliberately NOT connected to Adam's line. Two honest reasons: (1) no documented bloodline links China's legendary rulers to anyone else in this tree — it is a distinct mythological/dynastic tradition, and (2) it is a king-list stitched together from myth (the Three Sovereigns), legend (the Five Emperors), and semi-history (the Xia dynasty), not a single verified father-son bloodline. Rendered as a SUCCESSION chain (a king-list), not a strict bloodline — the header says so — though real father-son links are noted where tradition records them (e.g. most of the Xia kings). Status is flagged rigorously: MYTHICAL (Three Sovereigns: Fuxi, Nuwa, Shennong), LEGENDARY (Five Emperors: Huangdi/Yellow Emperor, Zhuanxu, Ku, Yao, Shun), SEMI-HISTORICAL (the Xia dynasty, Yu the Great down to Jie — traditional but not yet archaeologically confirmed). Dates follow the traditional/received chronology (Sima Qian's Shiji, the Xia-Shang-Zhou Chronology Project's c.2070-1600 BC for the Xia). Note the flood parallel: Yu the Great earns the Mandate by taming the great flood — a flood-hero motif echoing Noah and Ziusudra. All ids prefixed CN_ so they classify to the CHINA house. This is its own root; a separate island by design.",
-  "families": [
-    {"a": {"id": "CN_HEADER", "label": "The Emperors of Ancient China<br/>c.2900 BC · legendary rulers &amp; the Xia dynasty (a king-list, not a strict bloodline)<br/>· a separate tradition with no link to Adam's line"}, "b": {"id": "CN_HEADERW", "label": "—"}, "children": [{"id": "CN_FUXI", "label": "Fuxi (Fu Hsi)<br/>c.2852 BC · first of the Three Sovereigns; gave humanity fishing, hunting &amp; the eight trigrams · MYTHICAL"}]},
-    {"a": "CN_FUXI", "b": {"id": "CN_FUXIW", "label": "—"}, "children": [{"id": "CN_NUWA", "label": "Nuwa (Nü-wa)<br/>c.2850 BC · consort &amp; sister of Fuxi; mother-goddess who mended the sky &amp; shaped humankind from clay · MYTHICAL"}]},
-    {"a": "CN_NUWA", "b": {"id": "CN_NUWAW", "label": "—"}, "children": [{"id": "CN_SHENNONG", "label": "Shennong (the Yan Emperor)<br/>c.2737 BC · 'Divine Farmer'; taught agriculture &amp; herbal medicine · MYTHICAL"}]},
-    {"a": "CN_SHENNONG", "b": {"id": "CN_SHENNONGW", "label": "—"}, "children": [{"id": "CN_HUANGDI", "label": "Yellow Emperor (Huangdi)<br/>c.2697 BC · first of the Five Emperors; legendary ancestor of the Chinese people · LEGENDARY"}]},
-    {"a": "CN_HUANGDI", "b": {"id": "CN_HUANGDIW", "label": "—"}, "children": [{"id": "CN_ZHUANXU", "label": "Zhuanxu (Gaoyang)<br/>c.2514 BC · grandson of the Yellow Emperor; reformer of religion &amp; the calendar · LEGENDARY"}]},
-    {"a": "CN_ZHUANXU", "b": {"id": "CN_ZHUANXUW", "label": "—"}, "children": [{"id": "CN_KU", "label": "Emperor Ku (Gaoxin)<br/>c.2436 BC · great-grandson of the Yellow Emperor; wise &amp; impartial ruler · LEGENDARY"}]},
-    {"a": "CN_KU", "b": {"id": "CN_KUW", "label": "—"}, "children": [{"id": "CN_YAO", "label": "Emperor Yao<br/>c.2356 BC · model sage-king; passed the throne by merit, not blood, to Shun · LEGENDARY"}]},
-    {"a": "CN_YAO", "b": {"id": "CN_YAOW", "label": "—"}, "children": [{"id": "CN_SHUN", "label": "Emperor Shun<br/>c.2255 BC · last of the Five Emperors; chosen for virtue; ceded the throne to Yu · LEGENDARY"}]},
-    {"a": "CN_SHUN", "b": {"id": "CN_SHUNW", "label": "—"}, "children": [{"id": "CN_YU", "label": "Yu the Great<br/>c.2070 BC · founder of the Xia dynasty; tamed the great flood &amp; earned the Mandate — the Chinese flood-hero, echoing Noah &amp; Ziusudra · SEMI-HISTORICAL"}]},
-    {"a": "CN_YU", "b": {"id": "CN_YUW", "label": "—"}, "children": [{"id": "CN_QI", "label": "Qi of Xia<br/>c.2025 BC · son of Yu; broke the abdication custom to found hereditary dynastic rule · SEMI-HISTORICAL"}]},
-    {"a": "CN_QI", "b": {"id": "CN_QIW", "label": "—"}, "children": [{"id": "CN_TAIKANG", "label": "Tai Kang<br/>c.2015 BC · son of Qi; lost control of the state (the 'Five Sons' exile) · SEMI-HISTORICAL"}]},
-    {"a": "CN_TAIKANG", "b": {"id": "CN_TAIKANGW", "label": "—"}, "children": [{"id": "CN_ZHONGKANG", "label": "Zhong Kang<br/>c.1985 BC · brother of Tai Kang; ruled amid the loss of Xia power · SEMI-HISTORICAL"}]},
-    {"a": "CN_ZHONGKANG", "b": {"id": "CN_ZHONGKANGW", "label": "—"}, "children": [{"id": "CN_XIANG", "label": "Xiang<br/>c.1970 BC · son of Zhong Kang; killed as the usurper Han Zhuo seized the throne · SEMI-HISTORICAL"}]},
-    {"a": "CN_XIANG", "b": {"id": "CN_XIANGW", "label": "—"}, "children": [{"id": "CN_SHAOKANG", "label": "Shao Kang<br/>c.1940 BC · posthumous son of Xiang; the 'Shao Kang Restoration' won back the Xia throne · SEMI-HISTORICAL"}]},
-    {"a": "CN_SHAOKANG", "b": {"id": "CN_SHAOKANGW", "label": "—"}, "children": [{"id": "CN_ZHU", "label": "Zhu (Yu Shu)<br/>c.1915 BC · son of Shao Kang; consolidated the restored dynasty &amp; expanded eastward · SEMI-HISTORICAL"}]},
-    {"a": "CN_ZHU", "b": {"id": "CN_ZHUW", "label": "—"}, "children": [{"id": "CN_KONGJIA", "label": "Kong Jia<br/>c.1740 BC · later Xia king whose misrule &amp; superstition began the dynasty's decline · SEMI-HISTORICAL"}]},
-    {"a": "CN_KONGJIA", "b": {"id": "CN_KONGJIAW", "label": "—"}, "children": [{"id": "CN_JIE", "label": "Jie of Xia<br/>c.1650 BC · last Xia king; tyrant overthrown by Tang, ending the dynasty &amp; opening the Shang · SEMI-HISTORICAL"}]}
-  ]
+ "_note": "The Emperors of Ancient China — a SEPARATE East Asian tradition, deliberately NOT connected to Adam's line. Two honest reasons: (1) no documented bloodline links China's legendary rulers to anyone else in this tree — it is a distinct mythological/dynastic tradition, and (2) it is a king-list stitched together from myth (the Three Sovereigns), legend (the Five Emperors), and semi-history (the Xia dynasty), not a single verified father-son bloodline. Rendered as a SUCCESSION chain (a king-list), not a strict bloodline — the header says so — though real father-son links are noted where tradition records them (e.g. most of the Xia kings). Status is flagged rigorously: MYTHICAL (Three Sovereigns: Fuxi, Nuwa, Shennong), LEGENDARY (Five Emperors: Huangdi/Yellow Emperor, Zhuanxu, Ku, Yao, Shun), SEMI-HISTORICAL (the Xia dynasty, Yu the Great down to Jie — traditional but not yet archaeologically confirmed). Dates follow the traditional/received chronology (Sima Qian's Shiji, the Xia-Shang-Zhou Chronology Project's c.2070-1600 BC for the Xia). Note the flood parallel: Yu the Great earns the Mandate by taming the great flood — a flood-hero motif echoing Noah and Ziusudra. All ids prefixed CN_ so they classify to the CHINA house. This is its own root; a separate island by design.",
+ "families": [
+  {
+   "a": {
+    "id": "CN_FUXI",
+    "label": "Fuxi (Fu Hsi)<br/>c.2852 BC · first of the Three Sovereigns; gave humanity fishing, hunting &amp; the eight trigrams · MYTHICAL"
+   },
+   "b": {
+    "id": "CN_FUXIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_NUWA",
+     "label": "Nuwa (Nü-wa)<br/>c.2850 BC · consort &amp; sister of Fuxi; mother-goddess who mended the sky &amp; shaped humankind from clay · MYTHICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_NUWA",
+   "b": {
+    "id": "CN_NUWAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_SHENNONG",
+     "label": "Shennong (the Yan Emperor)<br/>c.2737 BC · 'Divine Farmer'; taught agriculture &amp; herbal medicine · MYTHICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_SHENNONG",
+   "b": {
+    "id": "CN_SHENNONGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_HUANGDI",
+     "label": "Yellow Emperor (Huangdi)<br/>c.2697 BC · first of the Five Emperors; legendary ancestor of the Chinese people · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_HUANGDI",
+   "b": {
+    "id": "CN_HUANGDIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZHUANXU",
+     "label": "Zhuanxu (Gaoyang)<br/>c.2514 BC · grandson of the Yellow Emperor; reformer of religion &amp; the calendar · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZHUANXU",
+   "b": {
+    "id": "CN_ZHUANXUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_KU",
+     "label": "Emperor Ku (Gaoxin)<br/>c.2436 BC · great-grandson of the Yellow Emperor; wise &amp; impartial ruler · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_KU",
+   "b": {
+    "id": "CN_KUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_YAO",
+     "label": "Emperor Yao<br/>c.2356 BC · model sage-king; passed the throne by merit, not blood, to Shun · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_YAO",
+   "b": {
+    "id": "CN_YAOW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_SHUN",
+     "label": "Emperor Shun<br/>c.2255 BC · last of the Five Emperors; chosen for virtue; ceded the throne to Yu · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_SHUN",
+   "b": {
+    "id": "CN_SHUNW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_YU",
+     "label": "Yu the Great<br/>c.2070 BC · founder of the Xia dynasty; tamed the great flood &amp; earned the Mandate — the Chinese flood-hero, echoing Noah &amp; Ziusudra · SEMI-HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_YU",
+   "b": {
+    "id": "CN_YUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_QI",
+     "label": "Qi of Xia<br/>c.2025 BC · son of Yu; broke the abdication custom to found hereditary dynastic rule · SEMI-HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_QI",
+   "b": {
+    "id": "CN_QIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_TAIKANG",
+     "label": "Tai Kang<br/>c.2015 BC · son of Qi; lost control of the state (the 'Five Sons' exile) · SEMI-HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_TAIKANG",
+   "b": {
+    "id": "CN_TAIKANGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZHONGKANG",
+     "label": "Zhong Kang<br/>c.1985 BC · brother of Tai Kang; ruled amid the loss of Xia power · SEMI-HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZHONGKANG",
+   "b": {
+    "id": "CN_ZHONGKANGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_XIANG",
+     "label": "Xiang<br/>c.1970 BC · son of Zhong Kang; killed as the usurper Han Zhuo seized the throne · SEMI-HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_XIANG",
+   "b": {
+    "id": "CN_XIANGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_SHAOKANG",
+     "label": "Shao Kang<br/>c.1940 BC · posthumous son of Xiang; the 'Shao Kang Restoration' won back the Xia throne · SEMI-HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_SHAOKANG",
+   "b": {
+    "id": "CN_SHAOKANGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZHU",
+     "label": "Zhu (Yu Shu)<br/>c.1915 BC · son of Shao Kang; consolidated the restored dynasty &amp; expanded eastward · SEMI-HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZHU",
+   "b": {
+    "id": "CN_ZHUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_KONGJIA",
+     "label": "Kong Jia<br/>c.1740 BC · later Xia king whose misrule &amp; superstition began the dynasty's decline · SEMI-HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_KONGJIA",
+   "b": {
+    "id": "CN_KONGJIAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_JIE",
+     "label": "Jie of Xia<br/>c.1650 BC · last Xia king; tyrant overthrown by Tang, ending the dynasty &amp; opening the Shang · SEMI-HISTORICAL"
+    }
+   ]
+  }
+ ]
 }

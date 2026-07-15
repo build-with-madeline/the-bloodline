@@ -3,22 +3,9 @@
  "families": [
   {
    "a": {
-    "id": "IN_HEADER",
-    "label": "The Puranic Dynasties of India<br/>the Solar &amp; Lunar royal lines from Manu (traditional/legendary chronology)<br/>· a separate tradition with no link to Adam's line"
+    "id": "IN_MANU",
+    "label": "Vaivasvata Manu<br/>c.2900 BC · the flood-survivor warned by the fish-avatar Matsya — India's Noah; progenitor of both royal houses · legendary/mythological"
    },
-   "b": {
-    "id": "IN_HEADERW",
-    "label": "—"
-   },
-   "children": [
-    {
-     "id": "IN_MANU",
-     "label": "Vaivasvata Manu<br/>c.2900 BC · the flood-survivor warned by the fish-avatar Matsya — India's Noah; progenitor of both royal houses · legendary/mythological"
-    }
-   ]
-  },
-  {
-   "a": "IN_MANU",
    "b": {
     "id": "IN_SHRADDHA",
     "label": "Shraddha<br/>consort of Manu · legendary"

@@ -138,6 +138,20 @@ def load_merged():
         prefix = ("👑" if crown else "") + ("✝" if pid in CLERGY else "") + ("😇" if pid in SAINTS else "")
         info["label"] = (prefix + " " + core) if prefix else core
 
+    # Birth-year corrections: these people's labels carry a death/reign year but no
+    # birth year, so the timeline placed them a few years late (below their own child).
+    # An explicit byear the layout prefers over label-parsing puts each parent above its child.
+    BIRTH_YEAR = {
+        "CRIN": 975, "DUNC": 1001, "FERDII": 1452, "ALFREDGREAT": 849,
+        "JAMESISCOT": 1394, "JAMESIISCOT": 1430, "JAMESIIISCOT": 1451,
+        "AMYNTAS3": -420, "MITHRIDATES5": -165,
+        "MATTATHIAS": -195, "SIMONTHASSI": -170, "JOHNHYRCANUS": -145,
+        "ANTIPATER": -100,
+    }
+    for pid, y in BIRTH_YEAR.items():
+        if pid in people:
+            people[pid]["byear"] = y
+
     return {"people": people, "unions": unions, "edges": edges, "_applied_families": applied}
 
 

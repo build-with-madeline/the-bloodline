@@ -55,6 +55,7 @@
 
   // ---- 1. birth years (drive the time axis) ----
   const parseYear = pid => {
+    if (P[pid].byear != null) return P[pid].byear;     // explicit birth-year correction
     const lab = (P[pid].label || '').toLowerCase();
     let m = lab.match(/(\d{1,4})\s*[-–—]\s*\d{1,4}\s*bc/);   // "382-336 bc" -> -382
     if (m) return -(+m[1]);

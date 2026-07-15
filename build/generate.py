@@ -341,7 +341,8 @@ def full_page_html():
 # ---------- person-centric explorer (Ancestry-style) ----------
 def explorer_html():
     data = {
-        "people": {pid: {"label": PEOPLE[pid]["label"], "house": DYN_OF.get(pid)}
+        "people": {pid: {"label": PEOPLE[pid]["label"], "house": DYN_OF.get(pid),
+                         **({"byear": PEOPLE[pid]["byear"]} if PEOPLE[pid].get("byear") is not None else {})}
                    for pid in PEOPLE},
         "unions": [{k: v for k, v in [("parents", u["parents"]), ("children", u["children"]), ("kind", u.get("kind")), ("mistress", u.get("mistress"))] if v is not None} for u in UNIONS.values()],
         "houses": {k: {"title": t.split("—")[0].strip(), "accent": ACCENT[k]} for k, t in DYNASTIES},
@@ -390,7 +391,8 @@ def explorer_html():
 # ---------- whole tree on one page, explorer card design ----------
 def full_tree_html():
     data = {
-        "people": {pid: {"label": PEOPLE[pid]["label"], "house": DYN_OF.get(pid)}
+        "people": {pid: {"label": PEOPLE[pid]["label"], "house": DYN_OF.get(pid),
+                         **({"byear": PEOPLE[pid]["byear"]} if PEOPLE[pid].get("byear") is not None else {})}
                    for pid in PEOPLE},
         "unions": [{k: v for k, v in [("parents", u["parents"]), ("children", u["children"]), ("kind", u.get("kind")), ("mistress", u.get("mistress"))] if v is not None} for u in UNIONS.values()],
         "houses": {k: {"title": t.split("—")[0].strip(), "accent": ACCENT[k]} for k, t in DYNASTIES},

@@ -431,21 +431,16 @@ def full_tree_html():
 """
 
 def main():
-    (ROOT / "pages").mkdir(exist_ok=True)
     (ROOT / "assets").mkdir(exist_ok=True)
-    (ROOT / "index.html").write_text(index_html(), encoding="utf-8")
+    # The full connected tree IS the site now. index.html is the front door;
+    # bloodline-full.html is kept as an alias so old links still resolve.
+    # explorer.html stays as an optional person-centric view.
+    # (The per-house split site + single-Mermaid fallback were retired 2026-07-15 —
+    #  they were a workaround for Mermaid's single-SVG size ceiling, which fulltree.js removed.)
+    (ROOT / "index.html").write_text(full_tree_html(), encoding="utf-8")
     (ROOT / "bloodline-full.html").write_text(full_tree_html(), encoding="utf-8")
-    (ROOT / "bloodline-mermaid.html").write_text(full_page_html(), encoding="utf-8")
     (ROOT / "explorer.html").write_text(explorer_html(), encoding="utf-8")
-    report = []
-    for k, _ in DYNASTIES:
-        (ROOT / "pages" / f"{SLUG[k]}.html").write_text(page_html(k), encoding="utf-8")
-        block, np, ns, nu = build_page_mermaid(k)
-        report.append((k, np, ns, nu))
-    print(f"index.html + {len(DYNASTIES)} pages written")
-    print(f"{'house':13s} {'primary':>7s} {'stubs':>6s} {'unions':>7s}")
-    for k, np, ns, nu in report:
-        print(f"{k:13s} {np:7d} {ns:6d} {nu:7d}")
+    print("index.html (full tree) + bloodline-full.html + explorer.html written")
 
 if __name__ == "__main__":
     main()

@@ -417,7 +417,7 @@ def full_tree_html():
     <input id="search" type="text" placeholder="Search {total} people&hellip;" autocomplete="off">
     <div id="results" class="results" hidden></div>
   </div>
-  <div class="genctl"><span>{total} people &middot; Adam's line + 6 ancient king-lists</span></div>
+  <div class="genctl"><span>{total} people &middot; Adam's line + the ancient king-lists</span></div>
 </header>
 <div id="explore-wrap">
   <div id="stage"><svg id="links"></svg></div>

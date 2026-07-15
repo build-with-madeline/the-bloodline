@@ -1,0 +1,14 @@
+{
+  "_note": "Two real convergence points that connect ancient islands into the main tree. (1) INDIA<->SELEUCIDS via MARRIAGE: Seleucus I made a marriage-alliance (epigamia, Appian/Strabo) with Chandragupta Maurya c.303 BC. Shown honestly: Chandragupta married a daughter of Seleucus I (a documented marriage joining the houses — she connects the Maurya dynasty to the tree), but NO issue of that marriage is recorded, so the Maurya bloodline runs through his Indian queen Durdhara. The Mauryas are the HISTORICAL Indian dynasty, distinct from the legendary Puranic island. (2) ELAM->PERSIA at ANSHAN: the Achaemenids (already in the tree) rose from Elam's royal city of Anshan and took the Elamite title 'King of Anshan'; Teispes allied with Elam. Connected as a flagged DYNASTIC convergence (throne/territory, a debated Elamite-Persian fusion), NOT a documented bloodline. Sorts after 07z + the antiquity files so Seleucus/Apama/Achaemenes/EL_IDATTU all exist.",
+  "families": [
+    {"a": "SELEUCUS1", "b": "APAMA", "children": [{"id": "SELEUKISBRIDE", "label": "a daughter of Seleucus I<br/>c.320 BC · given to Chandragupta in the marriage-alliance (epigamia), c.303 BC<br/>· Appian &amp; Strabo; the princess is unnamed in the sources"}]},
+    {"a": {"id": "IN_CHANDRAGUPTA", "label": "Chandragupta Maurya<br/>c.340 BC · founded the Maurya Empire &amp; unified India;<br/>sealed a marriage-alliance with Seleucus I c.303 BC · historical"}, "b": "SELEUKISBRIDE", "children": []},
+    {"a": "IN_CHANDRAGUPTA", "b": {"id": "IN_DURDHARA", "label": "Durdhara<br/>c.330 BC · Chandragupta's queen (Jain tradition); mother of Bindusara"}, "children": [{"id": "IN_BINDUSARA", "label": "Bindusara<br/>c.320 BC · 2nd Maurya emperor · historical"}]},
+    {"a": "IN_BINDUSARA", "b": {"id": "IN_BINDUSARAW", "label": "—"}, "children": [{"id": "IN_ASHOKA", "label": "Ashoka the Great<br/>c.304 BC · greatest Maurya emperor; embraced Buddhism after Kalinga · historical"}]},
+    {"a": "IN_ASHOKA", "b": {"id": "IN_ASHOKAW", "label": "—"}, "children": [{"id": "IN_DASHARATHAMAURYA", "label": "Dasharatha Maurya<br/>c.252 BC · Ashoka's grandson · historical"}]},
+    {"a": "IN_DASHARATHAMAURYA", "b": {"id": "IN_DASHARATHAMAURYAW", "label": "—"}, "children": [{"id": "IN_BRIHADRATHA", "label": "Brihadratha<br/>c.200 BC · last Maurya emperor; assassinated 185 BC, ending the dynasty · historical"}]},
+
+    {"a": "EL_IDATTU", "b": {"id": "EL_ANSHANW1", "label": "—"}, "kind": "bridge", "children": [{"id": "EL_ANSHANBRIDGE", "label": "the throne of Anshan<br/>c.700 BC · the Neo-Elamite kings held Anshan until the Persians; Teispes 'allied with Elam'<br/>&amp; the Achaemenids took the Elamite royal title 'King of Anshan'<br/>· a DYNASTIC convergence (throne &amp; territory), not a documented bloodline"}]},
+    {"a": "EL_ANSHANBRIDGE", "b": {"id": "EL_ANSHANW2", "label": "—"}, "kind": "bridge", "children": ["ACHAEMENES"]}
+  ]
+}

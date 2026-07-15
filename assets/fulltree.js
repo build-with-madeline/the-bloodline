@@ -208,9 +208,14 @@
     const comps = Object.keys(size).sort((a, b) => size[b] - size[a]);
     if (comps.length > 1) {
       let leftEdge = Math.min(...ids.map(p => pos[p].x));
-      const COLGAP = 520;
+      const COLGAP = 460;
       comps.slice(1).forEach(c => {                       // every component except the biggest
         const members = ids.filter(p => comp[p] == c);
+        // compact the island into a tight column: repack each of its rows from x=0
+        // (the raw layout had spread it across the full tree width)
+        const rows = {};
+        members.forEach(p => (rows[lane[p]] = rows[lane[p]] || []).push(p));
+        Object.values(rows).forEach(row => { row.sort((a, b) => pos[a].x - pos[b].x); row.forEach((p, i) => pos[p].x = i * (CW + HGAP)); });
         const rightEdge = Math.max(...members.map(p => pos[p].x + CW));
         const offset = (leftEdge - COLGAP) - rightEdge;   // slide so its right edge sits COLGAP left of everything so far
         members.forEach(p => pos[p].x += offset);

@@ -21,7 +21,7 @@
     ]},
     {"a": "CAINLAMECH", "b": {"id": "ZILLAH", "label": "Zillah<br/>wife of Lamech · Genesis 4:19"}, "children": [
       {"id": "TUBALCAIN", "label": "Tubal-cain<br/>forger of every tool of bronze &amp; iron; father of metalworking · Genesis 4:22<br/>· in legend, guided blind Lamech's fatal arrow at Cain"},
-      {"id": "NAAMAHCAIN", "label": "Naamah<br/>daughter of Zillah; sister of Tubal-cain · Genesis 4:22<br/>· in rabbinic tradition (Gen. Rabbah 23:3) she is Noah's wife"}
+      "NAAMAH"
     ]}
   ]
 }

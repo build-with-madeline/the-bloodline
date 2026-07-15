@@ -137,20 +137,6 @@
      "label": "👑 Seuserenre Khyan<br/>c.1700 BC · 15th Dynasty (Hyksos); a powerful, widely-attested Delta king with far-flung contacts (Aegean, Anatolia); Edfu evidence hints he overlapped the 13th Dynasty · HISTORICAL"
     }
    ]
-  },
-  {
-   "note": "Bridge forward: the famous later Hyksos kings Apepi (Apophis) and Khamudi, who faced the Theban 17th Dynasty and were finally expelled by Ahmose (~1550), belong to a later slab (~1600 BC and after). Placeholder closing the Hyksos line here.",
-   "a": "HYK_KHYAN",
-   "b": {
-    "id": "HYK_BRIDGE_SUCCW",
-    "label": "—"
-   },
-   "children": [
-    {
-     "id": "HYK_LATERBRIDGE",
-     "label": "👑 the later Hyksos (Apepi &amp; Khamudi)<br/>c.1650 BC · 15th Dynasty; the last Hyksos kings, who fought the Theban 17th Dynasty and were expelled by Ahmose (~1550 BC) — a future slab · HISTORICAL"
-    }
-   ]
   }
  ]
 }

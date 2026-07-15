@@ -1,0 +1,239 @@
+{
+ "_note": "HATTI, KASSITE BABYLON & YAMHAD, c.1700-1500 BC — three threads for the ~1700-1550 BC slab, all built as succession chains with '—' placeholder spouses; real father-son links vs succession-by-usurpation are distinguished in every label. THREAD 1 HITTITE OLD KINGDOM (ids HIT_, extends the existing HIT_HATTUSILI1, referenced as a string and NOT recreated): Hattusili I > Mursili I (his grandson & designated/adopted heir — a REAL descent link; Mursili sacked Aleppo/Yamhad and then Babylon in 1595 BC, ending Hammurabi's First Dynasty) > Hantili I (NOT descent: Hantili was Mursili's brother-in-law, married to Mursili's sister Harapsili, and with Zidanta murdered Mursili — succession by assassination) > Zidanta I (NOT descent: Zidanta was Hantili's son-in-law, married to Hantili's daughter, and usurped by murdering Hantili's son Piseni — succession) > Ammuna (REAL father-son: son of Zidanta I, whom he murdered — patricide) > Huzziya I (REAL father-son: son of Ammuna by a lesser wife, who seized the throne by killing Ammuna's two eldest legitimate sons) > Telipinu (NOT descent: Telipinu was Huzziya's brother-in-law, married to Huzziya's sister Istapariya, and deposed him; his famous Edict/Proclamation of Telipinu fixed the rules of royal succession to end exactly this cycle of murder). So within the chain, REAL descent = Hattusili>Mursili (grandson) and Zidanta>Ammuna>Huzziya (father-son); the other three transitions are usurpations flagged as succession. THREAD 2 KASSITE BABYLON (ids BAB_KAS*): the dynasty that ruled Babylon ~400 years after the 1595 sack. Gandash (founder) is left as a ROOT node (defined inline once) because the existing BAB_KASSITE bridge in 10d_babylon.json is a later 'consolidated dynasty' placeholder dated c.1570 BC — making Gandash (c.1595) its child would break the child-year-smaller-than-parent rule, since the early kings PRECEDE the consolidated era. So the main agent should splice this early chain to FEED INTO BAB_KASSITE (early kings as ancestors of the consolidated dynasty), not hang Gandash beneath it. Chain per the Agum-Kakrime inscription / Babylonian king-list tradition (early Kassite genealogy is poorly attested and partly legendary): Gandash > Agum I (son of Gandash) > Kashtiliash I (son of Agum I) > Abi-Rattash (son of Kashtiliash I) > Agum II 'Agum-Kakrime' (later descendant after a king-list gap incl. Ushshi/Ur-zigurumash — descent uncertain, flagged; he recovered the abducted statue of Marduk for Babylon's Esagila). THREAD 3 YAMHAD/ALEPPO (ids YAM_, extends the existing YAM_YARIMLIM1, referenced as a string and NOT recreated): Yarim-Lim I > Hammurabi I > Abba-El I > Yarim-Lim II > Niqmi-Epuh — all confirmed father-son links — > Irkabtum (son of Niqmi-Epuh) > Hammurabi II (relation uncertain, flagged) > Yarim-Lim III (relation uncertain, flagged), whose Aleppo was sacked by the Hittite Mursili I c.1600-1595 BC (ties to Thread 1; some king-list reconstructions put a final Hammurabi III as the actual captured king at the fall — noted). Middle Chronology dates; every child year is smaller than its parent's. Web-verified against Wikipedia 'Mursili I', 'Hantili I', 'Zidanta I', 'Ammuna', 'Huzziya I', 'Telipinu', 'Early Kassite rulers', 'Yamhad dynasty', and the Grokipedia/BAS Hittite-kings summaries.",
+ "families": [
+  {
+   "a": "HIT_HATTUSILI1",
+   "b": {
+    "id": "HIT_HATTUSILI1_KW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_MURSILI1",
+     "label": "👑 Mursili I<br/>c.1620 BC · Great King of the Hittites; grandson &amp; designated (adopted) heir of Hattusili I (REAL descent); sacked Aleppo/Yamhad then Babylon in 1595 BC, ending Hammurabi's First Dynasty · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_MURSILI1",
+   "b": {
+    "id": "HIT_MURSILI1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_HANTILI1",
+     "label": "👑 Hantili I<br/>c.1590 BC · not a descendant of Mursili but his brother-in-law (married Mursili's sister Harapsili); with Zidanta murdered Mursili &amp; seized the throne — succession by assassination · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_HANTILI1",
+   "b": {
+    "id": "HIT_HANTILI1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_ZIDANTA1",
+     "label": "👑 Zidanta I<br/>c.1560 BC · not a descendant but Hantili's son-in-law (married Hantili's daughter); usurped the throne by murdering Hantili's son Piseni — succession · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_ZIDANTA1",
+   "b": {
+    "id": "HIT_ZIDANTA1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_AMMUNA",
+     "label": "👑 Ammuna<br/>c.1540 BC · son of Zidanta I (REAL father-son), whom he murdered to take the throne — patricide; his reign saw revolts &amp; loss of territory · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_AMMUNA",
+   "b": {
+    "id": "HIT_AMMUNAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_HUZZIYA1",
+     "label": "👑 Huzziya I<br/>c.1525 BC · son of Ammuna by a lesser wife (REAL father-son); seized power by killing Ammuna's two eldest legitimate sons · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_HUZZIYA1",
+   "b": {
+    "id": "HIT_HUZZIYA1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_TELIPINU",
+     "label": "👑 Telipinu<br/>c.1525 BC · not a descendant but Huzziya's brother-in-law (married Huzziya's sister Istapariya); deposed him &amp; issued the Edict of Telipinu fixing the rules of royal succession — succession · historical"
+    }
+   ]
+  },
+  {
+   "a": {
+    "id": "BAB_KASGANDASH",
+    "label": "👑 Gandash<br/>c.1595 BC · founder of the Kassite Dynasty of Babylon; took power in the wake of the Hittite sack of 1595 BC (ROOT — main agent to splice this early chain into the BAB_KASSITE consolidated-dynasty bridge) · historical"
+   },
+   "b": {
+    "id": "BAB_KASGANDASHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KASAGUM1",
+     "label": "👑 Agum I<br/>c.1570 BC · second Kassite king; son of Gandash (REAL father-son per king-list tradition; early Kassite genealogy partly legendary) · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_KASAGUM1",
+   "b": {
+    "id": "BAB_KASAGUM1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KASKASHTILIASH1",
+     "label": "👑 Kashtiliash I<br/>c.1545 BC · third Kassite king; son of Agum I (REAL father-son per tradition) · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_KASKASHTILIASH1",
+   "b": {
+    "id": "BAB_KASKASHTILIASH1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KASABIRATTASH",
+     "label": "👑 Abi-Rattash<br/>c.1520 BC · fourth Kassite king; son of Kashtiliash I (REAL father-son per tradition) · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_KASABIRATTASH",
+   "b": {
+    "id": "BAB_KASABIRATTASHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KASAGUM2",
+     "label": "👑 Agum II 'Agum-Kakrime'<br/>c.1500 BC · Kassite king; later descendant of Abi-Rattash after a king-list gap (Ushshi, Ur-zigurumash) — exact descent uncertain; recovered the abducted statue of Marduk for Babylon's Esagila · historical"
+    }
+   ]
+  },
+  {
+   "a": "YAM_YARIMLIM1",
+   "b": {
+    "id": "YAM_YARIMLIM1_KW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "YAM_HAMMURABI1",
+     "label": "👑 Hammurabi I<br/>c.1760 BC · Great King of Yamhad (Aleppo); son of Yarim-Lim I (REAL father-son) · historical"
+    }
+   ]
+  },
+  {
+   "a": "YAM_HAMMURABI1",
+   "b": {
+    "id": "YAM_HAMMURABI1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "YAM_ABBAEL1",
+     "label": "👑 Abba-El I<br/>c.1735 BC · Great King of Yamhad; son of Hammurabi I (REAL father-son); rebuilt Alalakh &amp; installed his brother Yarim-Lim there · historical"
+    }
+   ]
+  },
+  {
+   "a": "YAM_ABBAEL1",
+   "b": {
+    "id": "YAM_ABBAEL1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "YAM_YARIMLIM2",
+     "label": "👑 Yarim-Lim II<br/>c.1710 BC · Great King of Yamhad; son of Abba-El I (REAL father-son); reign thinly attested · historical"
+    }
+   ]
+  },
+  {
+   "a": "YAM_YARIMLIM2",
+   "b": {
+    "id": "YAM_YARIMLIM2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "YAM_NIQMIEPUH",
+     "label": "👑 Niqmi-Epuh<br/>c.1690 BC · Great King of Yamhad; son of Yarim-Lim II (REAL father-son); fought the Hurrian principalities · historical"
+    }
+   ]
+  },
+  {
+   "a": "YAM_NIQMIEPUH",
+   "b": {
+    "id": "YAM_NIQMIEPUHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "YAM_IRKABTUM",
+     "label": "👑 Irkabtum<br/>c.1670 BC · Great King of Yamhad; son of Niqmi-Epuh (REAL father-son); made peace with the Hurrian leader Zaluti · historical"
+    }
+   ]
+  },
+  {
+   "a": "YAM_IRKABTUM",
+   "b": {
+    "id": "YAM_IRKABTUMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "YAM_HAMMURABI2",
+     "label": "👑 Hammurabi II<br/>c.1650 BC · Great King of Yamhad; short reign; relation to Irkabtum not clearly documented — link uncertain · historical"
+    }
+   ]
+  },
+  {
+   "a": "YAM_HAMMURABI2",
+   "b": {
+    "id": "YAM_HAMMURABI2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "YAM_YARIMLIM3",
+     "label": "👑 Yarim-Lim III<br/>c.1630 BC · last well-attested Great King of Yamhad; relation to predecessor uncertain; defeated rival Qatna, but Aleppo was sacked by the Hittite Mursili I c.1600-1595 BC, ending the kingdom (some king lists name a final Hammurabi III as the captured king at the fall) · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_HITTITESACK",
+   "b": {
+    "id": "BAB_KASSPLICEW",
+    "label": "—"
+   },
+   "children": [
+    "BAB_KASGANDASH"
+   ]
+  }
+ ]
+}

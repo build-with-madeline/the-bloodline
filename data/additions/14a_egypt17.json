@@ -1,0 +1,33 @@
+{
+ "_note": "EGYPT c.1700-1560 BC: the Theban 17th Dynasty (EG_) and the late Hyksos (HYK_), running to the eve of liberation. The 17th Dynasty is poorly documented and its internal order and dates are genuinely disputed (the king-lists give little help); every succession link here is a throne-bridge, not proven descent, and is flagged UNCERTAIN. The ONE well-attested real family is that of Seqenenre Tao & Queen Ahhotep I, whose sons were Kamose (last king of the 17th Dyn) and Ahmose I (founder of the 18th) — so EG_AHMOSE1 (already in the tree) is rendered here as their son. The Hyksos line extends the existing HYK_KHYAN forward to Apepi (Apophis) and the last Hyksos king Khamudi, expelled by Ahmose ~1550 BC. Loads after 13b_egypt2ip.json (which defines HYK_KHYAN); the main agent removes the old HYK_LATERBRIDGE placeholder and the old Ahmose bridge so descent flows correctly. High-chronology dates; conventional scholarship runs the 17th Dyn c.1580-1550 BC and the values here are UNCERTAIN.",
+ "families": [
+  {
+   "note": "THE LATE HYKSOS (HYK_) — extends the existing HYK_KHYAN (Seuserenre Khyan, ~1700 BC) forward within the 15th Dynasty to Apepi (Apophis), the great Hyksos king who ruled from Avaris and, per the tale of Apepi and Seqenenre, taunted the Theban king. Several minor Hyksos kings fell between Khyan and Apepi, so this is a throne-succession bridge, not father-son descent.",
+   "a": "HYK_KHYAN",
+   "b": {
+    "id": "HYK_APEPI_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HYK_APEPI",
+     "label": "👑 Auserre Apepi (Apophis)<br/>c.1590 BC · 15th Dynasty (Hyksos); the great Hyksos king of Avaris at the peak of Hyksos power; provoked the Theban war and faced Seqenenre Tao &amp; Kamose · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "Succession to Khamudi, the last Hyksos king, whose short reign fell within the first half of Ahmose I's reign. Ahmose captured Avaris and expelled the Hyksos ~1550-1540 BC, ending the 15th Dynasty and the Second Intermediate Period. Throne-succession within the dynasty.",
+   "a": "HYK_APEPI",
+   "b": {
+    "id": "HYK_KHAMUDI_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HYK_KHAMUDI",
+     "label": "👑 Khamudi<br/>c.1540 BC · 15th Dynasty (Hyksos); the last Hyksos king, expelled from Avaris by Ahmose I (~1550 BC), ending Hyksos rule in Egypt · HISTORICAL"
+    }
+   ]
+  }
+ ]
+}

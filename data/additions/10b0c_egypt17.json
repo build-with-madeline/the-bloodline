@@ -1,0 +1,86 @@
+{
+ "_note": "The Theban 17th Dynasty as real descent, loading before the 18th-Dynasty New Kingdom (10b). Ahmose I is defined here as Seqenenre Tao & Ahhotep's son, so the 17th & 18th dynasties join by blood; the old Second-Intermediate->Ahmose bridge is dropped from 10b.",
+ "families": [
+  {
+   "note": "NEW CHAIN — the Theban 17th Dynasty (EG_), ruling Upper Egypt from Thebes in parallel with the Hyksos north. Root: Nubkheperre Intef, the best-attested of the three Intef (Antef) kings, known from monuments across Upper Egypt and a famous tomb robbery inscription. His placement first here is a presentation choice; scholars in fact make the Intefs sons of Sobekemsaf II, so real order is contested. Throne-succession to Sobekemsaf I follows.",
+   "a": {
+    "id": "EG_INTEF_NUB",
+    "label": "👑 Nubkheperre Intef<br/>c.1600 BC · 17th Dynasty (Theban); best-attested of the three Intef kings, known from Karnak, Koptos and Abydos monuments · HISTORICAL, poorly documented — UNCERTAIN: internal order of the 17th Dynasty is disputed, the Intefs are often placed as sons of Sobekemsaf II"
+   },
+   "b": {
+    "id": "EG_SOBEKEMSAF1_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_SOBEKEMSAF1",
+     "label": "👑 Sekhemre-Wadjkhau Sobekemsaf I<br/>c.1590 BC · 17th Dynasty (Theban); consolidated Theban power from Elephantine to Abydos · HISTORICAL, poorly documented — UNCERTAIN: numbering and order of the Sobekemsafs are disputed"
+    }
+   ]
+  },
+  {
+   "note": "Throne-succession to Sobekemsaf II (Sekhemre-Shedtawy), whose tomb is described in the Abbott Papyrus tomb-robbery investigations; a doorjamb at Gebel Antef suggests he was father of Nubkheperre Intef. Link is throne-succession as presented here, not descent.",
+   "a": "EG_SOBEKEMSAF1",
+   "b": {
+    "id": "EG_SOBEKEMSAF2_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_SOBEKEMSAF2",
+     "label": "👑 Sekhemre-Shedtawy Sobekemsaf II<br/>c.1575 BC · 17th Dynasty (Theban); his plundered tomb features in the Abbott Papyrus; likely father of the Intef kings · HISTORICAL — UNCERTAIN: relationships within the dynasty are insecure"
+    }
+   ]
+  },
+  {
+   "note": "Throne-succession to Senakhtenre Ahmose, a shadowy king known mainly as the father of Seqenenre Tao; with his queen Tetisheri he founded the well-documented final royal family of the dynasty. Throne-succession link.",
+   "a": "EG_SOBEKEMSAF2",
+   "b": {
+    "id": "EG_SENAKHTENRE_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_SENAKHTENRE",
+     "label": "👑 Senakhtenre Ahmose<br/>c.1560 BC · 17th Dynasty (Theban); thinly attested king, father of Seqenenre Tao by Queen Tetisheri · HISTORICAL, poorly documented"
+    }
+   ]
+  },
+  {
+   "note": "Throne-succession to Seqenenre Tao ('the Brave'), who opened the war of liberation against the Hyksos. His mummy in the Cairo museum shows catastrophic axe and dagger wounds to the head, and he probably died in battle or was executed after capture. Link is succession (real father was Senakhtenre); Seqenenre's own family below is genuine descent.",
+   "a": "EG_SENAKHTENRE",
+   "b": {
+    "id": "EG_SEQENENRE_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_SEQENENRE_TAO",
+     "label": "👑 Seqenenre Tao<br/>c.1558 BC · 17th Dynasty (Theban); began the war against the Hyksos; his mummy bears fatal axe wounds, likely killed in battle · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "THE REAL FAMILY — Seqenenre Tao and his queen Ahhotep I (his sister-wife), the celebrated matriarch later honoured for rallying Egypt during the war of liberation. Their sons were Kamose, who pressed the war and was the last king of the 17th Dynasty, and Ahmose I (EG_AHMOSE1, already in the tree), who completed the expulsion of the Hyksos and founded the 18th Dynasty. Their daughter Ahmose-Nefertari became Ahmose I's own sister-wife and great royal wife. This is genuine descent, and it makes EG_AHMOSE1 a son of Seqenenre Tao & Ahhotep I.",
+   "a": "EG_SEQENENRE_TAO",
+   "b": {
+    "id": "EG_AHHOTEP1",
+    "label": "Ahhotep I<br/>c.1560 BC · 17th Dynasty (Theban); sister-wife of Seqenenre Tao; celebrated queen and regent, credited with rallying Egypt during the war of liberation; mother of Kamose, Ahmose I &amp; Ahmose-Nefertari · HISTORICAL"
+   },
+   "children": [
+    {
+     "id": "EG_KAMOSE",
+     "label": "👑 Wadjkheperre Kamose<br/>c.1555 BC · 17th Dynasty (Theban); son of Seqenenre Tao &amp; Ahhotep; last king of the dynasty, waged the war on the Hyksos king Apepi · HISTORICAL"
+    },
+    {
+     "id": "EG_AHMOSE1",
+     "label": "👑 Ahmose I<br/>c.1550 BC · founder of the 18th Dynasty; expelled the Hyksos from Egypt, reunified the land and opened the New Kingdom · historical"
+    },
+    {
+     "id": "EG_AHMOSE_NEFERTARI",
+     "label": "Ahmose-Nefertari<br/>c.1550 BC · daughter of Seqenenre Tao &amp; Ahhotep; sister-wife and great royal wife of Ahmose I; a founding matriarch of the 18th Dynasty, later deified · HISTORICAL"
+    }
+   ]
+  }
+ ]
+}

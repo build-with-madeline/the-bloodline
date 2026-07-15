@@ -15,19 +15,6 @@
    ]
   },
   {
-   "a": "EG_SECONDINTERMEDIATE",
-   "b": {
-    "id": "EG_SECONDINTERMEDIATEW",
-    "label": "—"
-   },
-   "children": [
-    {
-     "id": "EG_AHMOSE1",
-     "label": "👑 Ahmose I<br/>c.1550 BC · founder of the 18th Dynasty; expelled the Hyksos from Egypt, reunified the land and opened the New Kingdom · historical"
-    }
-   ]
-  },
-  {
    "a": "EG_AHMOSE1",
    "b": {
     "id": "EG_AHMOSE1W",

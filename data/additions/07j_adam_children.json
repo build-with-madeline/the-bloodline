@@ -9,18 +9,18 @@
       {"id": "OTHERADAM", "label": "and other sons &amp; daughters<br/>Genesis 5:4 · the Life of Adam &amp; Eve counts 30 sons &amp; 30 daughters"}
     ]},
     {"a": "CAIN", "b": "AWAN", "children": [
-      {"id": "CAINENOCH", "label": "Enoch<br/>son of Cain; a city bore his name · Genesis 4:17<br/>(not Enoch who 'walked with God')"}
+      {"id": "CAINENOCH", "label": "Enoch<br/>c.3960 BC · son of Cain; a city bore his name · Genesis 4:17<br/>(not Enoch who 'walked with God')"}
     ]},
-    {"a": "CAINENOCH", "b": {"id": "CAINENOCHW", "label": "—"}, "children": [{"id": "IRAD", "label": "Irad<br/>Genesis 4:18"}]},
-    {"a": "IRAD", "b": {"id": "IRADW", "label": "—"}, "children": [{"id": "MEHUJAEL", "label": "Mehujael<br/>Genesis 4:18"}]},
-    {"a": "MEHUJAEL", "b": {"id": "MEHUJAELW", "label": "—"}, "children": [{"id": "METHUSHAEL", "label": "Methushael<br/>Genesis 4:18"}]},
+    {"a": "CAINENOCH", "b": {"id": "CAINENOCHW", "label": "—"}, "children": [{"id": "IRAD", "label": "Irad<br/>c.3930 BC · Genesis 4:18"}]},
+    {"a": "IRAD", "b": {"id": "IRADW", "label": "—"}, "children": [{"id": "MEHUJAEL", "label": "Mehujael<br/>c.3900 BC · Genesis 4:18"}]},
+    {"a": "MEHUJAEL", "b": {"id": "MEHUJAELW", "label": "—"}, "children": [{"id": "METHUSHAEL", "label": "Methushael<br/>c.3870 BC · Genesis 4:18"}]},
     {"a": "METHUSHAEL", "b": {"id": "METHUSHAELW", "label": "—"}, "children": [{"id": "CAINLAMECH", "label": "Lamech<br/>c.3830 BC · of Cain's line; took two wives (Adah &amp; Zillah)<br/>spoke the 'Song of the Sword' — 'Lamech seventy-sevenfold' (Gen 4:23-24),<br/>the first poem in scripture · in legend, blind Lamech accidentally slew Cain (Jasher, midrash)<br/>(not Lamech father of Noah)"}]},
     {"a": "CAINLAMECH", "b": {"id": "LAMECHADAH", "label": "Adah<br/>wife of Lamech · Genesis 4:19"}, "children": [
-      {"id": "JABAL", "label": "Jabal<br/>father of those who dwell in tents & keep herds · Genesis 4:20"},
-      {"id": "JUBAL", "label": "Jubal<br/>father of all who play the harp &amp; flute · Genesis 4:21"}
+      {"id": "JABAL", "label": "Jabal<br/>c.3800 BC · father of those who dwell in tents & keep herds · Genesis 4:20"},
+      {"id": "JUBAL", "label": "Jubal<br/>c.3800 BC · father of all who play the harp &amp; flute · Genesis 4:21"}
     ]},
     {"a": "CAINLAMECH", "b": {"id": "ZILLAH", "label": "Zillah<br/>wife of Lamech · Genesis 4:19"}, "children": [
-      {"id": "TUBALCAIN", "label": "Tubal-cain<br/>forger of every tool of bronze &amp; iron; father of metalworking · Genesis 4:22<br/>· in legend, guided blind Lamech's fatal arrow at Cain"},
+      {"id": "TUBALCAIN", "label": "Tubal-cain<br/>c.3800 BC · forger of every tool of bronze &amp; iron; father of metalworking · Genesis 4:22<br/>· in legend, guided blind Lamech's fatal arrow at Cain"},
       "NAAMAH"
     ]}
   ]

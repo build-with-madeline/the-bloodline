@@ -1,0 +1,7 @@
+{
+  "_note": "Enoch's generation, from the Book of Jubilees 4. Enoch married his first cousin Edna (Jub 4:20), 'the daughter of his father's brother' — so her father Danel is a brother of Jared, i.e. Enoch's uncle. Danel is added as Mahalalel's son (Jared's brother); Edna (created in 07_biblical as Enoch's wife) becomes Danel's daughter, which renders the cousin-marriage correctly. Sorts after 07_biblical so Mahalalel/Edna exist.",
+  "families": [
+    {"a": "MAHALALEL", "b": "MAHALALELW", "children": [{"id": "DANEL", "label": "Danel (Daniel)<br/>c.3540 BC · brother of Jared; Enoch's uncle &amp; father-in-law<br/>· Book of Jubilees 4:20"}]},
+    {"a": "DANEL", "b": {"id": "DANELW", "label": "—"}, "children": ["EDNA"]}
+  ]
+}

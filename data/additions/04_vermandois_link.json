@@ -1,0 +1,10 @@
+{
+  "_note": "Connects Charlemagne's branch (which floats free of the medieval mainstream) DOWN to it. The Counts of Vermandois were Carolingians: Charlemagne -> Pepin of Italy -> Bernard -> Pepin of Vermandois -> Herbert I -> Beatrice of Vermandois, who married Robert I of France (already in the main tree). This documented line merges antiquity->Carolingians into the one tree that reaches the Tudors. Ordered child-first so references resolve.",
+  "families": [
+    {"a": {"id": "HERBERTIVERM", "label": "Herbert I of Vermandois<br/>c.848-907 · Count of Vermandois<br/>(Carolingian line)"}, "b": {"id": "HERBERTIVERMW", "label": "Bertha de Morvois<br/>· traditional"}, "children": ["BEATV"]},
+    {"a": {"id": "PEPINVERMANDOIS", "label": "Pepin of Vermandois<br/>c.815-850 · Count; grandson of<br/>Charlemagne's son Pepin of Italy"}, "b": {"id": "PEPINVERMW", "label": "wife, name uncertain"}, "children": ["HERBERTIVERM"]},
+    {"a": {"id": "BERNARDITALY", "label": "👑 Bernard of Italy<br/>797-818 · King of Italy<br/>(blinded after revolt)"}, "b": {"id": "CUNIGUNDA", "label": "Cunigunda of Laon"}, "children": ["PEPINVERMANDOIS"]},
+    {"a": {"id": "PEPINITALY", "label": "👑 Pepin of Italy<br/>777-810 · King of Italy;<br/>son of Charlemagne"}, "b": {"id": "PEPINITALYW", "label": "Bertha / Chrothais<br/>· uncertain"}, "children": ["BERNARDITALY"]},
+    {"a": "CHARLEMAGNE", "b": {"id": "HILDEGARD", "label": "Hildegard of the Vinzgau<br/>758-783 · Charlemagne's queen"}, "children": ["PEPINITALY"]}
+  ]
+}

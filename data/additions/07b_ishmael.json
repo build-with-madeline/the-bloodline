@@ -1,0 +1,20 @@
+{
+  "_note": "Abraham's firstborn Ishmael, by Hagar (Genesis 16, 21, 25) — the parallel to the Isaac->Jacob/Esau fork. Scripture names Ishmael's twelve sons, the 'twelve princes' of Genesis 25:13-16 (Gen 17:20). Every name from the text. Ishmael's line hangs off Abraham (who is in the tree) and does not force any connection downward — the traditional Nabataean=Nebaioth link to Herod's mother is left out unless requested, since (unlike Esau=Edom, which scripture states outright) it is a debated identification. Sorts after 07_biblical so Abraham already exists.",
+  "families": [
+    {"a": "ABRAHAM", "b": {"id": "HAGAR", "label": "Hagar<br/>Sarah's Egyptian servant · Genesis 16"}, "kind": "concubine", "mistress": "SARAH", "children": [{"id": "ISHMAEL", "label": "Ishmael<br/>c.1910 BC · Abraham's firstborn;<br/>father of twelve princes · Genesis 16, 25"}]},
+    {"a": "ISHMAEL", "b": {"id": "ISHMAELW", "label": "an Egyptian wife<br/>Genesis 21:21"}, "children": [
+      {"id": "NEBAIOTH", "label": "Nebaioth<br/>firstborn of Ishmael · Genesis 25:13"},
+      {"id": "KEDAR", "label": "Kedar<br/>son of Ishmael · Genesis 25:13"},
+      {"id": "ADBEEL", "label": "Adbeel<br/>son of Ishmael · Genesis 25:13"},
+      {"id": "MIBSAM", "label": "Mibsam<br/>son of Ishmael · Genesis 25:13"},
+      {"id": "MISHMA", "label": "Mishma<br/>son of Ishmael · Genesis 25:14"},
+      {"id": "DUMAH", "label": "Dumah<br/>son of Ishmael · Genesis 25:14"},
+      {"id": "MASSA", "label": "Massa<br/>son of Ishmael · Genesis 25:14"},
+      {"id": "HADADISH", "label": "Hadad<br/>son of Ishmael · Genesis 25:15"},
+      {"id": "TEMA", "label": "Tema<br/>son of Ishmael · Genesis 25:15"},
+      {"id": "JETUR", "label": "Jetur<br/>son of Ishmael · Genesis 25:15"},
+      {"id": "NAPHISH", "label": "Naphish<br/>son of Ishmael · Genesis 25:15"},
+      {"id": "KEDEMAH", "label": "Kedemah<br/>son of Ishmael · Genesis 25:15"}
+    ]}
+  ]
+}

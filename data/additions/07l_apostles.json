@@ -1,0 +1,10 @@
+{
+  "_note": "Apostles brought in through kinship. James the Greater & John the Evangelist were sons of Zebedee & Salome; in tradition Salome was a sister (or close kinswoman) of the Virgin Mary (cf. Mk 15:40 with Mt 27:56 and Jn 19:25), making James & John Jesus's cousins. Salome appended to Heli & Anne's union as Mary's sister. (James the Less, Jude/Thaddaeus and Simon are ALREADY in the tree as the 'brethren' via Clopas=Alphaeus.) Peter, Andrew, Philip, Bartholomew, Thomas, Matthew and Judas Iscariot have no genealogical link to this tree and are not added. Sorts after 07g; Heli & Anne exist.",
+  "families": [
+    {"a": "LK_HELI_39", "b": "ANNE", "children": [{"id": "SALOME", "label": "Salome (Mary Salome)<br/>sister of the Virgin Mary · tradition (cf. Mk 15:40, Jn 19:25)"}]},
+    {"a": {"id": "ZEBEDEE", "label": "Zebedee<br/>a fisherman of Galilee · Matthew 4:21"}, "b": "SALOME", "children": [
+      {"id": "JAMESGREATER", "label": "James the Greater<br/>c.5 BC · Apostle; son of Zebedee; Jesus's cousin · Matthew 4:21"},
+      {"id": "JOHNAPOSTLE", "label": "John the Evangelist<br/>c.6 AD · Apostle 'whom Jesus loved'; son of Zebedee · John 21"}
+    ]}
+  ]
+}

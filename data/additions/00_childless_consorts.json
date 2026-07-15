@@ -1,0 +1,12 @@
+{
+  "_note": "The 7 childless royal marriages that were floating unconnected in the source. A union dot marks the marriage; 0 children is valid. All documented, no invented issue.",
+  "families": [
+    {"a": "HVIII", "b": "ANNECLEVES", "children": [], "note": "m. Jan 1540, annulled Jul 1540, childless"},
+    {"a": "HVIII", "b": "CATHOWARD", "children": [], "note": "m. 1540, executed 1542, childless"},
+    {"a": "HVIII", "b": "CATHPARR", "children": [], "note": "m. 1543, no issue with Henry"},
+    {"a": "RICHLION", "b": "BERENG", "children": [], "note": "Richard the Lionheart & Berengaria of Navarre, childless"},
+    {"a": "HENRYIIHRE", "b": "CUNIGUNDE", "children": [], "note": "Henry II HRE & Cunigunde, childless (both later canonised)"},
+    {"a": "CHARLESFAT", "b": "RICHARDIS", "children": [], "note": "Charles the Fat & Richardis, childless"},
+    {"a": "LOUISYOUNGER", "b": "LIUTGARDSAX", "children": [], "note": "Louis the Younger & Liutgard of Saxony, no surviving issue"}
+  ]
+}

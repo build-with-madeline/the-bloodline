@@ -1,0 +1,23 @@
+{
+  "_note": "Jesus's kin, handled with Catholic care. Mary's parents (Heli=Joachim, & Anne) are in 07g. ELIZABETH is now Mary's COUSIN: their mothers Anne & Sobe are sisters (daughters of Emerentia) per medieval tradition; Luke 1:36 only says 'kinswoman'. Elizabeth is 'of the daughters of Aaron' (Luke 1:5) through her father, a priest. She carries her OWN 1st-century-BC dates so she renders beside Mary (not estimated from an ancient ancestor). The old Levi->AARONHOUSE bridge is REMOVED (it was date-poisoning John the Baptist to ~1750 BC, stranding him next to the Ptolemies). The 'brethren of the Lord' (Mk 6:3) stay COUSINS via Clopas & Mary of Clopas, not children of the Virgin Mary. Sorts after 07g so Anne exists.",
+  "families": [
+    {"a": {"id": "EMERENTIA", "label": "Emerentia<br/>c.80 BC · mother of Anne &amp; Sobe · medieval tradition"}, "b": {"id": "EMERENTIAW", "label": "—"}, "children": [
+      "ANNE",
+      {"id": "SOBE", "label": "Sobe<br/>c.70 BC · sister of St Anne; mother of Elizabeth · tradition"}
+    ]},
+    {"a": "SOBE", "b": {"id": "SOBEHUSBAND", "label": "a priest of Aaron's line<br/>father of Elizabeth (Luke 1:5) · unnamed"}, "children": [
+      {"id": "ELIZABETH", "label": "Elizabeth<br/>c.45 BC · of the daughters of Aaron (Luke 1:5);<br/>Mary's cousin (Luke 1:36); mother of John the Baptist"}
+    ]},
+    {"a": {"id": "ZECHARIAH", "label": "Zechariah<br/>c.50 BC · a priest of the division of Abijah · Luke 1:5"}, "b": "ELIZABETH", "children": [
+      {"id": "JOHNBAPTIST", "label": "John the Baptist<br/>c.4 BC · forerunner of Christ; kinsman of Jesus · Luke 1"}
+    ]},
+
+    {"a": "JACOBFJOSEPH", "b": "JACOBFJOSEPHW", "children": [{"id": "CLOPAS", "label": "Clopas (Alphaeus)<br/>brother of St Joseph · tradition (Hegesippus)"}]},
+    {"a": "CLOPAS", "b": {"id": "MARYCLOPAS", "label": "Mary of Clopas<br/>'the other Mary' · John 19:25"}, "children": [
+      {"id": "JAMESJ", "label": "James the Less<br/>the Apostle James, son of Alphaeus (=Clopas);<br/>a 'brother of the Lord' (Mk 6:3) — Jesus's cousin, not Mary's son"},
+      {"id": "JOSES", "label": "Joses (Joseph)<br/>a 'brother of the Lord' (Mk 6:3) —<br/>cousin of Jesus in Catholic tradition"},
+      {"id": "SIMONJ2", "label": "Simon<br/>possibly the Apostle Simon the Zealot;<br/>a 'brother of the Lord' (Mk 6:3) — Jesus's cousin"},
+      {"id": "JUDE", "label": "Jude (Thaddaeus)<br/>the Apostle Jude;<br/>a 'brother of the Lord' (Mk 6:3) — Jesus's cousin"}
+    ]}
+  ]
+}

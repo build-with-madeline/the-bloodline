@@ -1,0 +1,16 @@
+{
+  "_note": "David's siblings, appended to Jesse's union (David already exists there). 1 Chronicles 2:13-15 names seven sons with David seventh; 1 Samuel 16:10-11 counts eight, so one brother is unnamed in scripture. Sisters Zeruiah and Abigail per 1 Chronicles 2:16. Sorts after 07_biblical so Jesse & David exist.",
+  "families": [
+    {"a": "JESSE", "b": "JESSEW", "children": [
+      {"id": "ELIAB", "label": "Eliab<br/>Jesse's firstborn · 1 Samuel 16:6, 1 Chron 2:13"},
+      {"id": "ABINADABJ", "label": "Abinadab<br/>second son of Jesse · 1 Chron 2:13"},
+      {"id": "SHIMEA", "label": "Shimea (Shammah)<br/>third son of Jesse · 1 Chron 2:13"},
+      {"id": "NETHANELJ", "label": "Nethanel<br/>fourth son of Jesse · 1 Chron 2:14"},
+      {"id": "RADDAI", "label": "Raddai<br/>fifth son of Jesse · 1 Chron 2:14"},
+      {"id": "OZEM", "label": "Ozem<br/>sixth son of Jesse · 1 Chron 2:15"},
+      {"id": "JESSE8", "label": "an eighth son<br/>1 Samuel 16 counts eight sons; scripture names only seven"},
+      {"id": "ZERUIAH", "label": "Zeruiah<br/>David's sister; mother of Joab, Abishai & Asahel · 1 Chron 2:16"},
+      {"id": "ABIGAILD", "label": "Abigail<br/>David's sister; mother of Amasa · 1 Chron 2:16-17"}
+    ]}
+  ]
+}

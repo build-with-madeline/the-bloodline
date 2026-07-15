@@ -1,0 +1,41 @@
+{
+  "_note": "Traditional ascent above Arnulf of Metz to the Merovingian kings. The Merovech->...->Chlothar I chain is documented history; the Blithild -> Arnoald -> Arnulf link is the medieval FABRICATION that modern historians reject. Disputed nodes are labelled as such so nothing is presented as fact.",
+  "families": [
+    {
+      "note": "Merovech -> Childeric I (semi-legendary founder)",
+      "a": {"id": "MEROVECH", "label": "👑 Merovech<br/>c.411-457 · the dynasty's namesake<br/>semi-legendary founder"},
+      "b": {"id": "MEROVECHW", "label": "wife, name unknown"},
+      "children": [{"id": "CHILDERICI", "label": "👑 Childeric I<br/>c.437-481 · King of the Salian Franks<br/>Title: King of the Franks"}]
+    },
+    {
+      "note": "Childeric I & Basina -> Clovis I (documented)",
+      "a": "CHILDERICI",
+      "b": {"id": "BASINA", "label": "Basina of Thuringia<br/>c.438-477 · Queen of the Franks"},
+      "children": [{"id": "CLOVISI", "label": "👑 Clovis I<br/>466-511 · united the Frankish tribes;<br/>first Merovingian king of all Franks"}]
+    },
+    {
+      "note": "Clovis I & Clotilde -> Chlothar I (documented)",
+      "a": "CLOVISI",
+      "b": {"id": "CLOTILDE", "label": "St Clotilde<br/>c.474-545 · converted Clovis<br/>to Christianity"},
+      "children": [{"id": "CHLOTHARI", "label": "👑 Chlothar I<br/>c.497-561 · King of all the Franks<br/>Title: King of the Franks"}]
+    },
+    {
+      "note": "Chlothar I & Ingund -> Blithild (Blithild's descent is DISPUTED)",
+      "a": "CHLOTHARI",
+      "b": {"id": "INGUNDFR", "label": "Ingund<br/>Frankish queen"},
+      "children": [{"id": "BLITHILD", "label": "Blithild<br/>said to be a daughter of Chlothar I<br/>· DISPUTED, the traditional link"}]
+    },
+    {
+      "note": "Ansbertus & Blithild -> Arnoald (traditional / disputed)",
+      "a": {"id": "ANSBERTUS", "label": "Ansbertus<br/>Gallo-Roman senator<br/>· traditional link, disputed"},
+      "b": "BLITHILD",
+      "children": [{"id": "ARNOALD", "label": "Arnoald<br/>Bishop of Metz (by tradition)<br/>· disputed link"}]
+    },
+    {
+      "note": "Arnoald & Doda -> Arnulf of Metz (existing root; connects the line)",
+      "a": "ARNOALD",
+      "b": {"id": "DODA", "label": "Doda<br/>traditional mother of Arnulf"},
+      "children": ["ARNULFMETZ"]
+    }
+  ]
+}

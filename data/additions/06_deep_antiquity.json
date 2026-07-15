@@ -1,0 +1,33 @@
+{
+  "_note": "Historical ceiling: the oldest documented / semi-legendary layer. (A) Argead kings of Macedon above Amyntas III back to the founder Perdiccas I (~700 BC). (B) Achaemenid Persians via the Pontic kings' CLAIMED descent from Darius (a real dynastic claim, flagged). (C) Hasmoneans above Mariamne to Mattathias. Ordered child-first so refs resolve. No legend/myth above this.",
+  "families": [
+    {"note": "(A) ARGEAD kings of Macedon, above Amyntas III (in tree).", "a": {"id": "ARRHIDAEUS", "label": "Arrhidaeus of Macedon<br/>5th c. BC · Argead prince"}, "b": {"id": "ARRHIDAEUSW", "label": "wife, name unknown"}, "children": ["AMYNTAS3"]},
+    {"a": {"id": "AMYNTASOFALEX", "label": "Amyntas of Macedon<br/>5th c. BC · son of Alexander I"}, "b": {"id": "AMYNTASOFALEXW", "label": "wife, name unknown"}, "children": ["ARRHIDAEUS"]},
+    {"a": {"id": "ALEXANDER1MAC", "label": "👑 Alexander I 'the Philhellene'<br/>c.498-454 BC · King of Macedon"}, "b": {"id": "ALEXANDER1MACW", "label": "wife, name unknown"}, "children": ["AMYNTASOFALEX"]},
+    {"a": {"id": "AMYNTAS1MAC", "label": "👑 Amyntas I of Macedon<br/>c.540-498 BC · submitted to Persia"}, "b": {"id": "AMYNTAS1MACW", "label": "wife, name unknown"}, "children": ["ALEXANDER1MAC"]},
+    {"a": {"id": "ALCETAS1MAC", "label": "👑 Alcetas I of Macedon<br/>· semi-legendary"}, "b": {"id": "ALCETAS1MACW", "label": "—"}, "children": ["AMYNTAS1MAC"]},
+    {"a": {"id": "AEROPUS1MAC", "label": "👑 Aeropus I of Macedon<br/>· semi-legendary"}, "b": {"id": "AEROPUS1MACW", "label": "—"}, "children": ["ALCETAS1MAC"]},
+    {"a": {"id": "PHILIP1MAC", "label": "👑 Philip I of Macedon<br/>· semi-legendary"}, "b": {"id": "PHILIP1MACW", "label": "—"}, "children": ["AEROPUS1MAC"]},
+    {"a": {"id": "ARGAEUS1MAC", "label": "👑 Argaeus I of Macedon<br/>· semi-legendary"}, "b": {"id": "ARGAEUS1MACW", "label": "—"}, "children": ["PHILIP1MAC"]},
+    {"a": {"id": "PERDICCAS1MAC", "label": "👑 Perdiccas I of Macedon<br/>c.700 BC · founder of the Argead line<br/>· semi-legendary"}, "b": {"id": "PERDICCAS1MACW", "label": "—"}, "children": ["ARGAEUS1MAC"]},
+
+    {"note": "(B) The Pontic kings, above Cleopatra of Pontus (in tree).", "a": {"id": "MITHRIDATES6", "label": "👑 Mithridates VI 'the Great'<br/>135-63 BC · King of Pontus,<br/>Rome's great eastern enemy"}, "b": {"id": "LAODICEPONT", "label": "Laodice<br/>Queen of Pontus"}, "children": ["CLEOPATRAPONT"]},
+    {"a": {"id": "MITHRIDATES5", "label": "👑 Mithridates V of Pontus<br/>d.120 BC"}, "b": {"id": "MITHRIDATES5W", "label": "Laodice"}, "children": ["MITHRIDATES6"]},
+    {"note": "Pontic kings CLAIMED royal descent from Darius — a dynastic claim across ~300 undocumented years.", "a": {"id": "DARIUS1", "label": "👑 Darius I 'the Great'<br/>550-486 BC · King of Persia<br/>⚠ Pontic descent from him is a royal CLAIM"}, "b": {"id": "ATOSSA", "label": "👑 Atossa<br/>daughter of Cyrus the Great"}, "children": ["MITHRIDATES5"]},
+    {"a": {"id": "HYSTASPES", "label": "Hystaspes<br/>Persian satrap; father of Darius"}, "b": {"id": "HYSTASPESW", "label": "wife, name unknown"}, "children": ["DARIUS1"]},
+    {"a": {"id": "ARSAMES", "label": "Arsames<br/>Achaemenid prince"}, "b": {"id": "ARSAMESW", "label": "—"}, "children": ["HYSTASPES"]},
+    {"a": {"id": "ARIARAMNES", "label": "Ariaramnes<br/>Achaemenid prince"}, "b": {"id": "ARIARAMNESW", "label": "—"}, "children": ["ARSAMES"]},
+    {"note": "Cyrus the Great's senior Achaemenid line — built first so Teispes can reference it.", "a": {"id": "CYRUSGREAT", "label": "👑 Cyrus the Great<br/>c.600-530 BC · founded the<br/>Persian Empire"}, "b": {"id": "CASSANDANE", "label": "Cassandane<br/>Achaemenid queen"}, "children": ["ATOSSA"]},
+    {"a": {"id": "CAMBYSES1", "label": "👑 Cambyses I<br/>c.600-559 BC · King of Anshan"}, "b": {"id": "MANDANE", "label": "Mandane of Media<br/>Median princess"}, "children": ["CYRUSGREAT"]},
+    {"a": {"id": "CYRUS1", "label": "👑 Cyrus I of Anshan<br/>c.640 BC · King of Anshan"}, "b": {"id": "CYRUS1W", "label": "—"}, "children": ["CAMBYSES1"]},
+    {"note": "Teispes — his two sons founded the two Achaemenid lines (Darius & Cyrus).", "a": {"id": "TEISPES", "label": "👑 Teispes of Anshan<br/>c.650 BC · early Achaemenid king"}, "b": {"id": "TEISPESW", "label": "—"}, "children": ["ARIARAMNES", "CYRUS1"]},
+    {"a": {"id": "ACHAEMENES", "label": "👑 Achaemenes<br/>c.700 BC · founder of the<br/>Achaemenid dynasty · semi-legendary"}, "b": {"id": "ACHAEMENESW", "label": "—"}, "children": ["TEISPES"]},
+
+    {"note": "(C) HASMONEANS, above Mariamne (Herod's wife, in tree).", "a": {"id": "ALEXANDERHAS", "label": "Alexander<br/>d.49 BC · Hasmonean prince"}, "b": {"id": "ALEXANDRAHAS", "label": "Alexandra Maccabea<br/>Hasmonean princess"}, "children": ["MARIAMNE"]},
+    {"a": {"id": "ARISTOBULUS2", "label": "👑 Aristobulus II<br/>d.49 BC · King & High Priest of Judaea"}, "b": {"id": "ARISTOBULUS2W", "label": "wife, name uncertain"}, "children": ["ALEXANDERHAS"]},
+    {"a": {"id": "ALEXJANNAEUS", "label": "👑 Alexander Jannaeus<br/>c.127-76 BC · King & High Priest"}, "b": {"id": "SALOMEALEX", "label": "👑 Salome Alexandra<br/>141-67 BC · Queen of Judaea"}, "children": ["ARISTOBULUS2"]},
+    {"a": {"id": "JOHNHYRCANUS", "label": "John Hyrcanus I<br/>d.104 BC · High Priest & ethnarch"}, "b": {"id": "JOHNHYRCANUSW", "label": "wife, name unknown"}, "children": ["ALEXJANNAEUS"]},
+    {"a": {"id": "SIMONTHASSI", "label": "Simon Thassi<br/>d.135 BC · High Priest; founded<br/>the Hasmonean dynasty"}, "b": {"id": "SIMONTHASSIW", "label": "wife, name unknown"}, "children": ["JOHNHYRCANUS"]},
+    {"a": {"id": "MATTATHIAS", "label": "Mattathias<br/>d.166 BC · began the Maccabean revolt"}, "b": {"id": "MATTATHIASW", "label": "wife, name unknown"}, "children": ["SIMONTHASSI"]}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "_note": "Byzantine imperial ancestry above Isaac II Angelos (already in tree). This is DOCUMENTED history — the Komnenos/Doukas/Angelos dynasties — reaching ~950 AD. Emperors crowned.",
+  "families": [
+    {
+      "note": "Manuel Erotikos Komnenos -> John Komnenos",
+      "a": {"id": "MANUELEROTIKOS", "label": "Manuel Erotikos Komnenos<br/>c.955-1020<br/>founder of the Komnenos family"},
+      "b": {"id": "MANUELWIFE", "label": "wife, name unknown"},
+      "children": [{"id": "JOHNKOMNENOS", "label": "John Komnenos<br/>c.1015-1067 · kouropalates"}]
+    },
+    {
+      "note": "John Komnenos & Anna Dalassene -> Alexios I",
+      "a": "JOHNKOMNENOS",
+      "b": {"id": "ANNADALASSENE", "label": "Anna Dalassene<br/>c.1025-1101<br/>ran the empire as regent-matriarch"},
+      "children": [{"id": "ALEXIOSI", "label": "👑 Alexios I Komnenos<br/>1057-1118 · Byzantine Emperor<br/>began the Komnenian restoration"}]
+    },
+    {
+      "note": "John Doukas -> Andronikos Doukas",
+      "a": {"id": "JOHNDOUKAS", "label": "John Doukas<br/>c.1015-1088 · kaisar"},
+      "b": {"id": "JOHNDOUKASW", "label": "Irene Pegonitissa<br/>Byzantine noblewoman"},
+      "children": [{"id": "ANDRONIKOSDOUKAS", "label": "Andronikos Doukas<br/>c.1045-1077 · protovestiarios"}]
+    },
+    {
+      "note": "Andronikos Doukas & Maria of Bulgaria -> Irene Doukaina",
+      "a": "ANDRONIKOSDOUKAS",
+      "b": {"id": "MARIABULGARIA", "label": "Maria of Bulgaria<br/>Bulgarian royal descent"},
+      "children": [{"id": "IRENEDOUKAINA", "label": "Irene Doukaina<br/>1066-1133 · Byzantine Empress"}]
+    },
+    {
+      "note": "Alexios I & Irene Doukaina -> Theodora Komnene",
+      "a": "ALEXIOSI",
+      "b": "IRENEDOUKAINA",
+      "children": [{"id": "THEODORAKOMNENE", "label": "Theodora Komnene<br/>b.1096 · daughter of Alexios I"}]
+    },
+    {
+      "note": "Theodora Komnene & Constantine Angelos -> Andronikos Doukas Angelos",
+      "a": "THEODORAKOMNENE",
+      "b": {"id": "CONSTANTINEANGELOS", "label": "Constantine Angelos<br/>c.1093-1166 · of Philadelphia;<br/>married into the imperial house"},
+      "children": [{"id": "ANDRONIKOSANGELOS", "label": "Andronikos Doukas Angelos<br/>c.1122-1185"}]
+    },
+    {
+      "note": "Andronikos Doukas Angelos & Euphrosyne -> Isaac II Angelos (existing)",
+      "a": "ANDRONIKOSANGELOS",
+      "b": {"id": "EUPHROSYNEK", "label": "Euphrosyne Kastamonitissa<br/>Byzantine noblewoman"},
+      "children": ["ISAACANGELOS"]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "_note": "DESCENT FROM ANTIQUITY. Every dynasty here is real, documented history AMONG ITSELF (Ptolemies, Seleucids, Herodians, Severans, Macedon). The links BETWEEN the ancient world and the medieval Frankish kings are NOT proven — that gap is concentrated in one node, GAPLINK, flagged ⚠. A few inter-dynasty marriages used to weave the lines together are reconstructed and flagged. Ordered youngest->oldest so each child already exists when referenced.",
+  "families": [
+    {"a": {"id": "CHLODIO", "label": "👑 Chlodio 'the Long-Haired'<br/>c.392-448 · early Frankish king<br/>· semi-legendary"}, "b": {"id": "HILDEBURG", "label": "wife, name uncertain"}, "children": ["MEROVECH"]},
+    {"a": {"id": "PHARAMOND", "label": "👑 Pharamond<br/>c.370-427 · legendary first<br/>King of the Franks · LEGENDARY"}, "b": {"id": "ARGOTTA", "label": "Argotta<br/>· legendary"}, "children": ["CHLODIO"]},
+
+    {"note": "The one truly-invented leap — a late-Roman emperor to the Frankish kings.", "a": {"id": "CONSTANTIUS2", "label": "👑 Constantius II<br/>317-361 · Roman Emperor<br/>⚠ the link to Pharamond is INVENTED —<br/>no real descent survives the fall of Rome"}, "b": {"id": "CONSTANTIUS2W", "label": "—"}, "children": ["PHARAMOND"]},
+    {"note": "Constantine the Great (real).", "a": {"id": "CONSTANTINE1", "label": "👑 Constantine the Great<br/>272-337 · first Christian emperor;<br/>founded Constantinople"}, "b": {"id": "FAUSTA", "label": "Fausta<br/>289-326 · Roman Empress"}, "children": ["CONSTANTIUS2"]},
+    {"note": "Constantius Chlorus & St Helena (real).", "a": {"id": "CONSTANTIUSCHL", "label": "👑 Constantius I 'Chlorus'<br/>250-306 · Roman Emperor (Tetrarch)"}, "b": {"id": "HELENA", "label": "St Helena<br/>c.246-330 · mother of Constantine;<br/>found the True Cross"}, "children": ["CONSTANTINE1"]},
+    {"note": "Claudius Gothicus — Constantinian propaganda claimed him as ancestor (disputed).", "a": {"id": "CLAUDIUSGOTH", "label": "👑 Claudius II 'Gothicus'<br/>c.213-270 · Roman Emperor<br/>⚠ his descent to Constantius is disputed propaganda"}, "b": {"id": "CLAUDIUSGOTHW", "label": "—"}, "children": ["CONSTANTIUSCHL"]},
+    {"note": "Severan Rome (real). ⚠ the Severan -> Claudius Gothicus link is not genuine.", "a": {"id": "SEPTIMIUSSEV", "label": "👑 Septimius Severus<br/>145-211 · Roman Emperor"}, "b": {"id": "JULIADOMNA", "label": "👑 Julia Domna<br/>160-217 · Empress, from Emesa"}, "children": ["CLAUDIUSGOTH"]},
+    {"note": "Emesene priest-kings. Julia Domna's mother tied (reconstructed) to the Herodians.", "a": {"id": "BASSIANUS", "label": "Julius Bassianus<br/>high priest-king of Emesa<br/>(temple of Elagabal)"}, "b": {"id": "HERODIANPR", "label": "a Herodian princess<br/>· reconstructed link"}, "children": ["JULIADOMNA"]},
+    {"note": "Mauretania -> Emesa marriage (reconstructed).", "a": {"id": "SOHAEMUS", "label": "👑 Sohaemus of Emesa<br/>1st-c. priest-king · reconstructed link"}, "b": {"id": "DRUSILLAMAUR", "label": "Drusilla of Mauretania<br/>b.38 AD"}, "children": ["BASSIANUS"]},
+    {"a": {"id": "PTOLEMYMAUR", "label": "👑 Ptolemy of Mauretania<br/>1 BC-40 AD · last of the line;<br/>murdered by Caligula"}, "b": {"id": "PTOLEMYMAURW", "label": "Julia Urania<br/>· uncertain"}, "children": ["DRUSILLAMAUR"]},
+    {"note": "Cleopatra's daughter marries the scholar-king of Mauretania.", "a": {"id": "JUBAII", "label": "👑 Juba II of Mauretania<br/>48 BC-23 AD · scholar-king,<br/>raised in Rome"}, "b": {"id": "CLEOSELENE", "label": "👑 Cleopatra Selene II<br/>40-6 BC · Queen of Mauretania;<br/>daughter of Cleopatra"}, "children": ["PTOLEMYMAUR"]},
+
+    {"note": "The last of the Ptolemies.", "a": {"id": "CLEOPATRA7", "label": "👑 Cleopatra VII<br/>69-30 BC · last Pharaoh of Egypt"}, "b": {"id": "MARKANTONY", "label": "Mark Antony<br/>83-30 BC · Roman triumvir"}, "children": ["CLEOSELENE"]},
+    {"a": {"id": "PTOLEMY12", "label": "👑 Ptolemy XII 'Auletes'<br/>117-51 BC · Pharaoh"}, "b": {"id": "CLEOPATRA5", "label": "👑 Cleopatra V Tryphaena<br/>Queen of Egypt"}, "children": ["CLEOPATRA7"]},
+    {"note": "Ptolemy XII was an illegitimate son; mother uncertain.", "a": {"id": "PTOLEMY9", "label": "👑 Ptolemy IX 'Lathyros'<br/>c.143-81 BC · Pharaoh"}, "b": {"id": "PT9CONC", "label": "a concubine<br/>· Ptolemy XII's descent uncertain"}, "children": ["PTOLEMY12"]},
+    {"a": {"id": "PTOLEMY8", "label": "👑 Ptolemy VIII 'Physcon'<br/>c.182-116 BC · Pharaoh"}, "b": {"id": "CLEOPATRA3", "label": "👑 Cleopatra III<br/>Queen of Egypt"}, "children": ["PTOLEMY9"]},
+    {"note": "Ptolemy V & Cleopatra I (a Seleucid) -> Ptolemy VIII.", "a": {"id": "PTOLEMY5", "label": "👑 Ptolemy V Epiphanes<br/>210-180 BC · Pharaoh"}, "b": {"id": "CLEOPATRA1", "label": "👑 Cleopatra I 'Syra'<br/>a Seleucid princess;<br/>Queen of Egypt"}, "children": ["PTOLEMY8"]},
+    {"a": {"id": "PTOLEMY4", "label": "👑 Ptolemy IV Philopator<br/>245-204 BC · Pharaoh"}, "b": {"id": "ARSINOE3", "label": "👑 Arsinoe III<br/>Queen of Egypt"}, "children": ["PTOLEMY5"]},
+    {"a": {"id": "PTOLEMY3", "label": "👑 Ptolemy III Euergetes<br/>c.280-222 BC · Pharaoh"}, "b": {"id": "BERENICE2", "label": "👑 Berenice II<br/>Queen of Egypt"}, "children": ["PTOLEMY4"]},
+    {"a": {"id": "PTOLEMY2", "label": "👑 Ptolemy II Philadelphus<br/>309-246 BC · Pharaoh"}, "b": {"id": "ARSINOE1", "label": "Arsinoe I<br/>Queen of Egypt"}, "children": ["PTOLEMY3"]},
+    {"note": "Ptolemy I — founder, one of Alexander's generals.", "a": {"id": "PTOLEMY1", "label": "👑 Ptolemy I 'Soter'<br/>367-282 BC · general of Alexander;<br/>founded the Ptolemaic dynasty"}, "b": {"id": "BERENICE1", "label": "👑 Berenice I<br/>Queen of Egypt"}, "children": ["PTOLEMY2"]},
+
+    {"note": "Ptolemy I said to be an illegitimate son of Philip II — DISPUTED.", "a": {"id": "PHILIP2", "label": "👑 Philip II of Macedon<br/>382-336 BC · father of Alexander<br/>the Great · descent DISPUTED"}, "b": {"id": "ARSINOEMAC", "label": "Arsinoe of Macedon<br/>· traditional mother of Ptolemy I"}, "children": ["PTOLEMY1"]},
+    {"a": {"id": "AMYNTAS3", "label": "👑 Amyntas III of Macedon<br/>d.370 BC · King of Macedon"}, "b": {"id": "EURYDICE1", "label": "Eurydice I of Macedon"}, "children": ["PHILIP2"]},
+
+    {"note": "SELEUCID branch, via Cleopatra I (a real link).", "a": {"id": "ANTIOCHUS3", "label": "👑 Antiochus III 'the Great'<br/>241-187 BC · Seleucid King"}, "b": {"id": "LAODICE3", "label": "👑 Laodice III<br/>Seleucid queen"}, "children": ["CLEOPATRA1"]},
+    {"a": {"id": "SELEUCUS2", "label": "👑 Seleucus II Callinicus<br/>c.265-225 BC · Seleucid King"}, "b": {"id": "LAODICE2", "label": "Laodice II"}, "children": ["ANTIOCHUS3"]},
+    {"a": {"id": "ANTIOCHUS2", "label": "👑 Antiochus II Theos<br/>286-246 BC · Seleucid King"}, "b": {"id": "LAODICE1", "label": "Laodice I"}, "children": ["SELEUCUS2"]},
+    {"a": {"id": "ANTIOCHUS1", "label": "👑 Antiochus I Soter<br/>324-261 BC · Seleucid King"}, "b": {"id": "STRATONICE", "label": "Stratonice of Syria"}, "children": ["ANTIOCHUS2"]},
+    {"note": "Seleucus I — another of Alexander's generals.", "a": {"id": "SELEUCUS1", "label": "👑 Seleucus I 'Nicator'<br/>c.358-281 BC · general of Alexander;<br/>founded the Seleucid Empire"}, "b": {"id": "APAMA", "label": "Apama<br/>a Sogdian/Persian noblewoman"}, "children": ["ANTIOCHUS1"]},
+
+    {"note": "HERODIAN branch, feeding the Emesene line (reconstructed).", "a": {"id": "HERODAGRIPPA1", "label": "👑 Herod Agrippa I<br/>11 BC-44 AD · King of Judaea"}, "b": {"id": "CYPROS", "label": "Cypros<br/>Herodian princess"}, "children": ["HERODIANPR"]},
+    {"a": {"id": "ARISTOBULUS4", "label": "Aristobulus IV<br/>31-7 BC · Judaean prince"}, "b": {"id": "BERENICEHEROD", "label": "Berenice<br/>Herodian noblewoman"}, "children": ["HERODAGRIPPA1"]},
+    {"a": {"id": "HERODGREAT", "label": "👑 Herod the Great<br/>72-4 BC · King of Judaea"}, "b": {"id": "MARIAMNE", "label": "👑 Mariamne I<br/>Hasmonean princess"}, "children": ["ARISTOBULUS4"]},
+
+    {"note": "ARMENIAN / ARSACID token link via a Seleucid marriage (reconstructed).", "a": {"id": "TIGRANES2", "label": "👑 Tigranes II 'the Great'<br/>140-55 BC · King of Armenia<br/>(Artaxiad/Arsacid line)"}, "b": {"id": "CLEOPATRAPONT", "label": "Cleopatra of Pontus"}, "children": ["LAODICE3"]}
+  ]
+}

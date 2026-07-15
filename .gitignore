@@ -1,0 +1,9 @@
+# OS / editor cruft
+.DS_Store
+*.swp
+Thumbs.db
+
+# Python build artifacts
+__pycache__/
+*.pyc
+.venv/

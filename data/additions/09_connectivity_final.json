@@ -1,0 +1,16 @@
+{
+  "_note": "Final 7 orphans, each grafted onto a documented parent already in the main tree. Real people, real relationships. Scottish kings chain Malcolm I -> Kenneth II -> Malcolm II -> Bethoc(existing, mother of Duncan I). Owen Tudor(existing) is son of Maredudd. Clement VII is the illegitimate son of Giuliano de' Medici(existing). Gregory V is son of Otto of Worms(existing). Fadrique Enriquez(existing) is son of Alfonso Enriquez.",
+  "families": [
+    {"a": "MALCI", "b": {"id": "MALCIW", "label": "wife, unrecorded"}, "children": ["KENNII"]},
+    {"a": "KENNII", "b": {"id": "KENNIIW", "label": "wife, unrecorded"}, "children": ["MALCII"]},
+    {"a": "MALCII", "b": {"id": "MALCIIW", "label": "wife, unrecorded"}, "children": ["BETH"]},
+
+    {"a": "MAREDUDD", "b": {"id": "MAREDUDDW", "label": "wife, unnamed"}, "children": ["OT"]},
+
+    {"a": "GIULIANOMEDICI", "b": {"id": "FIORETTA", "label": "Fioretta Gorini<br/>mother of Pope Clement VII"}, "children": ["POPECLEMENTVII"]},
+
+    {"a": "OTTOWORMS", "b": {"id": "OTTOWORMSW", "label": "wife, unnamed"}, "children": ["GREGORYV"]},
+
+    {"a": "ALFONSOENR", "b": {"id": "ALFONSOENRW", "label": "wife, unnamed"}, "children": ["FADRIQUE"]}
+  ]
+}

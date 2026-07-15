@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Bloodline</title>
+<link rel="stylesheet" href="assets/style.css?v=8ef89e89">
+</head>
+<body class="landing">
+<div class="hero">
+  <h1>The Bloodline</h1>
+  <p class="sub">One connected descent through ten royal houses of medieval and early-modern Europe</p>
+  <p class="stat">1017 people &middot; 43 cross-house marriages &middot; Carolingians &rarr; Tudors &amp; Stewarts</p>
+</div>
+
+<section class="mapwrap">
+  <h2>How the houses connect</h2>
+  <p class="mapsub">Each link is a marriage between two houses; thicker lines join houses that intermarried most. Click a house to open it.</p>
+  <div class="housemap"><pre class="mermaid">
+flowchart LR
+    CAROLINGIAN["Carolingians&lt;br/&gt;&lt;small&gt;52&lt;/small&gt;"]
+    KIEV["Kievan Rus&lt;br/&gt;&lt;small&gt;11&lt;/small&gt;"]
+    HRE["Holy Roman Empire&lt;br/&gt;&lt;small&gt;92&lt;/small&gt;"]
+    FRANCE["France&lt;br/&gt;&lt;small&gt;60&lt;/small&gt;"]
+    IBERIA["Iberia&lt;br/&gt;&lt;small&gt;41&lt;/small&gt;"]
+    NORMANDY["Normandy&lt;br/&gt;&lt;small&gt;33&lt;/small&gt;"]
+    PLANTAGENET["Plantagenet&lt;br/&gt;&lt;small&gt;63&lt;/small&gt;"]
+    TUDOR["Tudor England&lt;br/&gt;&lt;small&gt;25&lt;/small&gt;"]
+    SCOTLAND["Scotland&lt;br/&gt;&lt;small&gt;87&lt;/small&gt;"]
+    MEDICI["The Medici&lt;br/&gt;&lt;small&gt;23&lt;/small&gt;"]
+    BYZANTIUM["Byzantium&lt;br/&gt;&lt;small&gt;18&lt;/small&gt;"]
+    ANTIQUITY["Rome&lt;br/&gt;&lt;small&gt;123&lt;/small&gt;"]
+    SCRIPTURE["Scripture&lt;br/&gt;&lt;small&gt;389&lt;/small&gt;"]
+    CAROLINGIAN ===|7| HRE
+    FRANCE ===|5| PLANTAGENET
+    FRANCE ===|3| IBERIA
+    SCOTLAND ===|3| TUDOR
+    FRANCE ===|3| MEDICI
+    CAROLINGIAN ---|2| FRANCE
+    IBERIA ---|2| PLANTAGENET
+    PLANTAGENET ---|2| TUDOR
+    FRANCE ---|2| HRE
+    BYZANTIUM ---|2| HRE
+    HRE ---|2| NORMANDY
+    FRANCE ---|1| NORMANDY
+    NORMANDY ---|1| SCOTLAND
+    NORMANDY ---|1| PLANTAGENET
+    IBERIA ---|1| TUDOR
+    FRANCE ---|1| TUDOR
+    CAROLINGIAN ---|1| NORMANDY
+    FRANCE ---|1| KIEV
+    FRANCE ---|1| SCOTLAND
+    HRE ---|1| TUDOR
+    ANTIQUITY ---|1| SCRIPTURE
+    classDef h fill:#efe6d0,stroke:#c7a24f,color:#232b46,font-weight:600
+    class CAROLINGIAN,KIEV,HRE,FRANCE,IBERIA,NORMANDY,PLANTAGENET,TUDOR,SCOTLAND,MEDICI,BYZANTIUM,ANTIQUITY,SCRIPTURE h
+    style CAROLINGIAN fill:#e8dcb0
+    click CAROLINGIAN href "pages/carolingian.html" "Open Carolingians"
+    style KIEV fill:#e0c8a8
+    click KIEV href "pages/kiev.html" "Open Kievan Rus"
+    style HRE fill:#d0d8f0
+    click HRE href "pages/hre.html" "Open Holy Roman Empire"
+    style FRANCE fill:#f0e8d0
+    click FRANCE href "pages/france.html" "Open France"
+    style IBERIA fill:#e0d0c8
+    click IBERIA href "pages/iberia.html" "Open Iberia"
+    style NORMANDY fill:#f0dcc0
+    click NORMANDY href "pages/normandy.html" "Open Normandy"
+    style PLANTAGENET fill:#fdf0d5
+    click PLANTAGENET href "pages/plantagenet.html" "Open Plantagenet"
+    style TUDOR fill:#e8d9f0
+    click TUDOR href "pages/tudor.html" "Open Tudor England"
+    style SCOTLAND fill:#dae3eb
+    click SCOTLAND href "pages/scotland.html" "Open Scotland"
+    style MEDICI fill:#e6cba0
+    click MEDICI href "pages/medici.html" "Open The Medici"
+    style BYZANTIUM fill:#cdbce8
+    click BYZANTIUM href "pages/byzantium.html" "Open Byzantium"
+    style ANTIQUITY fill:#d8c4a0
+    click ANTIQUITY href "pages/antiquity.html" "Open Rome"
+    style SCRIPTURE fill:#cbb89a
+    click SCRIPTURE href "pages/scripture.html" "Open Scripture"
+  </pre></div>
+</section>
+
+<div class="house-grid">
+    <a class="house-card" href="pages/carolingian.html" style="--accent:#e8dcb0">
+      <span class="swatch"></span>
+      <span class="ht">Carolingians & Frankish Roots</span>
+      <span class="hn">52 people</span>
+    </a>
+    <a class="house-card" href="pages/kiev.html" style="--accent:#e0c8a8">
+      <span class="swatch"></span>
+      <span class="ht">Kievan Rus</span>
+      <span class="hn">11 people</span>
+    </a>
+    <a class="house-card" href="pages/hre.html" style="--accent:#d0d8f0">
+      <span class="swatch"></span>
+      <span class="ht">Holy Roman Empire</span>
+      <span class="hn">92 people</span>
+    </a>
+    <a class="house-card" href="pages/france.html" style="--accent:#f0e8d0">
+      <span class="swatch"></span>
+      <span class="ht">France — Capet, Valois & Guise</span>
+      <span class="hn">60 people</span>
+    </a>
+    <a class="house-card" href="pages/iberia.html" style="--accent:#e0d0c8">
+      <span class="swatch"></span>
+      <span class="ht">Iberia — Castile, Aragon & Portugal</span>
+      <span class="hn">41 people</span>
+    </a>
+    <a class="house-card" href="pages/normandy.html" style="--accent:#f0dcc0">
+      <span class="swatch"></span>
+      <span class="ht">Normandy & the House of Wessex</span>
+      <span class="hn">33 people</span>
+    </a>
+    <a class="house-card" href="pages/plantagenet.html" style="--accent:#fdf0d5">
+      <span class="swatch"></span>
+      <span class="ht">Plantagenet — Angevin, Lancaster & York</span>
+      <span class="hn">63 people</span>
+    </a>
+    <a class="house-card" href="pages/tudor.html" style="--accent:#e8d9f0">
+      <span class="swatch"></span>
+      <span class="ht">Tudor England</span>
+      <span class="hn">25 people</span>
+    </a>
+    <a class="house-card" href="pages/scotland.html" style="--accent:#dae3eb">
+      <span class="swatch"></span>
+      <span class="ht">Scotland — Dunkeld, Bruce & Stewart</span>
+      <span class="hn">87 people</span>
+    </a>
+    <a class="house-card" href="pages/medici.html" style="--accent:#e6cba0">
+      <span class="swatch"></span>
+      <span class="ht">The Medici & Italy</span>
+      <span class="hn">23 people</span>
+    </a>
+    <a class="house-card" href="pages/byzantium.html" style="--accent:#cdbce8">
+      <span class="swatch"></span>
+      <span class="ht">Byzantium & the East</span>
+      <span class="hn">18 people</span>
+    </a>
+    <a class="house-card" href="pages/antiquity.html" style="--accent:#d8c4a0">
+      <span class="swatch"></span>
+      <span class="ht">Rome & Antiquity</span>
+      <span class="hn">123 people</span>
+    </a>
+    <a class="house-card" href="pages/scripture.html" style="--accent:#cbb89a">
+      <span class="swatch"></span>
+      <span class="ht">Scripture & the Patriarchs</span>
+      <span class="hn">389 people</span>
+    </a>
+</div>
+<footer>
+  <p>Choose a house to explore its tree. Dashed nodes inside each house link to the houses they married into.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true, theme: 'base', securityLevel: 'loose',
+    flowchart: { curve: 'basis', useMaxWidth: true, htmlLabels: true } });
+  // Native SVG <a> from a foreignObject label doesn't reliably navigate, so
+  // resolve the nearest anchor ourselves when a house node is clicked.
+  document.querySelector('.housemap').addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a') : null;
+    var href = a && (a.getAttribute('href') || a.getAttributeNS('http://www.w3.org/1999/xlink', 'href'));
+    if (href) { window.location.href = href; }
+  });
+</script>
+</body>
+</html>

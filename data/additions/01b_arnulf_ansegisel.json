@@ -1,0 +1,6 @@
+{
+  "_note": "Critical connecting link: Arnulf of Metz was his son Ansegisel's father, but Ansegisel was a separate root in the original tree. Without this, the whole Merovingian+antiquity ascent dead-ends at Arnulf instead of flowing into the Carolingian main line (Ansegisel -> Pepin of Herstal -> Charles Martel -> Charlemagne).",
+  "families": [
+    {"a": "ARNULFMETZ", "b": {"id": "ADAARNULF", "label": "Ada<br/>wife of Arnulf of Metz"}, "children": ["ANSEGISEL"]}
+  ]
+}

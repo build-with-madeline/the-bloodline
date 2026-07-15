@@ -1,0 +1,29 @@
+{
+  "_note": "The Table of Nations (Genesis 10): the sons of Japheth (10:2), Ham (10:6) incl. Cush's son Nimrod (10:8), and Shem's other sons (10:22) besides Arphaxad who already carries the line. Ham, Japheth, Shem all exist already. Sorts after 07c.",
+  "families": [
+    {"a": "JAPHETH", "b": {"id": "JAPHETHW", "label": "—"}, "children": [
+      {"id": "GOMER", "label": "Gomer<br/>c.2400 BC · son of Japheth · Genesis 10:2"},
+      {"id": "MAGOG", "label": "Magog<br/>son of Japheth · Genesis 10:2"},
+      {"id": "MADAI", "label": "Madai<br/>son of Japheth (the Medes) · Genesis 10:2"},
+      {"id": "JAVAN", "label": "Javan<br/>son of Japheth (the Greeks) · Genesis 10:2"},
+      {"id": "TUBAL", "label": "Tubal<br/>son of Japheth · Genesis 10:2"},
+      {"id": "MESHECH", "label": "Meshech<br/>son of Japheth · Genesis 10:2"},
+      {"id": "TIRAS", "label": "Tiras<br/>son of Japheth · Genesis 10:2"}
+    ]},
+    {"a": "HAM", "b": {"id": "HAMW", "label": "—"}, "children": [
+      {"id": "CUSH", "label": "Cush<br/>c.2400 BC · son of Ham · Genesis 10:6"},
+      {"id": "MIZRAIM", "label": "Mizraim<br/>son of Ham (Egypt) · Genesis 10:6"},
+      {"id": "PUT", "label": "Put<br/>son of Ham · Genesis 10:6"},
+      {"id": "CANAAN", "label": "Canaan<br/>son of Ham · Genesis 10:6"}
+    ]},
+    {"a": "CUSH", "b": {"id": "CUSHW", "label": "—"}, "children": [
+      {"id": "NIMROD", "label": "Nimrod<br/>'a mighty hunter before the LORD'; founder of Babel · Genesis 10:8-10"}
+    ]},
+    {"a": "SHEM", "b": "SHEMW", "children": [
+      {"id": "ELAM", "label": "Elam<br/>son of Shem · Genesis 10:22"},
+      {"id": "ASSHUR", "label": "Asshur<br/>son of Shem (Assyria) · Genesis 10:22"},
+      {"id": "LUD", "label": "Lud<br/>son of Shem · Genesis 10:22"},
+      {"id": "ARAM", "label": "Aram<br/>son of Shem (the Arameans) · Genesis 10:22"}
+    ]}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "_note": "Popes connectable to the existing tree. Pope Leo X (Medici, son of Lorenzo the Magnificent) and Pope Clement VII (Medici) are ALREADY in the tree. Pope Alexander VI (Rodrigo Borgia) joins as the father of Lucrezia Borgia, who is already in the tree (married into the Este). NOTE: Orthodox patriarchs are generally NOT addable — most were celibate monks of non-royal origin with no documented genealogy linking to these houses. Sorts after 07; Lucrezia exists.",
+  "families": [
+    {"a": {"id": "ALEXVI", "label": "&#10013; Pope Alexander VI<br/>1431-1503 · Rodrigo Borgia; the Borgia pope"}, "b": {"id": "VANOZZA", "label": "Vannozza dei Cattanei<br/>mother of the Borgia children"}, "children": ["LUCREZIABORGIA"]}
+  ]
+}

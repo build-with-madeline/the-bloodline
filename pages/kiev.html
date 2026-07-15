@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Kievan Rus &mdash; The Bloodline</title>
+<link rel="stylesheet" href="../assets/style.css?v=8ef89e89">
+</head>
+<body class="page">
+<header>
+  <div class="brand"><a href="../index.html">The Bloodline</a></div>
+  <a id="crumb" class="crumb" hidden href="#">&#8592;</a>
+  <h1 style="--accent:#e0c8a8">Kievan Rus</h1>
+  <p class="meta">11 of this house &middot; 2 bridge links &middot; &#128081; monarch &middot; &#10013; bishop+ &middot; &#128519; saint</p>
+  <nav class="houses"><a href="../index.html">Overview</a><a href="carolingian.html" style="--accent:#e8dcb0">Carolingians</a><a href="kiev.html" class="active" style="--accent:#e0c8a8">Kievan Rus</a><a href="hre.html" style="--accent:#d0d8f0">Holy Roman Empire</a><a href="france.html" style="--accent:#f0e8d0">France</a><a href="iberia.html" style="--accent:#e0d0c8">Iberia</a><a href="normandy.html" style="--accent:#f0dcc0">Normandy</a><a href="plantagenet.html" style="--accent:#fdf0d5">Plantagenet</a><a href="tudor.html" style="--accent:#e8d9f0">Tudor England</a><a href="scotland.html" style="--accent:#dae3eb">Scotland</a><a href="medici.html" style="--accent:#e6cba0">The Medici</a><a href="byzantium.html" style="--accent:#cdbce8">Byzantium</a><a href="antiquity.html" style="--accent:#d8c4a0">Rome</a><a href="scripture.html" style="--accent:#cbb89a">Scripture</a></nav>
+</header>
+<div id="diagram-wrap">
+  <div id="graphDiv">
+    <pre class="mermaid">
+flowchart TD
+    ANNEKIEV["Anne of Kiev&lt;br/&gt;Rus princess; gave her son the&lt;br/&gt;then-exotic Greek name 'Philip'&lt;br/&gt;Title: Queen of France"]
+    IGOR["👑 Igor of Kiev&lt;br/&gt;killed by the Drevlians, 945&lt;br/&gt;Title: Grand Prince of Kiev"]
+    INGEGERD["Ingegerd of Sweden&lt;br/&gt;later venerated"]
+    MALUSHA["Malusha&lt;br/&gt;housekeeper of Olga; mother of Vladimir"]
+    OLGA["😇 Olga of Kiev&lt;br/&gt;regent who avenged Igor; first&lt;br/&gt;Rus ruler to convert; canonized"]
+    ROGNEDA["Rogneda of Polotsk"]
+    RURIK["Rurik&lt;br/&gt;semi-legendary Varangian founder&lt;br/&gt;of the dynasty&lt;br/&gt;(ancestry beyond here is legend)"]
+    RURIKW["wife, unnamed"]
+    SVIATOSLAV["👑 Sviatoslav I&lt;br/&gt;warrior prince who campaigned&lt;br/&gt;from the Volga to the Balkans&lt;br/&gt;Title: Grand Prince of Kiev"]
+    VLADIMIR["👑😇 Vladimir the Great&lt;br/&gt;Christianized the Rus, 988;&lt;br/&gt;later canonized&lt;br/&gt;Title: Grand Prince of Kiev"]
+    YAROSLAV["👑 Yaroslav the Wise&lt;br/&gt;'father-in-law of Europe'&lt;br/&gt;Title: Grand Prince of Kiev"]
+    HENRYIFR["👑 Henry I of France&lt;br/&gt;&lt;i&gt;m. Anne of Kiev&lt;/i&gt;&lt;br/&gt;&lt;i&gt;&amp;#8599; France&lt;/i&gt;"]
+    PHILIPIFR["👑 Philip I of France&lt;br/&gt;&lt;i&gt;child of Anne of Kiev&lt;/i&gt;&lt;br/&gt;&lt;i&gt;&amp;#8599; France&lt;/i&gt;"]
+    U_henryifr_annekiev(("&amp;bull;"))
+    U_igor_olga(("&amp;bull;"))
+    U_rurik_rurikw(("&amp;bull;"))
+    U_sviatoslav_malusha(("&amp;bull;"))
+    U_vladimir_rogneda(("&amp;bull;"))
+    U_yaroslav_ingegerd(("&amp;bull;"))
+    HENRYIFR --&gt; U_henryifr_annekiev
+    ANNEKIEV --&gt; U_henryifr_annekiev
+    U_henryifr_annekiev --&gt; PHILIPIFR
+    YAROSLAV --&gt; U_yaroslav_ingegerd
+    INGEGERD --&gt; U_yaroslav_ingegerd
+    U_yaroslav_ingegerd --&gt; ANNEKIEV
+    VLADIMIR --&gt; U_vladimir_rogneda
+    ROGNEDA --&gt; U_vladimir_rogneda
+    U_vladimir_rogneda --&gt; YAROSLAV
+    IGOR --&gt; U_igor_olga
+    OLGA --&gt; U_igor_olga
+    U_igor_olga --&gt; SVIATOSLAV
+    RURIK --&gt; U_rurik_rurikw
+    RURIKW --&gt; U_rurik_rurikw
+    U_rurik_rurikw --&gt; IGOR
+    SVIATOSLAV --&gt; U_sviatoslav_malusha
+    MALUSHA --&gt; U_sviatoslav_malusha
+    U_sviatoslav_malusha --&gt; VLADIMIR
+
+    classDef union fill:#a87f2e,stroke:#a87f2e,color:#a87f2e,font-size:9px
+    class U_henryifr_annekiev,U_igor_olga,U_rurik_rurikw,U_sviatoslav_malusha,U_vladimir_rogneda,U_yaroslav_ingegerd union
+
+    classDef bridge fill:#e9e2cf,stroke:#8a7a55,stroke-width:1px,stroke-dasharray:4 3,color:#5b4a24,font-style:italic
+    class HENRYIFR,PHILIPIFR bridge
+    click HENRYIFR href "./france.html?from=KIEV#HENRYIFR" "Go to 👑 Henry I of France in France — Capet, Valois &amp; Guise"
+    click PHILIPIFR href "./france.html?from=KIEV#PHILIPIFR" "Go to 👑 Philip I of France in France — Capet, Valois &amp; Guise"
+
+    style ANNEKIEV fill:#e0c8a8,color:#000
+    style IGOR fill:#e0c8a8,color:#000
+    style INGEGERD fill:#e0c8a8,color:#000
+    style OLGA fill:#e0c8a8,color:#000
+    style ROGNEDA fill:#e0c8a8,color:#000
+    style RURIK fill:#e8dcb0,color:#000
+    style SVIATOSLAV fill:#e0c8a8,color:#000
+    style VLADIMIR fill:#e0c8a8,color:#000
+    style YAROSLAV fill:#e0c8a8,color:#000
+    </pre>
+  </div>
+</div>
+<div class="hint" id="hint">scroll or pinch to zoom &middot; drag to pan &middot; dashed nodes link to other houses</div>
+<div class="controls">
+  <button id="zoomIn">+</button>
+  <button id="zoomOut">&minus;</button>
+  <button id="zoomReset">&#8634;</button>
+</div>
+<script>window.BL_HOUSES = {"carolingian": "Carolingians & Frankish Roots", "kiev": "Kievan Rus", "hre": "Holy Roman Empire", "france": "France — Capet, Valois & Guise", "iberia": "Iberia — Castile, Aragon & Portugal", "normandy": "Normandy & the House of Wessex", "plantagenet": "Plantagenet — Angevin, Lancaster & York", "tudor": "Tudor England", "scotland": "Scotland — Dunkeld, Bruce & Stewart", "medici": "The Medici & Italy", "byzantium": "Byzantium & the East", "antiquity": "Rome & Antiquity", "scripture": "Scripture & the Patriarchs"};</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js"></script>
+<script src="../assets/panzoom.js?v=13cb183f"></script>
+</body>
+</html>

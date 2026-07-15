@@ -1,0 +1,6990 @@
+{
+ "people": {
+  "OTTOILLUS": {
+   "id": "OTTOILLUS",
+   "label": "Otto 'the Illustrious'<br/>Title: Duke of Saxony",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "HEDBAB": {
+   "id": "HEDBAB",
+   "label": "Hedwiga of Babenberg",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "HENRYFOWLER": {
+   "id": "HENRYFOWLER",
+   "label": "👑 Henry the Fowler<br/>876-936<br/>founder of the Ottonian dynasty<br/>Title: King of East Francia",
+   "icon": "monarch",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "MATRING": {
+   "id": "MATRING",
+   "label": "Matilda of Ringelheim<br/>later canonized 'Saint Matilda'<br/>Title: Queen of East Francia",
+   "icon": "",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "HEDWIGE": {
+   "id": "HEDWIGE",
+   "label": "Hedwige of Saxony<br/>sister of Otto I,<br/>Holy Roman Emperor",
+   "icon": "",
+   "style": "fill:#e8e0f0,color:#000"
+  },
+  "OTTOI": {
+   "id": "OTTOI",
+   "label": "👑 Otto I<br/>912-973<br/>crowned first Holy Roman<br/>Emperor, 962<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "EDGARP": {
+   "id": "EDGARP",
+   "label": "👑 Edgar the Peaceful<br/>943-975<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#e8e0f0,color:#000"
+  },
+  "AELFTH": {
+   "id": "AELFTH",
+   "label": "AElfthryth<br/>allegedly orchestrated murder<br/>of stepson Edward the Martyr<br/>Title: Queen of England",
+   "icon": "",
+   "style": "fill:#e8e0f0,color:#000"
+  },
+  "AETH": {
+   "id": "AETH",
+   "label": "👑 AEthelred the Unready<br/>968-1016, r.978-1016<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "MALCI": {
+   "id": "MALCI",
+   "label": "👑 Malcolm I of Scotland<br/>r.943-954<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "KENNII": {
+   "id": "KENNII",
+   "label": "👑 Kenneth II of Scotland<br/>mother unrecorded<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#e8e0f0,color:#000"
+  },
+  "MALCII": {
+   "id": "MALCII",
+   "label": "👑 Malcolm II of Scotland<br/>d.1034<br/>wife unrecorded<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "ROBERTIFR": {
+   "id": "ROBERTIFR",
+   "label": "👑 Robert I of France<br/>r.922-923<br/>Title: King of West Francia",
+   "icon": "monarch",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "BEATV": {
+   "id": "BEATV",
+   "label": "Beatrice of Vermandois",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "HUGHGREAT": {
+   "id": "HUGHGREAT",
+   "label": "Hugh the Great<br/>Duke of the Franks",
+   "icon": "",
+   "style": "fill:#e8e0f0,color:#000"
+  },
+  "HCAPET": {
+   "id": "HCAPET",
+   "label": "👑 Hugh Capet<br/>c.939-996<br/>founded the Capetian dynasty, 987<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "ROLLO": {
+   "id": "ROLLO",
+   "label": "Rollo<br/>c.846-930<br/>Viking founder of Normandy, 911<br/>Title: Count of Rouen",
+   "icon": "",
+   "style": "fill:#f0dcc0,color:#000"
+  },
+  "POPPA": {
+   "id": "POPPA",
+   "label": "Poppa of Bayeux<br/>'Danish marriage,' not fully<br/>recognized under Frankish law",
+   "icon": "",
+   "style": "fill:#f0dcc0,color:#000"
+  },
+  "WLONGSWORD": {
+   "id": "WLONGSWORD",
+   "label": "William Longsword<br/>Title: Duke of Normandy",
+   "icon": "",
+   "style": "fill:#e8e0f0,color:#000"
+  },
+  "SPROTA": {
+   "id": "SPROTA",
+   "label": "Sprota<br/>Breton captive, not formally married",
+   "icon": "",
+   "style": "fill:#e8e0f0,color:#000"
+  },
+  "RICHI": {
+   "id": "RICHI",
+   "label": "Richard I of Normandy<br/>933-996<br/>Title: Duke of Normandy",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "ARNULFI": {
+   "id": "ARNULFI",
+   "label": "Arnulf I 'the Great'<br/>Title: Count of Flanders",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "ADELEV": {
+   "id": "ADELEV",
+   "label": "Adele of Vermandois",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "BALDIII": {
+   "id": "BALDIII",
+   "label": "Baldwin III of Flanders<br/>died young, before his own father",
+   "icon": "",
+   "style": "fill:#e8e0f0,color:#000"
+  },
+  "MATSAX": {
+   "id": "MATSAX",
+   "label": "Matilda of Saxony",
+   "icon": "",
+   "style": "fill:#e8e0f0,color:#000"
+  },
+  "ARNULF2": {
+   "id": "ARNULF2",
+   "label": "Arnulf II of Flanders<br/>961-987<br/>Title: Count of Flanders",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "AELF": {
+   "id": "AELF",
+   "label": "AElfgifu of York<br/>first wife<br/>Title: Queen of England",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "EDMI": {
+   "id": "EDMI",
+   "label": "👑 Edmund Ironside<br/>c.989-1016, r.1016<br/>fought Cnut's invasion<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#e8dcc8,color:#000"
+  },
+  "BETH": {
+   "id": "BETH",
+   "label": "Bethoc<br/>daughter of Malcolm II of Scotland",
+   "icon": "",
+   "style": "fill:#d0e0e8,color:#000"
+  },
+  "ADELAQ": {
+   "id": "ADELAQ",
+   "label": "Adelaide of Aquitaine<br/>Title: Queen of France",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "ROBII": {
+   "id": "ROBII",
+   "label": "👑 Robert II 'the Pious'<br/>972-1031<br/>son of Hugh Capet, founder<br/>of the Capetian dynasty<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "GUNNOR": {
+   "id": "GUNNOR",
+   "label": "Gunnor<br/>Danish noblewoman<br/>Title: Duchess of Normandy",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "RICHII": {
+   "id": "RICHII",
+   "label": "Richard II 'the Good'<br/>c.972-1026<br/>Duke of Normandy",
+   "icon": "",
+   "style": "fill:#e8d0d0,color:#000"
+  },
+  "ROZALAIT": {
+   "id": "ROZALAIT",
+   "label": "Rozala of Italy<br/>'Susanna'<br/>Title: Countess of Flanders",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "BALDIV": {
+   "id": "BALDIV",
+   "label": "Baldwin IV 'the Bearded'<br/>Count of Flanders",
+   "icon": "",
+   "style": "fill:#dce8d0,color:#000"
+  },
+  "CONST": {
+   "id": "CONST",
+   "label": "Constance of Arles<br/>c.986-1032<br/>politically ruthless, per chroniclers<br/>Title: Queen of France",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "ADELF": {
+   "id": "ADELF",
+   "label": "Adela of France<br/>1009-1079<br/>daughter of Robert II 'the Pious'<br/>Title: Countess of Flanders",
+   "icon": "",
+   "style": "fill:#d5ece0,color:#000"
+  },
+  "EALD": {
+   "id": "EALD",
+   "label": "Ealdgyth<br/>English noble, possibly Mercian<br/>Title: Queen of England",
+   "icon": "",
+   "style": "fill:#e8dcc8,color:#000"
+  },
+  "EDEX": {
+   "id": "EDEX",
+   "label": "Edward the Exile<br/>c.1016-1057<br/>son of Edmund Ironside<br/>exiled, then died days after return<br/>Title: AEtheling (heir apparent)",
+   "icon": "",
+   "style": "fill:#ece0d5,color:#000"
+  },
+  "OGIVE": {
+   "id": "OGIVE",
+   "label": "Ogive of Luxembourg<br/>Title: Countess of Flanders",
+   "icon": "",
+   "style": "fill:#dce8d0,color:#000"
+  },
+  "BALD": {
+   "id": "BALD",
+   "label": "Baldwin V of Flanders<br/>c.1012-1067<br/>regent of France<br/>Title: Count of Flanders",
+   "icon": "",
+   "style": "fill:#d5ece0,color:#000"
+  },
+  "CRIN": {
+   "id": "CRIN",
+   "label": "Crinan of Dunkeld<br/>Lay Abbot, killed by Macbeth's forces, 1045",
+   "icon": "",
+   "style": "fill:#d0e0e8,color:#000"
+  },
+  "DUNC": {
+   "id": "DUNC",
+   "label": "👑 Duncan I of Scotland<br/>r.1034-1040<br/>killed by Macbeth, 1040<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#d8ecec,color:#000"
+  },
+  "JUDB": {
+   "id": "JUDB",
+   "label": "Judith of Brittany<br/>982-1017<br/>Title: Duchess of Normandy",
+   "icon": "",
+   "style": "fill:#e8d0d0,color:#000"
+  },
+  "RI": {
+   "id": "RI",
+   "label": "Robert I 'the Magnificent'<br/>c.1000-1035<br/>Duke of Normandy",
+   "icon": "",
+   "style": "fill:#e0d5f0,color:#000"
+  },
+  "MOF": {
+   "id": "MOF",
+   "label": "Matilda of Flanders<br/>c.1031-1083<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "AGA": {
+   "id": "AGA",
+   "label": "Agatha<br/>origins disputed",
+   "icon": "",
+   "style": "fill:#ece0d5,color:#000"
+  },
+  "MARGS": {
+   "id": "MARGS",
+   "label": "Saint Margaret of Scotland<br/>c.1045-1093<br/>Title: Queen of Scotland",
+   "icon": ""
+  },
+  "DUNCW": {
+   "id": "DUNCW",
+   "label": "wife, name uncertain",
+   "icon": "",
+   "style": "fill:#d8ecec,color:#000"
+  },
+  "MALC": {
+   "id": "MALC",
+   "label": "👑 Malcolm III 'Canmore'<br/>c.1031-1093<br/>killed Macbeth, 1057<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#f0d5d5,color:#000"
+  },
+  "HERL": {
+   "id": "HERL",
+   "label": "Herleva<br/>tanner's daughter, Falaise",
+   "icon": "",
+   "style": "fill:#e0d5f0,color:#000"
+  },
+  "WTC": {
+   "id": "WTC",
+   "label": "👑 William the Conqueror<br/>1028-1087<br/>Battle of Hastings, 1066<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#f0d5d5,color:#000"
+  },
+  "HI": {
+   "id": "HI",
+   "label": "👑 Henry I of England<br/>1068-1135<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#dbe4f0,color:#000"
+  },
+  "ADELA": {
+   "id": "ADELA",
+   "label": "Adela of Normandy<br/>Title: Countess of Blois",
+   "icon": ""
+  },
+  "ROBCURT": {
+   "id": "ROBCURT",
+   "label": "Robert Curthose<br/>Title: Duke of Normandy",
+   "icon": ""
+  },
+  "MOS": {
+   "id": "MOS",
+   "label": "Matilda of Scotland (Edith)<br/>1080-1118<br/>Title: Queen of England",
+   "icon": "",
+   "style": "fill:#dbe4f0,color:#000"
+  },
+  "INGIB": {
+   "id": "INGIB",
+   "label": "Ingibiorg<br/>Malcolm III's first wife<br/>Title: Queen of Scotland",
+   "icon": ""
+  },
+  "DUNCII": {
+   "id": "DUNCII",
+   "label": "👑 Duncan II<br/>briefly King, 1094<br/>Title: King of Scotland",
+   "icon": "monarch"
+  },
+  "STEPHENBLOIS": {
+   "id": "STEPHENBLOIS",
+   "label": "Stephen, Count of Blois",
+   "icon": ""
+  },
+  "STEPHENKING": {
+   "id": "STEPHENKING",
+   "label": "👑 Stephen of Blois<br/>seized the throne, 1135<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#f0d5d5,color:#000"
+  },
+  "FULK": {
+   "id": "FULK",
+   "label": "Fulk V of Anjou<br/>c.1089-1143<br/>later King of Jerusalem",
+   "icon": ""
+  },
+  "ERM": {
+   "id": "ERM",
+   "label": "Ermengarde of Maine<br/>Title: Countess of Anjou",
+   "icon": ""
+  },
+  "GOA": {
+   "id": "GOA",
+   "label": "Geoffrey of Anjou<br/>1113-1151<br/>Title: Count of Anjou",
+   "icon": "",
+   "style": "fill:#f0e0c0,color:#000"
+  },
+  "EMPM": {
+   "id": "EMPM",
+   "label": "Empress Matilda<br/>1102-1167<br/>Title: Lady of the English",
+   "icon": "",
+   "style": "fill:#f0e0c0,color:#000"
+  },
+  "WADELIN": {
+   "id": "WADELIN",
+   "label": "William Adelin<br/>died, White Ship, 1120",
+   "icon": ""
+  },
+  "HII": {
+   "id": "HII",
+   "label": "👑 Henry II<br/>1133-1189<br/>Title: King of England",
+   "icon": "monarch"
+  },
+  "EOA": {
+   "id": "EOA",
+   "label": "Eleanor of Aquitaine<br/>1122-1204<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "KJ": {
+   "id": "KJ",
+   "label": "👑 King John<br/>1166-1216, r.1199-1216<br/>Magna Carta, 1215<br/>Title: King of England",
+   "icon": "monarch"
+  },
+  "EOE": {
+   "id": "EOE",
+   "label": "Eleanor of England<br/>Title: Queen of Castile",
+   "icon": "",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "RICHLION": {
+   "id": "RICHLION",
+   "label": "👑 Richard the Lionheart<br/>1157-1199<br/>Title: King of England",
+   "icon": "monarch"
+  },
+  "BERENG": {
+   "id": "BERENG",
+   "label": "Berengaria of Navarre<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "AVIII": {
+   "id": "AVIII",
+   "label": "👑 Alfonso VIII of Castile<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "BOC": {
+   "id": "BOC",
+   "label": "Blanche of Castile<br/>Title: Queen of France",
+   "icon": "",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "LVIII": {
+   "id": "LVIII",
+   "label": "👑 Louis VIII of France<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "LIX": {
+   "id": "LIX",
+   "label": "👑 Louis IX 'Saint Louis'<br/>1214-1270<br/>Title: King of France",
+   "icon": "monarch"
+  },
+  "CHARLESANJOU": {
+   "id": "CHARLESANJOU",
+   "label": "Charles I of Anjou<br/>King of Sicily",
+   "icon": ""
+  },
+  "IOA2": {
+   "id": "IOA2",
+   "label": "Isabella of Angouleme<br/>c.1188-1246<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "MOP": {
+   "id": "MOP",
+   "label": "Margaret of Provence<br/>1221-1295<br/>Title: Queen of France",
+   "icon": ""
+  },
+  "HIII": {
+   "id": "HIII",
+   "label": "👑 Henry III<br/>1207-1272<br/>Title: King of England",
+   "icon": "monarch"
+  },
+  "PIII": {
+   "id": "PIII",
+   "label": "👑 Philip III of France<br/>Title: King of France",
+   "icon": "monarch"
+  },
+  "EOP": {
+   "id": "EOP",
+   "label": "Eleanor of Provence<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "EI": {
+   "id": "EI",
+   "label": "👑 Edward I 'Longshanks'<br/>1239-1307<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "IOA": {
+   "id": "IOA",
+   "label": "Isabella of Aragon<br/>Title: Queen of France",
+   "icon": ""
+  },
+  "PIV": {
+   "id": "PIV",
+   "label": "👑 Philip IV 'the Fair'<br/>1268-1314<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "EOC": {
+   "id": "EOC",
+   "label": "Eleanor of Castile<br/>1241-1290<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "EII": {
+   "id": "EII",
+   "label": "👑 Edward II<br/>1284-1327<br/>Title: King of England",
+   "icon": "monarch"
+  },
+  "ISAB": {
+   "id": "ISAB",
+   "label": "Isabella of France<br/>1295-1358<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "EIII": {
+   "id": "EIII",
+   "label": "👑 Edward III<br/>1312-1377<br/>Title: King of England",
+   "icon": "monarch"
+  },
+  "PHILH": {
+   "id": "PHILH",
+   "label": "Philippa of Hainault<br/>1314-1369<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "BP": {
+   "id": "BP",
+   "label": "Black Prince<br/>1330-1376<br/>Title: Prince of Wales",
+   "icon": ""
+  },
+  "EDMWOOD": {
+   "id": "EDMWOOD",
+   "label": "Edmund of Woodstock<br/>son of Edward I",
+   "icon": "",
+   "style": "fill:#e8d8c8,color:#000"
+  },
+  "MARGWAKE": {
+   "id": "MARGWAKE",
+   "label": "Margaret Wake",
+   "icon": "",
+   "style": "fill:#e8d8c8,color:#000"
+  },
+  "JOANKENT": {
+   "id": "JOANKENT",
+   "label": "Joan of Kent<br/>Title: Princess of Wales",
+   "icon": ""
+  },
+  "RICHARDII": {
+   "id": "RICHARDII",
+   "label": "👑 Richard II<br/>1367-1400, r.1377-1399<br/>Title: King of England",
+   "icon": "monarch"
+  },
+  "LIONEL": {
+   "id": "LIONEL",
+   "label": "Lionel of Antwerp<br/>1338-1368<br/>Title: Duke of Clarence",
+   "icon": ""
+  },
+  "JOG": {
+   "id": "JOG",
+   "label": "John of Gaunt<br/>1340-1399<br/>Title: Duke of Lancaster",
+   "icon": ""
+  },
+  "EOL": {
+   "id": "EOL",
+   "label": "Edmund of Langley<br/>1341-1402<br/>Title: Duke of York",
+   "icon": ""
+  },
+  "BLANCHEL": {
+   "id": "BLANCHEL",
+   "label": "Blanche of Lancaster<br/>1st wife<br/>Title: Duchess of Lancaster",
+   "icon": ""
+  },
+  "HENRYIV": {
+   "id": "HENRYIV",
+   "label": "👑 Henry IV<br/>1367-1413<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#e0e8f4,color:#000"
+  },
+  "HENRYV": {
+   "id": "HENRYV",
+   "label": "👑 Henry V<br/>1386-1422<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#e0e8f4,color:#000"
+  },
+  "HENRYVI": {
+   "id": "HENRYVI",
+   "label": "👑 Henry VI<br/>1421-1471<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#e0e8f4,color:#000"
+  },
+  "RENEANJOU": {
+   "id": "RENEANJOU",
+   "label": "Rene of Anjou<br/>titular King of Naples,<br/>Sicily, and Jerusalem",
+   "icon": ""
+  },
+  "ISABLORR": {
+   "id": "ISABLORR",
+   "label": "Isabella of Lorraine",
+   "icon": ""
+  },
+  "MARGANJOU": {
+   "id": "MARGANJOU",
+   "label": "Margaret of Anjou<br/>fierce Lancastrian leader<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "EDWWESTM": {
+   "id": "EDWWESTM",
+   "label": "Edward of Westminster<br/>killed at Tewkesbury, 1471<br/>Title: Prince of Wales",
+   "icon": ""
+  },
+  "CONSTCAST": {
+   "id": "CONSTCAST",
+   "label": "Constance of Castile<br/>2nd wife<br/>Title: Duchess of Lancaster",
+   "icon": ""
+  },
+  "CATHLANC": {
+   "id": "CATHLANC",
+   "label": "Catherine of Lancaster<br/>daughter of John of Gaunt<br/>& Constance of Castile<br/>Title: Queen of Castile",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "KATS": {
+   "id": "KATS",
+   "label": "Katherine Swynford<br/>3rd wife<br/>Title: Duchess of Lancaster",
+   "icon": ""
+  },
+  "JB": {
+   "id": "JB",
+   "label": "John Beaufort<br/>1404-1444<br/>Duke of Somerset",
+   "icon": ""
+  },
+  "JOANBEAU": {
+   "id": "JOANBEAU",
+   "label": "Joan Beaufort<br/>daughter of John of Gaunt<br/>& Katherine Swynford",
+   "icon": "",
+   "style": "fill:#d8ccec,color:#000"
+  },
+  "RY": {
+   "id": "RY",
+   "label": "Richard, Duke of York<br/>1411-1460",
+   "icon": ""
+  },
+  "RALPHNEV": {
+   "id": "RALPHNEV",
+   "label": "Ralph Neville, Earl of Westmorland",
+   "icon": "",
+   "style": "fill:#d8ccec,color:#000"
+  },
+  "CN": {
+   "id": "CN",
+   "label": "Cecily Neville<br/>1415-1495<br/>Title: Duchess of York",
+   "icon": ""
+  },
+  "EIV": {
+   "id": "EIV",
+   "label": "👑 Edward IV<br/>1442-1483<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#fdf0d5,color:#000"
+  },
+  "RICHIII": {
+   "id": "RICHIII",
+   "label": "👑 Richard III<br/>1452-1485<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#fdf0d5,color:#000"
+  },
+  "WARWICK": {
+   "id": "WARWICK",
+   "label": "Richard Neville, Earl of Warwick<br/>'Warwick the Kingmaker'",
+   "icon": ""
+  },
+  "ANNEBEAU": {
+   "id": "ANNEBEAU",
+   "label": "Anne Beauchamp",
+   "icon": ""
+  },
+  "ANNENEV": {
+   "id": "ANNENEV",
+   "label": "Anne Neville<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "EDWMID": {
+   "id": "EDWMID",
+   "label": "Edward of Middleham<br/>died young, c.1484<br/>Title: Prince of Wales",
+   "icon": ""
+  },
+  "RW": {
+   "id": "RW",
+   "label": "Richard Woodville<br/>c.1405-1469<br/>Earl Rivers",
+   "icon": ""
+  },
+  "JL": {
+   "id": "JL",
+   "label": "Jacquetta of Luxembourg<br/>1415-1472<br/>Title: Duchess of Bedford",
+   "icon": ""
+  },
+  "EW": {
+   "id": "EW",
+   "label": "Elizabeth Woodville<br/>1437-1492<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "MBE": {
+   "id": "MBE",
+   "label": "Margaret Beauchamp<br/>c.1410-1482<br/>Title: Duchess of Somerset",
+   "icon": ""
+  },
+  "MARGB": {
+   "id": "MARGB",
+   "label": "Margaret Beaufort<br/>1443-1509<br/>Title: Countess of Richmond",
+   "icon": ""
+  },
+  "OT": {
+   "id": "OT",
+   "label": "Owen Tudor<br/>c.1400-1461",
+   "icon": ""
+  },
+  "CV": {
+   "id": "CV",
+   "label": "Catherine of Valois<br/>1401-1437<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "EDT": {
+   "id": "EDT",
+   "label": "Edmund Tudor<br/>1430-1456<br/>Earl of Richmond",
+   "icon": ""
+  },
+  "EOY": {
+   "id": "EOY",
+   "label": "Elizabeth of York<br/>1466-1503<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "EDV": {
+   "id": "EDV",
+   "label": "Edward V<br/>uncrowned, 1483<br/>Title: Prince of Wales",
+   "icon": ""
+  },
+  "RICHSHREWS": {
+   "id": "RICHSHREWS",
+   "label": "Richard, Duke of Shrewsbury",
+   "icon": ""
+  },
+  "HVII": {
+   "id": "HVII",
+   "label": "👑 Henry VII<br/>1457-1509, r.1485-1509<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#fdf0d5,color:#000"
+  },
+  "HVIII": {
+   "id": "HVIII",
+   "label": "👑 Henry VIII<br/>1491-1547<br/>Title: King of England",
+   "icon": "monarch"
+  },
+  "MARGT": {
+   "id": "MARGT",
+   "label": "Margaret Tudor<br/>1489-1541<br/>Title: Queen of Scotland",
+   "icon": ""
+  },
+  "ARTHUR": {
+   "id": "ARTHUR",
+   "label": "Arthur, Prince of Wales<br/>1486-1502",
+   "icon": ""
+  },
+  "MARYTUDORWQ": {
+   "id": "MARYTUDORWQ",
+   "label": "Mary Tudor 'the White Queen'<br/>1496-1533<br/>Title: Queen of France",
+   "icon": ""
+  },
+  "JOHNICAST": {
+   "id": "JOHNICAST",
+   "label": "👑 John I of Castile<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#d0e0d8,color:#000"
+  },
+  "ELEANORARAGON": {
+   "id": "ELEANORARAGON",
+   "label": "Eleanor of Aragon",
+   "icon": "",
+   "style": "fill:#d0e0d8,color:#000"
+  },
+  "HENRYIIICAST": {
+   "id": "HENRYIIICAST",
+   "label": "👑 Henry III of Castile<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "FERDIARAGON": {
+   "id": "FERDIARAGON",
+   "label": "👑 Ferdinand I of Aragon<br/>Castilian-born, won the throne<br/>via the Compromise of Caspe, 1412<br/>Title: King of Aragon",
+   "icon": "monarch",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "JOHNIICAST": {
+   "id": "JOHNIICAST",
+   "label": "👑 John II of Castile<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "ELEANORALB": {
+   "id": "ELEANORALB",
+   "label": "Eleanor of Alburquerque",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "JOHNIIARAGON": {
+   "id": "JOHNIIARAGON",
+   "label": "👑 John II of Aragon<br/>Title: King of Aragon",
+   "icon": "monarch",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "ALFONSOENR": {
+   "id": "ALFONSOENR",
+   "label": "Alfonso Enriquez<br/>Admiral of Castile<br/>illegitimate royal descent",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "FADRIQUE": {
+   "id": "FADRIQUE",
+   "label": "Fadrique Enriquez<br/>Admiral of Castile",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "BLANCHENAV": {
+   "id": "BLANCHENAV",
+   "label": "Blanche I of Navarre<br/>John II's 1st wife<br/>Title: Queen of Navarre",
+   "icon": "",
+   "style": "fill:#d8ccc0,color:#000"
+  },
+  "CHARLESVIANA": {
+   "id": "CHARLESVIANA",
+   "label": "Charles, Prince of Viana<br/>Ferdinand's rival half-brother,<br/>died 1461 - rumored poisoned<br/>by Juana Enriquez",
+   "icon": "",
+   "style": "fill:#d8ccc0,color:#000"
+  },
+  "MARIANAFC": {
+   "id": "MARIANAFC",
+   "label": "Mariana Fernandez de Cordoba",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "JUANAENR": {
+   "id": "JUANAENR",
+   "label": "Juana Enriquez",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "ISABPORT": {
+   "id": "ISABPORT",
+   "label": "Isabella of Portugal<br/>Title: Queen of Castile",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "ISABELLAI": {
+   "id": "ISABELLAI",
+   "label": "Isabella I of Castile<br/>completed the Reconquista, 1492<br/>Title: Queen of Castile",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "FERDII": {
+   "id": "FERDII",
+   "label": "👑 Ferdinand II of Aragon<br/>'the Catholic Monarchs'<br/>Title: King of Aragon",
+   "icon": "monarch",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "COA": {
+   "id": "COA",
+   "label": "Catherine of Aragon<br/>1485-1536<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "MARYI": {
+   "id": "MARYI",
+   "label": "Mary I 'Bloody Mary'<br/>1516-1558<br/>Title: Queen of England",
+   "icon": "",
+   "style": "fill:#f4d4d4,color:#000"
+  },
+  "AB": {
+   "id": "AB",
+   "label": "Anne Boleyn<br/>c.1501-1536<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "ELIZI": {
+   "id": "ELIZI",
+   "label": "Elizabeth I<br/>1533-1603<br/>Title: Queen of England",
+   "icon": "",
+   "style": "fill:#c9dff0,color:#000"
+  },
+  "JANESEY": {
+   "id": "JANESEY",
+   "label": "Jane Seymour<br/>3rd wife<br/>Title: Queen of England",
+   "icon": ""
+  },
+  "EDVI": {
+   "id": "EDVI",
+   "label": "👑 Edward VI<br/>1537-1553<br/>Title: King of England",
+   "icon": "monarch",
+   "style": "fill:#e8d9f0,color:#000"
+  },
+  "ANNECLEVES": {
+   "id": "ANNECLEVES",
+   "label": "Anne of Cleves<br/>4th wife",
+   "icon": ""
+  },
+  "CATHOWARD": {
+   "id": "CATHOWARD",
+   "label": "Catherine Howard<br/>5th wife",
+   "icon": ""
+  },
+  "CATHPARR": {
+   "id": "CATHPARR",
+   "label": "Catherine Parr<br/>6th wife",
+   "icon": ""
+  },
+  "JIV": {
+   "id": "JIV",
+   "label": "👑 James IV of Scotland<br/>1473-1513<br/>Title: King of Scotland",
+   "icon": "monarch"
+  },
+  "JAMESV": {
+   "id": "JAMESV",
+   "label": "👑 James V of Scotland<br/>1512-1542<br/>Title: King of Scotland",
+   "icon": "monarch"
+  },
+  "MOG": {
+   "id": "MOG",
+   "label": "Mary of Guise<br/>1515-1560<br/>Title: Queen of Scotland",
+   "icon": ""
+  },
+  "MQOS": {
+   "id": "MQOS",
+   "label": "Mary, Queen of Scots<br/>1542-1587",
+   "icon": "",
+   "style": "fill:#f4d4d4,color:#000"
+  },
+  "CLAUDEG": {
+   "id": "CLAUDEG",
+   "label": "Claude, Duke of Guise<br/>1496-1550",
+   "icon": ""
+  },
+  "ANTOINETTEB": {
+   "id": "ANTOINETTEB",
+   "label": "Antoinette de Bourbon<br/>1493-1583<br/>Title: Duchess of Guise",
+   "icon": ""
+  },
+  "FRANCISG": {
+   "id": "FRANCISG",
+   "label": "Francis, Duke of Guise<br/>1519-1563",
+   "icon": ""
+  },
+  "CHARLESL": {
+   "id": "CHARLESL",
+   "label": "Charles, Cardinal of Lorraine<br/>1524-1574<br/>celibate, no children",
+   "icon": ""
+  },
+  "ERCOLEII": {
+   "id": "ERCOLEII",
+   "label": "Ercole II d'Este<br/>Title: Duke of Ferrara",
+   "icon": "",
+   "style": "fill:#d0d8c8,color:#000"
+  },
+  "LOUISXII": {
+   "id": "LOUISXII",
+   "label": "👑 Louis XII of France<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#c8d8d0,color:#000"
+  },
+  "ANNEBRIT": {
+   "id": "ANNEBRIT",
+   "label": "Anne of Brittany<br/>Duchess of Brittany in her own right -<br/>married two successive French kings<br/>to keep Brittany tied to France<br/>Title: Queen of France",
+   "icon": "",
+   "style": "fill:#c8d8d0,color:#000"
+  },
+  "RENEEFR": {
+   "id": "RENEEFR",
+   "label": "Renee of France<br/>daughter of Louis XII<br/>had Protestant sympathies -<br/>corresponded with Calvin",
+   "icon": "",
+   "style": "fill:#d0d8c8,color:#000"
+  },
+  "ANNADESTE": {
+   "id": "ANNADESTE",
+   "label": "Anna d'Este<br/>Title: Duchess of Guise",
+   "icon": ""
+  },
+  "HENRYG": {
+   "id": "HENRYG",
+   "label": "Henry I, Duke of Guise<br/>'le Balafre'<br/>assassinated 1588",
+   "icon": ""
+  },
+  "FRANCISII": {
+   "id": "FRANCISII",
+   "label": "👑 Francis II of France<br/>m.1558, d.1560<br/>Title: King of France",
+   "icon": "monarch"
+  },
+  "MATTSTEW": {
+   "id": "MATTSTEW",
+   "label": "Matthew Stewart, Earl of Lennox",
+   "icon": "",
+   "style": "fill:#ccdce8,color:#000"
+  },
+  "ARCHDOUG": {
+   "id": "ARCHDOUG",
+   "label": "Archibald Douglas, Earl of Angus<br/>Margaret Tudor's 2nd husband",
+   "icon": "",
+   "style": "fill:#ccdce8,color:#000"
+  },
+  "MARGDOUG": {
+   "id": "MARGDOUG",
+   "label": "Margaret Douglas<br/>daughter of Margaret Tudor's<br/>2nd marriage",
+   "icon": "",
+   "style": "fill:#ccdce8,color:#000"
+  },
+  "DARN": {
+   "id": "DARN",
+   "label": "Lord Darnley<br/>1545-1567<br/>Title: King Consort of Scotland",
+   "icon": ""
+  },
+  "JVI": {
+   "id": "JVI",
+   "label": "👑 James VI and I<br/>1566-1625<br/>Title: King of Scotland and England",
+   "icon": "monarch",
+   "style": "fill:#e8d9f0,color:#000"
+  },
+  "THOMASB": {
+   "id": "THOMASB",
+   "label": "Thomas Boleyn<br/>Earl of Wiltshire",
+   "icon": "",
+   "style": "fill:#cfe0f0,color:#000"
+  },
+  "ELIZHOW": {
+   "id": "ELIZHOW",
+   "label": "Elizabeth Howard",
+   "icon": "",
+   "style": "fill:#cfe0f0,color:#000"
+  },
+  "JOHNSEY": {
+   "id": "JOHNSEY",
+   "label": "John Seymour",
+   "icon": "",
+   "style": "fill:#cfe0f0,color:#000"
+  },
+  "MARGWENT": {
+   "id": "MARGWENT",
+   "label": "Margery Wentworth",
+   "icon": "",
+   "style": "fill:#cfe0f0,color:#000"
+  },
+  "WILLXAQ": {
+   "id": "WILLXAQ",
+   "label": "William X<br/>Title: Duke of Aquitaine",
+   "icon": "",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "AENOR": {
+   "id": "AENOR",
+   "label": "Aenor de Chatellerault",
+   "icon": "",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "FERDIII": {
+   "id": "FERDIII",
+   "label": "👑 Ferdinand III 'the Saint'<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "JOANPON": {
+   "id": "JOANPON",
+   "label": "Joan<br/>Title: Countess of Ponthieu",
+   "icon": "",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "RAMONPROV": {
+   "id": "RAMONPROV",
+   "label": "Ramon Berenguer IV<br/>Title: Count of Provence",
+   "icon": "",
+   "style": "fill:#e0dcc0,color:#000"
+  },
+  "BEATSAV": {
+   "id": "BEATSAV",
+   "label": "Beatrice of Savoy<br/>all four daughters<br/>became queens",
+   "icon": "",
+   "style": "fill:#e0dcc0,color:#000"
+  },
+  "AYMERANG": {
+   "id": "AYMERANG",
+   "label": "Aymer Taillefer<br/>Title: Count of Angouleme",
+   "icon": "",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "ALICECOURT": {
+   "id": "ALICECOURT",
+   "label": "Alice of Courtenay",
+   "icon": "",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "WILLHAIN": {
+   "id": "WILLHAIN",
+   "label": "William I<br/>Title: Count of Hainault",
+   "icon": "",
+   "style": "fill:#e8e0d0,color:#000"
+  },
+  "JOANVAL": {
+   "id": "JOANVAL",
+   "label": "Joan of Valois<br/>granddaughter of Philip III<br/>of France",
+   "icon": "",
+   "style": "fill:#e8e0d0,color:#000"
+  },
+  "PETERLUX": {
+   "id": "PETERLUX",
+   "label": "Peter I of Luxembourg<br/>Title: Count of Saint-Pol",
+   "icon": "",
+   "style": "fill:#e0e0e8,color:#000"
+  },
+  "MARGBAUX": {
+   "id": "MARGBAUX",
+   "label": "Margaret of Baux",
+   "icon": "",
+   "style": "fill:#e0e0e8,color:#000"
+  },
+  "HENRYGROS": {
+   "id": "HENRYGROS",
+   "label": "Henry of Grosmont<br/>Title: Duke of Lancaster",
+   "icon": "",
+   "style": "fill:#e0e8f4,color:#000"
+  },
+  "ISABEAUM": {
+   "id": "ISABEAUM",
+   "label": "Isabel de Beaumont",
+   "icon": "",
+   "style": "fill:#e0e8f4,color:#000"
+  },
+  "CHARLESVI": {
+   "id": "CHARLESVI",
+   "label": "👑 Charles VI 'the Mad'<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#e8dcc8,color:#000"
+  },
+  "ISABAV": {
+   "id": "ISABAV",
+   "label": "Isabeau of Bavaria",
+   "icon": "",
+   "style": "fill:#e8dcc8,color:#000"
+  },
+  "JAMESIAR": {
+   "id": "JAMESIAR",
+   "label": "👑 James I 'the Conqueror'<br/>Title: King of Aragon",
+   "icon": "monarch",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "VIOLANTH": {
+   "id": "VIOLANTH",
+   "label": "Violant of Hungary",
+   "icon": "",
+   "style": "fill:#d5e8d4,color:#000"
+  },
+  "PETERCRUEL": {
+   "id": "PETERCRUEL",
+   "label": "👑 Peter 'the Cruel'<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "PADILLA": {
+   "id": "PADILLA",
+   "label": "Maria de Padilla",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "FRANVEND": {
+   "id": "FRANVEND",
+   "label": "Francois<br/>Title: Count of Vendome",
+   "icon": "",
+   "style": "fill:#d0d8c8,color:#000"
+  },
+  "MARIELUX": {
+   "id": "MARIELUX",
+   "label": "Marie of Luxembourg",
+   "icon": "",
+   "style": "fill:#d0d8c8,color:#000"
+  },
+  "FULKIV": {
+   "id": "FULKIV",
+   "label": "Fulk IV 'le Rechin'<br/>Title: Count of Anjou",
+   "icon": "",
+   "style": "fill:#f0e0c0,color:#000"
+  },
+  "BERTRADE": {
+   "id": "BERTRADE",
+   "label": "Bertrade de Montfort<br/>later bigamous queen<br/>of Philip I of France",
+   "icon": "",
+   "style": "fill:#f0e0c0,color:#000"
+  },
+  "MAREDUDD": {
+   "id": "MAREDUDD",
+   "label": "Maredudd ap Tudur<br/>Welsh gentry",
+   "icon": "",
+   "style": "fill:#e0d8c8,color:#000"
+  },
+  "CECILYYORK": {
+   "id": "CECILYYORK",
+   "label": "Cecily of York",
+   "icon": "",
+   "style": "fill:#fdf0d5,color:#000"
+  },
+  "ANNEYORK": {
+   "id": "ANNEYORK",
+   "label": "Anne of York",
+   "icon": "",
+   "style": "fill:#fdf0d5,color:#000"
+  },
+  "CATHYORK": {
+   "id": "CATHYORK",
+   "label": "Catherine of York",
+   "icon": "",
+   "style": "fill:#fdf0d5,color:#000"
+  },
+  "BRIDGYORK": {
+   "id": "BRIDGYORK",
+   "label": "Bridget of York",
+   "icon": "",
+   "style": "fill:#fdf0d5,color:#000"
+  },
+  "MARYYORK": {
+   "id": "MARYYORK",
+   "label": "Mary of York",
+   "icon": "",
+   "style": "fill:#fdf0d5,color:#000"
+  },
+  "ALFONSOXI": {
+   "id": "ALFONSOXI",
+   "label": "👑 Alfonso XI 'the Avenger'<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#e8d4c4,color:#000"
+  },
+  "MARIAPORT": {
+   "id": "MARIAPORT",
+   "label": "Maria of Portugal<br/>Title: Queen of Castile",
+   "icon": "",
+   "style": "fill:#e8d4c4,color:#000"
+  },
+  "FERDIV": {
+   "id": "FERDIV",
+   "label": "👑 Ferdinand IV 'the Summoned'<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#e8d4c4,color:#000"
+  },
+  "CONSTPORT": {
+   "id": "CONSTPORT",
+   "label": "Constance of Portugal",
+   "icon": "",
+   "style": "fill:#e8d4c4,color:#000"
+  },
+  "SANCHOIV": {
+   "id": "SANCHOIV",
+   "label": "👑 Sancho IV 'the Brave'<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#e8d4c4,color:#000"
+  },
+  "MARIAMOLINA": {
+   "id": "MARIAMOLINA",
+   "label": "Maria de Molina<br/>powerful regent for son<br/>and grandson",
+   "icon": "",
+   "style": "fill:#e8d4c4,color:#000"
+  },
+  "ALFONSOX": {
+   "id": "ALFONSOX",
+   "label": "👑 Alfonso X 'the Wise'<br/>patron of science, law,<br/>and the Alfonsine Tables<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#e8d4c4,color:#000"
+  },
+  "VIOLANTAR": {
+   "id": "VIOLANTAR",
+   "label": "Violant of Aragon<br/>Title: Queen of Castile",
+   "icon": "",
+   "style": "fill:#e8d4c4,color:#000"
+  },
+  "BEATSWAB": {
+   "id": "BEATSWAB",
+   "label": "Beatrice of Swabia<br/>Ferdinand III's 1st wife<br/>Title: Queen of Castile",
+   "icon": "",
+   "style": "fill:#e8d4c4,color:#000"
+  },
+  "PHILSWAB": {
+   "id": "PHILSWAB",
+   "label": "👑 Philip of Swabia<br/>assassinated 1208<br/>Title: King of Germany",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "IRENEANG": {
+   "id": "IRENEANG",
+   "label": "Irene Angelina<br/>Byzantine princess<br/>Title: Queen of Germany",
+   "icon": "",
+   "style": "fill:#e8d0d8,color:#000"
+  },
+  "BARBAROSSA": {
+   "id": "BARBAROSSA",
+   "label": "👑 Frederick I Barbarossa<br/>drowned on the Third<br/>Crusade, 1190<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "BEATBURG": {
+   "id": "BEATBURG",
+   "label": "Beatrice of Burgundy<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "FREDIISWAB": {
+   "id": "FREDIISWAB",
+   "label": "Frederick II<br/>Title: Duke of Swabia",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "JUDITHBAV": {
+   "id": "JUDITHBAV",
+   "label": "Judith of Bavaria",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "ISAACANGELOS": {
+   "id": "ISAACANGELOS",
+   "label": "👑 Isaac II Angelos<br/>deposed and blinded<br/>Title: Byzantine Emperor",
+   "icon": "monarch",
+   "style": "fill:#e8d0d8,color:#000"
+  },
+  "EADGYTH": {
+   "id": "EADGYTH",
+   "label": "Eadgyth of England<br/>Anglo-Saxon princess<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "LIUTGARDE": {
+   "id": "LIUTGARDE",
+   "label": "Liutgarde of Saxony<br/>daughter of Otto I",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "CONRADRED": {
+   "id": "CONRADRED",
+   "label": "Conrad the Red<br/>Title: Duke of Lorraine",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "OTTOWORMS": {
+   "id": "OTTOWORMS",
+   "label": "Otto of Worms<br/>Title: Duke of Carinthia",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "HENRYSPEYER": {
+   "id": "HENRYSPEYER",
+   "label": "Henry of Speyer<br/>Count of Speyer",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "GREGORYV": {
+   "id": "GREGORYV",
+   "label": "✝ Pope Gregory V<br/>Bruno of Carinthia<br/>first German pope, 996",
+   "icon": "pope",
+   "style": "fill:#f2e0a8,color:#000"
+  },
+  "ADELAIDEMETZ": {
+   "id": "ADELAIDEMETZ",
+   "label": "Adelaide of Metz",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "CONRADII": {
+   "id": "CONRADII",
+   "label": "👑 Conrad II<br/>first Salian emperor<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "GISELASWAB": {
+   "id": "GISELASWAB",
+   "label": "Gisela of Swabia<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "HENRYIIIHRE": {
+   "id": "HENRYIIIHRE",
+   "label": "👑 Henry III<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "AGNESPOITOU": {
+   "id": "AGNESPOITOU",
+   "label": "Agnes of Poitou<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "HENRYIVHRE": {
+   "id": "HENRYIVHRE",
+   "label": "👑 Henry IV<br/>knelt at Canossa before<br/>Pope Gregory VII, 1077<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "BERTHASAVOY": {
+   "id": "BERTHASAVOY",
+   "label": "Bertha of Savoy<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "AGNESWAIB": {
+   "id": "AGNESWAIB",
+   "label": "Agnes of Waiblingen<br/>bridge to the Hohenstaufen",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "FREDISWABIA": {
+   "id": "FREDISWABIA",
+   "label": "Frederick I<br/>Title: Duke of Swabia",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "BALDWINII": {
+   "id": "BALDWINII",
+   "label": "Baldwin II 'the Bald'<br/>Title: Count of Flanders",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "AELFTHWESSEX": {
+   "id": "AELFTHWESSEX",
+   "label": "Aelfthryth of Wessex<br/>daughter of Alfred the Great<br/>Title: Countess of Flanders",
+   "icon": "",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "BALDWINI": {
+   "id": "BALDWINI",
+   "label": "Baldwin I 'Iron Arm'<br/>eloped with Judith<br/>Title: Count of Flanders",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "JUDITHFR": {
+   "id": "JUDITHFR",
+   "label": "Judith of Flanders<br/>daughter of Charles the Bald<br/>Title: Countess of Flanders",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "CHARLESBALD": {
+   "id": "CHARLESBALD",
+   "label": "👑 Charles the Bald<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "LOUISPIOUS": {
+   "id": "LOUISPIOUS",
+   "label": "👑 Louis the Pious<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "CHARLEMAGNE": {
+   "id": "CHARLEMAGNE",
+   "label": "👑 Charlemagne<br/>crowned first Holy Roman<br/>Emperor, 800<br/>Title: Emperor of the Romans",
+   "icon": "monarch",
+   "style": "fill:#ecd27a,color:#000"
+  },
+  "ALFREDGREAT": {
+   "id": "ALFREDGREAT",
+   "label": "👑 Alfred the Great<br/>Title: King of Wessex",
+   "icon": "monarch",
+   "style": "fill:#f5efe0,color:#000"
+  },
+  "ADELAIDEIT": {
+   "id": "ADELAIDEIT",
+   "label": "Adelaide of Italy<br/>Otto I's 2nd wife, later canonized<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "OTTOII": {
+   "id": "OTTOII",
+   "label": "👑 Otto II<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "THEOPHANU": {
+   "id": "THEOPHANU",
+   "label": "Theophanu<br/>Byzantine princess, ruled as regent<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#e8d0d8,color:#000"
+  },
+  "OTTOIII": {
+   "id": "OTTOIII",
+   "label": "👑 Otto III<br/>died at 21, unmarried<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "HENRYBAV": {
+   "id": "HENRYBAV",
+   "label": "Henry I<br/>Title: Duke of Bavaria",
+   "icon": "",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "HENRYWRANGLER": {
+   "id": "HENRYWRANGLER",
+   "label": "Henry II 'the Wrangler'<br/>Title: Duke of Bavaria",
+   "icon": "",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "HENRYIIHRE": {
+   "id": "HENRYIIHRE",
+   "label": "👑 Henry II<br/>last Ottonian emperor, canonized<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "CUNIGUNDE": {
+   "id": "CUNIGUNDE",
+   "label": "Cunigunde of Luxembourg<br/>canonized; the marriage<br/>left no children",
+   "icon": "",
+   "style": "fill:#d0d8f0,color:#000"
+  },
+  "HENRYVHRE": {
+   "id": "HENRYVHRE",
+   "label": "👑 Henry V<br/>last Salian emperor<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "HENRYVIHRE": {
+   "id": "HENRYVIHRE",
+   "label": "👑 Henry VI<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "CONSTSICILY": {
+   "id": "CONSTSICILY",
+   "label": "Constance of Sicily<br/>brought Sicily to the dynasty<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "FREDERICKII": {
+   "id": "FREDERICKII",
+   "label": "👑 Frederick II 'Stupor Mundi'<br/>multilingual, ran a brilliant Sicilian<br/>court; excommunicated repeatedly<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "ISABELLAENG": {
+   "id": "ISABELLAENG",
+   "label": "Isabella of England<br/>daughter of King John<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "CONRADIV": {
+   "id": "CONRADIV",
+   "label": "👑 Conrad IV<br/>Title: King of the Romans",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "OTTOIV": {
+   "id": "OTTOIV",
+   "label": "👑 Otto IV<br/>Welf rival emperor<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "HENRYLION": {
+   "id": "HENRYLION",
+   "label": "Henry the Lion<br/>Title: Duke of Saxony and Bavaria",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "MATILDAPLANT": {
+   "id": "MATILDAPLANT",
+   "label": "Matilda of England<br/>daughter of Henry II<br/>Title: Duchess of Saxony",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "MARGSICILY": {
+   "id": "MARGSICILY",
+   "label": "Margaret of Sicily<br/>daughter of Isabella of England<br/>Title: Margravine of Meissen",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "LOTHAIRI": {
+   "id": "LOTHAIRI",
+   "label": "👑 Lothair I<br/>Treaty of Verdun split the<br/>empire three ways, 843<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "LOUISGERMAN": {
+   "id": "LOUISGERMAN",
+   "label": "👑 Louis the German<br/>Title: King of East Francia",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "ISABJER": {
+   "id": "ISABJER",
+   "label": "Isabella II of Jerusalem<br/>Conrad IV's mother<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "CONRADIN": {
+   "id": "CONRADIN",
+   "label": "👑 Conradin<br/>last Hohenstaufen heir, beheaded<br/>at 16 in Naples, 1268<br/>Title: King of Sicily",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "MANFRED": {
+   "id": "MANFRED",
+   "label": "👑 Manfred<br/>legitimized son; died in battle<br/>at Benevento, 1266<br/>Title: King of Sicily",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "BIANCALANCIA": {
+   "id": "BIANCALANCIA",
+   "label": "Bianca Lancia<br/>Frederick II's mistress,<br/>possibly married near his death",
+   "icon": "",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "PHILIPPALANC": {
+   "id": "PHILIPPALANC",
+   "label": "Philippa of Lancaster<br/>sealed the Anglo-Portuguese<br/>alliance, 1387<br/>Title: Queen of Portugal",
+   "icon": "",
+   "style": "fill:#e0e8f4,color:#000"
+  },
+  "JOAOI": {
+   "id": "JOAOI",
+   "label": "👑 John I of Portugal<br/>founder of the House of Aviz;<br/>won at Aljubarrota, 1385<br/>Title: King of Portugal",
+   "icon": "monarch",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "DUARTE": {
+   "id": "DUARTE",
+   "label": "👑 Edward (Duarte) I<br/>Title: King of Portugal",
+   "icon": "monarch",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "PEDROCOIMBRA": {
+   "id": "PEDROCOIMBRA",
+   "label": "Peter<br/>regent of Portugal<br/>Title: Duke of Coimbra",
+   "icon": "",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "HENRYNAV": {
+   "id": "HENRYNAV",
+   "label": "Henry the Navigator<br/>drove early Age of Discovery<br/>voyages<br/>Title: Duke of Viseu",
+   "icon": "",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "ISABBURGUNDY": {
+   "id": "ISABBURGUNDY",
+   "label": "Isabella of Portugal<br/>married Philip the Good;<br/>mother of Charles the Bold<br/>Title: Duchess of Burgundy",
+   "icon": "",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "JOHNCONST": {
+   "id": "JOHNCONST",
+   "label": "John<br/>Title: Constable of Portugal",
+   "icon": "",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "FERDINANDHOLY": {
+   "id": "FERDINANDHOLY",
+   "label": "Ferdinand the Holy Prince<br/>died a captive in Morocco, 1443",
+   "icon": "",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "ISABBARCELOS": {
+   "id": "ISABBARCELOS",
+   "label": "Isabella of Barcelos",
+   "icon": "",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "PHILIPGOOD": {
+   "id": "PHILIPGOOD",
+   "label": "Philip the Good<br/>Valois-Burgundy<br/>Title: Duke of Burgundy",
+   "icon": "",
+   "style": "fill:#e0c8d0,color:#000"
+  },
+  "CHARLESBOLD": {
+   "id": "CHARLESBOLD",
+   "label": "Charles the Bold<br/>died at the Battle of<br/>Nancy, 1477<br/>Title: Duke of Burgundy",
+   "icon": "",
+   "style": "fill:#e0c8d0,color:#000"
+  },
+  "ISABBOURBON": {
+   "id": "ISABBOURBON",
+   "label": "Isabella of Bourbon",
+   "icon": "",
+   "style": "fill:#e0c8d0,color:#000"
+  },
+  "MARYBURGUNDY": {
+   "id": "MARYBURGUNDY",
+   "label": "Mary of Burgundy<br/>great heiress; died in a<br/>riding fall, 1482<br/>Title: Duchess of Burgundy",
+   "icon": "",
+   "style": "fill:#e0c8d0,color:#000"
+  },
+  "FREDIIIHRE": {
+   "id": "FREDIIIHRE",
+   "label": "👑 Frederick III<br/>first Habsburg emperor<br/>of the line<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "ELEANORPORT": {
+   "id": "ELEANORPORT",
+   "label": "Eleanor of Portugal<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "MAXIMILIANI": {
+   "id": "MAXIMILIANI",
+   "label": "👑 Maximilian I<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "PHILIPHANDSOME": {
+   "id": "PHILIPHANDSOME",
+   "label": "👑 Philip the Handsome<br/>Title: King of Castile",
+   "icon": "monarch",
+   "style": "fill:#d8d0e8,color:#000"
+  },
+  "JUANAMAD": {
+   "id": "JUANAMAD",
+   "label": "Juana 'the Mad'<br/>Title: Queen of Castile",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "CHARLESV": {
+   "id": "CHARLESV",
+   "label": "👑 Charles V<br/>ruled Spain and the Empire -<br/>'the sun never set';<br/>abdicated to a monastery<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#ddd0ec,color:#000"
+  },
+  "ISABPORTUGAL3": {
+   "id": "ISABPORTUGAL3",
+   "label": "Isabella of Portugal<br/>Charles V's wife and<br/>first cousin<br/>Title: Holy Roman Empress",
+   "icon": "",
+   "style": "fill:#cfe0d8,color:#000"
+  },
+  "PHILIPII": {
+   "id": "PHILIPII",
+   "label": "👑 Philip II<br/>Title: King of Spain",
+   "icon": "monarch",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "PEPINSHORT": {
+   "id": "PEPINSHORT",
+   "label": "👑 Pepin the Short<br/>first Carolingian king<br/>Title: King of the Franks",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "BERTRADA": {
+   "id": "BERTRADA",
+   "label": "Bertrada of Laon",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "CHARLESMARTEL": {
+   "id": "CHARLESMARTEL",
+   "label": "Charles Martel 'the Hammer'<br/>halted the Umayyad advance at<br/>the Battle of Tours, 732<br/>Title: Mayor of the Palace",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "ROTRUDE": {
+   "id": "ROTRUDE",
+   "label": "Rotrude of Hesbaye",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "PEPINHERSTAL": {
+   "id": "PEPINHERSTAL",
+   "label": "Pepin of Herstal<br/>Title: Mayor of the Palace",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "ALPAIDA": {
+   "id": "ALPAIDA",
+   "label": "Alpaida",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "ANSEGISEL": {
+   "id": "ANSEGISEL",
+   "label": "Ansegisel",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "BEGGA": {
+   "id": "BEGGA",
+   "label": "Begga<br/>later canonized",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "ARNULFMETZ": {
+   "id": "ARNULFMETZ",
+   "label": "Arnulf of Metz<br/>Bishop of Metz, later canonized;<br/>the Arnulfing founder<br/>(ancestry beyond here is legendary)",
+   "icon": "",
+   "style": "fill:#e8dcb0,color:#000"
+  },
+  "PEPINLANDEN": {
+   "id": "PEPINLANDEN",
+   "label": "Pepin of Landen<br/>the Pippinid founder<br/>Title: Mayor of the Palace",
+   "icon": "",
+   "style": "fill:#e8dcb0,color:#000"
+  },
+  "ITTA": {
+   "id": "ITTA",
+   "label": "Itta<br/>later canonized",
+   "icon": "",
+   "style": "fill:#e8dcb0,color:#000"
+  },
+  "LIUDOLF": {
+   "id": "LIUDOLF",
+   "label": "Liudolf<br/>founder of the Liudolfing house;<br/>his own parentage is unknown<br/>Title: Duke of Saxony",
+   "icon": "",
+   "style": "fill:#e8dcb0,color:#000"
+  },
+  "ODA": {
+   "id": "ODA",
+   "label": "Oda<br/>reputedly long-lived, later venerated",
+   "icon": "",
+   "style": "fill:#e8dcb0,color:#000"
+  },
+  "EMMAALTDORF": {
+   "id": "EMMAALTDORF",
+   "label": "Emma of Altdorf<br/>a Welf<br/>Title: Queen of East Francia",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "CARLOMANBAV": {
+   "id": "CARLOMANBAV",
+   "label": "👑 Carloman of Bavaria<br/>Title: King of Bavaria",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "LOUISYOUNGER": {
+   "id": "LOUISYOUNGER",
+   "label": "👑 Louis the Younger<br/>Title: King of Saxony",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "CHARLESFAT": {
+   "id": "CHARLESFAT",
+   "label": "👑 Charles the Fat<br/>briefly reunited Charlemagne's<br/>whole empire, deposed 887<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "RICHARDIS": {
+   "id": "RICHARDIS",
+   "label": "Richardis<br/>cleared of adultery by ordeal,<br/>retired to a convent, canonized",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "LIUTGARDSAX": {
+   "id": "LIUTGARDSAX",
+   "label": "Liutgard of Saxony",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "LIUTSWIND": {
+   "id": "LIUTSWIND",
+   "label": "Liutswind<br/>Carloman's consort",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "ARNULFCAR": {
+   "id": "ARNULFCAR",
+   "label": "👑 Arnulf of Carinthia<br/>Title: Holy Roman Emperor",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "OTAARNULF": {
+   "id": "OTAARNULF",
+   "label": "Ota",
+   "icon": "",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "LOUISCHILD": {
+   "id": "LOUISCHILD",
+   "label": "👑 Louis the Child<br/>last East Frankish Carolingian;<br/>died at 17 - the crown then passed<br/>toward Henry the Fowler's Ottonians<br/>Title: King of East Francia",
+   "icon": "monarch",
+   "style": "fill:#f0e4c0,color:#000"
+  },
+  "HENRYIFR": {
+   "id": "HENRYIFR",
+   "label": "👑 Henry I of France<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "ANNEKIEV": {
+   "id": "ANNEKIEV",
+   "label": "Anne of Kiev<br/>Rus princess; gave her son the<br/>then-exotic Greek name 'Philip'<br/>Title: Queen of France",
+   "icon": "",
+   "style": "fill:#e0c8a8,color:#000"
+  },
+  "PHILIPIFR": {
+   "id": "PHILIPIFR",
+   "label": "👑 Philip I of France<br/>ancestor of the later Capetian kings<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "YAROSLAV": {
+   "id": "YAROSLAV",
+   "label": "👑 Yaroslav the Wise<br/>'father-in-law of Europe'<br/>Title: Grand Prince of Kiev",
+   "icon": "monarch",
+   "style": "fill:#e0c8a8,color:#000"
+  },
+  "INGEGERD": {
+   "id": "INGEGERD",
+   "label": "Ingegerd of Sweden<br/>later venerated",
+   "icon": "",
+   "style": "fill:#e0c8a8,color:#000"
+  },
+  "VLADIMIR": {
+   "id": "VLADIMIR",
+   "label": "👑 Vladimir the Great<br/>Christianized the Rus, 988;<br/>later canonized<br/>Title: Grand Prince of Kiev",
+   "icon": "monarch",
+   "style": "fill:#e0c8a8,color:#000"
+  },
+  "ROGNEDA": {
+   "id": "ROGNEDA",
+   "label": "Rogneda of Polotsk",
+   "icon": "",
+   "style": "fill:#e0c8a8,color:#000"
+  },
+  "SVIATOSLAV": {
+   "id": "SVIATOSLAV",
+   "label": "👑 Sviatoslav I<br/>warrior prince who campaigned<br/>from the Volga to the Balkans<br/>Title: Grand Prince of Kiev",
+   "icon": "monarch",
+   "style": "fill:#e0c8a8,color:#000"
+  },
+  "IGOR": {
+   "id": "IGOR",
+   "label": "👑 Igor of Kiev<br/>killed by the Drevlians, 945<br/>Title: Grand Prince of Kiev",
+   "icon": "monarch",
+   "style": "fill:#e0c8a8,color:#000"
+  },
+  "OLGA": {
+   "id": "OLGA",
+   "label": "Olga of Kiev<br/>regent who avenged Igor; first<br/>Rus ruler to convert; canonized",
+   "icon": "",
+   "style": "fill:#e0c8a8,color:#000"
+  },
+  "RURIK": {
+   "id": "RURIK",
+   "label": "Rurik<br/>semi-legendary Varangian founder<br/>of the dynasty<br/>(ancestry beyond here is legend)",
+   "icon": "",
+   "style": "fill:#e8dcb0,color:#000"
+  },
+  "BERTHAHOLLAND": {
+   "id": "BERTHAHOLLAND",
+   "label": "Bertha of Holland",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "LOUISVI": {
+   "id": "LOUISVI",
+   "label": "👑 Louis VI 'the Fat'<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "ADELMAURIENNE": {
+   "id": "ADELMAURIENNE",
+   "label": "Adelaide of Maurienne",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "LOUISVII": {
+   "id": "LOUISVII",
+   "label": "👑 Louis VII 'the Young'<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "ADELCHAMPAGNE": {
+   "id": "ADELCHAMPAGNE",
+   "label": "Adela of Champagne",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "PHILIPAUG": {
+   "id": "PHILIPAUG",
+   "label": "👑 Philip II Augustus<br/>tripled the royal domain;<br/>beat England's Angevins<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "ISABHAINAULT": {
+   "id": "ISABHAINAULT",
+   "label": "Isabella of Hainault",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "JAMESIIISCOT": {
+   "id": "JAMESIIISCOT",
+   "label": "👑 James III of Scotland<br/>killed after the Battle of<br/>Sauchieburn, 1488<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "MARGDENMARK": {
+   "id": "MARGDENMARK",
+   "label": "Margaret of Denmark<br/>Title: Queen of Scotland",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "JAMESIISCOT": {
+   "id": "JAMESIISCOT",
+   "label": "👑 James II 'Fiery Face'<br/>killed by an exploding cannon<br/>at Roxburgh, 1460<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "MARYGUELDERS": {
+   "id": "MARYGUELDERS",
+   "label": "Mary of Guelders<br/>Title: Queen of Scotland",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "JAMESISCOT": {
+   "id": "JAMESISCOT",
+   "label": "👑 James I of Scotland<br/>held captive in England 18 years,<br/>then assassinated, 1437<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "JOANBEAUSCOT": {
+   "id": "JOANBEAUSCOT",
+   "label": "Joan Beaufort<br/>granddaughter of John of Gaunt<br/>Title: Queen of Scotland",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "ROBERTIIISCOT": {
+   "id": "ROBERTIIISCOT",
+   "label": "👑 Robert III<br/>born John; a gentle, ailing king<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "ANNABELLA": {
+   "id": "ANNABELLA",
+   "label": "Annabella Drummond<br/>Title: Queen of Scotland",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "ROBERTIISCOT": {
+   "id": "ROBERTIISCOT",
+   "label": "👑 Robert II<br/>first Stewart king of Scotland<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "ELIZMURE": {
+   "id": "ELIZMURE",
+   "label": "Elizabeth Mure",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "WALTERSTEWART": {
+   "id": "WALTERSTEWART",
+   "label": "Walter Stewart<br/>Title: 6th High Steward of Scotland",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "MARJORIEBRUCE": {
+   "id": "MARJORIEBRUCE",
+   "label": "Marjorie Bruce<br/>died in a fall while pregnant;<br/>her son became Robert II",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "ROBERTBRUCE": {
+   "id": "ROBERTBRUCE",
+   "label": "👑 Robert the Bruce<br/>won independence at<br/>Bannockburn, 1314<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#b5c9da,color:#000"
+  },
+  "ISABELMAR": {
+   "id": "ISABELMAR",
+   "label": "Isabella of Mar",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "ROBERTDEBRUS": {
+   "id": "ROBERTDEBRUS",
+   "label": "Robert de Brus<br/>Title: Lord of Annandale",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "MARJORIECARRICK": {
+   "id": "MARJORIECARRICK",
+   "label": "Marjorie<br/>Title: Countess of Carrick",
+   "icon": "",
+   "style": "fill:#cdd8e0,color:#000"
+  },
+  "EDWARDBRUCE": {
+   "id": "EDWARDBRUCE",
+   "label": "Edward Bruce<br/>briefly High King of Ireland,<br/>died in battle 1318",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "NEILBRUCE": {
+   "id": "NEILBRUCE",
+   "label": "Neil Bruce<br/>executed by the English, 1306",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "THOMASBRUCE": {
+   "id": "THOMASBRUCE",
+   "label": "Thomas Bruce<br/>executed 1307",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ALEXBRUCE": {
+   "id": "ALEXBRUCE",
+   "label": "Alexander Bruce<br/>executed 1307",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ISABELBRUCE": {
+   "id": "ISABELBRUCE",
+   "label": "Isabel Bruce<br/>Title: Queen of Norway",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "CHRISTIANBRUCE": {
+   "id": "CHRISTIANBRUCE",
+   "label": "Christian Bruce",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARYBRUCE": {
+   "id": "MARYBRUCE",
+   "label": "Mary Bruce<br/>caged by Edward I for years",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARGBRUCE": {
+   "id": "MARGBRUCE",
+   "label": "Margaret Bruce",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MATILDABRUCE": {
+   "id": "MATILDABRUCE",
+   "label": "Matilda Bruce",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ELIZBURGH": {
+   "id": "ELIZBURGH",
+   "label": "Elizabeth de Burgh<br/>Title: Queen of Scotland",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "DAVIDII": {
+   "id": "DAVIDII",
+   "label": "👑 David II<br/>Title: King of Scotland",
+   "icon": "monarch",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "JOHNBRUCE2": {
+   "id": "JOHNBRUCE2",
+   "label": "John<br/>died in childhood",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MATILDABRUCE2": {
+   "id": "MATILDABRUCE2",
+   "label": "Matilda Bruce",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARGBRUCE2": {
+   "id": "MARGBRUCE2",
+   "label": "Margaret Bruce",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "WALTERSTEWFIFE": {
+   "id": "WALTERSTEWFIFE",
+   "label": "Walter Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ROBERTALBANY": {
+   "id": "ROBERTALBANY",
+   "label": "Robert Stewart<br/>powerful regent<br/>Title: Duke of Albany",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ALEXBUCHAN": {
+   "id": "ALEXBUCHAN",
+   "label": "Alexander Stewart<br/>'the Wolf of Badenoch'<br/>Title: Earl of Buchan",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARGSTEW1": {
+   "id": "MARGSTEW1",
+   "label": "Margaret Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARJORIESTEW": {
+   "id": "MARJORIESTEW",
+   "label": "Marjorie Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ELIZSTEW1": {
+   "id": "ELIZSTEW1",
+   "label": "Elizabeth Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ISABELLASTEW": {
+   "id": "ISABELLASTEW",
+   "label": "Isabella Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "JOANNASTEW": {
+   "id": "JOANNASTEW",
+   "label": "Joanna Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "KATHERINESTEW": {
+   "id": "KATHERINESTEW",
+   "label": "Katherine Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "EUPHEMIAROSS": {
+   "id": "EUPHEMIAROSS",
+   "label": "Euphemia de Ross<br/>Title: Queen of Scotland",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "DAVIDSTRATHEARN": {
+   "id": "DAVIDSTRATHEARN",
+   "label": "David Stewart<br/>Title: Earl of Strathearn",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "WALTERATHOLL": {
+   "id": "WALTERATHOLL",
+   "label": "Walter Stewart<br/>executed for the murder<br/>of James I, 1437<br/>Title: Earl of Atholl",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "EGIDIASTEW": {
+   "id": "EGIDIASTEW",
+   "label": "Egidia Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ELIZSTEW2": {
+   "id": "ELIZSTEW2",
+   "label": "Elizabeth Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "DAVIDROTHESAY": {
+   "id": "DAVIDROTHESAY",
+   "label": "David Stewart<br/>starved to death, 1402<br/>Title: Duke of Rothesay",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ROBERTSTEWDY": {
+   "id": "ROBERTSTEWDY",
+   "label": "Robert Stewart<br/>died young",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARGSTEW2": {
+   "id": "MARGSTEW2",
+   "label": "Margaret Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARYSTEW1": {
+   "id": "MARYSTEW1",
+   "label": "Mary Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ELIZSTEW3": {
+   "id": "ELIZSTEW3",
+   "label": "Elizabeth Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "EGIDIASTEW2": {
+   "id": "EGIDIASTEW2",
+   "label": "Egidia Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ALEXTWIN": {
+   "id": "ALEXTWIN",
+   "label": "Alexander<br/>James II's twin, died in infancy",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARGDAUPHINE": {
+   "id": "MARGDAUPHINE",
+   "label": "Margaret<br/>married the future Louis XI<br/>Title: Dauphine of France",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ISABELLASTEW2": {
+   "id": "ISABELLASTEW2",
+   "label": "Isabella<br/>m. Duke of Brittany",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ELEANORSTEW": {
+   "id": "ELEANORSTEW",
+   "label": "Eleanor<br/>m. Archduke of Austria",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "JOANSTEW": {
+   "id": "JOANSTEW",
+   "label": "Joan Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARYSTEW2": {
+   "id": "MARYSTEW2",
+   "label": "Mary Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ANNABELLASTEW": {
+   "id": "ANNABELLASTEW",
+   "label": "Annabella Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ALEXALBANY": {
+   "id": "ALEXALBANY",
+   "label": "Alexander Stewart<br/>rebel against his brother<br/>Title: Duke of Albany",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "DAVIDMORAY": {
+   "id": "DAVIDMORAY",
+   "label": "David Stewart<br/>Title: Earl of Moray",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "JOHNMAR": {
+   "id": "JOHNMAR",
+   "label": "John Stewart<br/>Title: Earl of Mar",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARYSTEW3": {
+   "id": "MARYSTEW3",
+   "label": "Mary Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "MARGSTEW3": {
+   "id": "MARGSTEW3",
+   "label": "Margaret Stewart",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "JAMESROSS": {
+   "id": "JAMESROSS",
+   "label": "James Stewart<br/>Archbishop of St Andrews<br/>Title: Duke of Ross",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "JOHNMAR2": {
+   "id": "JOHNMAR2",
+   "label": "John Stewart<br/>died young<br/>Title: Earl of Mar",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ARTHURROTHESAY": {
+   "id": "ARTHURROTHESAY",
+   "label": "Arthur Stewart<br/>died in infancy<br/>Title: Duke of Rothesay",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "JAMESROTHESAYINF": {
+   "id": "JAMESROTHESAYINF",
+   "label": "James Stewart<br/>died in infancy<br/>Title: Duke of Rothesay",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "ALEXROSSINF": {
+   "id": "ALEXROSSINF",
+   "label": "Alexander Stewart<br/>died in infancy<br/>Title: Duke of Ross",
+   "icon": "",
+   "style": "fill:#dae3eb,color:#000"
+  },
+  "BERENGARIA": {
+   "id": "BERENGARIA",
+   "label": "Berengaria of Castile<br/>Title: Queen of Leon",
+   "icon": "",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "ALFONSOIXLEON": {
+   "id": "ALFONSOIXLEON",
+   "label": "👑 Alfonso IX<br/>Title: King of Leon",
+   "icon": "monarch",
+   "style": "fill:#e0d0c8,color:#000"
+  },
+  "CHARLESVALOIS": {
+   "id": "CHARLESVALOIS",
+   "label": "Charles of Valois<br/>founder of the House of Valois",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "PHILIPVI": {
+   "id": "PHILIPVI",
+   "label": "👑 Philip VI<br/>first Valois king<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "JOANBURGUNDY": {
+   "id": "JOANBURGUNDY",
+   "label": "Joan of Burgundy",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "JOHNIIFR": {
+   "id": "JOHNIIFR",
+   "label": "👑 John II 'the Good'<br/>captured by the English<br/>at Poitiers, 1356<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "BONNELUX": {
+   "id": "BONNELUX",
+   "label": "Bonne of Luxembourg",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "CHARLESVFR": {
+   "id": "CHARLESVFR",
+   "label": "👑 Charles V 'the Wise'<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "JOANNABOURBON": {
+   "id": "JOANNABOURBON",
+   "label": "Joanna of Bourbon",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "CLAUDEFR": {
+   "id": "CLAUDEFR",
+   "label": "Claude of France<br/>Title: Queen of France",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "CHARLESANGOULEME": {
+   "id": "CHARLESANGOULEME",
+   "label": "Charles, Count of Angouleme",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "LOUISESAVOY": {
+   "id": "LOUISESAVOY",
+   "label": "Louise of Savoy",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "FRANCISI": {
+   "id": "FRANCISI",
+   "label": "👑 Francis I<br/>Renaissance king, patron of<br/>Leonardo da Vinci<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "HENRYIIFR": {
+   "id": "HENRYIIFR",
+   "label": "👑 Henry II<br/>Title: King of France",
+   "icon": "monarch",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "CATHMEDICI": {
+   "id": "CATHMEDICI",
+   "label": "Catherine de' Medici<br/>powerful queen mother through<br/>the French Wars of Religion<br/>Title: Queen of France",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "ALFONSOIESTE": {
+   "id": "ALFONSOIESTE",
+   "label": "Alfonso I d'Este<br/>Title: Duke of Ferrara",
+   "icon": "",
+   "style": "fill:#d0d8c8,color:#000"
+  },
+  "LUCREZIABORGIA": {
+   "id": "LUCREZIABORGIA",
+   "label": "Lucrezia Borgia<br/>daughter of Pope Alexander VI",
+   "icon": "",
+   "style": "fill:#d0d8c8,color:#000"
+  },
+  "CHARLESORLEANS": {
+   "id": "CHARLESORLEANS",
+   "label": "Charles, Duke of Orleans<br/>celebrated poet; captured<br/>at Agincourt, held 25 years",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "MARIECLEVES": {
+   "id": "MARIECLEVES",
+   "label": "Marie of Cleves",
+   "icon": "",
+   "style": "fill:#f0e8d0,color:#000"
+  },
+  "FRANCISIIBRITTANY": {
+   "id": "FRANCISIIBRITTANY",
+   "label": "Francis II<br/>last independent<br/>Title: Duke of Brittany",
+   "icon": "",
+   "style": "fill:#c8d8d0,color:#000"
+  },
+  "MARGFOIX": {
+   "id": "MARGFOIX",
+   "label": "Margaret of Foix",
+   "icon": "",
+   "style": "fill:#c8d8d0,color:#000"
+  },
+  "RENEIILORRAINE": {
+   "id": "RENEIILORRAINE",
+   "label": "Rene II<br/>Title: Duke of Lorraine",
+   "icon": "",
+   "style": "fill:#d8d0e0,color:#000"
+  },
+  "PHILIPPAGUELDERS": {
+   "id": "PHILIPPAGUELDERS",
+   "label": "Philippa of Guelders",
+   "icon": "",
+   "style": "fill:#d8d0e0,color:#000"
+  },
+  "LORENZOURBINO": {
+   "id": "LORENZOURBINO",
+   "label": "Lorenzo de' Medici<br/>Machiavelli dedicated 'The Prince'<br/>to him<br/>Title: Duke of Urbino",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "MADELEINEAUVERGNE": {
+   "id": "MADELEINEAUVERGNE",
+   "label": "Madeleine de La Tour d'Auvergne",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "PIEROUNFORTUNATE": {
+   "id": "PIEROUNFORTUNATE",
+   "label": "Piero the Unfortunate<br/>driven out of Florence, 1494",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "ALFONSINAORSINI": {
+   "id": "ALFONSINAORSINI",
+   "label": "Alfonsina Orsini",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "LORENZOMAGNIFICENT": {
+   "id": "LORENZOMAGNIFICENT",
+   "label": "Lorenzo the Magnificent<br/>the great patron of the<br/>Florentine Renaissance",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "CLARICEORSINI": {
+   "id": "CLARICEORSINI",
+   "label": "Clarice Orsini",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "POPELEOX": {
+   "id": "POPELEOX",
+   "label": "✝ Pope Leo X<br/>Medici son; excommunicated<br/>Martin Luther, 1521",
+   "icon": "pope",
+   "style": "fill:#f2e0a8,color:#000"
+  },
+  "PIEROGOUTY": {
+   "id": "PIEROGOUTY",
+   "label": "Piero the Gouty<br/>Title: ruler of Florence",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "LUCREZIATORNABUONI": {
+   "id": "LUCREZIATORNABUONI",
+   "label": "Lucrezia Tornabuoni<br/>poet and political adviser",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "GIULIANOMEDICI": {
+   "id": "GIULIANOMEDICI",
+   "label": "Giuliano de' Medici<br/>murdered in the Pazzi<br/>Conspiracy, 1478",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "POPECLEMENTVII": {
+   "id": "POPECLEMENTVII",
+   "label": "✝ Pope Clement VII<br/>refused Henry VIII's annulment -<br/>triggering the English Reformation",
+   "icon": "pope",
+   "style": "fill:#f2e0a8,color:#000"
+  },
+  "COSIMOELDER": {
+   "id": "COSIMOELDER",
+   "label": "Cosimo the Elder<br/>founded Medici political power;<br/>patron of the arts",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "CONTESSINABARDI": {
+   "id": "CONTESSINABARDI",
+   "label": "Contessina de' Bardi",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "GIOVANNIBICCI": {
+   "id": "GIOVANNIBICCI",
+   "label": "Giovanni di Bicci de' Medici<br/>founder of the Medici Bank",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  },
+  "PICCARDABUERI": {
+   "id": "PICCARDABUERI",
+   "label": "Piccarda Bueri",
+   "icon": "",
+   "style": "fill:#e6cba0,color:#000"
+  }
+ },
+ "unions": {
+  "U_ottoillus_hedbab": {
+   "id": "U_ottoillus_hedbab",
+   "parents": [
+    "OTTOILLUS",
+    "HEDBAB"
+   ],
+   "children": [
+    "HENRYFOWLER"
+   ]
+  },
+  "U_henryfowler_matring": {
+   "id": "U_henryfowler_matring",
+   "parents": [
+    "HENRYFOWLER",
+    "MATRING"
+   ],
+   "children": [
+    "HEDWIGE",
+    "OTTOI",
+    "HENRYBAV"
+   ]
+  },
+  "U_edgarp_aelfth": {
+   "id": "U_edgarp_aelfth",
+   "parents": [
+    "EDGARP",
+    "AELFTH"
+   ],
+   "children": [
+    "AETH"
+   ]
+  },
+  "U_robertifr_beatv": {
+   "id": "U_robertifr_beatv",
+   "parents": [
+    "ROBERTIFR",
+    "BEATV"
+   ],
+   "children": [
+    "HUGHGREAT"
+   ]
+  },
+  "U_hughgreat_hedwige": {
+   "id": "U_hughgreat_hedwige",
+   "parents": [
+    "HUGHGREAT",
+    "HEDWIGE"
+   ],
+   "children": [
+    "HCAPET"
+   ]
+  },
+  "U_rollo_poppa": {
+   "id": "U_rollo_poppa",
+   "parents": [
+    "ROLLO",
+    "POPPA"
+   ],
+   "children": [
+    "WLONGSWORD"
+   ]
+  },
+  "U_wlongsword_sprota": {
+   "id": "U_wlongsword_sprota",
+   "parents": [
+    "WLONGSWORD",
+    "SPROTA"
+   ],
+   "children": [
+    "RICHI"
+   ]
+  },
+  "U_arnulfi_adelev": {
+   "id": "U_arnulfi_adelev",
+   "parents": [
+    "ARNULFI",
+    "ADELEV"
+   ],
+   "children": [
+    "BALDIII"
+   ]
+  },
+  "U_baldiii_matsax": {
+   "id": "U_baldiii_matsax",
+   "parents": [
+    "BALDIII",
+    "MATSAX"
+   ],
+   "children": [
+    "ARNULF2"
+   ]
+  },
+  "U_aeth_aelf": {
+   "id": "U_aeth_aelf",
+   "parents": [
+    "AETH",
+    "AELF"
+   ],
+   "children": [
+    "EDMI"
+   ]
+  },
+  "U_hcapet_adelaq": {
+   "id": "U_hcapet_adelaq",
+   "parents": [
+    "HCAPET",
+    "ADELAQ"
+   ],
+   "children": [
+    "ROBII"
+   ]
+  },
+  "U_richi_gunnor": {
+   "id": "U_richi_gunnor",
+   "parents": [
+    "RICHI",
+    "GUNNOR"
+   ],
+   "children": [
+    "RICHII"
+   ]
+  },
+  "U_arnulf2_rozala": {
+   "id": "U_arnulf2_rozala",
+   "parents": [
+    "ARNULF2",
+    "ROZALAIT"
+   ],
+   "children": [
+    "BALDIV"
+   ]
+  },
+  "U_robii_const": {
+   "id": "U_robii_const",
+   "parents": [
+    "ROBII",
+    "CONST"
+   ],
+   "children": [
+    "ADELF",
+    "HENRYIFR"
+   ]
+  },
+  "U_edmi_eald": {
+   "id": "U_edmi_eald",
+   "parents": [
+    "EDMI",
+    "EALD"
+   ],
+   "children": [
+    "EDEX"
+   ]
+  },
+  "U_baldiv_ogive": {
+   "id": "U_baldiv_ogive",
+   "parents": [
+    "BALDIV",
+    "OGIVE"
+   ],
+   "children": [
+    "BALD"
+   ]
+  },
+  "U_crin_beth": {
+   "id": "U_crin_beth",
+   "parents": [
+    "CRIN",
+    "BETH"
+   ],
+   "children": [
+    "DUNC"
+   ]
+  },
+  "U_richii_judb": {
+   "id": "U_richii_judb",
+   "parents": [
+    "RICHII",
+    "JUDB"
+   ],
+   "children": [
+    "RI"
+   ]
+  },
+  "U_bald_adelf": {
+   "id": "U_bald_adelf",
+   "parents": [
+    "BALD",
+    "ADELF"
+   ],
+   "children": [
+    "MOF"
+   ]
+  },
+  "U_edex_aga": {
+   "id": "U_edex_aga",
+   "parents": [
+    "EDEX",
+    "AGA"
+   ],
+   "children": [
+    "MARGS"
+   ]
+  },
+  "U_dunc_duncw": {
+   "id": "U_dunc_duncw",
+   "parents": [
+    "DUNC",
+    "DUNCW"
+   ],
+   "children": [
+    "MALC"
+   ]
+  },
+  "U_ri_herl": {
+   "id": "U_ri_herl",
+   "parents": [
+    "RI",
+    "HERL"
+   ],
+   "children": [
+    "WTC"
+   ]
+  },
+  "U_wtc_mof": {
+   "id": "U_wtc_mof",
+   "parents": [
+    "WTC",
+    "MOF"
+   ],
+   "children": [
+    "HI",
+    "ADELA",
+    "ROBCURT"
+   ]
+  },
+  "U_malc_margs": {
+   "id": "U_malc_margs",
+   "parents": [
+    "MALC",
+    "MARGS"
+   ],
+   "children": [
+    "MOS"
+   ]
+  },
+  "U_malc_ingib": {
+   "id": "U_malc_ingib",
+   "parents": [
+    "MALC",
+    "INGIB"
+   ],
+   "children": [
+    "DUNCII"
+   ]
+  },
+  "U_adela_blois": {
+   "id": "U_adela_blois",
+   "parents": [
+    "ADELA",
+    "STEPHENBLOIS"
+   ],
+   "children": [
+    "STEPHENKING"
+   ]
+  },
+  "U_fulk_erm": {
+   "id": "U_fulk_erm",
+   "parents": [
+    "FULK",
+    "ERM"
+   ],
+   "children": [
+    "GOA"
+   ]
+  },
+  "U_hi_mos": {
+   "id": "U_hi_mos",
+   "parents": [
+    "HI",
+    "MOS"
+   ],
+   "children": [
+    "EMPM",
+    "WADELIN"
+   ]
+  },
+  "U_goa_empm": {
+   "id": "U_goa_empm",
+   "parents": [
+    "GOA",
+    "EMPM"
+   ],
+   "children": [
+    "HII"
+   ]
+  },
+  "U_hii_eoa": {
+   "id": "U_hii_eoa",
+   "parents": [
+    "HII",
+    "EOA"
+   ],
+   "children": [
+    "KJ",
+    "EOE",
+    "RICHLION",
+    "MATILDAPLANT"
+   ]
+  },
+  "U_eoe_aviii": {
+   "id": "U_eoe_aviii",
+   "parents": [
+    "EOE",
+    "AVIII"
+   ],
+   "children": [
+    "BOC",
+    "BERENGARIA"
+   ]
+  },
+  "U_boc_lviii": {
+   "id": "U_boc_lviii",
+   "parents": [
+    "BOC",
+    "LVIII"
+   ],
+   "children": [
+    "LIX",
+    "CHARLESANJOU"
+   ]
+  },
+  "U_kj_ioa2": {
+   "id": "U_kj_ioa2",
+   "parents": [
+    "KJ",
+    "IOA2"
+   ],
+   "children": [
+    "HIII",
+    "ISABELLAENG"
+   ]
+  },
+  "U_lix_mop": {
+   "id": "U_lix_mop",
+   "parents": [
+    "LIX",
+    "MOP"
+   ],
+   "children": [
+    "PIII"
+   ]
+  },
+  "U_hiii_eop": {
+   "id": "U_hiii_eop",
+   "parents": [
+    "HIII",
+    "EOP"
+   ],
+   "children": [
+    "EI"
+   ]
+  },
+  "U_piii_ioa": {
+   "id": "U_piii_ioa",
+   "parents": [
+    "PIII",
+    "IOA"
+   ],
+   "children": [
+    "PIV",
+    "CHARLESVALOIS"
+   ]
+  },
+  "U_ei_eoc": {
+   "id": "U_ei_eoc",
+   "parents": [
+    "EI",
+    "EOC"
+   ],
+   "children": [
+    "EII"
+   ]
+  },
+  "U_eii_isab": {
+   "id": "U_eii_isab",
+   "parents": [
+    "EII",
+    "ISAB"
+   ],
+   "children": [
+    "EIII"
+   ]
+  },
+  "U_eiii_philh": {
+   "id": "U_eiii_philh",
+   "parents": [
+    "EIII",
+    "PHILH"
+   ],
+   "children": [
+    "BP",
+    "LIONEL",
+    "JOG",
+    "EOL"
+   ]
+  },
+  "U_edmwood_margwake": {
+   "id": "U_edmwood_margwake",
+   "parents": [
+    "EDMWOOD",
+    "MARGWAKE"
+   ],
+   "children": [
+    "JOANKENT"
+   ]
+  },
+  "U_bp_joankent": {
+   "id": "U_bp_joankent",
+   "parents": [
+    "BP",
+    "JOANKENT"
+   ],
+   "children": [
+    "RICHARDII"
+   ]
+  },
+  "U_jog_blanchel": {
+   "id": "U_jog_blanchel",
+   "parents": [
+    "JOG",
+    "BLANCHEL"
+   ],
+   "children": [
+    "HENRYIV",
+    "PHILIPPALANC"
+   ]
+  },
+  "U_reneanjou_isablorr": {
+   "id": "U_reneanjou_isablorr",
+   "parents": [
+    "RENEANJOU",
+    "ISABLORR"
+   ],
+   "children": [
+    "MARGANJOU"
+   ]
+  },
+  "U_henryvi_marganjou": {
+   "id": "U_henryvi_marganjou",
+   "parents": [
+    "HENRYVI",
+    "MARGANJOU"
+   ],
+   "children": [
+    "EDWWESTM"
+   ]
+  },
+  "U_jog_constcast": {
+   "id": "U_jog_constcast",
+   "parents": [
+    "JOG",
+    "CONSTCAST"
+   ],
+   "children": [
+    "CATHLANC"
+   ]
+  },
+  "U_jog_kats": {
+   "id": "U_jog_kats",
+   "parents": [
+    "JOG",
+    "KATS"
+   ],
+   "children": [
+    "JB",
+    "JOANBEAU"
+   ]
+  },
+  "U_ralphnev_joanbeau": {
+   "id": "U_ralphnev_joanbeau",
+   "parents": [
+    "RALPHNEV",
+    "JOANBEAU"
+   ],
+   "children": [
+    "CN"
+   ]
+  },
+  "U_ry_cn": {
+   "id": "U_ry_cn",
+   "parents": [
+    "RY",
+    "CN"
+   ],
+   "children": [
+    "EIV",
+    "RICHIII"
+   ]
+  },
+  "U_warwick_annebeau": {
+   "id": "U_warwick_annebeau",
+   "parents": [
+    "WARWICK",
+    "ANNEBEAU"
+   ],
+   "children": [
+    "ANNENEV"
+   ]
+  },
+  "U_richiii_annenev": {
+   "id": "U_richiii_annenev",
+   "parents": [
+    "RICHIII",
+    "ANNENEV"
+   ],
+   "children": [
+    "EDWMID"
+   ]
+  },
+  "U_rw_jl": {
+   "id": "U_rw_jl",
+   "parents": [
+    "RW",
+    "JL"
+   ],
+   "children": [
+    "EW"
+   ]
+  },
+  "U_jb_mbe": {
+   "id": "U_jb_mbe",
+   "parents": [
+    "JB",
+    "MBE"
+   ],
+   "children": [
+    "MARGB"
+   ]
+  },
+  "U_ot_cv": {
+   "id": "U_ot_cv",
+   "parents": [
+    "OT",
+    "CV"
+   ],
+   "children": [
+    "EDT"
+   ]
+  },
+  "U_eiv_ew": {
+   "id": "U_eiv_ew",
+   "parents": [
+    "EIV",
+    "EW"
+   ],
+   "children": [
+    "EOY",
+    "EDV",
+    "RICHSHREWS",
+    "CECILYYORK",
+    "ANNEYORK",
+    "CATHYORK",
+    "BRIDGYORK",
+    "MARYYORK"
+   ]
+  },
+  "U_margb_edt": {
+   "id": "U_margb_edt",
+   "parents": [
+    "MARGB",
+    "EDT"
+   ],
+   "children": [
+    "HVII"
+   ]
+  },
+  "U_hvii_eoy": {
+   "id": "U_hvii_eoy",
+   "parents": [
+    "HVII",
+    "EOY"
+   ],
+   "children": [
+    "HVIII",
+    "MARGT",
+    "ARTHUR",
+    "MARYTUDORWQ"
+   ]
+  },
+  "U_hviii_coa": {
+   "id": "U_hviii_coa",
+   "parents": [
+    "HVIII",
+    "COA"
+   ],
+   "children": [
+    "MARYI"
+   ]
+  },
+  "U_johnicast_eleanoraragon": {
+   "id": "U_johnicast_eleanoraragon",
+   "parents": [
+    "JOHNICAST",
+    "ELEANORARAGON"
+   ],
+   "children": [
+    "HENRYIIICAST",
+    "FERDIARAGON"
+   ]
+  },
+  "U_henryiiicast_cathlanc": {
+   "id": "U_henryiiicast_cathlanc",
+   "parents": [
+    "HENRYIIICAST",
+    "CATHLANC"
+   ],
+   "children": [
+    "JOHNIICAST"
+   ]
+  },
+  "U_ferdiaragon_eleanoralb": {
+   "id": "U_ferdiaragon_eleanoralb",
+   "parents": [
+    "FERDIARAGON",
+    "ELEANORALB"
+   ],
+   "children": [
+    "JOHNIIARAGON"
+   ]
+  },
+  "U_johniiaragon_blanchenav": {
+   "id": "U_johniiaragon_blanchenav",
+   "parents": [
+    "JOHNIIARAGON",
+    "BLANCHENAV"
+   ],
+   "children": [
+    "CHARLESVIANA"
+   ]
+  },
+  "U_fadrique_marianafc": {
+   "id": "U_fadrique_marianafc",
+   "parents": [
+    "FADRIQUE",
+    "MARIANAFC"
+   ],
+   "children": [
+    "JUANAENR"
+   ]
+  },
+  "U_johniicast_isabport": {
+   "id": "U_johniicast_isabport",
+   "parents": [
+    "JOHNIICAST",
+    "ISABPORT"
+   ],
+   "children": [
+    "ISABELLAI"
+   ]
+  },
+  "U_johniiaragon_juana": {
+   "id": "U_johniiaragon_juana",
+   "parents": [
+    "JOHNIIARAGON",
+    "JUANAENR"
+   ],
+   "children": [
+    "FERDII"
+   ]
+  },
+  "U_ferdii_isabellai": {
+   "id": "U_ferdii_isabellai",
+   "parents": [
+    "FERDII",
+    "ISABELLAI"
+   ],
+   "children": [
+    "COA",
+    "JUANAMAD"
+   ]
+  },
+  "U_hviii_ab": {
+   "id": "U_hviii_ab",
+   "parents": [
+    "HVIII",
+    "AB"
+   ],
+   "children": [
+    "ELIZI"
+   ]
+  },
+  "U_hviii_janesey": {
+   "id": "U_hviii_janesey",
+   "parents": [
+    "HVIII",
+    "JANESEY"
+   ],
+   "children": [
+    "EDVI"
+   ]
+  },
+  "U_margt_jiv": {
+   "id": "U_margt_jiv",
+   "parents": [
+    "MARGT",
+    "JIV"
+   ],
+   "children": [
+    "JAMESV",
+    "ARTHURROTHESAY",
+    "JAMESROTHESAYINF",
+    "ALEXROSSINF"
+   ]
+  },
+  "U_jamesv_mog": {
+   "id": "U_jamesv_mog",
+   "parents": [
+    "JAMESV",
+    "MOG"
+   ],
+   "children": [
+    "MQOS"
+   ]
+  },
+  "U_claudeg_antoinetteb": {
+   "id": "U_claudeg_antoinetteb",
+   "parents": [
+    "CLAUDEG",
+    "ANTOINETTEB"
+   ],
+   "children": [
+    "MOG",
+    "FRANCISG",
+    "CHARLESL"
+   ]
+  },
+  "U_louisxii_annebrit": {
+   "id": "U_louisxii_annebrit",
+   "parents": [
+    "LOUISXII",
+    "ANNEBRIT"
+   ],
+   "children": [
+    "RENEEFR",
+    "CLAUDEFR"
+   ]
+  },
+  "U_ercoleii_reneefr": {
+   "id": "U_ercoleii_reneefr",
+   "parents": [
+    "ERCOLEII",
+    "RENEEFR"
+   ],
+   "children": [
+    "ANNADESTE"
+   ]
+  },
+  "U_francisg_annadeste": {
+   "id": "U_francisg_annadeste",
+   "parents": [
+    "FRANCISG",
+    "ANNADESTE"
+   ],
+   "children": [
+    "HENRYG"
+   ]
+  },
+  "U_mqos_darn": {
+   "id": "U_mqos_darn",
+   "parents": [
+    "MQOS",
+    "DARN"
+   ],
+   "children": [
+    "JVI"
+   ]
+  },
+  "U_margt_archdoug": {
+   "id": "U_margt_archdoug",
+   "parents": [
+    "MARGT",
+    "ARCHDOUG"
+   ],
+   "children": [
+    "MARGDOUG"
+   ]
+  },
+  "U_mattstew_margdoug": {
+   "id": "U_mattstew_margdoug",
+   "parents": [
+    "MATTSTEW",
+    "MARGDOUG"
+   ],
+   "children": [
+    "DARN"
+   ]
+  },
+  "U_thomasb_elizhow": {
+   "id": "U_thomasb_elizhow",
+   "parents": [
+    "THOMASB",
+    "ELIZHOW"
+   ],
+   "children": [
+    "AB"
+   ]
+  },
+  "U_johnsey_margwent": {
+   "id": "U_johnsey_margwent",
+   "parents": [
+    "JOHNSEY",
+    "MARGWENT"
+   ],
+   "children": [
+    "JANESEY"
+   ]
+  },
+  "U_willx_aenor": {
+   "id": "U_willx_aenor",
+   "parents": [
+    "WILLXAQ",
+    "AENOR"
+   ],
+   "children": [
+    "EOA"
+   ]
+  },
+  "U_ferdiii_joanpon": {
+   "id": "U_ferdiii_joanpon",
+   "parents": [
+    "FERDIII",
+    "JOANPON"
+   ],
+   "children": [
+    "EOC"
+   ]
+  },
+  "U_ramonprov_beatsav": {
+   "id": "U_ramonprov_beatsav",
+   "parents": [
+    "RAMONPROV",
+    "BEATSAV"
+   ],
+   "children": [
+    "EOP",
+    "MOP"
+   ]
+  },
+  "U_aymer_alicecourt": {
+   "id": "U_aymer_alicecourt",
+   "parents": [
+    "AYMERANG",
+    "ALICECOURT"
+   ],
+   "children": [
+    "IOA2"
+   ]
+  },
+  "U_willhain_joanval": {
+   "id": "U_willhain_joanval",
+   "parents": [
+    "WILLHAIN",
+    "JOANVAL"
+   ],
+   "children": [
+    "PHILH"
+   ]
+  },
+  "U_peterlux_margbaux": {
+   "id": "U_peterlux_margbaux",
+   "parents": [
+    "PETERLUX",
+    "MARGBAUX"
+   ],
+   "children": [
+    "JL"
+   ]
+  },
+  "U_henrygros_isabeau": {
+   "id": "U_henrygros_isabeau",
+   "parents": [
+    "HENRYGROS",
+    "ISABEAUM"
+   ],
+   "children": [
+    "BLANCHEL"
+   ]
+  },
+  "U_charlesvi_isabav": {
+   "id": "U_charlesvi_isabav",
+   "parents": [
+    "CHARLESVI",
+    "ISABAV"
+   ],
+   "children": [
+    "CV"
+   ]
+  },
+  "U_jamesi_violant": {
+   "id": "U_jamesi_violant",
+   "parents": [
+    "JAMESIAR",
+    "VIOLANTH"
+   ],
+   "children": [
+    "IOA",
+    "VIOLANTAR"
+   ]
+  },
+  "U_petercruel_padilla": {
+   "id": "U_petercruel_padilla",
+   "parents": [
+    "PETERCRUEL",
+    "PADILLA"
+   ],
+   "children": [
+    "CONSTCAST"
+   ]
+  },
+  "U_franvend_marielux": {
+   "id": "U_franvend_marielux",
+   "parents": [
+    "FRANVEND",
+    "MARIELUX"
+   ],
+   "children": [
+    "ANTOINETTEB"
+   ]
+  },
+  "U_fulkiv_bertrade": {
+   "id": "U_fulkiv_bertrade",
+   "parents": [
+    "FULKIV",
+    "BERTRADE"
+   ],
+   "children": [
+    "FULK"
+   ]
+  },
+  "U_alfonsoxi_mariaport": {
+   "id": "U_alfonsoxi_mariaport",
+   "parents": [
+    "ALFONSOXI",
+    "MARIAPORT"
+   ],
+   "children": [
+    "PETERCRUEL"
+   ]
+  },
+  "U_ferdiv_constport": {
+   "id": "U_ferdiv_constport",
+   "parents": [
+    "FERDIV",
+    "CONSTPORT"
+   ],
+   "children": [
+    "ALFONSOXI"
+   ]
+  },
+  "U_sanchoiv_molina": {
+   "id": "U_sanchoiv_molina",
+   "parents": [
+    "SANCHOIV",
+    "MARIAMOLINA"
+   ],
+   "children": [
+    "FERDIV"
+   ]
+  },
+  "U_alfonsox_violantar": {
+   "id": "U_alfonsox_violantar",
+   "parents": [
+    "ALFONSOX",
+    "VIOLANTAR"
+   ],
+   "children": [
+    "SANCHOIV"
+   ]
+  },
+  "U_ferdiii_beatswab": {
+   "id": "U_ferdiii_beatswab",
+   "parents": [
+    "FERDIII",
+    "BEATSWAB"
+   ],
+   "children": [
+    "ALFONSOX"
+   ]
+  },
+  "U_philswab_ireneang": {
+   "id": "U_philswab_ireneang",
+   "parents": [
+    "PHILSWAB",
+    "IRENEANG"
+   ],
+   "children": [
+    "BEATSWAB"
+   ]
+  },
+  "U_barbarossa_beatburg": {
+   "id": "U_barbarossa_beatburg",
+   "parents": [
+    "BARBAROSSA",
+    "BEATBURG"
+   ],
+   "children": [
+    "PHILSWAB",
+    "HENRYVIHRE"
+   ]
+  },
+  "U_frediiswab_judith": {
+   "id": "U_frediiswab_judith",
+   "parents": [
+    "FREDIISWAB",
+    "JUDITHBAV"
+   ],
+   "children": [
+    "BARBAROSSA"
+   ]
+  },
+  "U_ottoi_eadgyth": {
+   "id": "U_ottoi_eadgyth",
+   "parents": [
+    "OTTOI",
+    "EADGYTH"
+   ],
+   "children": [
+    "LIUTGARDE"
+   ]
+  },
+  "U_liutgarde_conradred": {
+   "id": "U_liutgarde_conradred",
+   "parents": [
+    "LIUTGARDE",
+    "CONRADRED"
+   ],
+   "children": [
+    "OTTOWORMS"
+   ]
+  },
+  "U_henryspeyer_adelaide": {
+   "id": "U_henryspeyer_adelaide",
+   "parents": [
+    "HENRYSPEYER",
+    "ADELAIDEMETZ"
+   ],
+   "children": [
+    "CONRADII"
+   ]
+  },
+  "U_conradii_gisela": {
+   "id": "U_conradii_gisela",
+   "parents": [
+    "CONRADII",
+    "GISELASWAB"
+   ],
+   "children": [
+    "HENRYIIIHRE"
+   ]
+  },
+  "U_henryiiihre_agnes": {
+   "id": "U_henryiiihre_agnes",
+   "parents": [
+    "HENRYIIIHRE",
+    "AGNESPOITOU"
+   ],
+   "children": [
+    "HENRYIVHRE"
+   ]
+  },
+  "U_henryivhre_bertha": {
+   "id": "U_henryivhre_bertha",
+   "parents": [
+    "HENRYIVHRE",
+    "BERTHASAVOY"
+   ],
+   "children": [
+    "AGNESWAIB",
+    "HENRYVHRE"
+   ]
+  },
+  "U_agneswaib_fredi": {
+   "id": "U_agneswaib_fredi",
+   "parents": [
+    "AGNESWAIB",
+    "FREDISWABIA"
+   ],
+   "children": [
+    "FREDIISWAB"
+   ]
+  },
+  "U_baldwinii_aelfthw": {
+   "id": "U_baldwinii_aelfthw",
+   "parents": [
+    "BALDWINII",
+    "AELFTHWESSEX"
+   ],
+   "children": [
+    "ARNULFI"
+   ]
+  },
+  "U_baldwini_judithfr": {
+   "id": "U_baldwini_judithfr",
+   "parents": [
+    "BALDWINI",
+    "JUDITHFR"
+   ],
+   "children": [
+    "BALDWINII"
+   ]
+  },
+  "U_ottoi_adelaide": {
+   "id": "U_ottoi_adelaide",
+   "parents": [
+    "OTTOI",
+    "ADELAIDEIT"
+   ],
+   "children": [
+    "OTTOII"
+   ]
+  },
+  "U_ottoii_theophanu": {
+   "id": "U_ottoii_theophanu",
+   "parents": [
+    "OTTOII",
+    "THEOPHANU"
+   ],
+   "children": [
+    "OTTOIII"
+   ]
+  },
+  "U_henryvihre_const": {
+   "id": "U_henryvihre_const",
+   "parents": [
+    "HENRYVIHRE",
+    "CONSTSICILY"
+   ],
+   "children": [
+    "FREDERICKII"
+   ]
+  },
+  "U_frederickii_isabeng": {
+   "id": "U_frederickii_isabeng",
+   "parents": [
+    "FREDERICKII",
+    "ISABELLAENG"
+   ],
+   "children": [
+    "MARGSICILY"
+   ]
+  },
+  "U_matildaplant_lion": {
+   "id": "U_matildaplant_lion",
+   "parents": [
+    "MATILDAPLANT",
+    "HENRYLION"
+   ],
+   "children": [
+    "OTTOIV"
+   ]
+  },
+  "U_frederickii_isabjer": {
+   "id": "U_frederickii_isabjer",
+   "parents": [
+    "FREDERICKII",
+    "ISABJER"
+   ],
+   "children": [
+    "CONRADIV"
+   ]
+  },
+  "U_frederickii_bianca": {
+   "id": "U_frederickii_bianca",
+   "parents": [
+    "FREDERICKII",
+    "BIANCALANCIA"
+   ],
+   "children": [
+    "MANFRED"
+   ]
+  },
+  "U_joaoi_philippa": {
+   "id": "U_joaoi_philippa",
+   "parents": [
+    "JOAOI",
+    "PHILIPPALANC"
+   ],
+   "children": [
+    "DUARTE",
+    "PEDROCOIMBRA",
+    "HENRYNAV",
+    "ISABBURGUNDY",
+    "JOHNCONST",
+    "FERDINANDHOLY"
+   ]
+  },
+  "U_johnconst_barcelos": {
+   "id": "U_johnconst_barcelos",
+   "parents": [
+    "JOHNCONST",
+    "ISABBARCELOS"
+   ],
+   "children": [
+    "ISABPORT"
+   ]
+  },
+  "U_philipgood_isabburg": {
+   "id": "U_philipgood_isabburg",
+   "parents": [
+    "PHILIPGOOD",
+    "ISABBURGUNDY"
+   ],
+   "children": [
+    "CHARLESBOLD"
+   ]
+  },
+  "U_charlesbold_bourbon": {
+   "id": "U_charlesbold_bourbon",
+   "parents": [
+    "CHARLESBOLD",
+    "ISABBOURBON"
+   ],
+   "children": [
+    "MARYBURGUNDY"
+   ]
+  },
+  "U_frediii_eleanorport": {
+   "id": "U_frediii_eleanorport",
+   "parents": [
+    "FREDIIIHRE",
+    "ELEANORPORT"
+   ],
+   "children": [
+    "MAXIMILIANI"
+   ]
+  },
+  "U_max_mary": {
+   "id": "U_max_mary",
+   "parents": [
+    "MAXIMILIANI",
+    "MARYBURGUNDY"
+   ],
+   "children": [
+    "PHILIPHANDSOME"
+   ]
+  },
+  "U_philiph_juana": {
+   "id": "U_philiph_juana",
+   "parents": [
+    "PHILIPHANDSOME",
+    "JUANAMAD"
+   ],
+   "children": [
+    "CHARLESV"
+   ]
+  },
+  "U_charlesv_isabport3": {
+   "id": "U_charlesv_isabport3",
+   "parents": [
+    "CHARLESV",
+    "ISABPORTUGAL3"
+   ],
+   "children": [
+    "PHILIPII"
+   ]
+  },
+  "U_pepinshort_bertrada": {
+   "id": "U_pepinshort_bertrada",
+   "parents": [
+    "PEPINSHORT",
+    "BERTRADA"
+   ],
+   "children": [
+    "CHARLEMAGNE"
+   ]
+  },
+  "U_charlesmartel_rotrude": {
+   "id": "U_charlesmartel_rotrude",
+   "parents": [
+    "CHARLESMARTEL",
+    "ROTRUDE"
+   ],
+   "children": [
+    "PEPINSHORT"
+   ]
+  },
+  "U_pepinherstal_alpaida": {
+   "id": "U_pepinherstal_alpaida",
+   "parents": [
+    "PEPINHERSTAL",
+    "ALPAIDA"
+   ],
+   "children": [
+    "CHARLESMARTEL"
+   ]
+  },
+  "U_ansegisel_begga": {
+   "id": "U_ansegisel_begga",
+   "parents": [
+    "ANSEGISEL",
+    "BEGGA"
+   ],
+   "children": [
+    "PEPINHERSTAL"
+   ]
+  },
+  "U_pepinlanden_itta": {
+   "id": "U_pepinlanden_itta",
+   "parents": [
+    "PEPINLANDEN",
+    "ITTA"
+   ],
+   "children": [
+    "BEGGA"
+   ]
+  },
+  "U_liudolf_oda": {
+   "id": "U_liudolf_oda",
+   "parents": [
+    "LIUDOLF",
+    "ODA"
+   ],
+   "children": [
+    "OTTOILLUS"
+   ]
+  },
+  "U_louisger_emma": {
+   "id": "U_louisger_emma",
+   "parents": [
+    "LOUISGERMAN",
+    "EMMAALTDORF"
+   ],
+   "children": [
+    "CARLOMANBAV",
+    "LOUISYOUNGER",
+    "CHARLESFAT"
+   ]
+  },
+  "U_carloman_liutswind": {
+   "id": "U_carloman_liutswind",
+   "parents": [
+    "CARLOMANBAV",
+    "LIUTSWIND"
+   ],
+   "children": [
+    "ARNULFCAR"
+   ]
+  },
+  "U_arnulfcar_ota": {
+   "id": "U_arnulfcar_ota",
+   "parents": [
+    "ARNULFCAR",
+    "OTAARNULF"
+   ],
+   "children": [
+    "LOUISCHILD"
+   ]
+  },
+  "U_henryifr_annekiev": {
+   "id": "U_henryifr_annekiev",
+   "parents": [
+    "HENRYIFR",
+    "ANNEKIEV"
+   ],
+   "children": [
+    "PHILIPIFR"
+   ]
+  },
+  "U_yaroslav_ingegerd": {
+   "id": "U_yaroslav_ingegerd",
+   "parents": [
+    "YAROSLAV",
+    "INGEGERD"
+   ],
+   "children": [
+    "ANNEKIEV"
+   ]
+  },
+  "U_vladimir_rogneda": {
+   "id": "U_vladimir_rogneda",
+   "parents": [
+    "VLADIMIR",
+    "ROGNEDA"
+   ],
+   "children": [
+    "YAROSLAV"
+   ]
+  },
+  "U_igor_olga": {
+   "id": "U_igor_olga",
+   "parents": [
+    "IGOR",
+    "OLGA"
+   ],
+   "children": [
+    "SVIATOSLAV"
+   ]
+  },
+  "U_philipifr_bertha": {
+   "id": "U_philipifr_bertha",
+   "parents": [
+    "PHILIPIFR",
+    "BERTHAHOLLAND"
+   ],
+   "children": [
+    "LOUISVI"
+   ]
+  },
+  "U_louisvi_adelmaur": {
+   "id": "U_louisvi_adelmaur",
+   "parents": [
+    "LOUISVI",
+    "ADELMAURIENNE"
+   ],
+   "children": [
+    "LOUISVII"
+   ]
+  },
+  "U_louisvii_adelchamp": {
+   "id": "U_louisvii_adelchamp",
+   "parents": [
+    "LOUISVII",
+    "ADELCHAMPAGNE"
+   ],
+   "children": [
+    "PHILIPAUG"
+   ]
+  },
+  "U_philipaug_isabhainault": {
+   "id": "U_philipaug_isabhainault",
+   "parents": [
+    "PHILIPAUG",
+    "ISABHAINAULT"
+   ],
+   "children": [
+    "LVIII"
+   ]
+  },
+  "U_james3_margden": {
+   "id": "U_james3_margden",
+   "parents": [
+    "JAMESIIISCOT",
+    "MARGDENMARK"
+   ],
+   "children": [
+    "JIV",
+    "JAMESROSS",
+    "JOHNMAR2"
+   ]
+  },
+  "U_james2_maryguel": {
+   "id": "U_james2_maryguel",
+   "parents": [
+    "JAMESIISCOT",
+    "MARYGUELDERS"
+   ],
+   "children": [
+    "JAMESIIISCOT",
+    "ALEXALBANY",
+    "DAVIDMORAY",
+    "JOHNMAR",
+    "MARYSTEW3",
+    "MARGSTEW3"
+   ]
+  },
+  "U_james1_joanbeau": {
+   "id": "U_james1_joanbeau",
+   "parents": [
+    "JAMESISCOT",
+    "JOANBEAUSCOT"
+   ],
+   "children": [
+    "JAMESIISCOT",
+    "ALEXTWIN",
+    "MARGDAUPHINE",
+    "ISABELLASTEW2",
+    "ELEANORSTEW",
+    "JOANSTEW",
+    "MARYSTEW2",
+    "ANNABELLASTEW"
+   ]
+  },
+  "U_robert3_annabella": {
+   "id": "U_robert3_annabella",
+   "parents": [
+    "ROBERTIIISCOT",
+    "ANNABELLA"
+   ],
+   "children": [
+    "JAMESISCOT",
+    "DAVIDROTHESAY",
+    "ROBERTSTEWDY",
+    "MARGSTEW2",
+    "MARYSTEW1",
+    "ELIZSTEW3",
+    "EGIDIASTEW2"
+   ]
+  },
+  "U_robert2_elizmure": {
+   "id": "U_robert2_elizmure",
+   "parents": [
+    "ROBERTIISCOT",
+    "ELIZMURE"
+   ],
+   "children": [
+    "ROBERTIIISCOT",
+    "WALTERSTEWFIFE",
+    "ROBERTALBANY",
+    "ALEXBUCHAN",
+    "MARGSTEW1",
+    "MARJORIESTEW",
+    "ELIZSTEW1",
+    "ISABELLASTEW",
+    "JOANNASTEW",
+    "KATHERINESTEW"
+   ]
+  },
+  "U_walter_marjorie": {
+   "id": "U_walter_marjorie",
+   "parents": [
+    "WALTERSTEWART",
+    "MARJORIEBRUCE"
+   ],
+   "children": [
+    "ROBERTIISCOT"
+   ]
+  },
+  "U_bruce_isabelmar": {
+   "id": "U_bruce_isabelmar",
+   "parents": [
+    "ROBERTBRUCE",
+    "ISABELMAR"
+   ],
+   "children": [
+    "MARJORIEBRUCE"
+   ]
+  },
+  "U_debrus_carrick": {
+   "id": "U_debrus_carrick",
+   "parents": [
+    "ROBERTDEBRUS",
+    "MARJORIECARRICK"
+   ],
+   "children": [
+    "ROBERTBRUCE",
+    "EDWARDBRUCE",
+    "NEILBRUCE",
+    "THOMASBRUCE",
+    "ALEXBRUCE",
+    "ISABELBRUCE",
+    "CHRISTIANBRUCE",
+    "MARYBRUCE",
+    "MARGBRUCE",
+    "MATILDABRUCE"
+   ]
+  },
+  "U_bruce_elizburgh": {
+   "id": "U_bruce_elizburgh",
+   "parents": [
+    "ROBERTBRUCE",
+    "ELIZBURGH"
+   ],
+   "children": [
+    "DAVIDII",
+    "JOHNBRUCE2",
+    "MATILDABRUCE2",
+    "MARGBRUCE2"
+   ]
+  },
+  "U_robert2_euphemia": {
+   "id": "U_robert2_euphemia",
+   "parents": [
+    "ROBERTIISCOT",
+    "EUPHEMIAROSS"
+   ],
+   "children": [
+    "DAVIDSTRATHEARN",
+    "WALTERATHOLL",
+    "EGIDIASTEW",
+    "ELIZSTEW2"
+   ]
+  },
+  "U_alfonsoix_berengaria": {
+   "id": "U_alfonsoix_berengaria",
+   "parents": [
+    "ALFONSOIXLEON",
+    "BERENGARIA"
+   ],
+   "children": [
+    "FERDIII"
+   ]
+  },
+  "U_philipvi_joan": {
+   "id": "U_philipvi_joan",
+   "parents": [
+    "PHILIPVI",
+    "JOANBURGUNDY"
+   ],
+   "children": [
+    "JOHNIIFR"
+   ]
+  },
+  "U_johniifr_bonne": {
+   "id": "U_johniifr_bonne",
+   "parents": [
+    "JOHNIIFR",
+    "BONNELUX"
+   ],
+   "children": [
+    "CHARLESVFR"
+   ]
+  },
+  "U_charlesvfr_joanna": {
+   "id": "U_charlesvfr_joanna",
+   "parents": [
+    "CHARLESVFR",
+    "JOANNABOURBON"
+   ],
+   "children": [
+    "CHARLESVI"
+   ]
+  },
+  "U_angouleme_savoy": {
+   "id": "U_angouleme_savoy",
+   "parents": [
+    "CHARLESANGOULEME",
+    "LOUISESAVOY"
+   ],
+   "children": [
+    "FRANCISI"
+   ]
+  },
+  "U_francisi_claude": {
+   "id": "U_francisi_claude",
+   "parents": [
+    "FRANCISI",
+    "CLAUDEFR"
+   ],
+   "children": [
+    "HENRYIIFR"
+   ]
+  },
+  "U_henryiifr_medici": {
+   "id": "U_henryiifr_medici",
+   "parents": [
+    "HENRYIIFR",
+    "CATHMEDICI"
+   ],
+   "children": [
+    "FRANCISII"
+   ]
+  },
+  "U_alfonsoi_lucrezia": {
+   "id": "U_alfonsoi_lucrezia",
+   "parents": [
+    "ALFONSOIESTE",
+    "LUCREZIABORGIA"
+   ],
+   "children": [
+    "ERCOLEII"
+   ]
+  },
+  "U_charlesorleans_cleves": {
+   "id": "U_charlesorleans_cleves",
+   "parents": [
+    "CHARLESORLEANS",
+    "MARIECLEVES"
+   ],
+   "children": [
+    "LOUISXII"
+   ]
+  },
+  "U_francisiibrit_foix": {
+   "id": "U_francisiibrit_foix",
+   "parents": [
+    "FRANCISIIBRITTANY",
+    "MARGFOIX"
+   ],
+   "children": [
+    "ANNEBRIT"
+   ]
+  },
+  "U_reneii_philippa": {
+   "id": "U_reneii_philippa",
+   "parents": [
+    "RENEIILORRAINE",
+    "PHILIPPAGUELDERS"
+   ],
+   "children": [
+    "CLAUDEG"
+   ]
+  },
+  "U_lorenzourbino_madeleine": {
+   "id": "U_lorenzourbino_madeleine",
+   "parents": [
+    "LORENZOURBINO",
+    "MADELEINEAUVERGNE"
+   ],
+   "children": [
+    "CATHMEDICI"
+   ]
+  },
+  "U_pierounf_alfonsina": {
+   "id": "U_pierounf_alfonsina",
+   "parents": [
+    "PIEROUNFORTUNATE",
+    "ALFONSINAORSINI"
+   ],
+   "children": [
+    "LORENZOURBINO"
+   ]
+  },
+  "U_lorenzomag_clarice": {
+   "id": "U_lorenzomag_clarice",
+   "parents": [
+    "LORENZOMAGNIFICENT",
+    "CLARICEORSINI"
+   ],
+   "children": [
+    "PIEROUNFORTUNATE",
+    "POPELEOX"
+   ]
+  },
+  "U_pierogouty_lucrezia": {
+   "id": "U_pierogouty_lucrezia",
+   "parents": [
+    "PIEROGOUTY",
+    "LUCREZIATORNABUONI"
+   ],
+   "children": [
+    "LORENZOMAGNIFICENT",
+    "GIULIANOMEDICI"
+   ]
+  },
+  "U_cosimo_contessina": {
+   "id": "U_cosimo_contessina",
+   "parents": [
+    "COSIMOELDER",
+    "CONTESSINABARDI"
+   ],
+   "children": [
+    "PIEROGOUTY"
+   ]
+  },
+  "U_giovannibicci_piccarda": {
+   "id": "U_giovannibicci_piccarda",
+   "parents": [
+    "GIOVANNIBICCI",
+    "PICCARDABUERI"
+   ],
+   "children": [
+    "COSIMOELDER"
+   ]
+  }
+ },
+ "edges": [
+  [
+   "OTTOILLUS",
+   "U_ottoillus_hedbab"
+  ],
+  [
+   "HEDBAB",
+   "U_ottoillus_hedbab"
+  ],
+  [
+   "U_ottoillus_hedbab",
+   "HENRYFOWLER"
+  ],
+  [
+   "HENRYFOWLER",
+   "U_henryfowler_matring"
+  ],
+  [
+   "MATRING",
+   "U_henryfowler_matring"
+  ],
+  [
+   "U_henryfowler_matring",
+   "HEDWIGE"
+  ],
+  [
+   "U_henryfowler_matring",
+   "OTTOI"
+  ],
+  [
+   "EDGARP",
+   "U_edgarp_aelfth"
+  ],
+  [
+   "AELFTH",
+   "U_edgarp_aelfth"
+  ],
+  [
+   "U_edgarp_aelfth",
+   "AETH"
+  ],
+  [
+   "MALCI",
+   "KENNII"
+  ],
+  [
+   "KENNII",
+   "MALCII"
+  ],
+  [
+   "ROBERTIFR",
+   "U_robertifr_beatv"
+  ],
+  [
+   "BEATV",
+   "U_robertifr_beatv"
+  ],
+  [
+   "U_robertifr_beatv",
+   "HUGHGREAT"
+  ],
+  [
+   "HUGHGREAT",
+   "U_hughgreat_hedwige"
+  ],
+  [
+   "HEDWIGE",
+   "U_hughgreat_hedwige"
+  ],
+  [
+   "U_hughgreat_hedwige",
+   "HCAPET"
+  ],
+  [
+   "ROLLO",
+   "U_rollo_poppa"
+  ],
+  [
+   "POPPA",
+   "U_rollo_poppa"
+  ],
+  [
+   "U_rollo_poppa",
+   "WLONGSWORD"
+  ],
+  [
+   "WLONGSWORD",
+   "U_wlongsword_sprota"
+  ],
+  [
+   "SPROTA",
+   "U_wlongsword_sprota"
+  ],
+  [
+   "U_wlongsword_sprota",
+   "RICHI"
+  ],
+  [
+   "ARNULFI",
+   "U_arnulfi_adelev"
+  ],
+  [
+   "ADELEV",
+   "U_arnulfi_adelev"
+  ],
+  [
+   "U_arnulfi_adelev",
+   "BALDIII"
+  ],
+  [
+   "BALDIII",
+   "U_baldiii_matsax"
+  ],
+  [
+   "MATSAX",
+   "U_baldiii_matsax"
+  ],
+  [
+   "U_baldiii_matsax",
+   "ARNULF2"
+  ],
+  [
+   "AETH",
+   "U_aeth_aelf"
+  ],
+  [
+   "AELF",
+   "U_aeth_aelf"
+  ],
+  [
+   "U_aeth_aelf",
+   "EDMI"
+  ],
+  [
+   "MALCII",
+   "BETH"
+  ],
+  [
+   "HCAPET",
+   "U_hcapet_adelaq"
+  ],
+  [
+   "ADELAQ",
+   "U_hcapet_adelaq"
+  ],
+  [
+   "U_hcapet_adelaq",
+   "ROBII"
+  ],
+  [
+   "RICHI",
+   "U_richi_gunnor"
+  ],
+  [
+   "GUNNOR",
+   "U_richi_gunnor"
+  ],
+  [
+   "U_richi_gunnor",
+   "RICHII"
+  ],
+  [
+   "ARNULF2",
+   "U_arnulf2_rozala"
+  ],
+  [
+   "ROZALAIT",
+   "U_arnulf2_rozala"
+  ],
+  [
+   "U_arnulf2_rozala",
+   "BALDIV"
+  ],
+  [
+   "ROBII",
+   "U_robii_const"
+  ],
+  [
+   "CONST",
+   "U_robii_const"
+  ],
+  [
+   "U_robii_const",
+   "ADELF"
+  ],
+  [
+   "EDMI",
+   "U_edmi_eald"
+  ],
+  [
+   "EALD",
+   "U_edmi_eald"
+  ],
+  [
+   "U_edmi_eald",
+   "EDEX"
+  ],
+  [
+   "BALDIV",
+   "U_baldiv_ogive"
+  ],
+  [
+   "OGIVE",
+   "U_baldiv_ogive"
+  ],
+  [
+   "U_baldiv_ogive",
+   "BALD"
+  ],
+  [
+   "CRIN",
+   "U_crin_beth"
+  ],
+  [
+   "BETH",
+   "U_crin_beth"
+  ],
+  [
+   "U_crin_beth",
+   "DUNC"
+  ],
+  [
+   "RICHII",
+   "U_richii_judb"
+  ],
+  [
+   "JUDB",
+   "U_richii_judb"
+  ],
+  [
+   "U_richii_judb",
+   "RI"
+  ],
+  [
+   "BALD",
+   "U_bald_adelf"
+  ],
+  [
+   "ADELF",
+   "U_bald_adelf"
+  ],
+  [
+   "U_bald_adelf",
+   "MOF"
+  ],
+  [
+   "EDEX",
+   "U_edex_aga"
+  ],
+  [
+   "AGA",
+   "U_edex_aga"
+  ],
+  [
+   "U_edex_aga",
+   "MARGS"
+  ],
+  [
+   "DUNC",
+   "U_dunc_duncw"
+  ],
+  [
+   "DUNCW",
+   "U_dunc_duncw"
+  ],
+  [
+   "U_dunc_duncw",
+   "MALC"
+  ],
+  [
+   "RI",
+   "U_ri_herl"
+  ],
+  [
+   "HERL",
+   "U_ri_herl"
+  ],
+  [
+   "U_ri_herl",
+   "WTC"
+  ],
+  [
+   "WTC",
+   "U_wtc_mof"
+  ],
+  [
+   "MOF",
+   "U_wtc_mof"
+  ],
+  [
+   "U_wtc_mof",
+   "HI"
+  ],
+  [
+   "U_wtc_mof",
+   "ADELA"
+  ],
+  [
+   "U_wtc_mof",
+   "ROBCURT"
+  ],
+  [
+   "MALC",
+   "U_malc_margs"
+  ],
+  [
+   "MARGS",
+   "U_malc_margs"
+  ],
+  [
+   "U_malc_margs",
+   "MOS"
+  ],
+  [
+   "MALC",
+   "U_malc_ingib"
+  ],
+  [
+   "INGIB",
+   "U_malc_ingib"
+  ],
+  [
+   "U_malc_ingib",
+   "DUNCII"
+  ],
+  [
+   "ADELA",
+   "U_adela_blois"
+  ],
+  [
+   "STEPHENBLOIS",
+   "U_adela_blois"
+  ],
+  [
+   "U_adela_blois",
+   "STEPHENKING"
+  ],
+  [
+   "FULK",
+   "U_fulk_erm"
+  ],
+  [
+   "ERM",
+   "U_fulk_erm"
+  ],
+  [
+   "U_fulk_erm",
+   "GOA"
+  ],
+  [
+   "HI",
+   "U_hi_mos"
+  ],
+  [
+   "MOS",
+   "U_hi_mos"
+  ],
+  [
+   "U_hi_mos",
+   "EMPM"
+  ],
+  [
+   "U_hi_mos",
+   "WADELIN"
+  ],
+  [
+   "GOA",
+   "U_goa_empm"
+  ],
+  [
+   "EMPM",
+   "U_goa_empm"
+  ],
+  [
+   "U_goa_empm",
+   "HII"
+  ],
+  [
+   "HII",
+   "U_hii_eoa"
+  ],
+  [
+   "EOA",
+   "U_hii_eoa"
+  ],
+  [
+   "U_hii_eoa",
+   "KJ"
+  ],
+  [
+   "U_hii_eoa",
+   "EOE"
+  ],
+  [
+   "U_hii_eoa",
+   "RICHLION"
+  ],
+  [
+   "EOE",
+   "U_eoe_aviii"
+  ],
+  [
+   "AVIII",
+   "U_eoe_aviii"
+  ],
+  [
+   "U_eoe_aviii",
+   "BOC"
+  ],
+  [
+   "BOC",
+   "U_boc_lviii"
+  ],
+  [
+   "LVIII",
+   "U_boc_lviii"
+  ],
+  [
+   "U_boc_lviii",
+   "LIX"
+  ],
+  [
+   "U_boc_lviii",
+   "CHARLESANJOU"
+  ],
+  [
+   "KJ",
+   "U_kj_ioa2"
+  ],
+  [
+   "IOA2",
+   "U_kj_ioa2"
+  ],
+  [
+   "U_kj_ioa2",
+   "HIII"
+  ],
+  [
+   "LIX",
+   "U_lix_mop"
+  ],
+  [
+   "MOP",
+   "U_lix_mop"
+  ],
+  [
+   "U_lix_mop",
+   "PIII"
+  ],
+  [
+   "HIII",
+   "U_hiii_eop"
+  ],
+  [
+   "EOP",
+   "U_hiii_eop"
+  ],
+  [
+   "U_hiii_eop",
+   "EI"
+  ],
+  [
+   "PIII",
+   "U_piii_ioa"
+  ],
+  [
+   "IOA",
+   "U_piii_ioa"
+  ],
+  [
+   "U_piii_ioa",
+   "PIV"
+  ],
+  [
+   "EI",
+   "U_ei_eoc"
+  ],
+  [
+   "EOC",
+   "U_ei_eoc"
+  ],
+  [
+   "U_ei_eoc",
+   "EII"
+  ],
+  [
+   "PIV",
+   "ISAB"
+  ],
+  [
+   "EII",
+   "U_eii_isab"
+  ],
+  [
+   "ISAB",
+   "U_eii_isab"
+  ],
+  [
+   "U_eii_isab",
+   "EIII"
+  ],
+  [
+   "EIII",
+   "U_eiii_philh"
+  ],
+  [
+   "PHILH",
+   "U_eiii_philh"
+  ],
+  [
+   "U_eiii_philh",
+   "BP"
+  ],
+  [
+   "EI",
+   "EDMWOOD"
+  ],
+  [
+   "EDMWOOD",
+   "U_edmwood_margwake"
+  ],
+  [
+   "MARGWAKE",
+   "U_edmwood_margwake"
+  ],
+  [
+   "U_edmwood_margwake",
+   "JOANKENT"
+  ],
+  [
+   "BP",
+   "U_bp_joankent"
+  ],
+  [
+   "JOANKENT",
+   "U_bp_joankent"
+  ],
+  [
+   "U_bp_joankent",
+   "RICHARDII"
+  ],
+  [
+   "U_eiii_philh",
+   "LIONEL"
+  ],
+  [
+   "U_eiii_philh",
+   "JOG"
+  ],
+  [
+   "U_eiii_philh",
+   "EOL"
+  ],
+  [
+   "JOG",
+   "U_jog_blanchel"
+  ],
+  [
+   "BLANCHEL",
+   "U_jog_blanchel"
+  ],
+  [
+   "U_jog_blanchel",
+   "HENRYIV"
+  ],
+  [
+   "HENRYIV",
+   "HENRYV"
+  ],
+  [
+   "HENRYV",
+   "HENRYVI"
+  ],
+  [
+   "RENEANJOU",
+   "U_reneanjou_isablorr"
+  ],
+  [
+   "ISABLORR",
+   "U_reneanjou_isablorr"
+  ],
+  [
+   "U_reneanjou_isablorr",
+   "MARGANJOU"
+  ],
+  [
+   "HENRYVI",
+   "U_henryvi_marganjou"
+  ],
+  [
+   "MARGANJOU",
+   "U_henryvi_marganjou"
+  ],
+  [
+   "U_henryvi_marganjou",
+   "EDWWESTM"
+  ],
+  [
+   "JOG",
+   "U_jog_constcast"
+  ],
+  [
+   "CONSTCAST",
+   "U_jog_constcast"
+  ],
+  [
+   "U_jog_constcast",
+   "CATHLANC"
+  ],
+  [
+   "JOG",
+   "U_jog_kats"
+  ],
+  [
+   "KATS",
+   "U_jog_kats"
+  ],
+  [
+   "U_jog_kats",
+   "JB"
+  ],
+  [
+   "U_jog_kats",
+   "JOANBEAU"
+  ],
+  [
+   "RALPHNEV",
+   "U_ralphnev_joanbeau"
+  ],
+  [
+   "JOANBEAU",
+   "U_ralphnev_joanbeau"
+  ],
+  [
+   "U_ralphnev_joanbeau",
+   "CN"
+  ],
+  [
+   "RY",
+   "U_ry_cn"
+  ],
+  [
+   "CN",
+   "U_ry_cn"
+  ],
+  [
+   "U_ry_cn",
+   "EIV"
+  ],
+  [
+   "U_ry_cn",
+   "RICHIII"
+  ],
+  [
+   "WARWICK",
+   "U_warwick_annebeau"
+  ],
+  [
+   "ANNEBEAU",
+   "U_warwick_annebeau"
+  ],
+  [
+   "U_warwick_annebeau",
+   "ANNENEV"
+  ],
+  [
+   "RICHIII",
+   "U_richiii_annenev"
+  ],
+  [
+   "ANNENEV",
+   "U_richiii_annenev"
+  ],
+  [
+   "U_richiii_annenev",
+   "EDWMID"
+  ],
+  [
+   "RW",
+   "U_rw_jl"
+  ],
+  [
+   "JL",
+   "U_rw_jl"
+  ],
+  [
+   "U_rw_jl",
+   "EW"
+  ],
+  [
+   "JB",
+   "U_jb_mbe"
+  ],
+  [
+   "MBE",
+   "U_jb_mbe"
+  ],
+  [
+   "U_jb_mbe",
+   "MARGB"
+  ],
+  [
+   "OT",
+   "U_ot_cv"
+  ],
+  [
+   "CV",
+   "U_ot_cv"
+  ],
+  [
+   "U_ot_cv",
+   "EDT"
+  ],
+  [
+   "EIV",
+   "U_eiv_ew"
+  ],
+  [
+   "EW",
+   "U_eiv_ew"
+  ],
+  [
+   "U_eiv_ew",
+   "EOY"
+  ],
+  [
+   "U_eiv_ew",
+   "EDV"
+  ],
+  [
+   "U_eiv_ew",
+   "RICHSHREWS"
+  ],
+  [
+   "MARGB",
+   "U_margb_edt"
+  ],
+  [
+   "EDT",
+   "U_margb_edt"
+  ],
+  [
+   "U_margb_edt",
+   "HVII"
+  ],
+  [
+   "HVII",
+   "U_hvii_eoy"
+  ],
+  [
+   "EOY",
+   "U_hvii_eoy"
+  ],
+  [
+   "U_hvii_eoy",
+   "HVIII"
+  ],
+  [
+   "U_hvii_eoy",
+   "MARGT"
+  ],
+  [
+   "U_hvii_eoy",
+   "ARTHUR"
+  ],
+  [
+   "U_hvii_eoy",
+   "MARYTUDORWQ"
+  ],
+  [
+   "HVIII",
+   "U_hviii_coa"
+  ],
+  [
+   "JOHNICAST",
+   "U_johnicast_eleanoraragon"
+  ],
+  [
+   "ELEANORARAGON",
+   "U_johnicast_eleanoraragon"
+  ],
+  [
+   "U_johnicast_eleanoraragon",
+   "HENRYIIICAST"
+  ],
+  [
+   "U_johnicast_eleanoraragon",
+   "FERDIARAGON"
+  ],
+  [
+   "HENRYIIICAST",
+   "U_henryiiicast_cathlanc"
+  ],
+  [
+   "CATHLANC",
+   "U_henryiiicast_cathlanc"
+  ],
+  [
+   "U_henryiiicast_cathlanc",
+   "JOHNIICAST"
+  ],
+  [
+   "FERDIARAGON",
+   "U_ferdiaragon_eleanoralb"
+  ],
+  [
+   "ELEANORALB",
+   "U_ferdiaragon_eleanoralb"
+  ],
+  [
+   "U_ferdiaragon_eleanoralb",
+   "JOHNIIARAGON"
+  ],
+  [
+   "ALFONSOENR",
+   "FADRIQUE"
+  ],
+  [
+   "JOHNIIARAGON",
+   "U_johniiaragon_blanchenav"
+  ],
+  [
+   "BLANCHENAV",
+   "U_johniiaragon_blanchenav"
+  ],
+  [
+   "U_johniiaragon_blanchenav",
+   "CHARLESVIANA"
+  ],
+  [
+   "FADRIQUE",
+   "U_fadrique_marianafc"
+  ],
+  [
+   "MARIANAFC",
+   "U_fadrique_marianafc"
+  ],
+  [
+   "U_fadrique_marianafc",
+   "JUANAENR"
+  ],
+  [
+   "JOHNIICAST",
+   "U_johniicast_isabport"
+  ],
+  [
+   "ISABPORT",
+   "U_johniicast_isabport"
+  ],
+  [
+   "U_johniicast_isabport",
+   "ISABELLAI"
+  ],
+  [
+   "JOHNIIARAGON",
+   "U_johniiaragon_juana"
+  ],
+  [
+   "JUANAENR",
+   "U_johniiaragon_juana"
+  ],
+  [
+   "U_johniiaragon_juana",
+   "FERDII"
+  ],
+  [
+   "FERDII",
+   "U_ferdii_isabellai"
+  ],
+  [
+   "ISABELLAI",
+   "U_ferdii_isabellai"
+  ],
+  [
+   "U_ferdii_isabellai",
+   "COA"
+  ],
+  [
+   "COA",
+   "U_hviii_coa"
+  ],
+  [
+   "U_hviii_coa",
+   "MARYI"
+  ],
+  [
+   "HVIII",
+   "U_hviii_ab"
+  ],
+  [
+   "AB",
+   "U_hviii_ab"
+  ],
+  [
+   "U_hviii_ab",
+   "ELIZI"
+  ],
+  [
+   "HVIII",
+   "U_hviii_janesey"
+  ],
+  [
+   "JANESEY",
+   "U_hviii_janesey"
+  ],
+  [
+   "U_hviii_janesey",
+   "EDVI"
+  ],
+  [
+   "MARGT",
+   "U_margt_jiv"
+  ],
+  [
+   "JIV",
+   "U_margt_jiv"
+  ],
+  [
+   "U_margt_jiv",
+   "JAMESV"
+  ],
+  [
+   "JAMESV",
+   "U_jamesv_mog"
+  ],
+  [
+   "MOG",
+   "U_jamesv_mog"
+  ],
+  [
+   "U_jamesv_mog",
+   "MQOS"
+  ],
+  [
+   "CLAUDEG",
+   "U_claudeg_antoinetteb"
+  ],
+  [
+   "ANTOINETTEB",
+   "U_claudeg_antoinetteb"
+  ],
+  [
+   "U_claudeg_antoinetteb",
+   "MOG"
+  ],
+  [
+   "U_claudeg_antoinetteb",
+   "FRANCISG"
+  ],
+  [
+   "U_claudeg_antoinetteb",
+   "CHARLESL"
+  ],
+  [
+   "LOUISXII",
+   "U_louisxii_annebrit"
+  ],
+  [
+   "ANNEBRIT",
+   "U_louisxii_annebrit"
+  ],
+  [
+   "U_louisxii_annebrit",
+   "RENEEFR"
+  ],
+  [
+   "ERCOLEII",
+   "U_ercoleii_reneefr"
+  ],
+  [
+   "RENEEFR",
+   "U_ercoleii_reneefr"
+  ],
+  [
+   "U_ercoleii_reneefr",
+   "ANNADESTE"
+  ],
+  [
+   "FRANCISG",
+   "U_francisg_annadeste"
+  ],
+  [
+   "ANNADESTE",
+   "U_francisg_annadeste"
+  ],
+  [
+   "U_francisg_annadeste",
+   "HENRYG"
+  ],
+  [
+   "MQOS",
+   "U_mqos_darn"
+  ],
+  [
+   "MARGT",
+   "U_margt_archdoug"
+  ],
+  [
+   "ARCHDOUG",
+   "U_margt_archdoug"
+  ],
+  [
+   "U_margt_archdoug",
+   "MARGDOUG"
+  ],
+  [
+   "MATTSTEW",
+   "U_mattstew_margdoug"
+  ],
+  [
+   "MARGDOUG",
+   "U_mattstew_margdoug"
+  ],
+  [
+   "U_mattstew_margdoug",
+   "DARN"
+  ],
+  [
+   "DARN",
+   "U_mqos_darn"
+  ],
+  [
+   "U_mqos_darn",
+   "JVI"
+  ],
+  [
+   "THOMASB",
+   "U_thomasb_elizhow"
+  ],
+  [
+   "ELIZHOW",
+   "U_thomasb_elizhow"
+  ],
+  [
+   "U_thomasb_elizhow",
+   "AB"
+  ],
+  [
+   "JOHNSEY",
+   "U_johnsey_margwent"
+  ],
+  [
+   "MARGWENT",
+   "U_johnsey_margwent"
+  ],
+  [
+   "U_johnsey_margwent",
+   "JANESEY"
+  ],
+  [
+   "WILLXAQ",
+   "U_willx_aenor"
+  ],
+  [
+   "AENOR",
+   "U_willx_aenor"
+  ],
+  [
+   "U_willx_aenor",
+   "EOA"
+  ],
+  [
+   "FERDIII",
+   "U_ferdiii_joanpon"
+  ],
+  [
+   "JOANPON",
+   "U_ferdiii_joanpon"
+  ],
+  [
+   "U_ferdiii_joanpon",
+   "EOC"
+  ],
+  [
+   "RAMONPROV",
+   "U_ramonprov_beatsav"
+  ],
+  [
+   "BEATSAV",
+   "U_ramonprov_beatsav"
+  ],
+  [
+   "U_ramonprov_beatsav",
+   "EOP"
+  ],
+  [
+   "U_ramonprov_beatsav",
+   "MOP"
+  ],
+  [
+   "AYMERANG",
+   "U_aymer_alicecourt"
+  ],
+  [
+   "ALICECOURT",
+   "U_aymer_alicecourt"
+  ],
+  [
+   "U_aymer_alicecourt",
+   "IOA2"
+  ],
+  [
+   "WILLHAIN",
+   "U_willhain_joanval"
+  ],
+  [
+   "JOANVAL",
+   "U_willhain_joanval"
+  ],
+  [
+   "U_willhain_joanval",
+   "PHILH"
+  ],
+  [
+   "PETERLUX",
+   "U_peterlux_margbaux"
+  ],
+  [
+   "MARGBAUX",
+   "U_peterlux_margbaux"
+  ],
+  [
+   "U_peterlux_margbaux",
+   "JL"
+  ],
+  [
+   "HENRYGROS",
+   "U_henrygros_isabeau"
+  ],
+  [
+   "ISABEAUM",
+   "U_henrygros_isabeau"
+  ],
+  [
+   "U_henrygros_isabeau",
+   "BLANCHEL"
+  ],
+  [
+   "CHARLESVI",
+   "U_charlesvi_isabav"
+  ],
+  [
+   "ISABAV",
+   "U_charlesvi_isabav"
+  ],
+  [
+   "U_charlesvi_isabav",
+   "CV"
+  ],
+  [
+   "JAMESIAR",
+   "U_jamesi_violant"
+  ],
+  [
+   "VIOLANTH",
+   "U_jamesi_violant"
+  ],
+  [
+   "U_jamesi_violant",
+   "IOA"
+  ],
+  [
+   "PETERCRUEL",
+   "U_petercruel_padilla"
+  ],
+  [
+   "PADILLA",
+   "U_petercruel_padilla"
+  ],
+  [
+   "U_petercruel_padilla",
+   "CONSTCAST"
+  ],
+  [
+   "FRANVEND",
+   "U_franvend_marielux"
+  ],
+  [
+   "MARIELUX",
+   "U_franvend_marielux"
+  ],
+  [
+   "U_franvend_marielux",
+   "ANTOINETTEB"
+  ],
+  [
+   "FULKIV",
+   "U_fulkiv_bertrade"
+  ],
+  [
+   "BERTRADE",
+   "U_fulkiv_bertrade"
+  ],
+  [
+   "U_fulkiv_bertrade",
+   "FULK"
+  ],
+  [
+   "MAREDUDD",
+   "OT"
+  ],
+  [
+   "U_eiv_ew",
+   "CECILYYORK"
+  ],
+  [
+   "U_eiv_ew",
+   "ANNEYORK"
+  ],
+  [
+   "U_eiv_ew",
+   "CATHYORK"
+  ],
+  [
+   "U_eiv_ew",
+   "BRIDGYORK"
+  ],
+  [
+   "U_eiv_ew",
+   "MARYYORK"
+  ],
+  [
+   "ALFONSOXI",
+   "U_alfonsoxi_mariaport"
+  ],
+  [
+   "MARIAPORT",
+   "U_alfonsoxi_mariaport"
+  ],
+  [
+   "U_alfonsoxi_mariaport",
+   "PETERCRUEL"
+  ],
+  [
+   "FERDIV",
+   "U_ferdiv_constport"
+  ],
+  [
+   "CONSTPORT",
+   "U_ferdiv_constport"
+  ],
+  [
+   "U_ferdiv_constport",
+   "ALFONSOXI"
+  ],
+  [
+   "SANCHOIV",
+   "U_sanchoiv_molina"
+  ],
+  [
+   "MARIAMOLINA",
+   "U_sanchoiv_molina"
+  ],
+  [
+   "U_sanchoiv_molina",
+   "FERDIV"
+  ],
+  [
+   "ALFONSOX",
+   "U_alfonsox_violantar"
+  ],
+  [
+   "VIOLANTAR",
+   "U_alfonsox_violantar"
+  ],
+  [
+   "U_alfonsox_violantar",
+   "SANCHOIV"
+  ],
+  [
+   "FERDIII",
+   "U_ferdiii_beatswab"
+  ],
+  [
+   "BEATSWAB",
+   "U_ferdiii_beatswab"
+  ],
+  [
+   "U_ferdiii_beatswab",
+   "ALFONSOX"
+  ],
+  [
+   "U_jamesi_violant",
+   "VIOLANTAR"
+  ],
+  [
+   "PHILSWAB",
+   "U_philswab_ireneang"
+  ],
+  [
+   "IRENEANG",
+   "U_philswab_ireneang"
+  ],
+  [
+   "U_philswab_ireneang",
+   "BEATSWAB"
+  ],
+  [
+   "BARBAROSSA",
+   "U_barbarossa_beatburg"
+  ],
+  [
+   "BEATBURG",
+   "U_barbarossa_beatburg"
+  ],
+  [
+   "U_barbarossa_beatburg",
+   "PHILSWAB"
+  ],
+  [
+   "FREDIISWAB",
+   "U_frediiswab_judith"
+  ],
+  [
+   "JUDITHBAV",
+   "U_frediiswab_judith"
+  ],
+  [
+   "U_frediiswab_judith",
+   "BARBAROSSA"
+  ],
+  [
+   "ISAACANGELOS",
+   "IRENEANG"
+  ],
+  [
+   "OTTOI",
+   "U_ottoi_eadgyth"
+  ],
+  [
+   "EADGYTH",
+   "U_ottoi_eadgyth"
+  ],
+  [
+   "U_ottoi_eadgyth",
+   "LIUTGARDE"
+  ],
+  [
+   "LIUTGARDE",
+   "U_liutgarde_conradred"
+  ],
+  [
+   "CONRADRED",
+   "U_liutgarde_conradred"
+  ],
+  [
+   "U_liutgarde_conradred",
+   "OTTOWORMS"
+  ],
+  [
+   "OTTOWORMS",
+   "HENRYSPEYER"
+  ],
+  [
+   "OTTOWORMS",
+   "GREGORYV"
+  ],
+  [
+   "HENRYSPEYER",
+   "U_henryspeyer_adelaide"
+  ],
+  [
+   "ADELAIDEMETZ",
+   "U_henryspeyer_adelaide"
+  ],
+  [
+   "U_henryspeyer_adelaide",
+   "CONRADII"
+  ],
+  [
+   "CONRADII",
+   "U_conradii_gisela"
+  ],
+  [
+   "GISELASWAB",
+   "U_conradii_gisela"
+  ],
+  [
+   "U_conradii_gisela",
+   "HENRYIIIHRE"
+  ],
+  [
+   "HENRYIIIHRE",
+   "U_henryiiihre_agnes"
+  ],
+  [
+   "AGNESPOITOU",
+   "U_henryiiihre_agnes"
+  ],
+  [
+   "U_henryiiihre_agnes",
+   "HENRYIVHRE"
+  ],
+  [
+   "HENRYIVHRE",
+   "U_henryivhre_bertha"
+  ],
+  [
+   "BERTHASAVOY",
+   "U_henryivhre_bertha"
+  ],
+  [
+   "U_henryivhre_bertha",
+   "AGNESWAIB"
+  ],
+  [
+   "AGNESWAIB",
+   "U_agneswaib_fredi"
+  ],
+  [
+   "FREDISWABIA",
+   "U_agneswaib_fredi"
+  ],
+  [
+   "U_agneswaib_fredi",
+   "FREDIISWAB"
+  ],
+  [
+   "BALDWINII",
+   "U_baldwinii_aelfthw"
+  ],
+  [
+   "AELFTHWESSEX",
+   "U_baldwinii_aelfthw"
+  ],
+  [
+   "U_baldwinii_aelfthw",
+   "ARNULFI"
+  ],
+  [
+   "BALDWINI",
+   "U_baldwini_judithfr"
+  ],
+  [
+   "JUDITHFR",
+   "U_baldwini_judithfr"
+  ],
+  [
+   "U_baldwini_judithfr",
+   "BALDWINII"
+  ],
+  [
+   "CHARLESBALD",
+   "JUDITHFR"
+  ],
+  [
+   "LOUISPIOUS",
+   "CHARLESBALD"
+  ],
+  [
+   "CHARLEMAGNE",
+   "LOUISPIOUS"
+  ],
+  [
+   "ALFREDGREAT",
+   "AELFTHWESSEX"
+  ],
+  [
+   "OTTOI",
+   "U_ottoi_adelaide"
+  ],
+  [
+   "ADELAIDEIT",
+   "U_ottoi_adelaide"
+  ],
+  [
+   "U_ottoi_adelaide",
+   "OTTOII"
+  ],
+  [
+   "OTTOII",
+   "U_ottoii_theophanu"
+  ],
+  [
+   "THEOPHANU",
+   "U_ottoii_theophanu"
+  ],
+  [
+   "U_ottoii_theophanu",
+   "OTTOIII"
+  ],
+  [
+   "U_henryfowler_matring",
+   "HENRYBAV"
+  ],
+  [
+   "HENRYBAV",
+   "HENRYWRANGLER"
+  ],
+  [
+   "HENRYWRANGLER",
+   "HENRYIIHRE"
+  ],
+  [
+   "U_henryivhre_bertha",
+   "HENRYVHRE"
+  ],
+  [
+   "U_barbarossa_beatburg",
+   "HENRYVIHRE"
+  ],
+  [
+   "HENRYVIHRE",
+   "U_henryvihre_const"
+  ],
+  [
+   "CONSTSICILY",
+   "U_henryvihre_const"
+  ],
+  [
+   "U_henryvihre_const",
+   "FREDERICKII"
+  ],
+  [
+   "U_kj_ioa2",
+   "ISABELLAENG"
+  ],
+  [
+   "FREDERICKII",
+   "U_frederickii_isabeng"
+  ],
+  [
+   "ISABELLAENG",
+   "U_frederickii_isabeng"
+  ],
+  [
+   "U_frederickii_isabeng",
+   "MARGSICILY"
+  ],
+  [
+   "U_hii_eoa",
+   "MATILDAPLANT"
+  ],
+  [
+   "MATILDAPLANT",
+   "U_matildaplant_lion"
+  ],
+  [
+   "HENRYLION",
+   "U_matildaplant_lion"
+  ],
+  [
+   "U_matildaplant_lion",
+   "OTTOIV"
+  ],
+  [
+   "LOUISPIOUS",
+   "LOTHAIRI"
+  ],
+  [
+   "LOUISPIOUS",
+   "LOUISGERMAN"
+  ],
+  [
+   "FREDERICKII",
+   "U_frederickii_isabjer"
+  ],
+  [
+   "ISABJER",
+   "U_frederickii_isabjer"
+  ],
+  [
+   "U_frederickii_isabjer",
+   "CONRADIV"
+  ],
+  [
+   "FREDERICKII",
+   "U_frederickii_bianca"
+  ],
+  [
+   "BIANCALANCIA",
+   "U_frederickii_bianca"
+  ],
+  [
+   "U_frederickii_bianca",
+   "MANFRED"
+  ],
+  [
+   "CONRADIV",
+   "CONRADIN"
+  ],
+  [
+   "U_jog_blanchel",
+   "PHILIPPALANC"
+  ],
+  [
+   "JOAOI",
+   "U_joaoi_philippa"
+  ],
+  [
+   "PHILIPPALANC",
+   "U_joaoi_philippa"
+  ],
+  [
+   "U_joaoi_philippa",
+   "DUARTE"
+  ],
+  [
+   "U_joaoi_philippa",
+   "PEDROCOIMBRA"
+  ],
+  [
+   "U_joaoi_philippa",
+   "HENRYNAV"
+  ],
+  [
+   "U_joaoi_philippa",
+   "ISABBURGUNDY"
+  ],
+  [
+   "U_joaoi_philippa",
+   "JOHNCONST"
+  ],
+  [
+   "U_joaoi_philippa",
+   "FERDINANDHOLY"
+  ],
+  [
+   "JOHNCONST",
+   "U_johnconst_barcelos"
+  ],
+  [
+   "ISABBARCELOS",
+   "U_johnconst_barcelos"
+  ],
+  [
+   "U_johnconst_barcelos",
+   "ISABPORT"
+  ],
+  [
+   "PHILIPGOOD",
+   "U_philipgood_isabburg"
+  ],
+  [
+   "ISABBURGUNDY",
+   "U_philipgood_isabburg"
+  ],
+  [
+   "U_philipgood_isabburg",
+   "CHARLESBOLD"
+  ],
+  [
+   "CHARLESBOLD",
+   "U_charlesbold_bourbon"
+  ],
+  [
+   "ISABBOURBON",
+   "U_charlesbold_bourbon"
+  ],
+  [
+   "U_charlesbold_bourbon",
+   "MARYBURGUNDY"
+  ],
+  [
+   "DUARTE",
+   "ELEANORPORT"
+  ],
+  [
+   "FREDIIIHRE",
+   "U_frediii_eleanorport"
+  ],
+  [
+   "ELEANORPORT",
+   "U_frediii_eleanorport"
+  ],
+  [
+   "U_frediii_eleanorport",
+   "MAXIMILIANI"
+  ],
+  [
+   "MAXIMILIANI",
+   "U_max_mary"
+  ],
+  [
+   "MARYBURGUNDY",
+   "U_max_mary"
+  ],
+  [
+   "U_max_mary",
+   "PHILIPHANDSOME"
+  ],
+  [
+   "U_ferdii_isabellai",
+   "JUANAMAD"
+  ],
+  [
+   "PHILIPHANDSOME",
+   "U_philiph_juana"
+  ],
+  [
+   "JUANAMAD",
+   "U_philiph_juana"
+  ],
+  [
+   "U_philiph_juana",
+   "CHARLESV"
+  ],
+  [
+   "CHARLESV",
+   "U_charlesv_isabport3"
+  ],
+  [
+   "ISABPORTUGAL3",
+   "U_charlesv_isabport3"
+  ],
+  [
+   "U_charlesv_isabport3",
+   "PHILIPII"
+  ],
+  [
+   "PEPINSHORT",
+   "U_pepinshort_bertrada"
+  ],
+  [
+   "BERTRADA",
+   "U_pepinshort_bertrada"
+  ],
+  [
+   "U_pepinshort_bertrada",
+   "CHARLEMAGNE"
+  ],
+  [
+   "CHARLESMARTEL",
+   "U_charlesmartel_rotrude"
+  ],
+  [
+   "ROTRUDE",
+   "U_charlesmartel_rotrude"
+  ],
+  [
+   "U_charlesmartel_rotrude",
+   "PEPINSHORT"
+  ],
+  [
+   "PEPINHERSTAL",
+   "U_pepinherstal_alpaida"
+  ],
+  [
+   "ALPAIDA",
+   "U_pepinherstal_alpaida"
+  ],
+  [
+   "U_pepinherstal_alpaida",
+   "CHARLESMARTEL"
+  ],
+  [
+   "ANSEGISEL",
+   "U_ansegisel_begga"
+  ],
+  [
+   "BEGGA",
+   "U_ansegisel_begga"
+  ],
+  [
+   "U_ansegisel_begga",
+   "PEPINHERSTAL"
+  ],
+  [
+   "ARNULFMETZ",
+   "ANSEGISEL"
+  ],
+  [
+   "PEPINLANDEN",
+   "U_pepinlanden_itta"
+  ],
+  [
+   "ITTA",
+   "U_pepinlanden_itta"
+  ],
+  [
+   "U_pepinlanden_itta",
+   "BEGGA"
+  ],
+  [
+   "LIUDOLF",
+   "U_liudolf_oda"
+  ],
+  [
+   "ODA",
+   "U_liudolf_oda"
+  ],
+  [
+   "U_liudolf_oda",
+   "OTTOILLUS"
+  ],
+  [
+   "LOUISGERMAN",
+   "U_louisger_emma"
+  ],
+  [
+   "EMMAALTDORF",
+   "U_louisger_emma"
+  ],
+  [
+   "U_louisger_emma",
+   "CARLOMANBAV"
+  ],
+  [
+   "U_louisger_emma",
+   "LOUISYOUNGER"
+  ],
+  [
+   "U_louisger_emma",
+   "CHARLESFAT"
+  ],
+  [
+   "CARLOMANBAV",
+   "U_carloman_liutswind"
+  ],
+  [
+   "LIUTSWIND",
+   "U_carloman_liutswind"
+  ],
+  [
+   "U_carloman_liutswind",
+   "ARNULFCAR"
+  ],
+  [
+   "ARNULFCAR",
+   "U_arnulfcar_ota"
+  ],
+  [
+   "OTAARNULF",
+   "U_arnulfcar_ota"
+  ],
+  [
+   "U_arnulfcar_ota",
+   "LOUISCHILD"
+  ],
+  [
+   "U_robii_const",
+   "HENRYIFR"
+  ],
+  [
+   "HENRYIFR",
+   "U_henryifr_annekiev"
+  ],
+  [
+   "ANNEKIEV",
+   "U_henryifr_annekiev"
+  ],
+  [
+   "U_henryifr_annekiev",
+   "PHILIPIFR"
+  ],
+  [
+   "YAROSLAV",
+   "U_yaroslav_ingegerd"
+  ],
+  [
+   "INGEGERD",
+   "U_yaroslav_ingegerd"
+  ],
+  [
+   "U_yaroslav_ingegerd",
+   "ANNEKIEV"
+  ],
+  [
+   "VLADIMIR",
+   "U_vladimir_rogneda"
+  ],
+  [
+   "ROGNEDA",
+   "U_vladimir_rogneda"
+  ],
+  [
+   "U_vladimir_rogneda",
+   "YAROSLAV"
+  ],
+  [
+   "SVIATOSLAV",
+   "VLADIMIR"
+  ],
+  [
+   "IGOR",
+   "U_igor_olga"
+  ],
+  [
+   "OLGA",
+   "U_igor_olga"
+  ],
+  [
+   "U_igor_olga",
+   "SVIATOSLAV"
+  ],
+  [
+   "RURIK",
+   "IGOR"
+  ],
+  [
+   "PHILIPIFR",
+   "U_philipifr_bertha"
+  ],
+  [
+   "BERTHAHOLLAND",
+   "U_philipifr_bertha"
+  ],
+  [
+   "U_philipifr_bertha",
+   "LOUISVI"
+  ],
+  [
+   "LOUISVI",
+   "U_louisvi_adelmaur"
+  ],
+  [
+   "ADELMAURIENNE",
+   "U_louisvi_adelmaur"
+  ],
+  [
+   "U_louisvi_adelmaur",
+   "LOUISVII"
+  ],
+  [
+   "LOUISVII",
+   "U_louisvii_adelchamp"
+  ],
+  [
+   "ADELCHAMPAGNE",
+   "U_louisvii_adelchamp"
+  ],
+  [
+   "U_louisvii_adelchamp",
+   "PHILIPAUG"
+  ],
+  [
+   "PHILIPAUG",
+   "U_philipaug_isabhainault"
+  ],
+  [
+   "ISABHAINAULT",
+   "U_philipaug_isabhainault"
+  ],
+  [
+   "U_philipaug_isabhainault",
+   "LVIII"
+  ],
+  [
+   "JAMESIIISCOT",
+   "U_james3_margden"
+  ],
+  [
+   "MARGDENMARK",
+   "U_james3_margden"
+  ],
+  [
+   "U_james3_margden",
+   "JIV"
+  ],
+  [
+   "JAMESIISCOT",
+   "U_james2_maryguel"
+  ],
+  [
+   "MARYGUELDERS",
+   "U_james2_maryguel"
+  ],
+  [
+   "U_james2_maryguel",
+   "JAMESIIISCOT"
+  ],
+  [
+   "JAMESISCOT",
+   "U_james1_joanbeau"
+  ],
+  [
+   "JOANBEAUSCOT",
+   "U_james1_joanbeau"
+  ],
+  [
+   "U_james1_joanbeau",
+   "JAMESIISCOT"
+  ],
+  [
+   "ROBERTIIISCOT",
+   "U_robert3_annabella"
+  ],
+  [
+   "ANNABELLA",
+   "U_robert3_annabella"
+  ],
+  [
+   "U_robert3_annabella",
+   "JAMESISCOT"
+  ],
+  [
+   "ROBERTIISCOT",
+   "U_robert2_elizmure"
+  ],
+  [
+   "ELIZMURE",
+   "U_robert2_elizmure"
+  ],
+  [
+   "U_robert2_elizmure",
+   "ROBERTIIISCOT"
+  ],
+  [
+   "WALTERSTEWART",
+   "U_walter_marjorie"
+  ],
+  [
+   "MARJORIEBRUCE",
+   "U_walter_marjorie"
+  ],
+  [
+   "U_walter_marjorie",
+   "ROBERTIISCOT"
+  ],
+  [
+   "ROBERTBRUCE",
+   "U_bruce_isabelmar"
+  ],
+  [
+   "ISABELMAR",
+   "U_bruce_isabelmar"
+  ],
+  [
+   "U_bruce_isabelmar",
+   "MARJORIEBRUCE"
+  ],
+  [
+   "ROBERTDEBRUS",
+   "U_debrus_carrick"
+  ],
+  [
+   "MARJORIECARRICK",
+   "U_debrus_carrick"
+  ],
+  [
+   "U_debrus_carrick",
+   "ROBERTBRUCE"
+  ],
+  [
+   "U_debrus_carrick",
+   "EDWARDBRUCE"
+  ],
+  [
+   "U_debrus_carrick",
+   "NEILBRUCE"
+  ],
+  [
+   "U_debrus_carrick",
+   "THOMASBRUCE"
+  ],
+  [
+   "U_debrus_carrick",
+   "ALEXBRUCE"
+  ],
+  [
+   "U_debrus_carrick",
+   "ISABELBRUCE"
+  ],
+  [
+   "U_debrus_carrick",
+   "CHRISTIANBRUCE"
+  ],
+  [
+   "U_debrus_carrick",
+   "MARYBRUCE"
+  ],
+  [
+   "U_debrus_carrick",
+   "MARGBRUCE"
+  ],
+  [
+   "U_debrus_carrick",
+   "MATILDABRUCE"
+  ],
+  [
+   "ROBERTBRUCE",
+   "U_bruce_elizburgh"
+  ],
+  [
+   "ELIZBURGH",
+   "U_bruce_elizburgh"
+  ],
+  [
+   "U_bruce_elizburgh",
+   "DAVIDII"
+  ],
+  [
+   "U_bruce_elizburgh",
+   "JOHNBRUCE2"
+  ],
+  [
+   "U_bruce_elizburgh",
+   "MATILDABRUCE2"
+  ],
+  [
+   "U_bruce_elizburgh",
+   "MARGBRUCE2"
+  ],
+  [
+   "U_robert2_elizmure",
+   "WALTERSTEWFIFE"
+  ],
+  [
+   "U_robert2_elizmure",
+   "ROBERTALBANY"
+  ],
+  [
+   "U_robert2_elizmure",
+   "ALEXBUCHAN"
+  ],
+  [
+   "U_robert2_elizmure",
+   "MARGSTEW1"
+  ],
+  [
+   "U_robert2_elizmure",
+   "MARJORIESTEW"
+  ],
+  [
+   "U_robert2_elizmure",
+   "ELIZSTEW1"
+  ],
+  [
+   "U_robert2_elizmure",
+   "ISABELLASTEW"
+  ],
+  [
+   "U_robert2_elizmure",
+   "JOANNASTEW"
+  ],
+  [
+   "U_robert2_elizmure",
+   "KATHERINESTEW"
+  ],
+  [
+   "ROBERTIISCOT",
+   "U_robert2_euphemia"
+  ],
+  [
+   "EUPHEMIAROSS",
+   "U_robert2_euphemia"
+  ],
+  [
+   "U_robert2_euphemia",
+   "DAVIDSTRATHEARN"
+  ],
+  [
+   "U_robert2_euphemia",
+   "WALTERATHOLL"
+  ],
+  [
+   "U_robert2_euphemia",
+   "EGIDIASTEW"
+  ],
+  [
+   "U_robert2_euphemia",
+   "ELIZSTEW2"
+  ],
+  [
+   "U_robert3_annabella",
+   "DAVIDROTHESAY"
+  ],
+  [
+   "U_robert3_annabella",
+   "ROBERTSTEWDY"
+  ],
+  [
+   "U_robert3_annabella",
+   "MARGSTEW2"
+  ],
+  [
+   "U_robert3_annabella",
+   "MARYSTEW1"
+  ],
+  [
+   "U_robert3_annabella",
+   "ELIZSTEW3"
+  ],
+  [
+   "U_robert3_annabella",
+   "EGIDIASTEW2"
+  ],
+  [
+   "U_james1_joanbeau",
+   "ALEXTWIN"
+  ],
+  [
+   "U_james1_joanbeau",
+   "MARGDAUPHINE"
+  ],
+  [
+   "U_james1_joanbeau",
+   "ISABELLASTEW2"
+  ],
+  [
+   "U_james1_joanbeau",
+   "ELEANORSTEW"
+  ],
+  [
+   "U_james1_joanbeau",
+   "JOANSTEW"
+  ],
+  [
+   "U_james1_joanbeau",
+   "MARYSTEW2"
+  ],
+  [
+   "U_james1_joanbeau",
+   "ANNABELLASTEW"
+  ],
+  [
+   "U_james2_maryguel",
+   "ALEXALBANY"
+  ],
+  [
+   "U_james2_maryguel",
+   "DAVIDMORAY"
+  ],
+  [
+   "U_james2_maryguel",
+   "JOHNMAR"
+  ],
+  [
+   "U_james2_maryguel",
+   "MARYSTEW3"
+  ],
+  [
+   "U_james2_maryguel",
+   "MARGSTEW3"
+  ],
+  [
+   "U_james3_margden",
+   "JAMESROSS"
+  ],
+  [
+   "U_james3_margden",
+   "JOHNMAR2"
+  ],
+  [
+   "U_margt_jiv",
+   "ARTHURROTHESAY"
+  ],
+  [
+   "U_margt_jiv",
+   "JAMESROTHESAYINF"
+  ],
+  [
+   "U_margt_jiv",
+   "ALEXROSSINF"
+  ],
+  [
+   "U_eoe_aviii",
+   "BERENGARIA"
+  ],
+  [
+   "ALFONSOIXLEON",
+   "U_alfonsoix_berengaria"
+  ],
+  [
+   "BERENGARIA",
+   "U_alfonsoix_berengaria"
+  ],
+  [
+   "U_alfonsoix_berengaria",
+   "FERDIII"
+  ],
+  [
+   "U_piii_ioa",
+   "CHARLESVALOIS"
+  ],
+  [
+   "CHARLESVALOIS",
+   "PHILIPVI"
+  ],
+  [
+   "PHILIPVI",
+   "U_philipvi_joan"
+  ],
+  [
+   "JOANBURGUNDY",
+   "U_philipvi_joan"
+  ],
+  [
+   "U_philipvi_joan",
+   "JOHNIIFR"
+  ],
+  [
+   "JOHNIIFR",
+   "U_johniifr_bonne"
+  ],
+  [
+   "BONNELUX",
+   "U_johniifr_bonne"
+  ],
+  [
+   "U_johniifr_bonne",
+   "CHARLESVFR"
+  ],
+  [
+   "CHARLESVFR",
+   "U_charlesvfr_joanna"
+  ],
+  [
+   "JOANNABOURBON",
+   "U_charlesvfr_joanna"
+  ],
+  [
+   "U_charlesvfr_joanna",
+   "CHARLESVI"
+  ],
+  [
+   "U_louisxii_annebrit",
+   "CLAUDEFR"
+  ],
+  [
+   "CHARLESANGOULEME",
+   "U_angouleme_savoy"
+  ],
+  [
+   "LOUISESAVOY",
+   "U_angouleme_savoy"
+  ],
+  [
+   "U_angouleme_savoy",
+   "FRANCISI"
+  ],
+  [
+   "FRANCISI",
+   "U_francisi_claude"
+  ],
+  [
+   "CLAUDEFR",
+   "U_francisi_claude"
+  ],
+  [
+   "U_francisi_claude",
+   "HENRYIIFR"
+  ],
+  [
+   "HENRYIIFR",
+   "U_henryiifr_medici"
+  ],
+  [
+   "CATHMEDICI",
+   "U_henryiifr_medici"
+  ],
+  [
+   "U_henryiifr_medici",
+   "FRANCISII"
+  ],
+  [
+   "ALFONSOIESTE",
+   "U_alfonsoi_lucrezia"
+  ],
+  [
+   "LUCREZIABORGIA",
+   "U_alfonsoi_lucrezia"
+  ],
+  [
+   "U_alfonsoi_lucrezia",
+   "ERCOLEII"
+  ],
+  [
+   "CHARLESORLEANS",
+   "U_charlesorleans_cleves"
+  ],
+  [
+   "MARIECLEVES",
+   "U_charlesorleans_cleves"
+  ],
+  [
+   "U_charlesorleans_cleves",
+   "LOUISXII"
+  ],
+  [
+   "FRANCISIIBRITTANY",
+   "U_francisiibrit_foix"
+  ],
+  [
+   "MARGFOIX",
+   "U_francisiibrit_foix"
+  ],
+  [
+   "U_francisiibrit_foix",
+   "ANNEBRIT"
+  ],
+  [
+   "RENEIILORRAINE",
+   "U_reneii_philippa"
+  ],
+  [
+   "PHILIPPAGUELDERS",
+   "U_reneii_philippa"
+  ],
+  [
+   "U_reneii_philippa",
+   "CLAUDEG"
+  ],
+  [
+   "LORENZOURBINO",
+   "U_lorenzourbino_madeleine"
+  ],
+  [
+   "MADELEINEAUVERGNE",
+   "U_lorenzourbino_madeleine"
+  ],
+  [
+   "U_lorenzourbino_madeleine",
+   "CATHMEDICI"
+  ],
+  [
+   "PIEROUNFORTUNATE",
+   "U_pierounf_alfonsina"
+  ],
+  [
+   "ALFONSINAORSINI",
+   "U_pierounf_alfonsina"
+  ],
+  [
+   "U_pierounf_alfonsina",
+   "LORENZOURBINO"
+  ],
+  [
+   "LORENZOMAGNIFICENT",
+   "U_lorenzomag_clarice"
+  ],
+  [
+   "CLARICEORSINI",
+   "U_lorenzomag_clarice"
+  ],
+  [
+   "U_lorenzomag_clarice",
+   "PIEROUNFORTUNATE"
+  ],
+  [
+   "U_lorenzomag_clarice",
+   "POPELEOX"
+  ],
+  [
+   "PIEROGOUTY",
+   "U_pierogouty_lucrezia"
+  ],
+  [
+   "LUCREZIATORNABUONI",
+   "U_pierogouty_lucrezia"
+  ],
+  [
+   "U_pierogouty_lucrezia",
+   "LORENZOMAGNIFICENT"
+  ],
+  [
+   "U_pierogouty_lucrezia",
+   "GIULIANOMEDICI"
+  ],
+  [
+   "GIULIANOMEDICI",
+   "POPECLEMENTVII"
+  ],
+  [
+   "COSIMOELDER",
+   "U_cosimo_contessina"
+  ],
+  [
+   "CONTESSINABARDI",
+   "U_cosimo_contessina"
+  ],
+  [
+   "U_cosimo_contessina",
+   "PIEROGOUTY"
+  ],
+  [
+   "GIOVANNIBICCI",
+   "U_giovannibicci_piccarda"
+  ],
+  [
+   "PICCARDABUERI",
+   "U_giovannibicci_piccarda"
+  ],
+  [
+   "U_giovannibicci_piccarda",
+   "COSIMOELDER"
+  ]
+ ],
+ "union_registered": [
+  "U_adela_blois",
+  "U_aeth_aelf",
+  "U_agneswaib_fredi",
+  "U_alfonsoi_lucrezia",
+  "U_alfonsoix_berengaria",
+  "U_alfonsox_violantar",
+  "U_alfonsoxi_mariaport",
+  "U_angouleme_savoy",
+  "U_ansegisel_begga",
+  "U_arnulf2_rozala",
+  "U_arnulfcar_ota",
+  "U_arnulfi_adelev",
+  "U_aymer_alicecourt",
+  "U_bald_adelf",
+  "U_baldiii_matsax",
+  "U_baldiv_ogive",
+  "U_baldwini_judithfr",
+  "U_baldwinii_aelfthw",
+  "U_barbarossa_beatburg",
+  "U_boc_lviii",
+  "U_bp_joankent",
+  "U_bruce_elizburgh",
+  "U_bruce_isabelmar",
+  "U_carloman_liutswind",
+  "U_charlesbold_bourbon",
+  "U_charlesmartel_rotrude",
+  "U_charlesorleans_cleves",
+  "U_charlesv_isabport3",
+  "U_charlesvfr_joanna",
+  "U_charlesvi_isabav",
+  "U_claudeg_antoinetteb",
+  "U_conradii_gisela",
+  "U_cosimo_contessina",
+  "U_crin_beth",
+  "U_debrus_carrick",
+  "U_dunc_duncw",
+  "U_edex_aga",
+  "U_edgarp_aelfth",
+  "U_edmi_eald",
+  "U_edmwood_margwake",
+  "U_ei_eoc",
+  "U_eii_isab",
+  "U_eiii_philh",
+  "U_eiv_ew",
+  "U_eoe_aviii",
+  "U_ercoleii_reneefr",
+  "U_fadrique_marianafc",
+  "U_ferdiaragon_eleanoralb",
+  "U_ferdii_isabellai",
+  "U_ferdiii_beatswab",
+  "U_ferdiii_joanpon",
+  "U_ferdiv_constport",
+  "U_francisg_annadeste",
+  "U_francisi_claude",
+  "U_francisiibrit_foix",
+  "U_franvend_marielux",
+  "U_frederickii_bianca",
+  "U_frederickii_isabeng",
+  "U_frederickii_isabjer",
+  "U_frediii_eleanorport",
+  "U_frediiswab_judith",
+  "U_fulk_erm",
+  "U_fulkiv_bertrade",
+  "U_giovannibicci_piccarda",
+  "U_goa_empm",
+  "U_hcapet_adelaq",
+  "U_henryfowler_matring",
+  "U_henrygros_isabeau",
+  "U_henryifr_annekiev",
+  "U_henryiifr_medici",
+  "U_henryiiicast_cathlanc",
+  "U_henryiiihre_agnes",
+  "U_henryivhre_bertha",
+  "U_henryspeyer_adelaide",
+  "U_henryvi_marganjou",
+  "U_henryvihre_const",
+  "U_hi_mos",
+  "U_hii_eoa",
+  "U_hiii_eop",
+  "U_hughgreat_hedwige",
+  "U_hvii_eoy",
+  "U_hviii_ab",
+  "U_hviii_coa",
+  "U_hviii_janesey",
+  "U_igor_olga",
+  "U_james1_joanbeau",
+  "U_james2_maryguel",
+  "U_james3_margden",
+  "U_jamesi_violant",
+  "U_jamesv_mog",
+  "U_jb_mbe",
+  "U_joaoi_philippa",
+  "U_jog_blanchel",
+  "U_jog_constcast",
+  "U_jog_kats",
+  "U_johnconst_barcelos",
+  "U_johnicast_eleanoraragon",
+  "U_johniiaragon_blanchenav",
+  "U_johniiaragon_juana",
+  "U_johniicast_isabport",
+  "U_johniifr_bonne",
+  "U_johnsey_margwent",
+  "U_kj_ioa2",
+  "U_liudolf_oda",
+  "U_liutgarde_conradred",
+  "U_lix_mop",
+  "U_lorenzomag_clarice",
+  "U_lorenzourbino_madeleine",
+  "U_louisger_emma",
+  "U_louisvi_adelmaur",
+  "U_louisvii_adelchamp",
+  "U_louisxii_annebrit",
+  "U_malc_ingib",
+  "U_malc_margs",
+  "U_margb_edt",
+  "U_margt_archdoug",
+  "U_margt_jiv",
+  "U_matildaplant_lion",
+  "U_mattstew_margdoug",
+  "U_max_mary",
+  "U_mqos_darn",
+  "U_ot_cv",
+  "U_ottoi_adelaide",
+  "U_ottoi_eadgyth",
+  "U_ottoii_theophanu",
+  "U_ottoillus_hedbab",
+  "U_pepinherstal_alpaida",
+  "U_pepinlanden_itta",
+  "U_pepinshort_bertrada",
+  "U_petercruel_padilla",
+  "U_peterlux_margbaux",
+  "U_philipaug_isabhainault",
+  "U_philipgood_isabburg",
+  "U_philiph_juana",
+  "U_philipifr_bertha",
+  "U_philipvi_joan",
+  "U_philswab_ireneang",
+  "U_pierogouty_lucrezia",
+  "U_pierounf_alfonsina",
+  "U_piii_ioa",
+  "U_ralphnev_joanbeau",
+  "U_ramonprov_beatsav",
+  "U_reneanjou_isablorr",
+  "U_reneii_philippa",
+  "U_ri_herl",
+  "U_richi_gunnor",
+  "U_richii_judb",
+  "U_richiii_annenev",
+  "U_robert2_elizmure",
+  "U_robert2_euphemia",
+  "U_robert3_annabella",
+  "U_robertifr_beatv",
+  "U_robii_const",
+  "U_rollo_poppa",
+  "U_rw_jl",
+  "U_ry_cn",
+  "U_sanchoiv_molina",
+  "U_thomasb_elizhow",
+  "U_vladimir_rogneda",
+  "U_walter_marjorie",
+  "U_warwick_annebeau",
+  "U_willhain_joanval",
+  "U_willx_aenor",
+  "U_wlongsword_sprota",
+  "U_wtc_mof",
+  "U_yaroslav_ingegerd"
+ ]
+}

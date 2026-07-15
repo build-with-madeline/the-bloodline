@@ -1,0 +1,38 @@
+{
+  "_note": "More biblical figures hung off people already in the tree. Moses/Aaron/Miriam via Levi->Kohath->Amram (Exodus 6:16-20). Joseph's sons Ephraim & Manasseh (Gen 41). Lot's sons Moab & Ben-Ammi, ancestors of the Moabites & Ammonites (Gen 19:37-38). Judah's other sons Er, Onan, Shelah (by Bathshua) and Zerah (Perez's twin, by Tamar), Gen 38. Explicit dates so nothing is date-poisoned. Sorts after 07j; Levi/Joseph/Lot/Judah/Tamar exist.",
+  "families": [
+    {"a": "LEVI", "b": {"id": "LEVIWIFE", "label": "—"}, "children": [{"id": "KOHATH", "label": "Kohath<br/>c.1720 BC · son of Levi · Exodus 6:16"}]},
+    {"a": "KOHATH", "b": {"id": "KOHATHW", "label": "—"}, "children": [{"id": "AMRAM", "label": "Amram<br/>c.1620 BC · father of Moses &amp; Aaron · Exodus 6:20"}]},
+    {"a": "AMRAM", "b": {"id": "JOCHEBED", "label": "Jochebed<br/>mother of Moses, Aaron &amp; Miriam · Exodus 6:20"}, "children": [
+      {"id": "MOSES", "label": "Moses<br/>c.1500 BC · led the Exodus; received the Law · Exodus"},
+      {"id": "AARON", "label": "Aaron<br/>c.1500 BC · the first High Priest; brother of Moses · Exodus"},
+      {"id": "MIRIAM", "label": "Miriam<br/>the prophetess; sister of Moses &amp; Aaron · Exodus 15:20"}
+    ]},
+    {"a": "MOSES", "b": {"id": "ZIPPORAH", "label": "Zipporah<br/>daughter of Jethro; wife of Moses · Exodus 2:21"}, "children": [
+      {"id": "GERSHOM", "label": "Gershom<br/>son of Moses · Exodus 18:3"},
+      {"id": "ELIEZERM", "label": "Eliezer<br/>son of Moses · Exodus 18:4"}
+    ]},
+    {"a": "AARON", "b": {"id": "ELISHEBA", "label": "Elisheba<br/>wife of Aaron · Exodus 6:23"}, "children": [
+      {"id": "NADAB", "label": "Nadab<br/>son of Aaron; died before the LORD · Leviticus 10"},
+      {"id": "ABIHU", "label": "Abihu<br/>son of Aaron; died before the LORD · Leviticus 10"},
+      {"id": "ELEAZARA", "label": "Eleazar<br/>son of Aaron; the third High Priest · Numbers 20:28"},
+      {"id": "ITHAMAR", "label": "Ithamar<br/>son of Aaron · Exodus 6:23"}
+    ]},
+    {"a": "JOSEPHJ", "b": {"id": "ASENATH", "label": "Asenath<br/>daughter of Potiphera; wife of Joseph · Genesis 41:45"}, "children": [
+      {"id": "EPHRAIM", "label": "Ephraim<br/>c.1710 BC · son of Joseph; a half-tribe of Israel · Genesis 41:52"},
+      {"id": "MANASSEHJ", "label": "Manasseh<br/>c.1712 BC · son of Joseph; a half-tribe of Israel · Genesis 41:51"}
+    ]},
+    {"a": "LOT", "b": {"id": "LOTDAU1", "label": "Lot's elder daughter<br/>Genesis 19:37"}, "children": [
+      {"id": "MOAB", "label": "Moab<br/>c.1940 BC · father of the Moabites (Ruth's people) · Genesis 19:37"}
+    ]},
+    {"a": "LOT", "b": {"id": "LOTDAU2", "label": "Lot's younger daughter<br/>Genesis 19:38"}, "children": [
+      {"id": "BENAMMI", "label": "Ben-Ammi<br/>c.1940 BC · father of the Ammonites · Genesis 19:38"}
+    ]},
+    {"a": "JUDAH", "b": "TAMAR", "children": [{"id": "ZERAHJUDAH", "label": "Zerah<br/>c.1745 BC · Perez's twin, by Tamar · Genesis 38:30"}]},
+    {"a": "JUDAH", "b": {"id": "BATHSHUA", "label": "Bathshua<br/>a Canaanite; Judah's first wife · Genesis 38:2"}, "children": [
+      {"id": "ER", "label": "Er<br/>Judah's firstborn; died · Genesis 38:7"},
+      {"id": "ONAN", "label": "Onan<br/>son of Judah; died · Genesis 38:9"},
+      {"id": "SHELAHJ", "label": "Shelah<br/>son of Judah · Genesis 38:5"}
+    ]}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "_note": "The Julio-Claudian emperors — a REAL branch off Mark Antony (already in the tree). Antony's marriage to Octavia (Augustus's sister) produced Antonia Minor, ancestress of the Julio-Claudians. Documented history. Ordered create-before-reference.",
+  "families": [
+    {"note": "Mark Antony's OTHER marriage — to Octavia, sister of Augustus.", "a": "MARKANTONY", "b": {"id": "OCTAVIA", "label": "Octavia the Younger<br/>69-11 BC · sister of Augustus"}, "children": [{"id": "ANTONIAMINOR", "label": "Antonia Minor<br/>36 BC-37 AD · matriarch of<br/>the Julio-Claudians"}]},
+    {"a": {"id": "NERODRUSUS", "label": "Nero Claudius Drusus<br/>38-9 BC · Roman general"}, "b": "ANTONIAMINOR", "children": [{"id": "CLAUDIUS", "label": "👑 Claudius<br/>10 BC-54 AD · Roman Emperor;<br/>conquered Britain"}, {"id": "GERMANICUS", "label": "Germanicus<br/>15 BC-19 AD · beloved general"}]},
+    {"a": "GERMANICUS", "b": {"id": "AGRIPPINAELDER", "label": "Agrippina the Elder<br/>14 BC-33 AD"}, "children": [{"id": "AGRIPPINAYOUNGER", "label": "Agrippina the Younger<br/>15-59 AD · Empress; mother of Nero"}]},
+    {"a": {"id": "DOMITIUSAHEN", "label": "Gnaeus Domitius Ahenobarbus<br/>d.40 AD"}, "b": "AGRIPPINAYOUNGER", "children": [{"id": "NERO", "label": "👑 Nero<br/>37-68 AD · last Julio-Claudian emperor"}]},
+    {"note": "Octavia's brother — Augustus himself — and their parents.", "a": {"id": "GAIUSOCTAVIUS", "label": "Gaius Octavius<br/>d.59 BC · father of Augustus"}, "b": {"id": "ATIA", "label": "Atia<br/>85-43 BC · niece of Julius Caesar"}, "children": ["OCTAVIA", {"id": "AUGUSTUS", "label": "👑 Augustus<br/>63 BC-14 AD · first Roman Emperor"}]}
+  ]
+}

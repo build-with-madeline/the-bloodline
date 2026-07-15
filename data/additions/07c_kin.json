@@ -1,0 +1,36 @@
+{
+  "_note": "(1) All of Noah's children: Shem (already in the line), Ham, Japheth (Gen 5:32, 6:10, 10). (2) Parents of the biblical spouses, where scripture names them -- this exposes the real intermarriage inside Terah's house. Sarah was Terah's own daughter, Abraham's half-sister (Gen 20:12). Rebekah was daughter of Bethuel son of Nahor (Abraham's brother) and Milcah (Gen 22:23, 24:15,24). Leah & Rachel were daughters of Laban son of Bethuel (Gen 29:16) -- so Isaac and Jacob both married cousins. Bathsheba was daughter of Eliam (2 Sam 11:3). Sorts after 07/07b so all anchors exist. NOTE: Nahor here (NAHORBRO) is Abraham's BROTHER, distinct from the ancestor Nahor (Gen 11:22).",
+  "families": [
+    {"a": "NOAH", "b": "NAAMAH", "children": [
+      {"id": "JAPHETH", "label": "Japheth<br/>c.2448 BC · son of Noah · Genesis 10:2"},
+      {"id": "HAM", "label": "Ham<br/>c.2444 BC · son of Noah · Genesis 10:6"}
+    ]},
+
+    {"a": "TERAH", "b": "TERAHW", "children": [
+      {"id": "NAHORBRO", "label": "Nahor<br/>c.1990 BC · Abraham's brother · Genesis 11:26"},
+      {"id": "HARAN", "label": "Haran<br/>c.2000 BC · Abraham's brother; father of Lot · Genesis 11:27"}
+    ]},
+    {"a": "TERAH", "b": {"id": "TERAHW2", "label": "Terah's other wife<br/>mother of Sarah · Genesis 20:12"}, "children": ["SARAH"]},
+
+    {"a": "HARAN", "b": {"id": "HARANW", "label": "—"}, "children": [
+      {"id": "LOT", "label": "Lot<br/>c.1970 BC · Abraham's nephew · Genesis 13, 19"},
+      {"id": "MILCAH", "label": "Milcah<br/>daughter of Haran; wife of Nahor · Genesis 11:29"},
+      {"id": "ISCAH", "label": "Iscah<br/>daughter of Haran · Genesis 11:29"}
+    ]},
+    {"a": "NAHORBRO", "b": "MILCAH", "children": [
+      {"id": "BETHUEL", "label": "Bethuel<br/>c.1960 BC · son of Nahor & Milcah · Genesis 22:23"}
+    ]},
+    {"a": "BETHUEL", "b": {"id": "BETHUELW", "label": "—"}, "children": [
+      "REBEKAH",
+      {"id": "LABAN", "label": "Laban<br/>c.1930 BC · brother of Rebekah; father of Leah & Rachel · Genesis 24, 29"}
+    ]},
+    {"a": "LABAN", "b": {"id": "LABANW", "label": "—"}, "children": [
+      "LEAH",
+      {"id": "RACHEL", "label": "Rachel<br/>c.1870 BC · Jacob's beloved; Leah's sister · Genesis 29"}
+    ]},
+
+    {"a": {"id": "ELIAM", "label": "Eliam<br/>c.1030 BC · father of Bathsheba · 2 Samuel 11:3"}, "b": {"id": "ELIAMW", "label": "—"}, "children": ["BATHSHEBA"]},
+
+    {"a": "ISHMAEL", "b": "ISHMAELW", "children": ["BASEMATH"]}
+  ]
+}

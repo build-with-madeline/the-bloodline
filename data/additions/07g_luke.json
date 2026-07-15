@@ -1,0 +1,532 @@
+{
+ "_note": "Luke's genealogy (Luke 3:23-31): the SECOND Davidic descent, through David's son Nathan (not Solomon) down to Heli. In Catholic tradition this is Mary's own bloodline (Heli = her father, known as Joachim; Joseph was his son-in-law), giving Jesus Davidic descent through his mother as well. Every name from Luke 3. Heli & Anne -> Mary (MARYMOTHER exists).",
+ "families": [
+  {
+   "a": "DAVID",
+   "b": "BATHSHEBA",
+   "children": [
+    {
+     "id": "LK_NATHAN_0",
+     "label": "Nathan<br/>c.1010 BC · son of David & Bathsheba (brother of Solomon) · 2 Sam 5:14, Luke 3:31"
+    }
+   ]
+  },
+  {
+   "a": "LK_NATHAN_0",
+   "b": {
+    "id": "LK_NATHAN_0_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MATTATHA_1",
+     "label": "Mattatha<br/>c.985 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MATTATHA_1",
+   "b": {
+    "id": "LK_MATTATHA_1_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MENNA_2",
+     "label": "Menna<br/>c.961 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MENNA_2",
+   "b": {
+    "id": "LK_MENNA_2_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MELEA_3",
+     "label": "Melea<br/>c.936 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MELEA_3",
+   "b": {
+    "id": "LK_MELEA_3_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_ELIAKIM_4",
+     "label": "Eliakim<br/>c.912 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_ELIAKIM_4",
+   "b": {
+    "id": "LK_ELIAKIM_4_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JONAM_5",
+     "label": "Jonam<br/>c.887 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JONAM_5",
+   "b": {
+    "id": "LK_JONAM_5_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JOSEPH_6",
+     "label": "Joseph<br/>c.862 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JOSEPH_6",
+   "b": {
+    "id": "LK_JOSEPH_6_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JUDAH_7",
+     "label": "Judah<br/>c.838 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JUDAH_7",
+   "b": {
+    "id": "LK_JUDAH_7_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_SIMEON_8",
+     "label": "Simeon<br/>c.813 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_SIMEON_8",
+   "b": {
+    "id": "LK_SIMEON_8_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_LEVI_9",
+     "label": "Levi<br/>c.788 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_LEVI_9",
+   "b": {
+    "id": "LK_LEVI_9_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MATTHAT_10",
+     "label": "Matthat<br/>c.764 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MATTHAT_10",
+   "b": {
+    "id": "LK_MATTHAT_10_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JORIM_11",
+     "label": "Jorim<br/>c.739 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JORIM_11",
+   "b": {
+    "id": "LK_JORIM_11_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_ELIEZER_12",
+     "label": "Eliezer<br/>c.715 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_ELIEZER_12",
+   "b": {
+    "id": "LK_ELIEZER_12_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JOSHUA_13",
+     "label": "Joshua<br/>c.690 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JOSHUA_13",
+   "b": {
+    "id": "LK_JOSHUA_13_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_ER_14",
+     "label": "Er<br/>c.665 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_ER_14",
+   "b": {
+    "id": "LK_ER_14_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_ELMADAM_15",
+     "label": "Elmadam<br/>c.641 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_ELMADAM_15",
+   "b": {
+    "id": "LK_ELMADAM_15_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_COSAM_16",
+     "label": "Cosam<br/>c.616 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_COSAM_16",
+   "b": {
+    "id": "LK_COSAM_16_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_ADDI_17",
+     "label": "Addi<br/>c.592 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_ADDI_17",
+   "b": {
+    "id": "LK_ADDI_17_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MELKI_18",
+     "label": "Melki<br/>c.567 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MELKI_18",
+   "b": {
+    "id": "LK_MELKI_18_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_NERI_19",
+     "label": "Neri<br/>c.542 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_NERI_19",
+   "b": {
+    "id": "LK_NERI_19_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_SHEALTIEL_20",
+     "label": "Shealtiel<br/>c.518 BC · Luke 3 (may be the same as Matthew's) · line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_SHEALTIEL_20",
+   "b": {
+    "id": "LK_SHEALTIEL_20_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_ZERUBBABEL_21",
+     "label": "Zerubbabel<br/>c.493 BC · Luke 3 (may be the same as Matthew's) · line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_ZERUBBABEL_21",
+   "b": {
+    "id": "LK_ZERUBBABEL_21_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_RHESA_22",
+     "label": "Rhesa<br/>c.468 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_RHESA_22",
+   "b": {
+    "id": "LK_RHESA_22_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JOANAN_23",
+     "label": "Joanan<br/>c.444 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JOANAN_23",
+   "b": {
+    "id": "LK_JOANAN_23_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JODA_24",
+     "label": "Joda<br/>c.419 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JODA_24",
+   "b": {
+    "id": "LK_JODA_24_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JOSECH_25",
+     "label": "Josech<br/>c.395 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JOSECH_25",
+   "b": {
+    "id": "LK_JOSECH_25_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_SEMEIN_26",
+     "label": "Semein<br/>c.370 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_SEMEIN_26",
+   "b": {
+    "id": "LK_SEMEIN_26_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MATTATHIAS_27",
+     "label": "Mattathias<br/>c.345 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MATTATHIAS_27",
+   "b": {
+    "id": "LK_MATTATHIAS_27_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MAATH_28",
+     "label": "Maath<br/>c.321 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MAATH_28",
+   "b": {
+    "id": "LK_MAATH_28_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_NAGGAI_29",
+     "label": "Naggai<br/>c.296 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_NAGGAI_29",
+   "b": {
+    "id": "LK_NAGGAI_29_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_ESLI_30",
+     "label": "Esli<br/>c.272 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_ESLI_30",
+   "b": {
+    "id": "LK_ESLI_30_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_NAHUM_31",
+     "label": "Nahum<br/>c.247 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_NAHUM_31",
+   "b": {
+    "id": "LK_NAHUM_31_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_AMOS_32",
+     "label": "Amos<br/>c.222 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_AMOS_32",
+   "b": {
+    "id": "LK_AMOS_32_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MATTATHIAS_33",
+     "label": "Mattathias<br/>c.198 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MATTATHIAS_33",
+   "b": {
+    "id": "LK_MATTATHIAS_33_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JOSEPH_34",
+     "label": "Joseph<br/>c.173 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JOSEPH_34",
+   "b": {
+    "id": "LK_JOSEPH_34_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_JANNAI_35",
+     "label": "Jannai<br/>c.148 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_JANNAI_35",
+   "b": {
+    "id": "LK_JANNAI_35_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MELKI_36",
+     "label": "Melki<br/>c.124 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MELKI_36",
+   "b": {
+    "id": "LK_MELKI_36_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_LEVI_37",
+     "label": "Levi<br/>c.99 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_LEVI_37",
+   "b": {
+    "id": "LK_LEVI_37_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_MATTHAT_38",
+     "label": "Matthat<br/>c.75 BC · Luke 3 · the line through Nathan"
+    }
+   ]
+  },
+  {
+   "a": "LK_MATTHAT_38",
+   "b": {
+    "id": "LK_MATTHAT_38_w",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "LK_HELI_39",
+     "label": "Heli (Joachim)<br/>c.50 BC · father of Mary · Luke 3:23<br/>(known as Joachim in tradition)"
+    }
+   ]
+  },
+  {
+   "a": "LK_HELI_39",
+   "b": {
+    "id": "ANNE",
+    "label": "Anne<br/>mother of Mary · Catholic tradition"
+   },
+   "children": [
+    "MARYMOTHER"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "_note": "Jacob's twelve sons (the tribes) + Dinah, under their four mothers (Genesis 29-30, 35). Leah and Rachel are wives; Bilhah (Rachel's servant) and Zilpah (Leah's servant) are CONCUBINE unions tied back to their mistress, like Hagar->Sarah. Judah already exists (Leah's son, the messianic line) and is appended here. Sorts after 07c so Rachel exists.",
+  "families": [
+    {"a": "JACOBISRAEL", "b": "LEAH", "children": [
+      {"id": "REUBEN", "label": "Reuben<br/>c.1752 BC · Jacob's firstborn, by Leah · Genesis 29:32"},
+      {"id": "SIMEONJ", "label": "Simeon<br/>c.1751 BC · second son of Leah · Genesis 29:33"},
+      {"id": "LEVI", "label": "Levi<br/>c.1750 BC · third son of Leah; the priestly tribe · Genesis 29:34"},
+      {"id": "ISSACHAR", "label": "Issachar<br/>c.1747 BC · son of Leah · Genesis 30:18"},
+      {"id": "ZEBULUN", "label": "Zebulun<br/>c.1746 BC · son of Leah · Genesis 30:20"},
+      {"id": "DINAH", "label": "Dinah<br/>daughter of Leah · Genesis 30:21, 34"}
+    ]},
+    {"a": "JACOBISRAEL", "b": "RACHEL", "children": [
+      {"id": "JOSEPHJ", "label": "Joseph<br/>c.1745 BC · Rachel's firstborn; vizier of Egypt · Genesis 30, 37-50"},
+      {"id": "BENJAMIN", "label": "Benjamin<br/>c.1740 BC · Rachel's youngest; she died bearing him · Genesis 35:18"}
+    ]},
+    {"a": "JACOBISRAEL", "b": {"id": "BILHAH", "label": "Bilhah<br/>Rachel's servant · Genesis 29:29, 30:3"}, "kind": "concubine", "mistress": "RACHEL", "children": [
+      {"id": "DAN", "label": "Dan<br/>c.1749 BC · son of Bilhah · Genesis 30:6"},
+      {"id": "NAPHTALI", "label": "Naphtali<br/>c.1748 BC · son of Bilhah · Genesis 30:8"}
+    ]},
+    {"a": "JACOBISRAEL", "b": {"id": "ZILPAH", "label": "Zilpah<br/>Leah's servant · Genesis 29:24, 30:9"}, "kind": "concubine", "mistress": "LEAH", "children": [
+      {"id": "GAD", "label": "Gad<br/>c.1749 BC · son of Zilpah · Genesis 30:11"},
+      {"id": "ASHER", "label": "Asher<br/>c.1748 BC · son of Zilpah · Genesis 30:13"}
+    ]}
+  ]
+}

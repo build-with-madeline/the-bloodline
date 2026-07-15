@@ -1,0 +1,8 @@
+{
+  "_note": "The DISPUTED Nabataean link. Herod's mother Cypros was a Nabataean; the Nabataeans were traditionally traced to Nebaioth, Ishmael's firstborn. Unlike Esau=Edom (which Genesis 36 states outright), the Nabataean=Nebaioth identification is contested by scholars, so this whole link is flagged. If accepted, BOTH of Herod's parents descend from Abraham: his father through Esau, his mother through Ishmael. NEBAIOTH exists (07b), CYPROSNAB exists (07).",
+  "families": [
+    {"a": "NEBAIOTH", "b": {"id": "NEBAIOTHW", "label": "—"}, "kind": "bridge", "children": [{"id": "NABATLINE", "label": "the Nabataean kingdom<br/>the Nabataeans (Arabs of Petra), traditionally traced to Nebaioth, Ishmael's firstborn<br/>&#9888; DISPUTED identification (unlike scriptural Esau=Edom) · individual descent not recorded"}]},
+    {"a": "NABATLINE", "b": {"id": "NABATLINEW", "label": "—"}, "children": [{"id": "ARETAS3", "label": "Aretas III Philhellene<br/>c.120-62 BC · king of the Nabataeans; ruled Damascus"}]},
+    {"a": "ARETAS3", "b": {"id": "ARETAS3W", "label": "—"}, "children": ["CYPROSNAB"]}
+  ]
+}

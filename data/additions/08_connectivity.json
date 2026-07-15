@@ -1,0 +1,25 @@
+{
+  "_note": "Reconnects pre-existing orphaned fragments by adding MISSING but well-documented spine links (real people, real parent-child relationships). No invented people: connector spouses (Ermengarde of Hesbaya, Mary de Bohun, Catherine of Valois=CV, Gisela of Burgundy, etc.) and the parent-child links are all historical. Appends children onto existing unions where the parent-pair already exists. Ordered so any newly-created parent is defined before it is used as a parent.",
+  "families": [
+    {"a": "CHARLEMAGNE", "b": "HILDEGARD", "children": ["LOUISPIOUS"]},
+    {"a": "LOUISPIOUS", "b": {"id": "ERMENHESB", "label": "Ermengarde of Hesbaya<br/>first wife of Louis the Pious"}, "children": ["LOTHAIRI", "LOUISGERMAN"]},
+    {"a": "LOUISPIOUS", "b": "JUDITHBAV", "children": ["CHARLESBALD"]},
+
+    {"a": "HENRYIV", "b": {"id": "MARYBOHUN", "label": "Mary de Bohun<br/>c.1368-1394 · mother of Henry V"}, "children": ["HENRYV"]},
+    {"a": "HENRYV", "b": "CV", "children": ["HENRYVI"]},
+
+    {"a": "RURIK", "b": {"id": "RURIKW", "label": "wife, unnamed"}, "children": ["IGOR"]},
+    {"a": "SVIATOSLAV", "b": {"id": "MALUSHA", "label": "Malusha<br/>housekeeper of Olga; mother of Vladimir"}, "children": ["VLADIMIR"]},
+
+    {"a": "HENRYFOWLER", "b": "MATRING", "children": [{"id": "HENRYIBAV", "label": "Henry I<br/>919-955 · Duke of Bavaria;<br/>son of Henry the Fowler"}]},
+    {"a": "HENRYIBAV", "b": {"id": "JUDITHARNULF", "label": "Judith of Bavaria<br/>daughter of Arnulf, Duke of Bavaria"}, "children": ["HENRYWRANGLER"]},
+    {"a": "HENRYWRANGLER", "b": {"id": "GISELABURG", "label": "Gisela of Burgundy<br/>950-1007 · mother of Henry II"}, "children": ["HENRYIIHRE"]},
+
+    {"a": "CONRADIV", "b": {"id": "ELISBAV", "label": "Elisabeth of Bavaria<br/>mother of Conradin"}, "children": ["CONRADIN"]},
+
+    {"a": "ALFREDGREAT", "b": {"id": "EALHSWITH", "label": "Ealhswith<br/>d.902 · wife of Alfred the Great"}, "children": [{"id": "EDWARDELDER", "label": "👑 Edward the Elder<br/>874-924 · King of the Anglo-Saxons;<br/>son of Alfred the Great"}]},
+    {"a": "EDWARDELDER", "b": {"id": "AELFFLAED", "label": "Ælfflæd<br/>second wife of Edward the Elder"}, "children": ["EADGYTH"]},
+
+    {"a": "ISAACANGELOS", "b": {"id": "ISAACANGELOSW1", "label": "first wife of Isaac II<br/>name uncertain"}, "children": ["IRENEANG"]}
+  ]
+}

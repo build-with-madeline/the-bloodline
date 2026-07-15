@@ -1,0 +1,136 @@
+{
+ "_note": "THE LATE BRONZE AGE GREAT-POWERS CLUB, c.1500-1360 BC — the payoff slab that stitches the separate island king-lists (Egypt, Mitanni, Kassite Babylon, Hittite, Arzawa, Assyria) together through the DOCUMENTED royal intermarriages of the Amarna age. All historical; debated links flagged. Succession/married-in spouses are '—' placeholders. Prefixes: Mitanni=MIT_, Kassite Babylon=BAB_, Hittite=HIT_, Arzawa=ARZ_, Assyria=AS_. PART 1 extends the near-eastern king-lists (referencing the existing tails MIT_SHAUSHTATAR, BAB_KARAINDASH, HIT_MUWATALLI1, AS_ASHURUBALLIT1 as strings, NOT recreated): MITANNI Shaushtatar > Artatama I > Shuttarna II > Tushratta (of the Amarna letters), with Tushratta's murdered rival brother Artashumara added as a sibling; KASSITE BABYLON Karaindash > Kurigalzu I > Kadashman-Enlil I > Burnaburiash II (the Karaindash>Kurigalzu link crosses intervening kings incl. Kadashman-Harbe I — flagged as succession; Kadashman-Enlil I son of Kurigalzu I and Burnaburiash II son of Kadashman-Enlil I are REAL father-son); HITTITE NEW KINGDOM Muwatalli I > Tudhaliya I/II (founder of the New Kingdom; his link to the murdered Muwatalli I is uncertain — flagged) > Arnuwanda I (adopted son / son-in-law of Tudhaliya I, married his daughter Asmu-Nikkal — flagged) > Tudhaliya III (REAL son of Arnuwanda I); ARZAWA (new house ARZ_) Tarhunta-radu, the Arzawan king who corresponded with Egypt (Arzawa letters EA 31-32), added as a root. PART 2 — THE DOCUMENTED ROYAL MARRIAGES (the cross-line bridges, the whole point): (1) Thutmose IV married a daughter of Artatama I of Mitanni — the FIRST Egypt-Mitanni marriage [EGYPT<->MITANNI]; plus the DEBATED scholarly view that his wife Mutemwiya (mother of Amenhotep III) may BE this Mitanni princess is rendered as a flagged descent link making EG_MUTEMWIYA a daughter of Artatama I (chronology is tight — Mutemwiya c.1410 vs Artatama I c.1410 — and the identification is contested; possibly/debated) [EGYPT<->MITANNI, debated]. (2) Amenhotep III married Gilukhepa, daughter of Shuttarna II of Mitanni, who arrived in his regnal year 10 [EGYPT<->MITANNI]. (3) Amenhotep III married a daughter of Kadashman-Enlil I of Babylon [EGYPT<->BABYLON]. (4) Amenhotep III married a daughter of Kurigalzu I of Babylon [EGYPT<->BABYLON]. (5) Amenhotep III married a daughter of Tarhunta-radu of Arzawa [EGYPT<->ARZAWA]. (6) Akhenaten married Tadukhepa, daughter of Tushratta of Mitanni — she was sent to Amenhotep III but on his death married his son Akhenaten [EGYPT<->MITANNI]. (7) ASSYRIA-BABYLON: Muballitat-Sherua, daughter of Ashur-uballit I of Assyria, married the Kassite king Burnaburiash II of Babylon; their son Kara-hardash briefly ruled Babylon before being killed in an anti-Assyrian revolt, prompting his grandfather Ashur-uballit's intervention [ASSYRIA<->BABYLON]. NOTE the task framed this as Muballitat-Sherua marrying Karahardash, but the sources (Wikipedia 'Muballitat-Sherua', 'Kara-hardash', 'Ashur-uballit I') have her marry Burnaburiash II with Kara-hardash as their recorded SON — rendered accurately here (some king-lists confuse the son as Kadashman-Harbe — flagged). Web-verified against Wikipedia 'Tushratta', 'Muballitat-Sherua', 'Kara-hardash', 'Ashur-uballit I', 'Tudhaliya I', 'Arnuwanda I', 'Kadashman-Enlil I', 'Kurigalzu I', 'Arzawa'. Every child year is smaller than its parent's except the deliberately-flagged Mutemwiya identification.",
+ "families": [
+  {
+   "a": "MIT_SHAUSHTATAR",
+   "b": {"id": "MIT_SHAUSHTATAR_KW", "label": "—"},
+   "children": [
+    {"id": "MIT_ARTATAMA1", "label": "👑 Artatama I<br/>c.1410 BC · king of Mitanni; negotiated the first marriage alliance with Egypt, giving a daughter to Thutmose IV · historical"}
+   ]
+  },
+  {
+   "a": "MIT_ARTATAMA1",
+   "b": {"id": "MIT_ARTATAMA1_W", "label": "—"},
+   "children": [
+    {"id": "MIT_SHUTTARNA2", "label": "👑 Shuttarna II<br/>c.1385 BC · king of Mitanni; son of Artatama I (REAL father-son); sent his daughter Gilukhepa to Amenhotep III of Egypt · historical"},
+    {"id": "MIT_ARTATAMA1_DAU", "label": "Mitanni princess<br/>c.1405 BC · a daughter of Artatama I; married to Pharaoh Thutmose IV in the first Egypt-Mitanni marriage alliance (name unrecorded; sometimes identified with Mutemwiya) · historical"}
+   ]
+  },
+  {
+   "a": "MIT_SHUTTARNA2",
+   "b": {"id": "MIT_SHUTTARNA2_W", "label": "—"},
+   "children": [
+    {"id": "MIT_TUSHRATTA", "label": "👑 Tushratta<br/>c.1360 BC · king of Mitanni of the Amarna letters; son of Shuttarna II (REAL father-son); took the throne after his brother Artashumara was murdered; married his daughter Tadukhepa to Egypt; later assassinated by one of his own sons · historical"},
+    {"id": "MIT_ARTASHUMARA", "label": "👑 Artashumara<br/>c.1363 BC · son of Shuttarna II and Tushratta's elder brother; briefly king of Mitanni before being murdered in a coup, after which Tushratta was placed on the throne · historical"},
+    {"id": "MIT_GILUKHEPA", "label": "Gilukhepa<br/>c.1375 BC · daughter of Shuttarna II and sister of Tushratta; sent to Egypt to marry Amenhotep III, arriving in his regnal year 10 with a large retinue · historical"}
+   ]
+  },
+  {
+   "a": "MIT_TUSHRATTA",
+   "b": {"id": "MIT_TUSHRATTA_W", "label": "—"},
+   "children": [
+    {"id": "MIT_TADUKHEPA", "label": "Tadukhepa<br/>c.1345 BC · daughter of Tushratta of Mitanni; sent to marry Amenhotep III of Egypt, but on his death married his son Akhenaten, entering the royal harem · historical"}
+   ]
+  },
+  {
+   "a": "BAB_KARAINDASH",
+   "b": {"id": "BAB_KARAINDASH_KW", "label": "—"},
+   "children": [
+    {"id": "BAB_KURIGALZU1", "label": "👑 Kurigalzu I<br/>c.1400 BC · Kassite king of Babylon; follows Karaindash across intervening kings (incl. Kadashman-Harbe I) — succession, not direct father-son; a great builder who founded Dur-Kurigalzu; gave a daughter to Amenhotep III of Egypt · historical"}
+   ]
+  },
+  {
+   "a": "BAB_KURIGALZU1",
+   "b": {"id": "BAB_KURIGALZU1_W", "label": "—"},
+   "children": [
+    {"id": "BAB_KADASHMANENLIL1", "label": "👑 Kadashman-Enlil I<br/>c.1374 BC · Kassite king of Babylon; son of Kurigalzu I (REAL father-son); corresponded with Amenhotep III in the Amarna letters and gave him a daughter in marriage · historical"},
+    {"id": "BAB_KURIGALZU1_DAU", "label": "Babylonian princess<br/>c.1390 BC · a daughter of Kurigalzu I of Babylon; married to Pharaoh Amenhotep III of Egypt (name unrecorded) · historical"}
+   ]
+  },
+  {
+   "a": "BAB_KADASHMANENLIL1",
+   "b": {"id": "BAB_KADASHMANENLIL1_W", "label": "—"},
+   "children": [
+    {"id": "BAB_BURNABURIASH2", "label": "👑 Burnaburiash II<br/>c.1359 BC · Kassite king of Babylon; son of Kadashman-Enlil I (REAL father-son); prolific correspondent of the Amarna letters; married Muballitat-Sherua, daughter of Ashur-uballit I of Assyria · historical"},
+    {"id": "BAB_KADASHMANENLIL1_DAU", "label": "Babylonian princess<br/>c.1370 BC · a daughter of Kadashman-Enlil I of Babylon; married to Pharaoh Amenhotep III of Egypt (name unrecorded) · historical"}
+   ]
+  },
+  {
+   "a": "HIT_MUWATALLI1",
+   "b": {"id": "HIT_MUWATALLI1_KW", "label": "—"},
+   "children": [
+    {"id": "HIT_TUDHALIYA1", "label": "👑 Tudhaliya I/II<br/>c.1420 BC · founder of the Hittite New Kingdom; his relation to the assassinated Muwatalli I is uncertain — link flagged; began the Hittite recovery and expansion into western Anatolia · historical"}
+   ]
+  },
+  {
+   "a": "HIT_TUDHALIYA1",
+   "b": {"id": "HIT_TUDHALIYA1_W", "label": "—"},
+   "children": [
+    {"id": "HIT_ARNUWANDA1", "label": "👑 Arnuwanda I<br/>c.1390 BC · Hittite king; adopted son and son-in-law of Tudhaliya I (married his daughter Asmu-Nikkal), co-regent then successor — descent by adoption/marriage, flagged · historical"}
+   ]
+  },
+  {
+   "a": "HIT_ARNUWANDA1",
+   "b": {"id": "HIT_ARNUWANDA1_W", "label": "—"},
+   "children": [
+    {"id": "HIT_TUDHALIYA3", "label": "👑 Tudhaliya III<br/>c.1360 BC · Hittite king; son of Arnuwanda I (REAL father-son); reign of crisis and near-collapse ('the concentric invasions'), from which his son Suppiluliuma I would restore the empire · historical"}
+   ]
+  },
+  {
+   "a": {"id": "ARZ_TARHUNTARADU", "label": "👑 Tarhunta-radu<br/>c.1390 BC · king of Arzawa in western Anatolia; corresponded with Amenhotep III of Egypt (the Arzawa letters, EA 31-32, written in Hittite) and gave him a daughter in marriage (ROOT of the Arzawa house) · historical"},
+   "b": {"id": "ARZ_TARHUNTARADU_W", "label": "—"},
+   "children": [
+    {"id": "ARZ_TARHUNTARADU_DAU", "label": "Arzawan princess<br/>c.1375 BC · a daughter of Tarhunta-radu of Arzawa; sought in marriage by Pharaoh Amenhotep III of Egypt per the Arzawa letters (name unrecorded) · historical"}
+   ]
+  },
+  {
+   "a": "AS_ASHURUBALLIT1",
+   "b": {"id": "AS_ASHURUBALLIT1_W", "label": "—"},
+   "children": [
+    {"id": "AS_MUBALLITATSHERUA", "label": "Muballitat-Sherua<br/>c.1350 BC · daughter of Ashur-uballit I of Assyria; married to the Kassite king Burnaburiash II of Babylon, sealing an Assyria-Babylon alliance · historical"}
+   ]
+  },
+  {
+   "a": "EG_THUTMOSE4",
+   "b": "MIT_ARTATAMA1_DAU",
+   "children": []
+  },
+  {
+   "a": "MIT_ARTATAMA1",
+   "b": {"id": "MIT_ARTATAMA1_W2", "label": "—"},
+   "children": ["EG_MUTEMWIYA"]
+  },
+  {
+   "a": "EG_AMENHOTEP3",
+   "b": "MIT_GILUKHEPA",
+   "children": []
+  },
+  {
+   "a": "EG_AMENHOTEP3",
+   "b": "BAB_KADASHMANENLIL1_DAU",
+   "children": []
+  },
+  {
+   "a": "EG_AMENHOTEP3",
+   "b": "BAB_KURIGALZU1_DAU",
+   "children": []
+  },
+  {
+   "a": "EG_AMENHOTEP3",
+   "b": "ARZ_TARHUNTARADU_DAU",
+   "children": []
+  },
+  {
+   "a": "EG_AKHENATEN",
+   "b": "MIT_TADUKHEPA",
+   "children": []
+  },
+  {
+   "a": "AS_MUBALLITATSHERUA",
+   "b": "BAB_BURNABURIASH2",
+   "children": [
+    {"id": "BAB_KARAHARDASH", "label": "👑 Kara-hardash<br/>c.1335 BC · Kassite king of Babylon; son of Burnaburiash II and the Assyrian princess Muballitat-Sherua (grandson of Ashur-uballit I); killed in an anti-Assyrian revolt, prompting his grandfather's intervention (some king-lists give the murdered grandson as Kadashman-Harbe — debated) · historical"}
+   ]
+  }
+ ]
+}

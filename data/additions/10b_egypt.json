@@ -15,6 +15,16 @@
    ]
   },
   {
+   "a": "EG_SECONDINTERMEDIATE",
+   "b": {
+    "id": "EG_SIP_TO17W",
+    "label": "—"
+   },
+   "children": [
+    "EG_INTEF_NUB"
+   ]
+  },
+  {
    "a": "EG_AHMOSE1",
    "b": {
     "id": "EG_AHMOSE1W",

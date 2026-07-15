@@ -1,0 +1,303 @@
+{
+ "_note": "Slab c.1550-1400 BC, two threads. (1) CHINA — the notable EARLY &amp; MIDDLE SHANG kings that the existing bridge CN_SHANGMID glosses over, added as a PARALLEL detail king-list hanging off the existing CN_TAIJIA (Tai Jia). This chain runs Wai Bing -> Zhong Ren -> Tai Geng -> Xiao Jia -> Yong Ji -> Tai Wu -> Zhong Ding -> Wai Ren -> He Dan Jia -> Zu Yi -> Zu Xin -> Wo Jia -> Zu Ding -> Nan Geng and then STOPS at Nan Geng: it deliberately does NOT reconnect to the existing later king Wu Ding (CN_WUDING), because Wu Ding already has a parent via the CN_SHANGMID bridge and must not be re-parented. These reigns would slot between Tai Jia (c.1550) and Wu Ding (c.1250); the intervening Wo Ding, Yang Jia, Pan Geng, Xiao Xin &amp; Xiao Yi are left to the existing bridge. Status flagged honestly: the earliest of these (Wai Bing through Yong Ji) are SEMI-LEGENDARY traditional kings; from Tai Wu onward the dynasty is treated as HISTORICAL, its kings named on the oracle-bone sacrificial records (individual pre-Wu-Ding dates remain approximate/reconstructed). Order follows the Shiji king-list as cross-checked against oracle bones (Wikipedia 'Shang dynasty'); prefixed CN_. (2) THE AEGEAN — the START of the legendary royal genealogies, ALL clearly flagged LEGENDARY / mythological, with NO claim to historicity: CRETE (Minoan, prefix CRE_) around Minos of Knossos, and MYCENAE/ARGOS (Mycenaean, prefix MYC_) around Danaus and Perseus. Zeus is marked a mythological deity. These are new houses seeded by prefix. Verified against Wikipedia/Britannica entries for Minos, Europa, Pasiphae, Perseus, Andromeda and the Perseids. No fabrication: only figures, relations and roles found in the received tradition. Child years are drawn smaller than the parent's to keep the timeline ordered; mythological dates are nominal placeholders, not historical claims.",
+ "families": [
+  {
+   "note": "CHINA thread — parallel early/middle Shang king-list hung off the EXISTING Tai Jia (CN_TAIJIA). CN_TAIJIA is only used as a parent here; no existing CN_ king is placed in any children array.",
+   "a": "CN_TAIJIA",
+   "b": {
+    "id": "CN_TAIJIA_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_WAIBING",
+     "label": "👑 Wai Bing<br/>c.1548 BC · early Shang king; younger brother of Tai Ding, reigned briefly after Tang's line · EARLY SHANG, SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_WAIBING",
+   "b": {
+    "id": "CN_WAIBING_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZHONGREN",
+     "label": "👑 Zhong Ren<br/>c.1546 BC · early Shang king; a short reign; brother-successor in the Shiji king-list · EARLY SHANG, SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZHONGREN",
+   "b": {
+    "id": "CN_ZHONGREN_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_TAIGENG",
+     "label": "👑 Tai Geng<br/>c.1540 BC · early Shang king; son of Tai Jia in the Shiji annals · EARLY SHANG, SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_TAIGENG",
+   "b": {
+    "id": "CN_TAIGENG_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_XIAOJIA",
+     "label": "👑 Xiao Jia<br/>c.1530 BC · early Shang king; recorded as son or younger brother of Tai Geng · EARLY SHANG, SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_XIAOJIA",
+   "b": {
+    "id": "CN_XIAOJIA_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_YONGJI",
+     "label": "👑 Yong Ji<br/>c.1518 BC · early Shang king; reigned before Tai Wu in the Historical Records · EARLY SHANG, SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_YONGJI",
+   "b": {
+    "id": "CN_YONGJI_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_TAIWU",
+     "label": "👑 Tai Wu<br/>c.1500 BC · long-reigning Shang king (traditionally ~75 years); under him the dynasty flourished · SHANG, HISTORICAL (oracle-bone attested)"
+    }
+   ]
+  },
+  {
+   "a": "CN_TAIWU",
+   "b": {
+    "id": "CN_TAIWU_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZHONGDING",
+     "label": "👑 Zhong Ding<br/>c.1465 BC · Shang king; the Shiji records him moving the capital to Ao · SHANG, HISTORICAL (oracle-bone attested)"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZHONGDING",
+   "b": {
+    "id": "CN_ZHONGDING_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_WAIREN",
+     "label": "👑 Wai Ren<br/>c.1455 BC · Shang king; brother-successor of Zhong Ding · SHANG, HISTORICAL (oracle-bone attested)"
+    }
+   ]
+  },
+  {
+   "a": "CN_WAIREN",
+   "b": {
+    "id": "CN_WAIREN_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_HEDANJIA",
+     "label": "👑 He Dan Jia<br/>c.1445 BC · Shang king; a period of decline in the traditional accounts · SHANG, HISTORICAL (oracle-bone attested)"
+    }
+   ]
+  },
+  {
+   "a": "CN_HEDANJIA",
+   "b": {
+    "id": "CN_HEDANJIA_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZUYI",
+     "label": "👑 Zu Yi<br/>c.1435 BC · Shang king; credited with reviving Shang fortunes &amp; moving the capital to Xing · SHANG, HISTORICAL (oracle-bone attested)"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZUYI",
+   "b": {
+    "id": "CN_ZUYI_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZUXIN",
+     "label": "👑 Zu Xin<br/>c.1420 BC · Shang king; son of Zu Yi in the king-list · SHANG, HISTORICAL (oracle-bone attested)"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZUXIN",
+   "b": {
+    "id": "CN_ZUXIN_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_WOJIA",
+     "label": "👑 Wo Jia (Qiang Jia)<br/>c.1410 BC · Shang king; brother-successor of Zu Xin · SHANG, HISTORICAL (oracle-bone attested)"
+    }
+   ]
+  },
+  {
+   "a": "CN_WOJIA",
+   "b": {
+    "id": "CN_WOJIA_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZUDING",
+     "label": "👑 Zu Ding<br/>c.1400 BC · Shang king; son of Zu Xin in the king-list · SHANG, HISTORICAL (oracle-bone attested)"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZUDING",
+   "b": {
+    "id": "CN_ZUDING_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_NANGENG",
+     "label": "👑 Nan Geng<br/>c.1385 BC · Shang king; his successors (Yang Jia, Pan Geng, Xiao Xin, Xiao Yi) lead on toward Wu Ding via the existing bridge · SHANG, HISTORICAL (oracle-bone attested)"
+    }
+   ]
+  },
+  {
+   "note": "AEGEAN thread — CRETE (Minoan). Agenor of Tyre, father of Europa; Phoenician by origin but grouped with the Aegean legendary set by the CRE_ prefix. ALL figures below are LEGENDARY / mythological.",
+   "a": {
+    "id": "CRE_AGENOR",
+    "label": "👑 Agenor<br/>c.1520 BC · legendary Phoenician king of Tyre; father of Europa · LEGENDARY"
+   },
+   "b": {
+    "id": "CRE_AGENOR_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CRE_EUROPA",
+     "label": "Europa<br/>c.1490 BC · Phoenician princess of Tyre; carried to Crete by Zeus; mother of Minos · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "Zeus (mythological deity) &amp; Europa, parents of the three Cretan brothers Minos, Rhadamanthus &amp; Sarpedon. Europa is referenced from the family above.",
+   "a": {
+    "id": "CRE_ZEUS",
+    "label": "Zeus<br/>c.1500 BC · king of the Greek gods; MYTHOLOGICAL DEITY; father of Minos by Europa · LEGENDARY"
+   },
+   "b": "CRE_EUROPA",
+   "children": [
+    {
+     "id": "CRE_MINOS",
+     "label": "👑 Minos<br/>c.1450 BC · legendary king &amp; lawgiver of Knossos, Crete; later a judge of the dead · LEGENDARY"
+    },
+    {
+     "id": "CRE_RHADAMANTHUS",
+     "label": "👑 Rhadamanthus<br/>c.1448 BC · brother of Minos; wise lawgiver &amp; later a judge of the dead · LEGENDARY"
+    },
+    {
+     "id": "CRE_SARPEDON",
+     "label": "👑 Sarpedon<br/>c.1446 BC · brother of Minos; quarrelled with him &amp; became king of Lycia · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "Minos &amp; Pasiphae (daughter of Helios), parents of the Cretan royal children.",
+   "a": "CRE_MINOS",
+   "b": {
+    "id": "CRE_PASIPHAE",
+    "label": "Pasiphae<br/>c.1445 BC · wife of Minos; daughter of the sun god Helios; mother of the Cretan royal children · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "CRE_ARIADNE",
+     "label": "Ariadne<br/>c.1420 BC · princess of Crete; gave Theseus the thread out of the Labyrinth · LEGENDARY"
+    },
+    {
+     "id": "CRE_PHAEDRA",
+     "label": "Phaedra<br/>c.1418 BC · princess of Crete; later queen of Athens as wife of Theseus · LEGENDARY"
+    },
+    {
+     "id": "CRE_ANDROGEUS",
+     "label": "Androgeus<br/>c.1420 BC · prince of Crete; his death at Athens sparked the tribute of the Minotaur · LEGENDARY"
+    },
+    {
+     "id": "CRE_DEUCALION",
+     "label": "👑 Deucalion<br/>c.1416 BC · son of Minos; succeeded as king of Crete · LEGENDARY"
+    },
+    {
+     "id": "CRE_CATREUS",
+     "label": "👑 Catreus<br/>c.1414 BC · son of Minos; king of Crete, fated to die by his own child's hand · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "AEGEAN thread — MYCENAE / ARGOS (Mycenaean). Danaus, ancestor of the Danaids; kept SEPARATE from Perseus per the received Argive tradition. ALL figures LEGENDARY.",
+   "a": {
+    "id": "MYC_DANAUS",
+    "label": "👑 Danaus<br/>c.1500 BC · legendary king of Argos; fled Egypt with his fifty daughters, the Danaids · LEGENDARY"
+   },
+   "b": {
+    "id": "MYC_DANAUS_D",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "MYC_DANAIDS",
+     "label": "the fifty Danaids<br/>c.1470 BC · the fifty daughters of Danaus; from them the Argives took the name Danaans · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "Perseus &amp; Andromeda, founders of the Perseid line that leads on toward Heracles &amp; the Mycenaean kings. Perseus is a root here (his descent from Danae is not drawn).",
+   "a": {
+    "id": "MYC_PERSEUS",
+    "label": "👑 Perseus<br/>c.1400 BC · legendary hero, slayer of Medusa; founder-king of Mycenae · LEGENDARY"
+   },
+   "b": {
+    "id": "MYC_ANDROMEDA",
+    "label": "Andromeda<br/>c.1398 BC · Aethiopian princess rescued by Perseus; matriarch of the Perseids · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_PERSES",
+     "label": "Perses<br/>c.1375 BC · son of Perseus; left in Aethiopia, reckoned ancestor of the Persians · LEGENDARY"
+    },
+    {
+     "id": "MYC_ALCAEUS",
+     "label": "Alcaeus<br/>c.1375 BC · son of Perseus; father of Amphitryon, in the line toward Heracles · LEGENDARY"
+    },
+    {
+     "id": "MYC_ELECTRYON",
+     "label": "👑 Electryon<br/>c.1373 BC · son of Perseus; king of Mycenae; father of Alcmene, mother of Heracles · LEGENDARY"
+    },
+    {
+     "id": "MYC_STHENELUS",
+     "label": "👑 Sthenelus<br/>c.1371 BC · son of Perseus; king of Mycenae; father of Eurystheus · LEGENDARY"
+    }
+   ]
+  }
+ ]
+}

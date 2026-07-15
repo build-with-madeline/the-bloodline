@@ -1,0 +1,156 @@
+{
+ "_note": "Egypt's Second Intermediate Period, c.1800-1700 BC: the LATER 13th Dynasty continuing from EG_WEGAF (the tree's 13th-dyn tail), and the rise of the HYKSOS 15th Dynasty (new house HYK_) ruling the Nile Delta from Avaris in PARALLEL with the Theban dynasties, NOT in succession to them. This whole era is poorly documented and its chronology is genuinely contested; every entry is flagged. King numbering for the early Sobekhoteps and the absolute dates for the Hyksos are disputed among scholars. The '—' spouses mark throne-succession links (not descent); real parentage is shown only for the well-attested family of the God's Father Haankhef. Loads after 12b_kingdoms.json, which defines EG_WEGAF.",
+ "families": [
+  {
+   "note": "Succession from Wegaf to Khendjer. Userkare Khendjer was a 13th-Dynasty king (bearing a Semitic name, 'boar') best known for the only royal pyramid of the dynasty known to have been completed, at South Saqqara. Link is throne-succession, not descent.",
+   "a": "EG_WEGAF",
+   "b": {
+    "id": "EG_KHENDJER_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_KHENDJER",
+     "label": "👑 Userkare Khendjer<br/>c.1760 BC · 13th Dynasty; a king with a Semitic name who built the only 13th-Dynasty royal pyramid known to have been finished, at South Saqqara · HISTORICAL, poorly documented"
+    }
+   ]
+  },
+  {
+   "note": "Succession to Sobekhotep II. The numbering of the early Sobekhoteps is contested (Ryholt reassigned several); the king conventionally called Sobekhotep II is placed among the mid-13th-Dynasty rulers. Throne-succession link.",
+   "a": "EG_KHENDJER",
+   "b": {
+    "id": "EG_SOBEKHOTEP2_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_SOBEKHOTEP2",
+     "label": "👑 Sobekhotep II<br/>c.1750 BC · 13th Dynasty; a mid-dynasty king · HISTORICAL, poorly documented — UNCERTAIN: the numbering of the early Sobekhoteps is disputed (Ryholt's reconstruction reorders them)"
+    }
+   ]
+  },
+  {
+   "note": "The throne passed to the non-royal family of the God's Father Haankhef, whose three sons ruled in turn. Haankhef appears as 'God's father' and 'royal sealer' and his wife Kemi as 'king's mother', showing neither was of royal birth. This succession slot (from Sobekhotep II) is a throne-bridge, not descent; Haankhef himself was not a king.",
+   "a": "EG_SOBEKHOTEP2",
+   "b": {
+    "id": "EG_HAANKHEF_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_HAANKHEF",
+     "label": "Haankhef<br/>c.1745 BC · 13th Dynasty; non-royal 'God's Father' and royal sealer whose three sons (Neferhotep I, Sahathor, Sobekhotep IV) successively took the throne · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "The well-attested REAL family: the God's Father Haankhef and lady Kemi ('king's mother'), parents of the three brother-kings. Neferhotep I, then briefly Sahathor as co-regent, then Sobekhotep IV; the two major brothers mark the apex of the 13th Dynasty. This is genuine descent, not succession-bridge.",
+   "a": "EG_HAANKHEF",
+   "b": {
+    "id": "EG_KEMI",
+    "label": "Kemi<br/>c.1743 BC · 13th Dynasty; non-royal wife of Haankhef, titled 'king's mother'; mother of the kings Neferhotep I, Sahathor &amp; Sobekhotep IV · HISTORICAL"
+   },
+   "children": [
+    {
+     "id": "EG_NEFERHOTEP1",
+     "label": "👑 Khasekhemre Neferhotep I<br/>c.1740 BC · 13th Dynasty; son of Haankhef &amp; Kemi; one of the best-attested kings of the period, known from many seals and an Elephantine rock inscription · HISTORICAL"
+    },
+    {
+     "id": "EG_SAHATHOR",
+     "label": "👑 Menwadjre Sahathor<br/>c.1730 BC · 13th Dynasty; brother of Neferhotep I; ephemeral ruler / co-regent who died within months, before or just after his brother · HISTORICAL, very short reign"
+    },
+    {
+     "id": "EG_SOBEKHOTEP4",
+     "label": "👑 Khaneferre Sobekhotep IV<br/>c.1725 BC · 13th Dynasty; youngest brother; the dynasty's high point, best-documented king of the era, with monuments from Karnak to Nubia · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "Succession after Sobekhotep IV to Sobekhotep V (Merhotepre). The relationship is uncertain; Sobekhotep V is sometimes proposed as a son of Sobekhotep IV, but this is not secure. Shown as throne-succession.",
+   "a": "EG_SOBEKHOTEP4",
+   "b": {
+    "id": "EG_SOBEKHOTEP5_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_SOBEKHOTEP5",
+     "label": "👑 Merhotepre Sobekhotep V<br/>c.1720 BC · 13th Dynasty; successor of Sobekhotep IV · HISTORICAL, poorly documented — UNCERTAIN: possibly a son of Sobekhotep IV; numbering of the later Sobekhoteps is disputed"
+    }
+   ]
+  },
+  {
+   "note": "Succession to Merneferre Ay, the longest-reigning king of the 13th Dynasty (~23 years) and the last whose monuments are attested in both Upper and Lower Egypt. After him the north (the Delta) was lost and the dynasty rapidly declined. Throne-succession link.",
+   "a": "EG_SOBEKHOTEP5",
+   "b": {
+    "id": "EG_AY1_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_AY1",
+     "label": "👑 Merneferre Ay I<br/>c.1700 BC · 13th Dynasty; longest-reigning king of the dynasty (~23 yrs); last ruler attested in both Upper and Lower Egypt before the Delta was lost · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "After Merneferre Ay the 13th Dynasty faded: a rapid turnover of increasingly powerless kings confined to the Theban south as the Hyksos took the Delta (see the HYK_ house below). Placeholder node closing the Theban line for this slab (~1700 BC).",
+   "a": "EG_AY1",
+   "b": {
+    "id": "EG_DYN13FADE_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_DYN13FADE",
+     "label": "👑 the fading kings of the 13th Dynasty<br/>c.1695 BC · after Merneferre Ay the dynasty shrank to a weak Theban rump as the Hyksos seized the north; dozens of short-lived kings followed · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "NEW HOUSE — the HYKSOS (HYK_). Foreign, Semitic ('Aamu') rulers of the Nile Delta who made Avaris (Tell el-Dab'a) their capital and formed the 15th Dynasty, ruling Lower and Middle Egypt in PARALLEL with the Theban 13th/16th/17th dynasties, NOT in succession to them. Salitis is named as founder only by Manetho (via Josephus) and is not archaeologically attested; his historicity is debated (sometimes equated with Sheshi or Semqen). Root of the house. NOTE ON DATES: conventional scholarship dates the 15th Dynasty c.1650-1550 BC; the earlier dates used here follow this slab's high-chronology framing and are UNCERTAIN.",
+   "a": {
+    "id": "HYK_SALITIS",
+    "label": "👑 Salitis<br/>c.1720 BC · 15th Dynasty (Hyksos); named by Manetho as founder of Hyksos rule from Avaris in the Delta · HISTORICAL but UNCERTAIN — known only from later Greek tradition, not attested in contemporary Egyptian sources; identity debated"
+   },
+   "b": {
+    "id": "HYK_SALITISW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HYK_SAKIRHAR",
+     "label": "👑 Sakir-Har<br/>c.1710 BC · 15th Dynasty (Hyksos); proposed by some scholars (Ryholt, Bietak) as the first securely attested Hyksos king; known from a single doorjamb inscription at Avaris · HISTORICAL, thinly attested"
+    }
+   ]
+  },
+  {
+   "note": "Succession within the Hyksos house to Khyan (Seuserenre), one of the best-attested Hyksos kings, whose sealings and objects are found across Egypt and abroad (Knossos, Hattusa, Baghdad art market), pointing to wide contacts. Recent finds at Tell Edfu associating Khyan with Sobekhotep IV suggest the Hyksos and 13th Dynasty overlapped, reinforcing that these houses ruled in parallel. Throne-succession within the dynasty.",
+   "a": "HYK_SAKIRHAR",
+   "b": {
+    "id": "HYK_KHYAN_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HYK_KHYAN",
+     "label": "👑 Seuserenre Khyan<br/>c.1700 BC · 15th Dynasty (Hyksos); a powerful, widely-attested Delta king with far-flung contacts (Aegean, Anatolia); Edfu evidence hints he overlapped the 13th Dynasty · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "Bridge forward: the famous later Hyksos kings Apepi (Apophis) and Khamudi, who faced the Theban 17th Dynasty and were finally expelled by Ahmose (~1550), belong to a later slab (~1600 BC and after). Placeholder closing the Hyksos line here.",
+   "a": "HYK_KHYAN",
+   "b": {
+    "id": "HYK_BRIDGE_SUCCW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HYK_LATERBRIDGE",
+     "label": "👑 the later Hyksos (Apepi &amp; Khamudi)<br/>c.1650 BC · 15th Dynasty; the last Hyksos kings, who fought the Theban 17th Dynasty and were expelled by Ahmose (~1550 BC) — a future slab · HISTORICAL"
+    }
+   ]
+  }
+ ]
+}

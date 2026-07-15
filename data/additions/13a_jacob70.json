@@ -1,0 +1,90 @@
+{
+  "_note": "THE HOUSE OF JACOB — the seventy who went down to Egypt (Genesis 46:8-27), c.1770-1700 BC. Builds the grandsons and great-grandsons of Israel named in Genesis 46, cross-checked against the clan lists of Numbers 26 and 1 Chronicles. Each family APPENDS to an existing father from 07d_jacob12.json. Unnamed wives follow this dataset's '—' placeholder convention (cf. PEREZW, LEVIWIFE, KOHATHW). Namespaced ids avoid collisions: Reuben's sons Hezron and Carmi -> HEZRON_REU / CARMI_REU (vs Judah's grandson HEZRON); Zebulun's son Elon -> ELON_ZEB (vs Elon the Hittite). ALREADY BUILT, not repeated here: Joseph's sons Manasseh (MANASSEHJ) & Ephraim under JOSEPHJ+ASENATH; Levi's son Kohath (KOHATH) with Amram (AMRAM); Judah's sons Er/Onan/Shelah (SHELAHJ) by the Canaanite Bath-shua (BATHSHUA) and Perez/Zerah (ZERAHJUDAH); Perez's son Hezron (HEZRON). Only Perez's second son Hamul and Levi's Gershon & Merari are added to those existing lines. The one new Canaanite mother the text flags is Shaul's (Genesis 46:10). Ordered so BERIAH exists before Heber & Malchiel reference it.",
+  "families": [
+    {"a": "REUBEN", "b": {"id": "REUBENW", "label": "—"}, "children": [
+      {"id": "HANOCH", "label": "Hanoch<br/>c.1722 BC · firstborn son of Reuben; head of the Hanochites · Genesis 46:9"},
+      {"id": "PALLU", "label": "Pallu<br/>c.1721 BC · son of Reuben; head of the Palluites · Genesis 46:9"},
+      {"id": "HEZRON_REU", "label": "Hezron<br/>c.1720 BC · son of Reuben; head of the Hezronites · Genesis 46:9"},
+      {"id": "CARMI_REU", "label": "Carmi<br/>c.1719 BC · son of Reuben; head of the Carmites · Genesis 46:9"}
+    ]},
+
+    {"a": "SIMEONJ", "b": {"id": "SIMEONJW", "label": "—"}, "children": [
+      {"id": "JEMUEL", "label": "Jemuel<br/>c.1722 BC · son of Simeon; called Nemuel in Numbers 26:12 · Genesis 46:10"},
+      {"id": "JAMIN", "label": "Jamin<br/>c.1721 BC · son of Simeon; head of the Jaminites · Genesis 46:10"},
+      {"id": "OHAD", "label": "Ohad<br/>c.1720 BC · son of Simeon · Genesis 46:10"},
+      {"id": "JACHIN", "label": "Jachin<br/>c.1719 BC · son of Simeon; head of the Jachinites · Genesis 46:10"},
+      {"id": "ZOHAR", "label": "Zohar<br/>c.1718 BC · son of Simeon; called Zerah in Numbers 26:13 · Genesis 46:10"}
+    ]},
+    {"a": "SIMEONJ", "b": {"id": "SIMEON_CANAANITE", "label": "a Canaanite woman<br/>mother of Shaul, the son Simeon had by a Canaanite · Genesis 46:10"}, "children": [
+      {"id": "SHAUL_SIM", "label": "Shaul<br/>c.1717 BC · son of Simeon by a Canaanite woman; head of the Shaulites · Genesis 46:10"}
+    ]},
+
+    {"a": "LEVI", "b": "LEVIWIFE", "children": [
+      {"id": "GERSHON", "label": "Gershon<br/>c.1722 BC · son of Levi; the Gershonite Levites · Genesis 46:11"},
+      {"id": "MERARI", "label": "Merari<br/>c.1719 BC · son of Levi; the Merarite Levites · Genesis 46:11"}
+    ]},
+
+    {"a": "PEREZ", "b": "PEREZW", "children": [
+      {"id": "HAMUL", "label": "Hamul<br/>c.1700 BC · son of Perez; head of the Hamulites · Genesis 46:12"}
+    ]},
+
+    {"a": "ISSACHAR", "b": {"id": "ISSACHARW", "label": "—"}, "children": [
+      {"id": "TOLA", "label": "Tola<br/>c.1718 BC · son of Issachar; head of the Tolaites · Genesis 46:13"},
+      {"id": "PUVAH", "label": "Puvah<br/>c.1717 BC · son of Issachar; head of the Punites · Genesis 46:13"},
+      {"id": "IOB_ISS", "label": "Iob<br/>c.1716 BC · son of Issachar; called Jashub in Numbers 26:24 · Genesis 46:13"},
+      {"id": "SHIMRON", "label": "Shimron<br/>c.1715 BC · son of Issachar; head of the Shimronites · Genesis 46:13"}
+    ]},
+
+    {"a": "ZEBULUN", "b": {"id": "ZEBULUNW", "label": "—"}, "children": [
+      {"id": "SERED", "label": "Sered<br/>c.1717 BC · son of Zebulun; head of the Seredites · Genesis 46:14"},
+      {"id": "ELON_ZEB", "label": "Elon<br/>c.1716 BC · son of Zebulun; head of the Elonites · Genesis 46:14"},
+      {"id": "JAHLEEL", "label": "Jahleel<br/>c.1715 BC · son of Zebulun; head of the Jahleelites · Genesis 46:14"}
+    ]},
+
+    {"a": "GAD", "b": {"id": "GADW", "label": "—"}, "children": [
+      {"id": "ZIPHION", "label": "Ziphion<br/>c.1720 BC · son of Gad; called Zephon in Numbers 26:15 · Genesis 46:16"},
+      {"id": "HAGGI", "label": "Haggi<br/>c.1719 BC · son of Gad; head of the Haggites · Genesis 46:16"},
+      {"id": "SHUNI", "label": "Shuni<br/>c.1718 BC · son of Gad; head of the Shunites · Genesis 46:16"},
+      {"id": "EZBON", "label": "Ezbon<br/>c.1717 BC · son of Gad; called Ozni in Numbers 26:16 · Genesis 46:16"},
+      {"id": "ERI", "label": "Eri<br/>c.1716 BC · son of Gad; head of the Erites · Genesis 46:16"},
+      {"id": "ARODI", "label": "Arodi<br/>c.1715 BC · son of Gad; head of the Arodites · Genesis 46:16"},
+      {"id": "ARELI", "label": "Areli<br/>c.1714 BC · son of Gad; head of the Arelites · Genesis 46:16"}
+    ]},
+
+    {"a": "ASHER", "b": {"id": "ASHERW", "label": "—"}, "children": [
+      {"id": "IMNAH", "label": "Imnah<br/>c.1719 BC · son of Asher; head of the Imnites · Genesis 46:17"},
+      {"id": "ISHVAH", "label": "Ishvah<br/>c.1718 BC · son of Asher · Genesis 46:17"},
+      {"id": "ISHVI", "label": "Ishvi<br/>c.1717 BC · son of Asher; head of the Ishvites · Genesis 46:17"},
+      {"id": "BERIAH_ASH", "label": "Beriah<br/>c.1716 BC · son of Asher; head of the Beriites · Genesis 46:17"},
+      {"id": "SERAH", "label": "Serah<br/>daughter of Asher; sister of the sons of Asher · Genesis 46:17"}
+    ]},
+    {"a": "BERIAH_ASH", "b": {"id": "BERIAHW", "label": "—"}, "children": [
+      {"id": "HEBER_ASH", "label": "Heber<br/>c.1694 BC · son of Beriah; head of the Heberites · Genesis 46:17"},
+      {"id": "MALCHIEL", "label": "Malchiel<br/>c.1693 BC · son of Beriah; head of the Malchielites · Genesis 46:17"}
+    ]},
+
+    {"a": "DAN", "b": {"id": "DANW", "label": "—"}, "children": [
+      {"id": "HUSHIM", "label": "Hushim<br/>c.1719 BC · son of Dan; called Shuham in Numbers 26:42 · Genesis 46:23"}
+    ]},
+
+    {"a": "NAPHTALI", "b": {"id": "NAPHTALIW", "label": "—"}, "children": [
+      {"id": "JAHZEEL", "label": "Jahzeel<br/>c.1719 BC · son of Naphtali; head of the Jahzeelites · Genesis 46:24"},
+      {"id": "GUNI", "label": "Guni<br/>c.1718 BC · son of Naphtali; head of the Gunites · Genesis 46:24"},
+      {"id": "JEZER", "label": "Jezer<br/>c.1717 BC · son of Naphtali; head of the Jezerites · Genesis 46:24"},
+      {"id": "SHILLEM", "label": "Shillem<br/>c.1716 BC · son of Naphtali; head of the Shillemites · Genesis 46:24"}
+    ]},
+
+    {"a": "BENJAMIN", "b": {"id": "BENJAMINW", "label": "—"}, "children": [
+      {"id": "BELA", "label": "Bela<br/>c.1714 BC · son of Benjamin; head of the Belaites · Genesis 46:21"},
+      {"id": "BECHER", "label": "Becher<br/>c.1713 BC · son of Benjamin · Genesis 46:21"},
+      {"id": "ASHBEL", "label": "Ashbel<br/>c.1712 BC · son of Benjamin; head of the Ashbelites · Genesis 46:21"},
+      {"id": "GERA_BEN", "label": "Gera<br/>c.1711 BC · son of Benjamin · Genesis 46:21"},
+      {"id": "NAAMAN_BEN", "label": "Naaman<br/>c.1710 BC · son of Benjamin; head of the Naamites · Genesis 46:21"},
+      {"id": "EHI", "label": "Ehi<br/>c.1709 BC · son of Benjamin; Ahiram in Numbers 26:38 · Genesis 46:21"},
+      {"id": "ROSH", "label": "Rosh<br/>c.1708 BC · son of Benjamin · Genesis 46:21"},
+      {"id": "MUPPIM", "label": "Muppim<br/>c.1707 BC · son of Benjamin; Shephupham in Numbers 26:39 · Genesis 46:21"},
+      {"id": "HUPPIM", "label": "Huppim<br/>c.1706 BC · son of Benjamin; Hupham in Numbers 26:39 · Genesis 46:21"},
+      {"id": "ARD", "label": "Ard<br/>c.1705 BC · son of Benjamin; head of the Ardites · Genesis 46:21"}
+    ]}
+  ]
+}

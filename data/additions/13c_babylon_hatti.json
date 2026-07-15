@@ -1,0 +1,99 @@
+{
+ "_note": "BABYLON & HATTI, c.1750-1595 BC — two threads for the ~1800-1700 BC slab. (1) BABYLON, later First-Dynasty kings (ids prefixed BAB_): the tail of the Amorite dynasty after Hammurabi, built as strict REAL father-son descent starting from BAB_SAMSUILUNA (already in the tree, referenced as a string, NOT recreated — nor is his father BAB_HAMMURABI recreated). Samsu-iluna > Abi-Eshuh > Ammi-ditana > Ammi-saduqa > Samsu-ditana. Every link is a genuine father-son succession attested in the king lists and royal inscriptions: Abi-Eshuh was Samsu-iluna's son; Ammi-ditana called Abi-Eshuh 'the great champion' his father; Ammi-saduqa was Ammi-ditana's eldest son and successor; Samsu-ditana was Ammi-saduqa's son and the LAST king of the dynasty, whose Babylon was sacked by the Hittite king Mursili I in 1595 BC (the 'fall of Babylon' that ended the Old Babylonian period) — noted in his label. Hammurabi's chief wife/queen is NOT added: no consort of Hammurabi is attested by name in the sources (his family is very thinly documented), so none is fabricated. Middle Chronology dates, matching the sibling Old-Babylonian island in 12a_mesopotamia.json; every child year is smaller than its parent's. (2) HITTITES (ids prefixed HIT_ — a NEW house, a fresh chain rooted at Pithana): the pre-Old-Kingdom and Old-Kingdom founders in Anatolia. Pithana of Kussara > his son Anitta (REAL father-son; Anitta conquered Nesa/Kanesh and sacked Hattusa, and his 'Anitta text' / Proclamation of Anitta is the oldest known text in an Indo-European language) > [UNCERTAIN dynastic link] Labarna I > Hattusili I. The connection from Anitta's Kussara line to Labarna I is debated — many scholars treat Labarna as founding a new dynasty whose tradition reaches back no further than himself — so that link is flagged uncertain in Labarna's label; the Labarna>Hattusili succession is likewise traditional (Hattusili I, 'man of Kussara', was Labarna's successor, often reckoned his nephew). Hattusili I moved the capital to Hattusa and founded the Hittite Old Kingdom. All figures historical (Pithana/Anitta early and semi-legendary in later Hittite memory but attested in the Anitta text). Web-verified against Wikipedia 'Samsu-iluna', 'Abi-Eshuh', 'Ammi-Saduqa', 'Samsu-Ditana', 'Hammurabi', 'Pithana', 'Anitta (king)', 'Kussara', 'Labarna I', 'Hattusili I'.",
+ "families": [
+  {
+   "a": "BAB_SAMSUILUNA",
+   "b": {
+    "id": "BAB_SAMSUILUNAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_ABIESHUH",
+     "label": "👑 Abi-Eshuh<br/>c.1711 BC · king of Babylon; son &amp; successor of Samsu-iluna; called 'the great champion' by his own son · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_ABIESHUH",
+   "b": {
+    "id": "BAB_ABIESHUHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_AMMIDITANA",
+     "label": "👑 Ammi-ditana<br/>c.1683 BC · king of Babylon; son &amp; successor of Abi-Eshuh · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_AMMIDITANA",
+   "b": {
+    "id": "BAB_AMMIDITANAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_AMMISADUQA",
+     "label": "👑 Ammi-saduqa<br/>c.1646 BC · king of Babylon; eldest son &amp; successor of Ammi-ditana; the Venus Tablet dates to his reign · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_AMMISADUQA",
+   "b": {
+    "id": "BAB_AMMISADUQAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_SAMSUDITANA",
+     "label": "👑 Samsu-ditana<br/>c.1625 BC · last king of Babylon's First Dynasty; son of Ammi-saduqa; his Babylon was sacked by the Hittite Mursili I in 1595 BC, ending the Old Babylonian period · historical"
+    }
+   ]
+  },
+  {
+   "a": {
+    "id": "HIT_PITHANA",
+    "label": "👑 Pithana<br/>c.1750 BC · king of Kussara in Anatolia; conquered Nesa (Kanesh); forerunner of the Hittite dynasty · historical"
+   },
+   "b": {
+    "id": "HIT_PITHANAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_ANITTA",
+     "label": "👑 Anitta<br/>c.1725 BC · son of Pithana; king of Kussara/Nesa; sacked Hattusa; his 'Anitta text' is the oldest known document in an Indo-European language · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_ANITTA",
+   "b": {
+    "id": "HIT_ANITTAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_LABARNA1",
+     "label": "👑 Labarna I<br/>c.1680 BC · early Hittite king; link back to Anitta's Kussara line is debated (may found a new dynasty) — descent uncertain · historical"
+    }
+   ]
+  },
+  {
+   "a": "HIT_LABARNA1",
+   "b": {
+    "id": "HIT_LABARNA1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_HATTUSILI1",
+     "label": "👑 Hattusili I<br/>c.1650 BC · 'man of Kussara'; successor of Labarna I (often reckoned his nephew); moved the capital to Hattusa &amp; founded the Hittite Old Kingdom · historical"
+    }
+   ]
+  }
+ ]
+}

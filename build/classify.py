@@ -40,6 +40,11 @@ DYNASTIES = [
     ("ANTIQUITY", "Rome & Antiquity"),
     ("SCRIPTURE", "Scripture & the Patriarchs"),
     ("SUMER", "The Kings of Sumer"),
+    ("EGYPT", "The Pharaohs of Egypt"),
+    ("CHINA", "The Emperors of Ancient China"),
+    ("INDIA", "The Puranic Dynasties"),
+    ("ELAM", "The Kings of Elam"),
+    ("ASSYRIA", "The Kings of Assyria"),
 ]
 
 # --- explicit id overrides (win over everything) ---
@@ -240,6 +245,11 @@ def seed(pid, label):
         return "SCRIPTURE"
     if pid.startswith("SUM_"):         # the Sumerian King List (a separate Mesopotamian island)
         return "SUMER"
+    if pid.startswith("EG_"): return "EGYPT"     # separate historical/legendary king-list islands,
+    if pid.startswith("CN_"): return "CHINA"     # each written by a subagent into its own 07z_*.json
+    if pid.startswith("IN_"): return "INDIA"
+    if pid.startswith("EL_"): return "ELAM"
+    if pid.startswith("AS_"): return "ASSYRIA"
     lab = (label or "").lower()
     # HRE regnal id families
     if pid.endswith("HRE") or pid in ("OTTOI","OTTOII","OTTOIII","OTTOIV","OTTOILLUS","HENRYFOWLER",

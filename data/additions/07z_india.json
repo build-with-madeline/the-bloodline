@@ -1,0 +1,262 @@
+{
+ "_note": "The Puranic Solar & Lunar dynasties of India — a SEPARATE Indian tradition, deliberately NOT connected to Adam's line. It is its own island root, like the Sumerian King List file. Sources: the Ramayana, Mahabharata, Vishnu Purana, Harivamsha and Bhagavata Purana genealogies (see Wikipedia 'Solar dynasty', 'Lunar dynasty', 'List of Ikshvaku dynasty kings'). Vaivasvata Manu is the flood-survivor of Hindu tradition — warned by the fish-avatar Matsya, he rode out the deluge in a boat, making him India's Noah and a direct parallel to Ziusudra and Noah in the other flood traditions. From Manu the line BRANCHES into two royal houses: the SOLAR dynasty (Suryavamsha) through his son Ikshvaku, culminating in Rama; and the LUNAR dynasty (Chandravamsha) through his daughter Ila (by her consort Budha), culminating in Puru, Bharata and Kuru. EVERYTHING here is legendary/mythological — the traditional chronology is elastic and non-historical, and the dates (c.2900–2000 BC) are approximate placeholders chosen only so the chain renders top-to-bottom; they are NOT historical claims. Fixed-generation gaps are compressed (only the famous kings are shown). All ids prefixed IN_ so they classify to the INDIA house.",
+ "families": [
+  {
+   "a": {
+    "id": "IN_HEADER",
+    "label": "The Puranic Dynasties of India<br/>the Solar &amp; Lunar royal lines from Manu (traditional/legendary chronology)<br/>· a separate tradition with no link to Adam's line"
+   },
+   "b": {
+    "id": "IN_HEADERW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "IN_MANU",
+     "label": "Vaivasvata Manu<br/>c.2900 BC · the flood-survivor warned by the fish-avatar Matsya — India's Noah; progenitor of both royal houses · legendary/mythological"
+    }
+   ]
+  },
+  {
+   "a": "IN_MANU",
+   "b": {
+    "id": "IN_SHRADDHA",
+    "label": "Shraddha<br/>consort of Manu · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_IKSHVAKU",
+     "label": "Ikshvaku<br/>c.2850 BC · Manu's son; founder of the Solar dynasty (Suryavamsha), granted Aryavarta · legendary"
+    },
+    {
+     "id": "IN_ILA",
+     "label": "Ila<br/>c.2850 BC · Manu's daughter; matriarch of the Lunar dynasty (Chandravamsha) · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_IKSHVAKU",
+   "b": {
+    "id": "IN_IKSHVAKUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "IN_VIKUKSHI",
+     "label": "Vikukshi<br/>c.2800 BC · son of Ikshvaku; also called Shashada · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_VIKUKSHI",
+   "b": {
+    "id": "IN_VIKUKSHIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "IN_MANDHATA",
+     "label": "Mandhata<br/>c.2700 BC · great conqueror &amp; chakravartin of the Solar line · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_MANDHATA",
+   "b": {
+    "id": "IN_BINDUMATI",
+    "label": "Bindumati<br/>consort of Mandhata · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_HARISHCHANDRA",
+     "label": "Harishchandra<br/>c.2600 BC · the truthful king who never told a lie · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_HARISHCHANDRA",
+   "b": {
+    "id": "IN_SHAIVYA",
+    "label": "Shaivya (Taramati)<br/>consort of Harishchandra · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_SAGARA",
+     "label": "Sagara<br/>c.2500 BC · king whose 60,000 sons were burned to ash by the sage Kapila · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_SAGARA",
+   "b": {
+    "id": "IN_KESHINI",
+    "label": "Keshini<br/>consort of Sagara · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_BHAGIRATHA",
+     "label": "Bhagiratha<br/>c.2400 BC · brought the river Ganga (Ganges) down from heaven to earth · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_BHAGIRATHA",
+   "b": {
+    "id": "IN_BHAGIRATHAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "IN_RAGHU",
+     "label": "Raghu<br/>c.2250 BC · so illustrious the line is called the Raghuvamsha (house of Raghu) · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_RAGHU",
+   "b": {
+    "id": "IN_RAGHUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "IN_AJA",
+     "label": "Aja<br/>c.2200 BC · son of Raghu; grandfather of Rama · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_AJA",
+   "b": {
+    "id": "IN_INDUMATI",
+    "label": "Indumati<br/>consort of Aja · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_DASHARATHA",
+     "label": "Dasharatha<br/>c.2150 BC · king of Ayodhya; father of Rama · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_DASHARATHA",
+   "b": {
+    "id": "IN_KAUSALYA",
+    "label": "Kausalya<br/>chief queen of Dasharatha; mother of Rama · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_RAMA",
+     "label": "Rama<br/>c.2100 BC · seventh avatar of Vishnu; hero of the Ramayana — the great descendant of the Solar dynasty · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_RAMA",
+   "b": {
+    "id": "IN_SITA",
+    "label": "Sita<br/>consort of Rama · legendary"
+   },
+   "children": []
+  },
+  {
+   "a": "IN_ILA",
+   "b": {
+    "id": "IN_BUDHA",
+    "label": "Budha<br/>consort of Ila; son of Chandra (the Moon), from whom the Lunar dynasty takes its name · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_PURURAVAS",
+     "label": "Pururavas<br/>c.2800 BC · first king of the Lunar dynasty (Chandravamsha) · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_PURURAVAS",
+   "b": {
+    "id": "IN_URVASHI",
+    "label": "Urvashi<br/>the apsara; consort of Pururavas · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_AYUS",
+     "label": "Ayus<br/>c.2750 BC · son of Pururavas · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_AYUS",
+   "b": {
+    "id": "IN_AYUSW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "IN_NAHUSHA",
+     "label": "Nahusha<br/>c.2700 BC · king who briefly usurped the throne of Indra · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_NAHUSHA",
+   "b": {
+    "id": "IN_VIRAJA",
+    "label": "Viraja<br/>consort of Nahusha · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_YAYATI",
+     "label": "Yayati<br/>c.2650 BC · emperor whose five sons founded the great clans · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_YAYATI",
+   "b": {
+    "id": "IN_SHARMISHTHA",
+    "label": "Sharmishtha<br/>consort of Yayati; mother of Puru · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_PURU",
+     "label": "Puru<br/>c.2600 BC · youngest son of Yayati; founder of the Paurava (Puru) line · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_PURU",
+   "b": {
+    "id": "IN_PURUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "IN_BHARATA",
+     "label": "Bharata<br/>c.2500 BC · emperor after whom India is named 'Bharata'; of the Puru line · legendary (generations compressed)"
+    }
+   ]
+  },
+  {
+   "a": "IN_BHARATA",
+   "b": {
+    "id": "IN_SUNANDA",
+    "label": "Sunanda<br/>consort of Bharata · legendary"
+   },
+   "children": [
+    {
+     "id": "IN_KURU",
+     "label": "Kuru<br/>c.2400 BC · founder of the Kuru clan; ancestor of the Pandavas &amp; Kauravas of the Mahabharata · legendary"
+    }
+   ]
+  },
+  {
+   "a": "IN_KURU",
+   "b": {
+    "id": "IN_KURUW",
+    "label": "—"
+   },
+   "children": []
+  }
+ ]
+}

@@ -47,7 +47,8 @@ ACCENT = {
     "FRANCE": "#f0e8d0", "IBERIA": "#e0d0c8", "NORMANDY": "#f0dcc0",
     "PLANTAGENET": "#fdf0d5", "TUDOR": "#e8d9f0", "SCOTLAND": "#dae3eb",
     "MEDICI": "#e6cba0", "BYZANTIUM": "#cdbce8", "ANTIQUITY": "#d8c4a0", "SCRIPTURE": "#cbb89a",
-    "SUMER": "#c98f5a",
+    "SUMER": "#c98f5a", "EGYPT": "#cba13a", "CHINA": "#7fae86", "INDIA": "#e0913a",
+    "ELAM": "#b08a6a", "ASSYRIA": "#8a95ad",
 }
 SLUG = {k: k.lower() for k, _ in DYNASTIES}
 TITLE = dict(DYNASTIES)

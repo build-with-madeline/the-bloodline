@@ -14,14 +14,14 @@
     {"a": "CAINENOCH", "b": {"id": "CAINENOCHW", "label": "—"}, "children": [{"id": "IRAD", "label": "Irad<br/>Genesis 4:18"}]},
     {"a": "IRAD", "b": {"id": "IRADW", "label": "—"}, "children": [{"id": "MEHUJAEL", "label": "Mehujael<br/>Genesis 4:18"}]},
     {"a": "MEHUJAEL", "b": {"id": "MEHUJAELW", "label": "—"}, "children": [{"id": "METHUSHAEL", "label": "Methushael<br/>Genesis 4:18"}]},
-    {"a": "METHUSHAEL", "b": {"id": "METHUSHAELW", "label": "—"}, "children": [{"id": "CAINLAMECH", "label": "Lamech<br/>c.3830 BC · of Cain's line; took two wives · Genesis 4:19<br/>(not Lamech father of Noah)"}]},
+    {"a": "METHUSHAEL", "b": {"id": "METHUSHAELW", "label": "—"}, "children": [{"id": "CAINLAMECH", "label": "Lamech<br/>c.3830 BC · of Cain's line; took two wives (Adah &amp; Zillah)<br/>spoke the 'Song of the Sword' — 'Lamech seventy-sevenfold' (Gen 4:23-24),<br/>the first poem in scripture · in legend, blind Lamech accidentally slew Cain (Jasher, midrash)<br/>(not Lamech father of Noah)"}]},
     {"a": "CAINLAMECH", "b": {"id": "LAMECHADAH", "label": "Adah<br/>wife of Lamech · Genesis 4:19"}, "children": [
       {"id": "JABAL", "label": "Jabal<br/>father of those who dwell in tents & keep herds · Genesis 4:20"},
       {"id": "JUBAL", "label": "Jubal<br/>father of all who play the harp &amp; flute · Genesis 4:21"}
     ]},
     {"a": "CAINLAMECH", "b": {"id": "ZILLAH", "label": "Zillah<br/>wife of Lamech · Genesis 4:19"}, "children": [
-      {"id": "TUBALCAIN", "label": "Tubal-cain<br/>forger of every tool of bronze &amp; iron · Genesis 4:22"},
-      {"id": "NAAMAHCAIN", "label": "Naamah<br/>daughter of Zillah · Genesis 4:22"}
+      {"id": "TUBALCAIN", "label": "Tubal-cain<br/>forger of every tool of bronze &amp; iron; father of metalworking · Genesis 4:22<br/>· in legend, guided blind Lamech's fatal arrow at Cain"},
+      {"id": "NAAMAHCAIN", "label": "Naamah<br/>daughter of Zillah; sister of Tubal-cain · Genesis 4:22<br/>· in rabbinic tradition (Gen. Rabbah 23:3) she is Noah's wife"}
     ]}
   ]
 }

@@ -1,0 +1,208 @@
+{
+ "_note": "EGYPT house, continued — the pharaonic succession from the late Middle Kingdom (12th Dynasty) through the New Kingdom to the Kushite 25th Dynasty, c.1971–690 BC. This picks up from the island's tail EG_AMENEMHAT1 (Amenemhat I, c.1991 BC) and continues the same convention as 07z_egypt.json: a king-list rendered as a SUCCESSION chain (a -> next pharaoh as the single 'child', each with a '—' consort node), NOT a strict father-son bloodline. Egyptian kingship crossed several dynasties broken by the Second Intermediate Period (Hyksos) and the Third Intermediate Period, so bridge nodes stand in for those gaps rather than inventing links. Where a genuine father-son or family succession exists it is noted in the label. All figures are HISTORICAL — attested by contemporary monuments and king-lists (Turin Canon, Abydos list, Manetho). Dates are conventional 'middle chronology' estimates (Wikipedia / Britannica / pharaoh.se); scholars disagree by decades, and New Kingdom accession years especially. Dates strictly DESCEND down the chain; where reigns overlapped (Hatshepsut / Thutmose III) the successor is dated to the start of his independent rule to preserve order. All ids prefixed EG_ so they classify to the EGYPT house.",
+ "families": [
+  {
+   "a": "EG_AMENEMHAT1",
+   "b": { "id": "EG_AMENEMHAT1W", "label": "—" },
+   "children": [
+    { "id": "EG_SENUSRET1", "label": "👑 Senusret I<br/>c.1971 BC · 12th Dynasty; son of Amenemhat I, co-regent then king; consolidated the Middle Kingdom and campaigned deep into Nubia · historical" }
+   ]
+  },
+  {
+   "a": "EG_SENUSRET1",
+   "b": { "id": "EG_SENUSRET1W", "label": "—" },
+   "children": [
+    { "id": "EG_SENUSRET3", "label": "👑 Senusret III<br/>c.1878 BC · 12th Dynasty; warrior-king who broke the power of the provincial nobles and pushed the Nubian frontier to Semna; a reign date fixed by the Sothic cycle · historical" }
+   ]
+  },
+  {
+   "a": "EG_SENUSRET3",
+   "b": { "id": "EG_SENUSRET3W", "label": "—" },
+   "children": [
+    { "id": "EG_AMENEMHAT3", "label": "👑 Amenemhat III<br/>c.1860 BC · 12th Dynasty; son of Senusret III; peak of Middle Kingdom prosperity; vast Faiyum land-reclamation and the 'Labyrinth' pyramid-temple at Hawara · historical" }
+   ]
+  },
+  {
+   "a": "EG_AMENEMHAT3",
+   "b": { "id": "EG_AMENEMHAT3W", "label": "—" },
+   "children": [
+    { "id": "EG_SECONDINTERMEDIATE", "label": "Second Intermediate Period<br/>c.1700 BC · the 13th Dynasty weakens and central rule fragments; the Hyksos (Dyn 15), Asiatic rulers from the Levant, seize the Delta and rule from Avaris — a break in the succession, not a single king · historical (Hyksos period)" }
+   ]
+  },
+  {
+   "a": "EG_SECONDINTERMEDIATE",
+   "b": { "id": "EG_SECONDINTERMEDIATEW", "label": "—" },
+   "children": [
+    { "id": "EG_AHMOSE1", "label": "👑 Ahmose I<br/>c.1550 BC · founder of the 18th Dynasty; expelled the Hyksos from Egypt, reunified the land and opened the New Kingdom · historical" }
+   ]
+  },
+  {
+   "a": "EG_AHMOSE1",
+   "b": { "id": "EG_AHMOSE1W", "label": "—" },
+   "children": [
+    { "id": "EG_AMENHOTEP1", "label": "👑 Amenhotep I<br/>c.1525 BC · 18th Dynasty; son of Ahmose I; consolidated the reunified kingdom and reorganized its administration; later worshipped as a patron of the Deir el-Medina workmen · historical" }
+   ]
+  },
+  {
+   "a": "EG_AMENHOTEP1",
+   "b": { "id": "EG_AMENHOTEP1W", "label": "—" },
+   "children": [
+    { "id": "EG_THUTMOSE1", "label": "👑 Thutmose I<br/>c.1504 BC · 18th Dynasty; general linked to the royal house by marriage; campaigned to the Euphrates and the fourth cataract — the empire's greatest extent; first king buried in the Valley of the Kings · historical" }
+   ]
+  },
+  {
+   "a": "EG_THUTMOSE1",
+   "b": { "id": "EG_THUTMOSE1W", "label": "—" },
+   "children": [
+    { "id": "EG_THUTMOSE2", "label": "👑 Thutmose II<br/>c.1492 BC · 18th Dynasty; son of Thutmose I; married his half-sister Hatshepsut; short reign · historical" }
+   ]
+  },
+  {
+   "a": "EG_THUTMOSE2",
+   "b": { "id": "EG_THUTMOSE2W", "label": "—" },
+   "children": [
+    { "id": "EG_HATSHEPSUT", "label": "👑 Hatshepsut<br/>c.1479 BC · 18th Dynasty; daughter of Thutmose I and widow of Thutmose II; a female pharaoh who ruled ~two decades, mounted the trade expedition to Punt and built the Deir el-Bahari temple · historical" }
+   ]
+  },
+  {
+   "a": "EG_HATSHEPSUT",
+   "b": { "id": "EG_HATSHEPSUTW", "label": "—" },
+   "children": [
+    { "id": "EG_THUTMOSE3", "label": "👑 Thutmose III<br/>c.1458 BC · 18th Dynasty; stepson of Hatshepsut, sole ruler from her death; Egypt's greatest military pharaoh, ~17 campaigns including the Battle of Megiddo (dates from start of independent reign) · historical" }
+   ]
+  },
+  {
+   "a": "EG_THUTMOSE3",
+   "b": { "id": "EG_THUTMOSE3W", "label": "—" },
+   "children": [
+    { "id": "EG_AMENHOTEP2", "label": "👑 Amenhotep II<br/>c.1427 BC · 18th Dynasty; son of Thutmose III; renowned for his physical prowess; maintained the empire in Syria and Nubia · historical" }
+   ]
+  },
+  {
+   "a": "EG_AMENHOTEP2",
+   "b": { "id": "EG_AMENHOTEP2W", "label": "—" },
+   "children": [
+    { "id": "EG_THUTMOSE4", "label": "👑 Thutmose IV<br/>c.1400 BC · 18th Dynasty; son of Amenhotep II; the 'Dream Stele' between the Sphinx's paws records his promised kingship; excavated and restored the Great Sphinx · historical" }
+   ]
+  },
+  {
+   "a": "EG_THUTMOSE4",
+   "b": { "id": "EG_THUTMOSE4W", "label": "—" },
+   "children": [
+    { "id": "EG_AMENHOTEP3", "label": "👑 Amenhotep III<br/>c.1390 BC · 18th Dynasty; son of Thutmose IV; a long, opulent, largely peaceful reign — a high point of Egyptian art and monumental building (Colossi of Memnon, Malkata palace) · historical" }
+   ]
+  },
+  {
+   "a": "EG_AMENHOTEP3",
+   "b": { "id": "EG_AMENHOTEP3W", "label": "—" },
+   "children": [
+    { "id": "EG_AKHENATEN", "label": "👑 Akhenaten<br/>c.1353 BC · 18th Dynasty; son of Amenhotep III; abolished the old gods for the sole worship of the Aten, moved the capital to Amarna and revolutionized art — history's first documented monotheist · historical" }
+   ]
+  },
+  {
+   "a": "EG_AKHENATEN",
+   "b": { "id": "EG_AKHENATENW", "label": "—" },
+   "children": [
+    { "id": "EG_TUTANKHAMUN", "label": "👑 Tutankhamun<br/>c.1332 BC · 18th Dynasty; boy-king likely son of Akhenaten; restored the traditional gods and the capital to Thebes; famous for his near-intact tomb, found by Carter in 1922 · historical" }
+   ]
+  },
+  {
+   "a": "EG_TUTANKHAMUN",
+   "b": { "id": "EG_TUTANKHAMUNW", "label": "—" },
+   "children": [
+    { "id": "EG_AY", "label": "👑 Ay<br/>c.1323 BC · 18th Dynasty; elderly courtier who succeeded Tutankhamun, possibly presiding over the boy-king's burial; brief reign · historical" }
+   ]
+  },
+  {
+   "a": "EG_AY",
+   "b": { "id": "EG_AYW", "label": "—" },
+   "children": [
+    { "id": "EG_HOREMHEB", "label": "👑 Horemheb<br/>c.1319 BC · last pharaoh of the 18th Dynasty; a general who took the throne, erased the Amarna kings from record and reformed the administration; named his vizier Ramesses as heir · historical" }
+   ]
+  },
+  {
+   "a": "EG_HOREMHEB",
+   "b": { "id": "EG_HOREMHEBW", "label": "—" },
+   "children": [
+    { "id": "EG_RAMESSES1", "label": "👑 Ramesses I<br/>c.1292 BC · founder of the 19th Dynasty; vizier and chosen successor of Horemheb; brief reign that launched the Ramessid line · historical" }
+   ]
+  },
+  {
+   "a": "EG_RAMESSES1",
+   "b": { "id": "EG_RAMESSES1W", "label": "—" },
+   "children": [
+    { "id": "EG_SETI1", "label": "👑 Seti I<br/>c.1290 BC · 19th Dynasty; son of Ramesses I; restored Egyptian power in Syria-Canaan and built the exquisite Abydos temple and a magnificent Valley of the Kings tomb · historical" }
+   ]
+  },
+  {
+   "a": "EG_SETI1",
+   "b": { "id": "EG_SETI1W", "label": "—" },
+   "children": [
+    { "id": "EG_RAMESSES2", "label": "👑 Ramesses II 'the Great'<br/>c.1279 BC · 19th Dynasty; son of Seti I; ~66-year reign, the Battle of Kadesh and first surviving peace treaty, Abu Simbel and the Ramesseum; traditionally cast as the pharaoh of the Exodus era · historical" }
+   ]
+  },
+  {
+   "a": "EG_RAMESSES2",
+   "b": { "id": "EG_RAMESSES2W", "label": "—" },
+   "children": [
+    { "id": "EG_MERNEPTAH", "label": "👑 Merneptah<br/>c.1213 BC · 19th Dynasty; thirteenth son of Ramesses II; repelled a Libyan and Sea Peoples invasion; his victory stele bears the earliest known mention of 'Israel' · historical" }
+   ]
+  },
+  {
+   "a": "EG_MERNEPTAH",
+   "b": { "id": "EG_MERNEPTAHW", "label": "—" },
+   "children": [
+    { "id": "EG_SETI2", "label": "👑 Seti II<br/>c.1203 BC · 19th Dynasty; son of Merneptah; reign contested by the usurper Amenmesse; the dynasty faltered into instability after him · historical" }
+   ]
+  },
+  {
+   "a": "EG_SETI2",
+   "b": { "id": "EG_SETI2W", "label": "—" },
+   "children": [
+    { "id": "EG_SETNAKHTE", "label": "👑 Setnakhte<br/>c.1189 BC · founder of the 20th Dynasty; restored order after the chaotic end of the 19th; short reign · historical" }
+   ]
+  },
+  {
+   "a": "EG_SETNAKHTE",
+   "b": { "id": "EG_SETNAKHTEW", "label": "—" },
+   "children": [
+    { "id": "EG_RAMESSES3", "label": "👑 Ramesses III<br/>c.1186 BC · 20th Dynasty; son of Setnakhte; the last great pharaoh, who defeated the Sea Peoples; his reign saw the first recorded labor strike and ended in a harem assassination plot · historical" }
+   ]
+  },
+  {
+   "a": "EG_RAMESSES3",
+   "b": { "id": "EG_RAMESSES3W", "label": "—" },
+   "children": [
+    { "id": "EG_RAMESSES4TO11", "label": "Ramesses IV–XI<br/>c.1155 BC · 20th Dynasty; eight later Ramessids of declining power amid economic strain and tomb robberies; royal authority slips to the Theban high priests of Amun — a run of kings compressed here · historical" }
+   ]
+  },
+  {
+   "a": "EG_RAMESSES4TO11",
+   "b": { "id": "EG_RAMESSES4TO11W", "label": "—" },
+   "children": [
+    { "id": "EG_THIRDINTERMEDIATE", "label": "Third Intermediate Period<br/>c.1069 BC · after the New Kingdom, Egypt divides between Tanite kings (Dyn 21) and Theban priests, then Libyan dynasties (Dyn 22–24) — centuries of fragmentation standing in for many rulers · historical" }
+   ]
+  },
+  {
+   "a": "EG_THIRDINTERMEDIATE",
+   "b": { "id": "EG_THIRDINTERMEDIATEW", "label": "—" },
+   "children": [
+    { "id": "EG_PIYE", "label": "👑 Piye<br/>c.747 BC · founder of the Kushite 25th Dynasty; king of Kush (Nubia) who conquered a divided Egypt from the south and recorded it on the Victory Stele; ruled from Napata · historical" }
+   ]
+  },
+  {
+   "a": "EG_PIYE",
+   "b": { "id": "EG_PIYEW", "label": "—" },
+   "children": [
+    { "id": "EG_SHABAKA", "label": "👑 Shabaka<br/>c.716 BC · 25th (Kushite / Nubian) Dynasty; brother of Piye; firmly united Egypt and Kush under one throne and revived Old Kingdom artistic and religious traditions · historical (dates debated)" }
+   ]
+  },
+  {
+   "a": "EG_SHABAKA",
+   "b": { "id": "EG_SHABAKAW", "label": "—" },
+   "children": [
+    { "id": "EG_TAHARQA", "label": "👑 Taharqa<br/>c.690 BC · 25th (Kushite / Nubian) Dynasty; the dynasty's zenith — vast building at Karnak and across Nubia; later clashed with the Assyrians who drove the Kushites from Egypt · historical" }
+   ]
+  }
+ ]
+}

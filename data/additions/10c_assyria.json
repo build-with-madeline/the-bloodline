@@ -1,0 +1,291 @@
+{
+ "_note": "ASSYRIA king-list island, extending the existing Assyrian succession chain (ids prefixed AS_) from Erishum I (c.1950 BC, pre-existing tail AS_ERISHUM) through the Old Assyrian period and the Shamshi-Adad I interlude, the Middle Assyrian empire (Ashur-uballit I onward), its decline, and the Neo-Assyrian empire down to the Fall of Nineveh in 612 BC to the Medes &amp; Babylonians. Rendered as a SUCCESSION chain: each king is the single 'child' of the prior, with a '—' placeholder spouse, ordered by strictly decreasing date (earliest BC at top). This is dynastic succession, NOT a continuous bloodline — several transitions were usurpations. Where adjacent kings are genuinely father-son (Shalmaneser I, Tukulti-Ninurta I, Adad-nirari II, Shalmaneser III, and the Sargonid line Sennacherib→Esarhaddon→Ashurbanipal), the label notes 'son of'. Bridge nodes (AS_OLDBRIDGE, AS_MIDDECLINE1, AS_MIDDECLINE2) compress long gaps of minor/less-attested reigns and carry no crown. All historical; dates are standard scholarly regnal approximations (middle chronology). Sources: Wikipedia 'List of Assyrian kings' and individual king articles; Assyrian King List.",
+ "families": [
+  {
+   "a": "AS_ERISHUM",
+   "b": {
+    "id": "AS_OLDBRIDGEW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_OLDBRIDGE",
+     "label": "Old Assyrian period &amp; Shamshi-Adad I interlude<br/>c.1900–1400 BC · the later city-rulers of Ashur, then the Amorite conqueror Shamshi-Adad I (c.1808 BC) who briefly forged a north-Mesopotamian kingdom, followed by Assyria's eclipse under Mitanni · historical (bridge)"
+    }
+   ]
+  },
+  {
+   "a": "AS_OLDBRIDGE",
+   "b": {
+    "id": "AS_ASHURUBALLIT1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ASHURUBALLIT1",
+     "label": "👑 Ashur-uballit I<br/>c.1363 BC · threw off Mitanni overlordship and founded the Middle Assyrian empire; corresponded with Egypt in the Amarna letters · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ASHURUBALLIT1",
+   "b": {
+    "id": "AS_ADADNIRARI1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ADADNIRARI1",
+     "label": "👑 Adad-nirari I<br/>c.1305 BC · expanded Assyria westward, conquering the Mitanni heartland of Hanigalbat · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ADADNIRARI1",
+   "b": {
+    "id": "AS_SHALMANESER1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_SHALMANESER1",
+     "label": "👑 Shalmaneser I<br/>c.1273 BC · son of Adad-nirari I; crushed the last of Mitanni and campaigned into the Nairi lands · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_SHALMANESER1",
+   "b": {
+    "id": "AS_TUKULTININURTA1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_TUKULTININURTA1",
+     "label": "👑 Tukulti-Ninurta I<br/>c.1243 BC · son of Shalmaneser I; sacked Babylon and carried off its king, empire at its Middle Assyrian height · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_TUKULTININURTA1",
+   "b": {
+    "id": "AS_MIDDECLINE1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_MIDDECLINE1",
+     "label": "Post-Tukulti-Ninurta lull<br/>c.1200 BC · after Tukulti-Ninurta I's assassination Assyria contracted under a run of weaker kings before recovering · historical (bridge)"
+    }
+   ]
+  },
+  {
+   "a": "AS_MIDDECLINE1",
+   "b": {
+    "id": "AS_TIGLATHPILESER1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_TIGLATHPILESER1",
+     "label": "👑 Tiglath-Pileser I<br/>c.1114 BC · restored Assyrian power, campaigning to the Mediterranean and the upper Euphrates · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_TIGLATHPILESER1",
+   "b": {
+    "id": "AS_MIDDECLINE2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_MIDDECLINE2",
+     "label": "Middle Assyrian decline<br/>c.1050–950 BC · Aramean migrations pressed in and Assyria shrank to its heartland through a long dark age before the Neo-Assyrian revival · historical (bridge)"
+    }
+   ]
+  },
+  {
+   "a": "AS_MIDDECLINE2",
+   "b": {
+    "id": "AS_ASHURDAN2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ASHURDAN2",
+     "label": "👑 Ashur-dan II<br/>c.934 BC · began the Neo-Assyrian recovery, reconsolidating the homeland and its economy · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ASHURDAN2",
+   "b": {
+    "id": "AS_ADADNIRARI2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ADADNIRARI2",
+     "label": "👑 Adad-nirari II<br/>c.911 BC · son of Ashur-dan II; often counted the first true Neo-Assyrian king, securing the borders for expansion · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ADADNIRARI2",
+   "b": {
+    "id": "AS_ASHURNASIRPAL2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ASHURNASIRPAL2",
+     "label": "👑 Ashurnasirpal II<br/>c.883 BC · ruthless empire-builder; moved the capital to Kalhu (Nimrud) with a legendary inaugural feast · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ASHURNASIRPAL2",
+   "b": {
+    "id": "AS_SHALMANESER3W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_SHALMANESER3",
+     "label": "👑 Shalmaneser III<br/>c.859 BC · son of Ashurnasirpal II; fought Ahab of Israel's coalition at Qarqar (853 BC) and later took tribute from Jehu of Israel, shown on the Black Obelisk · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_SHALMANESER3",
+   "b": {
+    "id": "AS_ADADNIRARI3W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ADADNIRARI3",
+     "label": "👑 Adad-nirari III<br/>c.811 BC · campaigned against Damascus and the Levant; reigned early under his mother, the regent Sammu-ramat (the later legend of Semiramis) · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ADADNIRARI3",
+   "b": {
+    "id": "AS_TIGLATHPILESER3W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_TIGLATHPILESER3",
+     "label": "👑 Tiglath-Pileser III<br/>c.745 BC · the great conqueror who rebuilt the army and empire, annexing much of the Levant and taking the throne of Babylon; the Bible's Pul · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_TIGLATHPILESER3",
+   "b": {
+    "id": "AS_SHALMANESER5W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_SHALMANESER5",
+     "label": "👑 Shalmaneser V<br/>c.727 BC · besieged Samaria, capital of the northern kingdom of Israel; died before its fall · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_SHALMANESER5",
+   "b": {
+    "id": "AS_SARGON2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_SARGON2",
+     "label": "👑 Sargon II<br/>c.722 BC · seized the throne and completed the fall of Samaria, deporting the northern tribes of Israel into exile; founded the new capital Dur-Sharrukin · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_SARGON2",
+   "b": {
+    "id": "AS_SENNACHERIBW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_SENNACHERIB",
+     "label": "👑 Sennacherib<br/>c.705 BC · son of Sargon II; besieged Jerusalem under King Hezekiah (701 BC) but did not take it; destroyed Babylon and rebuilt Nineveh as his capital · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_SENNACHERIB",
+   "b": {
+    "id": "AS_ESARHADDONW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ESARHADDON",
+     "label": "👑 Esarhaddon<br/>c.681 BC · son of Sennacherib; rebuilt Babylon and conquered Egypt, bringing Assyria to its greatest extent · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ESARHADDON",
+   "b": {
+    "id": "AS_ASHURBANIPALW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ASHURBANIPAL",
+     "label": "👑 Ashurbanipal<br/>c.668 BC · son of Esarhaddon; last great king, whose library at Nineveh preserved thousands of cuneiform tablets including the Epic of Gilgamesh · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ASHURBANIPAL",
+   "b": {
+    "id": "AS_ASHURETILILANIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ASHURETILILANI",
+     "label": "👑 Ashur-etil-ilani<br/>c.631 BC · son of Ashurbanipal; reigned as the empire began to fracture amid internal strife · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_ASHURETILILANI",
+   "b": {
+    "id": "AS_SINSHARISHKUNW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_SINSHARISHKUN",
+     "label": "👑 Sinsharishkun<br/>c.627 BC · faced the rising Medes &amp; Babylonians; died in the sack of Nineveh · historical"
+    }
+   ]
+  },
+  {
+   "a": "AS_SINSHARISHKUN",
+   "b": {
+    "id": "AS_ASHURUBALLIT2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ASHURUBALLIT2",
+     "label": "👑 Ashur-uballit II<br/>c.612 BC · last king of Assyria; after Nineveh fell to the Medes &amp; Babylonians (Fall of Nineveh, 612 BC) he held out at Harran until c.609 BC, when the empire ended · historical"
+    }
+   ]
+  }
+ ]
+}

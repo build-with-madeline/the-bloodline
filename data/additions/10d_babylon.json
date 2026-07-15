@@ -1,0 +1,190 @@
+{
+ "_note": "THE KINGS OF BABYLON — a SEPARATE Mesopotamian succession island (ids prefixed BAB_), deliberately NOT linked by bloodline to Adam's line or to the other king-list islands. Dynasties here were repeatedly broken by conquest, so this is a SUCCESSION chain (a king-list), not one continuous bloodline; only the runs noted below are true father-son descent. It spans from the Old Babylonian First (Amorite) Dynasty of Hammurabi, through long foreign/broken interludes rendered as single bridge nodes (Kassite Dynasty, Second Dynasty of Isin, and the chaotic 8th-7th c.), down to the Neo-Babylonian (Chaldean) empire and its fall to Cyrus the Great in 539 BC. Chain is ordered by strictly descending date (earliest BC at top). REAL father-son descent: Sumu-abum is Sumu-la-El's predecessor but Sin-muballit was Hammurabi's actual father; Hammurabi→Samsu-iluna, Nabopolassar→Nebuchadnezzar II→Amel-Marduk, and Nabonidus→Belshazzar are genuine father-son links; the other steps are dynastic succession, including usurpations. Old Babylonian dates follow the Middle Chronology and are scholarly approximations. Ties tie to Nabonidus: he acceded in 556 BC, the same year as Labashi-Marduk's fall, and is shown here as c.555 only to keep the chain strictly decreasing (his standard reign is 556-539 BC). Sources: Wikipedia 'Sumu-abum', 'Sin-muballit', 'Hammurabi', 'Samsu-iluna', 'Old Babylonian Empire', 'Mursili I', 'Kassite dynasty', 'Second Dynasty of Isin', 'Nebuchadnezzar I', 'Neo-Babylonian Empire', 'Chaldean dynasty', 'Nabopolassar', 'Nebuchadnezzar II', 'Amel-Marduk', 'Neriglissar', 'Labashi-Marduk', 'Nabonidus', 'Belshazzar'; World History Encyclopedia 'Hammurabi', 'Babylon'.",
+ "families": [
+  {
+   "a": {
+    "id": "BAB_SUMUABUM",
+    "label": "👑 Sumu-abum<br/>c.1894 BC · founder of the First (Amorite) Dynasty of Babylon · historical"
+   },
+   "b": {
+    "id": "BAB_SUMUABUMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_SINMUBALLIT",
+     "label": "👑 Sin-muballit<br/>c.1812 BC · fifth king of the dynasty; father of Hammurabi · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_SINMUBALLIT",
+   "b": {
+    "id": "BAB_SINMUBALLITW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_HAMMURABI",
+     "label": "👑 Hammurabi<br/>c.1792 BC · the great lawgiver; unified Mesopotamia and issued the Code of Hammurabi · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_HAMMURABI",
+   "b": {
+    "id": "BAB_HAMMURABIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_SAMSUILUNA",
+     "label": "👑 Samsu-iluna<br/>c.1749 BC · son of Hammurabi; reign marked by revolts and the loss of the south · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_SAMSUILUNA",
+   "b": {
+    "id": "BAB_SAMSUILUNAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_HITTITESACK",
+     "label": "Hittite Sack of Babylon<br/>c.1595 BC · Mursili I of the Hittites sacked Babylon, ending the First Dynasty &amp; the Old Babylonian period · historical event"
+    }
+   ]
+  },
+  {
+   "a": "BAB_HITTITESACK",
+   "b": {
+    "id": "BAB_HITTITESACKW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KASSITE",
+     "label": "Kassite Dynasty<br/>c.1570 BC · long foreign rule of Babylon by a Kassite dynasty (consolidated after the Hittites withdrew, to c.1155 BC); its longest &amp; most stable era · historical (bridge)"
+    }
+   ]
+  },
+  {
+   "a": "BAB_KASSITE",
+   "b": {
+    "id": "BAB_KASSITEW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_ISIN2",
+     "label": "Second Dynasty of Isin<br/>c.1155-1025 BC · native revival; its greatest king Nebuchadnezzar I (c.1125 BC) crushed Elam &amp; recovered Marduk's statue · historical (bridge)"
+    }
+   ]
+  },
+  {
+   "a": "BAB_ISIN2",
+   "b": {
+    "id": "BAB_ISIN2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_CHAOS",
+     "label": "Chaotic period<br/>c.1025-627 BC · centuries of weakness, Aramean &amp; Chaldean pressure, and Assyrian domination of Babylon · historical (bridge)"
+    }
+   ]
+  },
+  {
+   "a": "BAB_CHAOS",
+   "b": {
+    "id": "BAB_CHAOSW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_NABOPOLASSAR",
+     "label": "👑 Nabopolassar<br/>c.626 BC · founder of the Neo-Babylonian (Chaldean) empire; threw off Assyria &amp; destroyed Nineveh with the Medes (612 BC) · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_NABOPOLASSAR",
+   "b": {
+    "id": "BAB_NABOPOLASSARW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_NEBUCHADNEZZAR2",
+     "label": "👑 Nebuchadnezzar II<br/>c.605 BC · son of Nabopolassar; destroyed Jerusalem &amp; the Temple (587 BC) and carried Judah into the Babylonian Exile · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_NEBUCHADNEZZAR2",
+   "b": {
+    "id": "BAB_NEBUCHADNEZZAR2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_AMELMARDUK",
+     "label": "👑 Amel-Marduk<br/>c.562 BC · son of Nebuchadnezzar II; the 'Evil-Merodach' who freed King Jehoiachin of Judah from prison · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_AMELMARDUK",
+   "b": {
+    "id": "BAB_AMELMARDUKW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_NERIGLISSAR",
+     "label": "👑 Neriglissar<br/>c.560 BC · general who murdered &amp; usurped Amel-Marduk; dynastic break · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_NERIGLISSAR",
+   "b": {
+    "id": "BAB_NERIGLISSARW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_LABASHIMARDUK",
+     "label": "👑 Labashi-Marduk<br/>c.556 BC · boy-king son of Neriglissar; reigned only a few months before being overthrown · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_LABASHIMARDUK",
+   "b": {
+    "id": "BAB_LABASHIMARDUKW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_NABONIDUS",
+     "label": "👑 Nabonidus<br/>c.555 BC · last king of Babylon (reign 556-539 BC); usurper who withdrew to Tayma leaving his son as regent · historical"
+    }
+   ]
+  },
+  {
+   "a": "BAB_NABONIDUS",
+   "b": {
+    "id": "BAB_NABONIDUSW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_BELSHAZZAR",
+     "label": "👑 Belshazzar<br/>c.553 BC · son &amp; co-regent of Nabonidus; the king of Daniel 5's 'writing on the wall'; Babylon fell to Cyrus the Great in 539 BC · historical"
+    }
+   ]
+  }
+ ]
+}

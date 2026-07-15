@@ -1,0 +1,80 @@
+{
+  "_note": "The Israelite monarchy (~1050-586 BC), three threads linked to the Davidic spine by real marriages. (1) SAUL'S HOUSE: Kish->Saul (first king), children by Ahinoam; connected to the tree by the real marriage DAVID + MICHAL (Saul's daughter, David's first wife), who was childless (2 Samuel 6:23) so that union has no issue. Saul's tribe of Benjamin is noted on his card rather than drawing the long 1 Chron 8-9 bridge. (2) THE OMRIDE DYNASTY of northern Israel (Omri->Ahab + Jezebel of Tyre; children Ahaziah of Israel, Joram of Israel, and Athaliah), linked into Judah by the real marriage ATHALIAH + JORAM (existing Joram of Judah); Athaliah later seized Judah's throne as sole reigning queen. Scripture is ambiguous on her parentage: 2 Kings 8:18 calls her daughter of Ahab, 8:26 daughter of Omri (i.e. granddaughter) - FLAGGED on her card; she is placed as Ahab's child here. (3) THE NORTHERN KING-LIST (~931-722 BC) as a succession chain rendered king+placeholder->successor (mirroring the Judah chain in 07_biblical), covering the dynasties Matthew's spine omits; usurpations noted on cards. (4) Last kings of JUDAH omitted by Matthew 1, appended as children of Josiah beside the existing Jeconiah line. NOTE: the existing tree simplifies Jehoiachin/Jeconiah as Josiah's son; historically he was Jehoiakim's son (Josiah's grandson). Dates follow the Thiele chronology (reign-start years) and are approximate; they decrease down each descent. Sorts after 07_biblical so DAVID, JORAM, JOSIAH, JOSIAHW exist first.",
+  "families": [
+    {"a": {"id": "KISH", "label": "Kish<br/>c.1075 BC · father of Saul, of the tribe of Benjamin · 1 Samuel 9:1<br/>(date approximate)"}, "b": {"id": "KISHW", "label": "—"}, "children": [
+      {"id": "SAUL", "label": "👑 Saul<br/>c.1050 BC · first king of Israel; of the tribe of Benjamin; reigned ~1050-1010 BC · 1 Samuel 9-31"}
+    ]},
+    {"a": "SAUL", "b": {"id": "AHINOAM", "label": "Ahinoam<br/>daughter of Ahimaaz; Saul's wife · 1 Samuel 14:50"}, "children": [
+      {"id": "JONATHAN", "label": "Jonathan<br/>c.1040 BC · Saul's heir &amp; David's friend; fell at Gilboa · 1 Samuel 14, 31"},
+      {"id": "MERAB", "label": "Merab<br/>c.1036 BC · Saul's firstborn daughter · 1 Samuel 14:49"},
+      {"id": "ISHBOSHETH", "label": "👑 Ish-bosheth (Eshbaal)<br/>c.1032 BC · son of Saul; reigned over Israel ~2 yrs after Saul's death · 2 Samuel 2-4"},
+      {"id": "MICHAL", "label": "Michal<br/>c.1030 BC · Saul's younger daughter; David's first wife · 1 Samuel 18:20-27"}
+    ]},
+    {"a": "DAVID", "b": "MICHAL", "children": []},
+
+    {"a": {"id": "JEROBOAMI", "label": "👑 Jeroboam I<br/>c.931 BC · first king of the divided northern kingdom of Israel; not of David's line · 1 Kings 12"}, "b": {"id": "JEROBOAMIW", "label": "—"}, "children": [
+      {"id": "NADAB", "label": "👑 Nadab<br/>c.910 BC · son of Jeroboam I; king of Israel · 1 Kings 15"}
+    ]},
+    {"a": "NADAB", "b": {"id": "NADABW", "label": "—"}, "children": [
+      {"id": "BAASHA", "label": "👑 Baasha<br/>c.909 BC · king of Israel; usurper who killed Nadab &amp; destroyed the house of Jeroboam · 1 Kings 15"}
+    ]},
+    {"a": "BAASHA", "b": {"id": "BAASHAW", "label": "—"}, "children": [
+      {"id": "ELAH", "label": "👑 Elah<br/>c.886 BC · son of Baasha; king of Israel · 1 Kings 16"}
+    ]},
+    {"a": "ELAH", "b": {"id": "ELAHW", "label": "—"}, "children": [
+      {"id": "ZIMRI", "label": "👑 Zimri<br/>c.885 BC · chariot commander; usurper who killed Elah and reigned 7 days · 1 Kings 16"}
+    ]},
+    {"a": "ZIMRI", "b": {"id": "ZIMRIW", "label": "—"}, "children": [
+      {"id": "TIBNI", "label": "👑 Tibni<br/>c.884 BC · rival claimant to Israel's throne; lost the civil war to Omri · 1 Kings 16:21-22"},
+      {"id": "OMRI", "label": "👑 Omri<br/>c.884 BC · army commander; seized the throne, founded Samaria &amp; the Omride dynasty; reigned ~884-873 BC · 1 Kings 16"}
+    ]},
+
+    {"a": "OMRI", "b": {"id": "OMRIW", "label": "—"}, "children": [
+      {"id": "AHAB", "label": "👑 Ahab<br/>c.874 BC · son of Omri; king of Israel; married Jezebel of Tyre · 1 Kings 16-22"}
+    ]},
+    {"a": "AHAB", "b": {"id": "JEZEBEL", "label": "Jezebel<br/>daughter of Ethbaal, king of Tyre &amp; Sidon; queen of Israel · 1 Kings 16:31"}, "children": [
+      {"id": "AHAZIAHISRAEL", "label": "👑 Ahaziah of Israel<br/>c.853 BC · son of Ahab; died childless, throne passed to his brother Joram · 1 Kings 22, 2 Kings 1"},
+      {"id": "JORAMISRAEL", "label": "👑 Joram (Jehoram) of Israel<br/>c.852 BC · son of Ahab; last Omride king, slain by Jehu · 2 Kings 3, 9"},
+      {"id": "ATHALIAH", "label": "👑 Athaliah<br/>c.841 BC · of the house of Ahab; married Joram of Judah; seized Judah's throne as sole reigning queen ~841-835 BC · 2 Kings 8, 11<br/>(2 Kings 8:18 calls her daughter of Ahab; 8:26 daughter of Omri)"}
+    ]},
+
+    {"a": "JORAMISRAEL", "b": {"id": "JORAMISRAELW", "label": "—"}, "children": [
+      {"id": "JEHU", "label": "👑 Jehu<br/>c.841 BC · usurper anointed to end the house of Omri; slew Joram &amp; Jezebel; founded the house of Jehu · 2 Kings 9-10"}
+    ]},
+    {"a": "JEHU", "b": {"id": "JEHUW", "label": "—"}, "children": [
+      {"id": "JEHOAHAZI", "label": "👑 Jehoahaz of Israel<br/>c.814 BC · son of Jehu; king of Israel · 2 Kings 13"}
+    ]},
+    {"a": "JEHOAHAZI", "b": {"id": "JEHOAHAZIW", "label": "—"}, "children": [
+      {"id": "JEHOASHI", "label": "👑 Jehoash (Joash) of Israel<br/>c.798 BC · son of Jehoahaz; king of Israel · 2 Kings 13-14"}
+    ]},
+    {"a": "JEHOASHI", "b": {"id": "JEHOASHIW", "label": "—"}, "children": [
+      {"id": "JEROBOAMII", "label": "👑 Jeroboam II<br/>c.782 BC · son of Jehoash; longest-reigning northern king, expanded Israel · 2 Kings 14"}
+    ]},
+    {"a": "JEROBOAMII", "b": {"id": "JEROBOAMIIW", "label": "—"}, "children": [
+      {"id": "ZECHARIAHI", "label": "👑 Zechariah of Israel<br/>c.753 BC · son of Jeroboam II; reigned 6 months, last of the house of Jehu · 2 Kings 15"}
+    ]},
+    {"a": "ZECHARIAHI", "b": {"id": "ZECHARIAHIW", "label": "—"}, "children": [
+      {"id": "SHALLUMI", "label": "👑 Shallum<br/>c.752 BC · usurper who killed Zechariah and reigned 1 month · 2 Kings 15"}
+    ]},
+    {"a": "SHALLUMI", "b": {"id": "SHALLUMIW", "label": "—"}, "children": [
+      {"id": "MENAHEM", "label": "👑 Menahem<br/>c.751 BC · usurper who killed Shallum; paid tribute to Assyria · 2 Kings 15"}
+    ]},
+    {"a": "MENAHEM", "b": {"id": "MENAHEMW", "label": "—"}, "children": [
+      {"id": "PEKAHIAH", "label": "👑 Pekahiah<br/>c.742 BC · son of Menahem; king of Israel · 2 Kings 15"}
+    ]},
+    {"a": "PEKAHIAH", "b": {"id": "PEKAHIAHW", "label": "—"}, "children": [
+      {"id": "PEKAH", "label": "👑 Pekah<br/>c.740 BC · officer who assassinated Pekahiah &amp; usurped the throne · 2 Kings 15"}
+    ]},
+    {"a": "PEKAH", "b": {"id": "PEKAHW", "label": "—"}, "children": [
+      {"id": "HOSHEA", "label": "👑 Hoshea<br/>c.732 BC · usurper who killed Pekah; last king of Israel; Samaria fell to Assyria 722 BC · 2 Kings 17"}
+    ]},
+
+    {"a": "JORAM", "b": "ATHALIAH", "children": []},
+
+    {"a": "JOSIAH", "b": "JOSIAHW", "children": [
+      {"id": "JEHOIAKIM", "label": "👑 Jehoiakim (Eliakim)<br/>c.635 BC · son of Josiah; Egypt-installed, then Babylonian vassal · 2 Kings 23-24"},
+      {"id": "JEHOAHAZJUDAH", "label": "👑 Jehoahaz of Judah (Shallum)<br/>c.633 BC · son of Josiah; reigned 3 months in 609 BC, deposed by Pharaoh Neco · 2 Kings 23"},
+      {"id": "ZEDEKIAH", "label": "👑 Zedekiah (Mattaniah)<br/>c.618 BC · youngest son of Josiah; last king of Judah, blinded &amp; exiled to Babylon 586 BC · 2 Kings 24-25"}
+    ]}
+  ]
+}

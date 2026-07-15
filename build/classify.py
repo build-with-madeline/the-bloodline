@@ -45,6 +45,7 @@ DYNASTIES = [
     ("INDIA", "The Puranic Dynasties"),
     ("ELAM", "The Kings of Elam"),
     ("ASSYRIA", "The Kings of Assyria"),
+    ("BABYLON", "The Kings of Babylon"),
 ]
 
 # --- explicit id overrides (win over everything) ---
@@ -251,6 +252,7 @@ def seed(pid, label):
     if pid.startswith("IN_"): return "INDIA"
     if pid.startswith("EL_"): return "ELAM"
     if pid.startswith("AS_"): return "ASSYRIA"
+    if pid.startswith("BAB_"): return "BABYLON"
     lab = (label or "").lower()
     # HRE regnal id families
     if pid.endswith("HRE") or pid in ("OTTOI","OTTOII","OTTOIII","OTTOIV","OTTOILLUS","HENRYFOWLER",

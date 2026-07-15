@@ -1,0 +1,200 @@
+{
+ "_note": "CHINA slab — Shang &amp; early Zhou (c.1600-770 BC), continuing the CHINA island from where 07z_china.json ends (CN_JIE, last Xia king, c.1650 BC). Rendered as a SUCCESSION king-list (not a strict bloodline): each ruler's single 'child' is the next ruler, each paired with a '—' placeholder spouse. The Shang overthrew the Xia, so Tang the Great follows Jie. Dates follow the Xia-Shang-Zhou Chronology Project / received chronology and DECREASE down the chain. Status flagged honestly: EARLY SHANG (Tang, Tai Jia, the early-Shang bridge) is SEMI-LEGENDARY — traditional kings not individually pinned by archaeology; LATE SHANG (Wu Ding onward, incl. Di Xin) is HISTORICALLY ATTESTED by oracle-bone inscriptions; the ZHOU dynasty is HISTORICAL. Bridge nodes compress stretches of kings the chain skips. The Duke of Zhou is noted as a REGENT, not a reigning king (no crown). No fabrication: only figures, dates, and relationships found in the received tradition and the Chronology Project. All ids prefixed CN_ so they classify to the CHINA house; connects to the existing island via CN_JIE.",
+ "families": [
+  {
+   "a": "CN_JIE",
+   "b": {
+    "id": "CN_JIEW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_TANG",
+     "label": "👑 Tang the Great (Cheng Tang)<br/>c.1600 BC · founder of the Shang dynasty; overthrew the tyrant Jie of Xia at the Battle of Mingtiao · EARLY SHANG, SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_TANG",
+   "b": {
+    "id": "CN_TANGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_TAIJIA",
+     "label": "👑 Tai Jia<br/>c.1550 BC · grandson of Tang; exiled then restored to virtue by the sage minister Yi Yin · EARLY SHANG, SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_TAIJIA",
+   "b": {
+    "id": "CN_TAIJIAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_SHANGMID",
+     "label": "👑 the early &amp; middle Shang kings<br/>c.1400 BC · a bridge across many reigns (Tai Wu, Pan Geng &amp; others) as the capital moved to Yin · EARLY SHANG, SEMI-LEGENDARY"
+    }
+   ]
+  },
+  {
+   "a": "CN_SHANGMID",
+   "b": {
+    "id": "CN_SHANGMIDW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_WUDING",
+     "label": "👑 Wu Ding<br/>c.1250 BC · the great Shang king (r. c.1250-1192); his reign is the first firmly attested by oracle-bone inscriptions · LATE SHANG, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_WUDING",
+   "b": {
+    "id": "CN_WUDINGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_SHANGLATE",
+     "label": "👑 the later Shang kings<br/>c.1150 BC · a bridge across the reigns (Zu Jia, Wu Yi &amp; others) documented on the oracle bones · LATE SHANG, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_SHANGLATE",
+   "b": {
+    "id": "CN_SHANGLATEW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_DIXIN",
+     "label": "👑 Di Xin (King Zhou of Shang)<br/>c.1075 BC · last Shang king (r. c.1075-1046); a byword for tyranny, defeated &amp; ended at the Battle of Muye, 1046 BC · LATE SHANG, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_DIXIN",
+   "b": {
+    "id": "CN_DIXINW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_WEN",
+     "label": "👑 King Wen of Zhou (Ji Chang)<br/>c.1056 BC · the sage who founded the Mandate of Heaven; led Zhou as a state under the late Shang &amp; died before the conquest · ZHOU, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_WEN",
+   "b": {
+    "id": "CN_WENW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_WU",
+     "label": "👑 King Wu of Zhou (Ji Fa)<br/>c.1046 BC · son of Wen; overthrew the Shang at the Battle of Muye to found the Zhou dynasty · ZHOU, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_WU",
+   "b": {
+    "id": "CN_WUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_CHENG",
+     "label": "👑 King Cheng of Zhou<br/>c.1042 BC · young son of Wu; his reign consolidated Zhou rule over the former Shang lands · ZHOU, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_CHENG",
+   "b": {
+    "id": "CN_CHENGW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_DANZHOU",
+     "label": "Duke of Zhou (Ji Dan)<br/>c.1041 BC · brother of King Wu; REGENT for the boy-king Cheng, not a reigning king; crushed the Three Guards' revolt &amp; shaped Zhou ritual · ZHOU, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_DANZHOU",
+   "b": {
+    "id": "CN_DANZHOUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZHOUEARLY",
+     "label": "👑 the early Zhou kings<br/>c.1000 BC · a bridge across Kings Kang &amp; Zhao, the height of Western Zhou power · ZHOU, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZHOUEARLY",
+   "b": {
+    "id": "CN_ZHOUEARLYW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_MU",
+     "label": "👑 King Mu of Zhou<br/>c.976 BC · long-reigning king (r. c.976-922) famed in legend for his travels to the Queen Mother of the West · ZHOU, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_MU",
+   "b": {
+    "id": "CN_MUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_ZHOUMID",
+     "label": "👑 the middle Zhou kings<br/>c.860 BC · a bridge across Kings Gong through Li &amp; Xuan, as royal authority slowly eroded · ZHOU, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_ZHOUMID",
+   "b": {
+    "id": "CN_ZHOUMIDW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_YOU",
+     "label": "👑 King You of Zhou<br/>c.781 BC · last Western Zhou king; his folly with Bao Si &amp; the beacon fires led to the sack of Haojing &amp; his death, 771 BC · ZHOU, HISTORICAL"
+    }
+   ]
+  },
+  {
+   "a": "CN_YOU",
+   "b": {
+    "id": "CN_YOUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_PING",
+     "label": "👑 King Ping of Zhou<br/>c.770 BC · son of You; moved the capital east to Luoyi, beginning the Eastern Zhou · ZHOU, HISTORICAL"
+    }
+   ]
+  }
+ ]
+}

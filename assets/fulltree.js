@@ -166,19 +166,25 @@
 
   // ---- 6. render: build cards, MEASURE real heights, then place rows & draw connectors ----
   const stage = document.getElementById('stage'), svg = document.getElementById('links');
-  const cardEls = {};
+  const cardEls = {}, handleEls = {};
   const frag = document.createDocumentFragment();
   ids.forEach(pid => {
     const L = lines(pid), sub = L.slice(1, 3).join(' · ');
     const el = document.createElement('div');
     el.className = 'pcard'; el.id = 'c_' + pid;
     el.style.left = pos[pid].x + 'px'; el.style.width = CW + 'px'; el.style.setProperty('--acc', accOf(pid));
+    const hasKids = kidsOf(pid).length > 0;
     el.innerHTML = `<div class="pc-name">${L[0]}</div>` + (sub ? `<div class="pc-sub">${sub}</div>` : '') +
-      `<div class="pc-house">${(HOUSES[P[pid].house] || {}).title || ''}</div>`;
-    el.addEventListener('click', e => { e.stopPropagation(); if (moved) return; focusFamily(pid); });
+      `<div class="pc-house">${(HOUSES[P[pid].house] || {}).title || ''}</div>` +
+      (hasKids ? `<div class="collapse-handle" title="Collapse / expand this person's descendants">▾</div>` : '');
+    el.addEventListener('click', e => {
+      e.stopPropagation();
+      if (e.target.closest('.collapse-handle')) { if (!moved) toggleCollapse(pid); return; }
+      if (moved) return; focusFamily(pid);
+    });
     el.addEventListener('mouseenter', () => traceHover(pid));
     el.addEventListener('mouseleave', clearTrace);
-    cardEls[pid] = el; frag.appendChild(el);
+    cardEls[pid] = el; if (hasKids) handleEls[pid] = el.lastElementChild; frag.appendChild(el);
   });
   stage.appendChild(frag);
   const cardH = {}; ids.forEach(p => cardH[p] = cardEls[p].offsetHeight);   // measured, variable per card
@@ -356,6 +362,41 @@
     svgParts.push(`<circle class="dot${conc ? ' conc' : ''}${bridge ? ' bridge' : ''}" data-u="${ui}" cx="${mx}" cy="${my}" r="${bridge ? 4 : 5}" fill="${conc || bridge ? '#12162e' : '#a87f2e'}" stroke="${bridge ? '#6b6045' : '#a87f2e'}" stroke-width="1.5"/>`);
   });
   svg.innerHTML = svgParts.join('');
+
+  // ---- 6b. collapse / expand a person's descendants ----
+  // Collapsing a person folds their WHOLE descendant subtree (every node reachable
+  // downward). In this densely intermarried DAG almost every child has two parents,
+  // so an "only hide if all parents collapsed" rule would fold nothing — folding the
+  // transitive subtree is what actually declutters and matches the mental model.
+  const collapsed = new Set();
+  const connEls = [...svg.querySelectorAll('.conn,.dot,.conn-hit')];
+  function applyCollapse() {
+    const hidden = new Set();
+    const st = [];
+    collapsed.forEach(c => kidsOf(c).forEach(k => { if (!hidden.has(k)) { hidden.add(k); st.push(k); } }));
+    while (st.length) { const x = st.pop(); kidsOf(x).forEach(k => { if (!hidden.has(k)) { hidden.add(k); st.push(k); } }); }
+    ids.forEach(p => { const el = cardEls[p]; if (el) el.classList.toggle('chidden', hidden.has(p)); });
+    const hideU = new Set();
+    D.unions.forEach((u, ui) => {
+      if (u.parents.some(p => hidden.has(p)) || (u.children.length && u.children.every(c => hidden.has(c)))) hideU.add(ui);
+    });
+    connEls.forEach(el => el.classList.toggle('uhidden', hideU.has(+el.dataset.u)));
+    // handle glyphs: collapsed nodes show a count of what's folded away
+    for (const pid in handleEls) {
+      const h = handleEls[pid], el = cardEls[pid];
+      if (collapsed.has(pid)) {
+        let n = 0; const seen = new Set([pid]), st = [pid];
+        while (st.length) { const x = st.pop(); kidsOf(x).forEach(c => { if (!seen.has(c)) { seen.add(c); st.push(c); if (hidden.has(c)) n++; } }); }
+        h.textContent = '▸ ' + n; h.classList.add('on'); el.classList.add('collapsed');
+      } else if (h.classList.contains('on')) {
+        h.textContent = '▾'; h.classList.remove('on'); el.classList.remove('collapsed');
+      }
+    }
+  }
+  function toggleCollapse(pid) {
+    if (collapsed.has(pid)) collapsed.delete(pid); else collapsed.add(pid);
+    applyCollapse();
+  }
 
   // ---- 7. pan / zoom ----
   const wrap = document.getElementById('explore-wrap');

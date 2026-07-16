@@ -167,6 +167,23 @@ body.explorer { overflow: hidden; background: var(--navy); }
    frame only moves the cards; the lines snap back the instant you stop. */
 #explore-wrap.panning #stage svg { visibility: hidden; }
 #explore-wrap.panning .pcard { pointer-events: none; }
+/* collapse / expand descendants: a small handle on any card that has children.
+   Kept INSIDE the card box (content-visibility paint-containment clips overflow). */
+.collapse-handle {
+  position: absolute; right: 3px; bottom: 3px;
+  min-width: 17px; height: 17px; padding: 0 4px; box-sizing: border-box;
+  border-radius: 9px; background: #2a2f4a; color: #c7a24f; border: 1px solid #4a4636;
+  font-size: 11px; line-height: 15px; text-align: center; cursor: pointer;
+  opacity: 0.5; z-index: 6; user-select: none;
+}
+.pcard:hover .collapse-handle { opacity: 1; }
+.collapse-handle.on { opacity: 1; background: #c7a24f; color: #1a1f38; border-color: #c7a24f; font-weight: 600; }
+.collapse-handle:hover { background: #3a4166; }
+.collapse-handle.on:hover { background: #d8b45f; }
+.pcard.collapsed { border-bottom: 2px solid var(--acc); }
+.pcard.chidden { display: none; }
+#links .uhidden { display: none; }
+#explore-wrap.zfar .collapse-handle { display: none; }   /* unusable + clutter when zoomed out */
 /* hover-to-trace / click-to-spotlight: the focused line stays lit, the rest fades.
    Connectors rest at a calm low opacity so the whole web reads quietly until you
    hover or click a person to light up their bloodline. */

@@ -403,7 +403,6 @@
 
   // ---- 7. pan / zoom ----
   const wrap = document.getElementById('explore-wrap');
-  wrap.classList.add('culled');            // safe now: all card heights already measured
   let scale = 1, tx = 0, ty = 0;
   let _onApply = null;
   // Hide the connector SVG while a gesture is in flight, then restore it a beat
@@ -416,6 +415,11 @@
     stage.style.transform = `translate(${tx}px,${ty}px) scale(${scale})`;
     wrap.classList.toggle('zfar', scale < 0.22);    // drop fine text when zoomed out
     wrap.classList.toggle('zvfar', scale < 0.1);    // very far: cards become house-colored blocks
+    // Cull off-screen cards ONLY when zoomed out: there content-visibility is a big win
+    // (thousands of tiny cards) and its skipped-content boxes are imperceptible. When
+    // zoomed in, culling off — a mis-skipped card would show as a big blank box, and with
+    // few cards on screen culling isn't needed anyway.
+    wrap.classList.toggle('culled', scale < 0.5);
     if (_onApply) _onApply();
   };
   function fit() {

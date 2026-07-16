@@ -359,8 +359,14 @@
 
   // ---- 7. pan / zoom ----
   const wrap = document.getElementById('explore-wrap');
+  wrap.classList.add('culled');            // safe now: all card heights already measured
   let scale = 1, tx = 0, ty = 0;
   let _onApply = null;
+  // Hide the connector SVG while a gesture is in flight, then restore it a beat
+  // after motion stops. Keeps pan/zoom to a card-only repaint.
+  let _panT = null;
+  const startPan = () => { wrap.classList.add('panning'); if (_panT) clearTimeout(_panT); };
+  const endPan = () => { if (_panT) clearTimeout(_panT); _panT = setTimeout(() => wrap.classList.remove('panning'), 120); };
   const apply = () => {
     scale = Math.max(0.05, Math.min(3, scale));
     stage.style.transform = `translate(${tx}px,${ty}px) scale(${scale})`;
@@ -411,7 +417,7 @@
   // hover a person -> trace their whole bloodline (ancestors + descendants), fade the rest.
   // Skipped while a click-focus is active so a pinned spotlight isn't disturbed.
   function traceHover(pid) {
-    if (wrap.classList.contains('focusing')) return;
+    if (drag || scale < 0.35 || wrap.classList.contains('focusing')) return;   // skip the heavy full-graph walk mid-drag / in the zoomed-out overview
     const line = new Set([pid]);
     let f = [pid];
     while (f.length) { const nx = []; f.forEach(x => parentsOf(x).forEach(p => { if (!line.has(p)) { line.add(p); nx.push(p); } })); f = nx; }
@@ -441,15 +447,16 @@
   svg.addEventListener('mouseover', e => { const h = e.target.closest && e.target.closest('.conn-hit'); if (h) hoverConn(+h.dataset.u); });
   svg.addEventListener('mouseout', e => { const h = e.target.closest && e.target.closest('.conn-hit'); if (!h) return; const to = e.relatedTarget; if (to && to.closest && to.closest('.conn-hit')) return; clearTrace(); });
   let drag = false, lx = 0, ly = 0, moved = false;
-  wrap.addEventListener('mousedown', e => { drag = true; moved = false; lx = e.clientX; ly = e.clientY; });
+  wrap.addEventListener('mousedown', e => { drag = true; moved = false; lx = e.clientX; ly = e.clientY; startPan(); });
   window.addEventListener('mousemove', e => { if (!drag) return; if (Math.abs(e.clientX - lx) + Math.abs(e.clientY - ly) > 3) moved = true; tx += e.clientX - lx; ty += e.clientY - ly; lx = e.clientX; ly = e.clientY; apply(); });
-  window.addEventListener('mouseup', () => drag = false);
+  window.addEventListener('mouseup', () => { drag = false; endPan(); });
   wrap.addEventListener('click', e => { if (!moved && !e.target.closest('.pcard')) clearFocus(); });
-  wrap.addEventListener('wheel', e => { e.preventDefault(); const r = wrap.getBoundingClientRect(); const px = e.clientX - r.left, py = e.clientY - r.top; const f = e.deltaY < 0 ? 1.12 : 1 / 1.12; const ns = Math.max(0.05, Math.min(3, scale * f)); const k = ns / scale; tx = px - (px - tx) * k; ty = py - (py - ty) * k; scale = ns; apply(); }, { passive: false });
+  wrap.addEventListener('wheel', e => { e.preventDefault(); startPan(); const r = wrap.getBoundingClientRect(); const px = e.clientX - r.left, py = e.clientY - r.top; const f = e.deltaY < 0 ? 1.12 : 1 / 1.12; const ns = Math.max(0.05, Math.min(3, scale * f)); const k = ns / scale; tx = px - (px - tx) * k; ty = py - (py - ty) * k; scale = ns; apply(); endPan(); }, { passive: false });
 
   // ---- touch: one-finger pan, two-finger pinch-zoom (mobile) ----
   let tMode = null, pinchD0 = 0, pinchS0 = 1, pinchMx = 0, pinchMy = 0;
   wrap.addEventListener('touchstart', e => {
+    startPan();
     if (e.touches.length === 1) { tMode = 'pan'; moved = false; lx = e.touches[0].clientX; ly = e.touches[0].clientY; }
     else if (e.touches.length >= 2) {
       tMode = 'pinch'; moved = true;
@@ -471,11 +478,11 @@
     }
   }, { passive: false });
   wrap.addEventListener('touchend', e => {
-    if (e.touches.length === 0) { tMode = null; if (!moved) clearTrace(); }
+    if (e.touches.length === 0) { tMode = null; endPan(); if (!moved) clearTrace(); }
     else if (e.touches.length === 1) { tMode = 'pan'; lx = e.touches[0].clientX; ly = e.touches[0].clientY; }
   });
-  document.getElementById('zoomIn').onclick = () => { scale *= 1.2; apply(); };
-  document.getElementById('zoomOut').onclick = () => { scale /= 1.2; apply(); };
+  document.getElementById('zoomIn').onclick = () => { startPan(); scale *= 1.2; apply(); endPan(); };
+  document.getElementById('zoomOut').onclick = () => { startPan(); scale /= 1.2; apply(); endPan(); };
   document.getElementById('fitBtn').onclick = fit;
   window.addEventListener('resize', fit);
 

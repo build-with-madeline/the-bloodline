@@ -159,6 +159,14 @@ body.explorer { overflow: hidden; background: var(--navy); }
   transition: transform .1s ease, box-shadow .12s ease;
 }
 .pcard:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.4); z-index: 5; }
+/* Perf at ~3600 cards: let the browser skip layout+paint for off-screen cards.
+   Gated behind .culled so it is OFF during the initial height MEASUREMENT pass
+   (content-visibility would otherwise report the intrinsic size, not the real one). */
+#explore-wrap.culled .pcard { content-visibility: auto; contain-intrinsic-size: 194px 76px; }
+/* While actively panning/zooming, hide the ~4600-element connector SVG so each
+   frame only moves the cards; the lines snap back the instant you stop. */
+#explore-wrap.panning #stage svg { visibility: hidden; }
+#explore-wrap.panning .pcard { pointer-events: none; }
 /* hover-to-trace / click-to-spotlight: the focused line stays lit, the rest fades.
    Connectors rest at a calm low opacity so the whole web reads quietly until you
    hover or click a person to light up their bloodline. */

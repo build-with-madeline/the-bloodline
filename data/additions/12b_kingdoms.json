@@ -231,6 +231,17 @@
    "children": [
     "EG_SOBEKHOTEP1"
    ]
+  },
+  {
+   "a": "EL_IDATTU",
+   "b": {
+    "id": "EL_SHIMASHKI_SUKKW",
+    "label": "—"
+   },
+   "kind": "bridge",
+   "children": [
+    "EL_EPARTI"
+   ]
   }
  ]
 }

@@ -1,0 +1,241 @@
+{
+ "_note": "Slab c.150-0 BC — the great EASTERN powers of the age: the PARTHIAN (Arsacid) empire that became Rome's chief rival, the ROMAN client-kingdoms of the East (Armenia, Pontus) and their marriage web, and the later WESTERN HAN of China. THREE REGIONS, all HISTORICAL, no fabrication; genuinely uncertain descent-links are drawn on a single flagged/reconstructed edge in the tree's usual convention rather than by inventing named intermediate kings. (1) PARTHIA (PAR_ -> the registered house 'Parthia — the Arsacids'). The ARSACID dynasty, built top-down as one house. ARSACES I (founder, revolted from the Seleucids c.247 BC) -> a single RECONSTRUCTED link to PRIAPATIUS (Phriapatius, r.191-176 BC), whom the Nisa ostraca call a grand-nephew of Arsaces I ('son of the nephew of Arsaces'); the intermediate generation is not securely named so no intermediate king is invented (Arsaces II is noted only in text). Priapatius is the securely-attested father of both MITHRIDATES I (c.195 BC, r.171-132, the great expander who took Media &amp; Babylonia) and ARTABANUS I. From Mithridates I: his son PHRAATES II, and his (presumptive) son SINATRUCES -> SINATRUCES' son PHRAATES III (r.69-57) -> Phraates III's sons ORODES II (c.80 BC, r.57-37) &amp; Mithridates IV. Under Orodes II the general SURENA (of the noble Suren house, drawn as a flagged standalone, NOT Arsacid royalty) destroyed CRASSUS at CARRHAE in 53 BC. Orodes II's sons: PACORUS I (killed at Gindarus 38 BC) &amp; PHRAATES IV (c.60 BC, r.37-2), who murdered his father and later RETURNED the captured Roman legionary standards to Augustus in 20 BC. MITHRIDATES II (r.124-88, 'the Great') is attached as son of Artabanus I per Justin (Curtis' 'son of Priapatius' reading noted as the dispute). (2) THE ARMENIA<->PONTUS<->PARTHIA MARRIAGE WEB. The Armenia-Pontus tie ALREADY EXISTS in the tree: TIGRANES II 'the Great' of Armenia (existing TIGRANES2, ANTIQUITY) is married to CLEOPATRA of Pontus (existing CLEOPATRAPONT, daughter of the existing MITHRIDATES6 of Pontus) with child LAODICE3. This slab does NOT re-parent anyone; it APPENDS three of Tigranes' children as new siblings of LAODICE3 under those SAME two existing parents (the append-a-sibling pattern used throughout these slabs): TIGRANES THE YOUNGER, ARTAVASDES II, and Artavasdes' SISTER (maternity by Cleopatra his principal queen is traditional; flagged). Those children carry the ARM2_ prefix and inherit the ANTIQUITY house by propagation through their parents, pulling the two new Parthia<->Armenia marriages INTO the existing Pontus/antiquity web. TWO documented cross-house marriages result: [a] TIGRANES THE YOUNGER ● a DAUGHTER of PHRAATES III of Parthia (66/65 BC; he fled to Phraates III, married his daughter, and revolted against his father with Parthian backing — Cassius Dio, Appian); [b] PACORUS I of Parthia ● a SISTER of Artavasdes II of Armenia (the marriage-alliance whose wedding-feast, during Euripides' Bacchae at the Armenian court, received the severed head of Crassus after Carrhae — Plutarch, Crassus 33). Both knit PARTHIA to ARMENIA to PONTUS to the antiquity web. (3) HAN CHINA (CN_) — the WESTERN HAN extended DOWN from the existing CN_HANWU (Emperor Wu, 156-87 BC, 30b_rome_han_india.json), drawn accurately, NOT as a false single father-son ladder: Wu ● Empress Wei Zifu -> Crown Prince LIU JU (died 91 BC in the witchcraft purge); Wu ● Consort Zhao (Lady Gouyi) -> Emperor ZHAO (who died young &amp; childless). The main descent runs Wu -> Liu Ju -> LIU JIN (Prince of Shi, also killed 91 BC) -> Emperor XUAN (c.91 BC, Wu's great-grandson, who took the throne after the purge — accurately his great-grandson, NOT Zhao's son) -> Emperor YUAN -> Emperor CHENG (childless, the reign the Wang clan came to dominate). WANG ZHAOJUN, the famous heqin bride sent by Emperor Yuan in 33 BC to the Xiongnu, was a PALACE LADY, NOT a blood princess, so she is NOT drawn as Yuan's daughter (that would be fabrication); she &amp; the Xiongnu ruler HUHANYE CHANYU are added as a small FLAGGED standalone marriage (the documented Han<->Xiongnu heqin alliance), keeping the Han bloodline as its own clean island. Prefixes: Parthia=PAR_, Armenia=ARM2_ (propagate to ANTIQUITY), Han=CN_, Xiongnu=XIO_. All figures HISTORICAL; the Arsaces-I->Priapatius, Mithridates-I->Sinatruces, and Cleopatra-maternity links are flagged as reconstructed/traditional/presumptive. AVOID DOUBLE-PARENTING: every child sits in exactly ONE child-union; existing parents (TIGRANES2 ● CLEOPATRAPONT, CN_HANWU) are re-stated only to APPEND children, never to re-parent. Child birth-years kept strictly SMALLER than parents on the schematic ladder. Web-verified July 2026 against Wikipedia 'Arsaces I of Parthia','Priapatius','Mithridates I of Parthia','Artabanus I of Parthia','Phraates II','Sinatruces of Parthia','Mithridates II of Parthia','Phraates III of Parthia','Orodes II','Surena','Pacorus I','Phraates IV','Tigranes the Great','Tigranes the Younger','Artavasdes II of Armenia','Cleopatra of Pontus','Emperor Wu of Han','Liu Ju (Crown Prince Wei)','Liu Jin (prince)','Emperor Zhao of Han','Emperor Xuan of Han','Emperor Yuan of Han','Emperor Cheng of Han','Wang Zhaojun','Huhanye'. NO fabrication.",
+ "families": [
+  {
+   "note": "PARTHIA — ARSACES I, founder of the Arsacid dynasty, on a single RECONSTRUCTED link to PRIAPATIUS (grand-nephew of Arsaces I per the Nisa ostraca; the un-named intermediate generation is NOT invented — Arsaces II noted only in text).",
+   "a": {
+    "id": "PAR_ARSACES1",
+    "label": "👑 Arsaces I<br/>c.247 BC · founder of the ARSACID dynasty &amp; the Parthian realm; leader of the Parni who revolted from the Seleucids &amp; seized Parthia, giving his name to every king after him · historical"
+   },
+   "b": {"id": "PAR_ARSACES1W", "label": "—"},
+   "children": [
+    {
+     "id": "PAR_PRIAPATIUS",
+     "label": "👑 Priapatius<br/>c.220 BC · Arsacid king r.191-176 BC; the Nisa ostraca call him a grand-nephew of Arsaces I, so he is drawn on a single reconstructed link to the founder · father of the next generation of Arsacids · historical (descent reconstructed)"
+    }
+   ]
+  },
+  {
+   "note": "PARTHIA — PRIAPATIUS is the securely-attested father of both MITHRIDATES I (the great expander) &amp; ARTABANUS I.",
+   "a": "PAR_PRIAPATIUS",
+   "b": {"id": "PAR_PRIAPATIUSW", "label": "—"},
+   "children": [
+    {
+     "id": "PAR_MITHRIDATES1",
+     "label": "👑 Mithridates I<br/>c.195 BC · Arsacid king r.171-132 BC; the great expander who conquered Media &amp; Babylonia &amp; turned Parthia from a kingdom into an empire, taking the title 'King of Kings' · historical"
+    },
+    {
+     "id": "PAR_ARTABANUS1",
+     "label": "👑 Artabanus I<br/>c.190 BC · Arsacid king r.127-124 BC; son of Priapatius &amp; brother of Mithridates I; fell fighting the nomad Tocharians on the eastern frontier · historical"
+    }
+   ]
+  },
+  {
+   "note": "PARTHIA — from MITHRIDATES I: his son &amp; successor PHRAATES II, and his presumptive son SINATRUCES (whose line carried the later kingship). Sinatruces' descent from Mithridates I is flagged as presumptive.",
+   "a": "PAR_MITHRIDATES1",
+   "b": {"id": "PAR_MITHRIDATES1W", "label": "—"},
+   "children": [
+    {
+     "id": "PAR_PHRAATES2",
+     "label": "👑 Phraates II<br/>c.160 BC · Arsacid king r.132-127 BC; son of Mithridates I; defeated the Seleucid Antiochus VII but was killed campaigning against invading Saka nomads · historical"
+    },
+    {
+     "id": "PAR_SINATRUCES",
+     "label": "👑 Sinatruces<br/>c.157 BC · Arsacid king r.78-69 BC, said to have taken the throne aged about 80 with Saka help; presumptively a son of Mithridates I · historical (link presumptive)"
+    }
+   ]
+  },
+  {
+   "note": "PARTHIA — MITHRIDATES II 'the Great' attached as son of ARTABANUS I per Justin (Curtis' 'son of Priapatius' reading is the noted dispute).",
+   "a": "PAR_ARTABANUS1",
+   "b": {"id": "PAR_ARTABANUS1W", "label": "—"},
+   "children": [
+    {
+     "id": "PAR_MITHRIDATES2",
+     "label": "👑 Mithridates II 'the Great'<br/>c.160 BC · Arsacid king r.124-88 BC; restored &amp; vastly enlarged the empire, first Parthian king to receive a Roman embassy (Sulla, 96 BC) &amp; to open contact along the Silk Road · son of Artabanus I (Justin; disputed) · historical"
+    }
+   ]
+  },
+  {
+   "note": "PARTHIA — SINATRUCES' son PHRAATES III, the king into whose family the Armenian prince would marry.",
+   "a": "PAR_SINATRUCES",
+   "b": {"id": "PAR_SINATRUCESW", "label": "—"},
+   "children": [
+    {
+     "id": "PAR_PHRAATES3",
+     "label": "👑 Phraates III<br/>c.120 BC · Arsacid king r.69-57 BC; maneuvered between Rome, Pontus &amp; Armenia during the Mithridatic Wars; murdered by his own two sons · historical"
+    }
+   ]
+  },
+  {
+   "note": "PARTHIA — PHRAATES III's children: the rival kings ORODES II &amp; MITHRIDATES IV, plus his DAUGHTER (unnamed in the sources) who married the Armenian prince Tigranes the Younger — the tie used below to bridge Parthia to Armenia.",
+   "a": "PAR_PHRAATES3",
+   "b": {"id": "PAR_PHRAATES3W", "label": "—"},
+   "children": [
+    {
+     "id": "PAR_ORODES2",
+     "label": "👑 Orodes II<br/>c.80 BC · Arsacid king r.57-37 BC; killed his father &amp; brother for the throne; his general SURENA annihilated CRASSUS &amp; seven Roman legions at CARRHAE in 53 BC, the great Parthian victory over Rome · historical"
+    },
+    {
+     "id": "PAR_MITHRIDATES4",
+     "label": "👑 Mithridates IV<br/>c.85 BC · Arsacid king r.57-54 BC; elder son of Phraates III; briefly co-king then rival of his brother Orodes II, who defeated &amp; executed him · historical"
+    },
+    {
+     "id": "PAR_PHRAATES3_DAU",
+     "label": "Parthian princess<br/>c.85 BC · a daughter of Phraates III (unnamed in the sources); married the Armenian prince Tigranes the Younger in 66/65 BC, the marriage by which Phraates III drew Armenia into Parthia's orbit · historical"
+    }
+   ]
+  },
+  {
+   "note": "PARTHIA — ORODES II's sons: PACORUS I (who married into the Armenian royal house, below) &amp; PHRAATES IV, who returned the Roman standards to Augustus. Orodes' consort left unnamed ('—') to avoid fabrication.",
+   "a": "PAR_ORODES2",
+   "b": {"id": "PAR_ORODES2W", "label": "—"},
+   "children": [
+    {
+     "id": "PAR_PACORUS1",
+     "label": "👑 Pacorus I<br/>c.65 BC · Arsacid crown prince &amp; co-ruler, son &amp; heir of Orodes II; married a sister of Armenia's Artavasdes II; invaded Roman Syria but was defeated &amp; killed at Gindarus in 38 BC, predeceasing his father · historical"
+    },
+    {
+     "id": "PAR_PHRAATES4",
+     "label": "👑 Phraates IV<br/>c.60 BC · Arsacid king r.37-2 BC; murdered his father Orodes II &amp; his brothers for the throne; in 20 BC RETURNED to Augustus the legionary standards captured at Carrhae, a diplomatic coup celebrated across Rome · historical"
+    }
+   ]
+  },
+  {
+   "note": "PARTHIA — SURENA, Orodes II's general, victor of Carrhae 53 BC. Of the great noble Suren house, NOT Arsacid royalty; drawn as a flagged standalone ('—' spouse, no issue) — Orodes had him executed soon after out of jealousy.",
+   "a": {
+    "id": "PAR_SURENA",
+    "label": "Surena<br/>c.84 BC · Parthian nobleman of the Suren house &amp; supreme commander under Orodes II; destroyed Crassus at CARRHAE (53 BC) with heavy cataphracts &amp; horse-archers, then executed by the jealous king · not of the royal Arsacid blood · historical"
+   },
+   "b": {"id": "PAR_SURENAW", "label": "—"},
+   "children": []
+  },
+  {
+   "note": "HAN CHINA — Emperor WU (existing CN_HANWU) ● Empress WEI ZIFU -> Crown Prince LIU JU, the eldest son destroyed in the 91 BC witchcraft purge. CN_HANWU re-stated only to APPEND his children (he remains the child of Jing ● Wang in 30b; not re-parented).",
+   "a": "CN_HANWU",
+   "b": {
+    "id": "CN_WEIZIFU",
+    "label": "Empress Wei Zifu<br/>c.160 BC · principal empress of Emperor Wu for ~38 years; her family (the general Wei Qing, Huo Qubing) dominated the age; fell with her son in the 91 BC purge · historical"
+   },
+   "children": [
+    {
+     "id": "CN_LIUJU",
+     "label": "Liu Ju<br/>c.128 BC · Crown Prince (the 'Wei Crown Prince'), eldest son of Emperor Wu; driven to revolt &amp; suicide in 91 BC by the 'witchcraft' plot of Jiang Chong; posthumously vindicated · historical"
+    }
+   ]
+  },
+  {
+   "note": "HAN CHINA — Emperor WU ● Consort ZHAO (Lady Gouyi) -> Emperor ZHAO, who succeeded as a boy under the regent Huo Guang and died young &amp; childless. A SECOND union of Wu by a different mother (accurate), not a re-parenting.",
+   "a": "CN_HANWU",
+   "b": {
+    "id": "CN_LADYGOUYI",
+    "label": "Consort Zhao (Lady Gouyi)<br/>c.113 BC · late favorite of Emperor Wu &amp; mother of Emperor Zhao; put to death by Wu so no dowager clan could dominate the boy-king · historical"
+   },
+   "children": [
+    {
+     "id": "CN_HANZHAO",
+     "label": "👑 Emperor Zhao (Liu Fuling)<br/>c.94 BC · Western Han emperor r.87-74 BC; enthroned aged 8 under the regent Huo Guang; a stable reign but he died at 20 with no heir, ending Wu's direct senior line · historical"
+    }
+   ]
+  },
+  {
+   "note": "HAN CHINA — the surviving line: Crown Prince LIU JU ● Consort Shi -> LIU JIN, Prince of Shi, also killed in the 91 BC purge but leaving an infant son who became emperor.",
+   "a": "CN_LIUJU",
+   "b": {
+    "id": "CN_SHILIANGDI",
+    "label": "Consort Shi (Shi Liangdi)<br/>c.120 BC · consort of Crown Prince Liu Ju &amp; mother of Liu Jin; perished with the household in the 91 BC witchcraft catastrophe · historical"
+   },
+   "children": [
+    {
+     "id": "CN_LIUJIN",
+     "label": "Liu Jin<br/>c.113 BC · the 'Imperial Grandson of the House of Shi', son of Crown Prince Liu Ju; killed with his parents in 91 BC, his infant son alone surviving in prison · historical"
+    }
+   ]
+  },
+  {
+   "note": "HAN CHINA — LIU JIN ● Wang Wengxu -> Emperor XUAN, the infant survivor of 91 BC who was raised among commoners &amp; later raised to the throne. Xuan is Wu's GREAT-GRANDSON (accurately NOT Emperor Zhao's son).",
+   "a": "CN_LIUJIN",
+   "b": {
+    "id": "CN_WANGWENGXU",
+    "label": "Wang Wengxu<br/>c.110 BC · wife of Liu Jin &amp; mother of the future Emperor Xuan; died in the 91 BC purge · historical"
+   },
+   "children": [
+    {
+     "id": "CN_HANXUAN",
+     "label": "👑 Emperor Xuan (Liu Bingyi)<br/>c.91 BC · Western Han emperor r.74-48 BC; great-grandson of Emperor Wu, orphaned as a baby in the witchcraft purge &amp; raised among commoners before Huo Guang set him on the throne; his reign is reckoned a Han high-water mark · historical"
+    }
+   ]
+  },
+  {
+   "note": "HAN CHINA — Emperor XUAN ● Empress Xu Pingjun -> Emperor YUAN.",
+   "a": "CN_HANXUAN",
+   "b": {
+    "id": "CN_XUPINGJUN",
+    "label": "Empress Xu Pingjun<br/>c.89 BC · first empress of Emperor Xuan, married to him in his commoner years; poisoned in 71 BC by the Huo family to install their own daughter · historical"
+   },
+   "children": [
+    {
+     "id": "CN_HANYUAN",
+     "label": "👑 Emperor Yuan (Liu Shi)<br/>c.75 BC · Western Han emperor r.48-33 BC; a Confucian ruler under whom court eunuchs &amp; the empress's Wang kin gained ground; in 33 BC sent Wang Zhaojun to the Xiongnu · historical"
+    }
+   ]
+  },
+  {
+   "note": "HAN CHINA — Emperor YUAN ● Empress Wang Zhengjun -> Emperor CHENG (who died childless; the Wang clan she headed would culminate in her nephew Wang Mang's usurpation).",
+   "a": "CN_HANYUAN",
+   "b": {
+    "id": "CN_WANGZHENGJUN",
+    "label": "Empress Wang Zhengjun<br/>c.71 BC · empress of Emperor Yuan &amp; grand dowager for decades; her Wang kinsmen came to control the court, and her nephew Wang Mang finally seized the throne in AD 9 · historical"
+   },
+   "children": [
+    {
+     "id": "CN_HANCHENG",
+     "label": "👑 Emperor Cheng (Liu Ao)<br/>c.51 BC · Western Han emperor r.33-7 BC; a reign of the Zhao sisters &amp; growing Wang-clan power; died without an heir, hastening the dynasty's slide toward Wang Mang · historical"
+    }
+   ]
+  },
+  {
+   "note": "HAN<->XIONGNU heqin — flagged standalone marriage. WANG ZHAOJUN was a PALACE LADY of Emperor Yuan, NOT a blood princess, so she is deliberately NOT drawn as Yuan's daughter (that would be fabrication); Emperor Yuan sent her in 33 BC to marry HUHANYE CHANYU as a peace-alliance bride. Kept off the Han bloodline island; documented tie only.",
+   "a": {
+    "id": "CN_WANGZHAOJUN",
+    "label": "Wang Zhaojun<br/>c.54 BC · a palace lady of Emperor Yuan (one of the 'Four Beauties' of Chinese tradition); sent in 33 BC as a heqin bride to the Xiongnu, symbol of Han-Xiongnu peace; NOT a blood princess · historical"
+   },
+   "b": {
+    "id": "XIO_HUHANYE",
+    "label": "👑 Huhanye Chanyu<br/>c.85 BC · ruler of the Xiongnu r.58-31 BC; submitted to Han as a tributary &amp; received Wang Zhaojun in the heqin marriage-alliance of 33 BC · historical"
+   },
+   "children": []
+  },
+  {
+   "note": "ARMENIA<->PONTUS — APPEND three children of TIGRANES II 'the Great' as new siblings of the existing LAODICE3, under the SAME two existing parents TIGRANES2 ● CLEOPATRAPONT (03_antiquity.json / 06_deep_antiquity.json). No re-parenting. Maternity by Cleopatra, his principal queen, is traditional (flagged). These ARM2_ children inherit the ANTIQUITY house by propagation, carrying the Parthia<->Armenia marriages below into the existing Pontus/antiquity web.",
+   "a": "TIGRANES2",
+   "b": "CLEOPATRAPONT",
+   "children": [
+    {
+     "id": "ARM2_TIGRANESYOUNGER",
+     "label": "Tigranes the Younger<br/>c.85 BC · son of Tigranes the Great of Armenia &amp; Cleopatra of Pontus; fled to Parthia, married a daughter of Phraates III &amp; revolted against his father; later surrendered to Pompey, who paraded him in his triumph · historical"
+    },
+    {
+     "id": "ARM2_ARTAVASDES2",
+     "label": "👑 Artavasdes II<br/>c.95 BC · son of Tigranes the Great; king of Armenia r.55-34 BC; poet &amp; ally-then-hostage between Rome &amp; Parthia; captured by Mark Antony &amp; executed at Alexandria in 34 BC · historical"
+    },
+    {
+     "id": "ARM2_ARTAVASDES2SIS",
+     "label": "Armenian princess<br/>c.90 BC · a daughter of Tigranes the Great &amp; sister of Artavasdes II; married Pacorus I of Parthia in the alliance sealed at the wedding-feast where Crassus' severed head was brought in during Euripides' Bacchae (53 BC) · historical"
+    }
+   ]
+  },
+  {
+   "note": "CROSS-HOUSE MARRIAGE #1 (Parthia <-> Armenia/Pontus): TIGRANES THE YOUNGER (Armenia, grandson of Mithridates VI of Pontus) ● the DAUGHTER of PHRAATES III of Parthia, 66/65 BC. Both parents defined above; childless as depicted. Links the Arsacid house directly into the existing Pontus/antiquity web.",
+   "a": "ARM2_TIGRANESYOUNGER",
+   "b": "PAR_PHRAATES3_DAU",
+   "children": []
+  },
+  {
+   "note": "CROSS-HOUSE MARRIAGE #2 (Parthia <-> Armenia/Pontus): PACORUS I of Parthia ● the SISTER of Artavasdes II of Armenia, c.53 BC — the marriage-alliance of the Carrhae wedding-feast. Both parents defined above; childless as depicted. A second Arsacid tie into the Pontus/antiquity web.",
+   "a": "PAR_PACORUS1",
+   "b": "ARM2_ARTAVASDES2SIS",
+   "children": []
+  }
+ ]
+}

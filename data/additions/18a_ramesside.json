@@ -1,0 +1,77 @@
+{
+ "_note": "EGYPT — the ROYAL FAMILIES of the 19th Dynasty (the RAMESSIDES), c.1300-1200 BC. The reigning pharaohs of this stretch — EG_RAMESSES1 (c.1292), EG_SETI1 (c.1290), EG_RAMESSES2 'the Great' (c.1279) and EG_MERNEPTAH (c.1213) — ALREADY sit in the father-to-son succession chain defined in 10b_egypt.json and are NEVER re-parented here: each appears only as a spouse (the 'a' side of a union), never inside a children array. Seti II (EG_SETI2, c.1203) likewise already sits in that chain and is NOT re-added. This file names the real Great Royal Wives that stand behind the '—' placeholder consorts in the chain, and hangs the notable NON-reigning children under the correct wife. Ramesses I x Sitre (their son Seti I is already in the chain, so the union carries no child). Seti I x Tuya, adding their daughter Tia (Ramesses II is already in the chain). Ramesses II fathered ~100 children by many wives; his two senior Egyptian Great Royal Wives were Nefertari (the famous queen of the smaller Abu Simbel temple) and Isetnofret. Under Nefertari: crown prince Amun-her-khepeshef and daughter Merytamen. Under Isetnofret: Prince Khaemwaset (the 'first Egyptologist'), daughter Bintanath, and Prince Ramesses (the crown prince who predeceased his father) — a sibling of Merneptah, who is already in the chain and is NOT re-added. FATHER-DAUGHTER MARRIAGES FLAGGED HONESTLY: Ramesses II later elevated his own daughters Bintanath and Merytamen to Great Royal Wife; these are genuine, attested father-daughter marriages and are noted plainly on their cards rather than drawn as edges (they are already his children). Finally Merneptah x Isetnofret II, the likely mother of Seti II (already in the chain, so no child is drawn); Merneptah's victory stele, the MERNEPTAH STELE, bears the earliest known mention of 'Israel'. No Hittite wife of Ramesses II is added here — the Egypt-Hittite marriage is owned by another agent. Every figure is HISTORICAL, attested by contemporary Ramesside monuments (Abu Simbel, the Ramesseum, Nefertari's tomb QV66, the Serapeum, the Merneptah Stele). All new ids are prefixed EG_ so they classify to the EGYPT house; child years are drawn smaller than the parent king's chain year to keep the timeline ordered. Loads after 10b_egypt.json (the kings) and 17a_amarna.json (the preceding 18th-Dynasty families). Verified July 2026 against Wikipedia (Nefertari, Isetnofret, List of children of Ramesses II, Khaemweset, Bintanath, Meritamen, Tuya, Sitre, Tia, Isetnofret II, Merneptah Stele).",
+ "families": [
+  {
+   "note": "EG_RAMESSES1 (already the chain founder of the 19th Dynasty, referenced by id, NOT re-parented) & his Great Royal Wife Sitre. Their son Seti I is already the next link in the chain, so this union carries NO child (he must not gain a second parent).",
+   "a": "EG_RAMESSES1",
+   "b": {
+    "id": "EG_SITRE",
+    "label": "Sitre<br/>c.1300 BC · Great Royal Wife of Ramesses I &amp; mother of Seti I; her name means 'Daughter of Re'; buried in tomb QV38 in the Valley of the Queens · HISTORICAL"
+   },
+   "children": []
+  },
+  {
+   "note": "EG_SETI1 (already the chain successor, referenced by id, NOT re-parented) & his Great Royal Wife Tuya. Their son Ramesses II is already the next link in the chain and is NOT re-added; their daughter Tia was non-reigning and is safely hung here.",
+   "a": "EG_SETI1",
+   "b": {
+    "id": "EG_TUYA",
+    "label": "Tuya (Mut-Tuya)<br/>c.1300 BC · Great Royal Wife of Seti I &amp; mother of Ramesses II; daughter of the lieutenant Raia; honoured with a colossal statue at the Ramesseum · HISTORICAL"
+   },
+   "children": [
+    {
+     "id": "EG_TIA",
+     "label": "Tia<br/>c.1285 BC · daughter of Seti I &amp; Tuya, sister of Ramesses II; married a royal official also named Tia; the couple built a tomb at Saqqara · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "EG_RAMESSES2 'the Great' (already the chain successor, referenced by id, NOT re-parented) & his senior Great Royal Wife Nefertari, the celebrated queen of the smaller temple at Abu Simbel and the exquisite tomb QV66. Two of her notable children are hung here: the crown prince Amun-her-khepeshef and the princess Merytamen. Merytamen was LATER elevated by her own father to Great Royal Wife after Nefertari's death — a genuine father-daughter marriage, flagged honestly on her card rather than drawn as an edge (she is already his child).",
+   "a": "EG_RAMESSES2",
+   "b": {
+    "id": "EG_NEFERTARI",
+    "label": "Nefertari (Nefertari Merytmut)<br/>c.1300 BC · favourite Great Royal Wife of Ramesses II; honoured with the smaller temple at Abu Simbel &amp; the finely painted tomb QV66; correspondent of the Hittite queen Puduhepa after the peace treaty · HISTORICAL"
+   },
+   "children": [
+    {
+     "id": "EG_AMUNHERKHEPESHEF",
+     "label": "Amun-her-khepeshef<br/>c.1278 BC · eldest son of Ramesses II &amp; Nefertari; crown prince and Commander of the Troops; died around Year 25, long before his father, so never reigned · HISTORICAL"
+    },
+    {
+     "id": "EG_MERYTAMEN",
+     "label": "Merytamen<br/>c.1272 BC · daughter of Ramesses II &amp; Nefertari; after her mother's death her father raised her to Great Royal Wife — an attested FATHER-DAUGHTER marriage; a colossal 'White Queen' statue at Akhmim depicts her · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "EG_RAMESSES2 'the Great' (already the chain successor, referenced by id, NOT re-parented) & his other senior Great Royal Wife Isetnofret. Her notable non-reigning children hung here: Prince Khaemwaset (the 'first Egyptologist'), princess Bintanath, and Prince Ramesses (the crown prince who predeceased his father). Their son Merneptah is already the next link in the chain and is NOT re-added. Bintanath was LATER elevated by her own father to Great Royal Wife — a genuine father-daughter marriage, flagged honestly on her card rather than drawn as an edge (she is already his child).",
+   "a": "EG_RAMESSES2",
+   "b": {
+    "id": "EG_ISETNOFRET",
+    "label": "Isetnofret<br/>c.1300 BC · second senior Great Royal Wife of Ramesses II; mother of the pharaoh Merneptah, of Prince Khaemwaset &amp; of Bintanath; prominent especially in the later decades of the reign · HISTORICAL"
+   },
+   "children": [
+    {
+     "id": "EG_KHAEMWASET",
+     "label": "Khaemwaset<br/>c.1275 BC · fourth son of Ramesses II &amp; Isetnofret; High Priest of Ptah at Memphis who restored ancient monuments &amp; labelled the pyramids — often called the 'first Egyptologist'; managed the Apis-bull Serapeum; died before his father · HISTORICAL"
+    },
+    {
+     "id": "EG_BINTANATH",
+     "label": "Bintanath<br/>c.1276 BC · eldest daughter of Ramesses II &amp; Isetnofret; her father later raised her to Great Royal Wife — an attested FATHER-DAUGHTER marriage; buried in tomb QV71 · HISTORICAL"
+    },
+    {
+     "id": "EG_RAMESSESB",
+     "label": "Prince Ramesses (Ramesses B)<br/>c.1274 BC · son of Ramesses II &amp; Isetnofret; became crown prince for some 25 years as elder brothers died, but predeceased his long-lived father and so never reigned; the throne passed to his brother Merneptah · HISTORICAL"
+    }
+   ]
+  },
+  {
+   "note": "EG_MERNEPTAH (already the chain successor, referenced by id, NOT re-parented), thirteenth son of Ramesses II, & his Great Royal Wife Isetnofret II, the likely mother of his successor Seti II. Seti II (EG_SETI2) is already the next link in the chain, so this union carries NO child (he must not gain a second parent). Merneptah's victory stele — the MERNEPTAH STELE, c.1208 BC — carries the earliest known written mention of 'Israel'.",
+   "a": "EG_MERNEPTAH",
+   "b": {
+    "id": "EG_ISETNOFRET2",
+    "label": "Isetnofret II<br/>c.1240 BC · Great Royal Wife of Merneptah &amp; likely mother of Seti II; named for her grandmother, Ramesses II's queen Isetnofret · HISTORICAL"
+   },
+   "children": []
+  }
+ ]
+}

@@ -1,0 +1,308 @@
+{
+ "_note": "Slab c.1300-1180 BC — the LEGENDARY royal houses of the Trojan War. Every figure is mythological and flagged LEGENDARY (no historical figures here; dates are nominal placeholders, each child's year smaller than its parent's). Prefixes: MYC_ = the Pelopid House of Atreus + the Spartan Tyndarids (Mycenae/Argos/Sparta); TRO_ = the new house 'Troy & the Dardanians'; deities reuse the existing CRE_ set (CRE_ZEUS already in the tree; CRE_APHRODITE new). THREAD 1 — HOUSE OF ATREUS: Atreus (existing MYC_ATREUS, son of Pelops) > Agamemnon (over-king of Mycenae, led the Greek host to Troy) & Menelaus (king of Sparta). Agamemnon x Clytemnestra > Orestes, Iphigenia (sacrificed at Aulis), Electra, Chrysothemis. Menelaus x Helen > Hermione. Thyestes (existing MYC_THYESTES) > Aegisthus, who seized Clytemnestra & the throne (the usurper) and with her murdered Agamemnon. THREAD 2 — SPARTAN TYNDARIDS: Tyndareus x Leda > Clytemnestra, Helen, Castor & Pollux (the Dioscuri). Received myth splits the paternity: Zeus came to Leda as a swan the same night as Tyndareus, so Helen & Pollux are counted Zeus's (divine, immortal) and Clytemnestra & Castor Tyndareus's (mortal) — versions differ, and the divine liaison is drawn as the childless union CRE_ZEUS x Leda; Helen & Pollux carry the swan note in their labels. Helen & Clytemnestra are thus both Leda's daughters, married to the two Atreid brothers. THREAD 3 — TROY & THE DARDANIANS (new TRO_ house, the Dardanian line): Zeus x Electra (the Pleiad) > Dardanus (founder) > Erichthonius > Tros (eponym of Troy/the Troad) > Ilus (founder of Ilion/Ilium), Assaracus & Ganymede (cup-bearer of the gods); Ilus > Laomedon > Priam (last king of Troy) & Hesione. Priam x Hecuba > Hector (x Andromache > Astyanax, the child thrown from the walls), Paris/Alexandros (who carried off Helen — the union CRE... TRO_PARIS x MYC_HELEN links the two houses & the war's cause), Cassandra (the unheeded prophetess), Deiphobus, Helenus (the seer), Polyxena, Troilus & others (Priam is said to have had ~50 children; only the famous ones drawn). The junior Dardanian branch: Assaracus > Capys > Anchises, who lay with the goddess Aphrodite (CRE_APHRODITE) > AENEAS, who fled burning Troy carrying his father — the LEGENDARY ancestor of the Romans (his son Ascanius/Iulus founded Alba Longa; the Julii claimed descent). NOTE FOR A FUTURE SLAB: Aeneas > (Ascanius) > the Alban kings > Romulus links this Trojan house forward to the founding of Rome (ANTIQUITY house). Web-verified against Wikipedia/Theoi 'Dardanus', 'Tros', 'Ilus', 'Laomedon', 'Priam', 'Hecuba', 'Hector', 'Aeneas', 'Anchises', 'Aphrodite', 'Tyndareus', 'Leda', 'Helen of Troy', 'Dioscuri', 'Agamemnon', 'Menelaus', 'Aegisthus'; where sources diverge (Leda's paternity split, Aegisthus's incestuous birth) the labels note the variant. No fabrication — received mythology followed.",
+ "families": [
+  {
+   "note": "SPARTAN TYNDARIDS (LEGENDARY) — Tyndareus x Leda, parents of the war's two fateful women (Helen & Clytemnestra) and the Dioscuri. Root couple; the divine paternity of Helen & Pollux is drawn separately below.",
+   "a": {
+    "id": "MYC_TYNDAREUS",
+    "label": "👑 Tyndareus<br/>c.1300 BC · king of Sparta; husband of Leda; father of Clytemnestra &amp; Castor, mortal foster-father of Helen &amp; Pollux; his oath of the suitors bound the Greek kings to Menelaus · LEGENDARY"
+   },
+   "b": {
+    "id": "MYC_LEDA",
+    "label": "Leda<br/>c.1298 BC · queen of Sparta; wife of Tyndareus; visited by Zeus in the form of a swan the same night, she bore Helen, Clytemnestra &amp; the Dioscuri · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_CLYTEMNESTRA",
+     "label": "Clytemnestra<br/>c.1275 BC · daughter of Tyndareus &amp; Leda; queen of Mycenae, wife of Agamemnon; with her lover Aegisthus she murdered Agamemnon on his return from Troy · LEGENDARY"
+    },
+    {
+     "id": "MYC_HELEN",
+     "label": "Helen of Troy<br/>c.1275 BC · daughter of Leda by Zeus (the swan) — 'the face that launched a thousand ships'; wife of Menelaus, carried off by Paris to Troy, the cause of the war · LEGENDARY"
+    },
+    {
+     "id": "MYC_CASTOR",
+     "label": "Castor<br/>c.1276 BC · son of Tyndareus &amp; Leda (the mortal twin); horseman &amp; one of the Dioscuri, twin brother of Pollux · LEGENDARY"
+    },
+    {
+     "id": "MYC_POLLUX",
+     "label": "Pollux (Polydeuces)<br/>c.1276 BC · son of Leda by Zeus (the immortal twin); boxer &amp; one of the Dioscuri; shared his immortality with his mortal twin Castor · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "SPARTAN TYNDARIDS (LEGENDARY) — the swan: Zeus (existing deity) x Leda, the divine liaison that fathered Helen & Pollux. Childless union shown to mark the myth; the children are drawn above under Tyndareus & Leda.",
+   "a": "CRE_ZEUS",
+   "b": "MYC_LEDA",
+   "children": []
+  },
+  {
+   "note": "HOUSE OF ATREUS (LEGENDARY) — Atreus (existing, son of Pelops) to the two brother-kings who led the war: Agamemnon of Mycenae & Menelaus of Sparta. Their mother is Aerope.",
+   "a": "MYC_ATREUS",
+   "b": {
+    "id": "MYC_AEROPE",
+    "label": "Aerope<br/>c.1315 BC · Cretan princess, granddaughter of Minos; wife of Atreus; mother of Agamemnon &amp; Menelaus · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_AGAMEMNON",
+     "label": "👑 Agamemnon<br/>c.1290 BC · son of Atreus; over-king of Mycenae/Argos; supreme commander of the Greek host at Troy; sacrificed Iphigenia at Aulis; slain by Clytemnestra &amp; Aegisthus on his return · LEGENDARY"
+    },
+    {
+     "id": "MYC_MENELAUS",
+     "label": "👑 Menelaus<br/>c.1288 BC · son of Atreus; king of Sparta; husband of Helen, whose abduction by Paris launched the war · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "HOUSE OF ATREUS (LEGENDARY) — Agamemnon x Clytemnestra (Leda's daughter, defined above) and their children.",
+   "a": "MYC_AGAMEMNON",
+   "b": "MYC_CLYTEMNESTRA",
+   "children": [
+    {
+     "id": "MYC_ORESTES",
+     "label": "👑 Orestes<br/>c.1255 BC · son of Agamemnon &amp; Clytemnestra; avenged his father by killing Clytemnestra &amp; Aegisthus; pursued by the Furies, later king of Mycenae/Argos · LEGENDARY"
+    },
+    {
+     "id": "MYC_IPHIGENIA",
+     "label": "Iphigenia<br/>c.1258 BC · daughter of Agamemnon &amp; Clytemnestra; sacrificed (or spirited away by Artemis) at Aulis to raise the winds for Troy · LEGENDARY"
+    },
+    {
+     "id": "MYC_ELECTRA",
+     "label": "Electra<br/>c.1256 BC · daughter of Agamemnon &amp; Clytemnestra; kept faith with the dead Agamemnon &amp; spurred Orestes to avenge him · LEGENDARY"
+    },
+    {
+     "id": "MYC_CHRYSOTHEMIS",
+     "label": "Chrysothemis<br/>c.1257 BC · daughter of Agamemnon &amp; Clytemnestra; the compliant sister who, unlike Electra, submitted to the usurpers · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "HOUSE OF ATREUS (LEGENDARY) — Menelaus x Helen (Leda's daughter, defined above) and their daughter Hermione.",
+   "a": "MYC_MENELAUS",
+   "b": "MYC_HELEN",
+   "children": [
+    {
+     "id": "MYC_HERMIONE",
+     "label": "Hermione<br/>c.1258 BC · daughter of Menelaus &amp; Helen of Sparta; later wife of Orestes (and, in some tellings, of Neoptolemus) · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "HOUSE OF ATREUS (LEGENDARY) — Thyestes (existing, brother-rival of Atreus) to Aegisthus. Received myth makes Aegisthus the son of Thyestes by his own daughter Pelopia; the incest is noted in the label rather than drawn.",
+   "a": "MYC_THYESTES",
+   "b": {
+    "id": "MYC_PELOPIA",
+    "label": "Pelopia<br/>c.1300 BC · daughter of Thyestes; by her own father she bore Aegisthus — the incest that continued the curse of the House of Pelops · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_AEGISTHUS",
+     "label": "👑 Aegisthus<br/>c.1285 BC · son of Thyestes (by his daughter Pelopia); seized Clytemnestra &amp; the throne of Mycenae — the usurper; with her murdered Agamemnon, and was later slain by Orestes · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "HOUSE OF ATREUS (LEGENDARY) — the usurpation: Aegisthus took Clytemnestra (wife of the absent Agamemnon) as consort & ruled Mycenae with her. Union only; together they killed Agamemnon.",
+   "a": "MYC_AEGISTHUS",
+   "b": "MYC_CLYTEMNESTRA",
+   "children": []
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — the founder: Zeus (existing deity) x Electra the Pleiad > Dardanus, who founded Dardania on the Troad. (This Electra is the Pleiad, distinct from Agamemnon's daughter MYC_ELECTRA.)",
+   "a": "CRE_ZEUS",
+   "b": {
+    "id": "TRO_ELECTRA",
+    "label": "Electra<br/>c.1400 BC · the Pleiad, daughter of Atlas; by Zeus she bore Dardanus, founder of the Trojan royal line · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_DARDANUS",
+     "label": "👑 Dardanus<br/>c.1380 BC · son of Zeus &amp; Electra; founder of Dardania on the Troad &amp; the ancestor of the Trojan kings; eponym of the Dardanelles · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — Dardanus to Erichthonius, said to be the richest of mortal men.",
+   "a": "TRO_DARDANUS",
+   "b": {
+    "id": "TRO_BATEA",
+    "label": "Batea<br/>c.1378 BC · daughter of Teucer, first king of the Troad; wife of Dardanus; mother of Erichthonius · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_ERICHTHONIUS",
+     "label": "👑 Erichthonius<br/>c.1360 BC · son of Dardanus; king of Dardania, said to be the wealthiest of men, lord of three thousand mares; father of Tros · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — Erichthonius to Tros, who gave his name to Troy and the Trojans.",
+   "a": "TRO_ERICHTHONIUS",
+   "b": {
+    "id": "TRO_ASTYOCHE",
+    "label": "Astyoche<br/>c.1358 BC · daughter of the river-god Simoeis; wife of Erichthonius; mother of Tros · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_TROS",
+     "label": "👑 Tros<br/>c.1340 BC · son of Erichthonius; king who gave his name to Troy (Troia) &amp; the Trojans; father of Ilus, Assaracus &amp; Ganymede · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — Tros to his three sons: Ilus (the senior/royal line), Assaracus (the junior line toward Aeneas) & Ganymede.",
+   "a": "TRO_TROS",
+   "b": {
+    "id": "TRO_CALLIRRHOE",
+    "label": "Callirrhoe<br/>c.1338 BC · daughter of the river-god Scamander; wife of Tros; mother of Ilus, Assaracus &amp; Ganymede · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_ILUS",
+     "label": "👑 Ilus<br/>c.1320 BC · son of Tros; founder of Ilion/Ilium (the city of Troy proper); father of Laomedon; the senior royal line · LEGENDARY"
+    },
+    {
+     "id": "TRO_ASSARACUS",
+     "label": "👑 Assaracus<br/>c.1318 BC · son of Tros; king of Dardania &amp; head of the junior Dardanian branch that runs Capys > Anchises > Aeneas · LEGENDARY"
+    },
+    {
+     "id": "TRO_GANYMEDE",
+     "label": "Ganymede<br/>c.1316 BC · son of Tros; the most beautiful of mortals, seized by Zeus (as an eagle) to be cup-bearer of the gods on Olympus · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — Ilus to Laomedon, the treacherous king who cheated Apollo, Poseidon & Heracles.",
+   "a": "TRO_ILUS",
+   "b": {
+    "id": "TRO_EURYDICE",
+    "label": "Eurydice<br/>c.1318 BC · daughter of Adrastus; wife of Ilus of Troy; mother of Laomedon (distinct from the Perseid Eurydice of Mycenae) · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_LAOMEDON",
+     "label": "👑 Laomedon<br/>c.1300 BC · son of Ilus; king of Troy who built its great walls with Apollo &amp; Poseidon then cheated them &amp; Heracles; father of Priam &amp; Hesione · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — Laomedon to Priam (the last king of Troy) & Hesione (given to Telamon of Salamis when Heracles sacked Troy).",
+   "a": "TRO_LAOMEDON",
+   "b": {
+    "id": "TRO_STRYMO",
+    "label": "Strymo<br/>c.1298 BC · daughter of the river-god Scamander; wife of Laomedon; mother of Priam &amp; Hesione · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_PRIAM",
+     "label": "👑 Priam<br/>c.1280 BC · son of Laomedon; the last king of Troy; father of Hector, Paris &amp; some fifty children; slain by Neoptolemus at the city's fall · LEGENDARY"
+    },
+    {
+     "id": "TRO_HESIONE",
+     "label": "Hesione<br/>c.1278 BC · daughter of Laomedon; rescued from a sea-monster by Heracles then given to Telamon of Salamis; mother of Teucer the archer · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — Priam x Hecuba and the famous children (of the ~50 attributed to Priam).",
+   "a": "TRO_PRIAM",
+   "b": {
+    "id": "TRO_HECUBA",
+    "label": "Hecuba<br/>c.1278 BC · chief queen of Troy, wife of Priam; mother of Hector, Paris, Cassandra &amp; many more; her grief became the archetype of the fall of Troy · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_HECTOR",
+     "label": "👑 Hector<br/>c.1250 BC · eldest son of Priam &amp; Hecuba; heir of Troy &amp; its greatest warrior; killed Patroclus, was slain by Achilles &amp; dragged round the walls · LEGENDARY"
+    },
+    {
+     "id": "TRO_PARIS",
+     "label": "Paris (Alexandros)<br/>c.1248 BC · son of Priam &amp; Hecuba; his abduction of Helen began the war; awarded the golden apple, he slew Achilles with an arrow · LEGENDARY"
+    },
+    {
+     "id": "TRO_CASSANDRA",
+     "label": "Cassandra<br/>c.1246 BC · daughter of Priam &amp; Hecuba; prophetess cursed by Apollo to foresee truly yet never be believed; taken as spoil by Agamemnon · LEGENDARY"
+    },
+    {
+     "id": "TRO_DEIPHOBUS",
+     "label": "Deiphobus<br/>c.1252 BC · son of Priam &amp; Hecuba; a leading Trojan warrior who married Helen after Paris's death; killed at the sack of Troy · LEGENDARY"
+    },
+    {
+     "id": "TRO_HELENUS",
+     "label": "Helenus<br/>c.1246 BC · son of Priam &amp; Hecuba; seer &amp; twin of Cassandra; survived the war &amp; later ruled in Epirus, wedding Andromache · LEGENDARY"
+    },
+    {
+     "id": "TRO_POLYXENA",
+     "label": "Polyxena<br/>c.1244 BC · daughter of Priam &amp; Hecuba; sacrificed on the tomb of Achilles after the fall of Troy · LEGENDARY"
+    },
+    {
+     "id": "TRO_TROILUS",
+     "label": "Troilus<br/>c.1242 BC · young son of Priam &amp; Hecuba; his death at Achilles' hands was fated to seal Troy's doom; hero of the later Troilus &amp; Cressida legend · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — Hector x Andromache and their son Astyanax, thrown from the walls at the city's fall.",
+   "a": "TRO_HECTOR",
+   "b": {
+    "id": "TRO_ANDROMACHE",
+    "label": "Andromache<br/>c.1250 BC · wife of Hector; princess of Cilician Thebe; after Troy fell she was taken by Neoptolemus, later wed Helenus · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_ASTYANAX",
+     "label": "Astyanax (Scamandrius)<br/>c.1225 BC · infant son of Hector &amp; Andromache; hurled from the walls of Troy by the Greeks so no heir of Hector would survive · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "CROSS-HOUSE LINK (LEGENDARY) — the cause of the war: Paris of Troy carried off Helen (Menelaus's wife, Leda's daughter). Union of the two royal houses; drawn without issue (their children died in infancy in most tellings).",
+   "a": "TRO_PARIS",
+   "b": "MYC_HELEN",
+   "children": []
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — the junior branch: Assaracus to Capys.",
+   "a": "TRO_ASSARACUS",
+   "b": {
+    "id": "TRO_HIEROMNEME",
+    "label": "Hieromneme<br/>c.1316 BC · daughter of the river-god Simoeis; wife of Assaracus; mother of Capys · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_CAPYS",
+     "label": "👑 Capys<br/>c.1300 BC · son of Assaracus; king of Dardania; father of Anchises · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — Capys to Anchises, beloved of the goddess Aphrodite.",
+   "a": "TRO_CAPYS",
+   "b": {
+    "id": "TRO_THEMISTE",
+    "label": "Themiste<br/>c.1298 BC · daughter of Ilus &amp; sister of Laomedon; wife of Capys; mother of Anchises · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_ANCHISES",
+     "label": "👑 Anchises<br/>c.1280 BC · son of Capys; Dardanian prince &amp; herdsman of Mount Ida; loved by Aphrodite, to whom he fathered Aeneas; borne from burning Troy on his son's shoulders · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY & THE DARDANIANS (LEGENDARY) — Anchises x the goddess Aphrodite > AENEAS, who fled Troy and became the legendary ancestor of the Romans. (Aphrodite is a new deity node; grouped with the existing CRE_ deity set alongside Zeus.) FUTURE-SLAB LINK: Aeneas > Ascanius/Iulus > the Alban kings > Romulus ties this house forward to the founding of Rome (ANTIQUITY house).",
+   "a": "TRO_ANCHISES",
+   "b": {
+    "id": "CRE_APHRODITE",
+    "label": "Aphrodite<br/>c.1300 BC · goddess of love &amp; beauty; loved the Dardanian prince Anchises &amp; bore him Aeneas, as told in the Homeric Hymn to Aphrodite · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "TRO_AENEAS",
+     "label": "👑 Aeneas<br/>c.1250 BC · son of Anchises &amp; the goddess Aphrodite; Dardanian hero who fled burning Troy carrying his father; the LEGENDARY ancestor of the Romans — his son Ascanius/Iulus founded Alba Longa &amp; the Julii claimed his line · LEGENDARY"
+    }
+   ]
+  }
+ ]
+}

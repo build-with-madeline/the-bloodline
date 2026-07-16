@@ -1,0 +1,163 @@
+{
+ "_note": "Slab c.1320-1200 BC — the Hittite empire at its zenith and the Bronze Age climax, built around the MARQUEE CROSS-LINE BRIDGE: the Egyptian-Hittite peace marriage. Prefixes: Hittite=HIT_, Assyria=AS_, Kassite Babylon=BAB_. Extends the existing tails HIT_MURSILI2 (Hittite), EG_RAMESSES2 (Egypt), BAB_KURIGALZU2 (Kassite Babylon), referenced as strings and NOT recreated. THREAD 1 HITTITE (from HIT_MURSILI2): Mursili II's sons Muwatalli II (who fought Ramesses II at the Battle of Kadesh, 1274 BC) and Hattusili III (the younger son who would usurp the throne); Muwatalli II > Urhi-Teshub / Mursili III (his son, who succeeded then was DEPOSED by his uncle Hattusili III); Hattusili III (REAL son of Mursili II, uncle of the deposed Urhi-Teshub) & his powerful queen Puduhepa; their children Tudhaliya IV and the princess Maathorneferure; Tudhaliya IV > Arnuwanda III and his brother Suppiluliuma II, the LAST Hittite Great King, ~1200 BC, on the eve of the Bronze Age collapse. THREAD 2 THE PEACE MARRIAGE (the cross-line connection, Hittite x Egypt): Maathorneferure, daughter of Hattusili III & Puduhepa, was sent to Egypt and married Ramesses II in his regnal year 34 (~1245 BC), sealing the peace that had begun with the world's first known peace treaty (Hattusili III & Ramesses II, 1259 BC); a SECOND Hittite daughter was sent later in a further diplomatic marriage (noted, not drawn as a distinct node). THREAD 3 ASSYRIA note only: the Middle Assyrian chain (Adad-nirari I > Shalmaneser I > Tukulti-Ninurta I) is ALREADY complete in 10c_assyria.json, so nothing structural is added here to avoid double-parenting; the Assyria-Babylon link is by CONQUEST, not marriage: Tukulti-Ninurta I of Assyria defeated and captured Kashtiliash IV of Babylon ~1225 BC (carried in Kashtiliash IV's label, THREAD 4). THREAD 4 KASSITE BABYLON (from BAB_KURIGALZU2): Kurigalzu II > Nazi-Maruttash > Kadashman-Turgu > Kadashman-Enlil II (correspondent of Hattusili III of Hatti — a Babylon-Hittite diplomatic link) > Kudur-Enlil > Shagarakti-Shuriash > Kashtiliash IV, defeated & captured by Tukulti-Ninurta I of Assyria ~1225 BC. Note BAB_KADASHMANENLIL1 (Kadashman-Enlil I) already exists and is distinct from the new BAB_KADASHMANENLIL2 (Kadashman-Enlil II). Middle-chronology dates; every child year is smaller than its parent's. Web-verified against Wikipedia 'Muwatalli II', 'Mursili III', 'Hattusili III', 'Puduhepa', 'Tudhaliya IV', 'Suppiluliuma II', 'Maathorneferure', 'Egyptian-Hittite peace treaty', 'Nazi-Maruttash', 'Kadashman-Turgu', 'Kadashman-Enlil II', 'Kashtiliash IV', 'Tukulti-Ninurta I', 'Kassite dynasty'. No fabrication; uncertainty flagged where present.",
+ "families": [
+  {
+   "note": "HITTITE — the two sons of Mursili II (existing tail): Muwatalli II, the Kadesh king, and his younger brother Hattusili III, the future usurper.",
+   "a": "HIT_MURSILI2",
+   "b": {
+    "id": "HIT_MURSILI2_KW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_MUWATALLI2",
+     "label": "👑 Muwatalli II<br/>c.1295 BC · Great King of the Hittites; son of Mursili II (REAL father-son); fought Ramesses II of Egypt to a standstill at the Battle of Kadesh, 1274 BC; moved the capital to Tarhuntassa · historical"
+    },
+    {
+     "id": "HIT_HATTUSILI3",
+     "label": "👑 Hattusili III<br/>c.1267 BC · Great King of the Hittites; younger son of Mursili II (REAL father-son); as viceroy he deposed his nephew Urhi-Teshub &amp; usurped the throne; made the world's first known PEACE TREATY, with Ramesses II of Egypt, 1259 BC · historical"
+    }
+   ]
+  },
+  {
+   "note": "HITTITE — Muwatalli II to his son Urhi-Teshub (Mursili III), who succeeded him and was then deposed by his uncle Hattusili III.",
+   "a": "HIT_MUWATALLI2",
+   "b": {
+    "id": "HIT_MUWATALLI2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_URHITESHUB",
+     "label": "👑 Urhi-Teshub (Mursili III)<br/>c.1272 BC · Great King of the Hittites; son of Muwatalli II (REAL father-son); succeeded his father but was DEPOSED after ~7 years by his uncle Hattusili III &amp; exiled · historical"
+    }
+   ]
+  },
+  {
+   "note": "HITTITE — Hattusili III & his powerful queen Puduhepa (added here); their children Tudhaliya IV (heir) and the princess Maathorneferure (sent to Egypt — see the peace-marriage family below).",
+   "a": "HIT_HATTUSILI3",
+   "b": {
+    "id": "HIT_PUDUHEPA",
+    "label": "👑 Puduhepa<br/>c.1265 BC · Great Queen (Tawananna) of Hatti; daughter of a priest of Kizzuwatna; wife of Hattusili III &amp; one of the most powerful women of the ancient Near East, co-sealing treaties &amp; corresponding with Egypt in her own name · historical"
+   },
+   "children": [
+    {
+     "id": "HIT_MAATHORNEFERURE",
+     "label": "Maathorneferure<br/>c.1260 BC · Hittite princess, daughter of Hattusili III &amp; Puduhepa (REAL parents); sent to Egypt &amp; married to Ramesses II (~1245 BC) as King's Great Wife, sealing the Egyptian-Hittite peace · historical"
+    },
+    {
+     "id": "HIT_TUDHALIYA4",
+     "label": "👑 Tudhaliya IV<br/>c.1237 BC · Great King of the Hittites; son of Hattusili III &amp; Puduhepa (REAL parents); built the Yazilikaya rock sanctuary; lost the Battle of Nihriya to Assyria's Tukulti-Ninurta I · historical"
+    }
+   ]
+  },
+  {
+   "note": "HITTITE — Tudhaliya IV to his two sons who reigned in turn: Arnuwanda III, then Suppiluliuma II, the LAST Hittite Great King before the Bronze Age collapse (~1200 BC).",
+   "a": "HIT_TUDHALIYA4",
+   "b": {
+    "id": "HIT_TUDHALIYA4W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "HIT_ARNUWANDA3",
+     "label": "👑 Arnuwanda III<br/>c.1215 BC · Great King of the Hittites; son of Tudhaliya IV (REAL father-son); reigned only briefly &amp; died without an heir · historical"
+    },
+    {
+     "id": "HIT_SUPPILULIUMA2",
+     "label": "👑 Suppiluliuma II<br/>c.1210 BC · the LAST attested Great King of the Hittites; son of Tudhaliya IV (REAL father-son); won the first known naval battle (off Cyprus) but presided over the fall of Hattusa in the Bronze Age collapse, ~1200 BC · historical"
+    }
+   ]
+  },
+  {
+   "note": "CROSS-HOUSE MARRIAGE (Hittite x Egypt) — THE MARQUEE PEACE MARRIAGE: Maathorneferure, daughter of Hattusili III & Puduhepa, married Ramesses II (existing) in his year 34, ~1245 BC, sealing the peace begun by the 1259 BC treaty. A second Hittite daughter was later sent in a further marriage (noted). Union only; no issue drawn.",
+   "a": "HIT_MAATHORNEFERURE",
+   "b": "EG_RAMESSES2",
+   "children": []
+  },
+  {
+   "note": "KASSITE BABYLON — Kurigalzu II (existing tail) to his son Nazi-Maruttash, whose reign was the peak of the Kassite dynasty.",
+   "a": "BAB_KURIGALZU2",
+   "b": {
+    "id": "BAB_KURIGALZU2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_NAZIMARUTTASH",
+     "label": "👑 Nazi-Maruttash<br/>c.1307 BC · King of Kassite Babylon; son of Kurigalzu II (REAL father-son); campaigned against Assyria &amp; Elam; his reign marks the peak of the dynasty · historical"
+    }
+   ]
+  },
+  {
+   "note": "KASSITE BABYLON — Nazi-Maruttash to his son Kadashman-Turgu, correspondent of Hattusili III of Hatti.",
+   "a": "BAB_NAZIMARUTTASH",
+   "b": {
+    "id": "BAB_NAZIMARUTTASHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KADASHMANTURGU",
+     "label": "👑 Kadashman-Turgu<br/>c.1281 BC · King of Kassite Babylon; son of Nazi-Maruttash (REAL father-son); ally of Hattusili III of Hatti against Egypt · historical"
+    }
+   ]
+  },
+  {
+   "note": "KASSITE BABYLON — Kadashman-Turgu to his son Kadashman-Enlil II (distinct from the earlier Kadashman-Enlil I already in the tree), who corresponded with Hattusili III of Hatti (a Babylon-Hittite diplomatic link).",
+   "a": "BAB_KADASHMANTURGU",
+   "b": {
+    "id": "BAB_KADASHMANTURGUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KADASHMANENLIL2",
+     "label": "👑 Kadashman-Enlil II<br/>c.1263 BC · King of Kassite Babylon; son of Kadashman-Turgu (REAL father-son); came to the throne young &amp; exchanged the famous diplomatic letters with Hattusili III of Hatti (Babylon-Hittite link) · historical"
+    }
+   ]
+  },
+  {
+   "note": "KASSITE BABYLON — Kadashman-Enlil II to his son Kudur-Enlil.",
+   "a": "BAB_KADASHMANENLIL2",
+   "b": {
+    "id": "BAB_KADASHMANENLIL2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KUDURENLIL",
+     "label": "👑 Kudur-Enlil<br/>c.1254 BC · King of Kassite Babylon; son of Kadashman-Enlil II (REAL father-son); a period of temple-building &amp; economic activity · historical"
+    }
+   ]
+  },
+  {
+   "note": "KASSITE BABYLON — Kudur-Enlil to his son Shagarakti-Shuriash.",
+   "a": "BAB_KUDURENLIL",
+   "b": {
+    "id": "BAB_KUDURENLILW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_SHAGARAKTISHURIASH",
+     "label": "👑 Shagarakti-Shuriash<br/>c.1245 BC · King of Kassite Babylon; son of Kudur-Enlil (REAL father-son); his name means 'the Sun-god gives life' · historical"
+    }
+   ]
+  },
+  {
+   "note": "KASSITE BABYLON — Shagarakti-Shuriash to his son Kashtiliash IV, whose defeat by Assyria is the Assyria-Babylon link BY CONQUEST (no marriage; none fabricated).",
+   "a": "BAB_SHAGARAKTISHURIASH",
+   "b": {
+    "id": "BAB_SHAGARAKTISHURIASHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_KASHTILIASH4",
+     "label": "👑 Kashtiliash IV<br/>c.1232 BC · King of Kassite Babylon; son of Shagarakti-Shuriash (REAL father-son); DEFEATED &amp; captured by Tukulti-Ninurta I of Assyria ~1225 BC, who sacked Babylon &amp; carried off the statue of Marduk (Assyria-Babylon link by conquest, not marriage) · historical"
+    }
+   ]
+  }
+ ]
+}

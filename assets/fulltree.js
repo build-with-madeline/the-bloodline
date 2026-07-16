@@ -184,10 +184,13 @@
   const cardH = {}; ids.forEach(p => cardH[p] = cardEls[p].offsetHeight);   // measured, variable per card
 
   // vertical: each row is as tall as its tallest card, with a routing band below it
-  const rowH = byLane.map(row => Math.max(1, ...row.map(p => cardH[p])));
-  const GAPB = 42, PXY = 2.4;
+  // Empty lanes (the constraint loop creates thousands, to keep parent-above-child ordering)
+  // take ZERO vertical space, so only the ~330 populated rows stack. Pure compact stacking —
+  // the era labels still show each row's year, but we don't stretch by absolute time.
+  const rowH = byLane.map(row => row.length ? Math.max(...row.map(p => cardH[p])) : 0);
+  const GAPB = 46;
   const laneY = [0];
-  for (let r = 1; r < laneYear.length; r++) laneY[r] = Math.max(laneY[r - 1] + rowH[r - 1] + GAPB, (laneYear[r] - laneYear[0]) * PXY);
+  for (let r = 1; r < laneYear.length; r++) laneY[r] = laneY[r - 1] + (rowH[r - 1] > 0 ? rowH[r - 1] + GAPB : 0);
   ids.forEach(p => pos[p].y = laneY[lane[p]]);
 
   // ---- separate disconnected bloodlines ----
@@ -246,8 +249,10 @@
   const minX = Math.min(...ids.map(p => pos[p].x)) - PAD, minY = Math.min(...ids.map(p => pos[p].y)) - PAD;
   const W = Math.max(...ids.map(p => pos[p].x)) + CW + PAD - minX, H = Math.max(...ids.map(p => pos[p].y + cardH[p])) + PAD - minY;
   ids.forEach(p => { pos[p].x -= minX; pos[p].y -= minY; cardEls[p].style.left = pos[p].x + 'px'; cardEls[p].style.top = pos[p].y + 'px'; });
-  const _mx = ids.filter(p => mainSet && mainSet.has(p)).map(p => pos[p].x);
+  const _main = ids.filter(p => mainSet && mainSet.has(p));
+  const _mx = _main.map(p => pos[p].x);
   const mainCx = _mx.length ? (Math.min(..._mx) + Math.max(..._mx) + CW) / 2 : W / 2;   // horizontal center of the main tree
+  const mainCy = _main.length ? _main.reduce((a, p) => a + pos[p].y, 0) / _main.length : H / 2;  // vertical center of MASS (lands in a dense era, not the sparse antediluvian top)
   stage.style.width = W + 'px'; stage.style.height = H + 'px';
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('width', W); svg.setAttribute('height', H);
 
@@ -257,6 +262,7 @@
   const fmtYear = y => y < 0 ? (-y + ' BC') : (y < 1000 ? y + ' AD' : y);
   let axis = '';
   byLane.forEach((row, r) => {
+    if (!row.length) return;                                 // skip the thousands of empty lanes
     const gy = (laneY[r] - minY) - 12;
     axis += `<text x="16" y="${gy}" fill="#c7a24f" fill-opacity="0.7" font-size="15" font-family="-apple-system,sans-serif">c.&#8202;${fmtYear(laneYear[r])}</text>`;
   });
@@ -339,9 +345,9 @@
     // A ~200-generation tree is far taller than wide; fitting the whole height
     // collapses cards to slivers. Floor the zoom so the overview stays legible and
     // start at the top (the earliest people) when the tree overflows the viewport.
-    scale = Math.max(Math.min(cw / W, ch / H) * 0.94, 0.15);
+    scale = Math.max(Math.min(cw / W, ch / H) * 0.94, 0.18);
     tx = cw / 2 - mainCx * scale;                          // center on the MAIN tree, not the island gallery
-    ty = (H * scale <= ch) ? (ch - H * scale) / 2 : 20;
+    ty = (H * scale <= ch) ? (ch - H * scale) / 2 : (ch / 2 - mainCy * scale);  // center on the dense middle, not the empty top
     apply();
   }
   function focusPerson(pid, highlight) {

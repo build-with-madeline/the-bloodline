@@ -4,7 +4,10 @@
   {
    "note": "EGYPT 22ND DYNASTY (1 of 6). EG_THIRDINTERMEDIATE (existing bridge, referenced by id, NOT re-parented — it already parents EG_PIYE and EG_SMENDES1) & a '—' consort; the founder Shoshenq I as child. He is the biblical Shishak.",
    "a": "EG_THIRDINTERMEDIATE",
-   "b": {"id": "EG_TIP22W", "label": "—"},
+   "b": {
+    "id": "EG_TIP22W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "EG_SHOSHENQ1",
@@ -15,7 +18,10 @@
   {
    "note": "EGYPT 22ND DYNASTY (2 of 6) — Shoshenq I's secondary marriage. EG_SHOSHENQ1 & Patareshnes (Penreshnes), a secondary queen &amp; daughter of an unnamed Libyan chief — an accurate LIBYAN tie, not a royal-line one; their son Nimlot B as child. (The tie into the old 21st-Dynasty royal line came a generation later, through Osorkon I's marriage to Maatkare — see family 5.)",
    "a": "EG_SHOSHENQ1",
-   "b": {"id": "EG_PATARESHNES", "label": "Patareshnes (Penreshnes)<br/>c.940 BC · secondary queen consort of Shoshenq I · daughter of an unnamed Libyan chief; mother of Nimlot B · historical"},
+   "b": {
+    "id": "EG_PATARESHNES",
+    "label": "Patareshnes (Penreshnes)<br/>c.940 BC · secondary queen consort of Shoshenq I · daughter of an unnamed Libyan chief; mother of Nimlot B · historical"
+   },
    "children": [
     {
      "id": "EG_NIMLOTB",
@@ -26,7 +32,10 @@
   {
    "note": "EGYPT 22ND DYNASTY (3 of 6) — succession spine. EG_SHOSHENQ1 & a '—' consort (his chief queen Karomat A); his son &amp; successor Osorkon I as child.",
    "a": "EG_SHOSHENQ1",
-   "b": {"id": "EG_SHOSHENQ1W", "label": "—"},
+   "b": {
+    "id": "EG_SHOSHENQ1W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "EG_OSORKON1",
@@ -37,7 +46,10 @@
   {
    "note": "EGYPT 21ST-DYNASTY DAUGHTER — drawn ONCE. EG_PSUSENNES2 (existing last king of the 21st Dynasty, referenced by id, NOT re-parented — a leaf in 20b) & a '—' consort; his daughter Maatkare B as child. She marries into the 22nd Dynasty in the next family.",
    "a": "EG_PSUSENNES2",
-   "b": {"id": "EG_PSUSENNES2W", "label": "—"},
+   "b": {
+    "id": "EG_PSUSENNES2W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "EG_MAATKARE",
@@ -59,7 +71,10 @@
   {
    "note": "EGYPT 22ND DYNASTY (4 of 6) — succession spine. EG_OSORKON1 & a '—' consort (queen Tashedkhons); his son &amp; successor Takelot I as child. (Osorkon I is reused as a parent here; drawn once as a child in family 3.)",
    "a": "EG_OSORKON1",
-   "b": {"id": "EG_OSORKON1W", "label": "—"},
+   "b": {
+    "id": "EG_OSORKON1W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "EG_TAKELOT1",
@@ -70,7 +85,10 @@
   {
    "note": "EGYPT 22ND DYNASTY (5 of 6). EG_TAKELOT1 & a '—' consort (queen Kapes); his son &amp; successor Osorkon II as child.",
    "a": "EG_TAKELOT1",
-   "b": {"id": "EG_TAKELOT1W", "label": "—"},
+   "b": {
+    "id": "EG_TAKELOT1W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "EG_OSORKON2",
@@ -81,7 +99,10 @@
   {
    "note": "EGYPT 22ND DYNASTY (6 of 6) — close of this slab. EG_OSORKON2 & a '—' consort; Shoshenq III as successor. FLAGGED: Shoshenq III succeeded Osorkon II but his exact filiation is debated — he may not have been a direct son (succession, not certain descent).",
    "a": "EG_OSORKON2",
-   "b": {"id": "EG_OSORKON2W", "label": "—"},
+   "b": {
+    "id": "EG_OSORKON2W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "EG_SHOSHENQ3",
@@ -92,7 +113,10 @@
   {
    "note": "NEO-ASSYRIAN REVIVAL — the one missing link. AS_ADADNIRARI2 (existing Neo-Assyrian king in 10c, referenced by id, NOT re-parented — it already parents AS_ASHURNASIRPAL2) & a '—' consort; his son Tukulti-Ninurta II as child. Ashur-dan II &amp; Adad-nirari II &amp; Ashurnasirpal II already exist and are NOT recreated. Tukulti-Ninurta II's own son Ashurnasirpal II is noted in-label (drawn in the existing chain), so no existing king is double-parented.",
    "a": "AS_ADADNIRARI2",
-   "b": {"id": "AS_TUKULTININURTA2W", "label": "—"},
+   "b": {
+    "id": "AS_TUKULTININURTA2W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "AS_TUKULTININURTA2",
@@ -103,7 +127,10 @@
   {
    "note": "PHOENICIA / TYRE (1 of 5). PHO_HIRAM1 (existing king of Tyre, referenced by id, NOT re-parented) & a '—' consort; his son &amp; successor Baal-Eser I as child (Josephus/Menander king-list).",
    "a": "PHO_HIRAM1",
-   "b": {"id": "PHO_HIRAM1W", "label": "—"},
+   "b": {
+    "id": "PHO_HIRAM1W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "PHO_BAALESER1",
@@ -114,7 +141,10 @@
   {
    "note": "PHOENICIA / TYRE (2 of 5). PHO_BAALESER1 & a '—' consort; his son &amp; successor Abdastartus as child. Abdastartus was assassinated by the four sons of his nurse, opening the usurper interlude compressed in the next node.",
    "a": "PHO_BAALESER1",
-   "b": {"id": "PHO_BAALESER1W", "label": "—"},
+   "b": {
+    "id": "PHO_BAALESER1W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "PHO_ABDASTARTUS",
@@ -125,7 +155,10 @@
   {
    "note": "PHOENICIA / TYRE (3 of 5) — bridge node compressing the usurper interlude (no crown). PHO_ABDASTARTUS & a '—' consort; the bridge as child. It stands for the four sons of Abdastartus's nurse who reigned in succession — Astartus, Deleastartus, Astharymus (Aserymus) &amp; Phelles — before Ithobaal I seized power.",
    "a": "PHO_ABDASTARTUS",
-   "b": {"id": "PHO_TYREUSURPERSW", "label": "—"},
+   "b": {
+    "id": "PHO_TYREUSURPERSW",
+    "label": "—"
+   },
    "children": [
     {
      "id": "PHO_TYREUSURPERS",
@@ -136,7 +169,10 @@
   {
    "note": "PHOENICIA / TYRE (4 of 5) — the father of Jezebel. PHO_TYREUSURPERS bridge & a '—' consort; Ithobaal I as successor. FLAGGED usurpation, NOT descent: Ithobaal was a priest of Astarte who murdered Phelles &amp; seized the throne, uniting Tyre &amp; Sidon.",
    "a": "PHO_TYREUSURPERS",
-   "b": {"id": "PHO_ITHOBAAL1W", "label": "—"},
+   "b": {
+    "id": "PHO_ITHOBAAL1W",
+    "label": "—"
+   },
    "children": [
     {
      "id": "PHO_ITHOBAAL1",
@@ -147,12 +183,12 @@
   {
    "note": "PHOENICIA / TYRE (5 of 5) — the Jezebel link, made ready for a future slab. PHO_ITHOBAAL1 & a '—' consort; his daughter Jezebel as child (leaf). Her marriage to King Ahab of Israel is a CROSS-LINE marriage that belongs to a LATER slab (Ahab is not yet in the tree here); she is created now so that union can be drawn later.",
    "a": "PHO_ITHOBAAL1",
-   "b": {"id": "PHO_ITHOBAAL1W2", "label": "—"},
+   "b": {
+    "id": "PHO_ITHOBAAL1W2",
+    "label": "—"
+   },
    "children": [
-    {
-     "id": "PHO_JEZEBEL",
-     "label": "Jezebel<br/>c.870 BC · Phoenician princess of Tyre · daughter of Ithobaal I · WILL marry King Ahab of Israel (a future-slab cross-line marriage between the Tyrian &amp; Israelite houses); brought the cult of Baal-Melqart to Samaria, becoming the archetypal antagonist of the prophet Elijah · historical"
-    }
+    "JEZEBEL"
    ]
   }
  ]

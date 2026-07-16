@@ -1,0 +1,29 @@
+{
+  "_note": "The Divided Kingdom in detail (~900-800 BC), four threads. (1) JUDAH'S REAL KINGS that Matthew 1 skips: the existing spine already jumps Joram->Uzziah with a card noting '3 kings omitted in Matthew', so the three omitted Davidic kings are added here as a PARALLEL real line WITHOUT re-parenting the existing UZZIAH. Joram of Judah + Athaliah (existing empty family, so this APPENDS) -> Ahaziah of Judah (killed by Jehu, 2 Kings 9); then Athaliah usurped the throne; the rescued infant heir Joash/Jehoash (mother Zibiah of Beersheba, 2 Kings 12:1) -> Amaziah (mother Jehoaddan of Jerusalem, 2 Kings 14:2). Amaziah was historically Uzziah's father but is NOT joined to Uzziah here, to avoid double-parenting the compressed Matthew line; flagged on his card. Joash's rescuers, the high priest Jehoiada and his aunt Jehosheba (daughter of King Joram, sister of Ahaziah, 2 Chron 22:11), are added as their own married pair. (2) THE PROPHETS of this era, standalone: Elijah the Tishbite of Gilead (opposed Ahab & Jezebel and Baal worship, 1 Kings 17-2 Kings 2), and Elisha son of Shaphat of Abel-meholah, his successor (1 Kings 19). (3) THE JEHU DYNASTY of the north (Jehu->Jehoahaz->Jehoash->Jeroboam II->Zechariah) is ALREADY fully built as a succession chain in 10a_israel.json, so it is not duplicated here. (4) MOAB: King Mesha of the Mesha Stele (Moabite Stone), who rebelled against Israel after Ahab's death (2 Kings 3), son of King Kemosh-yat per the stele; attached to the existing Moabite founder MOAB via a flagged ethnic bridge (Kemosh-yat is a distant descendant, not a literal son; ~1000+ yrs elided). Dates approximate (Thiele reign years) and decrease down each descent. Sorts after 10a/07_biblical/07k so JORAM, ATHALIAH, MOAB exist first.",
+  "families": [
+    {"a": "JORAM", "b": "ATHALIAH", "children": [
+      {"id": "AHAZIAHJUDAH", "label": "👑 Ahaziah of Judah<br/>c.860 BC · King of Judah, son of Joram &amp; Athaliah; reigned ~841 BC, killed by Jehu · 2 Kings 8-9"}
+    ]},
+    {"a": "AHAZIAHJUDAH", "b": {"id": "ZIBIAH", "label": "Zibiah of Beersheba<br/>wife of Ahaziah; mother of Joash · 2 Kings 12:1"}, "children": [
+      {"id": "JOASHJUDAH", "label": "👑 Joash (Jehoash) of Judah<br/>c.843 BC · King of Judah; rescued as an infant &amp; hidden from Athaliah's purge, later crowned; reigned ~835-796 BC · 2 Kings 11-12"}
+    ]},
+    {"a": "JOASHJUDAH", "b": {"id": "JEHOADDAN", "label": "Jehoaddan of Jerusalem<br/>wife of Joash; mother of Amaziah · 2 Kings 14:2"}, "children": [
+      {"id": "AMAZIAH", "label": "👑 Amaziah<br/>c.820 BC · King of Judah; reigned ~796-767 BC · 2 Kings 14<br/>(historically the father of Uzziah, but the tree follows Matthew's compressed Joram→Uzziah line, so not re-parented here)"}
+    ]},
+
+    {"a": {"id": "JEHOIADA", "label": "Jehoiada<br/>c.885 BC · high priest who hid the infant Joash six years, overthrew Athaliah &amp; crowned Joash king · 2 Kings 11, 2 Chron 22-24"}, "b": {"id": "JEHOSHEBA", "label": "Jehosheba (Jehoshabeath)<br/>c.865 BC · daughter of King Joram of Judah &amp; sister of Ahaziah; wife of the priest Jehoiada; rescued the infant Joash from Athaliah · 2 Kings 11:2, 2 Chron 22:11"}, "children": []},
+
+    {"a": {"id": "ELIJAH", "label": "Elijah the Tishbite<br/>c.870 BC · prophet of Gilead; opposed Ahab &amp; Jezebel and the worship of Baal; taken up in a whirlwind · 1 Kings 17 - 2 Kings 2"}, "b": {"id": "ELIJAHW", "label": "—"}, "children": []},
+
+    {"a": {"id": "SHAPHAT", "label": "Shaphat<br/>c.900 BC · of Abel-meholah; father of the prophet Elisha · 1 Kings 19:16"}, "b": {"id": "SHAPHATW", "label": "—"}, "children": [
+      {"id": "ELISHA", "label": "Elisha<br/>c.870 BC · prophet, son of Shaphat; successor to Elijah with a double portion of his spirit · 1 Kings 19 - 2 Kings 13"}
+    ]},
+
+    {"a": "MOAB", "b": {"id": "MOABW", "label": "—"}, "children": [
+      {"id": "KEMOSHYAT", "label": "King Kemosh-yat of Moab<br/>c.880 BC · father of King Mesha per the Mesha Stele; a distant descendant of Moab (ethnic bridge, not a literal son; ~1000+ yrs elided) · Mesha Stele (bridge)"}
+    ]},
+    {"a": "KEMOSHYAT", "b": {"id": "KEMOSHYATW", "label": "—"}, "children": [
+      {"id": "MESHA", "label": "👑 Mesha<br/>c.840 BC · King of Moab of the Moabite Stone (Mesha Stele); rebelled against Israel after Ahab's death · 2 Kings 3, Mesha Stele"}
+    ]}
+  ]
+}

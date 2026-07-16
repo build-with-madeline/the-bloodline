@@ -1,0 +1,157 @@
+{
+ "_note": "Slab c.900-800 BC — three HISTORICAL threads splicing onto existing nodes as new families (NEVER re-parenting an existing king). THREAD 1 ARAM-DAMASCUS (ARM_, a NEW house, already registered — Israel's great rival in Kings): a self-contained succession island rooted at its founder Rezon. Spine with '—' consorts: Rezon (c.940, threw off Solomon's yoke &amp; founded independent Damascus, 1 Kings 11:23-25) -> Hezion -> Tabrimmon -> Ben-Hadad I (c.885, son of Tabrimmon son of Hezion per 1 Kings 15:18; hired by Asa of Judah to break Baasha of Israel) -> Ben-Hadad II / Hadadezer (c.860, the Adad-idri of the Assyrian annals; fought Ahab of Israel in 1 Kings 20 &amp; 22 and led the Levantine anti-Assyrian coalition at QARQAR 853 BC). HAZAEL (c.842) is drawn on the spine off Ben-Hadad II via a '—' consort but FLAGGED as USURPATION, NOT descent: he murdered his master Hadadezer (2 Kings 8:15) &amp; seized the throne; the Assyrians (Shalmaneser III's inscriptions) call him a 'son of a nobody' (mar la mammana). Hazael then ravaged Israel under Jehu &amp; Jehoahaz (2 Kings 8:12; 10:32; 13:3,22). His actual blood son Ben-Hadad III (c.796; Assyrian personal name Hadianu / 'Mari') continued the oppression of Israel (2 Kings 13:24-25). The biblical Israelite kings named on the cards — Ahab, Jehu, Jehoahaz — are referenced in prose only; NO cross-line edges are drawn (they live in the Israel house; a marriage/parent edge would double-parent them). THREAD 2 NEO-ASSYRIA (AS_): the great kings Ashurnasirpal II, Shalmaneser III &amp; Adad-nirari III ALREADY EXIST in 10c_assyria.json and are NOT recreated or re-parented (in 10c the chain compresses Shalmaneser III -> Adad-nirari III directly). The one missing link, Shamshi-Adad V (c.824), is added as a NEW child of the existing AS_SHALMANESER3 on a SEPARATE '—' union (Shalmaneser III already parents Adad-nirari III on his own union there, so this parallel branch introduces no double-parenting). Shamshi-Adad V is then married to Queen SAMMURAMAT (Sammu-ramat, the historical kernel of the legendary Semiramis) in a childless union: their son &amp; Sammuramat's regency ward is the already-existing Adad-nirari III, noted in-label only — NOT re-parented by a second edge. Biblical note carried on Shalmaneser III's existing card: he took tribute from Jehu of Israel (the Black Obelisk, 841 BC). THREAD 3 EGYPT 22ND/23RD (EG_): extends the Bubastite line off the existing 22nd-Dynasty tail EG_SHOSHENQ3 (referenced by id, NOT re-parented — a leaf in 21b): Shoshenq III -> Pami (Pimay) -> Shoshenq V (son of Pami per his Year-11 Serapeum stela, acceded c.767). Separately, Pedubast I (c.826) is hung off the SAME EG_SHOSHENQ3 on a distinct '—' union as the founder of the rival 23rd Dynasty at Leontopolis/Thebes, who declared himself king in Year 8 of Shoshenq III — FLAGGED: his exact filiation is DEBATED (possibly a son of the High Priest / king Harsiese A, not of Shoshenq III), so the edge marks Egypt's FRAGMENTATION, not certain descent. Prefixes: Aram-Damascus=ARM_, Assyria=AS_, Egypt=EG_. Every child/accession year is SMALLER than its parent's chain year. Dates are conventional Aramean-king-list / Neo-Assyrian / Third-Intermediate figures and are debated (flagged). Web-verified July 2026 against Wikipedia 'Hazael', 'Ben-Hadad I', 'Hadadezer (king of Aram)', 'Shamshi-Adad V', 'Semiramis', 'Shoshenq V', 'Pedubast I', 'Twenty-third Dynasty of Egypt', plus biblicalia 'Rulers of Aram-Damascus'. No fabrication; every usurpation or uncertain-descent link flagged in-node.",
+ "families": [
+  {
+   "note": "ARAM-DAMASCUS (1 of 7) — the founder as root of a NEW house. Rezon (no parent in the tree; an island root) & a '—' consort; his successor Hezion as child.",
+   "a": {
+    "id": "ARM_REZON",
+    "label": "👑 Rezon (Hezion)<br/>c.940 BC · founder of the independent kingdom of Aram-Damascus · son of Eliada; a fugitive from Hadadezer of Zobah who seized Damascus &amp; threw off the yoke of Solomon's Israel, becoming its lifelong adversary (1 Kings 11:23-25) · often equated with the Hezion whose house the later kings descend from · historical"
+   },
+   "b": {
+    "id": "ARM_REZONW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "ARM_HEZION",
+     "label": "👑 Hezion<br/>c.920 BC · King of Aram-Damascus · grandfather of Ben-Hadad I in the pedigree of 1 Kings 15:18 (Ben-Hadad son of Tabrimmon son of Hezion); founder-figure of the Damascene royal house · historical"
+    }
+   ]
+  },
+  {
+   "note": "ARAM-DAMASCUS (2 of 7). ARM_HEZION & a '—' consort; his son &amp; successor Tabrimmon as child.",
+   "a": "ARM_HEZION",
+   "b": {
+    "id": "ARM_HEZIONW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "ARM_TABRIMMON",
+     "label": "👑 Tabrimmon<br/>c.900 BC · King of Aram-Damascus · son of Hezion &amp; father of Ben-Hadad I (1 Kings 15:18) · historical"
+    }
+   ]
+  },
+  {
+   "note": "ARAM-DAMASCUS (3 of 7). ARM_TABRIMMON & a '—' consort; his son &amp; successor Ben-Hadad I as child.",
+   "a": "ARM_TABRIMMON",
+   "b": {
+    "id": "ARM_TABRIMMONW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "ARM_BENHADAD1",
+     "label": "👑 Ben-Hadad I<br/>c.885 BC · King of Aram-Damascus · son of Tabrimmon · bribed by Asa of Judah to break his treaty with Baasha of Israel &amp; invade the northern kingdom, seizing Galilean towns (1 Kings 15:18-20) · historical"
+    }
+   ]
+  },
+  {
+   "note": "ARAM-DAMASCUS (4 of 7). ARM_BENHADAD1 & a '—' consort; his successor Ben-Hadad II / Hadadezer as child. This is the Aramean king of the Assyrian annals (Adad-idri) &amp; Ahab's rival.",
+   "a": "ARM_BENHADAD1",
+   "b": {
+    "id": "ARM_BENHADAD1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "ARM_BENHADAD2",
+     "label": "👑 Ben-Hadad II (Hadadezer / Adad-idri)<br/>c.860 BC · King of Aram-Damascus · besieged Samaria &amp; warred with Ahab of Israel, who defeated him twice then spared him (1 Kings 20), before dying at Ramoth-Gilead in the third war (1 Kings 22) · the Adad-idri of the Assyrian records who led the twelve-king Levantine coalition against Shalmaneser III at the battle of QARQAR, 853 BC · historical"
+    }
+   ]
+  },
+  {
+   "note": "ARAM-DAMASCUS (5 of 7) — the usurper. ARM_BENHADAD2 & a '—' consort; Hazael as successor. FLAGGED USURPATION, NOT DESCENT: Hazael was a court official who smothered his master Hadadezer with a wet cloth &amp; seized the throne (2 Kings 8:15); Shalmaneser III's inscriptions brand him a 'son of a nobody' (mar la mammana). Drawn on the spine for continuity only.",
+   "a": "ARM_BENHADAD2",
+   "b": {
+    "id": "ARM_BENHADAD2W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "ARM_HAZAEL",
+     "label": "👑 Hazael<br/>c.842 BC · King of Aram-Damascus · a USURPER, NOT of the royal line — an officer who murdered Hadadezer &amp; took the throne, foretold to Elijah &amp; wept over by Elisha (2 Kings 8:7-15); the Assyrian 'son of a nobody' · Damascus's most powerful king: he ravaged Israel under Jehu &amp; Jehoahaz, seizing all Transjordan (2 Kings 10:32-33; 13:3,22) &amp; pressing to the gates of Gath &amp; Jerusalem (2 Kings 12:17) · likely author of the Tel Dan Stele boasting of killing kings of Israel &amp; Judah · historical (usurpation flagged)"
+    }
+   ]
+  },
+  {
+   "note": "ARAM-DAMASCUS (6 of 7) — the close of this slab. ARM_HAZAEL & a '—' consort; his TRUE blood son &amp; successor Ben-Hadad III as child (2 Kings 13:24 — 'Hazael died, and Ben-Hadad his son reigned in his stead'). Real descent, unlike Hazael's own accession.",
+   "a": "ARM_HAZAEL",
+   "b": {
+    "id": "ARM_HAZAELW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "ARM_BENHADAD3",
+     "label": "👑 Ben-Hadad III (Hadianu / Mari')<br/>c.796 BC · King of Aram-Damascus · son of Hazael · continued to oppress Israel under Jehoahaz, reducing its army to a remnant (2 Kings 13:3-7), until Jehoahaz's son Jehoash recovered the lost towns in three victories over him (2 Kings 13:25) · named 'Mari' in the Zakkur Stele &amp; Hadianu in the Assyrian record · historical"
+    }
+   ]
+  },
+  {
+   "note": "NEO-ASSYRIA — the missing link. AS_SHALMANESER3 (existing king in 10c, referenced by id, NOT re-parented — he already parents Adad-nirari III there on his own union) & a NEW '—' consort; his son Shamshi-Adad V as child on this SEPARATE parallel union, so no existing king is double-parented.",
+   "a": "AS_SHALMANESER3",
+   "b": {
+    "id": "AS_SHAMSHIADAD5MOTHERW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_SHAMSHIADAD5",
+     "label": "👑 Shamshi-Adad V<br/>c.824 BC · Neo-Assyria · son of Shalmaneser III · his reign opened with a bitter CIVIL WAR against his brother Ashur-danin-pal, who had led much of Assyria in revolt against their aged father; he prevailed with Babylonian help, then campaigned against Babylon &amp; the Zagros · historical"
+    }
+   ]
+  },
+  {
+   "note": "NEO-ASSYRIA — Queen Sammuramat / Semiramis, a CHILDLESS union by design. AS_SHAMSHIADAD5 ● Sammu-ramat (his queen). Their son is the ALREADY-EXISTING Adad-nirari III (10c), for whom she served as regent; he is noted in-label ONLY and is NOT re-parented here (no second edge). Empty children = the marriage itself, drawn to anchor the historical Semiramis.",
+   "a": "AS_SHAMSHIADAD5",
+   "b": {
+    "id": "AS_SAMMURAMAT",
+    "label": "👑 Sammu-ramat (Semiramis)<br/>c.820 BC · queen of Shamshi-Adad V &amp; mother of Adad-nirari III (already in the tree; not re-drawn here) · she wielded rare power for an Assyrian queen, serving as REGENT during her son's minority &amp; even named on a royal boundary stele beside him · the historical kernel of the later Greek legend of the warrior-queen SEMIRAMIS · historical"
+   },
+   "children": []
+  },
+  {
+   "note": "EGYPT 22ND DYNASTY (1 of 2). EG_SHOSHENQ3 (existing 22nd-Dyn tail in 21b, referenced by id, NOT re-parented — a leaf there) & a '—' consort; his son &amp; successor Pami as child.",
+   "a": "EG_SHOSHENQ3",
+   "b": {
+    "id": "EG_SHOSHENQ3W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_PAMI",
+     "label": "👑 Pami (Pimay)<br/>c.773 BC · 22nd Dynasty · son of Shoshenq III · a short reign of about six years over a Delta kingdom already shrinking as rival Libyan chiefs asserted themselves · historical"
+    }
+   ]
+  },
+  {
+   "note": "EGYPT 22ND DYNASTY (2 of 2). EG_PAMI & a '—' consort; his son &amp; successor Shoshenq V as child (filiation fixed by Shoshenq V's Year-11 Serapeum stela).",
+   "a": "EG_PAMI",
+   "b": {
+    "id": "EG_PAMIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_SHOSHENQ5",
+     "label": "👑 Shoshenq V<br/>c.767 BC · 22nd Dynasty · son of Pami · reigned about 38 years, one of the longest of the dynasty, but ruled only a rump Tanite realm as the Delta splintered among local princes (Tefnakht of Sais, Iuput II of Leontopolis, Nimlot of Hermopolis) · historical"
+    }
+   ]
+  },
+  {
+   "note": "EGYPT 23RD DYNASTY — the splintering, off the SAME 22nd-Dyn tail on a distinct union. EG_SHOSHENQ3 & another '—' consort; Pedubast I as child, founder of the rival Leontopolis 23rd Dynasty. FLAGGED: his exact filiation is DEBATED (possibly a son of the High Priest / king Harsiese A, not of Shoshenq III) — the edge marks Egypt's FRAGMENTATION, not certain descent.",
+   "a": "EG_SHOSHENQ3",
+   "b": {
+    "id": "EG_SHOSHENQ3W2",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EG_PEDUBAST1",
+     "label": "👑 Pedubast I<br/>c.826 BC · founder of the rival 23rd Dynasty at Leontopolis / Thebes · declared himself king in Year 8 of Shoshenq III, running a parallel Upper-Egyptian line alongside the Tanite 22nd Dynasty — the formal fracture of the Third Intermediate Period · his descent is DEBATED (possibly son of Harsiese A, not of Shoshenq III); edge shows the break, not certain paternity · historical (filiation flagged)"
+    }
+   ]
+  }
+ ]
+}

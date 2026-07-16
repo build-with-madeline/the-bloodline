@@ -1,0 +1,15 @@
+{
+ "_note": "Closes the flagged Iulus->gens Julia->Caesar bridge. The gens Julia claimed descent from Iulus (Ascanius), son of Aeneas, through the goddess Venus -- a family tradition, NOT a documented line (the ~600 years between Iulus and the historical Julii are legendary), flagged as such via a kind:bridge node. Adds Julius Caesar himself (previously absent) and connects the historical Julii to the existing ATIA (Augustus's mother, formerly a parentless root). Also weds Caesar to the existing Cleopatra VII (-> Caesarion) and to Cornelia (-> his daughter Julia). ROM_ASCANIUS (Iulus) and ATIA & CLEOPATRA7 pre-exist.",
+ "families": [
+  {"a": "ROM_ASCANIUS", "b": {"id":"ROM_JULII_GAPW","label":"—"}, "kind":"bridge", "children": [{"id":"ROM_JULII_GAP","label":"the gens Julia<br/>the Julii claimed descent from Iulus (Ascanius) through Venus &amp; Aeneas; the ~600-year line to the historical family is Roman tradition, not documented · LEGENDARY bridge"}]},
+  {"a": "ROM_JULII_GAP", "b": {"id":"JUL_CAESARGFW","label":"—"}, "children": [{"id":"JUL_CAESARGF","label":"Gaius Julius Caesar<br/>c.140 BC · grandfather of the dictator; the historical gens Julia · historical"}]},
+  {"a": "JUL_CAESARGF", "b": {"id":"JUL_MARCIA","label":"Marcia<br/>c.128 BC · wife of the elder Caesar"}, "children": [{"id":"JUL_CAESARF","label":"Gaius Julius Caesar<br/>c.130 BC · father of the dictator; praetor · historical"}]},
+  {"a": "JUL_CAESARF", "b": {"id":"JUL_AURELIA","label":"Aurelia Cotta<br/>c.120 BC · mother of Julius Caesar · historical"}, "children": [
+     {"id":"JULIUSCAESAR","label":"👑 Gaius Julius Caesar<br/>100-44 BC · dictator of Rome; crossed the Rubicon; assassinated on the Ides of March · historical"},
+     {"id":"JUL_JULIAMINOR","label":"Julia Minor<br/>c.101 BC · Caesar's sister; grandmother of Augustus · historical"}
+  ]},
+  {"a": "JUL_JULIAMINOR", "b": {"id":"JUL_ATIUSBALBUS","label":"Marcus Atius Balbus<br/>c.105 BC · praetor · historical"}, "children": ["ATIA"]},
+  {"a": "JULIUSCAESAR", "b": {"id":"JUL_CORNELIA","label":"Cornelia<br/>c.94 BC · Caesar's first wife, daughter of Cinna · historical"}, "children": [{"id":"JUL_JULIACAESARIS","label":"Julia<br/>c.76 BC · Caesar's daughter; wife of Pompey the Great · historical"}]},
+  {"a": "JULIUSCAESAR", "b": "CLEOPATRA7", "children": [{"id":"JUL_CAESARION","label":"👑 Caesarion (Ptolemy XV)<br/>47-30 BC · son of Caesar &amp; Cleopatra VII; last Ptolemaic king, killed by Octavian · historical"}]}
+ ]
+}

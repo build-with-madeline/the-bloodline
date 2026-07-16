@@ -278,6 +278,7 @@ def seed(pid, label):
     if pid.startswith("ARM_"): return "ARAM"
     if pid.startswith("ROM_"): return "ROME"
     if pid.startswith("MAC_"): return "ANTIQUITY"
+    if pid.startswith("JUL_"): return "ANTIQUITY"
     lab = (label or "").lower()
     # HRE regnal id families
     if pid.endswith("HRE") or pid in ("OTTOI","OTTOII","OTTOIII","OTTOIV","OTTOILLUS","HENRYFOWLER",

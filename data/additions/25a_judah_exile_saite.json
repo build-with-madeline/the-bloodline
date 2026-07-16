@@ -1,0 +1,99 @@
+{
+  "_note": "Slab c.700-525 BC — the last kings of Judah, the fall of Jerusalem &amp; the Babylonian Exile, its prophets, and Egypt's 26th (Saite) Dynasty, the last native flowering. THREE THREADS. (1) JUDAH'S LAST KINGS — the Davidic spine (MANASSEH c.710 -> AMON -> JOSIAH -> JECONIAH) ALREADY EXISTS in 07_biblical.json, and Josiah's three reigning sons JEHOIAKIM, JEHOAHAZJUDAH (Shallum) &amp; ZEDEKIAH ALREADY EXIST as children of the JOSIAH ● JOSIAHW union in 10a_israel.json. NONE of these kings is re-created or re-parented. Instead each king's mother/consort is added on a CHILDLESS union (following the established 23c pattern): Meshullemeth daughter of Haruz ● MANASSEH — mother of Amon (2 Kings 21:19, in-label only); Jedidah daughter of Adaiah ● AMON — mother of Josiah (2 Kings 22:1, in-label only); and JOSIAH's two wives — Hamutal daughter of Jeremiah of Libnah, mother of BOTH Jehoahaz (Shallum) &amp; Zedekiah the last king (2 Kings 23:31; 24:18), and Zebidah daughter of Pedaiah of Rumah, mother of Jehoiakim/Eliakim (2 Kings 23:36). Josiah — the great reformer who found the Book of the Law (2 Kings 22-23) — was killed by Pharaoh Necho II at Megiddo in 609 BC (2 Kings 23:29; 2 Chron 35:20-24); his son Jehoahaz was deposed to Egypt by Necho, Jehoiakim set up as Necho's then Babylon's puppet, and Zedekiah blinded &amp; carried to Babylon when Nebuchadnezzar II destroyed Jerusalem &amp; the Temple in 587/586 BC, beginning the Babylonian captivity. DAVIDIC COMPRESSION FLAGGED: the existing tree simplifies JECONIAH (Jehoiachin) as a son of Josiah, but he was in fact Josiah's grandson — son of Jehoiakim (2 Kings 24:6); JECONIAH is NOT re-parented here, only the compression is noted. (2) THE EXILE PROPHETS — three standalone islands (real figure ● '—'), matching the Isaiah/Micah pattern: JEREMIAH son of Hilkiah of the priests at Anathoth (Jer 1:1), the weeping prophet who lived through and lamented the 587 fall (Lamentations); EZEKIEL son of Buzi the priest, who prophesied among the exiles by the river Chebar in Babylon (Ezek 1:1-3); and DANIEL, of the royal/noble youths carried to Babylon in the first deportation (Dan 1:3-6), who served Nebuchadnezzar &amp; his successors. (3) EGYPT'S 26th (SAITE) DYNASTY (EG_) — the last native flowering, ruling from Sais with Ionian &amp; Carian Greek mercenaries. Attached as a SUCCESSION chain off the existing tail EG_TAHARQA (the last Kushite 25th-Dyn node in 10b_egypt.json, who had no outgoing union), following that file's stated convention of a king-list rendered as succession, NOT strict father-son — flagged, since the Saites were a rival Delta house (sons of Necho I of Sais), not Taharqa's descendants, and the Kushite Tantamani falls between. WITHIN the Saite line the descents ARE genuine father-son except one: Psamtik I -> Necho II -> Psamtik II -> Apries (each son of the last); then Amasis II, a general who USURPED &amp; overthrew Apries (NOT his son, flagged); then Psamtik III, son of Amasis II. Psamtik I (c.664) threw off Assyria &amp; reunified Egypt; Necho II (c.610) KILLED King Josiah at Megiddo 609 &amp; was crushed by Nebuchadnezzar at Carchemish 605; Apries is the Hophra of Jeremiah 44:30; Amasis II (c.570) reigned long &amp; prosperously; Psamtik III (c.526) was conquered by Cambyses II of Persia at Pelusium in 525 BC, ending native Egyptian rule. Prefixes: biblical=plain UPPERCASE, Egypt=EG_. Every child/accession year is SMALLER than its parent's. AVOIDS DOUBLE-PARENTING: every existing king (Manasseh, Amon, Josiah, Jeconiah, Josiah's three sons, Taharqa) is referenced by id and never placed in a children array on a second edge. Saite accession dates are conventional (Wikipedia / Britannica); the Taharqa->Psamtik I link is dynastic succession, not descent (flagged). Web-verified July 2026 against 2 Kings 21-25, 2 Chronicles 35-36, Jeremiah 1 &amp; 44, Ezekiel 1, Daniel 1, and Wikipedia 'Twenty-sixth Dynasty of Egypt', 'Psamtik I', 'Necho II', 'Psamtik II', 'Apries', 'Amasis II', 'Psamtik III', plus 'Meshullemeth', 'Jedidah', 'Hamutal', 'Zebidah'. No fabrication; every usurpation, compression, uncertain descent &amp; debated date flagged in-node.",
+  "families": [
+    {
+      "note": "JUDAH (1) — Manasseh's family. Meshullemeth ● the existing MANASSEH (referenced by id, NOT re-parented). CHILDLESS union: their son Amon is already on the spine, named in-label only.",
+      "a": "MANASSEH",
+      "b": {"id": "MESHULLEMETH", "label": "Meshullemeth<br/>c.700 BC · daughter of Haruz of Jotbah; wife of King Manasseh of Judah &amp; mother of King Amon (2 Kings 21:19, already on the spine) · her husband Manasseh reigned 55 years, the longest of any king of Judah, filling Jerusalem with idolatry &amp; innocent blood (2 Kings 21:16) before, by Chronicles' account, repenting in Assyrian captivity (2 Chron 33:11-13) · historical (biblical)"},
+      "children": []
+    },
+    {
+      "note": "JUDAH (2) — Amon's family. Jedidah ● the existing AMON (referenced by id, NOT re-parented). CHILDLESS union: their son Josiah is already on the spine, named in-label only.",
+      "a": "AMON",
+      "b": {"id": "JEDIDAH", "label": "Jedidah<br/>c.650 BC · daughter of Adaiah of Bozkath; wife of King Amon of Judah &amp; mother of the reformer King Josiah (2 Kings 22:1, already on the spine) · her husband Amon walked in his father Manasseh's idolatry &amp; was assassinated by his own servants in the palace after only two years, avenged by the people of the land (2 Kings 21:19-24) · historical (biblical)"},
+      "children": []
+    },
+    {
+      "note": "JUDAH (3) — Josiah's wife Hamutal. Hamutal ● the existing JOSIAH (referenced by id, NOT re-parented). CHILDLESS union by design: her sons Jehoahaz (Shallum) &amp; Zedekiah already exist as children of the JOSIAH ● JOSIAHW union in 10a_israel.json, named here in-label ONLY, NOT re-parented. Her card carries Josiah's death at Megiddo &amp; the 587 fall.",
+      "a": "JOSIAH",
+      "b": {"id": "HAMUTAL", "label": "Hamutal<br/>c.632 BC · daughter of Jeremiah of Libnah; wife of King Josiah of Judah &amp; mother of TWO kings — Jehoahaz/Shallum (2 Kings 23:31) &amp; Zedekiah the last king (2 Kings 24:18), both already in the tree · her husband Josiah, Judah's last great reformer, found the Book of the Law &amp; purged idolatry (2 Kings 22-23) but was slain by Pharaoh Necho II at Megiddo in 609 BC (2 Kings 23:29) · her son Zedekiah was blinded &amp; carried to Babylon when Nebuchadnezzar II burned Jerusalem &amp; the Temple in 587/586 BC, beginning the Exile (2 Kings 25) · historical (biblical)"},
+      "children": []
+    },
+    {
+      "note": "JUDAH (4) — Josiah's other wife Zebidah, on a SEPARATE union from Hamutal (Josiah already parents his sons on the JOSIAHW union in 10a, so these parallel consort branches double-parent no one). CHILDLESS by design: her son Jehoiakim/Eliakim already exists in 10a, named in-label ONLY. FLAG: the existing tree also places JECONIAH (Jehoiachin) as a son of Josiah, but he was Josiah's GRANDSON — son of THIS Zebidah's son Jehoiakim (2 Kings 24:6); the compression is noted here, JECONIAH is NOT re-parented.",
+      "a": "JOSIAH",
+      "b": {"id": "ZEBIDAH", "label": "Zebidah (Zebudah)<br/>c.630 BC · daughter of Pedaiah of Rumah; a wife of King Josiah of Judah &amp; mother of King Jehoiakim/Eliakim (2 Kings 23:36, already in the tree) · her son Jehoiakim was installed by Pharaoh Necho II in place of his brother Jehoahaz, became Nebuchadnezzar's vassal &amp; then rebelled (2 Kings 24:1) · his son Jehoiachin/Jeconiah — Josiah's GRANDSON, whom the existing tree simplifies as Josiah's own son — was carried to Babylon in 597 BC (2 Kings 24:6-15) · historical (biblical)"},
+      "children": []
+    },
+    {
+      "note": "THE EXILE (1) — the prophet Jeremiah, a standalone island. Hilkiah (island root, priest of Anathoth) ● a '—' consort; his son JEREMIAH as child. NOTE: this Hilkiah of Anathoth is distinct from the high priest Hilkiah who found the Law scroll (2 Kings 22:8).",
+      "a": {"id": "HILKIAHANATHOTH", "label": "Hilkiah<br/>c.675 BC · one of the priests at Anathoth in Benjamin &amp; father of the prophet Jeremiah (Jer 1:1) · distinct from the high priest Hilkiah who found the Book of the Law in Josiah's reign (2 Kings 22:8) · historical (biblical)"},
+      "b": {"id": "HILKIAHANATHOTHW", "label": "—"},
+      "children": [
+        {"id": "JEREMIAH", "label": "Jeremiah<br/>c.645 BC · son of Hilkiah of Anathoth; the 'weeping prophet', called in Josiah's 13th year (627 BC) &amp; prophesying through the reigns of Josiah's sons to the fall of Jerusalem (Jer 1:1-3) · he foretold the seventy-year Babylonian captivity, was imprisoned &amp; lowered into a cistern for his warnings (Jer 38), witnessed the 587 destruction &amp; lamented it (Lamentations), and was carried off to Egypt by fleeing survivors (Jer 43) · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "THE EXILE (2) — the prophet Ezekiel, a standalone island. Buzi (island root, a priest) ● a '—' consort; his son EZEKIEL as child.",
+      "a": {"id": "BUZI", "label": "Buzi<br/>c.650 BC · a priest of Judah &amp; father of the prophet Ezekiel (Ezek 1:3) · historical (biblical)"},
+      "b": {"id": "BUZIW", "label": "—"},
+      "children": [
+        {"id": "EZEKIEL", "label": "Ezekiel<br/>c.622 BC · son of Buzi the priest; prophet of the Exile, carried to Babylon with King Jehoiachin in 597 BC &amp; called by the vision of the wheels &amp; the living creatures by the river Chebar in the land of the Chaldeans (Ezek 1:1-3) · he prophesied the fall of Jerusalem, then the vision of the valley of dry bones &amp; the restored Temple to the exiles (Ezek 37) · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "THE EXILE (3) — Daniel, a standalone island (real figure ● '—'). His father is not named in scripture, so no root ancestor is invented.",
+      "a": {"id": "DANIEL", "label": "Daniel<br/>c.620 BC · of the royal &amp; noble youths of Judah carried to Babylon in the first deportation (605 BC) &amp; trained for the king's service, renamed Belteshazzar (Dan 1:3-7) · he interpreted Nebuchadnezzar's dreams, survived the lions' den under Darius, &amp; received the apocalyptic visions of the four kingdoms (Dan 2, 6, 7) · historical (biblical)"},
+      "b": {"id": "DANIELW", "label": "—"},
+      "children": []
+    },
+    {
+      "note": "EGYPT 26th / SAITE (1) — the dynasty attached as a SUCCESSION bridge off the existing tail EG_TAHARQA (last Kushite 25th-Dyn node in 10b, who had no outgoing union). FLAG: this is dynastic succession, NOT descent — the Saites were a rival Delta house (sons of Necho I of Sais), and the Kushite Tantamani falls between Taharqa &amp; the Saite reunification. Psamtik I as the single succession child on a '—' union.",
+      "a": "EG_TAHARQA",
+      "b": {"id": "EG_TAHARQAW", "label": "—"},
+      "children": [
+        {"id": "EG_PSAMTIK1", "label": "👑 Psamtik I (Psammetichus I)<br/>c.664 BC · 26th (Saite) Dynasty, ruling from Sais; son of Necho I · installed as an Assyrian vassal, he threw off Assyrian overlordship &amp; reunified all Egypt under one native throne c.656 BC, ending the Third Intermediate Period · his power rested on Ionian &amp; Carian Greek mercenaries, opening Egypt to the Greek world · historical"}
+      ]
+    },
+    {
+      "note": "EGYPT 26th / SAITE (2) — Necho II, genuine son of Psamtik I. EG_PSAMTIK1 ● '—' -> EG_NECHO2.",
+      "a": "EG_PSAMTIK1",
+      "b": {"id": "EG_PSAMTIK1W", "label": "—"},
+      "children": [
+        {"id": "EG_NECHO2", "label": "👑 Necho II (Nekau II)<br/>c.610 BC · 26th (Saite) Dynasty; son of Psamtik I · marching north to prop up the collapsing Assyrian empire, he KILLED King Josiah of Judah at Megiddo in 609 BC (2 Kings 23:29), deposed Jehoahaz to Egypt &amp; set up Jehoiakim as his puppet · then crushed by Nebuchadnezzar II of Babylon at Carchemish in 605 BC, losing Syria-Palestine · he began a Nile-Red Sea canal &amp; is said to have sent a Phoenician fleet round Africa · historical"}
+      ]
+    },
+    {
+      "note": "EGYPT 26th / SAITE (3) — Psamtik II, genuine son of Necho II. EG_NECHO2 ● '—' -> EG_PSAMTIK2.",
+      "a": "EG_NECHO2",
+      "b": {"id": "EG_NECHO2W", "label": "—"},
+      "children": [
+        {"id": "EG_PSAMTIK2", "label": "👑 Psamtik II (Psammetichus II)<br/>c.595 BC · 26th (Saite) Dynasty; son of Necho II · led a great campaign south into Nubia/Kush against the Napatan kingdom, and a state visit into Syria-Palestine that may have stirred Judah's hopes of resisting Babylon · historical"}
+      ]
+    },
+    {
+      "note": "EGYPT 26th / SAITE (4) — Apries (the Hophra of Jer 44:30), genuine son of Psamtik II. EG_PSAMTIK2 ● '—' -> EG_APRIES.",
+      "a": "EG_PSAMTIK2",
+      "b": {"id": "EG_PSAMTIK2W", "label": "—"},
+      "children": [
+        {"id": "EG_APRIES", "label": "👑 Apries (Wahibre; the Pharaoh Hophra)<br/>c.589 BC · 26th (Saite) Dynasty; son of Psamtik II · the 'Hophra king of Egypt' whom Jeremiah foretold would be given into his enemies' hand (Jer 44:30) · he intervened in the Levant during Judah's last agony but could not save Jerusalem from Nebuchadnezzar (587 BC); a failed Libyan campaign sparked an army revolt that raised up his general Amasis · historical"}
+      ]
+    },
+    {
+      "note": "EGYPT 26th / SAITE (5) — Amasis II, a general who USURPED &amp; overthrew Apries (NOT his son — flagged). Attached as the succession child of EG_APRIES on a '—' union to preserve the king-list order without asserting descent.",
+      "a": "EG_APRIES",
+      "b": {"id": "EG_APRIESW", "label": "—"},
+      "children": [
+        {"id": "EG_AMASIS2", "label": "👑 Amasis II (Ahmose II)<br/>c.570 BC · 26th (Saite) Dynasty · a general of common birth who overthrew Apries in a civil war (NOT his son) &amp; seized the throne · his long, prosperous reign was the dynasty's golden age — allied with the Greeks, he gave the trading colony of Naukratis to them &amp; made Egypt rich, remembered by Herodotus as a shrewd &amp; genial king · historical (usurper, not of the royal blood)"}
+      ]
+    },
+    {
+      "note": "EGYPT 26th / SAITE (6) — Psamtik III, genuine son of Amasis II &amp; last native pharaoh. EG_AMASIS2 ● '—' -> EG_PSAMTIK3.",
+      "a": "EG_AMASIS2",
+      "b": {"id": "EG_AMASIS2W", "label": "—"},
+      "children": [
+        {"id": "EG_PSAMTIK3", "label": "👑 Psamtik III (Psammetichus III)<br/>c.526 BC · 26th (Saite) Dynasty; son of Amasis II &amp; last pharaoh of independent Egypt · reigning barely six months, he was defeated by Cambyses II of Persia at the battle of Pelusium in 525 BC &amp; later executed, making Egypt a Persian province (the 27th Dynasty) &amp; ending native Egyptian rule · historical"}
+      ]
+    }
+  ]
+}

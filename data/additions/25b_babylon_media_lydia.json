@@ -1,0 +1,75 @@
+{
+  "_note": "Slab c.700-546 BC -- the fall of Assyria and the three powers that rose on its ruins: Nebuchadnezzar's Babylon, the Median empire that destroyed Nineveh, and wealthy Lydia in Asia Minor. TWO NEW HOUSES are founded here -- MEDIA (MED_) and LYDIA (LYD_) -- and both are wed into houses already in the tree, so the era is stitched together by cross-house marriage rather than left as islands. (1) MEDIA (MED_, new house): the Herodotean line of Median kings -- Deioces (c.700, semi-legendary founder who united the tribes &amp; built Ecbatana) -> Phraortes -> CYAXARES (c.625, the warrior-king who allied with Nabopolassar of Babylon to destroy Nineveh in 612 BC, ending the successors of Ashurbanipal -- Ashur-etil-ilani, Sinsharishkun &amp; the last king Ashur-uballit II, all already in 10c_assyria.json &amp; NOT re-drawn) -> ASTYAGES (c.585, the last Median king, deposed c.550 BC by his own grandson Cyrus the Great, which merged Media into Persia). (2) THE BABYLON<->MEDIA MARRIAGE (priority cross-house union): AMYTIS OF MEDIA, built here as a daughter of Cyaxares, is wed to the ALREADY-EXISTING BAB_NEBUCHADNEZZAR2 on a SEPARATE childless union (he already parents Amel-Marduk on his own '—' union in 10d_babylon.json, so this parallel branch double-parents no one) -- the alliance for which, by tradition, he built the Hanging Gardens of Babylon to recall her green Median homeland. This ties BABYLON to the new house of MEDIA. (3) LYDIA (LYD_, new house): the Mermnad dynasty -- Gyges (c.680, founder, of the ring legend) -> Ardys -> Sadyattes -> Alyattes (c.610) -> CROESUS (c.595, the proverbially rich last king, defeated &amp; captured by Cyrus the Great at the fall of Sardis, 546 BC). (4) THE LYDIA<->MEDIA MARRIAGE (second cross-house union): ARYENIS, daughter of Alyattes, is wed to the Median ASTYAGES to seal the peace after the eclipse-battle of 585 BC (foretold by Thales) that ended the five-year Lydo-Median war; their daughter is the EXISTING MANDANE -- who, as the consort of Cambyses I &amp; mother of Cyrus the Great (already wired in 06_deep_antiquity.json), carries the blood of Media &amp; Lydia into the Achaemenid Persian house. MANDANE currently has no parent edge (she sits only as a consort node), so making Astyages her father adds parentage without re-parenting anyone. (5) ASSYRIA's fall is carried in prose on Cyaxares's card; no Assyrian king is created. Prefixes: Babylon=BAB_ (existing), Media=MED_ (new), Lydia=LYD_ (new), Persia/Achaemenid=existing ids. Every child year is SMALLER than its parent's. Median &amp; Lydian regnal dates are conventional &amp; largely Herodotean (flagged semi-legendary where relevant). Web-verified July 2026 against Wikipedia 'Median kingdom', 'Deioces', 'Phraortes', 'Cyaxares', 'Astyages', 'Amytis of Media', 'Mermnad dynasty', 'Gyges of Lydia', 'Ardys of Lydia', 'Sadyattes', 'Alyattes', 'Croesus', 'Aryenis', and 'Battle of the Eclipse'. No fabrication; legendary &amp; debated points flagged in-node.",
+  "families": [
+    {
+      "note": "MEDIA (1) -- the semi-legendary founder. Deioces (new island root of the Median house) ● '—'; his son Phraortes as child.",
+      "a": {"id": "MED_DEIOCES", "label": "👑 Deioces<br/>c.700 BC · semi-legendary founder &amp; first king of the Medes who (per Herodotus) united the Median tribes &amp; built the capital Ecbatana · historical (semi-legendary)"},
+      "b": {"id": "MED_DEIOCESW", "label": "—"},
+      "children": [
+        {"id": "MED_PHRAORTES", "label": "👑 Phraortes<br/>c.665 BC · son of Deioces; king of Media who subdued the Persians &amp; opened the wars against Assyria, dying in battle against it (per Herodotus) · historical (semi-legendary)"}
+      ]
+    },
+    {
+      "note": "MEDIA (2) -- Phraortes ● '—'; his son Cyaxares as child.",
+      "a": "MED_PHRAORTES",
+      "b": {"id": "MED_PHRAORTESW", "label": "—"},
+      "children": [
+        {"id": "MED_CYAXARES", "label": "👑 Cyaxares<br/>c.625 BC · son of Phraortes; the great warrior-king of Media who allied with Nabopolassar of Babylon to destroy Nineveh &amp; the Assyrian empire (612 BC), ending the successors of Ashurbanipal -- Ashur-etil-ilani, Sinsharishkun &amp; the last king Ashur-uballit II (all already in the tree, not re-drawn) · historical"}
+      ]
+    },
+    {
+      "note": "MEDIA (3) -- Cyaxares ● '—'; his son Astyages (last Median king) &amp; his daughter Amytis (who weds Nebuchadnezzar II, next family) as children.",
+      "a": "MED_CYAXARES",
+      "b": {"id": "MED_CYAXARESW", "label": "—"},
+      "children": [
+        {"id": "MED_ASTYAGES", "label": "👑 Astyages<br/>c.585 BC · son of Cyaxares; the last king of Media, deposed c.550 BC by his own grandson Cyrus the Great, whose victory merged Media into the rising Persian empire · historical"},
+        {"id": "MED_AMYTIS", "label": "Amytis of Media<br/>c.605 BC · daughter of Cyaxares of Media &amp; queen of Babylon as wife of Nebuchadnezzar II; her marriage sealed the Medo-Babylonian alliance, &amp; for her Nebuchadnezzar is said to have built the Hanging Gardens of Babylon to recall her green Median homeland · historical (Gardens tradition)"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE (priority) BABYLON <-> MEDIA -- the EXISTING BAB_NEBUCHADNEZZAR2 ● the new MED_AMYTIS on a SEPARATE union. CHILDLESS by design: Nebuchadnezzar already parents Amel-Marduk on his own '—' union in 10d_babylon.json, so no one is re-parented. This union is the Hanging-Gardens alliance tying Babylon to the house of Media.",
+      "a": "BAB_NEBUCHADNEZZAR2",
+      "b": "MED_AMYTIS",
+      "children": []
+    },
+    {
+      "note": "LYDIA (1) -- the Mermnad founder. Gyges (new island root of the Lydian house) ● '—'; his son Ardys as child.",
+      "a": {"id": "LYD_GYGES", "label": "👑 Gyges<br/>c.680 BC · founder of the Mermnad dynasty of Lydia who seized the throne of Sardis by killing King Candaules -- the deed tied in legend to the ring of Gyges that made its wearer invisible (Plato, Republic II) · historical"},
+      "b": {"id": "LYD_GYGESW", "label": "—"},
+      "children": [
+        {"id": "LYD_ARDYS", "label": "👑 Ardys<br/>c.645 BC · son of Gyges; king of Lydia who fought the invading Cimmerians &amp; the Ionian Greek cities of the coast · historical"}
+      ]
+    },
+    {
+      "note": "LYDIA (2) -- Ardys ● '—'; his son Sadyattes as child.",
+      "a": "LYD_ARDYS",
+      "b": {"id": "LYD_ARDYSW", "label": "—"},
+      "children": [
+        {"id": "LYD_SADYATTES", "label": "👑 Sadyattes<br/>c.625 BC · son of Ardys; king of Lydia who pressed the long war against the Greek city of Miletus · historical"}
+      ]
+    },
+    {
+      "note": "LYDIA (3) -- Sadyattes ● '—'; his son Alyattes as child.",
+      "a": "LYD_SADYATTES",
+      "b": {"id": "LYD_SADYATTESW", "label": "—"},
+      "children": [
+        {"id": "LYD_ALYATTES", "label": "👑 Alyattes<br/>c.610 BC · son of Sadyattes; king of Lydia who drove out the Cimmerians &amp; fought Media to a stalemate -- the war ended when the eclipse-battle of 585 BC (foretold by Thales) halted the fighting and was sealed by giving his daughter Aryenis to the Median heir Astyages · father of Croesus · historical"}
+      ]
+    },
+    {
+      "note": "LYDIA (4) -- Alyattes ● '—'; his son Croesus (the rich last king) &amp; his daughter Aryenis (who weds Astyages, next family) as children.",
+      "a": "LYD_ALYATTES",
+      "b": {"id": "LYD_ALYATTESW", "label": "—"},
+      "children": [
+        {"id": "LYD_CROESUS", "label": "👑 Croesus<br/>c.595 BC · son of Alyattes; the proverbially rich last king of Lydia, defeated &amp; captured by Cyrus the Great at the fall of Sardis (546 BC), which ended Lydian independence · historical"},
+        {"id": "LYD_ARYENIS", "label": "Aryenis<br/>c.600 BC · daughter of Alyattes of Lydia, given in marriage to the Median prince Astyages to seal the peace after the eclipse-battle of 585 BC that ended the five-year Lydo-Median war · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE LYDIA <-> MEDIA -- the new MED_ASTYAGES ● the new LYD_ARYENIS, the peace-marriage after the 585 BC eclipse-battle. Their daughter is the EXISTING MANDANE (referenced by id, gaining parentage she previously lacked): as consort of Cambyses I &amp; mother of Cyrus the Great (already wired in 06_deep_antiquity.json) she carries Median &amp; Lydian blood into the Achaemenid Persian house, tying MEDIA &amp; LYDIA to PERSIA.",
+      "a": "MED_ASTYAGES",
+      "b": "LYD_ARYENIS",
+      "children": ["MANDANE"]
+    }
+  ]
+}

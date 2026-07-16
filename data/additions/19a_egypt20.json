@@ -1,0 +1,126 @@
+{
+ "_note": "EGYPT — the turbulent END of the 19th Dynasty and the whole 20th Dynasty (the later Ramessides), c.1203-1077 BC, closing the New Kingdom. This file ONLY adds new figures and NEVER re-parents an existing king: the reigning pharaohs already in the succession chain of 10b_egypt.json — EG_SETI2 (Seti II, c.1203), EG_SETNAKHTE (Setnakhte, c.1189) and EG_RAMESSES3 (Ramesses III, c.1186) — appear here solely as the 'a' side of a union, referenced by id, never inside a children array. (10b_egypt.json also carries a compressed placeholder EG_RAMESSES4TO11 for 'Ramesses IV-XI'; that node is left untouched, and the individual kings created here use fresh EG_RAMESSES4..EG_RAMESSES11 ids.) BUILD 1 — the contested collapse of the 19th Dynasty is hung off Seti II as a second tail: Seti II -> Siptah -> Twosret. Siptah was a boy-king whose mummy shows a clubfoot; the Syrian chancellor BAY ('the power behind the throne') really governed during his minority before Siptah had him executed (Bay is named on Siptah's card rather than drawn as a false kin-edge, since he had no royal descent). Twosret, Great Royal Wife of Seti II, ruled first as Siptah's regent then as a FEMALE PHARAOH in her own right, closing the dynasty. (Setnakhte, who founded the 20th Dynasty, already succeeds Seti II directly in 10b, so this is a parallel branch, not a replacement.) BUILD 2 — the family of Ramesses III: he is unioned with his Great Royal Wife Iset Ta-Hemdjert (mother of the future kings Ramesses IV and Ramesses VI) and, separately, with the secondary wife Tiye, who masterminded the HAREM CONSPIRACY that assassinated him — her son Pentawer, the plot's intended puppet-king, is hung under her. Ramesses III himself defeated the SEA PEOPLES c.1177 BC amid the wider Late Bronze Age collapse (noted on the union rather than by editing his existing card). BUILD 3 — the 20th-Dynasty succession is drawn as a chain from a new EG_RAMESSES4: Ramesses IV -> V -> VI -> VII -> VIII -> IX -> X -> XI. This chain follows SUCCESSION, not clean father-son descent, and the tangled fraternal/uncle jumps are flagged honestly in the card text: Ramesses VI was a son of Ramesses III and thus UNCLE of his own predecessor Ramesses V; Ramesses VIII was the last surviving son of Ramesses III to reign; Ramesses IX was probably a grandson of Ramesses III. To keep the tree valid, VI and VIII sit once each in the succession spine (their true parentage from Ramesses III stated in text) rather than being double-parented under his families. BUILD 4 — economic decline is recorded on the later cards: record grain prices under Ramesses VII, and the TOMB-ROBBERY PAPYRI (Abbott and Amherst) documenting the plundering of the Theban necropolis under Ramesses IX. Ramesses XI is the LAST pharaoh of the New Kingdom; at his death real power had passed to the High Priests of Amun at Thebes and to Smendes in the north, ending the New Kingdom. Every figure is HISTORICAL, attested by contemporary monuments and papyri (the mummies of Siptah and the 'Screaming Man', Twosret's tomb KV14, QV51, the Judicial Papyrus of Turin, the Wilbour Papyrus, Papyrus Abbott). All new ids are prefixed EG_ so they classify to the EGYPT house; child/accession years are drawn smaller than the parent king's chain year to keep the timeline ordered. Loads after 10b_egypt.json (the king chain) and 18a_ramesside.json (the 19th-Dynasty royal families). Verified July 2026 against Wikipedia (Siptah, Twosret, Bay (chancellor), Ramesses III, Harem conspiracy, Iset Ta-Hemdjert, Tiye (20th dynasty), Pentawer, Ramesses IV, V, VI, VII, VIII, IX, X, XI, Late Bronze Age collapse, Sea Peoples).",
+ "families": [
+  {
+   "note": "END OF THE 19TH DYNASTY (branch 1 of 2). EG_SETI2 (already in the chain, referenced by id, NOT re-parented) & a '—' consort, with his son and successor Siptah as the child. Setnakhte already succeeds Seti II directly in 10b_egypt.json; this is a parallel succession branch capturing the contested collapse. The Syrian chancellor Bay is named on Siptah's card, not drawn as a kin-edge.",
+   "a": "EG_SETI2",
+   "b": {"id": "EG_SETI2WB", "label": "—"},
+   "children": [
+    {
+     "id": "EG_SIPTAH",
+     "label": "👑 Siptah<br/>c.1197 BC · 19th Dynasty · son of Seti II; a boy-king whose mummy reveals a deformed clubfoot; real power lay with the Syrian chancellor Bay, 'the power behind the throne', whom Siptah later had executed · historical"
+    }
+   ]
+  },
+  {
+   "note": "END OF THE 19TH DYNASTY (branch 2 of 2). EG_SIPTAH (just created) & a '—' consort, with Twosret as the successor closing the dynasty. Twosret was Seti II's Great Royal Wife who reigned first as Siptah's regent and then as a female pharaoh in her own right; she carries no child here (the 20th Dynasty is founded by Setnakhte, already in the 10b chain).",
+   "a": "EG_SIPTAH",
+   "b": {"id": "EG_SIPTAHW", "label": "—"},
+   "children": [
+    {
+     "id": "EG_TWOSRET",
+     "label": "👑 Twosret (Tausret)<br/>c.1191 BC · 19th Dynasty · Great Royal Wife of Seti II who ruled as regent for Siptah and then as FEMALE PHARAOH in her own right, closing the 19th Dynasty; buried in the large tomb KV14 · historical"
+    }
+   ]
+  },
+  {
+   "note": "20TH DYNASTY — the family of Ramesses III. EG_RAMESSES3 (already the chain king, referenced by id, NOT re-parented) & his Great Royal Wife Iset Ta-Hemdjert, mother of the future pharaohs Ramesses IV and Ramesses VI. Only Ramesses IV is hung here (he heads the succession chain below); Ramesses VI sits once in that chain with his descent from Ramesses III stated in text, to avoid double-parenting. Ramesses III defeated the SEA PEOPLES c.1177 BC in a great land-and-sea battle, amid the wider Late Bronze Age collapse.",
+   "a": "EG_RAMESSES3",
+   "b": {"id": "EG_ISET_TAHEMDJERT", "label": "Iset Ta-Hemdjert<br/>c.1190 BC · 20th Dynasty · Great Royal Wife of Ramesses III &amp; mother of the pharaohs Ramesses IV and Ramesses VI; buried in tomb QV51 in the Valley of the Queens · historical"},
+   "children": [
+    {
+     "id": "EG_RAMESSES4",
+     "label": "👑 Ramesses IV<br/>c.1155 BC · 20th Dynasty · son of Ramesses III &amp; Iset Ta-Hemdjert; mounted huge quarrying expeditions to Wadi Hammamat but reigned only about six years as royal power waned · historical"
+    }
+   ]
+  },
+  {
+   "note": "20TH DYNASTY — the Harem Conspiracy. EG_RAMESSES3 (referenced by id, NOT re-parented) & his secondary wife Tiye, who plotted his assassination to seat her son on the throne. Their son Pentawer, the plot's intended puppet-king, is the child. This Tiye is distinct from the 18th-Dynasty queen Tiye (EG_TIYE), hence the id EG_TIYE_R3.",
+   "a": "EG_RAMESSES3",
+   "b": {"id": "EG_TIYE_R3", "label": "Tiye<br/>c.1190 BC · 20th Dynasty · a secondary wife of Ramesses III who masterminded the HAREM CONSPIRACY, a palace plot that assassinated the king (his mummy shows a slit throat) to put her son Pentawer on the throne · historical"},
+   "children": [
+    {
+     "id": "EG_PENTAWER",
+     "label": "Pentawer<br/>c.1160 BC · 20th Dynasty · son of Ramesses III &amp; Tiye and figurehead of the Harem Conspiracy; convicted at the trials in the Judicial Papyrus of Turin and forced to take his own life; likely the mummified 'Screaming Man' (Unknown Man E) · historical"
+    }
+   ]
+  },
+  {
+   "note": "20TH-DYNASTY SUCCESSION CHAIN (1 of 7). EG_RAMESSES4 (just created) & a '—' consort; his son and successor Ramesses V.",
+   "a": "EG_RAMESSES4",
+   "b": {"id": "EG_RAMESSES4W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_RAMESSES5",
+     "label": "👑 Ramesses V<br/>c.1149 BC · 20th Dynasty · son of Ramesses IV; a short reign marred by temple corruption and land disputes (the Wilbour Papyrus); his mummy bears lesions once read as smallpox; succeeded by his uncle · historical"
+    }
+   ]
+  },
+  {
+   "note": "20TH-DYNASTY SUCCESSION CHAIN (2 of 7). EG_RAMESSES5 & a '—' consort; the succession jumps to Ramesses VI, who was NOT his son but his UNCLE (a son of Ramesses III), a fraternal/uncle succession flagged honestly in the card text.",
+   "a": "EG_RAMESSES5",
+   "b": {"id": "EG_RAMESSES5W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_RAMESSES6",
+     "label": "👑 Ramesses VI<br/>c.1145 BC · 20th Dynasty · a son of Ramesses III and brother of Ramesses IV, so the UNCLE of his own predecessor Ramesses V; usurped and enlarged tomb KV9; the last king to hold Egypt's Sinai mines firmly · historical"
+    }
+   ]
+  },
+  {
+   "note": "20TH-DYNASTY SUCCESSION CHAIN (3 of 7). EG_RAMESSES6 & a '—' consort; his son and successor Ramesses VII.",
+   "a": "EG_RAMESSES6",
+   "b": {"id": "EG_RAMESSES6W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_RAMESSES7",
+     "label": "👑 Ramesses VII<br/>c.1136 BC · 20th Dynasty · son of Ramesses VI; his reign saw record-high grain prices amid a deepening economic crisis · historical"
+    }
+   ]
+  },
+  {
+   "note": "20TH-DYNASTY SUCCESSION CHAIN (4 of 7). EG_RAMESSES7 & a '—' consort; the throne passes to Ramesses VIII, the last surviving son of Ramesses III to reign (an uncle again taking the crown), flagged in text.",
+   "a": "EG_RAMESSES7",
+   "b": {"id": "EG_RAMESSES7W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_RAMESSES8",
+     "label": "👑 Ramesses VIII (Sethherkhepeshef)<br/>c.1130 BC · 20th Dynasty · the LAST surviving son of Ramesses III to take the throne, an uncle passing over the direct line; a fleeting reign of about a year, and the only 20th-Dynasty king whose tomb has never been located · historical"
+    }
+   ]
+  },
+  {
+   "note": "20TH-DYNASTY SUCCESSION CHAIN (5 of 7). EG_RAMESSES8 & a '—' consort; the crown returns to the senior line with Ramesses IX, probably a GRANDSON of Ramesses III (via Prince Mentuherkhepeshef), flagged in text.",
+   "a": "EG_RAMESSES8",
+   "b": {"id": "EG_RAMESSES8W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_RAMESSES9",
+     "label": "👑 Ramesses IX<br/>c.1126 BC · 20th Dynasty · probably a grandson of Ramesses III; his reign is documented by the TOMB-ROBBERY PAPYRI (Abbott and Amherst), records of the trials of gangs plundering the royal tombs at Thebes · historical"
+    }
+   ]
+  },
+  {
+   "note": "20TH-DYNASTY SUCCESSION CHAIN (6 of 7). EG_RAMESSES9 & a '—' consort; his son and successor Ramesses X.",
+   "a": "EG_RAMESSES9",
+   "b": {"id": "EG_RAMESSES9W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_RAMESSES10",
+     "label": "👑 Ramesses X<br/>c.1111 BC · 20th Dynasty · a poorly attested king; work on the royal tombs repeatedly halted as Libyan raids and unrest disrupted the Theban necropolis · historical"
+    }
+   ]
+  },
+  {
+   "note": "20TH-DYNASTY SUCCESSION CHAIN (7 of 7). EG_RAMESSES10 & a '—' consort; his son Ramesses XI, the LAST pharaoh of the New Kingdom.",
+   "a": "EG_RAMESSES10",
+   "b": {"id": "EG_RAMESSES10W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_RAMESSES11",
+     "label": "👑 Ramesses XI<br/>c.1107 BC · 20th Dynasty · the LAST pharaoh of the New Kingdom; by his death real power had passed to the High Priests of Amun at Thebes (Herihor) and to Smendes in the north, fragmenting Egypt and ENDING the New Kingdom · historical"
+    }
+   ]
+  }
+ ]
+}

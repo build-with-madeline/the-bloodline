@@ -1,0 +1,359 @@
+{
+ "_note": "Slab c.1450-1080 BC — the ISRAELITE Conquest & Judges (SCRIPTURE, plain UPPERCASE ids; historical/biblical, NOT flagged legendary) and the GREEK aftermath of Troy: the Heracleidae / Dorian Return (MYC_ ids; wholly LEGENDARY, each such node flagged). Two independent threads, most families standalone (as the brief allows — the Judges need not interconnect). THREAD A — ISRAEL. (1) Aaron's priestly line, extending the existing house: AARON (existing) already has son ELEAZARA (Eleazar, the third High Priest, existing); this slab adds PHINEHAS (the zealous priest, Numbers 25) as ELEAZARA's son, then the high-priestly succession of 1 Chronicles 6:4-8 / Ezra 7:4-5 — PHINEHAS > ABISHUA > BUKKI > UZZI. (2) The Conquest generation, standalone (their fathers Nun & Jephunneh are new leaf nodes, not otherwise in the tree): JOSHUA_NUN — Joshua son of Nun, the Ephraimite, Moses's successor who led the conquest (created DISTINCT from the unrelated LK_JOSHUA_13 in Luke's list, per the brief); and CALEB son of Jephunneh the Kenizzite, the faithful spy (Numbers 13-14, Joshua 14). (3) The major JUDGES of the Book of Judges (~1200-1050 BC; each flagged '· judge'), each attached to its scripturally-named father as a standalone family since none of those fathers already sit in the tree and directly hanging a judge off a 13th-15th-century patriarch would be centuries off — so they stand as flagged tribal figures with tribe noted: OTHNIEL son of Kenaz (kinsman of Caleb; Judah/Kenizzite; Judges 3:9-11); EHUD son of Gera the Benjamite, the left-handed slayer of Eglon of Moab (Judges 3:15-30); SHAMGAR son of Anath, who struck 600 Philistines with an oxgoad (Judges 3:31); DEBORAH the prophetess (wife of Lappidoth, drawn as a childless union) with BARAK son of Abinoam of Naphtali, who together broke Sisera (Judges 4-5); GIDEON (Jerubbaal) son of Joash the Abiezrite of Manasseh, who had many wives and seventy sons — his firstborn JETHER (Judges 8:20) shown, and ABIMELECH, his son by a Shechemite concubine, who killed his brothers and made himself king (Judges 8:30-9:57); JEPHTHAH the Gileadite (son of Gilead by a harlot) and his unnamed DAUGHTER, whom his rash vow doomed (Judges 11); and SAMSON son of Manoah, the Danite Nazirite strongman, with DELILAH drawn as a childless union (Judges 13-16). THREAD B — GREECE, the HERACLEIDAE & the Dorian Return (all MYC_, all LEGENDARY, dates nominal placeholders): Heracles (existing MYC_HERACLES) x Deianira > HYLLUS (eldest of the sons by Deianira) > CLEODAEUS > ARISTOMACHUS > the three brothers TEMENUS, CRESPHONTES & ARISTODEMUS, sons of Aristomachus, who led the 'Return of the Heraclidae' (the Dorian invasion, traditionally ~1100 BC, the prophesied 'third generation') and divided the Peloponnese: Argos to Temenus, Messenia to Cresphontes, and Lacedaemon (Sparta) to the twin sons of Aristodemus by Argia — EURYSTHENES & PROCLES, founders of Sparta's dual (Agiad & Eurypontid) kingship. This line runs on toward the historical Spartan kings and, through Temenus's Argead branch, is claimed as the ancestry of the Macedonian kings (Philip II & Alexander) — noted for a future slab. Intermediate consorts of Hyllus/Cleodaeus/Aristomachus are unnamed in the sources and drawn as flagged 'consort (unnamed)' nodes rather than invented. TROJAN AFTERMATH (note only, no new nodes): Orestes (existing MYC_ORESTES, son of Agamemnon) succeeded at Mycenae/Argos after the war, and Aeneas (existing TRO_AENEAS) sailed west — his line to the Alban kings and Rome is left for the ANTIQUITY/Rome slab. Web-verified against Wikipedia 'Heracleidae', 'Temenus', 'Cresphontes', 'Aristodemus (son of Aristomachus)', 'Eurysthenes', 'Procles', and against the biblical text (Numbers 13-14 & 25, Joshua, Judges 3-16, 1 Chronicles 6, Ezra 7). No fabrication — scripture followed for Israel, received mythology for Greece; unattested spouses flagged rather than invented.",
+ "families": [
+  {
+   "note": "ISRAEL — Aaron's priestly line. ELEAZARA (existing: Eleazar, son of Aaron, the third High Priest) to PHINEHAS, the zealous priest of Numbers 25 who turned away God's wrath and received the covenant of a perpetual priesthood.",
+   "a": "ELEAZARA",
+   "b": {
+    "id": "PHINEHASW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "PHINEHAS",
+     "label": "Phinehas<br/>c.1440 BC · son of Eleazar, grandson of Aaron; the zealous High Priest who stayed the plague at Peor &amp; won the covenant of an everlasting priesthood · Numbers 25"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — priestly succession (1 Chronicles 6:4-5). Phinehas to Abishua.",
+   "a": "PHINEHAS",
+   "b": {
+    "id": "ABISHUAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "ABISHUA",
+     "label": "Abishua<br/>c.1410 BC · son of Phinehas; High Priest in the line of Aaron · 1 Chronicles 6:4-5, Ezra 7:5"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — priestly succession. Abishua to Bukki.",
+   "a": "ABISHUA",
+   "b": {
+    "id": "BUKKIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BUKKI",
+     "label": "Bukki<br/>c.1380 BC · son of Abishua; High Priest in the Aaronic line · 1 Chronicles 6:5"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — priestly succession. Bukki to Uzzi.",
+   "a": "BUKKI",
+   "b": {
+    "id": "UZZIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "UZZI",
+     "label": "Uzzi<br/>c.1350 BC · son of Bukki; High Priest in the Aaronic line · 1 Chronicles 6:5-6"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — the Conquest generation (standalone; Nun is a new leaf). JOSHUA_NUN — Joshua son of Nun, the Ephraimite, Moses's successor who led Israel into Canaan. Created DISTINCT from the unrelated LK_JOSHUA_13 of Luke's genealogy.",
+   "a": {
+    "id": "NUN",
+    "label": "Nun<br/>c.1480 BC · Ephraimite; father of Joshua · Numbers 13:8, 1 Chronicles 7:27"
+   },
+   "b": {
+    "id": "NUNW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "JOSHUA_NUN",
+     "label": "Joshua<br/>c.1450 BC · son of Nun, of the tribe of Ephraim; Moses's successor who led the conquest of Canaan &amp; divided the land · Book of Joshua"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — the Conquest generation (standalone; Jephunneh is a new leaf). CALEB son of Jephunneh the Kenizzite, the faithful spy who with Joshua urged Israel to take the land, and was granted Hebron.",
+   "a": {
+    "id": "JEPHUNNEH",
+    "label": "Jephunneh<br/>c.1480 BC · the Kenizzite; father of Caleb · Numbers 13:6"
+   },
+   "b": {
+    "id": "JEPHUNNEHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CALEB",
+     "label": "Caleb<br/>c.1450 BC · son of Jephunneh the Kenizzite (tribe of Judah); the faithful spy who 'wholly followed the LORD' &amp; was given Hebron · Numbers 13-14, Joshua 14"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — the JUDGES (standalone tribal figures). OTHNIEL son of Kenaz, kinsman/younger brother of Caleb (Judah, the Kenizzite clan); the first judge, who delivered Israel from Cushan-rishathaim of Aram.",
+   "a": {
+    "id": "KENAZ",
+    "label": "Kenaz<br/>c.1420 BC · Kenizzite of Judah; father of Othniel &amp; kin of Caleb · Judges 3:9"
+   },
+   "b": {
+    "id": "KENAZW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "OTHNIEL",
+     "label": "Othniel<br/>c.1390 BC · son of Kenaz, kinsman of Caleb (Judah); the first judge · deliverer from Cushan-rishathaim of Aram · Judges 3:9-11"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — the JUDGES. EHUD son of Gera, a Benjamite; the left-handed judge who slew Eglon king of Moab and freed Israel.",
+   "a": {
+    "id": "GERA",
+    "label": "Gera<br/>c.1300 BC · of the tribe of Benjamin; father of Ehud · Judges 3:15"
+   },
+   "b": {
+    "id": "GERAW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EHUD",
+     "label": "Ehud<br/>c.1270 BC · son of Gera the Benjamite; the left-handed judge who killed Eglon of Moab · deliverer · Judges 3:15-30"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — the JUDGES. SHAMGAR son of Anath, who struck down 600 Philistines with an oxgoad.",
+   "a": {
+    "id": "ANATH_F",
+    "label": "Anath<br/>c.1260 BC · father of Shamgar · Judges 3:31"
+   },
+   "b": {
+    "id": "ANATH_FW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "SHAMGAR",
+     "label": "Shamgar<br/>c.1230 BC · son of Anath; judge who slew 600 Philistines with an oxgoad · deliverer · Judges 3:31"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — the JUDGES. DEBORAH the prophetess &amp; judge, wife of Lappidoth, drawn as a childless union (the text names no children). Deborah led Israel with Barak; the two are shown separately (Barak below), as they were fellow-leaders, not spouses.",
+   "a": {
+    "id": "LAPPIDOTH",
+    "label": "Lappidoth<br/>c.1155 BC · husband of Deborah · Judges 4:4"
+   },
+   "b": {
+    "id": "DEBORAH",
+    "label": "Deborah<br/>c.1150 BC · prophetess &amp; the only woman among the judges; from the hill country of Ephraim, she summoned Barak &amp; broke Sisera's army · deliverer · Judges 4-5"
+   },
+   "children": []
+  },
+  {
+   "note": "ISRAEL — the JUDGES. BARAK son of Abinoam of Naphtali (Kedesh), the general who with Deborah defeated Sisera; standalone.",
+   "a": {
+    "id": "ABINOAM",
+    "label": "Abinoam<br/>c.1155 BC · of Kedesh in Naphtali; father of Barak · Judges 4:6"
+   },
+   "b": {
+    "id": "ABINOAMW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BARAK",
+     "label": "Barak<br/>c.1125 BC · son of Abinoam of Naphtali; captain who, called by Deborah, routed Sisera &amp; Jabin of Hazor · deliverer · Judges 4-5"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — the JUDGES. GIDEON (Jerubbaal) son of Joash the Abiezrite of Manasseh; the judge who routed Midian with 300 men. Standalone under his father Joash.",
+   "a": {
+    "id": "JOASH_AB",
+    "label": "Joash<br/>c.1130 BC · the Abiezrite of Ophrah, tribe of Manasseh; father of Gideon · Judges 6:11"
+   },
+   "b": {
+    "id": "JOASH_ABW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "GIDEON",
+     "label": "Gideon (Jerubbaal)<br/>c.1100 BC · son of Joash the Abiezrite (Manasseh); judge who broke Midian with 300 men &amp; refused the crown; had many wives &amp; seventy sons · deliverer · Judges 6-8"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — GIDEON x a wife: Jether, his firstborn (Judges 8:20). Gideon is recorded with seventy sons by his many wives; only the named firstborn is drawn, with a note.",
+   "a": "GIDEON",
+   "b": {
+    "id": "GIDEONW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "JETHER",
+     "label": "Jether<br/>c.1075 BC · firstborn of Gideon's seventy sons; bidden to slay the captured Midianite kings but too young to draw his sword · Judges 8:20"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — GIDEON x his Shechemite concubine: Abimelech, who murdered his seventy brothers on one stone and had himself made king at Shechem — Israel's first would-be monarch, killed by a millstone at Thebez.",
+   "a": "GIDEON",
+   "b": {
+    "id": "GIDEON_CONCUBINE",
+    "label": "the concubine at Shechem<br/>c.1095 BC · Gideon's concubine in Shechem; mother of Abimelech · Judges 8:31"
+   },
+   "children": [
+    {
+     "id": "ABIMELECH_J",
+     "label": "Abimelech<br/>c.1075 BC · son of Gideon by his Shechemite concubine; slew his seventy brothers &amp; made himself king at Shechem; slain by a millstone dropped from Thebez's tower · Judges 9"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — the JUDGES. JEPHTHAH the Gileadite, son of Gilead by a harlot; the judge who defeated Ammon after a rash vow. Standalone under his father Gilead.",
+   "a": {
+    "id": "GILEAD_F",
+    "label": "Gilead<br/>c.1115 BC · of the tribe of Manasseh east of Jordan; father of Jephthah by a harlot · Judges 11:1"
+   },
+   "b": {
+    "id": "GILEAD_FW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "JEPHTHAH",
+     "label": "Jephthah<br/>c.1085 BC · son of Gilead; the outcast Gileadite recalled to lead Israel; defeated Ammon but was bound by his vow to sacrifice his daughter · deliverer · Judges 11"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — JEPHTHAH x his wife: his only child, an unnamed daughter, whom his vow doomed; she bewailed her virginity two months and became a yearly lament of Israel's daughters.",
+   "a": "JEPHTHAH",
+   "b": {
+    "id": "JEPHTHAHW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "JEPHTHAH_DAU",
+     "label": "Jephthah's daughter<br/>c.1060 BC · his only child; met him with timbrels on his return, then was given up to his rash vow — unnamed in the text · Judges 11:34-40"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — the JUDGES. SAMSON son of Manoah of Zorah, of the tribe of Dan; the Nazirite strongman. Standalone under his father Manoah.",
+   "a": {
+    "id": "MANOAH",
+    "label": "Manoah<br/>c.1110 BC · of Zorah, tribe of Dan; father of Samson, to whose barren wife the angel foretold the birth · Judges 13"
+   },
+   "b": {
+    "id": "MANOAHW",
+    "label": "Manoah's wife<br/>c.1108 BC · the barren wife of Manoah; visited by the angel of the LORD &amp; mother of Samson · Judges 13"
+   },
+   "children": [
+    {
+     "id": "SAMSON",
+     "label": "Samson<br/>c.1080 BC · son of Manoah, the Danite Nazirite strongman; slew a lion &amp; a thousand Philistines, betrayed by Delilah, pulled down Dagon's temple at his death · deliverer · Judges 13-16"
+    }
+   ]
+  },
+  {
+   "note": "ISRAEL — SAMSON ● Delilah, the Philistine woman of Sorek who coaxed the secret of his strength from him and betrayed him. Drawn as a childless union (they had no issue).",
+   "a": "SAMSON",
+   "b": {
+    "id": "DELILAH",
+    "label": "Delilah<br/>c.1078 BC · the woman of the Valley of Sorek; bribed by the Philistine lords, she wheedled out the secret of Samson's strength &amp; betrayed him · Judges 16"
+   },
+   "children": []
+  },
+  {
+   "note": "GREECE — the HERACLEIDAE (LEGENDARY). Heracles (existing MYC_HERACLES) x Deianira > Hyllus, eldest of Heracles's sons by Deianira and ancestor of the royal Heraclid line.",
+   "a": "MYC_HERACLES",
+   "b": {
+    "id": "MYC_DEIANIRA",
+    "label": "Deianira<br/>c.1290 BC · wife of Heracles; her gift of the poisoned robe of Nessus brought about his death; mother of Hyllus · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_HYLLUS",
+     "label": "👑 Hyllus<br/>c.1260 BC · eldest son of Heracles &amp; Deianira; led the first, failed Return of the Heraclidae &amp; fell in single combat; ancestor of the Dorian kings · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "GREECE — the HERACLEIDAE (LEGENDARY). Hyllus to Cleodaeus, leader of the third attempt on the Peloponnese. Hyllus's consort is unnamed in the sources and flagged rather than invented.",
+   "a": "MYC_HYLLUS",
+   "b": {
+    "id": "MYC_HYLLUS_W",
+    "label": "consort of Hyllus<br/>c.1258 BC · unnamed in the sources; mother of Cleodaeus · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_CLEODAEUS",
+     "label": "👑 Cleodaeus<br/>c.1200 BC · son of Hyllus; led the third (failed) Heraclid attempt to reclaim the Peloponnese · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "GREECE — the HERACLEIDAE (LEGENDARY). Cleodaeus to Aristomachus, leader of the fourth attempt. Consort unnamed in the sources, flagged.",
+   "a": "MYC_CLEODAEUS",
+   "b": {
+    "id": "MYC_CLEODAEUS_W",
+    "label": "consort of Cleodaeus<br/>c.1198 BC · unnamed in the sources; mother of Aristomachus · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_ARISTOMACHUS",
+     "label": "👑 Aristomachus<br/>c.1160 BC · son of Cleodaeus; led the fourth (failed) Heraclid attempt &amp; fell in battle; father of the three brothers who finally succeeded · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "GREECE — the HERACLEIDAE (LEGENDARY). Aristomachus to his three sons — Temenus, Cresphontes & Aristodemus — who led the successful Return of the Heraclidae (the Dorian invasion, traditionally ~1100 BC, the prophesied 'third generation') and divided the Peloponnese: Argos to Temenus, Messenia to Cresphontes, Lacedaemon to Aristodemus's line. Consort unnamed in the sources, flagged.",
+   "a": "MYC_ARISTOMACHUS",
+   "b": {
+    "id": "MYC_ARISTOMACHUS_W",
+    "label": "consort of Aristomachus<br/>c.1158 BC · unnamed in the sources; mother of Temenus, Cresphontes &amp; Aristodemus · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_TEMENUS",
+     "label": "👑 Temenus<br/>c.1120 BC · son of Aristomachus; led the Dorian Return &amp; took Argos; his Argead line was later claimed as ancestor of the Macedonian kings (Philip II &amp; Alexander) · LEGENDARY"
+    },
+    {
+     "id": "MYC_CRESPHONTES",
+     "label": "👑 Cresphontes<br/>c.1118 BC · son of Aristomachus; took Messenia in the division of the Peloponnese; later slain with two of his sons in a revolt · LEGENDARY"
+    },
+    {
+     "id": "MYC_ARISTODEMUS",
+     "label": "👑 Aristodemus<br/>c.1116 BC · son of Aristomachus; his twin sons Eurysthenes &amp; Procles received Lacedaemon (Sparta), founding its dual kingship · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "GREECE — the HERACLEIDAE (LEGENDARY). Aristodemus x Argia > the twins Eurysthenes & Procles, from whom descend the two royal houses of Sparta (the Agiad & Eurypontid lines) — the bridge from legend toward the historical Spartan kings.",
+   "a": "MYC_ARISTODEMUS",
+   "b": {
+    "id": "MYC_ARGIA",
+    "label": "Argia<br/>c.1114 BC · daughter of Autesion; wife of Aristodemus; mother of the twin Spartan founder-kings Eurysthenes &amp; Procles · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "MYC_EURYSTHENES",
+     "label": "👑 Eurysthenes<br/>c.1090 BC · twin son of Aristodemus; founder of the Agiad royal house of Sparta · LEGENDARY"
+    },
+    {
+     "id": "MYC_PROCLES",
+     "label": "👑 Procles<br/>c.1090 BC · twin son of Aristodemus; founder of the Eurypontid royal house of Sparta · LEGENDARY"
+    }
+   ]
+  }
+ ]
+}

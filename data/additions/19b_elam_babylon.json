@@ -1,0 +1,225 @@
+{
+ "_note": "Slab c.1200-1080 BC — the Elamite Shutrukid empire at its height, the fall of the Kassites, the native Babylonian revival under the Second Dynasty of Isin, and Middle Assyria between Tukulti-Ninurta I and Tiglath-Pileser I. Prefixes: Elam=EL_, Babylon=BAB_, Assyria=AS_. Built around the MARQUEE CROSS-LINE BRIDGE: the Elam x Babylon marriage that gave Elam its claim on Babylon. THREAD 1 ELAM SHUTRUKID (EL_, splices onto the existing Kidinuid tail EL_TANRUHURATIR2, referenced as a string, NOT recreated; note the ~290-yr gap across the omitted Igihalkid dynasty — succession-by-convention, NOT descent, flagged): Shutruk-Nahhunte I (c.1184, sacked Babylon 1158 BC, killed the Kassite Zababa-shuma-iddina, and carried the Code of Hammurabi law-stele &amp; the Naram-Sin victory-stele off to Susa) > his sons Kutir-Nahhunte II (c.1155, ended the Kassite dynasty by deposing the last Kassite king Enlil-nadin-ahi) &amp; Shilhak-Inshushinak (c.1150, greatest Elamite builder, the last great king of Elam) > Hutelutush-Inshushinak (c.1120, son of Shilhak-Inshushinak per most sources — some make him a son of Kutir-Nahhunte, discrepancy flagged; defeated by Nebuchadnezzar I of Babylon). THREAD 2 THE CROSS-LINE MARRIAGE (Elam x Babylon) — the connection: Shutruk-Nahhunte I married a DAUGHTER OF THE KASSITE KING MELI-SHIPAK (Meli-Shipak II, r. c.1186-1172 BC); when Meli-Shipak's line was overthrown, Shutruk-Nahhunte used this matrimonial tie as his pretext to invade Babylon. Meli-Shipak is spliced onto the existing BAB_KASHTILIASH4 (referenced as a string, NOT recreated) with the intervening Assyrian interlude &amp; restored Kassite kings (Adad-shuma-usur etc.) omitted — succession, NOT father-son, flagged. THREAD 3 BABYLON SECOND DYNASTY OF ISIN (BAB_, hung off the existing bridge node BAB_ISIN2 in 10d_babylon.json, referenced as a string, NOT recreated, so this real king-chain details that dynasty without restructuring the bridge chain): Marduk-kabit-ahheshu (c.1153, founder) > Itti-Marduk-balatu (son) > Ninurta-nadin-shumi > Nebuchadnezzar I (c.1121, son of Ninurta-nadin-shumi; the great king who counter-invaded Elam, sacked Susa, recovered the statue of Marduk, and DEFEATED Hutelutush-Inshushinak) > Enlil-nadin-apli (son of Nebuchadnezzar I) > Marduk-nadin-ahhe (NOT descent: he was Enlil-nadin-apli's UNCLE / brother of Nebuchadnezzar I, who led a revolt that toppled his nephew — succession by usurpation, flagged). THREAD 4 MIDDLE ASSYRIA (AS_, splices onto the existing AS_TUKULTININURTA1, referenced as a string, NOT recreated; this detailed real-king chain runs parallel to the existing 'Post-Tukulti-Ninurta lull' bridge in 10c_assyria.json): Ashur-nadin-apli (c.1206, son of Tukulti-Ninurta I) > Ninurta-apal-Ekur (NOT descent: usurped the throne — succession, flagged) > Ashur-dan I (son of Ninurta-apal-Ekur, long reign) > Ashur-resh-ishi I (c.1133, grandson of Ashur-dan I through his son Mutakkil-Nusku; FATHER of Tiglath-Pileser I). To AVOID double-parenting the already-parented AS_TIGLATHPILESER1, this chain terminates at Ashur-resh-ishi I as a leaf and names Tiglath-Pileser I as his son IN-LABEL ONLY — not in any children array. Middle Chronology dates; every child year is smaller than its parent's. Web-verified against Wikipedia 'Shutrukid dynasty', 'Shutruk-Nakhunte', 'Shilhak-Inshushinak', 'Hutelutush-Inshushinak', 'Meli-Shipak II', 'Second Dynasty of Isin', 'Marduk-kabit-ahheshu', 'Nebuchadnezzar I', 'Enlil-nadin-apli', 'Marduk-nadin-ahhe', 'Ashur-nadin-apli', 'Ninurta-apal-Ekur', 'Ashur-Dan I', 'Ashur-resh-ishi I', plus Britannica. No fabrication; every uncertain link flagged in-node.",
+ "families": [
+  {
+   "note": "ELAM — the existing Kidinuid tail (Tan-Ruhuratir II, c.1480) to Shutruk-Nahhunte I, founder of the imperial Shutrukid dynasty. A ~290-yr gap across the omitted Igihalkid dynasty separates them — succession-by-convention, NOT descent (flagged).",
+   "a": "EL_TANRUHURATIR2",
+   "b": {
+    "id": "EL_SHUTRUKGAPW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_SHUTRUKNAHHUNTE",
+     "label": "👑 Shutruk-Nahhunte I<br/>c.1184 BC · King of Elam at its imperial height; NOT a descendant of the Kidinuids — a ~290-yr gap across the omitted Igihalkid dynasty separates them (succession-by-convention, flagged); sacked Babylon 1158 BC &amp; killed the Kassite Zababa-shuma-iddina; carried the Code of Hammurabi law-stele &amp; the Naram-Sin victory-stele off to Susa · historical"
+    }
+   ]
+  },
+  {
+   "note": "ELAM — Shutruk-Nahhunte I to his two sons who reigned in turn: Kutir-Nahhunte II, who ended the Kassite dynasty, and Shilhak-Inshushinak, the greatest Elamite builder.",
+   "a": "EL_SHUTRUKNAHHUNTE",
+   "b": {
+    "id": "EL_SHUTRUKNAHHUNTEW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_KUTIRNAHHUNTE2",
+     "label": "👑 Kutir-Nahhunte II<br/>c.1155 BC · King of Elam; son of Shutruk-Nahhunte I (REAL father-son); completed the conquest of Babylonia &amp; ENDED the Kassite dynasty by deposing its last king Enlil-nadin-ahi · historical"
+    },
+    {
+     "id": "EL_SHILHAKINSHUSHINAK",
+     "label": "👑 Shilhak-Inshushinak<br/>c.1150 BC · King of Elam; son of Shutruk-Nahhunte I &amp; successor to his elder brother Kutir-Nahhunte II (REAL father-son); the greatest builder of the Elamite kingdom &amp; its last great king · historical"
+    }
+   ]
+  },
+  {
+   "note": "ELAM — Shilhak-Inshushinak to Hutelutush-Inshushinak, the king defeated by Nebuchadnezzar I of Babylon. Most sources make him Shilhak-Inshushinak's son; some make him a son of Kutir-Nahhunte II (discrepancy flagged).",
+   "a": "EL_SHILHAKINSHUSHINAK",
+   "b": {
+    "id": "EL_SHILHAKINSHUSHINAKW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "EL_HUTELUTUSHINSHUSHINAK",
+     "label": "👑 Hutelutush-Inshushinak<br/>c.1120 BC · King of Elam; son of Shilhak-Inshushinak per most sources (some make him a son of Kutir-Nahhunte II — parentage disputed, flagged); DEFEATED by Nebuchadnezzar I of Babylon, who sacked Susa &amp; recovered the statue of Marduk · historical"
+    }
+   ]
+  },
+  {
+   "note": "BABYLON (Kassite tail) — the existing Kashtiliash IV (c.1232) to Meli-Shipak II (Meli-Shipak). The Assyrian interlude &amp; restored Kassite kings (Adad-shuma-usur etc.) between them are omitted — succession, NOT father-son (flagged). Meli-Shipak's daughter is the cross-line bride below.",
+   "a": "BAB_KASHTILIASH4",
+   "b": {
+    "id": "BAB_MELISHIPAKGAPW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_MELISHIPAK",
+     "label": "👑 Meli-Shipak II<br/>c.1186 BC · late Kassite King of Babylon (r. c.1186-1172); several kings after Kashtiliash IV, across the Assyrian interlude &amp; the restored Kassite line — succession, NOT direct descent (flagged); gave a daughter in marriage to Shutruk-Nahhunte I of Elam · historical"
+    }
+   ]
+  },
+  {
+   "note": "BABYLON (Kassite) — Meli-Shipak II to his daughter, the Kassite princess married to Shutruk-Nahhunte I of Elam (the cross-line bride; see the union below). Name not preserved.",
+   "a": "BAB_MELISHIPAK",
+   "b": {
+    "id": "BAB_MELISHIPAKW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_MELISHIPAKDAU",
+     "label": "Daughter of Meli-Shipak<br/>c.1170 BC · Kassite princess, daughter of Meli-Shipak II of Babylon (REAL father-daughter; personal name not preserved); married Shutruk-Nahhunte I of Elam, giving the Elamite king his pretext to claim the Babylonian throne · historical"
+    }
+   ]
+  },
+  {
+   "note": "CROSS-HOUSE MARRIAGE (Elam x Babylon) — THE MARQUEE CROSS-LINE BRIDGE: Shutruk-Nahhunte I of Elam married the daughter of the Kassite king Meli-Shipak II. When her line was overthrown, this matrimonial tie became his pretext to invade &amp; sack Babylon (1158 BC). Union only; no issue drawn.",
+   "a": "EL_SHUTRUKNAHHUNTE",
+   "b": "BAB_MELISHIPAKDAU",
+   "children": []
+  },
+  {
+   "note": "BABYLON — the native revival: the real kings of the Second Dynasty of Isin, hung off the existing BAB_ISIN2 bridge node so this chain details that dynasty. Marduk-kabit-ahheshu, its founder.",
+   "a": "BAB_ISIN2",
+   "b": {
+    "id": "BAB_ISIN2CHAINW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_MARDUKKABIT",
+     "label": "👑 Marduk-kabit-ahheshu<br/>c.1153 BC · founder of the Second Dynasty of Isin (native Babylonian revival after the Elamite sack); his name means 'Marduk is the weightiest among his brothers' · historical"
+    }
+   ]
+  },
+  {
+   "note": "BABYLON (2nd Isin) — Marduk-kabit-ahheshu to his son Itti-Marduk-balatu.",
+   "a": "BAB_MARDUKKABIT",
+   "b": {
+    "id": "BAB_MARDUKKABITW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_ITTIMARDUKBALATU",
+     "label": "👑 Itti-Marduk-balatu<br/>c.1139 BC · second king of the Second Dynasty of Isin; son of Marduk-kabit-ahheshu (REAL father-son) · historical"
+    }
+   ]
+  },
+  {
+   "note": "BABYLON (2nd Isin) — Itti-Marduk-balatu to Ninurta-nadin-shumi, father of Nebuchadnezzar I.",
+   "a": "BAB_ITTIMARDUKBALATU",
+   "b": {
+    "id": "BAB_ITTIMARDUKBALATUW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_NINURTANADINSHUMI",
+     "label": "👑 Ninurta-nadin-shumi<br/>c.1131 BC · third king of the Second Dynasty of Isin; father of Nebuchadnezzar I; campaigned against Assyria · historical"
+    }
+   ]
+  },
+  {
+   "note": "BABYLON (2nd Isin) — Ninurta-nadin-shumi to his son Nebuchadnezzar I, the dynasty's greatest king, who counter-invaded Elam and defeated Hutelutush-Inshushinak.",
+   "a": "BAB_NINURTANADINSHUMI",
+   "b": {
+    "id": "BAB_NINURTANADINSHUMIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_NEBUCHADNEZZAR1",
+     "label": "👑 Nebuchadnezzar I<br/>c.1121 BC · greatest king of the Second Dynasty of Isin; son of Ninurta-nadin-shumi (REAL father-son); counter-invaded Elam, sacked Susa &amp; recovered the statue of Marduk, DEFEATING Hutelutush-Inshushinak · historical"
+    }
+   ]
+  },
+  {
+   "note": "BABYLON (2nd Isin) — Nebuchadnezzar I to his son Enlil-nadin-apli.",
+   "a": "BAB_NEBUCHADNEZZAR1",
+   "b": {
+    "id": "BAB_NEBUCHADNEZZAR1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_ENLILNADINAPLI",
+     "label": "👑 Enlil-nadin-apli<br/>c.1103 BC · fifth king of the Second Dynasty of Isin; son of Nebuchadnezzar I (REAL father-son); toppled by a revolt led by his uncle Marduk-nadin-ahhe · historical"
+    }
+   ]
+  },
+  {
+   "note": "BABYLON (2nd Isin) — Enlil-nadin-apli to Marduk-nadin-ahhe. NOT descent: Marduk-nadin-ahhe was Enlil-nadin-apli's UNCLE (brother of Nebuchadnezzar I), who led the revolt that toppled his nephew — succession by usurpation (flagged).",
+   "a": "BAB_ENLILNADINAPLI",
+   "b": {
+    "id": "BAB_ENLILNADINAPLIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "BAB_MARDUKNADINAHHE",
+     "label": "👑 Marduk-nadin-ahhe<br/>c.1098 BC · sixth king of the Second Dynasty of Isin; NOT a descendant of Enlil-nadin-apli but his UNCLE (brother of Nebuchadnezzar I), who led the revolt that toppled his nephew — succession by usurpation (flagged); later warred with Assyria's Tiglath-Pileser I · historical"
+    }
+   ]
+  },
+  {
+   "note": "MIDDLE ASSYRIA — the existing Tukulti-Ninurta I (c.1243) to his son Ashur-nadin-apli. This detailed real-king chain runs parallel to the existing 'Post-Tukulti-Ninurta lull' bridge in 10c_assyria.json.",
+   "a": "AS_TUKULTININURTA1",
+   "b": {
+    "id": "AS_ASHURNADINAPLIW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ASHURNADINAPLI",
+     "label": "👑 Ashur-nadin-apli<br/>c.1206 BC · King of Assyria; son of Tukulti-Ninurta I (REAL father-son); came to the throne after his father's assassination · historical"
+    }
+   ]
+  },
+  {
+   "note": "MIDDLE ASSYRIA — Ashur-nadin-apli to Ninurta-apal-Ekur. NOT descent: Ninurta-apal-Ekur usurped the throne (a descendant of an earlier line) — succession (flagged).",
+   "a": "AS_ASHURNADINAPLI",
+   "b": {
+    "id": "AS_NINURTAAPALEKURW",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_NINURTAAPALEKUR",
+     "label": "👑 Ninurta-apal-Ekur<br/>c.1191 BC · King of Assyria; NOT a descendant of his predecessor — a scion of an earlier royal line who USURPED the throne (succession, flagged); took the title 'king of the universe' · historical"
+    }
+   ]
+  },
+  {
+   "note": "MIDDLE ASSYRIA — Ninurta-apal-Ekur to his son Ashur-dan I, whose long reign carried Assyria through the wider Bronze-Age turmoil.",
+   "a": "AS_NINURTAAPALEKUR",
+   "b": {
+    "id": "AS_ASHURDAN1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ASHURDAN1",
+     "label": "👑 Ashur-dan I<br/>c.1178 BC · King of Assyria; son of Ninurta-apal-Ekur (REAL father-son); reigned ~46 years &amp; raided Kassite Babylonia late in life · historical"
+    }
+   ]
+  },
+  {
+   "note": "MIDDLE ASSYRIA — Ashur-dan I to his grandson Ashur-resh-ishi I (through Ashur-dan's son Mutakkil-Nusku). Chain terminates here as a LEAF; Ashur-resh-ishi I's son Tiglath-Pileser I (already in the tree) is named in-label only, NOT added as a child, to avoid double-parenting.",
+   "a": "AS_ASHURDAN1",
+   "b": {
+    "id": "AS_ASHURRESHISHI1W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "AS_ASHURRESHISHI1",
+     "label": "👑 Ashur-resh-ishi I<br/>c.1133 BC · King of Assyria; grandson of Ashur-dan I through his son Mutakkil-Nusku (REAL descent); 'the avenger of Assyria', he checked Babylon under Nebuchadnezzar I; FATHER of Tiglath-Pileser I (drawn elsewhere in the tree) · historical"
+    }
+   ]
+  }
+ ]
+}

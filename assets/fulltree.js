@@ -275,10 +275,14 @@
 
   const fmtYear = y => y < 0 ? (-y + ' BC') : (y < 1000 ? y + ' AD' : y);
   let axis = '';
-  byLane.forEach((row, r) => {
-    if (!row.length) return;                                 // skip the thousands of empty lanes
-    const gy = (laneY[r] - minY) - 12;
-    axis += `<text x="16" y="${gy}" fill="#c7a24f" fill-opacity="0.7" font-size="15" font-family="-apple-system,sans-serif">c.&#8202;${fmtYear(laneYear[r])}</text>`;
+  // Draw era-year labels from the clean time-bands (sane years), sampled so they don't crowd.
+  // (The old lane-year source extrapolated across empty lanes into phantom 5-digit years.)
+  let lastLabelY = -1e9;
+  bands.forEach(b => {
+    const gy = (bandY[b] - minY) - 12;
+    if (gy - lastLabelY < 58) return;
+    lastLabelY = gy;
+    axis += `<text x="16" y="${gy}" fill="#c7a24f" fill-opacity="0.7" font-size="15" font-family="-apple-system,sans-serif">c.&#8202;${fmtYear(b * BAND)}</text>`;
   });
 
   const blockedAt = (X, lanesArr) => lanesArr.some(L => (byLane[L] || []).some(card => X > pos[card].x - 10 && X < pos[card].x + CW + 10));

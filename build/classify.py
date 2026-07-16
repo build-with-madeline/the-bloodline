@@ -63,6 +63,7 @@ DYNASTIES = [
     ("GREECE", "Classical Greece"),
     ("CARTHAGE", "Carthage"),
     ("PARTHIA", "Parthia — the Arsacids"),
+    ("HANOVER", "The House of Hanover"),
 ]
 
 # --- explicit id overrides (win over everything) ---
@@ -287,6 +288,8 @@ def seed(pid, label):
     if pid.startswith("GRK_"): return "GREECE"
     if pid.startswith("CAR_"): return "CARTHAGE"
     if pid.startswith("PAR_") or pid.startswith("PTH_"): return "PARTHIA"
+    if pid.startswith("ST_"): return "SCOTLAND"
+    if pid.startswith("HN_"): return "HANOVER"
     if pid.startswith("MAC_"): return "ANTIQUITY"
     if pid.startswith("JUL_"): return "ANTIQUITY"
     lab = (label or "").lower()

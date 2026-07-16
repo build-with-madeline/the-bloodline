@@ -1,0 +1,43 @@
+{
+  "_note": "Slab c.1100-1000 BC — the FAMILY OF KING DAVID and the prophet-judge SAMUEL (SCRIPTURE, plain UPPERCASE ids). David (existing DAVID, c.1040) had sons by several wives (2 Samuel 3:2-5, 1 Chronicles 3:1-9); each wife is added as a new node with her sons hung off her union with David. The existing DAVID + BATHSHEBA union (07_biblical child Solomon, 07g_luke child Nathan) is REFERENCED to APPEND Bathsheba's other two Jerusalem-born sons Shammua & Shobab (2 Sam 5:14, 1 Chron 3:5) — Solomon & Nathan are NOT re-added. To avoid double-parenting, Solomon (existing) and David's son Nathan (existing as LK_NATHAN_0 in 07g_luke) are never given a second parent here. Existing ids TAMAR (Judah's wife) and MAACAH (son of Nahor) are unrelated, so David's daughter Tamar and David's wife Maacah of Geshur use distinct ids TAMARDAVID & MAACAHGESHUR; existing AHINOAM is Saul's wife, so David's wife Ahinoam of Jezreel uses AHINOAMJEZREEL; existing ABIJAH is the king of Judah, so Samuel's son Abijah uses ABIJAHSAMUEL. Absalom's rebellion & Adonijah's failed coup are noted on their cards. SAMUEL stands as a standalone family: his parents Elkanah & Hannah are new leaf nodes (1 Samuel 1), and his sons Joel & Abijah follow (1 Samuel 8:2); Samuel was a Levite of the Kohathite line living in Ephraim (1 Sam 1:1, 1 Chron 6:22-28), noted on his card. Michal's childless union with David already exists in 10a_israel (2 Sam 6:23) and is not repeated. Sorts after 07_biblical & 07g_luke so DAVID & BATHSHEBA exist first. Dates approximate; child years decrease from the parent.",
+  "families": [
+    {"a": "DAVID", "b": {"id": "AHINOAMJEZREEL", "label": "Ahinoam of Jezreel<br/>c.1055 BC · David's wife · 1 Samuel 25:43, 2 Samuel 3:2"}, "children": [
+      {"id": "AMNON", "label": "Amnon<br/>c.1030 BC · David's firstborn; assaulted his half-sister Tamar &amp; was killed by Absalom · 2 Samuel 3:2, 13"}
+    ]},
+
+    {"a": "DAVID", "b": {"id": "ABIGAILNABAL", "label": "Abigail<br/>c.1050 BC · widow of Nabal the Carmelite; David's wife · 1 Samuel 25, 2 Samuel 3:3"}, "children": [
+      {"id": "CHILEAB", "label": "Chileab (Daniel)<br/>c.1029 BC · David's second son · 2 Samuel 3:3, 1 Chronicles 3:1"}
+    ]},
+
+    {"a": "DAVID", "b": {"id": "MAACAHGESHUR", "label": "Maacah<br/>c.1050 BC · daughter of Talmai king of Geshur; David's wife · 2 Samuel 3:3"}, "children": [
+      {"id": "ABSALOM", "label": "Absalom<br/>c.1028 BC · David's third son; rebelled against David &amp; died at the hand of Joab · 2 Samuel 3:3, 15-18"},
+      {"id": "TAMARDAVID", "label": "Tamar<br/>c.1026 BC · David's daughter, sister of Absalom; assaulted by Amnon · 2 Samuel 13"}
+    ]},
+
+    {"a": "DAVID", "b": {"id": "HAGGITH", "label": "Haggith<br/>c.1048 BC · David's wife · 2 Samuel 3:4"}, "children": [
+      {"id": "ADONIJAH", "label": "Adonijah<br/>c.1027 BC · David's fourth son; tried to seize the throne in a failed coup &amp; was executed under Solomon · 2 Samuel 3:4, 1 Kings 1-2"}
+    ]},
+
+    {"a": "DAVID", "b": {"id": "ABITAL", "label": "Abital<br/>c.1046 BC · David's wife · 2 Samuel 3:4"}, "children": [
+      {"id": "SHEPHATIAH", "label": "Shephatiah<br/>c.1025 BC · David's fifth son · 2 Samuel 3:4, 1 Chronicles 3:3"}
+    ]},
+
+    {"a": "DAVID", "b": {"id": "EGLAH", "label": "Eglah<br/>c.1044 BC · David's wife · 2 Samuel 3:5"}, "children": [
+      {"id": "ITHREAM", "label": "Ithream<br/>c.1024 BC · David's sixth son · 2 Samuel 3:5, 1 Chronicles 3:3"}
+    ]},
+
+    {"a": "DAVID", "b": "BATHSHEBA", "children": [
+      {"id": "SHAMMUA", "label": "Shammua (Shimea)<br/>c.1013 BC · son of David &amp; Bathsheba, born in Jerusalem · 2 Samuel 5:14, 1 Chronicles 3:5"},
+      {"id": "SHOBAB", "label": "Shobab<br/>c.1012 BC · son of David &amp; Bathsheba, born in Jerusalem · 2 Samuel 5:14, 1 Chronicles 3:5"}
+    ]},
+
+    {"a": {"id": "ELKANAH", "label": "Elkanah<br/>c.1110 BC · Levite of the Kohathite line living in Ephraim; father of Samuel · 1 Samuel 1:1, 1 Chronicles 6:27"}, "b": {"id": "HANNAH", "label": "Hannah<br/>c.1105 BC · mother of Samuel; her prayer &amp; song · 1 Samuel 1-2"}, "children": [
+      {"id": "SAMUEL", "label": "Samuel<br/>c.1080 BC · prophet &amp; last judge of Israel; anointed Saul &amp; David; of the Levite/Kohathite line (raised in Ephraim) · 1 Samuel 1-16"}
+    ]},
+
+    {"a": "SAMUEL", "b": {"id": "SAMUELW", "label": "—"}, "children": [
+      {"id": "JOELSAMUEL", "label": "Joel<br/>c.1050 BC · Samuel's firstborn; a judge at Beersheba · 1 Samuel 8:2, 1 Chronicles 6:28"},
+      {"id": "ABIJAHSAMUEL", "label": "Abijah<br/>c.1048 BC · Samuel's second son; a judge at Beersheba · 1 Samuel 8:2"}
+    ]}
+  ]
+}

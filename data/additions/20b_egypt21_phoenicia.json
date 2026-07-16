@@ -1,0 +1,148 @@
+{
+ "_note": "Slab c.1075-984 BC — the Third Intermediate Period opens. FOUR THREADS, all HISTORICAL, all splicing onto existing nodes as new families (NEVER re-parenting an existing king). THREAD 1 EGYPT 21ST DYNASTY (EG_) at Tanis, ruling Lower Egypt while the High Priests of Amun held Thebes: hung as a fresh family off the existing bridge node EG_THIRDINTERMEDIATE (referenced as a string; it already parents EG_PIYE in 10b_egypt.json, so this second family is a parallel branch, not a re-parenting). Succession spine uses '—' consort placeholders: Smendes I (c.1069, founder at Tanis) -> Amenemnisu (leaf; brief reign). Psusennes I is drawn ONCE under his REAL parents — the Theban High Priest of Amun Pinedjem I, who took royal titles, and his wife Duathathor-Henuttawy, a DAUGHTER of Ramesses XI (the marriage that tied the Theban priestly house into the Tanite royal line) — so his accession after Amenemnisu is stated in-label, not by a second parent-edge. The spine then continues from Psusennes I: -> Amenemope -> Osorkon the Elder (a Libyan/Meshwesh chief, forerunner of the 22nd Dynasty) -> Siamun -> Psusennes II (c.990, last king of the dynasty). Psusennes I is the great Tanite king whose intact silver-and-gold coffin and undisturbed tomb were found by Pierre Montet at Tanis in 1940 (the only fully intact Egyptian royal burial). THREAD 2 PHOENICIA / TYRE (PHO_, a NEW house, floating root like the other civilisation roots): Abibaal (c.1000) -> HIRAM I (c.980), under whom Tyre rose from a satellite of Sidon into the foremost Phoenician city and a trading empire. Hiram allied with DAVID king of Israel/Judah (his craftsmen built David's cedar palace in Jerusalem) and then with SOLOMON, supplying Lebanon cedar, cypress and skilled artisans for the First Temple in exchange for wheat, oil and wine — an ALLIANCE between royal houses, NOT a marriage, and flagged as such on Hiram's card (the tie to the Israelite/Biblical line is diplomatic, not genealogical). THREAD 3 ASSYRIA (AS_) dark-age decline: a fresh family off the existing AS_TIGLATHPILESER1 (referenced as a string, NOT re-parented; it already parents the bridge AS_MIDDECLINE2 in 10c_assyria.json, so this is a parallel detailed branch): his son Asharid-apal-Ekur (c.1076, brief reign) -> Ashur-bel-kala (c.1074; FLAGGED not-descent — he was Asharid-apal-Ekur's BROTHER, another son of Tiglath-Pileser I, who succeeded him; succession, not father-son) -> Eriba-Adad II (c.1056, real son of Ashur-bel-kala; leaf, deposed after two years by his usurping uncle Shamshi-Adad IV, noted in-label). By Ashur-bel-kala's death Aramean tribes pressed hard on Assyria's western borders and it lost much of the territory it had dominated — the shrinking of Assyria, flagged. THREAD 4 BABYLON (BAB_) chaos: a short FLAGGED succession chain spliced off the existing 2nd-Isin leaf BAB_MARDUKNADINAHHE (referenced as a string, NOT re-parented) — Simbar-Shipak (c.1025, founder of the Second Sealand Dynasty / Babylon's 5th Dynasty; FLAGGED not-descent, an unrelated soldier who seized power amid Aramean migrations and famine) -> Eulmash-shakin-shumi (c.1000, founder of the Bazi / Bit-Bazi Dynasty, Babylon's 6th, from a Kassite tribal clan; FLAGGED not-descent; most of his reign spent in fierce wars with Aramaeans who raided up to Babylon's walls). Prefixes: Egypt=EG_, Phoenicia=PHO_ (new house), Assyria=AS_, Babylon=BAB_. Every child/accession year is SMALLER than its parent's chain year. Dates are conventional Third-Intermediate/Middle-chronology figures and are debated (flagged). Web-verified July 2026 against Wikipedia 'Twenty-first Dynasty of Egypt', 'Smendes', 'Amenemnisu', 'Psusennes I', 'Pinedjem I', 'Amenemope (pharaoh)', 'Osorkon the Elder', 'Siamun', 'Psusennes II', 'Hiram I', 'King of Tyre', 'Ashur-bel-kala', 'Asharid-apal-Ekur', 'Eriba-Adad II', 'Simbar-shipak', 'Eulmash-shakin-shumi', 'Bazi dynasty', plus Britannica. No fabrication; every uncertain or non-descent link flagged in-node.",
+ "families": [
+  {
+   "note": "EGYPT 21ST DYNASTY (1 of 6). EG_THIRDINTERMEDIATE (existing bridge, referenced by id, NOT re-parented — it already parents EG_PIYE) & a '—' consort, with the founder Smendes I as child. Smendes established the Tanite capital while the High Priests of Amun ruled Thebes.",
+   "a": "EG_THIRDINTERMEDIATE",
+   "b": {"id": "EG_TIP21W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_SMENDES1",
+     "label": "👑 Smendes I (Nesbanebdjed)<br/>c.1069 BC · 21st Dynasty · founder of the dynasty; ruled Lower Egypt from Tanis in the northeast Delta while the High Priests of Amun held Thebes, opening the Third Intermediate Period · historical"
+    }
+   ]
+  },
+  {
+   "note": "EGYPT 21ST DYNASTY (2 of 6). EG_SMENDES1 & a '—' consort; his short-reigned successor Amenemnisu as child (leaf). Psusennes I, who succeeded Amenemnisu, is drawn separately under his real parents (Pinedjem I family) to avoid double-parenting.",
+   "a": "EG_SMENDES1",
+   "b": {"id": "EG_SMENDES1W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_AMENEMNISU",
+     "label": "👑 Amenemnisu (Neferkare)<br/>c.1051 BC · 21st Dynasty · a little-attested king who reigned only about four years between Smendes I and Psusennes I · historical"
+    }
+   ]
+  },
+  {
+   "note": "EGYPT 21ST DYNASTY (3 of 6) — the REAL family that produced the great Tanite king. The Theban High Priest of Amun Pinedjem I (who assumed royal titles) & his wife Duathathor-Henuttawy, a daughter of Ramesses XI — the marriage that married the Theban priestly house INTO the Tanite royal line. Their son Psusennes I succeeded Amenemnisu (stated in-label, not by a second parent-edge).",
+   "a": {"id": "EG_PINEDJEM1", "label": "👑 Pinedjem I<br/>c.1070 BC · High Priest of Amun at Thebes who took royal titulary; ruled Upper Egypt in parallel with the Tanite kings and married into the royal line · historical"},
+   "b": {"id": "EG_HENUTTAWY", "label": "Duathathor-Henuttawy<br/>c.1070 BC · wife of Pinedjem I &amp; a DAUGHTER of Ramesses XI (last king of the 20th Dynasty); through her the Theban house was tied to the Tanite royal line; mother of Psusennes I · historical"},
+   "children": [
+    {
+     "id": "EG_PSUSENNES1",
+     "label": "👑 Psusennes I<br/>c.1047 BC · 21st Dynasty · son of the High Priest Pinedjem I &amp; maternal grandson of Ramesses XI; succeeded Amenemnisu; the great Tanite king (~46 yr reign) whose INTACT tomb, with its silver-and-gold inner coffin, was found by Pierre Montet at Tanis in 1940 · historical"
+    }
+   ]
+  },
+  {
+   "note": "EGYPT 21ST DYNASTY (4 of 6). EG_PSUSENNES1 & a '—' consort; the spine continues to his successor Amenemope.",
+   "a": "EG_PSUSENNES1",
+   "b": {"id": "EG_PSUSENNES1W", "label": "—"},
+   "children": [
+    {
+     "id": "EG_AMENEMOPE",
+     "label": "👑 Amenemope<br/>c.1000 BC · 21st Dynasty · successor of Psusennes I; buried at Tanis, his tomb also found by Montet; reigned about a decade · historical"
+    }
+   ]
+  },
+  {
+   "note": "EGYPT 21ST DYNASTY (5 of 6). EG_AMENEMOPE & a '—' consort; his successor Osorkon the Elder, a Libyan (Meshwesh) chief and forerunner of the Libyan 22nd Dynasty.",
+   "a": "EG_AMENEMOPE",
+   "b": {"id": "EG_AMENEMOPEW", "label": "—"},
+   "children": [
+    {
+     "id": "EG_OSORKONELDER",
+     "label": "👑 Osorkon the Elder (Osochor)<br/>c.992 BC · 21st Dynasty · a king of Libyan (Meshwesh) descent, forerunner of the 22nd Dynasty; reigned about six years · historical"
+    }
+   ]
+  },
+  {
+   "note": "EGYPT 21ST DYNASTY (6 of 6). EG_OSORKONELDER & a '—' consort; Siamun (a powerful late king), then Psusennes II closes the dynasty.",
+   "a": "EG_OSORKONELDER",
+   "b": {"id": "EG_OSORKONELDERW", "label": "—"},
+   "children": [
+    {
+     "id": "EG_SIAMUN",
+     "label": "👑 Siamun<br/>c.986 BC · 21st Dynasty · one of the most powerful kings of the dynasty after Psusennes I; a great builder at Tanis · historical"
+    }
+   ]
+  },
+  {
+   "note": "EGYPT 21ST DYNASTY — close. EG_SIAMUN & a '—' consort; Psusennes II, the last king of the 21st Dynasty, whose daughter's marriage to Shoshenq I's line bridged into the 22nd Dynasty.",
+   "a": "EG_SIAMUN",
+   "b": {"id": "EG_SIAMUNW", "label": "—"},
+   "children": [
+    {
+     "id": "EG_PSUSENNES2",
+     "label": "👑 Psusennes II<br/>c.990 BC · 21st Dynasty · LAST king of the dynasty; also served as High Priest of Amun, briefly reuniting the two offices before the Libyan 22nd Dynasty took the throne · historical"
+    }
+   ]
+  },
+  {
+   "note": "PHOENICIA / TYRE (1 of 2) — a NEW house (PHO_), floating root. Abibaal of Tyre & a '—' consort; his son and successor Hiram I as child.",
+   "a": {"id": "PHO_ABIBAAL", "label": "👑 Abibaal<br/>c.1000 BC · King of Tyre · father of Hiram I; ruled the Phoenician city-state of Tyre as it grew in maritime trade · historical"},
+   "b": {"id": "PHO_ABIBAALW", "label": "—"},
+   "children": [
+    {
+     "id": "PHO_HIRAM1",
+     "label": "👑 Hiram I<br/>c.980 BC · King of Tyre · raised Tyre from a satellite of Sidon into the foremost Phoenician city &amp; a trading empire. ALLY of King DAVID (his craftsmen built David's cedar palace) &amp; then of SOLOMON of Israel, supplying Lebanon cedar, cypress &amp; artisans for Solomon's Temple in exchange for wheat, oil &amp; wine — a royal ALLIANCE, not a marriage · historical"
+    }
+   ]
+  },
+  {
+   "note": "ASSYRIA (1 of 3) — dark-age decline. AS_TIGLATHPILESER1 (existing king, referenced by id, NOT re-parented — it already parents the bridge AS_MIDDECLINE2) & a '—' consort; his son Asharid-apal-Ekur, a brief-reigning successor.",
+   "a": "AS_TIGLATHPILESER1",
+   "b": {"id": "AS_TP1_21W", "label": "—"},
+   "children": [
+    {
+     "id": "AS_ASHARIDAPALEKUR",
+     "label": "👑 Asharid-apal-Ekur<br/>c.1076 BC · Middle Assyria · son of Tiglath-Pileser I; reigned only about two years before his brother Ashur-bel-kala took the throne · historical"
+    }
+   ]
+  },
+  {
+   "note": "ASSYRIA (2 of 3). AS_ASHARIDAPALEKUR & a '—' consort; Ashur-bel-kala as successor. FLAGGED not-descent: Ashur-bel-kala was Asharid-apal-Ekur's BROTHER (another son of Tiglath-Pileser I) who succeeded him — succession, not father-son.",
+   "a": "AS_ASHARIDAPALEKUR",
+   "b": {"id": "AS_ASHARIDAPALEKURW", "label": "—"},
+   "children": [
+    {
+     "id": "AS_ASHURBELKALA",
+     "label": "👑 Ashur-bel-kala<br/>c.1074 BC · Middle Assyria · BROTHER of Asharid-apal-Ekur (both sons of Tiglath-Pileser I), whom he succeeded — succession, NOT descent · reigned ~18 yr; by his death Aramean tribes pressed hard on the western borders &amp; Assyria lost much of its dominated territory · historical"
+    }
+   ]
+  },
+  {
+   "note": "ASSYRIA (3 of 3). AS_ASHURBELKALA & a '—' consort; his real son Eriba-Adad II as child (leaf). The shrinking of Assyria under Aramean pressure continues.",
+   "a": "AS_ASHURBELKALA",
+   "b": {"id": "AS_ASHURBELKALAW", "label": "—"},
+   "children": [
+    {
+     "id": "AS_ERIBAADAD2",
+     "label": "👑 Eriba-Adad II<br/>c.1056 BC · Middle Assyria · son of Ashur-bel-kala; reigned only about two years before being deposed by his usurping uncle Shamshi-Adad IV, amid the Aramean squeeze on a shrinking Assyria · historical"
+    }
+   ]
+  },
+  {
+   "note": "BABYLON (1 of 2) — post-2nd-Isin chaos. BAB_MARDUKNADINAHHE (existing 2nd-Isin king, referenced by id, NOT re-parented) & a '—' consort; Simbar-Shipak as successor. FLAGGED not-descent: he founded the Second Sealand Dynasty (Babylon's 5th) as an unrelated soldier who seized power amid Aramean migrations &amp; famine.",
+   "a": "BAB_MARDUKNADINAHHE",
+   "b": {"id": "BAB_SIMBARSHIPAKW", "label": "—"},
+   "children": [
+    {
+     "id": "BAB_SIMBARSHIPAK",
+     "label": "👑 Simbar-Shipak<br/>c.1025 BC · founder of the SECOND SEALAND DYNASTY (Babylon's 5th) — NOT descent, an unrelated soldier from the south who took the throne in the turmoil of Aramean incursions · historical"
+    }
+   ]
+  },
+  {
+   "note": "BABYLON (2 of 2). BAB_SIMBARSHIPAK & a '—' consort; Eulmash-shakin-shumi as successor. FLAGGED not-descent: he founded the BAZI (Bit-Bazi) Dynasty (Babylon's 6th) from a Kassite tribal clan; most of his reign spent in fierce wars with Aramaeans raiding up to Babylon's walls.",
+   "a": "BAB_SIMBARSHIPAK",
+   "b": {"id": "BAB_EULMASHSHAKINSHUMIW", "label": "—"},
+   "children": [
+    {
+     "id": "BAB_EULMASHSHAKINSHUMI",
+     "label": "👑 Eulmash-shakin-shumi<br/>c.1000 BC · founder of the BAZI (Bit-Bazi) Dynasty (Babylon's 6th) from a Kassite tribal clan — NOT descent from Simbar-Shipak; his reign was consumed by wars against Aramaeans who raided close to Babylon's walls · historical"
+    }
+   ]
+  }
+ ]
+}

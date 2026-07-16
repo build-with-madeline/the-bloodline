@@ -55,6 +55,7 @@ DYNASTIES = [
     ("CRETE", "Minoan Crete"),
     ("MYCENAE", "Mycenaean Greece"),
     ("TROY", "Troy & the Dardanians"),
+    ("PHOENICIA", "Phoenicia — Tyre & Sidon"),
 ]
 
 # --- explicit id overrides (win over everything) ---
@@ -271,6 +272,7 @@ def seed(pid, label):
     if pid.startswith("CRE_"): return "CRETE"
     if pid.startswith("MYC_"): return "MYCENAE"
     if pid.startswith("TRO_"): return "TROY"
+    if pid.startswith("PHO_"): return "PHOENICIA"
     lab = (label or "").lower()
     # HRE regnal id families
     if pid.endswith("HRE") or pid in ("OTTOI","OTTOII","OTTOIII","OTTOIV","OTTOILLUS","HENRYFOWLER",

@@ -1,0 +1,80 @@
+{
+ "_note": "Slab c.400-300 BC — the classical GREEK PHILOSOPHERS &amp; ORATORS, the mid ROMAN REPUBLIC's expansion in the SAMNITE WARS, and the MAURYAN EMPIRE of India. THREE THREADS. (1) GREECE (GRK_) — mostly standalone islands, with kin drawn only where genuinely attested. PLATO is given his real aristocratic Athenian pedigree: his father Ariston (by tradition tracing to King Codrus of Athens) x his mother Perictione (of the house of Solon's kinsman Dropides, hence the Solonic descent) > Plato — a real, if legend-tinged, lineage. ARISTOTLE x Pythias the elder (niece &amp; ward of Hermias, tyrant of Atarneus &amp; Assos) > their daughter Pythias the younger — a genuine two-generation family; Aristotle's label notes he was the TUTOR OF ALEXANDER THE GREAT. STANDALONE figures ('—' placeholder spouse, no issue depicted, which is expected per the brief): Diogenes the Cynic; Demosthenes, the great orator who roused Athens against Philip II of Macedon; Xenophon, the soldier-historian of the Anabasis; and Epaminondas of Thebes, the general who broke Sparta's power at Leuctra, 371 BC. (2) ROME (ROM_) — the Samnite-Wars generation, all STANDALONE historical figures: Appius Claudius Caecus (censor 312 BC, who built the Via Appia &amp; the Aqua Appia, Rome's first great road &amp; first aqueduct), Quintus Fabius Maximus Rullianus (five-times consul, the war's foremost soldier), and Lucius Papirius Cursor (the dictator who nearly executed Rullianus for his insubordinate victory at Imbrinium, 325 BC). The Gallic sack of Rome (390 BC) &amp; its restorer Camillus are already covered in 27b_golden_age.json and are not repeated. (3) INDIA (IN_) — the MAURYAN EMPIRE, which already connects to the main tree via the EXISTING IN_CHANDRAGUPTA (joined by the Seleucus I marriage-alliance to the Seleucid house in Adam's line; the Magadha bridge into Chandragupta is in 26c_india_china.json). Added here: CHANAKYA (Kautilya), the Brahmin strategist &amp; author of the Arthashastra who raised Chandragupta to the throne — a STANDALONE figure ('—' spouse), NOT claimed as kin. And Ashoka's family is FLESHED OUT by APPENDING new consort-unions to the EXISTING IN_ASHOKA (defined in 08_convergence.json, where he already appears as parent of IN_DASHARATHAMAURYA) WITHOUT RE-PARENTING anyone: Ashoka x Devi (Vedisa-mahadevi) > his son Mahinda &amp; daughter Sanghamitra, the missionaries who carried Buddhism to Sri Lanka; Ashoka x his chief queen Asandhimitra, a CHILDLESS union by design (she bore no children but raised the orphaned Kunala — flagged, since tradition sometimes conflates her with Devi); and Ashoka x Padmavati > his son Kunala (Padmavati, his attested biological mother, died soon after his birth). Ashoka's label already stands in 08; his conversion to Buddhism after the bloodshed of the KALINGA WAR (c.261 BC) is noted here in-node. AVOID DOUBLE-PARENTING: Ashoka appears as a parent in several unions (attested co-consorts), but every CHILD (Mahinda, Sanghamitra, Kunala, and the existing Dasharatha) sits in exactly ONE child-union; each new person is defined once. Every child's year is kept strictly SMALLER than its parent's; Roman &amp; some Indian dates are nominal placeholders on the schematic ladder the existing slabs use. Web-verified July 2026 against Wikipedia 'Plato','Ariston of Athens','Perictione','Aristotle','Pythias','Diogenes','Demosthenes','Xenophon','Epaminondas','Battle of Leuctra','Appius Claudius Caecus','Aqua Appia','Appian Way','Quintus Fabius Maximus Rullianus','Lucius Papirius Cursor','Chanakya','Ashoka','Devi (wife of Ashoka)','Mahinda (Buddhist monk)','Sanghamitra','Asandhimitra','Padmavati (wife of Ashoka)','Kunala'. No fabrication — attested pedigrees followed; unrecorded spouses drawn as '—' placeholders rather than invented; date debates &amp; the Asandhimitra/Devi conflation flagged in-node.",
+ "families": [
+
+  {"note": "GREECE — Plato's aristocratic Athenian pedigree. Ariston (by tradition of the line of King Codrus) x Perictione (of the house of Solon's kinsman Dropides) > PLATO. A real, legend-tinged lineage tying the philosopher to both the old Athenian kingship &amp; the lawgiver Solon.",
+   "a": {"id": "GRK_ARISTON", "label": "Ariston of Athens<br/>c.460 BC · Athenian aristocrat, father of Plato · his family traced its descent, by tradition, to Codrus, the last king of Athens · historical (pedigree partly legendary)"},
+   "b": {"id": "GRK_PERICTIONE", "label": "Perictione<br/>c.455 BC · Athenian noblewoman, mother of Plato · descended from Dropides, kinsman of the lawgiver Solon, giving Plato his Solonic ancestry · historical"},
+   "children": [
+    {"id": "GRK_PLATO", "label": "Plato<br/>c.428 BC · Athenian philosopher; pupil of Socrates, founder of the Academy &amp; author of the Republic &amp; the dialogues; with Socrates &amp; Aristotle one of the three pillars of Western philosophy · of an aristocratic family claiming descent from Solon &amp; the old kings of Athens · died c.348 BC · historical"}
+   ]},
+
+  {"note": "GREECE — Aristotle's family. Aristotle x Pythias the elder (niece &amp; adopted ward of Hermias, tyrant of Atarneus &amp; Assos, where they married c.345 BC) > their daughter Pythias the younger. Aristotle was the TUTOR OF ALEXANDER THE GREAT.",
+   "a": {"id": "GRK_ARISTOTLE", "label": "Aristotle<br/>c.384 BC · of Stagira; philosopher &amp; polymath, pupil of Plato, founder of the Lyceum &amp; of formal logic; TUTOR of the young Alexander the Great at the Macedonian court · his works shaped philosophy, science &amp; ethics for two millennia · died 322 BC · historical"},
+   "b": {"id": "GRK_PYTHIAS_ELDER", "label": "Pythias the elder<br/>c.365 BC · first wife of Aristotle; niece &amp; adopted daughter of Hermias, the ruler of Atarneus &amp; Assos in Asia Minor · she bore Aristotle's daughter &amp; died at Mytilene c.335 BC · historical"},
+   "children": [
+    {"id": "GRK_PYTHIAS_Y", "label": "Pythias the younger<br/>c.345 BC · only daughter of Aristotle &amp; Pythias the elder; in his will Aristotle arranged her marriage to his protege Nicanor · historical"}
+   ]},
+
+  {"note": "GREECE — Diogenes of Sinope, the Cynic, who lived in a jar &amp; carried a lamp seeking an honest man. Standalone.",
+   "a": {"id": "GRK_DIOGENES", "label": "Diogenes the Cynic<br/>c.412 BC · of Sinope; founder-exemplar of Cynic philosophy, who lived in poverty &amp; deliberate shamelessness in Athens &amp; Corinth, mocking convention &amp; (by legend) telling Alexander only to stand out of his light · died c.323 BC · historical"},
+   "b": {"id": "GRK_DIOGENES_W", "label": "—"},
+   "children": []},
+
+  {"note": "GREECE — Demosthenes, Athens's greatest orator, who spent his career rousing the city against the growing power of Philip II of Macedon (the Philippics). Standalone.",
+   "a": {"id": "GRK_DEMOSTHENES", "label": "Demosthenes<br/>c.384 BC · the greatest of the Attic orators; his Philippics &amp; Olynthiacs roused Athens against the rise of Philip II of Macedon; leader of the anti-Macedonian resistance, he took his own life after the failed revolt of 322 BC · historical"},
+   "b": {"id": "GRK_DEMOSTHENES_W", "label": "—"},
+   "children": []},
+
+  {"note": "GREECE — Xenophon, the soldier-historian who led the Ten Thousand home from Persia (the Anabasis) &amp; wrote the Hellenica &amp; Memorabilia of Socrates. Standalone.",
+   "a": {"id": "GRK_XENOPHON", "label": "Xenophon<br/>c.430 BC · Athenian soldier, historian &amp; pupil of Socrates; led the Ten Thousand Greek mercenaries on their long march out of Persia, recounted in the Anabasis; author of the Hellenica &amp; the Memorabilia · died c.354 BC · historical"},
+   "b": {"id": "GRK_XENOPHON_W", "label": "—"},
+   "children": []},
+
+  {"note": "GREECE — Epaminondas of Thebes, the general &amp; tactician who shattered the myth of Spartan invincibility at LEUCTRA, 371 BC, and freed Messenia, breaking Sparta's power for good. Standalone.",
+   "a": {"id": "GRK_EPAMINONDAS", "label": "Epaminondas<br/>c.418 BC · Theban general &amp; statesman; his oblique phalanx crushed the Spartans at Leuctra (371 BC), ending Sparta's supremacy, &amp; he liberated Messenia; fell in victory at Mantinea, 362 BC · historical"},
+   "b": {"id": "GRK_EPAMINONDAS_W", "label": "—"},
+   "children": []},
+
+  {"note": "ROME — the Samnite Wars. Appius Claudius Caecus, censor of 312 BC, who built the Via Appia (Rome's first great highway) &amp; the Aqua Appia (its first aqueduct); blind in old age, he later swayed the Senate to reject peace with Pyrrhus. Standalone.",
+   "a": {"id": "ROM_APPIUSCLAUDIUS_CAECUS", "label": "Appius Claudius Caecus<br/>c.340 BC · Roman censor (312 BC), consul &amp; reformer; built the Via Appia, Rome's first great military road, &amp; the Aqua Appia, its first aqueduct; blind in his last years ('Caecus'), he roused the Senate to refuse peace with King Pyrrhus · historical"},
+   "b": {"id": "ROM_APPIUSCLAUDIUS_CAECUS_W", "label": "—"},
+   "children": []},
+
+  {"note": "ROME — the Samnite Wars. Quintus Fabius Maximus Rullianus, five-times consul &amp; dictator, the foremost Roman soldier of the age, who fought Samnites, Gauls, Etruscans &amp; Umbrians (decisive at Sentinum, 295 BC). Standalone.",
+   "a": {"id": "ROM_FABIUS_RULLIANUS", "label": "Quintus Fabius Maximus Rullianus<br/>c.355 BC · patrician general &amp; five-times consul; the leading Roman soldier of the Samnite Wars, victor over Samnites, Gauls, Etruscans &amp; Umbrians, notably at Sentinum (295 BC); grandfather-in-tradition of Fabius 'Cunctator' · historical"},
+   "b": {"id": "ROM_FABIUS_RULLIANUS_W", "label": "—"},
+   "children": []},
+
+  {"note": "ROME — the Samnite Wars. Lucius Papirius Cursor, the great dictator &amp; consul, famed for his severity — he nearly executed his own master of horse, Rullianus, for winning the battle of Imbrinium (325 BC) without orders. Standalone.",
+   "a": {"id": "ROM_PAPIRIUS_CURSOR", "label": "Lucius Papirius Cursor<br/>c.360 BC · Roman dictator (twice) &amp; five-times consul; a stern, swift commander in the Second Samnite War who avenged the disgrace of the Caudine Forks; nearly put his master of horse Rullianus to death for his unauthorised victory at Imbrinium (325 BC) · historical"},
+   "b": {"id": "ROM_PAPIRIUS_CURSOR_W", "label": "—"},
+   "children": []},
+
+  {"note": "INDIA / MAURYA — Chanakya (Kautilya / Vishnugupta), the Brahmin strategist &amp; author of the Arthashastra, the treatise on statecraft; he engineered Chandragupta's overthrow of the Nandas &amp; the founding of the Maurya empire. STANDALONE ('—' spouse) — his tie to Chandragupta was mentor &amp; minister, NOT kinship.",
+   "a": {"id": "IN_CHANAKYA", "label": "Chanakya (Kautilya)<br/>c.350 BC · Brahmin teacher, philosopher &amp; royal counsellor; author of the Arthashastra, the classic Indian treatise on politics, economy &amp; statecraft; the strategist who raised Chandragupta Maurya to the throne &amp; served as his chief minister · died c.275 BC · historical (traditional)"},
+   "b": {"id": "IN_CHANAKYA_W", "label": "—"},
+   "children": []},
+
+  {"note": "INDIA / MAURYA — appended to the EXISTING IN_ASHOKA (08_convergence.json). Ashoka x Devi (his first wife, of Vidisha) > his son Mahinda &amp; daughter Sanghamitra, the missionaries who carried Buddhism to Sri Lanka. Ashoka embraced Buddhism &amp; non-violence after the carnage of the KALINGA WAR, c.261 BC. No re-parenting: these two children are new &amp; sit only here.",
+   "a": "IN_ASHOKA",
+   "b": {"id": "IN_DEVI", "label": "Devi (Vedisa-mahadevi)<br/>c.306 BC · first wife of Ashoka, whom he wed at Vidisha (Vedisagiri) while viceroy at Ujjain; mother of Mahinda &amp; Sanghamitra · historical (traditional)"},
+   "children": [
+    {"id": "IN_MAHINDA", "label": "Mahinda<br/>c.285 BC · son of Ashoka &amp; Devi; Buddhist monk &amp; missionary who led the mission to Sri Lanka, converting King Devanampiya Tissa &amp; establishing Buddhism on the island · historical (traditional)"},
+    {"id": "IN_SANGHAMITRA", "label": "Sanghamitra<br/>c.282 BC · daughter of Ashoka &amp; Devi; Buddhist nun who followed her brother Mahinda to Sri Lanka, founding the order of nuns there &amp; carrying a sapling of the Bodhi tree · historical (traditional)"}
+   ]},
+
+  {"note": "INDIA / MAURYA — Ashoka x his chief queen (agramahishi) Asandhimitra. A CHILDLESS union by design: she bore no children but, by tradition, helped raise the orphaned Kunala. FLAG: some accounts conflate Asandhimitra with Devi; they are treated here as distinct, and she is drawn childless so no one is double-parented.",
+   "a": "IN_ASHOKA",
+   "b": {"id": "IN_ASANDHIMITRA", "label": "Asandhimitra<br/>c.305 BC · the chief queen (agramahishi) of Ashoka for some thirty years; by tradition she bore no children but cared for the young Kunala after his mother's death · FLAG: sometimes conflated with Devi in the sources · historical (traditional)"},
+   "children": []},
+
+  {"note": "INDIA / MAURYA — Ashoka x Padmavati > his son Kunala. Padmavati, Kunala's attested biological mother, died soon after his birth; the boy was raised by Asandhimitra. Kunala was later blinded by a jealous step-queen &amp; passed over, though his own son Samprati took the throne. New child, sits only here.",
+   "a": "IN_ASHOKA",
+   "b": {"id": "IN_PADMAVATI", "label": "Padmavati<br/>c.300 BC · a queen of Ashoka &amp; the biological mother of Kunala; she died shortly after his birth, and the chief queen Asandhimitra raised him · historical (traditional)"},
+   "children": [
+    {"id": "IN_KUNALA", "label": "Kunala<br/>c.282 BC · son of Ashoka &amp; Padmavati; crown prince who, by legend, was blinded through the intrigue of a jealous step-queen &amp; so passed over for the throne, though his son Samprati later succeeded · historical (traditional)"}
+   ]}
+
+ ]
+}

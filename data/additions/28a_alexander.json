@@ -1,0 +1,153 @@
+{
+  "_note": "Slab c.400-300 BC — the ARGEAD climax under PHILIP II & ALEXANDER THE GREAT, the close of the ACHAEMENID line under Darius III, the Susa weddings that married Macedon to Persia, and the DIADOCHI who carved up the empire. Wired to figures already in the tree; ALEXANDER THE GREAT was ABSENT from the tree before this slab and is added here as the son of the EXISTING Philip II. All anchors (PHILIP2, PER_ARTAXERXES2, PER_DARIUS2, PER_PARYSATIS, PTOLEMY1, SELEUCUS1) are referenced by id/prose only and never re-parented. New Macedonian figures use MAC_, new Persian-empire figures use PER_ (both classify into ANTIQUITY by graph propagation). (1) PHILIP II'S FAMILY — Philip II was polygamous; four of his unions are drawn, each appended as a NEW parent-pair on the EXISTING PHILIP2 (not re-parenting him, and leaving his existing pair with Arsinoe->Ptolemy I untouched): Philip II ● Olympias of Epirus (the Molossian princess) bear ALEXANDER III 'the Great' & Cleopatra of Macedon; Philip II ● Philinna of Larissa bear Philip III Arrhidaeus, the mentally-impaired half-brother who reigned as joint king after Alexander; Philip II ● Audata (an Illyrian) bear Cynane; Philip II ● Nicesipolis of Pherae bear Thessalonike. (2) ALEXANDER'S MARRIAGES (the priority cross-house marriages, MACEDON <-> PERSIA/EAST) — three real unions: Alexander ● Roxana (daughter of the Bactrian/Sogdian baron Oxyartes, taken at the Sogdian Rock 327 BC) bear Alexander IV, the posthumous heir murdered as a boy by Cassander c.309 BC, ending the Argead line; and at the mass SUSA WEDDINGS of 324 BC, uniting the Macedonian & Persian ruling houses, Alexander ● Stateira II (daughter of the last Great King Darius III) and ● Parysatis II (daughter of Artaxerxes III Ochus) — both childless, both drawn as genuine cross-house edges Macedon(MAC_)<->Persia(PER_). (3) THE LAST ACHAEMENIDS (PER_) — extended DOWN from the EXISTING Artaxerxes II 'Mnemon' (PER_ARTAXERXES2, referenced by id, NOT re-parented): Artaxerxes II ● '—' bear Artaxerxes III 'Ochus' (r.358-338 BC), whose children include Arses/Artaxerxes IV (r.338-336 BC, the puppet murdered by the eunuch Bagoas) and Parysatis II (the Susa bride above). DARIUS III 'Codomannus' (the king Alexander shattered at Issus 333 BC & Gaugamela 331 BC, then murdered by his own satrap Bessus in flight 330 BC) was NOT a son of Arses — FLAGGED: he came from a COLLATERAL Achaemenid branch, being son of Arsames, son of Ostanes, a brother of Artaxerxes II. To avoid a false son-of-Arses edge, Darius III is grafted on his TRUE descent: Ostanes is appended as a further child of the EXISTING pair Darius II ● Parysatis (PER_DARIUS2 ● PER_PARYSATIS, referenced, not re-created — this only APPENDS a sibling to Artaxerxes II & Cyrus the Younger, re-parenting no one), then Ostanes -> Arsames -> Darius III, and Darius III ● Stateira I bear Stateira II. Bagoas is omitted. (4) THE DIADOCHI — the successors who split the empire, connected to Alexander's house where the link is real: CASSANDER (son of Alexander's regent Antipater, king of Macedon) ● THESSALONIKE (Philip II's daughter above) ties the Antipatrids into the Argead house by marriage — their sons Philip IV, Alexander V & Antipater II were the last, short-lived Antipatrid kings; Cassander also had Alexander IV & his mother Roxana, and later Olympias, put to death. Antigonus I 'Monophthalmus' (the One-Eyed) ● Stratonice bear Demetrius I 'Poliorcetes' (the Besieger) — the Antigonid house that fought for the whole empire and ended holding Macedon & Asia Minor until Antigonus fell at Ipsus 301 BC. Lysimachus, the bodyguard who took THRACE & later Asia Minor, is drawn as a flagged standalone (killed at Corupedium 281 BC). PTOLEMY I 'Soter' (EXISTING PTOLEMY1) — Alexander's general & boyhood friend, founder of the Ptolemaic dynasty of Egypt, said in one tradition to be an illegitimate son of Philip II (DISPUTED; already flagged in 03_antiquity.json) — and SELEUCUS I 'Nicator' (EXISTING SELEUCUS1), the general who founded the Seleucid Empire, are referenced in prose only and NOT duplicated; their houses already descend in the tree. A minor internal Argead tie is also drawn: Cynane's daughter Adea, renamed Eurydice II, married her half-uncle Philip III Arrhidaeus (a real, well-attested marriage). Web-verified July 2026 against Wikipedia 'Philip II of Macedon', 'Alexander the Great', 'Olympias', 'Philip III Arrhidaeus', 'Cynane', 'Thessalonike of Macedon', 'Roxana', 'Alexander IV of Macedon', 'Stateira II', 'Darius III', 'Artaxerxes III', 'Artaxerxes IV Arses', 'Cassander', 'Antigonus I Monophthalmus', 'Demetrius I Poliorcetes', 'Lysimachus', and the Susa weddings. Historical throughout; no fabrication — unattested spouses drawn as '—' placeholders, and the collateral (not lineal) descent of Darius III, the childless Susa unions, and the disputed paternity of Ptolemy I are flagged rather than smoothed over. AVOIDS DOUBLE-PARENTING: PHILIP2, PER_ARTAXERXES2, PER_DARIUS2, PER_PARYSATIS, PTOLEMY1 & SELEUCUS1 are referenced by id or in prose only and never placed in a children array as a re-parented existing node.",
+  "families": [
+    {
+      "note": "PHILIP II'S FAMILY (1a) — his most famous union. The EXISTING Philip II (PHILIP2, referenced by id; NOT re-parented — his existing pair with Arsinoe of Macedon -> Ptolemy I is left untouched) ● Olympias of Epirus, the fierce Molossian princess. Their children are ALEXANDER THE GREAT — added here, having been ABSENT from the tree — and his full sister Cleopatra of Macedon.",
+      "a": "PHILIP2",
+      "b": {"id": "MAC_OLYMPIAS", "label": "Olympias of Epirus<br/>c.375 BC · princess of the Molossians of Epirus &amp; principal wife of Philip II · daughter of King Neoptolemus I · a fierce devotee of Dionysus &amp; ruthless dynast who dominated the court for her son · mother of Alexander the Great &amp; Cleopatra · put to death by Cassander 316 BC · historical"},
+      "children": [
+        {"id": "MAC_ALEXANDER", "label": "👑 Alexander III 'the Great'<br/>356-323 BC · King of Macedon r.336-323 BC &amp; conqueror of the Achaemenid Persian empire · son of Philip II &amp; Olympias, tutored by Aristotle · won Issus (333) &amp; Gaugamela (331), took Egypt, Babylon, Persia &amp; reached the Indus · died at Babylon aged 32, leaving the largest empire the ancient world had seen · historical"},
+        {"id": "MAC_CLEOPATRA", "label": "Cleopatra of Macedon<br/>c.355 BC · Macedonian princess, full sister of Alexander the Great · daughter of Philip II &amp; Olympias · married her uncle Alexander I of Epirus at the wedding where Philip II was assassinated (336 BC) · a pawn courted by the Diadochi &amp; killed on Antigonus's orders c.308 BC · historical"}
+      ]
+    },
+    {
+      "note": "PHILIP II'S FAMILY (1b) — Philip II ● Philinna of Larissa, a Thessalian. Their son Philip III Arrhidaeus was mentally impaired &amp; reigned only as a figurehead joint-king after Alexander's death.",
+      "a": "PHILIP2",
+      "b": {"id": "MAC_PHILINNA", "label": "Philinna of Larissa<br/>c.380 BC · a Thessalian woman of Larissa &amp; wife of Philip II · mother of Philip III Arrhidaeus · hostile tradition called her a dancer or commoner, likely dynastic slander · historical"},
+      "children": [
+        {"id": "MAC_PHILIP3", "label": "👑 Philip III Arrhidaeus<br/>c.359-317 BC · King of Macedon r.323-317 BC · son of Philip II &amp; Philinna, mentally impaired half-brother of Alexander the Great · raised to the throne as joint king with the infant Alexander IV after Alexander's death · a puppet of the regents, executed on the orders of Olympias 317 BC · historical"}
+      ]
+    },
+    {
+      "note": "PHILIP II'S FAMILY (1c) — Philip II ● Audata, an Illyrian princess (kin of King Bardylis). Their daughter Cynane was a warrior in her own right.",
+      "a": "PHILIP2",
+      "b": {"id": "MAC_AUDATA", "label": "Audata<br/>c.390 BC · an Illyrian princess, kinswoman of King Bardylis &amp; an early wife of Philip II · reputedly raised in the martial Illyrian custom, which she passed to her daughter · mother of Cynane · historical"},
+      "children": [
+        {"id": "MAC_CYNANE", "label": "Cynane<br/>c.358 BC · Macedonian princess, half-sister of Alexander the Great · daughter of Philip II &amp; the Illyrian Audata, trained &amp; famed as a warrior · mother of Adea (Eurydice II) · killed 323 BC while marching her daughter east to marry Philip III · historical"}
+      ]
+    },
+    {
+      "note": "PHILIP II'S FAMILY (1d) — Philip II ● Nicesipolis of Pherae, a Thessalian. Their daughter Thessalonike gave her name to the city Cassander founded for her.",
+      "a": "PHILIP2",
+      "b": {"id": "MAC_NICESIPOLIS", "label": "Nicesipolis of Pherae<br/>c.375 BC · a Thessalian noblewoman of Pherae &amp; wife of Philip II · died within days of giving birth · mother of Thessalonike · historical"},
+      "children": [
+        {"id": "MAC_THESSALONIKE", "label": "Thessalonike of Macedon<br/>c.352-295 BC · Macedonian princess, half-sister of Alexander the Great · daughter of Philip II &amp; Nicesipolis · married Cassander, who named the new city of Thessalonica in her honour · murdered by her own son Antipater II in a succession quarrel · historical"}
+      ]
+    },
+    {
+      "note": "INTERNAL ARGEAD TIE — Cynane ● '—' bear Adea, later renamed Eurydice II, who married her half-uncle Philip III (see the marriage below). Adea is defined here so the Susa-era union can reference her.",
+      "a": "MAC_CYNANE",
+      "b": {"id": "MAC_CYNANEH", "label": "—"},
+      "children": [
+        {"id": "MAC_ADEA", "label": "Adea (Eurydice II)<br/>c.337-317 BC · Macedonian princess, daughter of Cynane &amp; granddaughter of Philip II · married Philip III Arrhidaeus &amp; ruled ambitiously in his name during the wars of the Diadochi · defeated &amp; forced to suicide by Olympias 317 BC · historical"}
+      ]
+    },
+    {
+      "note": "INTERNAL ARGEAD TIE — the well-attested marriage of Philip III Arrhidaeus ● Adea/Eurydice II (both defined above). Childless. Adea, the abler of the pair, wielded the real authority.",
+      "a": "MAC_PHILIP3",
+      "b": "MAC_ADEA",
+      "children": []
+    },
+    {
+      "note": "LATER ACHAEMENIDS (3a) — the succession from the EXISTING Artaxerxes II 'Mnemon' (PER_ARTAXERXES2, referenced by id; NOT re-parented). Artaxerxes II ● '—' bear Artaxerxes III 'Ochus', who butchered rival kinsmen to secure the throne &amp; briefly restored Persian power, reconquering Egypt.",
+      "a": "PER_ARTAXERXES2",
+      "b": {"id": "PER_ARTAXERXES2W", "label": "—"},
+      "children": [
+        {"id": "PER_ARTAXERXES3", "label": "👑 Artaxerxes III 'Ochus'<br/>c.425 BC · King of Persia r.358-338 BC, son of Artaxerxes II · secured his crown by massacring rival princes &amp; crushed revolts across the empire, reconquering rebellious Egypt (343 BC) · poisoned by his chief minister, the eunuch Bagoas · historical"}
+      ]
+    },
+    {
+      "note": "LATER ACHAEMENIDS (3b) — the children of Artaxerxes III ● '—': Arses, whom Bagoas set up as the puppet Artaxerxes IV then murdered, and Parysatis II, who became one of Alexander's brides at Susa.",
+      "a": "PER_ARTAXERXES3",
+      "b": {"id": "PER_ARTAXERXES3W", "label": "—"},
+      "children": [
+        {"id": "PER_ARSES", "label": "👑 Arses (Artaxerxes IV)<br/>c.360 BC · King of Persia r.338-336 BC, youngest son of Artaxerxes III · raised to the throne as a puppet by the kingmaker eunuch Bagoas after the rest of the royal house was poisoned · murdered by Bagoas in turn when he proved unbiddable, extinguishing the main Achaemenid line · historical"},
+        {"id": "PER_PARYSATIS2", "label": "Parysatis II<br/>c.350 BC · Achaemenid princess, daughter of Artaxerxes III · married Alexander the Great at the Susa weddings of 324 BC as he tried to fuse the Macedonian &amp; Persian houses · the union was childless &amp; short-lived · historical"}
+      ]
+    },
+    {
+      "note": "LATER ACHAEMENIDS (3c) — DARIUS III'S TRUE DESCENT. FLAG: Darius III was NOT a son of Arses; he came from a collateral branch. Ostanes, a son of Darius II & Parysatis and a brother of Artaxerxes II, is APPENDED here as a further child of the EXISTING pair PER_DARIUS2 ● PER_PARYSATIS (both referenced by id; this only adds a sibling to Artaxerxes II & Cyrus the Younger and re-parents no one). Ostanes -> Arsames -> Darius III follows.",
+      "a": "PER_DARIUS2",
+      "b": "PER_PARYSATIS",
+      "children": [
+        {"id": "PER_OSTANES", "label": "Ostanes<br/>c.430 BC · Achaemenid prince, son of Darius II &amp; Parysatis &amp; brother of Artaxerxes II · founder of the collateral line that produced the last Great King · grandfather of Darius III · historical"}
+      ]
+    },
+    {
+      "note": "LATER ACHAEMENIDS (3d) — Ostanes ● '—' -> Arsames, the father of Darius III.",
+      "a": "PER_OSTANES",
+      "b": {"id": "PER_OSTANESW", "label": "—"},
+      "children": [
+        {"id": "PER_ARSAMES", "label": "Arsames<br/>c.400 BC · Achaemenid prince, son of Ostanes &amp; grandson of Darius II · father of Darius III · reportedly killed by the eunuch Bagoas along with the rest of the collateral royal house · historical"}
+      ]
+    },
+    {
+      "note": "LATER ACHAEMENIDS (3e) — Arsames ● '—' -> DARIUS III 'Codomannus', the last Achaemenid Great King, raised up by Bagoas &amp; then facing Alexander.",
+      "a": "PER_ARSAMES",
+      "b": {"id": "PER_ARSAMESW", "label": "—"},
+      "children": [
+        {"id": "PER_DARIUS3", "label": "👑 Darius III 'Codomannus'<br/>c.380-330 BC · last King of the Achaemenid Persian empire r.336-330 BC · a collateral Achaemenid (son of Arsames, grandson of Ostanes) set on the throne by the eunuch Bagoas, whom he then killed · defeated by Alexander the Great at Issus (333) &amp; Gaugamela (331), he fled east &amp; was murdered by his satrap Bessus · historical"}
+      ]
+    },
+    {
+      "note": "LATER ACHAEMENIDS (3f) — Darius III ● Stateira I (his sister-wife) bear Stateira II, who would be married to the conqueror of her father's empire.",
+      "a": "PER_DARIUS3",
+      "b": {"id": "PER_STATEIRA1", "label": "Stateira I<br/>c.360 BC · Queen of Persia, sister &amp; wife of Darius III, reputed the most beautiful woman in Asia · captured with the royal women after Issus (333 BC) &amp; treated honourably by Alexander · died c.331 BC · mother of Stateira II · historical"},
+      "children": [
+        {"id": "PER_STATEIRA2", "label": "Stateira II<br/>c.350 BC · Achaemenid princess, daughter of Darius III &amp; Stateira I · captured after Issus &amp; married to Alexander the Great at the Susa weddings of 324 BC, the centrepiece of his Macedonian-Persian fusion · killed by Roxana after Alexander's death · historical"}
+      ]
+    },
+    {
+      "note": "BACTRIAN EAST — Oxyartes ● '—' -> Roxana, the Sogdian/Bactrian bride Alexander took before the Persian princesses.",
+      "a": {"id": "PER_OXYARTES", "label": "Oxyartes<br/>c.375 BC · a Bactrian/Sogdian nobleman &amp; warlord who held the Sogdian Rock against Alexander · father of Roxana, whom Alexander married after the fortress fell (327 BC) · later made a satrap under Alexander · historical"},
+      "b": {"id": "PER_OXYARTESW", "label": "—"},
+      "children": [
+        {"id": "PER_ROXANA", "label": "Roxana<br/>c.340-310 BC · a Bactrian/Sogdian princess, daughter of the baron Oxyartes · Alexander the Great's first wife, married after the storming of the Sogdian Rock (327 BC) · mother of the posthumous heir Alexander IV · murdered with her son by Cassander c.310 BC · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE (2a) — MACEDON <-> BACTRIAN EAST. Alexander (MAC_) ● Roxana (PER_/Bactrian) bear Alexander IV, the posthumous heir born after Alexander's death, joint king in name only, murdered as a boy by Cassander — the end of the Argead line.",
+      "a": "MAC_ALEXANDER",
+      "b": "PER_ROXANA",
+      "children": [
+        {"id": "MAC_ALEXANDER4", "label": "👑 Alexander IV<br/>323-309 BC · King of Macedon in name, posthumous son of Alexander the Great &amp; Roxana · proclaimed joint king with his uncle Philip III but only ever a pawn of the warring Diadochi · murdered together with his mother by Cassander c.309 BC, extinguishing the Argead dynasty · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE (2b) — MACEDON <-> PERSIA, THE SUSA WEDDINGS OF 324 BC. Alexander (MAC_) ● Stateira II (PER_, daughter of Darius III) — the marriage that symbolically joined the Macedonian conqueror to the Achaemenid royal house. Childless; Stateira II was killed by Roxana soon after Alexander's death.",
+      "a": "MAC_ALEXANDER",
+      "b": "PER_STATEIRA2",
+      "children": []
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE (2c) — MACEDON <-> PERSIA, the second Susa union. Alexander (MAC_) ● Parysatis II (PER_, daughter of Artaxerxes III), taken alongside Stateira II in 324 BC to bind both Achaemenid royal branches to himself. Childless.",
+      "a": "MAC_ALEXANDER",
+      "b": "PER_PARYSATIS2",
+      "children": []
+    },
+    {
+      "note": "THE DIADOCHI (4a) — CASSANDER ● THESSALONIKE ties the Antipatrids into the Argead house by marriage. Cassander, son of Alexander's regent Antipater, made himself king of Macedon &amp; married Philip II's daughter Thessalonike; their sons were the last Antipatrid kings.",
+      "a": {"id": "MAC_CASSANDER", "label": "👑 Cassander<br/>c.355-297 BC · King of Macedon r.305-297 BC, son of Alexander's regent Antipater · a leading Diadochus who seized Macedon &amp; Greece, refounded Thebes, &amp; had Alexander IV, Roxana &amp; Olympias put to death to clear his path · married Thessalonike, half-sister of Alexander · historical"},
+      "b": "MAC_THESSALONIKE",
+      "children": [
+        {"id": "MAC_PHILIP4", "label": "👑 Philip IV of Macedon<br/>c.323-297 BC · King of Macedon 297 BC, eldest son of Cassander &amp; Thessalonike · reigned only a few months before dying of illness · historical"},
+        {"id": "MAC_ALEXANDER5", "label": "👑 Alexander V of Macedon<br/>c.320-294 BC · joint King of Macedon with his brother Antipater II after their father Cassander's death · called in Demetrius Poliorcetes against his brother &amp; was murdered by him · historical"},
+        {"id": "MAC_ANTIPATER2", "label": "👑 Antipater II of Macedon<br/>c.320-287 BC · joint King of Macedon, son of Cassander &amp; Thessalonike · murdered his own mother Thessalonike in the quarrel over their inheritance &amp; was driven out, later killed by Lysimachus · historical"}
+      ]
+    },
+    {
+      "note": "THE DIADOCHI (4b) — the ANTIGONID house. Antigonus I 'Monophthalmus' (the One-Eyed), the general who came closest to reuniting the whole empire, ● Stratonice bear Demetrius I 'Poliorcetes' (the Besieger). Antigonus took the royal title in 306 BC &amp; fell at Ipsus 301 BC; his line held Macedon for over a century.",
+      "a": {"id": "MAC_ANTIGONUS1", "label": "👑 Antigonus I 'Monophthalmus'<br/>382-301 BC · 'the One-Eyed'; general of Alexander &amp; the most powerful of the early Diadochi · satrap then self-proclaimed king (306 BC) who fought to reunite the whole empire under himself · defeated &amp; killed by the coalition of Seleucus, Lysimachus, Cassander &amp; Ptolemy at Ipsus, 301 BC · founder of the Antigonid dynasty · historical"},
+      "b": {"id": "MAC_STRATONICE1", "label": "Stratonice<br/>c.360 BC · wife of Antigonus I Monophthalmus &amp; mother of Demetrius Poliorcetes · matriarch of the Antigonid house · historical"},
+      "children": [
+        {"id": "MAC_DEMETRIUS1", "label": "👑 Demetrius I 'Poliorcetes'<br/>337-283 BC · 'the Besieger'; son of Antigonus I &amp; king of Macedon r.294-288 BC · a brilliant, restless commander famous for his vast siege engines · won &amp; lost kingdoms across the wars of the Diadochi &amp; died a prisoner of Seleucus · ancestor of the Antigonid kings of Macedon · historical"}
+      ]
+    },
+    {
+      "note": "THE DIADOCHI (4c) — LYSIMACHUS, standalone. FLAG: no blood or marriage tie to the Argead house is drawn (his links were to the Ptolemaic & Antipatrid houses via later marriages, outside this slab). One of Alexander's bodyguards, he took Thrace &amp; later much of Asia Minor as his kingdom.",
+      "a": {"id": "MAC_LYSIMACHUS", "label": "👑 Lysimachus<br/>c.360-281 BC · one of Alexander's personal bodyguards &amp; a leading Diadochus · took Thrace after Alexander's death, assumed the royal title (305 BC), &amp; extended his kingdom over much of Asia Minor after Ipsus · defeated &amp; killed by Seleucus I at Corupedium, 281 BC · historical"},
+      "b": {"id": "MAC_LYSIMACHUSW", "label": "—"},
+      "children": []
+    }
+  ]
+}

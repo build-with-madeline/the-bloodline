@@ -1,0 +1,20 @@
+{
+  "_note": "Married-in spouses (pre-1000 BC batch A) given their DOCUMENTED parents. Only two of the sixteen have parents named in a real source, so only two are filled; the rest are undocumented in scripture and deliberately skipped (no fabrication). (1) MAACAHGESHUR (David's wife) is 'daughter of Talmai king of Geshur' (2 Samuel 3:3); Talmai is himself 'son of Ammihud, king of Geshur' (2 Samuel 13:37), so a father + grandfather chain is added. (2) ELKANAH (father of Samuel) is 'son of Jeroham, son of Elihu' of the Kohathite Levite line living in Ephraim (1 Samuel 1:1, 1 Chronicles 6:27,34 where Elihu appears as Eliab/Eliel), so his father Jeroham + grandfather Elihu are added. Mothers are undocumented (placeholder '—'). No siblings are documented for either. New nodes carry the SPA_ prefix. Sorts after 20a_david_family so MAACAHGESHUR & ELKANAH already exist.",
+  "families": [
+    {"a": {"id": "SPA_TALMAI_GESHUR", "label": "👑 Talmai<br/>c.1075 BC · king of Geshur; father of David's wife Maacah &amp; grandfather of Absalom · 2 Samuel 3:3, 13:37"}, "b": {"id": "SPA_TALMAI_GESHUR_MOTHER", "label": "—"}, "children": [
+      "MAACAHGESHUR"
+    ], "note": "Maacah is 'the daughter of Talmai king of Geshur' — 2 Samuel 3:3"},
+
+    {"a": {"id": "SPA_AMMIHUD_GESHUR", "label": "Ammihud<br/>c.1100 BC · father of Talmai king of Geshur · 2 Samuel 13:37"}, "b": {"id": "SPA_AMMIHUD_GESHUR_MOTHER", "label": "—"}, "children": [
+      "SPA_TALMAI_GESHUR"
+    ], "note": "Talmai is 'the son of Ammihud, king of Geshur' — 2 Samuel 13:37"},
+
+    {"a": {"id": "SPA_JEROHAM_LEVITE", "label": "Jeroham<br/>c.1140 BC · father of Elkanah, of the Kohathite Levite line living in Ephraim · 1 Samuel 1:1, 1 Chronicles 6:27"}, "b": {"id": "SPA_JEROHAM_LEVITE_MOTHER", "label": "—"}, "children": [
+      "ELKANAH"
+    ], "note": "Elkanah is 'the son of Jeroham' — 1 Samuel 1:1"},
+
+    {"a": {"id": "SPA_ELIHU_LEVITE", "label": "Elihu (Eliab / Eliel)<br/>c.1170 BC · father of Jeroham in Samuel's Kohathite Levite line · 1 Samuel 1:1, 1 Chronicles 6:27, 6:34"}, "b": {"id": "SPA_ELIHU_LEVITE_MOTHER", "label": "—"}, "children": [
+      "SPA_JEROHAM_LEVITE"
+    ], "note": "Jeroham is 'the son of Elihu' — 1 Samuel 1:1 (Eliab in 1 Chron 6:27, Eliel in 6:34)"}
+  ]
+}

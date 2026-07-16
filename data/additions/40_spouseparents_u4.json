@@ -1,0 +1,153 @@
+{
+  "_note": "Married-in spouses lacking a parsed year (batch undated_4) given their DOCUMENTED parents + full siblings. 31 of 45 filled; 14 skipped as genuinely undocumented (see below). NEW nodes use the SPJ_ prefix. Two fills REFERENCE existing parents rather than duplicate them: (a) ELISHEBA, 'daughter of Amminadab, sister of Nahshon' (Exodus 6:23), is appended as a child of the EXISTING AMMINADAB + AMMINADABW union (Nahshon already hangs there — not re-added); (b) ARSINOE1 (Arsinoe I of Egypt) is given a birth-union under the EXISTING MAC_LYSIMACHUS with a NEW mother node (Nicaea of Macedon) — Lysimachus' existing placeholder-wife union is left alone since Arsinoe's mother was specifically Nicaea. CROSS-LINK: CUNIGUNDE of Luxembourg and OGIVE of Luxembourg are made real kin — Siegfried of Luxembourg + Hedwig of Nordgau parent Cunigunde AND Frederick 'in the Moselgau', and Frederick + Ermentrude of Gleiberg in turn parent Ogive; so the shared node SPJ_FREDERICK_LUX is a child in Siegfried's union and a parent in Ogive's. Unknown mothers are '—' placeholders per the union-needs-2-parents rule. Web-verified July 2026 against Wikipedia (and, for the pseudepigraphal fills, the Book of Jubilees text): 'Matthew Stewart, 4th Earl of Lennox', 'Ralph Neville, 1st Earl of Westmorland', 'Joan, Countess of Ponthieu', 'Aenor de Chatellerault', 'Cunigunde of Luxembourg', 'Elizabeth de Burgh', 'Mary of Guelders', 'Henry of Grosmont', 'Elizabeth Mure', 'Bonne of Luxembourg', 'Arsinoe I of Egypt', 'Marjorie, Countess of Carrick', 'Aelfflaed', 'Zipporah', 'Lucrezia Tornabuoni', 'Philip the Good', 'Ingegerd Olofsdotter of Sweden', 'Charles, Duke of Orleans', 'Adela of Champagne', 'Ogive of Luxembourg', 'Margaret Wake', 'Beatrice I, Countess of Burgundy', 'Rogneda of Polotsk', 'Robert de Brus, 6th Lord of Annandale', 'Bertha of Savoy', 'Alfonsina Orsini', 'Sohaemus of Emesa', 'John Doukas (Caesar)/Irene Pegonitissa'. SKIPPED (undocumented parentage, no fabrication): DUNCW (Duncan I's wife, name uncertain, no source parentage); ARISTOBULUS2W (wife unnamed); LAMECHADAH (Adah, wife of Lamech — Genesis 4 names no parents); MALCIW (Malcolm I's wife unrecorded); MATTATHIASW (wife unnamed); HAMW (Ne'elatamauk — Jubilees names her but gives NO father); BILHAH (no canonical parentage; Jubilees' 'Rotheus' inconsistent/marginal); AGA (Agatha, wife of Edward the Exile — parentage famously disputed, no consensus); ANTIOCHUS4W (wife unnamed here); MARYCLOPAS (no documented parentage); EALD (Ealdgyth, widow of Sigeferth — own parentage unknown); JUDITHBAV (DATA ISSUE — this single node is married to BOTH Louis the Pious (d.843) AND Frederick II Duke of Swabia (d.1147): two different women named Judith of Bavaria three centuries apart, conflated; cannot assign one parentage); SIMONTHASSIW (wife unnamed); VANOZZA (Vannozza dei Cattanei — parentage undocumented).",
+  "families": [
+    {"a": {"id": "SPJ_JOHNSTEWART3LENNOX", "label": "John Stewart<br/>c.1490-1526 · 3rd Earl of Lennox; killed at Linlithgow Bridge · Wikipedia"}, "b": {"id": "SPJ_ELIZSTEWARTATHOLL", "label": "Elizabeth Stewart<br/>c.1495-1517 · daughter of the 1st Earl of Atholl · Wikipedia"}, "children": [
+      "MATTSTEW",
+      {"id": "SPJ_JOHNAUBIGNY", "label": "John Stewart<br/>c.1512-1567 · Seigneur d'Aubigny, French army commander · Wikipedia"},
+      {"id": "SPJ_ROBERTLENNOX", "label": "Robert Stewart<br/>c.1522-1586 · Bishop of Caithness, later Earl of Lennox · Wikipedia"}
+    ], "note": "Matthew Stewart, 4th Earl of Lennox, was son of John Stewart, 3rd Earl of Lennox, and Elizabeth Stewart of Atholl — Wikipedia"},
+
+    {"a": {"id": "SPJ_JOHNNEVILLE3", "label": "John Neville<br/>c.1337-1388 · 3rd Baron Neville de Raby, Admiral of the North · Wikipedia"}, "b": {"id": "SPJ_MAUDPERCY", "label": "Maud Percy<br/>d.1379 · daughter of Henry Percy, 2nd Baron Percy · Wikipedia"}, "children": [
+      "RALPHNEV",
+      {"id": "SPJ_THOMASNEVILLEFURNIVALL", "label": "Thomas Neville<br/>c.1362-1407 · Baron Furnivall · Wikipedia"}
+    ], "note": "Ralph Neville, 1st Earl of Westmorland, was son of John Neville, 3rd Baron Neville de Raby, and Maud Percy — Wikipedia"},
+
+    {"a": {"id": "SPJ_SIMONDAMMARTIN", "label": "Simon of Dammartin<br/>c.1180-1239 · Count of Aumale · Wikipedia"}, "b": {"id": "SPJ_MARIEPONTHIEU", "label": "Marie<br/>c.1199-1250 · Countess of Ponthieu in her own right · Wikipedia"}, "children": [
+      "JOANPON",
+      {"id": "SPJ_PHILIPPADAMMARTIN", "label": "Philippa of Dammartin<br/>c.1225-1281 · m. Otto II of Guelders · Wikipedia"}
+    ], "note": "Joan, Countess of Ponthieu (mother of Eleanor of Castile), was daughter of Simon of Dammartin and Marie, Countess of Ponthieu — Wikipedia"},
+
+    {"a": {"id": "SPJ_AIMERYCHATELLERAULT", "label": "Aimery I<br/>c.1075-1151 · Viscount of Chatellerault · Wikipedia"}, "b": {"id": "SPJ_DANGEREUSE", "label": "Dangereuse de l'Isle Bouchard<br/>c.1079-1151 · 'La Maubergeonne'; mistress of William IX of Aquitaine · Wikipedia"}, "children": [
+      "AENOR",
+      {"id": "SPJ_HUGHCHATELLERAULT", "label": "Hugh II<br/>c.1101-1153 · Viscount of Chatellerault · Wikipedia"}
+    ], "note": "Aenor de Chatellerault (mother of Eleanor of Aquitaine) was daughter of Viscount Aimery I and Dangereuse de l'Isle Bouchard — Wikipedia"},
+
+    {"a": {"id": "SPJ_SIEGFRIEDLUX", "label": "👑 Siegfried<br/>c.922-998 · first Count of Luxembourg; founder of the house · Wikipedia"}, "b": {"id": "SPJ_HEDWIGNORDGAU", "label": "Hedwig of Nordgau<br/>c.937-992 · Wikipedia"}, "children": [
+      "CUNIGUNDE",
+      {"id": "SPJ_FREDERICK_LUX", "label": "Frederick<br/>965-1019 · Count in the Moselgau; Count of Luxembourg · Wikipedia"},
+      {"id": "SPJ_HENRYLUX_BAVARIA", "label": "👑 Henry V<br/>c.960-1026 · Duke of Bavaria (Henry of Luxembourg) · Wikipedia"},
+      {"id": "SPJ_DIETRICH_METZ", "label": "✝ Dietrich (Theodoric) II<br/>c.965-1047 · Bishop of Metz · Wikipedia"}
+    ], "note": "Cunigunde of Luxembourg (Empress, canonized) was a daughter of Siegfried of Luxembourg and Hedwig of Nordgau; her brother Frederick fathered Ogive (below) — Wikipedia"},
+
+    {"a": "AMMINADAB", "b": "AMMINADABW", "children": [
+      "ELISHEBA"
+    ], "note": "Elisheba is 'daughter of Amminadab, sister of Nahshon' (Exodus 6:23) — appended to the existing Amminadab union; Nahshon already sits there"},
+
+    {"a": {"id": "SPJ_RICHARDDEBURGH", "label": "👑 Richard Og de Burgh<br/>c.1259-1326 · 2nd Earl of Ulster, 'the Red Earl' · Wikipedia"}, "b": {"id": "SPJ_MARGARETDEBURGHW", "label": "Margaret<br/>d.c.1304 · wife of the Red Earl; origins uncertain · Wikipedia"}, "children": [
+      "ELIZBURGH",
+      {"id": "SPJ_JOHNDEBURGH", "label": "John de Burgh<br/>c.1286-1313 · heir of Ulster, father of the 3rd Earl · Wikipedia"}
+    ], "note": "Elizabeth de Burgh, second wife of Robert the Bruce, was daughter of Richard Og de Burgh, 2nd Earl of Ulster — Wikipedia (Earl of Ulster styled with crown as ruling magnate)"},
+
+    {"a": {"id": "SPJ_ARNOLDGUELDERS", "label": "👑 Arnold<br/>1410-1473 · Duke of Guelders · Wikipedia"}, "b": {"id": "SPJ_CATHERINECLEVES", "label": "Catherine of Cleves<br/>1417-1479 · Wikipedia"}, "children": [
+      "MARYGUELDERS",
+      {"id": "SPJ_ADOLFGUELDERS", "label": "👑 Adolf<br/>1438-1477 · Duke of Guelders · Wikipedia"}
+    ], "note": "Mary of Guelders, Queen of Scotland, was daughter of Arnold, Duke of Guelders, and Catherine of Cleves — Wikipedia"},
+
+    {"a": {"id": "SPJ_HENRY3LANCASTER", "label": "Henry<br/>c.1281-1345 · 3rd Earl of Lancaster and Leicester · Wikipedia"}, "b": {"id": "SPJ_MAUDCHAWORTH", "label": "Maud Chaworth<br/>1282-c.1322 · Wikipedia"}, "children": [
+      "HENRYGROS",
+      {"id": "SPJ_ELEANORLANCASTER", "label": "Eleanor of Lancaster<br/>c.1318-1372 · m. Richard FitzAlan, Earl of Arundel · Wikipedia"}
+    ], "note": "Henry of Grosmont, 1st Duke of Lancaster, was son of Henry, 3rd Earl of Lancaster, and Maud Chaworth — Wikipedia"},
+
+    {"a": {"id": "SPJ_ADAMMURE", "label": "Adam Mure<br/>c.1295-c.1330 · Sir Adam Mure of Rowallan, Ayrshire · Wikipedia"}, "b": {"id": "SPJ_ADAMMUREW", "label": "—"}, "children": [
+      "ELIZMURE"
+    ], "note": "Elizabeth Mure (first wife of Robert II) was daughter of Sir Adam Mure of Rowallan; her mother's identity is uncertain in the records — Wikipedia"},
+
+    {"a": {"id": "SPJ_JOHNBLIND", "label": "👑 John of Bohemia<br/>1296-1346 · 'John the Blind', King of Bohemia; died at Crecy · Wikipedia"}, "b": {"id": "SPJ_ELIZBOHEMIA", "label": "👑 Elizabeth of Bohemia<br/>1292-1330 · Premyslid heiress, Queen of Bohemia · Wikipedia"}, "children": [
+      "BONNELUX",
+      {"id": "SPJ_CHARLESIV", "label": "👑 Charles IV<br/>1316-1378 · King of Bohemia and Holy Roman Emperor · Wikipedia"}
+    ], "note": "Bonne of Luxembourg (mother of Charles V of France) was daughter of John the Blind of Bohemia and Elizabeth of Bohemia; her brother was Emperor Charles IV — Wikipedia"},
+
+    {"a": "MAC_LYSIMACHUS", "b": {"id": "SPJ_NICAEAMAC", "label": "Nicaea of Macedon<br/>c.335-? BC · daughter of Antipater; first wife of Lysimachus · Wikipedia"}, "children": [
+      "ARSINOE1",
+      {"id": "SPJ_AGATHOCLESLYS", "label": "Agathocles<br/>c.320-284 BC · heir of Lysimachus, executed on his father's order · Wikipedia"}
+    ], "note": "Arsinoe I, first queen of Ptolemy II, was daughter of Lysimachus of Thrace by his wife Nicaea (daughter of Antipater); union added under the existing Lysimachus node — Wikipedia"},
+
+    {"a": {"id": "SPJ_NIALLCARRICK", "label": "👑 Niall<br/>c.1220-1256 · Earl of Carrick (Neil, mac Donnchadh) · Wikipedia"}, "b": {"id": "SPJ_NIALLCARRICKW", "label": "—"}, "children": [
+      "MARJORIECARRICK"
+    ], "note": "Marjorie, Countess of Carrick (mother of Robert the Bruce), was daughter and heiress of Niall, Earl of Carrick; her mother is not recorded — Wikipedia"},
+
+    {"a": {"id": "SPJ_AETHELHELM", "label": "Aethelhelm<br/>c.850-c.898 · Ealdorman of Wiltshire · Wikipedia"}, "b": {"id": "SPJ_AETHELHELMW", "label": "—"}, "children": [
+      "AELFFLAED"
+    ], "note": "Aelfflaed, second wife of Edward the Elder, was daughter of Ealdorman Aethelhelm; her mother is not securely recorded — Wikipedia"},
+
+    {"a": {"id": "SPJ_JETHRO", "label": "✝ Jethro (Reuel)<br/>c.1550 BC · priest of Midian, father-in-law of Moses · Exodus 2:18, 3:1"}, "b": {"id": "SPJ_JETHROW", "label": "—"}, "children": [
+      "ZIPPORAH",
+      {"id": "SPJ_HOBAB", "label": "Hobab<br/>c.1520 BC · son of Reuel the Midianite, brother-in-law of Moses · Numbers 10:29"}
+    ], "note": "Zipporah was daughter of Jethro/Reuel, priest of Midian (Exodus 2:21); her brother Hobab appears in Numbers 10:29. NOTE: this Midianite Reuel is distinct from the existing Edomite REUEL (son of Esau) and is given a new node"},
+
+    {"a": {"id": "SPJ_FRANCESCOTORNABUONI", "label": "Francesco Tornabuoni<br/>c.1400-1436 · Francesco di Simone Tornabuoni, Florentine patrician · Wikipedia"}, "b": {"id": "SPJ_FRANCESCOTORNABUONIW", "label": "—"}, "children": [
+      "LUCREZIATORNABUONI",
+      {"id": "SPJ_GIOVANNITORNABUONI", "label": "Giovanni Tornabuoni<br/>1428-1497 · Medici bank manager in Rome · Wikipedia"}
+    ], "note": "Lucrezia Tornabuoni (wife of Piero de' Medici) was daughter of Francesco di Simone Tornabuoni; her mother is uncertain (Nanna Guicciardini or Francesca Pitti), so left as placeholder — Wikipedia"},
+
+    {"a": {"id": "SPJ_JOHNFEARLESS", "label": "👑 John the Fearless<br/>1371-1419 · Duke of Burgundy; assassinated on the bridge at Montereau · Wikipedia"}, "b": {"id": "SPJ_MARGARETBAVARIA", "label": "Margaret of Bavaria<br/>1363-1423 · Wikipedia"}, "children": [
+      "PHILIPGOOD",
+      {"id": "SPJ_ANNEBURGUNDY", "label": "Anne of Burgundy<br/>1404-1432 · Duchess of Bedford · Wikipedia"}
+    ], "note": "Philip the Good, Duke of Burgundy, was son of John the Fearless and Margaret of Bavaria — Wikipedia"},
+
+    {"a": {"id": "SPJ_OLOFSKOT", "label": "👑 Olof Skotkonung<br/>c.980-1022 · first Christian King of Sweden · Wikipedia"}, "b": {"id": "SPJ_ESTRIDOBOTRITE", "label": "Estrid of the Obotrites<br/>c.979-1035 · Wikipedia"}, "children": [
+      "INGEGERD",
+      {"id": "SPJ_ANUNDJACOB", "label": "👑 Anund Jacob<br/>c.1008-1050 · King of Sweden · Wikipedia"},
+      {"id": "SPJ_ASTRIDOLOF", "label": "Astrid Olofsdotter<br/>c.1000-1035 · Queen of Norway, wife of Olaf II · Wikipedia"}
+    ], "note": "Ingegerd of Sweden (wife of Yaroslav the Wise) was daughter of Olof Skotkonung and Estrid of the Obotrites — Wikipedia"},
+
+    {"a": {"id": "SPJ_LOUIS1ORLEANS", "label": "Louis I<br/>1372-1407 · Duke of Orleans; assassinated by John the Fearless · Wikipedia"}, "b": {"id": "SPJ_VALENTINAVISCONTI", "label": "Valentina Visconti<br/>1371-1408 · of Milan · Wikipedia"}, "children": [
+      "CHARLESORLEANS",
+      {"id": "SPJ_JOHNANGOULEME", "label": "John of Orleans<br/>1399-1467 · Count of Angouleme, grandfather of Francis I · Wikipedia"}
+    ], "note": "Charles, Duke of Orleans (the poet), was son of Louis I, Duke of Orleans, and Valentina Visconti — Wikipedia"},
+
+    {"a": {"id": "SPJ_THEOBALD2CHAMP", "label": "👑 Theobald II<br/>1090-1152 · Count of Champagne (Theobald IV of Blois), 'the Great' · Wikipedia"}, "b": {"id": "SPJ_MATILDACARINTHIA", "label": "Matilda of Carinthia<br/>c.1105-1160 · Wikipedia"}, "children": [
+      "ADELCHAMPAGNE",
+      {"id": "SPJ_HENRY1CHAMP", "label": "Henry I<br/>1127-1181 · Count of Champagne, 'the Liberal' · Wikipedia"},
+      {"id": "SPJ_THEOBALD5BLOIS", "label": "Theobald V<br/>1130-1191 · Count of Blois · Wikipedia"}
+    ], "note": "Adela of Champagne, third wife of Louis VII of France, was daughter of Theobald II, Count of Champagne, and Matilda of Carinthia — Wikipedia"},
+
+    {"a": "SPJ_FREDERICK_LUX", "b": {"id": "SPJ_ERMENTRUDEGLEIBERG", "label": "Ermentrude of Gleiberg<br/>c.970-? · Wikipedia"}, "children": [
+      "OGIVE",
+      {"id": "SPJ_HENRY2LUX", "label": "👑 Henry II<br/>c.1005-1047 · Count of Luxembourg, Duke of Bavaria · Wikipedia"}
+    ], "note": "Ogive of Luxembourg, Countess of Flanders, was daughter of Frederick 'in the Moselgau' (himself son of Siegfried, above) and Ermentrude of Gleiberg — Wikipedia. This ties Ogive and Cunigunde together as niece/aunt"},
+
+    {"a": {"id": "SPJ_JOHNWAKE", "label": "John Wake<br/>1268-1300 · 1st Baron Wake of Liddell · Wikipedia"}, "b": {"id": "SPJ_JOANFIENNES", "label": "Joan de Fiennes<br/>c.1270-c.1309 · Wikipedia"}, "children": [
+      "MARGWAKE",
+      {"id": "SPJ_THOMASWAKE", "label": "Thomas Wake<br/>1298-1349 · 2nd Baron Wake of Liddell · Wikipedia"}
+    ], "note": "Margaret Wake, 3rd Baroness Wake (wife of Edmund of Woodstock), was daughter of John Wake, 1st Baron Wake, and Joan de Fiennes — Wikipedia"},
+
+    {"a": {"id": "SPJ_RENAUD3BURGUNDY", "label": "👑 Renaud III<br/>1093-1148 · Count of Burgundy (Franche-Comte) · Wikipedia"}, "b": {"id": "SPJ_AGATHALORRAINE", "label": "Agatha of Lorraine<br/>c.1122-1153 · Wikipedia"}, "children": [
+      "BEATBURG"
+    ], "note": "Beatrice of Burgundy (Empress, wife of Frederick Barbarossa) was daughter and heiress of Renaud III, Count of Burgundy, and Agatha of Lorraine — Wikipedia"},
+
+    {"a": {"id": "SPJ_ROGVOLOD", "label": "👑 Rogvolod<br/>d.978 · Varangian Prince of Polotsk · Wikipedia"}, "b": {"id": "SPJ_ROGVOLODW", "label": "—"}, "children": [
+      "ROGNEDA"
+    ], "note": "Rogneda of Polotsk (wife of Vladimir the Great) was daughter of Rogvolod, Prince of Polotsk; her mother is not recorded — Wikipedia"},
+
+    {"a": {"id": "SPJ_BRUSCOMPETITOR", "label": "Robert de Brus<br/>1210-1295 · 5th Lord of Annandale, 'the Competitor' for the Scottish throne · Wikipedia"}, "b": {"id": "SPJ_ISABELDECLARE", "label": "Isabel de Clare<br/>c.1226-1264 · daughter of Gilbert de Clare, Earl of Gloucester · Wikipedia"}, "children": [
+      "ROBERTDEBRUS"
+    ], "note": "Robert de Brus, 6th Lord of Annandale (father of King Robert the Bruce), was son of Robert de Brus 'the Competitor', 5th Lord of Annandale, and Isabel de Clare — Wikipedia"},
+
+    {"a": {"id": "SPJ_OTTOSAVOY", "label": "👑 Otto<br/>c.1017-1060 · Count of Savoy · Wikipedia"}, "b": {"id": "SPJ_ADELAIDESUSA", "label": "👑 Adelaide of Susa<br/>c.1020-1091 · Margravine of Turin in her own right · Wikipedia"}, "children": [
+      "BERTHASAVOY",
+      {"id": "SPJ_AMADEUS2SAVOY", "label": "👑 Amadeus II<br/>c.1050-1080 · Count of Savoy · Wikipedia"}
+    ], "note": "Bertha of Savoy (Empress, wife of Henry IV) was daughter of Otto, Count of Savoy, and Adelaide of Susa, Margravine of Turin — Wikipedia"},
+
+    {"a": {"id": "SPJ_ROBERTOORSINI", "label": "Roberto Orsini<br/>c.1450-1476 · Count of Tagliacozzo and Alba · Wikipedia"}, "b": {"id": "SPJ_CATERINASANSEVERINO", "label": "Caterina Sanseverino<br/>c.1450-? · Wikipedia"}, "children": [
+      "ALFONSINAORSINI"
+    ], "note": "Alfonsina Orsini (wife of Piero 'the Unfortunate' de' Medici) was daughter of Roberto Orsini, Count of Tagliacozzo and Alba, and Caterina Sanseverino — Wikipedia"},
+
+    {"a": {"id": "SPJ_SAMPSICERAMUS2", "label": "👑 Sampsiceramus II<br/>c.20 BC-42 AD · priest-king of Emesa r.14-42 · Wikipedia"}, "b": {"id": "SPJ_IOTAPAEMESA", "label": "👑 Iotapa<br/>c.10 BC-? · of the royal house of Commagene · Wikipedia"}, "children": [
+      "SOHAEMUS",
+      {"id": "SPJ_AZIZUSEMESA", "label": "👑 Gaius Julius Azizus<br/>d.54 AD · priest-king of Emesa; first husband of Drusilla the Herodian · Wikipedia"}
+    ], "note": "Sohaemus of Emesa was the second son of the priest-king Sampsiceramus II and Queen Iotapa (of Commagene); his elder brother Azizus preceded him as king — Wikipedia. (His marriage-link to Drusilla of Mauretania remains the reconstructed part, flagged on his own card)"},
+
+    {"a": {"id": "SPJ_NIKETASPEGONITES", "label": "Niketas Pegonites<br/>c.990-? · Byzantine noble; the surname Pegonitissa derives from him · Wikipedia"}, "b": {"id": "SPJ_NIKETASPEGONITESW", "label": "—"}, "children": [
+      "JOHNDOUKASW"
+    ], "note": "Irene Pegonitissa (wife of the kaisar John Doukas) was daughter of Niketas Pegonites; her mother is not recorded — Wikipedia"},
+
+    {"a": {"id": "SPJ_SINAAR", "label": "Sina'ar<br/>c.2280 BC · father of Peleg's wife Lomna · Book of Jubilees 8:7 [pseudepigraphal]"}, "b": {"id": "SPJ_SINAARW", "label": "—"}, "children": [
+      "PELEGW"
+    ], "note": "In the Book of Jubilees (8:7) Peleg's wife Lomna is 'the daughter of Sina'ar' — sole source, flagged pseudepigraphal, same source already used for the wife herself"},
+
+    {"a": {"id": "SPJ_KABER", "label": "Kaber<br/>c.2215 BC · father of Serug's wife Melka · Book of Jubilees 11:6 [pseudepigraphal]"}, "b": {"id": "SPJ_KABERW", "label": "—"}, "children": [
+      "SERUGW"
+    ], "note": "In the Book of Jubilees (11:6) Serug's wife Melka is 'the daughter of Kaber' — sole source, flagged pseudepigraphal, same source already used for the wife herself"}
+  ]
+}

@@ -13,9 +13,9 @@
     {"a": "DAVID", "b": "MICHAL", "children": []},
 
     {"a": {"id": "JEROBOAMI", "label": "👑 Jeroboam I<br/>c.931 BC · first king of the divided northern kingdom of Israel; not of David's line · 1 Kings 12"}, "b": {"id": "JEROBOAMIW", "label": "—"}, "children": [
-      {"id": "NADAB", "label": "👑 Nadab<br/>c.910 BC · son of Jeroboam I; king of Israel · 1 Kings 15"}
+      {"id": "NADABKING", "label": "👑 Nadab<br/>c.910 BC · son of Jeroboam I; king of Israel · 1 Kings 15"}
     ]},
-    {"a": "NADAB", "b": {"id": "NADABW", "label": "—"}, "children": [
+    {"a": "NADABKING", "b": {"id": "NADABW", "label": "—"}, "children": [
       {"id": "BAASHA", "label": "👑 Baasha<br/>c.909 BC · king of Israel; usurper who killed Nadab &amp; destroyed the house of Jeroboam · 1 Kings 15"}
     ]},
     {"a": "BAASHA", "b": {"id": "BAASHAW", "label": "—"}, "children": [

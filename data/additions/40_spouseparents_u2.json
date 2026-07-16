@@ -1,0 +1,173 @@
+{
+  "_note": "Batch undated_2: documented parents (and full siblings where documented) for married-in spouses lacking a parsed year. New nodes prefixed SPH_. Existing ids referenced as strings. Achaeus-elder union (SPB_ACHAEUS_ELDER + SPB_ACHAEUS_ELDER_W) already carries ATT_ANTIOCHIS from batch b1; Laodice I + her brothers append to it. Jubilees / traditional links are flagged in-label.",
+  "families": [
+    {
+      "note": "Eleanor of Alburquerque -> Sancho Alfonso (illegit. son of Alfonso XI) & Beatrice of Portugal; brother Ferdinand",
+      "a": {"id": "SPH_SANCHO_ALBURQ", "label": "Sancho Alfonso<br/>1342-1374 · 1st Count of Alburquerque; illegitimate son of Alfonso XI of Castile · Wikipedia"},
+      "b": {"id": "SPH_BEATRICE_PORTUGAL", "label": "Beatrice of Portugal<br/>c.1347-1381 · Countess of Alburquerque; dau. of Peter I of Portugal & Inês de Castro · Wikipedia"},
+      "children": ["ELEANORALB", {"id": "SPH_FERNANDO_ALBURQ", "label": "Ferdinand of Alburquerque<br/>c.1373-c.1385 · 2nd Count of Alburquerque · Wikipedia"}]
+    },
+    {
+      "note": "Bertrade de Montfort -> Simon I de Montfort & Agnes of Évreux; brother Amaury III",
+      "a": {"id": "SPH_SIMON1_MONTFORT", "label": "Simon I de Montfort<br/>c.1025-1087 · Lord of Montfort-l'Amaury · Wikipedia"},
+      "b": {"id": "SPH_AGNES_EVREUX", "label": "Agnes of Évreux<br/>c.1030-1087 · dau. of Richard, Count of Évreux · Wikipedia"},
+      "children": ["BERTRADE", {"id": "SPH_AMAURY3_MONTFORT", "label": "Amaury III de Montfort<br/>c.1063-1137 · Count of Évreux · Wikipedia"}]
+    },
+    {
+      "note": "Constance of Sicily -> Roger II of Sicily & Beatrice of Rethel (posthumous only child; no full siblings)",
+      "a": {"id": "SPH_ROGER2_SICILY", "label": "👑 Roger II of Sicily<br/>1095-1154 · first King of Sicily · Wikipedia"},
+      "b": {"id": "SPH_BEATRICE_RETHEL", "label": "Beatrice of Rethel<br/>c.1131-1185 · third wife of Roger II; dau. of Günther, Count of Rethel · Wikipedia"},
+      "children": ["CONSTSICILY"]
+    },
+    {
+      "note": "Ælfthryth -> Ordgar, Ealdorman of Devon (mother unrecorded); brother Ordulf",
+      "a": {"id": "SPH_ORDGAR", "label": "Ordgar<br/>d.971 · Ealdorman of Devon · Wikipedia"},
+      "b": {"id": "SPH_ORDGARW", "label": "—"},
+      "children": ["AELFTH", {"id": "SPH_ORDULF", "label": "Ordulf<br/>c.945-1010 · thegn; founder of Tavistock Abbey · Wikipedia"}]
+    },
+    {
+      "note": "Annabella Drummond -> Sir John Drummond of Stobhall & Mary Montifex",
+      "a": {"id": "SPH_JOHN_DRUMMOND", "label": "Sir John Drummond of Stobhall<br/>d.c.1373 · Thane of Lennox · Wikipedia"},
+      "b": {"id": "SPH_MARY_MONTIFEX", "label": "Mary Montifex<br/>fl.1350s · dau. of Sir William Montifex · Wikipedia"},
+      "children": ["ANNABELLA"]
+    },
+    {
+      "note": "Violant (Yolanda) of Hungary -> Andrew II of Hungary & his 2nd wife Yolanda de Courtenay (only child of that marriage)",
+      "a": {"id": "SPH_ANDREW2_HUNGARY", "label": "👑 Andrew II of Hungary<br/>c.1177-1235 · King of Hungary · Wikipedia"},
+      "b": {"id": "SPH_YOLANDA_COURTENAY", "label": "Yolanda de Courtenay<br/>c.1200-1233 · 2nd wife of Andrew II; dau. of Peter II of Courtenay · Wikipedia"},
+      "children": ["VIOLANTH"]
+    },
+    {
+      "note": "Margery Wentworth -> Sir Henry Wentworth & Anne Say",
+      "a": {"id": "SPH_HENRY_WENTWORTH", "label": "Sir Henry Wentworth<br/>c.1448-1499 · of Nettlestead, Suffolk · Wikipedia"},
+      "b": {"id": "SPH_ANNE_SAY", "label": "Anne Say<br/>fl.1470s · dau. of Sir John Say · Wikipedia"},
+      "children": ["MARGWENT"]
+    },
+    {
+      "note": "Asenath -> Potiphera, priest of On (mother unnamed); Genesis 41:45",
+      "a": {"id": "SPH_POTIPHERA", "label": "Potiphera<br/>priest of On (Heliopolis) · Genesis 41:45"},
+      "b": {"id": "SPH_POTIPHERAW", "label": "—"},
+      "children": ["ASENATH"]
+    },
+    {
+      "note": "François, Count of Vendôme -> Jean VIII de Bourbon-Vendôme & Isabelle de Beauvau; sister Jeanne (existing node)",
+      "a": {"id": "SPH_JEAN8_VENDOME", "label": "Jean VIII de Bourbon<br/>1428-1478 · Count of Vendôme · Wikipedia"},
+      "b": {"id": "SPH_ISABELLE_BEAUVAU", "label": "Isabelle de Beauvau<br/>c.1436-1475 · dau. of Louis de Beauvau · Wikipedia"},
+      "children": ["FRANVEND", "SPL_JEANNEBOURBONVENDOME"]
+    },
+    {
+      "note": "Charles, Count of Angoulême -> Jean of Orléans (Count of Angoulême) & Marguerite de Rohan; sister Jeanne",
+      "a": {"id": "SPH_JEAN_ANGOULEME", "label": "Jean of Orléans<br/>1399-1467 · Count of Angoulême ('the Good') · Wikipedia"},
+      "b": {"id": "SPH_MARGUERITE_ROHAN", "label": "Marguerite de Rohan<br/>c.1412-1497 · dau. of Alain IX de Rohan · Wikipedia"},
+      "children": ["CHARLESANGOULEME", {"id": "SPH_JEANNE_ANGOULEME", "label": "Jeanne of Orléans<br/>1462-1520 · Countess of Angoulême · Wikipedia"}]
+    },
+    {
+      "note": "Isabella of Bourbon -> Charles I, Duke of Bourbon & Agnes of Burgundy; brothers John II & Peter II (Beaujeu)",
+      "a": {"id": "SPH_CHARLES1_BOURBON", "label": "Charles I of Bourbon<br/>1401-1456 · Duke of Bourbon · Wikipedia"},
+      "b": {"id": "SPH_AGNES_BURGUNDY", "label": "Agnes of Burgundy<br/>1407-1476 · dau. of John the Fearless, Duke of Burgundy · Wikipedia"},
+      "children": ["ISABBOURBON", {"id": "SPH_JOHN2_BOURBON", "label": "John II of Bourbon<br/>1426-1488 · Duke of Bourbon · Wikipedia"}, {"id": "SPH_PETER2_BEAUJEU", "label": "Peter II of Bourbon<br/>1438-1503 · Lord of Beaujeu; regent of France · Wikipedia"}]
+    },
+    {
+      "note": "Conrad the Red -> Werner V of the Nahegau (first documented Salian); mother presumed Hicha of Swabia",
+      "a": {"id": "SPH_WERNER5", "label": "Werner V<br/>d.c.935 · Count in the Nahegau, Speyergau & Wormsgau; first documented Salian · Wikipedia"},
+      "b": {"id": "SPH_HICHA_SWABIA", "label": "Hicha of Swabia<br/>fl.900s · presumed dau. of Duke Burchard II of Swabia · presumed, Wikipedia"},
+      "children": ["CONRADRED"]
+    },
+    {
+      "note": "Matilda of Saxony (wife of Baldwin III of Flanders) -> Herman Billung, Duke of Saxony (mother uncertain); brother Bernard I",
+      "a": {"id": "SPH_HERMAN_BILLUNG", "label": "Herman Billung<br/>c.910-973 · Duke of Saxony · Wikipedia"},
+      "b": {"id": "SPH_HERMAN_BILLUNGW", "label": "—"},
+      "children": ["MATSAX", {"id": "SPH_BERNARD1_SAXONY", "label": "Bernard I<br/>c.950-1011 · Duke of Saxony · Wikipedia"}]
+    },
+    {
+      "note": "Beatrice of Savoy -> Thomas I of Savoy & Margaret of Geneva; brothers Amadeus IV, Peter II, Boniface",
+      "a": {"id": "SPH_THOMAS1_SAVOY", "label": "Thomas I of Savoy<br/>1178-1233 · Count of Savoy · Wikipedia"},
+      "b": {"id": "SPH_MARGARET_GENEVA", "label": "Margaret of Geneva<br/>c.1180-1252 · dau. of William I, Count of Geneva · Wikipedia"},
+      "children": ["BEATSAV", {"id": "SPH_AMADEUS4_SAVOY", "label": "Amadeus IV of Savoy<br/>1197-1253 · Count of Savoy · Wikipedia"}, {"id": "SPH_PETER2_SAVOY", "label": "Peter II of Savoy<br/>1203-1268 · Count of Savoy; Earl of Richmond · Wikipedia"}, {"id": "SPH_BONIFACE_CANTERBURY", "label": "✝ Boniface of Savoy<br/>c.1207-1270 · Archbishop of Canterbury · Wikipedia"}]
+    },
+    {
+      "note": "Azurad (wife of Eber) -> Nebrod, per Jubilees 8:7 — extra-biblical tradition, flagged",
+      "a": {"id": "SPH_NEBROD", "label": "Nebrod<br/>father of Azurad · per Jubilees 8:7 (extra-biblical tradition, DISPUTED)"},
+      "b": {"id": "SPH_NEBRODW", "label": "—"},
+      "children": ["EBERW"]
+    },
+    {
+      "note": "Oda (wife of Liudolf of Saxony) -> Billung & Aeda, per Vita Mathildis — traditional, flagged",
+      "a": {"id": "SPH_BILLUNG_FRANK", "label": "Billung<br/>fl.800s · a Frankish princeps · per Vita Mathildis (traditional)"},
+      "b": {"id": "SPH_AEDA", "label": "Aeda<br/>fl.800s · wife of Billung · per Vita Mathildis (traditional)"},
+      "children": ["ODA"]
+    },
+    {
+      "note": "Laodice I (wife of Antiochus II) -> Achaeus the elder (son of Seleucus I); APPENDS to existing Achaeus-elder union (Antiochis already a child from batch b1). Brothers Andromachus & Alexander added.",
+      "a": "SPB_ACHAEUS_ELDER",
+      "b": "SPB_ACHAEUS_ELDER_W",
+      "children": ["LAODICE1", {"id": "SPH_ANDROMACHUS", "label": "Andromachus<br/>c.290 BC · Seleucid noble, son of Achaeus the elder; father of Achaeus the usurper & Laodice II · Polybius"}, {"id": "SPH_ALEXANDER_SEL", "label": "Alexander<br/>c.285 BC · Seleucid noble, son of Achaeus the elder"}]
+    },
+    {
+      "note": "Laodice II (wife of Seleucus II) -> Andromachus (son of Achaeus the elder); brother Achaeus the usurper. Polybius",
+      "a": "SPH_ANDROMACHUS",
+      "b": {"id": "SPH_ANDROMACHUSW", "label": "—"},
+      "children": ["LAODICE2", {"id": "SPH_ACHAEUS_GENERAL", "label": "Achaeus<br/>c.263-213 BC · Seleucid general & usurper; son of Andromachus · Wikipedia"}]
+    },
+    {
+      "note": "Philip VI (first Valois king) -> Charles of Valois (existing) & his 1st wife Margaret, Countess of Anjou; brother Charles II of Alençon",
+      "a": "CHARLESVALOIS",
+      "b": {"id": "SPH_MARGARET_ANJOU_NAPLES", "label": "Margaret, Countess of Anjou<br/>1273-1299 · dau. of Charles II of Naples; 1st wife of Charles of Valois · Wikipedia"},
+      "children": ["PHILIPVI", {"id": "SPH_CHARLES2_ALENCON", "label": "Charles II, Count of Alençon<br/>1297-1346 · killed at Crécy · Wikipedia"}]
+    },
+    {
+      "note": "Maria of Bulgaria -> Troyan of Bulgaria (son of Tsar Ivan Vladislav); mother unrecorded",
+      "a": {"id": "SPH_TROYAN_BULGARIA", "label": "Troyan of Bulgaria<br/>fl.1040s · son of Tsar Ivan Vladislav of Bulgaria · Wikipedia"},
+      "b": {"id": "SPH_TROYANW", "label": "—"},
+      "children": ["MARIABULGARIA"]
+    },
+    {
+      "note": "William I, Count of Hainault -> John II of Avesnes (Count of Holland & Hainault) & Philippa of Luxembourg; brother John of Beaumont",
+      "a": {"id": "SPH_JOHN2_AVESNES", "label": "John II of Avesnes<br/>1247-1304 · Count of Holland & Hainault · Wikipedia"},
+      "b": {"id": "SPH_PHILIPPA_LUXEMBOURG", "label": "Philippa of Luxembourg<br/>c.1252-1311 · dau. of Henry V, Count of Luxembourg · Wikipedia"},
+      "children": ["WILLHAIN", {"id": "SPH_JOHN_BEAUMONT", "label": "John of Hainault<br/>c.1288-1356 · Lord of Beaumont · Wikipedia"}]
+    },
+    {
+      "note": "Judith of Bavaria -> Arnulf the Bad, Duke of Bavaria & his wife Judith; brothers Eberhard & Arnulf II",
+      "a": {"id": "SPH_ARNULF_BAVARIA", "label": "Arnulf the Bad<br/>c.885-937 · Duke of Bavaria · Wikipedia"},
+      "b": {"id": "SPH_JUDITH_ARNULFW", "label": "Judith<br/>fl.910s · wife of Duke Arnulf of Bavaria · Wikipedia"},
+      "children": ["JUDITHARNULF", {"id": "SPH_EBERHARD_BAVARIA", "label": "Eberhard of Bavaria<br/>d.after 940 · Duke of Bavaria · Wikipedia"}, {"id": "SPH_ARNULF2_BAVARIA", "label": "Arnulf II<br/>d.954 · Count Palatine of Bavaria · Wikipedia"}]
+    },
+    {
+      "note": "Berengaria of Navarre -> Sancho VI of Navarre & Sancha of Castile; siblings Sancho VII & Blanche of Champagne",
+      "a": {"id": "SPH_SANCHO6_NAVARRE", "label": "👑 Sancho VI of Navarre<br/>c.1132-1194 · King of Navarre ('the Wise') · Wikipedia"},
+      "b": {"id": "SPH_SANCHA_CASTILE", "label": "Sancha of Castile<br/>1139-1179 · dau. of Alfonso VII of León-Castile · Wikipedia"},
+      "children": ["BERENG", {"id": "SPH_SANCHO7_NAVARRE", "label": "👑 Sancho VII of Navarre<br/>c.1157-1234 · King of Navarre ('the Strong') · Wikipedia"}, {"id": "SPH_BLANCHE_CHAMPAGNE", "label": "Blanche of Navarre<br/>c.1177-1229 · Countess of Champagne · Wikipedia"}]
+    },
+    {
+      "note": "Alfonso I d'Este -> Ercole I d'Este & Eleanor of Naples; sisters Isabella & Beatrice, brother Ippolito",
+      "a": {"id": "SPH_ERCOLE1_ESTE", "label": "Ercole I d'Este<br/>1431-1505 · Duke of Ferrara · Wikipedia"},
+      "b": {"id": "SPH_ELEANOR_NAPLES", "label": "Eleanor of Naples<br/>1450-1493 · dau. of Ferdinand I of Naples · Wikipedia"},
+      "children": ["ALFONSOIESTE", {"id": "SPH_ISABELLA_ESTE", "label": "Isabella d'Este<br/>1474-1539 · Marchioness of Mantua · Wikipedia"}, {"id": "SPH_BEATRICE_ESTE", "label": "Beatrice d'Este<br/>1475-1497 · Duchess of Milan · Wikipedia"}, {"id": "SPH_IPPOLITO_ESTE", "label": "✝ Ippolito d'Este<br/>1479-1520 · Cardinal · Wikipedia"}]
+    },
+    {
+      "note": "Ermengarde (Eremburga) of Maine -> Elias I, Count of Maine & Matilda of Château-du-Loir (heiress; no surviving siblings)",
+      "a": {"id": "SPH_ELIAS1_MAINE", "label": "Elias I of Maine<br/>c.1060-1110 · Count of Maine (Hélie de la Flèche) · Wikipedia"},
+      "b": {"id": "SPH_MATILDA_CHATEAUDULOIR", "label": "Matilda of Château-du-Loir<br/>fl.1090s · dau. of Gervais II, Lord of Château-du-Loir · Wikipedia"},
+      "children": ["ERM"]
+    },
+    {
+      "note": "Thomas Boleyn -> Sir William Boleyn & Margaret Butler",
+      "a": {"id": "SPH_WILLIAM_BOLEYN", "label": "Sir William Boleyn<br/>1451-1505 · of Blickling & Hever · Wikipedia"},
+      "b": {"id": "SPH_MARGARET_BUTLER", "label": "Margaret Butler<br/>c.1454-1539 · dau. of Thomas Butler, 7th Earl of Ormond · Wikipedia"},
+      "children": ["THOMASB"]
+    },
+    {
+      "note": "Margaret of Foix -> Gaston IV of Foix & Queen Eleanor of Navarre; brother Gaston, Prince of Viana",
+      "a": {"id": "SPH_GASTON4_FOIX", "label": "Gaston IV of Foix<br/>1422-1472 · Count of Foix · Wikipedia"},
+      "b": {"id": "SPH_ELEANOR_NAVARRE", "label": "👑 Eleanor of Navarre<br/>1426-1479 · Queen of Navarre · Wikipedia"},
+      "children": ["MARGFOIX", {"id": "SPH_GASTON_VIANA", "label": "Gaston of Foix<br/>1444-1470 · Prince of Viana · Wikipedia"}]
+    },
+    {
+      "note": "Edna (wife of Terah) -> Abram son of Nahor, per Jubilees 11:14 — extra-biblical tradition, flagged",
+      "a": {"id": "SPH_ABRAM_NAHOR", "label": "Abram, son of Nahor<br/>father of Edna · per Jubilees 11:14 (extra-biblical tradition, DISPUTED)"},
+      "b": {"id": "SPH_ABRAM_NAHORW", "label": "—"},
+      "children": ["TERAHW"]
+    }
+  ]
+}

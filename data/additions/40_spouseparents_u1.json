@@ -1,0 +1,193 @@
+{
+  "_note": "Batch undated_1: documented PARENTS (and full siblings) for married-in spouses that had none shown. Mostly well-documented medieval/early-modern European royalty & nobility plus a few biblical/Jubilees figures. Existing tree ids (ALFREDGREAT, EALHSWITH, CHARLESBALD, JUDITHBAV, RENEANJOU, ISABLORR) are referenced by id and only gain children — no re-parenting. New nodes use the SPG_ prefix. Unknown mothers are '—' placeholders. Disputed/traditional links are flagged in the label. Sources named per family. Ordered so any newly-created parent is defined before it is used as a parent. Web-verified July 2026 against Wikipedia. 14 batch entries had NO documented parents and were skipped (see report).",
+  "families": [
+
+    {"note": "Alfred the Great — parents Æthelwulf & Osburh (Asser, Wikipedia). Siblings: Æthelbald, Æthelberht, Æthelred I, Æthelswith.",
+     "a": {"id": "SPG_AETHELWULF", "label": "👑 Æthelwulf<br/>c.795-858 · King of Wessex · Wikipedia"},
+     "b": {"id": "SPG_OSBURH", "label": "Osburh<br/>d. c.855 · first wife of Æthelwulf"},
+     "children": ["ALFREDGREAT",
+       {"id": "SPG_AETHELBALD", "label": "👑 Æthelbald<br/>c.831-860 · King of Wessex"},
+       {"id": "SPG_AETHELBERHT", "label": "👑 Æthelberht<br/>c.835-865 · King of Wessex"},
+       {"id": "SPG_AETHELRED1", "label": "👑 Æthelred I<br/>c.837-871 · King of Wessex"},
+       {"id": "SPG_AETHELSWITH", "label": "Æthelswith<br/>c.838-888 · Queen of Mercia"}]},
+
+    {"note": "Aelfthryth of Wessex — daughter of Alfred the Great & Ealhswith (both existing; union already bears EDWARDELDER in 08, so only new siblings are appended). Siblings: Æthelflæd, Æthelweard.",
+     "a": "ALFREDGREAT", "b": "EALHSWITH",
+     "children": ["AELFTHWESSEX",
+       {"id": "SPG_AETHELFLAED", "label": "Æthelflæd<br/>c.870-918 · Lady of the Mercians"},
+       {"id": "SPG_AETHELWEARD", "label": "Æthelweard<br/>c.880-922 · Alfred's youngest son"}]},
+
+    {"note": "Adelaide of Maurienne — parents Humbert II of Savoy & Gisela of Burgundy (Wikipedia). Sibling: Amadeus III of Savoy.",
+     "a": {"id": "SPG_HUMBERT2SAVOY", "label": "Humbert II 'the Reinforced'<br/>c.1065-1103 · Count of Savoy"},
+     "b": {"id": "SPG_GISELABURGUNDY", "label": "Gisela of Burgundy<br/>c.1075-1133 · Countess of Savoy"},
+     "children": ["ADELMAURIENNE",
+       {"id": "SPG_AMADEUS3SAVOY", "label": "👑 Amadeus III<br/>1095-1148 · Count of Savoy (2nd Crusade)"}]},
+
+    {"note": "Aymer Taillefer of Angoulême — youngest child of William VI of Angoulême & his 2nd wife Marguerite de Turenne (Wikipedia).",
+     "a": {"id": "SPG_WILLIAM6ANG", "label": "William VI Taillefer<br/>d.1179 · Count of Angoulême"},
+     "b": {"id": "SPG_MARGTURENNE", "label": "Marguerite de Turenne<br/>· 2nd wife of William VI"},
+     "children": ["AYMERANG"]},
+
+    {"note": "Isabella of Mar — daughter of Domhnall I, Earl of Mar (Wikipedia). Mother uncertain/disputed, left blank. Sibling: Gartnait, Earl of Mar.",
+     "a": {"id": "SPG_DOMHNALL1MAR", "label": "Domhnall I<br/>d.1297 · Earl of Mar"},
+     "b": {"id": "SPG_ISABELMAR_MOTHER", "label": "—"},
+     "children": ["ISABELMAR",
+       {"id": "SPG_GARTNAITMAR", "label": "Gartnait<br/>d. c.1305 · Earl of Mar"}]},
+
+    {"note": "Isabel de Beaumont — daughter of Henry de Beaumont, Earl of Buchan, & Alice Comyn (Wikipedia). Sibling: John de Beaumont, 2nd Baron.",
+     "a": {"id": "SPG_HENRYBEAUMONT", "label": "Henry de Beaumont<br/>c.1280-1340 · Earl of Buchan (jure uxoris)"},
+     "b": {"id": "SPG_ALICECOMYN", "label": "Alice Comyn<br/>c.1289-1349 · Countess of Buchan"},
+     "children": ["ISABEAUM",
+       {"id": "SPG_JOHNBEAUMONT", "label": "John de Beaumont<br/>1318-1342 · 2nd Baron Beaumont"}]},
+
+    {"note": "Isabella (Isabel) of Barcelos / Braganza — daughter of Afonso I, Duke of Braganza, & Beatriz Pereira de Alvim (Wikipedia). Siblings: Fernando I of Braganza, Afonso of Ourém.",
+     "a": {"id": "SPG_AFONSO1BRAGANZA", "label": "Afonso I<br/>1377-1461 · 1st Duke of Braganza"},
+     "b": {"id": "SPG_BEATRIZALVIM", "label": "Beatriz Pereira de Alvim<br/>1380-c.1420 · heiress, dau. of Nuno Álvares Pereira"},
+     "children": ["ISABBARCELOS",
+       {"id": "SPG_FERNANDO1BRAGANZA", "label": "Fernando I<br/>1403-1478 · 2nd Duke of Braganza"},
+       {"id": "SPG_AFONSOOUREM", "label": "Afonso<br/>c.1400-1460 · Count of Ourém, Marquis of Valença"}]},
+
+    {"note": "Isabella of Lorraine — daughter of Charles II, Duke of Lorraine, & Margaret of the Palatinate (Wikipedia). Sibling: Catherine of Lorraine.",
+     "a": {"id": "SPG_CHARLES2LORRAINE", "label": "👑 Charles II<br/>1364-1431 · Duke of Lorraine"},
+     "b": {"id": "SPG_MARGPALATINATE", "label": "Margaret of the Palatinate<br/>1376-1434 · Duchess of Lorraine"},
+     "children": ["ISABLORR",
+       {"id": "SPG_CATHERINELORRAINE", "label": "Catherine<br/>1407-1439 · dau. of Charles II of Lorraine"}]},
+
+    {"note": "Berenice I of Egypt — daughter of the obscure Macedonian nobleman Magas & Antigone (niece of Antipater) (Wikipedia).",
+     "a": {"id": "SPG_MAGASMAC", "label": "Magas<br/>· obscure Macedonian nobleman · Wikipedia"},
+     "b": {"id": "SPG_ANTIGONEMAC", "label": "Antigone<br/>· Macedonian noblewoman, niece of Antipater"},
+     "children": ["BERENICE1"]},
+
+    {"note": "Katherine Swynford — daughter of Sir Paon (Gilles) de Roet of Hainaut (Wikipedia); mother unknown. Sibling: Philippa Roet, wife of Geoffrey Chaucer.",
+     "a": {"id": "SPG_PAONROET", "label": "Sir Paon (Gilles) de Roet<br/>d. c.1380 · Hainaut herald & knight"},
+     "b": {"id": "SPG_KATS_MOTHER", "label": "—"},
+     "children": ["KATS",
+       {"id": "SPG_PHILIPPAROET", "label": "Philippa Roet<br/>c.1346-1387 · wife of Geoffrey Chaucer"}]},
+
+    {"note": "Walter Stewart, 6th High Steward — son of James Stewart, 5th High Steward of Scotland, & Egidia de Burgh (Wikipedia).",
+     "a": {"id": "SPG_JAMESSTEWART5", "label": "James Stewart<br/>c.1260-1309 · 5th High Steward of Scotland"},
+     "b": {"id": "SPG_EGIDIADEBURGH", "label": "Egidia de Burgh<br/>· wife of James Stewart, 5th High Steward"},
+     "children": ["WALTERSTEWART"]},
+
+    {"note": "Alice of Courtenay — daughter of Peter I of Courtenay (son of Louis VI of France) & Elizabeth de Courtenay (Wikipedia). Sibling: Peter II of Courtenay, Latin Emperor.",
+     "a": {"id": "SPG_PETER1COURTENAY", "label": "Peter I of Courtenay<br/>c.1126-1183 · lord of Courtenay, son of Louis VI of France"},
+     "b": {"id": "SPG_ELIZCOURTENAY", "label": "Elizabeth de Courtenay<br/>c.1127-1205 · heiress of Courtenay"},
+     "children": ["ALICECOURT",
+       {"id": "SPG_PETER2COURTENAY", "label": "👑 Peter II of Courtenay<br/>c.1155-1219 · Latin Emperor of Constantinople"}]},
+
+    {"note": "Herbert II of Vermandois — son of the existing Herbert I of Vermandois & Bertha de Morvois (appends as sibling of Beatrice/BEATV). Documented Carolingian-descended Count.",
+     "a": "HERBERTIVERM", "b": "HERBERTIVERMW",
+     "children": [{"id": "SPG_HERBERT2VERM", "label": "Herbert II<br/>c.884-943 · Count of Vermandois"}]},
+
+    {"note": "Adele of Vermandois — daughter of Herbert II of Vermandois & Adele of France, dau. of Robert I of France (Wikipedia; the wife's identity is traditional). Sibling: Albert I of Vermandois.",
+     "a": "SPG_HERBERT2VERM",
+     "b": {"id": "SPG_ADELEFR", "label": "Adele of France<br/>· dau. of Robert I of France · traditional"},
+     "children": ["ADELEV",
+       {"id": "SPG_ALBERT1VERM", "label": "Albert I 'the Pious'<br/>915-987 · Count of Vermandois"}]},
+
+    {"note": "Isabella II (Yolande) of Jerusalem — daughter of John of Brienne, King of Jerusalem, & Maria of Montferrat (Wikipedia). Only child; Maria died in childbirth.",
+     "a": {"id": "SPG_JOHNBRIENNE", "label": "👑 John of Brienne<br/>c.1170-1237 · King of Jerusalem & Latin Emperor"},
+     "b": {"id": "SPG_MARIAMONTFERRAT", "label": "👑 Maria of Montferrat<br/>1192-1212 · Queen of Jerusalem"},
+     "children": ["ISABJER"]},
+
+    {"note": "Cassandane — daughter of Pharnaspes, an Achaemenid (Herodotus 2.1, 3.2). Mother unknown.",
+     "a": {"id": "SPG_PHARNASPES", "label": "Pharnaspes<br/>· Achaemenid nobleman · Herodotus 2.1"},
+     "b": {"id": "SPG_CASSANDANE_MOTHER", "label": "—"},
+     "children": ["CASSANDANE"]},
+
+    {"note": "Ahinoam, wife of Saul — daughter of Ahimaaz (1 Samuel 14:50). Mother unnamed.",
+     "a": {"id": "SPG_AHIMAAZ", "label": "Ahimaaz<br/>· father of Ahinoam · 1 Samuel 14:50"},
+     "b": {"id": "SPG_AHINOAM_MOTHER", "label": "—"},
+     "children": ["AHINOAM"]},
+
+    {"note": "Maria of Portugal, Queen of Castile — daughter of Afonso IV of Portugal & Beatrice of Castile (Wikipedia). Sibling: Peter I of Portugal.",
+     "a": {"id": "SPG_AFONSO4PORTUGAL", "label": "👑 Afonso IV 'the Brave'<br/>1291-1357 · King of Portugal"},
+     "b": {"id": "SPG_BEATRICECASTILE", "label": "Beatrice of Castile<br/>1293-1359 · Queen of Portugal"},
+     "children": ["MARIAPORT",
+       {"id": "SPG_PETER1PORTUGAL", "label": "👑 Peter I 'the Just'<br/>1320-1367 · King of Portugal"}]},
+
+    {"note": "Herleva of Falaise, mother of William the Conqueror — daughter of Fulbert of Falaise (traditional; tanner/chamberlain). Mother unknown. Brother: Walter, protector of young William.",
+     "a": {"id": "SPG_FULBERT", "label": "Fulbert of Falaise<br/>· tanner/chamberlain; Herleva's father · traditional"},
+     "b": {"id": "SPG_HERL_MOTHER", "label": "—"},
+     "children": ["HERL",
+       {"id": "SPG_WALTERFALAISE", "label": "Walter of Falaise<br/>· Herleva's brother, protector of young William"}]},
+
+    {"note": "Adelaide of Aquitaine — daughter of William III 'Towhead', Duke of Aquitaine, & Adele of Normandy, dau. of Rollo (Wikipedia). Sibling: William IV of Aquitaine.",
+     "a": {"id": "SPG_WILLIAM3AQ", "label": "William III 'Towhead'<br/>c.915-963 · Duke of Aquitaine"},
+     "b": {"id": "SPG_ADELENORMANDY", "label": "Adele of Normandy<br/>c.917-962 · dau. of Rollo of Normandy"},
+     "children": ["ADELAQ",
+       {"id": "SPG_WILLIAM4AQ", "label": "William IV 'Fierebras'<br/>937-995 · Duke of Aquitaine"}]},
+
+    {"note": "James I of Aragon 'the Conqueror' — only son of Peter II of Aragon & Marie of Montpellier (Wikipedia).",
+     "a": {"id": "SPG_PETER2ARAGON", "label": "👑 Peter II 'the Catholic'<br/>1178-1213 · King of Aragon"},
+     "b": {"id": "SPG_MARIEMONTPELLIER", "label": "Marie of Montpellier<br/>1182-1213 · Lady of Montpellier"},
+     "children": ["JAMESIAR"]},
+
+    {"note": "Iyaska, wife of Nahor — daughter of Nestag of the Chaldees (Book of Jubilees 11:9). Mother unnamed.",
+     "a": {"id": "SPG_NESTAG", "label": "Nestag of the Chaldees<br/>· father of Iyaska · Jubilees 11:9"},
+     "b": {"id": "SPG_IYASKA_MOTHER", "label": "—"},
+     "children": ["NAHORW"]},
+
+    {"note": "Bertha of Holland, Queen of France — daughter of Floris I, Count of Holland, & Gertrude of Saxony (Wikipedia). Sibling: Dirk V of Holland.",
+     "a": {"id": "SPG_FLORIS1HOLLAND", "label": "Floris I<br/>c.1030-1061 · Count of Holland"},
+     "b": {"id": "SPG_GERTRUDESAXONY", "label": "Gertrude of Saxony<br/>c.1030-1113 · Countess of Holland"},
+     "children": ["BERTHAHOLLAND",
+       {"id": "SPG_DIRK5HOLLAND", "label": "Dirk V<br/>1052-1091 · Count of Holland"}]},
+
+    {"note": "Ermengarde of Hesbaya, first wife of Louis the Pious — daughter of Ingram (Ingerman), Count in the Hesbaye (Wikipedia). Mother unknown.",
+     "a": {"id": "SPG_INGRAMHESBAYE", "label": "Ingram (Ingerman)<br/>· Count in the Hesbaye · father of Ermengarde"},
+     "b": {"id": "SPG_ERMEN_MOTHER", "label": "—"},
+     "children": ["ERMENHESB"]},
+
+    {"note": "William X, Duke of Aquitaine (father of Eleanor) — son of William IX 'the Troubadour' & Philippa of Toulouse (Wikipedia). Siblings: Raymond of Poitiers, Agnes of Aquitaine.",
+     "a": {"id": "SPG_WILLIAM9AQ", "label": "👑 William IX 'the Troubadour'<br/>1071-1126 · Duke of Aquitaine"},
+     "b": {"id": "SPG_PHILIPPATOULOUSE", "label": "Philippa of Toulouse<br/>c.1073-1118 · Duchess of Aquitaine"},
+     "children": ["WILLXAQ",
+       {"id": "SPG_RAYMONDPOITIERS", "label": "Raymond of Poitiers<br/>c.1105-1149 · Prince of Antioch"},
+       {"id": "SPG_AGNESAQ", "label": "Agnes of Aquitaine<br/>c.1105-1159 · Queen of Aragon"}]},
+
+    {"note": "Gisela of Swabia, Holy Roman Empress — daughter of Hermann II, Duke of Swabia, & Gerberga of Burgundy (Wikipedia). Sibling: Matilda of Swabia.",
+     "a": {"id": "SPG_HERMANN2SWABIA", "label": "Hermann II<br/>d.1003 · Duke of Swabia"},
+     "b": {"id": "SPG_GERBERGABURGUNDY", "label": "Gerberga of Burgundy<br/>c.965-1017 · Duchess of Swabia"},
+     "children": ["GISELASWAB",
+       {"id": "SPG_MATILDASWABIA", "label": "Matilda of Swabia<br/>c.988-1032"}]},
+
+    {"note": "Judith of Flanders — daughter of the existing Charles the Bald & Ermentrude of Orléans (Wikipedia). Sibling: Louis the Stammerer. CHARLESBALD referenced by id (he is already parented in 08; this only adds a spouse-union with children).",
+     "a": "CHARLESBALD",
+     "b": {"id": "SPG_ERMENTRUDE", "label": "Ermentrude of Orléans<br/>823-869 · Queen of West Francia"},
+     "children": ["JUDITHFR",
+       {"id": "SPG_LOUISSTAMMERER", "label": "👑 Louis II 'the Stammerer'<br/>846-879 · King of West Francia"}]},
+
+    {"note": "Yolande of Anjou — daughter of the existing René of Anjou & Isabella of Lorraine (Wikipedia). Placed as their child so René II can hang below her.",
+     "a": "RENEANJOU", "b": "ISABLORR",
+     "children": [{"id": "SPG_YOLANDEANJOU", "label": "Yolande of Anjou<br/>1428-1483 · Duchess of Lorraine"}]},
+
+    {"note": "René II, Duke of Lorraine — son of Frederick II, Count of Vaudémont, & Yolande of Anjou (Wikipedia).",
+     "a": {"id": "SPG_FREDERICK2VAUDEMONT", "label": "Frederick II<br/>c.1428-1470 · Count of Vaudémont"},
+     "b": "SPG_YOLANDEANJOU",
+     "children": ["RENEIILORRAINE"]},
+
+    {"note": "Emma of Altdorf, wife of Louis the German — daughter of Welf I, Count of Altdorf, & Heilwig of Saxony (Wikipedia). Her sister is the existing Judith of Bavaria (JUDITHBAV), so both are shown as children; JUDITHBAV referenced by id (not previously parented).",
+     "a": {"id": "SPG_WELF1ALTDORF", "label": "Welf I<br/>· Count of Altdorf (Bavaria), a Welf"},
+     "b": {"id": "SPG_HEILWIG", "label": "Heilwig of Saxony<br/>· wife of Welf I"},
+     "children": ["EMMAALTDORF", "JUDITHBAV"]},
+
+    {"note": "Anne Beauchamp, Countess of Warwick (wife of Warwick the Kingmaker) — daughter of Richard de Beauchamp, 13th Earl of Warwick, & Isabel le Despenser (Wikipedia). Sibling: Henry de Beauchamp, Duke of Warwick.",
+     "a": {"id": "SPG_RICHARDBEAUCHAMP", "label": "Richard de Beauchamp<br/>1382-1439 · 13th Earl of Warwick"},
+     "b": {"id": "SPG_ISABELDESPENSER", "label": "Isabel le Despenser<br/>1400-1439 · Countess of Warwick"},
+     "children": ["ANNEBEAU",
+       {"id": "SPG_HENRYBEAUCHAMP", "label": "Henry de Beauchamp<br/>1425-1446 · Duke of Warwick"}]},
+
+    {"note": "Piccarda Bueri, wife of Giovanni di Bicci de' Medici — daughter of Edoardo Bueri of Florence (Medici genealogies). Mother unknown.",
+     "a": {"id": "SPG_EDOARDOBUERI", "label": "Edoardo Bueri<br/>· Florentine, father of Piccarda"},
+     "b": {"id": "SPG_PICCARDA_MOTHER", "label": "—"},
+     "children": ["PICCARDABUERI"]},
+
+    {"note": "John I of Castile — son of Henry II 'of Trastámara' & Juana Manuel (Wikipedia). Sibling: Eleanor of Castile, Queen of Navarre.",
+     "a": {"id": "SPG_HENRY2CASTILE", "label": "👑 Henry II 'of Trastámara'<br/>1334-1379 · King of Castile"},
+     "b": {"id": "SPG_JUANAMANUEL", "label": "Juana Manuel<br/>1339-1381 · Queen of Castile"},
+     "children": ["JOHNICAST",
+       {"id": "SPG_ELEANORCASTILE_NAVARRE", "label": "Eleanor of Castile<br/>1363-1416 · Queen of Navarre"}]}
+
+  ]
+}

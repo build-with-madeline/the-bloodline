@@ -1,0 +1,110 @@
+{
+  "_note": "Batch D (medieval Europe, 800-1400 AD): documented parents + full siblings for married-in spouses that had no ancestry shown. Each batch spouse is referenced by its EXISTING id inside a children array; new ancestors use the SPE_ prefix. Unknown mothers/fathers are '—' placeholders. Where maternity or paternity is genuinely disputed or saga-only it is flagged in the label. Only true full siblings (sharing BOTH listed parents) are added; half-siblings by other spouses are omitted. Verified against standard references (Wikipedia/Asser/Heimskringla) July 2026. AVOIDS DOUBLE-PARENTING: every batch id was checked to have no existing parent-union before writing; PIV (Philip IV of France, existing) had no children and is reused as Isabella's father. NOTE: the father of the kaisar John Doukas is a DIFFERENT Andronikos Doukas than the existing node ANDRONIKOSDOUKAS (John's son), so a distinct id SPE_ANDRONIKOSDOUKAS_ELDER is used. SKIPPED (parents genuinely unknown/obscure): MANUELEROTIKOS (Komnenos origins obscure), CRIN/Crinan of Dunkeld (parentage uncertain), CONSTANTINEANGELOS (humble Philadelphian origins, parents unrecorded).",
+  "families": [
+    {
+      "note": "Rollo's father is SAGA-ONLY and even the identification is disputed; added flagged, mother unknown, no siblings (saga siblings are half-brothers by concubines).",
+      "a": {"id": "SPE_ROGNVALD", "label": "Rognvald Eysteinsson<br/>c.830 · Jarl of M&oslash;re · named as Rollo's father in the Norse sagas (Heimskringla) · &#9888; saga-only, uncertain"},
+      "b": {"id": "SPE_ROLLO_MOTHER", "label": "&mdash;"},
+      "children": ["ROLLO"]
+    },
+    {
+      "note": "Ealhswith (wife of Alfred the Great) -> parents per Asser.",
+      "a": {"id": "SPE_AETHELREDMUCEL", "label": "AEthelred Mucel<br/>fl.860s · Ealdorman of the Gaini (Mercia); father of Ealhswith per Asser · historical"},
+      "b": {"id": "SPE_EADBURH", "label": "Eadburh<br/>fl.860s · of Mercian royal descent; wife of AEthelred Mucel · historical"},
+      "children": ["EALHSWITH"]
+    },
+    {
+      "note": "Robert I of France & his brother King Odo, sons of Robert the Strong; maternity flagged as debated.",
+      "a": {"id": "SPE_ROBERTSTRONG", "label": "Robert the Strong<br/>c.820-866 · Margrave of Neustria; died fighting Vikings at Brissarthe · historical"},
+      "b": {"id": "SPE_ADELAIDETOURS", "label": "Adelaide of Tours<br/>c.820 · named as mother of Odo &amp; Robert I · &#9888; maternity debated"},
+      "children": [
+        {"id": "SPE_ODO", "label": "👑 Odo (Eudes)<br/>c.857-898 · Count of Paris who held the city in the 885-886 Viking siege; King of West Francia r.888-898 · historical"},
+        "ROBERTIFR"
+      ]
+    },
+    {
+      "note": "Edgar the Peaceful & his brother King Eadwig, sons of Edmund I & St AElfgifu of Shaftesbury.",
+      "a": {"id": "SPE_EDMUNDI", "label": "👑 Edmund I<br/>921-946 · King of the English; stabbed to death at Pucklechurch · historical"},
+      "b": {"id": "SPE_AELFGIFUSHAFT", "label": "😇 AElfgifu of Shaftesbury<br/>d.944 · first wife of Edmund I; venerated as a saint · historical"},
+      "children": [
+        {"id": "SPE_EADWIG", "label": "👑 Eadwig All-Fair<br/>c.940-959 · King of the English r.955-959 · historical"},
+        "EDGARP"
+      ]
+    },
+    {
+      "note": "Malcolm I of Scotland, son of Donald II; mother unrecorded, no documented full siblings.",
+      "a": {"id": "SPE_DONALDII", "label": "👑 Donald II of Scotland<br/>d.900 · King of Alba (Domnall mac Caus&aacute;nt&iacute;n) · historical"},
+      "b": {"id": "SPE_MALCI_MOTHER", "label": "&mdash;"},
+      "children": ["MALCI"]
+    },
+    {
+      "note": "Gisela of Burgundy & siblings, children of Conrad I of Burgundy & Matilda of France.",
+      "a": {"id": "SPE_CONRADBURG", "label": "👑 Conrad I of Burgundy<br/>c.925-993 · King of Burgundy, 'the Peaceful' · historical"},
+      "b": {"id": "SPE_MATILDAFR", "label": "Matilda of France<br/>943-c.982 · Carolingian princess, daughter of Louis IV of France · historical"},
+      "children": [
+        {"id": "SPE_RUDOLPHIII", "label": "👑 Rudolph III of Burgundy<br/>c.970-1032 · last King of independent Burgundy · historical"},
+        {"id": "SPE_BERTHABURG", "label": "Bertha of Burgundy<br/>c.964-1010 · m. Robert II of France (marriage annulled) · historical"},
+        "GISELABURG"
+      ]
+    },
+    {
+      "note": "Judith of Brittany & her brother Duke Geoffrey I, children of Conan I of Rennes & Ermengarde-Gerberga of Anjou.",
+      "a": {"id": "SPE_CONANI", "label": "👑 Conan I of Rennes<br/>d.992 · Duke of Brittany, Count of Rennes · historical"},
+      "b": {"id": "SPE_ERMENGARDEANJOU", "label": "Ermengarde-Gerberga of Anjou<br/>fl.980 · daughter of Geoffrey I of Anjou · historical"},
+      "children": [
+        {"id": "SPE_GEOFFREYIBRIT", "label": "👑 Geoffrey I of Brittany<br/>c.980-1008 · Duke of Brittany · historical"},
+        "JUDB"
+      ]
+    },
+    {
+      "note": "Constance of Arles & her brother Count William II, children of William I of Provence & Adelaide-Blanche of Anjou.",
+      "a": {"id": "SPE_WILLIAMIPROV", "label": "👑 William I of Provence<br/>c.950-993 · Count/Margrave of Provence, 'the Liberator' who expelled the Saracens from Fraxinet · historical"},
+      "b": {"id": "SPE_ADELAIDEBLANCHE", "label": "Adelaide-Blanche of Anjou<br/>c.940-1026 · daughter of Fulk II of Anjou · historical"},
+      "children": [
+        {"id": "SPE_WILLIAMIIPROV", "label": "👑 William II of Provence<br/>c.987-1018 · Count of Provence · historical"},
+        "CONST"
+      ]
+    },
+    {
+      "note": "The kaisar John Doukas & his brother Emperor Constantine X, sons of Andronikos Doukas the elder (patrikios of Cappadocia). Distinct id from the existing ANDRONIKOSDOUKAS (John's grandson-generation son). Mother unrecorded.",
+      "a": {"id": "SPE_ANDRONIKOSDOUKAS_ELDER", "label": "Andronikos Doukas<br/>fl.1020s · patrikios of Cappadocia; father of Constantine X &amp; the kaisar John · historical"},
+      "b": {"id": "SPE_JOHNDOUKAS_MOTHER", "label": "&mdash;"},
+      "children": [
+        {"id": "SPE_CONSTANTINEX", "label": "👑 Constantine X Doukas<br/>1006-1067 · Byzantine Emperor r.1059-1067 · historical"},
+        "JOHNDOUKAS"
+      ]
+    },
+    {
+      "note": "Anna Dalassene, daughter of Alexios Charon & a daughter of Adrian Dalassenos (whose more prestigious name Anna took). No documented full siblings.",
+      "a": {"id": "SPE_ALEXIOSCHARON", "label": "Alexios Charon<br/>fl.1020s · Byzantine governor of Italy · historical"},
+      "b": {"id": "SPE_DALASSENEMOTHER", "label": "daughter of Adrian Dalassenos<br/>fl.1020s · of the Dalassenos house, whose name Anna adopted · historical"},
+      "children": ["ANNADALASSENE"]
+    },
+    {
+      "note": "Isabella of France & her brothers, the three last direct Capetian kings, children of Philip IV (EXISTING id PIV, no prior children) & Joan I of Navarre.",
+      "a": "PIV",
+      "b": {"id": "SPE_JOANNAVARRE", "label": "👑 Joan I of Navarre<br/>1273-1305 · Queen regnant of Navarre &amp; Queen consort of France · historical"},
+      "children": [
+        {"id": "SPE_LOUISX", "label": "👑 Louis X 'the Quarrelsome'<br/>1289-1316 · King of France &amp; Navarre · historical"},
+        {"id": "SPE_PHILIPV", "label": "👑 Philip V 'the Tall'<br/>c.1293-1322 · King of France &amp; Navarre · historical"},
+        {"id": "SPE_CHARLESIV", "label": "👑 Charles IV 'the Fair'<br/>1294-1328 · last direct Capetian King of France · historical"},
+        "ISAB"
+      ]
+    },
+    {
+      "note": "Mary de Bohun & her sister Eleanor, daughters of Humphrey de Bohun, 7th Earl of Hereford & Joan FitzAlan.",
+      "a": {"id": "SPE_HUMPHREYBOHUN", "label": "Humphrey de Bohun, 7th Earl of Hereford<br/>1342-1373 · Earl of Hereford, Essex &amp; Northampton; Constable of England · historical"},
+      "b": {"id": "SPE_JOANFITZALAN", "label": "Joan FitzAlan<br/>c.1347-1419 · daughter of Richard FitzAlan, Earl of Arundel · historical"},
+      "children": [
+        {"id": "SPE_ELEANORBOHUN", "label": "Eleanor de Bohun<br/>c.1366-1399 · m. Thomas of Woodstock, Duke of Gloucester · historical"},
+        "MARYBOHUN"
+      ]
+    },
+    {
+      "note": "John I of Portugal, illegitimate son of King Peter I by Teresa Louren&ccedil;o; the union is flagged illegitimate and his legitimate/other half-siblings are omitted as they share no common mother.",
+      "a": {"id": "SPE_PEDROI", "label": "👑 Peter I of Portugal<br/>1320-1367 · King of Portugal, 'the Just'; famed for his devotion to In&ecirc;s de Castro · historical"},
+      "b": {"id": "SPE_TERESALOURENCO", "label": "Teresa Louren&ccedil;o<br/>fl.1350s · mother of John I; her union with Peter I was illegitimate · historical"},
+      "children": ["JOAOI"]
+    }
+  ]
+}

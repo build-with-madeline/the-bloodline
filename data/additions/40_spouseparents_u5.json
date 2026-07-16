@@ -1,0 +1,544 @@
+{
+ "_note": "Batch u5 (undated married-in spouses) given DOCUMENTED parents + full siblings. FILLED 30 of 45. SKIPPED 15 whose own parentage is undocumented/legendary (no fabrication): PTOLEMYMAURW (Julia Urania — uncertain, poss. Emesene), ZILLAH (Gen 4:19, no parents named), CUNIGUNDA of Laon (obscure), ROTRUDE of Hesbaye (disputed/conjectural), ADELAIDEMETZ (conjectural), KENNIIW ('wife, unrecorded'), AMYNTASOFALEXW (name/parents unknown), TAMAR (Gen 38, no parents named), LIUTSWIND (uncertain), FIORETTA Gorini (unknown), RAHAB (no parents named), ZIBIAH (only 'of Beersheba'), PEPINITALYW (Bertha/Chrothais — uncertain), ARSINOEMAC (herself a 'traditional' figure, parentage obscure). Plus LOTDAU1 SKIPPED — already parented in the tree (LOT x Lot's wife SPL_LOTWIFE, with sister LOTDAU2). DEDUP/links to existing nodes: ARSINOE3 -> existing PTOLEMY3 x BERENICE2 (existing brother PTOLEMY4); ADELAIDEIT -> new Rudolf II x Bertha of Swabia linking existing brother SPE_CONRADBURG; ELEANORPORT -> existing father DUARTE; HENRYSPEYER -> existing couple OTTOWORMS x OTTOWORMSW (existing brother Pope Gregory V GREGORYV). ALFONSOENRW identified as Juana de Mendoza. Jubilees/Genesis/Dudo/tradition figures flagged in-label. New nodes use SPK_ prefix. Web-standard references (Wikipedia, Josephus, scripture). Verified 2026-07-16.",
+ "families": [
+  {
+   "a": {
+    "id": "SPK_WILLIAMV_AQUIT",
+    "label": "👑 William V of Aquitaine 'the Great'<br/>969-1030 · Duke of Aquitaine · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_AGNES_BURGUNDY",
+    "label": "Agnes of Burgundy<br/>c.995-1068 · his 3rd wife; later Countess of Anjou · Wikipedia"
+   },
+   "children": [
+    "AGNESPOITOU",
+    {
+     "id": "SPK_WILLIAMVII_AQUIT",
+     "label": "👑 William VII of Aquitaine 'the Eagle'<br/>1023-1058 · Duke of Aquitaine · Wikipedia"
+    },
+    {
+     "id": "SPK_WILLIAMVIII_AQUIT",
+     "label": "👑 William VIII (Guy-Geoffrey)<br/>1025-1086 · Duke of Aquitaine · Wikipedia"
+    }
+   ],
+   "note": "William V & his 3rd wife Agnes of Burgundy -> Agnes the empress + full brothers William VII 'the Eagle' & William VIII. (Half-brothers William VI & Odo of Gascony, by earlier wives, excluded.) Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_BALDWINV_HAIN",
+    "label": "👑 Baldwin V of Hainault<br/>1150-1195 · Count of Hainault (Baldwin VIII of Flanders) · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_MARGARET_FLAN",
+    "label": "👑 Margaret I of Flanders<br/>1145-1194 · Countess of Flanders · Wikipedia"
+   },
+   "children": [
+    "ISABHAINAULT",
+    {
+     "id": "SPK_BALDWIN_CONST",
+     "label": "👑 Baldwin I of Constantinople<br/>1172-1205 · Count of Flanders &amp; first Latin Emperor · Wikipedia"
+    },
+    {
+     "id": "SPK_HENRY_CONST",
+     "label": "👑 Henry of Constantinople<br/>c.1174-1216 · Latin Emperor · Wikipedia"
+    },
+    {
+     "id": "SPK_YOLANDA_FLAN",
+     "label": "👑 Yolanda of Flanders<br/>c.1175-1219 · Latin Empress, regent · Wikipedia"
+    },
+    {
+     "id": "SPK_PHILIP_NAMUR",
+     "label": "Philip I of Namur<br/>c.1175-1212 · Marquis of Namur · Wikipedia"
+    }
+   ],
+   "note": "Baldwin V of Hainault & Margaret I of Flanders -> Isabella + full siblings Baldwin I & Henry (both Latin Emperors), Yolanda (Latin Empress), Philip I of Namur. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_CHARLESIII_NAV",
+    "label": "👑 Charles III of Navarre 'the Noble'<br/>1361-1425 · King of Navarre · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_ELEANOR_CAST",
+    "label": "👑 Eleanor of Castile<br/>c.1363-1416 · Queen of Navarre; daughter of Henry II of Castile · Wikipedia"
+   },
+   "children": [
+    "BLANCHENAV",
+    {
+     "id": "SPK_ISABELLA_NAV",
+     "label": "Isabella of Navarre<br/>1395-1450 · m. John IV, Count of Armagnac · Wikipedia"
+    }
+   ],
+   "note": "Charles III of Navarre & Eleanor of Castile -> Blanche I + sister Isabella (m. Count of Armagnac). Their other children (Joan, Maria, Margaret, Beatrice + sons) died young. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_STEPHENIII_BAV",
+    "label": "👑 Stephen III of Bavaria 'the Magnificent'<br/>c.1337-1413 · Duke of Bavaria-Ingolstadt · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_TADDEA_VISC",
+    "label": "Taddea Visconti<br/>c.1352-1381 · of the ruling house of Milan · Wikipedia"
+   },
+   "children": [
+    "ISABAV",
+    {
+     "id": "SPK_LOUISVII_BAV",
+     "label": "👑 Louis VII of Bavaria 'the Bearded'<br/>c.1368-1447 · Duke of Bavaria-Ingolstadt · Wikipedia"
+    }
+   ],
+   "note": "Stephen III of Bavaria-Ingolstadt & Taddea Visconti -> Isabeau + brother Louis VII 'the Bearded'. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_FADRIQUE_ALFONSO",
+    "label": "Fadrique Alfonso de Castilla<br/>1334-1358 · Lord of Haro, Master of Santiago; illegitimate son of Alfonso XI (existing) &amp; twin of Henry II · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_PALOMA",
+    "label": "Paloma<br/>c.1335 · TRADITIONALLY named as Alfonso's mother, a woman of Jewish descent — identity uncertain · tradition"
+   },
+   "children": [
+    "ALFONSOENR"
+   ],
+   "note": "Fadrique Alfonso (bastard son of Alfonso XI, already in tree) -> Alfonso Enriquez. Mother traditionally called Paloma (flagged, uncertain). Half-siblings by other mothers omitted. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_AVERARDO_MEDICI",
+    "label": "Averardo 'Bicci' de' Medici<br/>c.1320-1363 · Florentine; the 'Bicci' of his son's name · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_JACOPA_SPINI",
+    "label": "Jacopa Spini<br/>c.1330 · Florentine · Wikipedia"
+   },
+   "children": [
+    "GIOVANNIBICCI",
+    {
+     "id": "SPK_FRANCESCO_MEDICI",
+     "label": "Francesco de' Medici<br/>c.1350 · brother of Giovanni di Bicci · Wikipedia"
+    }
+   ],
+   "note": "Averardo 'Bicci' de' Medici & Jacopa Spini -> Giovanni di Bicci (Medici Bank founder) + brother Francesco. Wikipedia."
+  },
+  {
+   "a": "PTOLEMY3",
+   "b": "BERENICE2",
+   "children": [
+    "ARSINOE3",
+    "PTOLEMY4",
+    {
+     "id": "SPK_MAGAS_PTOL",
+     "label": "Magas<br/>d.c.221 BC · son of Ptolemy III; burned to death in a palace purge · Wikipedia"
+    },
+    {
+     "id": "SPK_ALEXANDER_PTOL",
+     "label": "Alexander<br/>3rd c. BC · son of Ptolemy III · Wikipedia"
+    },
+    {
+     "id": "SPK_BERENICE_PTOL",
+     "label": "Berenice<br/>c.239 BC · daughter of Ptolemy III; died in infancy, honoured in the Canopus Decree · Wikipedia"
+    }
+   ],
+   "note": "Appends Arsinoe III to the EXISTING union Ptolemy III Euergetes x Berenice II (already parents of Ptolemy IV, referenced as her brother) + further siblings Magas, Alexander, Berenice. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_SPITAMENES",
+    "label": "Spitamenes<br/>c.370-328 BC · Sogdian warlord who led the revolt against Alexander · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_SPITAMENES_W",
+    "label": "—"
+   },
+   "children": [
+    "APAMA"
+   ],
+   "note": "Apama, wife of Seleucus I, was the daughter of the Sogdian leader Spitamenes (Arrian/Wikipedia). Mother unrecorded."
+  },
+  {
+   "a": {
+    "id": "SPK_GEOFFREY_GATINAIS",
+    "label": "Geoffrey II, Count of Gatinais<br/>c.1000-1046 · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_ERMENGARDE_ANJOU",
+    "label": "Ermengarde of Anjou<br/>c.1018-1076 · daughter of Fulk III of Anjou · Wikipedia"
+   },
+   "children": [
+    "FULKIV",
+    {
+     "id": "SPK_GEOFFREYIII_ANJOU",
+     "label": "👑 Geoffrey III 'the Bearded'<br/>c.1040-1096 · Count of Anjou (deposed by Fulk IV) · Wikipedia"
+    }
+   ],
+   "note": "Geoffrey II of Gatinais & Ermengarde of Anjou -> Fulk IV 'le Rechin' + elder brother Geoffrey III 'the Bearded', Count of Anjou. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_RUDOLFII_BURG",
+    "label": "👑 Rudolf II of Burgundy<br/>c.880-937 · King of Upper Burgundy &amp; briefly of Italy · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_BERTHA_SWABIA",
+    "label": "Bertha of Swabia<br/>c.907-966 · Queen of Burgundy &amp; Italy · Wikipedia"
+   },
+   "children": [
+    "ADELAIDEIT",
+    "SPE_CONRADBURG"
+   ],
+   "note": "Rudolf II of Burgundy & Bertha of Swabia -> St Adelaide + brother Conrad I of Burgundy 'the Peaceful' (already in tree as SPE_CONRADBURG, linked here as sibling). Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_THORED",
+    "label": "Thored<br/>c.945-992 · Earl of Northumbria · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_THORED_W",
+    "label": "—"
+   },
+   "children": [
+    "AELF"
+   ],
+   "note": "Aelfgifu of York is generally identified as the daughter of Thored, Earl of Northumbria (Wikipedia; some uncertainty). Mother unrecorded."
+  },
+  {
+   "a": {
+    "id": "SPK_JOHN_SEYMOUR_SR",
+    "label": "John Seymour<br/>c.1450-1491 · of Wolf Hall, Wiltshire · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_ELIZ_DARELL",
+    "label": "Elizabeth Darell<br/>c.1455 · daughter of Sir George Darell of Littlecote · Wikipedia"
+   },
+   "children": [
+    "JOHNSEY"
+   ],
+   "note": "John Seymour of Wolf Hall (father of Queen Jane Seymour) was son of John Seymour & Elizabeth Darell. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_PHASAEL_II",
+    "label": "Phasael<br/>c.30 BC · son of Phasael, brother of Herod the Great · Josephus"
+   },
+   "b": {
+    "id": "SPK_SALAMPSIO",
+    "label": "Salampsio<br/>c.33 BC · daughter of Herod the Great &amp; Mariamne I · Josephus"
+   },
+   "children": [
+    "CYPROS",
+    {
+     "id": "SPK_ANTIPATER_PH",
+     "label": "Antipater<br/>1st c. · son of Phasael &amp; Salampsio · Josephus"
+    },
+    {
+     "id": "SPK_HEROD_PH",
+     "label": "Herod<br/>1st c. · son of Phasael &amp; Salampsio · Josephus"
+    },
+    {
+     "id": "SPK_ALEXANDER_PH",
+     "label": "Alexander<br/>1st c. · son of Phasael &amp; Salampsio · Josephus"
+    },
+    {
+     "id": "SPK_ALEXANDRA_PH",
+     "label": "Alexandra<br/>1st c. · daughter of Phasael &amp; Salampsio · Josephus"
+    }
+   ],
+   "note": "Phasael (Herod's nephew) & Salampsio (Herod's daughter) -> Cypros (wife of Herod Agrippa I) + siblings Antipater, Herod, Alexander, Alexandra. Josephus, Antiquities 18."
+  },
+  {
+   "a": {
+    "id": "SPK_PETERII_LUX",
+    "label": "Peter II of Luxembourg<br/>1435-1482 · Count of Saint-Pol, Brienne &amp; Conversano · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_MARGARET_SAVOY",
+    "label": "Margaret of Savoy<br/>c.1439-1483 · Countess of Saint-Pol · Wikipedia"
+   },
+   "children": [
+    "MARIELUX"
+   ],
+   "note": "Peter II of Luxembourg & Margaret of Savoy -> Marie of Luxembourg (heiress of Saint-Pol; her brother John died young). Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_GEORGE_DOUGLAS_MA",
+    "label": "George Douglas, Master of Angus<br/>c.1469-1513 · heir of Angus, killed at Flodden · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_ELIZ_DRUMMOND",
+    "label": "Elizabeth Drummond<br/>c.1470 · daughter of John Drummond, 1st Lord Drummond · Wikipedia"
+   },
+   "children": [
+    "ARCHDOUG",
+    {
+     "id": "SPK_GEORGE_DOUGLAS_PITT",
+     "label": "George Douglas of Pittendreich<br/>c.1490-1552 · father of Regent Morton · Wikipedia"
+    },
+    {
+     "id": "SPK_WILLIAM_DOUGLAS_GL",
+     "label": "William Douglas of Glenbervie<br/>c.1495 · brother of the 6th Earl · Wikipedia"
+    }
+   ],
+   "note": "George Douglas, Master of Angus & Elizabeth Drummond -> Archibald, 6th Earl of Angus + brothers George of Pittendreich & William of Glenbervie. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_JACOPO_ORSINI",
+    "label": "Jacopo Orsini<br/>c.1420 · Lord of Monterotondo &amp; Bracciano · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_MADDALENA_ORSINI",
+    "label": "Maddalena Orsini<br/>c.1425 · of the Orsini of Tagliacozzo · Wikipedia"
+   },
+   "children": [
+    "CLARICEORSINI",
+    {
+     "id": "SPK_RINALDO_ORSINI",
+     "label": "✝ Rinaldo Orsini<br/>c.1450-1510 · Archbishop of Florence · Wikipedia"
+    }
+   ],
+   "note": "Jacopo Orsini & Maddalena Orsini -> Clarice (wife of Lorenzo de' Medici) + brother Rinaldo, Archbishop of Florence. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_PEDRO_MENDOZA",
+    "label": "Pedro Gonzalez de Mendoza<br/>1340-1385 · Mayordomo mayor of Castile; died at Aljubarrota · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_ALDONZA_AYALA",
+    "label": "Aldonza Fernandez de Ayala<br/>c.1345 · Wikipedia"
+   },
+   "children": [
+    "ALFONSOENRW",
+    {
+     "id": "SPK_DIEGO_MENDOZA",
+     "label": "Diego Hurtado de Mendoza<br/>1365-1404 · Admiral of Castile · Wikipedia"
+    }
+   ],
+   "note": "Identifies the 'unnamed wife' of Alfonso Enriquez as Juana de Mendoza 'la Ricahembra', daughter of Pedro Gonzalez de Mendoza & Aldonza de Ayala; her brother was Admiral Diego Hurtado de Mendoza. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_PETERIV_ARAGON",
+    "label": "👑 Peter IV of Aragon 'the Ceremonious'<br/>1319-1387 · King of Aragon · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_ELEANOR_SICILY",
+    "label": "👑 Eleanor of Sicily<br/>c.1325-1375 · Queen of Aragon (his 3rd wife) · Wikipedia"
+   },
+   "children": [
+    "ELEANORARAGON",
+    {
+     "id": "SPK_JOHNI_ARAGON",
+     "label": "👑 John I of Aragon<br/>1350-1396 · King of Aragon · Wikipedia"
+    },
+    {
+     "id": "SPK_MARTINI_ARAGON",
+     "label": "👑 Martin I of Aragon 'the Humane'<br/>1356-1410 · King of Aragon · Wikipedia"
+    }
+   ],
+   "note": "Peter IV of Aragon & Eleanor of Sicily -> Eleanor (Queen of Castile) + brothers John I & Martin I of Aragon. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_UR_KESED",
+    "label": "Ur son of Kesed<br/>TRADITIONAL father of Reu's wife Ora · Jubilees 11:1 (non-canonical)"
+   },
+   "b": {
+    "id": "SPK_UR_KESED_W",
+    "label": "—"
+   },
+   "children": [
+    "REUW"
+   ],
+   "note": "The Book of Jubilees 11:1 names Reu's wife Ora as daughter of Ur son of Kesed. Traditional/apocryphal, flagged. Mother unrecorded."
+  },
+  {
+   "a": "DUARTE",
+   "b": {
+    "id": "SPK_ELEANOR_ARAGON2",
+    "label": "👑 Eleanor of Aragon<br/>1402-1445 · Queen of Portugal; daughter of Ferdinand I of Aragon · Wikipedia"
+   },
+   "children": [
+    "ELEANORPORT",
+    {
+     "id": "SPK_AFONSOV_PORT",
+     "label": "👑 Afonso V of Portugal 'the African'<br/>1432-1481 · King of Portugal · Wikipedia"
+    },
+    {
+     "id": "SPK_FERDINAND_VISEU",
+     "label": "Ferdinand, Duke of Viseu<br/>1433-1470 · Wikipedia"
+    }
+   ],
+   "note": "Attaches Eleanor of Portugal to her father Edward/Duarte I (already in tree) via a new mother Eleanor of Aragon (daughter of Ferdinand I of Aragon — DISTINCT from the tree's other Eleanor of Aragon). Full brothers: Afonso V & Ferdinand of Viseu. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_FRANCESCO_BALZO",
+    "label": "Francesco del Balzo<br/>d.1422 · Duke of Andria · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_SVEVA_ORSINI",
+    "label": "Sveva Orsini<br/>c.1370 · of the Roman Orsini · Wikipedia"
+   },
+   "children": [
+    "MARGBAUX"
+   ],
+   "note": "Margaret of Baux (des Baux), wife of Peter I of Luxembourg, was daughter of Francesco del Balzo, Duke of Andria, & Sveva Orsini. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_DIETRICH_WEST",
+    "label": "Dietrich (Theoderic)<br/>c.865 · Saxon count in Westphalia; of the line of Widukind · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_REINHILD",
+    "label": "Reinhild<br/>c.870 · of Danish-Frisian nobility · Wikipedia"
+   },
+   "children": [
+    "MATRING"
+   ],
+   "note": "St Matilda of Ringelheim was daughter of the Saxon count Dietrich & Reinhild (Widukind of Corvey; hagiography). Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_OTTOII_BAV",
+    "label": "👑 Otto II of Bavaria 'the Illustrious'<br/>1206-1253 · Duke of Bavaria &amp; Count Palatine of the Rhine · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_AGNES_PALATINE",
+    "label": "Agnes of the Palatinate<br/>1201-1267 · Welf heiress of the Rhenish Palatinate · Wikipedia"
+   },
+   "children": [
+    "ELISBAV",
+    {
+     "id": "SPK_LOUISII_BAV",
+     "label": "👑 Louis II 'the Strict'<br/>1229-1294 · Duke of Upper Bavaria &amp; Count Palatine · Wikipedia"
+    },
+    {
+     "id": "SPK_HENRYXIII_BAV",
+     "label": "👑 Henry XIII<br/>1235-1290 · Duke of Lower Bavaria · Wikipedia"
+    }
+   ],
+   "note": "Otto II of Bavaria & Agnes of the Palatinate -> Elisabeth (wife of Conrad IV, mother of Conradin) + brothers Louis II 'the Strict' & Henry XIII. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_MANUELI_PORT",
+    "label": "👑 Manuel I of Portugal 'the Fortunate'<br/>1469-1521 · King of Portugal · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_MARIA_ARAGON",
+    "label": "Maria of Aragon<br/>1482-1517 · Queen of Portugal; daughter of Ferdinand &amp; Isabella · Wikipedia"
+   },
+   "children": [
+    "ISABPORTUGAL3",
+    {
+     "id": "SPK_JOHNIII_PORT",
+     "label": "👑 John III of Portugal<br/>1502-1557 · King of Portugal · Wikipedia"
+    },
+    {
+     "id": "SPK_HENRYI_PORT",
+     "label": "👑 Henry I of Portugal<br/>1512-1580 · the Cardinal-King · Wikipedia"
+    },
+    {
+     "id": "SPK_LUIS_BEJA",
+     "label": "Luis, Duke of Beja<br/>1506-1555 · Wikipedia"
+    },
+    {
+     "id": "SPK_BEATRICE_PORT",
+     "label": "Beatrice of Portugal<br/>1504-1538 · Duchess of Savoy · Wikipedia"
+    }
+   ],
+   "note": "Manuel I of Portugal & his 2nd wife Maria of Aragon -> Isabella (Empress, wife of Charles V) + full siblings John III, Henry I (Cardinal-King), Luis of Beja, Beatrice (Duchess of Savoy). Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_ALFONSO_MOLINA",
+    "label": "Alfonso de Molina<br/>1202-1272 · Infante of Leon, son of Alfonso IX; Lord of Molina · Wikipedia"
+   },
+   "b": {
+    "id": "SPK_MAYOR_MENESES",
+    "label": "Mayor Alfonso Tellez de Meneses<br/>c.1225-1272 · his 3rd wife · Wikipedia"
+   },
+   "children": [
+    "MARIAMOLINA"
+   ],
+   "note": "Maria de Molina was daughter of the Infante Alfonso de Molina (son of Alfonso IX of Leon) & Mayor Alfonso de Meneses. Half-siblings by his other marriages omitted. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "SPK_BERENGAR_BAYEUX",
+    "label": "Berengar, Count of Bayeux<br/>fl. c.885 · TRADITIONAL father of Poppa, per Dudo of Saint-Quentin; semi-legendary · Dudo"
+   },
+   "b": {
+    "id": "SPK_BERENGAR_BAYEUX_W",
+    "label": "—"
+   },
+   "children": [
+    "POPPA"
+   ],
+   "note": "Dudo of Saint-Quentin names Poppa as daughter of Berengar, count of Bayeux — traditional and semi-legendary, flagged. Mother unrecorded."
+  },
+  {
+   "a": {
+    "id": "SPK_SHUA_CANAAN",
+    "label": "Shua<br/>a Canaanite; father of Judah's first wife · Genesis 38:2 ('bath-shua' = daughter of Shua)"
+   },
+   "b": {
+    "id": "SPK_SHUA_W",
+    "label": "—"
+   },
+   "children": [
+    "BATHSHUA"
+   ],
+   "note": "Genesis 38:2 names Judah's Canaanite wife as the daughter of Shua. Mother unrecorded."
+  },
+  {
+   "a": {
+    "id": "SPK_KESED_JUB",
+    "label": "Kesed<br/>TRADITIONAL father of Shelah's wife Muak; eponym of the Chaldeans · Jubilees 8:6 (non-canonical)"
+   },
+   "b": {
+    "id": "SPK_KESED_JUB_W",
+    "label": "—"
+   },
+   "children": [
+    "SHELAHW"
+   ],
+   "note": "The Book of Jubilees 8:6 names Shelah's wife Muak as daughter of Kesed. Traditional/apocryphal, flagged. Mother unrecorded."
+  },
+  {
+   "a": {
+    "id": "SPK_SUSAN_JUB",
+    "label": "Susan son of Elam<br/>TRADITIONAL father of Arphaxad's wife Rasueja · Jubilees 8:1 (non-canonical)"
+   },
+   "b": {
+    "id": "SPK_SUSAN_JUB_W",
+    "label": "—"
+   },
+   "children": [
+    "ARPHAXADW"
+   ],
+   "note": "The Book of Jubilees 8:1 names Arphaxad's wife Rasueja as daughter of Susan, son of Elam. Traditional/apocryphal, flagged. Mother unrecorded."
+  },
+  {
+   "a": "OTTOWORMS",
+   "b": "OTTOWORMSW",
+   "children": [
+    "HENRYSPEYER",
+    {
+     "id": "SPK_CONRADI_CAR",
+     "label": "👑 Conrad I, Duke of Carinthia<br/>c.975-1011 · Wikipedia"
+    },
+    {
+     "id": "SPK_WILLIAM_STRAS",
+     "label": "✝ William, Bishop of Strasbourg<br/>c.980-1047 · Wikipedia"
+    }
+   ],
+   "note": "Appends Henry of Speyer (father of Emperor Conrad II) to the EXISTING union Otto of Worms x his wife (already parents of Pope Gregory V, referenced as sibling) + brothers Conrad I of Carinthia & William, Bishop of Strasbourg. Wikipedia."
+  }
+ ]
+}

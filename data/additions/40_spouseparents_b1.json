@@ -1,0 +1,198 @@
+{
+ "_note": "SPOUSE-PARENTS batch b_1000BC_0_1: documented parents (and full siblings where sourced) for married-in spouses that had NO parents. Verified against the existing tree so no node is double-parented; every child listed here was confirmed a root before writing. Existing-id references: JORAM (King Joram of Judah, father of Jehosheba), PER_ARTAXERXES1 (father of Parysatis, restated with new spouse Andia to append her), MAC_PHILIP_ANTIGONE + BERENICE1 (parents of Magas, restated to append him beside their existing daughter Antigone). One consolidated union: the regent Antipater (SPB_ANTIPATER) fathers three batch spouses — Cassander, Phila, Eurydice. New nodes use the SPB_ prefix. Placeholder unknown mothers/fathers are '—'. Skipped (no documented parents): QUEEN_SHEBA, SOLOMON_FOREIGN_WIVES, JEHOIADA, HEPHZIBAH, GRK_EXAMYES, GRK_CLEOBULINE, GRK_MNESARCHUS, GRK_PYTHAIS, ATT_ATTALUS_TIUM, MAC_PHILINNA, MAC_NICESIPOLIS, ATT_BOA, GRK_PYTHIAS_ELDER (adopted; birth parents unknown), PER_STATEIRA1 (parentage disputed), MAC_PHILIP_ANTIGONE (own parents unknown), MAC_CHRYSEIS (identity/parentage disputed), MAC_AUDATA (father unnamed). Sources: 2 Kings/2 Chron for biblical fathers; Herodotus, Ctesias (via Photius), Plutarch, Diogenes Laertius, Appian, Justin for the classical figures. Web/text-verified 2026-07-16.",
+ "families": [
+
+  {
+   "a": "JORAM",
+   "b": {"id": "SPB_JEHOSHEBA_MOTHER", "label": "—"},
+   "children": ["JEHOSHEBA"],
+   "note": "2 Chron 22:11 / 2 Kings 11:2 — Jehosheba 'daughter of the king' Joram; mother unrecorded (tradition holds she was not Athaliah's daughter, since she saved Joash from Athaliah's purge)"
+  },
+
+  {
+   "a": {"id": "SPB_ZADOK_JERUSHA", "label": "Zadok<br/>c.820 BC · of Judah; father of Jerusha the queen of Uzziah · 2 Kings 15:33, 2 Chron 27:1"},
+   "b": {"id": "SPB_ZADOK_JERUSHA_W", "label": "—"},
+   "children": ["JERUSHA"],
+   "note": "2 Kings 15:33 — Jerusha daughter of Zadok"
+  },
+
+  {
+   "a": {"id": "SPB_ZECHARIAH_ABIJAH", "label": "Zechariah<br/>c.785 BC · of Judah; father of Abijah the mother of King Hezekiah · 2 Chron 29:1"},
+   "b": {"id": "SPB_ZECHARIAH_ABIJAH_W", "label": "—"},
+   "children": ["ABIJAHJUDAH"],
+   "note": "2 Chron 29:1 / 2 Kings 18:2 — Abi(jah) daughter of Zechariah"
+  },
+
+  {
+   "a": {"id": "SPB_HARUZ", "label": "Haruz of Jotbah<br/>c.725 BC · of Jotbah in Judah; father of Meshullemeth the queen of Manasseh · 2 Kings 21:19"},
+   "b": {"id": "SPB_HARUZ_W", "label": "—"},
+   "children": ["MESHULLEMETH"],
+   "note": "2 Kings 21:19 — Meshullemeth daughter of Haruz of Jotbah"
+  },
+
+  {
+   "a": {"id": "SPB_ADAIAH_BOZKATH", "label": "Adaiah of Bozkath<br/>c.675 BC · of Bozkath in Judah; father of Jedidah the mother of King Josiah · 2 Kings 22:1"},
+   "b": {"id": "SPB_ADAIAH_BOZKATH_W", "label": "—"},
+   "children": ["JEDIDAH"],
+   "note": "2 Kings 22:1 — Jedidah daughter of Adaiah of Bozkath"
+  },
+
+  {
+   "a": {"id": "SPB_JEREMIAH_LIBNAH", "label": "Jeremiah of Libnah<br/>c.655 BC · of Libnah in Judah (not the prophet); father of Hamutal, wife of Josiah &amp; mother of two kings · 2 Kings 23:31, 24:18"},
+   "b": {"id": "SPB_JEREMIAH_LIBNAH_W", "label": "—"},
+   "children": ["HAMUTAL"],
+   "note": "2 Kings 23:31 &amp; 24:18 — Hamutal daughter of Jeremiah of Libnah"
+  },
+
+  {
+   "a": {"id": "SPB_PEDAIAH_RUMAH", "label": "Pedaiah of Rumah<br/>c.655 BC · of Rumah; father of Zebidah, a wife of Josiah &amp; mother of King Jehoiakim · 2 Kings 23:36"},
+   "b": {"id": "SPB_PEDAIAH_RUMAH_W", "label": "—"},
+   "children": ["ZEBIDAH"],
+   "note": "2 Kings 23:36 — Zebidah daughter of Pedaiah of Rumah"
+  },
+
+  {
+   "a": {"id": "SPB_CIMON_COALEMOS", "label": "Cimon Coalemos<br/>c.575 BC · Athenian of the Philaid house, thrice Olympic chariot-victor; father of Miltiades the Younger · Herodotus 6.103"},
+   "b": {"id": "SPB_CIMON_COALEMOS_W", "label": "—"},
+   "children": [
+    "GRK_MILTIADES",
+    {"id": "SPB_STESAGORAS", "label": "Stesagoras<br/>c.555 BC · Philaid; elder brother of Miltiades the Younger, ruled the Thracian Chersonese before him · Herodotus 6.38-39"}
+   ],
+   "note": "Herodotus 6.34-39, 103 — Miltiades &amp; Stesagoras sons of Cimon Coalemos"
+  },
+
+  {
+   "a": {"id": "SPB_OLORUS", "label": "Olorus<br/>c.570 BC · Thracian king; father of Hegesipyle, whose line ran to the historian Thucydides · Herodotus 6.39, Thucydides 4.104"},
+   "b": {"id": "SPB_OLORUS_W", "label": "—"},
+   "children": ["GRK_HEGESIPYLE"],
+   "note": "Herodotus 6.39 — Hegesipyle daughter of the Thracian king Olorus"
+  },
+
+  {
+   "a": {"id": "SPB_ARIPHRON", "label": "Ariphron<br/>c.555 BC · Athenian of the deme Cholargos; father of the statesman Xanthippus · Herodotus 6.131, 7.33"},
+   "b": {"id": "SPB_ARIPHRON_W", "label": "—"},
+   "children": ["GRK_XANTHIPPUS"],
+   "note": "Herodotus 6.131 — Xanthippus son of Ariphron"
+  },
+
+  {
+   "a": {"id": "SPB_OTANES_PER", "label": "Otanes<br/>c.550 BC · Persian noble; father of Queen Amestris, wife of Xerxes I · Herodotus 7.61"},
+   "b": {"id": "SPB_OTANES_PER_W", "label": "—"},
+   "children": ["PER_AMESTRIS"],
+   "note": "Herodotus 7.61 — Amestris daughter of Otanes"
+  },
+
+  {
+   "a": {"id": "SPB_ALCIBIADES_ELDER", "label": "Alcibiades the elder<br/>c.510 BC · Athenian of the Salaminioi; father of Cleinias &amp; grandfather of the famous Alcibiades · Isocrates 16, Andocides 4"},
+   "b": {"id": "SPB_ALCIBIADES_ELDER_W", "label": "—"},
+   "children": ["GRK_CLEINIAS"],
+   "note": "Cleinias son of Alcibiades (the elder), of the recurring Athenian name-line"
+  },
+
+  {
+   "a": "PER_ARTAXERXES1",
+   "b": {"id": "SPB_ANDIA", "label": "Andia of Babylon<br/>c.490 BC · a Babylonian consort of Artaxerxes I; mother of Parysatis · Ctesias (Persica, via Photius)"},
+   "children": ["PER_PARYSATIS"],
+   "note": "Ctesias — Parysatis daughter of Artaxerxes I by the Babylonian Andia; existing Artaxerxes restated to append her"
+  },
+
+  {
+   "a": {"id": "SPB_AXIOCHUS_MILETUS", "label": "Axiochus<br/>c.500 BC · of Miletus; father of Aspasia, the partner of Pericles · Plutarch, Pericles 24"},
+   "b": {"id": "SPB_AXIOCHUS_MILETUS_W", "label": "—"},
+   "children": ["GRK_ASPASIA"],
+   "note": "Plutarch, Pericles 24 — Aspasia daughter of Axiochus of Miletus"
+  },
+
+  {
+   "a": {"id": "SPB_ARISTOCLES_ATH", "label": "Aristocles<br/>c.490 BC · Athenian; father of Ariston, the father of Plato; the family claimed descent from King Codrus · legendary pedigree · Diogenes Laertius 3.1"},
+   "b": {"id": "SPB_ARISTOCLES_ATH_W", "label": "—"},
+   "children": ["GRK_ARISTON"],
+   "note": "Diogenes Laertius 3.1 — Ariston son of Aristocles; Codrus descent legendary (flagged)"
+  },
+
+  {
+   "a": {"id": "SPB_GLAUCON_ATH", "label": "Glaucon<br/>c.485 BC · Athenian of the house of Dropides &amp; Solon; father of Perictione (mother of Plato) &amp; of Charmides · Diogenes Laertius 3.1, Plato Charmides"},
+   "b": {"id": "SPB_GLAUCON_ATH_W", "label": "—"},
+   "children": [
+    "GRK_PERICTIONE",
+    {"id": "SPB_CHARMIDES", "label": "Charmides<br/>c.450 BC · Athenian, brother of Perictione &amp; uncle of Plato; one of the Thirty Tyrants, fell at Piraeus 403 BC · Plato Charmides, Xenophon Hellenica 2.4"}
+   ],
+   "note": "Diogenes Laertius 3.1 — Perictione &amp; Charmides children of Glaucon"
+  },
+
+  {
+   "a": {"id": "SPB_NICOMACHUS_STA", "label": "Nicomachus<br/>c.415 BC · of Stagira; physician to King Amyntas III of Macedon &amp; father of Aristotle · Diogenes Laertius 5.1"},
+   "b": {"id": "SPB_PHAESTIS", "label": "Phaestis<br/>c.410 BC · of Chalcis; wife of Nicomachus &amp; mother of Aristotle · Diogenes Laertius 5.1"},
+   "children": [
+    "GRK_ARISTOTLE",
+    {"id": "SPB_ARIMNESTE", "label": "Arimneste<br/>c.382 BC · sister of Aristotle · Diogenes Laertius 5.1, Sextus Empiricus"},
+    {"id": "SPB_ARIMNESTUS", "label": "Arimnestus<br/>c.380 BC · brother of Aristotle · Diogenes Laertius 5.1"}
+   ],
+   "note": "Diogenes Laertius 5.1 — Aristotle son of Nicomachus &amp; Phaestis; siblings Arimneste &amp; Arimnestus"
+  },
+
+  {
+   "a": {"id": "SPB_CORRHAGUS", "label": "Corrhagus<br/>c.390 BC · Macedonian noble; father of Stratonice, wife of Antigonus I Monophthalmus · attested via her patronymic"},
+   "b": {"id": "SPB_CORRHAGUS_W", "label": "—"},
+   "children": ["MAC_STRATONICE1"],
+   "note": "Stratonice daughter of Corrhagus"
+  },
+
+  {
+   "a": {"id": "SPB_MENON_PHARSALUS", "label": "Menon of Pharsalus<br/>c.385 BC · Thessalian commander of Pharsalus; father of Phthia, wife of Aeacides of Epirus · Plutarch, Pyrrhus 1"},
+   "b": {"id": "SPB_MENON_PHARSALUS_W", "label": "—"},
+   "children": ["MAC_PHTHIA_EP"],
+   "note": "Plutarch, Pyrrhus 1 — Phthia daughter of Menon of Pharsalus"
+  },
+
+  {
+   "a": {"id": "SPB_ANTIPATER", "label": "Antipater<br/>c.397 BC · Macedonian general &amp; regent of Macedon under Philip II &amp; Alexander; left in charge of Europe during the Persian campaign · father of Cassander, Phila, Eurydice &amp; others · historical (Diodorus, Plutarch)"},
+   "b": {"id": "SPB_ANTIPATER_W", "label": "—"},
+   "children": ["MAC_CASSANDER", "MAC_PHILA1", "MAC_EURYDICE_PTOL"],
+   "note": "Diodorus/Plutarch — Cassander, Phila &amp; Eurydice all documented children of the regent Antipater"
+  },
+
+  {
+   "a": {"id": "SPB_PHILIP_ELIMEIA", "label": "Philip<br/>c.410 BC · Macedonian noble of Elimeia; father of Antigonus I Monophthalmus · historical"},
+   "b": {"id": "SPB_PHILIP_ELIMEIA_W", "label": "—"},
+   "children": ["MAC_ANTIGONUS1"],
+   "note": "Antigonus I son of Philip (of Elimeia)"
+  },
+
+  {
+   "a": {"id": "SPB_ACHAEUS_ELDER", "label": "Achaeus<br/>c.330 BC · Anatolian dynast of the Seleucid house; father of Antiochis (mother of Attalus I) &amp; of Laodice · per tradition · Strabo 13.4"},
+   "b": {"id": "SPB_ACHAEUS_ELDER_W", "label": "—"},
+   "children": ["ATT_ANTIOCHIS"],
+   "note": "Antiochis, mother of Attalus I, held to be daughter of Achaeus the elder — Seleucid descent (flagged per tradition)"
+  },
+
+  {
+   "a": {"id": "SPB_AGATHOCLES_PELLA", "label": "Agathocles<br/>c.390 BC · a Thessalian settled at Pella in Macedon; father of Lysimachus the Diadochus · historical"},
+   "b": {"id": "SPB_AGATHOCLES_PELLA_W", "label": "—"},
+   "children": ["MAC_LYSIMACHUS"],
+   "note": "Lysimachus son of Agathocles of Pella"
+  },
+
+  {
+   "a": {"id": "SPB_ANTIOCHUS_GEN", "label": "Antiochus<br/>c.390 BC · a general of Philip II of Macedon; father of Seleucus I Nicator · Appian, Syriaca 57; Justin 15.4"},
+   "b": {"id": "SPB_LAODICE_SEL", "label": "Laodice<br/>c.385 BC · wife of the general Antiochus &amp; mother of Seleucus I Nicator · Appian, Syriaca 57"},
+   "children": ["SELEUCUS1"],
+   "note": "Appian/Justin — Seleucus I son of Antiochus &amp; Laodice"
+  },
+
+  {
+   "a": {"id": "SPB_POLYCLEITUS_LAR", "label": "Polycleitus of Larissa<br/>c.295 BC · Thessalian noble of Larissa; father of Olympias, wife of Demetrius the Fair · historical"},
+   "b": {"id": "SPB_POLYCLEITUS_LAR_W", "label": "—"},
+   "children": ["MAC_OLYMPIAS_LARISSA"],
+   "note": "Olympias daughter of Polycleitus of Larissa"
+  },
+
+  {
+   "a": "MAC_PHILIP_ANTIGONE",
+   "b": "BERENICE1",
+   "children": ["MAGAS"],
+   "note": "Magas of Cyrene son of Berenice I by her first husband Philip, hence stepson of Ptolemy I; existing pair restated to append him beside their daughter Antigone"
+  }
+
+ ]
+}

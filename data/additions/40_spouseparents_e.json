@@ -1,0 +1,157 @@
+{
+  "_note": "Documented parents (and full/notable siblings) for 15 married-in spouses (1400-1750) that had no parents shown: Richard Woodville, Margaret Beauchamp of Bletsoe, Richard Duke of York, Pope Alexander VI, Anne of Denmark, Frederick V, Henrietta Maria, William II of Orange, Ernest Augustus of Hanover, Anne Hyde, Catherine of Braganza, George of Denmark, Mary of Modena, Sophia Dorothea of Celle, Caroline of Ansbach. Existing spouse referenced by id string; new parents/siblings are SPF_ nodes. Cross-links: George William of Celle (SPF_GEORGEWMCELLE) and Sophie Amalie (SPF_SOPHIEAMALIE) are siblings of Ernest Augustus AND, respectively, father of Sophia Dorothea and mother of George of Denmark, so they are defined once in the Ernest Augustus family and referenced by string elsewhere. 👑 = regnant sovereigns only (consorts get no crown, per house style). Sourced to Wikipedia/standard references.",
+  "families": [
+    {
+      "note": "Richard Woodville, 1st Earl Rivers -> father Richard Wydeville the elder & mother Joan Bittlesgate; no siblings documented",
+      "a": {"id": "SPF_RICHWYDEVILLE", "label": "Richard Wydeville<br/>d.1441 · esquire; chamberlain to the Duke of Bedford · Wikipedia"},
+      "b": {"id": "SPF_JOANBITTLESGATE", "label": "Joan Bittlesgate<br/>fl.1400s · dau. &amp; heiress of Thomas Bittlesgate of Knightstone, Devon · Wikipedia"},
+      "children": ["RW"]
+    },
+    {
+      "note": "Margaret Beauchamp of Bletsoe -> John Beauchamp 3rd Baron Beauchamp of Bletsoe & Edith Stourton; brother John d. young (she became his heiress 1421)",
+      "a": {"id": "SPF_JOHNBEAUCHBLETSO", "label": "John Beauchamp<br/>c.1384-1412 · 3rd Baron Beauchamp of Bletsoe · Wikipedia"},
+      "b": {"id": "SPF_EDITHSTOURTON", "label": "Edith Stourton<br/>fl.1400s · dau. of Sir John Stourton of Stourton, Wiltshire · Wikipedia"},
+      "children": [
+        "MBE",
+        {"id": "SPF_JOHNBEAUCHJR", "label": "John Beauchamp<br/>d. young, unmarried · Margaret's brother; she became his heiress 1421 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Richard, 3rd Duke of York -> Richard of Conisburgh (3rd Earl of Cambridge) & Anne de Mortimer; sister Isabel of Cambridge",
+      "a": {"id": "SPF_RICHCONISBURGH", "label": "Richard of Conisburgh<br/>1385-1415 · 3rd Earl of Cambridge; executed for the Southampton Plot · Wikipedia"},
+      "b": {"id": "SPF_ANNEMORTIMER", "label": "Anne de Mortimer<br/>1388-1411 · heiress transmitting the senior Yorkist claim · Wikipedia"},
+      "children": [
+        "RY",
+        {"id": "SPF_ISABELCAMBRIDGE", "label": "Isabel of Cambridge<br/>c.1409-1484 · m. Henry Bourchier, Earl of Essex · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Pope Alexander VI (Rodrigo Borgia) -> Jofré Llançol i Escrivà & Isabel de Borja; brother Pedro. Paternal lineage debated (Llançol vs Borja)",
+      "a": {"id": "SPF_JOFREBORJA", "label": "Jofré Llançol i Escrivà<br/>d.c.1437 · Aragonese nobleman; paternal lineage debated (Llançol vs Borja) · Wikipedia"},
+      "b": {"id": "SPF_ISABELBORJA", "label": "Isabel de Borja<br/>d.1468 · sister of Pope Callixtus III; Rodrigo took the Borgia name from her line · Wikipedia"},
+      "children": [
+        "ALEXVI",
+        {"id": "SPF_PEDROBORJA", "label": "Pedro Llançol de Borja<br/>fl.1400s · younger brother of Rodrigo · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Anne of Denmark -> Frederick II of Denmark & Sophie of Mecklenburg-Güstrow; full siblings incl. Christian IV",
+      "a": {"id": "SPF_FREDERICKIIDEN", "label": "👑 Frederick II of Denmark<br/>1534-1588 · King of Denmark &amp; Norway · Wikipedia"},
+      "b": {"id": "SPF_SOPHIEMECK", "label": "Sophie of Mecklenburg-Güstrow<br/>1557-1631 · Queen consort of Denmark · Wikipedia"},
+      "children": [
+        "ST_ANNEDENMARK",
+        {"id": "SPF_ELIZDENMARK", "label": "Elizabeth of Denmark<br/>1573-1626 · m. Henry Julius, Duke of Brunswick-Wolfenbüttel · Wikipedia"},
+        {"id": "SPF_CHRISTIANIV", "label": "👑 Christian IV<br/>1577-1648 · King of Denmark &amp; Norway · Wikipedia"},
+        {"id": "SPF_ULRIKDENMARK", "label": "Ulrik of Denmark<br/>1578-1624 · Prince-Bishop of Schwerin · Wikipedia"},
+        {"id": "SPF_AUGUSTADEN", "label": "Augusta of Denmark<br/>1580-1639 · m. John Adolf, Duke of Holstein-Gottorp · Wikipedia"},
+        {"id": "SPF_HEDWIGDEN", "label": "Hedwig of Denmark<br/>1581-1641 · m. Christian II, Elector of Saxony · Wikipedia"},
+        {"id": "SPF_JOHNDENMARK", "label": "John of Denmark<br/>1583-1602 · died young · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Frederick V, Elector Palatine -> Frederick IV & Louise Juliana of Nassau (dau. of William the Silent); siblings incl. Elizabeth Charlotte (mother of the Great Elector)",
+      "a": {"id": "SPF_FREDERICKIVPAL", "label": "Frederick IV, Elector Palatine<br/>1574-1610 · founder of the Protestant Union · Wikipedia"},
+      "b": {"id": "SPF_LOUISEJULIANANAS", "label": "Louise Juliana of Nassau<br/>1576-1644 · dau. of William the Silent · Wikipedia"},
+      "children": [
+        "HN_FREDERICKV",
+        {"id": "SPF_LOUISEJULPAL", "label": "Louise Juliana of the Palatinate<br/>1594-1640 · Wikipedia"},
+        {"id": "SPF_CATHSOPHPAL", "label": "Catharine Sophie of the Palatinate<br/>1595-1626 · Wikipedia"},
+        {"id": "SPF_ELIZCHARPAL", "label": "Elizabeth Charlotte of the Palatinate<br/>1597-1660 · m. George William, Elector of Brandenburg; mother of Frederick William the Great Elector · Wikipedia"},
+        {"id": "SPF_LUDPHILPPAL", "label": "Ludwig Philipp of the Palatinate<br/>1602-1655 · Count Palatine of Simmern-Kaiserslautern · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Henrietta Maria of France -> Henri IV & Marie de' Medici; full siblings incl. Louis XIII",
+      "a": {"id": "SPF_HENRIIV", "label": "👑 Henri IV of France<br/>1553-1610 · first Bourbon king; Edict of Nantes · Wikipedia"},
+      "b": {"id": "SPF_MARIEMEDICI", "label": "Marie de' Medici<br/>1575-1642 · Queen consort; regent for Louis XIII · Wikipedia"},
+      "children": [
+        "ST_HENRIETTAMARIA",
+        {"id": "SPF_LOUISXIII", "label": "👑 Louis XIII<br/>1601-1643 · King of France · Wikipedia"},
+        {"id": "SPF_ELISBOURBON", "label": "Elisabeth of France<br/>1602-1644 · m. Philip IV of Spain · Wikipedia"},
+        {"id": "SPF_CHRISTMARIE", "label": "Christine Marie of France<br/>1606-1663 · m. Victor Amadeus I of Savoy · Wikipedia"},
+        {"id": "SPF_NICOLASHENRI", "label": "Nicolas Henri of France<br/>1607-1611 · Duke of Orléans; died young · Wikipedia"},
+        {"id": "SPF_GASTONORLEANS", "label": "Gaston, Duke of Orléans<br/>1608-1660 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "William II, Prince of Orange -> Frederick Henry (son of William the Silent) & Amalia of Solms-Braunfels; sisters incl. Louise Henriette (m. the Great Elector)",
+      "a": {"id": "SPF_FREDHENRYORANGE", "label": "Frederick Henry, Prince of Orange<br/>1584-1647 · Stadtholder; son of William the Silent · Wikipedia"},
+      "b": {"id": "SPF_AMALIASOLMS", "label": "Amalia of Solms-Braunfels<br/>1602-1675 · Princess consort of Orange · Wikipedia"},
+      "children": [
+        "ST_WILLIAMIIORANGE",
+        {"id": "SPF_LOUISEHENRIETTE", "label": "Louise Henriette of Orange<br/>1627-1667 · m. Frederick William, the Great Elector of Brandenburg · Wikipedia"},
+        {"id": "SPF_ALBERTINEAGNES", "label": "Albertine Agnes of Orange<br/>1634-1696 · m. William Frederick of Nassau-Dietz · Wikipedia"},
+        {"id": "SPF_HENRIETTECATH", "label": "Henriette Catharina of Orange<br/>1637-1708 · m. John George II, Prince of Anhalt-Dessau · Wikipedia"},
+        {"id": "SPF_MARIAORANGE", "label": "Maria of Orange<br/>1642-1688 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Ernest Augustus, Elector of Hanover -> George, Duke of Brunswick-Lüneburg & Anne Eleonore of Hesse-Darmstadt. Siblings George William (father of Sophia Dorothea) and Sophie Amalie (mother of George of Denmark) are DEFINED HERE and reused by string below.",
+      "a": {"id": "SPF_GEORGEBRUNS", "label": "George, Duke of Brunswick-Lüneburg<br/>1582-1641 · Prince of Calenberg · Wikipedia"},
+      "b": {"id": "SPF_ANNEELEONHESSE", "label": "Anne Eleonore of Hesse-Darmstadt<br/>1601-1659 · Duchess of Brunswick-Lüneburg · Wikipedia"},
+      "children": [
+        "HN_ERNESTAUG",
+        {"id": "SPF_CHRISTIANLOUIS", "label": "Christian Louis, Duke of Brunswick-Lüneburg<br/>1622-1665 · Wikipedia"},
+        {"id": "SPF_GEORGEWMCELLE", "label": "George William, Duke of Brunswick-Lüneburg<br/>1624-1705 · Duke of Celle; father of Sophia Dorothea · Wikipedia"},
+        {"id": "SPF_JOHNFREDBL", "label": "John Frederick, Duke of Brunswick-Lüneburg<br/>1625-1679 · Wikipedia"},
+        {"id": "SPF_SOPHIEAMALIE", "label": "Sophie Amalie of Brunswick-Lüneburg<br/>1628-1685 · m. Frederick III of Denmark; Queen of Denmark · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Anne Hyde -> Edward Hyde, 1st Earl of Clarendon & Frances Aylesbury; notable brothers Henry (2nd Earl of Clarendon) and Laurence (1st Earl of Rochester)",
+      "a": {"id": "SPF_EDWARDHYDE", "label": "Edward Hyde<br/>1609-1674 · 1st Earl of Clarendon; Lord Chancellor · Wikipedia"},
+      "b": {"id": "SPF_FRANCESAYLESBURY", "label": "Frances Aylesbury<br/>1617-1667 · dau. of Sir Thomas Aylesbury, 1st Baronet · Wikipedia"},
+      "children": [
+        "ST_ANNEHYDE",
+        {"id": "SPF_HENRYHYDE", "label": "Henry Hyde<br/>1638-1709 · 2nd Earl of Clarendon · Wikipedia"},
+        {"id": "SPF_LAURENCEHYDE", "label": "Laurence Hyde<br/>1642-1711 · 1st Earl of Rochester · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Catherine of Braganza -> John IV of Portugal & Luisa de Guzmán; siblings incl. Afonso VI and Pedro II",
+      "a": {"id": "SPF_JOHNIVPORT", "label": "👑 John IV of Portugal<br/>1604-1656 · first Braganza king; restored Portuguese independence · Wikipedia"},
+      "b": {"id": "SPF_LUISAGUZMAN", "label": "Luisa de Guzmán<br/>1613-1666 · Queen consort; regent of Portugal · Wikipedia"},
+      "children": [
+        "ST_CATHERINE",
+        {"id": "SPF_TEODOSIOPORT", "label": "Teodósio, Prince of Brazil<br/>1634-1653 · heir who predeceased his father · Wikipedia"},
+        {"id": "SPF_JOANAPORT", "label": "Joana of Portugal<br/>1636-1653 · Wikipedia"},
+        {"id": "SPF_AFONSOVI", "label": "👑 Afonso VI of Portugal<br/>1643-1683 · King of Portugal · Wikipedia"},
+        {"id": "SPF_PEDROII", "label": "👑 Pedro II of Portugal<br/>1648-1706 · King of Portugal · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Prince George of Denmark -> Frederick III of Denmark & Sophie Amalie of Brunswick-Lüneburg (SPF_SOPHIEAMALIE defined in the Ernest Augustus family, referenced by string); siblings Christian V and Ulrike Eleonora",
+      "a": {"id": "SPF_FREDERICKIIIDEN", "label": "👑 Frederick III of Denmark<br/>1609-1670 · King of Denmark &amp; Norway; established absolutism · Wikipedia"},
+      "b": "SPF_SOPHIEAMALIE",
+      "children": [
+        "ST_GEORGEDENMARK",
+        {"id": "SPF_CHRISTIANVDEN", "label": "👑 Christian V of Denmark<br/>1646-1699 · King of Denmark &amp; Norway · Wikipedia"},
+        {"id": "SPF_ULRIKEELEONORA", "label": "Ulrike Eleonora of Denmark<br/>1656-1693 · m. Charles XI of Sweden; Queen of Sweden · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Mary of Modena -> Alfonso IV d'Este & Laura Martinozzi (niece of Cardinal Mazarin); brother Francesco II",
+      "a": {"id": "SPF_ALFONSOIVESTE", "label": "Alfonso IV d'Este<br/>1634-1662 · Duke of Modena · Wikipedia"},
+      "b": {"id": "SPF_LAURAMARTINOZZI", "label": "Laura Martinozzi<br/>1639-1687 · niece of Cardinal Mazarin; regent of Modena · Wikipedia"},
+      "children": [
+        "ST_MARYMODENA",
+        {"id": "SPF_FRANCESCOIIESTE", "label": "Francesco II d'Este<br/>1660-1694 · Duke of Modena · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Sophia Dorothea of Celle -> George William of Celle (SPF_GEORGEWMCELLE, defined in the Ernest Augustus family, referenced by string) & Éléonore d'Olbreuse; only legitimate child",
+      "a": "SPF_GEORGEWMCELLE",
+      "b": {"id": "SPF_ELEONOREOLBREUSE", "label": "Éléonore d'Olbreuse<br/>1639-1722 · Huguenot noblewoman; Duchess of Celle · Wikipedia"},
+      "children": ["HN_SOPHIADOROTHEA"]
+    },
+    {
+      "note": "Caroline of Ansbach -> John Frederick, Margrave of Brandenburg-Ansbach & Eleonore Erdmuthe of Saxe-Eisenach; brother William Frederick",
+      "a": {"id": "SPF_JOHNFREDANSBACH", "label": "John Frederick, Margrave of Brandenburg-Ansbach<br/>1654-1686 · Wikipedia"},
+      "b": {"id": "SPF_ELEONERDMUTHE", "label": "Eleonore Erdmuthe of Saxe-Eisenach<br/>1662-1696 · later Electress of Saxony · Wikipedia"},
+      "children": [
+        "HN_CAROLINE",
+        {"id": "SPF_WMFREDANSBACH", "label": "William Frederick, Margrave of Brandenburg-Ansbach<br/>1686-1723 · Caroline's younger brother · Wikipedia"}
+      ]
+    }
+  ]
+}

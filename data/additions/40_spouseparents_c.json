@@ -1,0 +1,48 @@
+{
+ "_note": "Batch c (0-800 AD married-in spouses): documented parents + full siblings for spouses that had none shown. FILLED 4 of 6. SKIPPED 2 (St Helena, Basina of Thuringia) — their own parentage is undocumented/legendary. Web-verified 2026-07-16. New nodes use SPD_ prefix. Clotilde's mother Caretena is later tradition (Gregory of Tours does not name her) and is flagged as such.",
+ "families": [
+
+  {
+   "a": {"id": "SPD_SEV_FATHER", "label": "Publius Septimius Geta<br/>c.110 AD · equestrian of Leptis Magna; father of the emperor · Wikipedia"},
+   "b": {"id": "SPD_SEV_MOTHER", "label": "Fulvia Pia<br/>c.125 AD · mother of Septimius Severus; of Leptis Magna · Wikipedia"},
+   "children": [
+    "SEPTIMIUSSEV",
+    {"id": "SPD_SEV_GETA", "label": "Publius Septimius Geta<br/>d.c.204 AD · brother of the emperor; suffect &amp; later ordinary consul · Wikipedia"},
+    {"id": "SPD_SEV_OCTAVILLA", "label": "Septimia Octavilla<br/>c.150 AD · sister of Septimius Severus · Wikipedia"}
+   ],
+   "note": "Publius Septimius Geta & Fulvia Pia -> Septimius Severus (+ brother P. Septimius Geta, sister Septimia Octavilla). Wikipedia / Cassius Dio."
+  },
+
+  {
+   "a": {"id": "SPD_MAXIMIAN", "label": "👑 Maximian<br/>c.250-310 AD · Roman Emperor, Augustus of the West · Wikipedia"},
+   "b": {"id": "SPD_EUTROPIA", "label": "Eutropia<br/>c.255 AD · wife of Maximian; of Syrian origin · Wikipedia"},
+   "children": [
+    "FAUSTA",
+    {"id": "SPD_MAXENTIUS", "label": "👑 Maxentius<br/>c.283-312 AD · Roman Emperor; brother of Fausta; drowned at the Milvian Bridge · Wikipedia"}
+   ],
+   "note": "Maximian & Eutropia -> Fausta + brother Maxentius. (Empress Theodora omitted — probably Eutropia's daughter by a prior marriage / Maximian's stepdaughter, disputed.) Wikipedia."
+  },
+
+  {
+   "a": {"id": "SPD_CHILPERIC2", "label": "👑 Chilperic II of Burgundy<br/>c.450 AD · King of the Burgundians; father of Clotilde · Gregory of Tours"},
+   "b": {"id": "SPD_CARETENA", "label": "Caretena<br/>c.455 AD · TRADITIONALLY named as Clotilde's mother — Gregory of Tours does not name her · later tradition"},
+   "children": [
+    "CLOTILDE",
+    {"id": "SPD_SEDELEUBA", "label": "😇 Sedeleuba (Chrona)<br/>c.470 AD · sister of Clotilde; became a nun, founded the church of St-Victor at Geneva · Gregory of Tours"}
+   ],
+   "note": "Chilperic II of Burgundy (+ wife, traditionally Caretena) -> Clotilde + sister Sedeleuba/Chrona. Father & sister documented by Gregory of Tours; mother's name is later tradition (flagged)."
+  },
+
+  {
+   "a": {"id": "SPD_GEROLD_VINZ", "label": "Gerold of Vinzgau<br/>c.730-784 AD · Frankish Count of the Anglachgau; father of Hildegard · Wikipedia"},
+   "b": {"id": "SPD_EMMA_ALEM", "label": "Emma (Imma) of Alemannia<br/>c.735-798 AD · daughter of Hnabi, Duke of Alemannia; mother of Hildegard · Wikipedia"},
+   "children": [
+    "HILDEGARD",
+    {"id": "SPD_GEROLD_YOUNGER", "label": "Gerold the Younger<br/>c.755-799 AD · Prefect of Bavaria; brother of Hildegard; killed fighting the Avars · Wikipedia"},
+    {"id": "SPD_UDALRICH", "label": "Udalrich<br/>c.760 AD · Count of the Argengau &amp; Linzgau; brother of Hildegard · Wikipedia"}
+   ],
+   "note": "Gerold of Vinzgau & Emma of Alemannia (dau. of Duke Hnabi) -> Hildegard + brothers Gerold the Younger (Prefect of Bavaria) & Udalrich. Wikipedia."
+  }
+
+ ]
+}

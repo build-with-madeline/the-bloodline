@@ -1,0 +1,101 @@
+{
+  "_note": "Batch undated_6 — documented parents + full siblings for married-in spouses that had no parents shown. Existing spouse referenced by id (in a children array); parents & new siblings are new SPL_ nodes. Verified July 2026 against Wikipedia. SKIPPED (undocumented/none): ARRHIDAEUSW & HYRCANUS2W (wife name unknown -> parentage unknowable); LIUDOLF (his own parentage is genuinely unknown, as the node label already states); EVE (created, no parents per Genesis 2); ZILPAH (Bible names no parents; only late midrash/Jubilees makes her a daughter of Laban — not documented); ARGOTTA (purely legendary consort of the legendary Pharamond, no documented parentage).",
+  "families": [
+    {
+      "a": {"id": "SPL_JUANPADILLA", "label": "Juan García de Padilla<br/>d.c.1348-1351 · Castilian noble of Padilla de Abajo"},
+      "b": {"id": "SPL_MARIAHINESTROSA", "label": "María González de Hinestrosa<br/>d. after 1356"},
+      "children": [
+        "PADILLA",
+        {"id": "SPL_DIEGOPADILLA", "label": "Diego García de Padilla<br/>d.1364 · Grand Master of Calatrava · Wikipedia"},
+        {"id": "SPL_JUANPADILLAJR", "label": "Juan García de Padilla<br/>14th c. · nominal Master of Santiago · Wikipedia"}
+      ],
+      "note": "María de Padilla, mistress/wife of Peter the Cruel of Castile. Parents & brothers per Wikipedia 'María de Padilla' / 'Diego García de Padilla'."
+    },
+    {
+      "a": {"id": "SPL_BERENGARII", "label": "👑 Berengar II of Italy<br/>c.900-966 · King of Italy"},
+      "b": {"id": "SPL_WILLATUSCANY", "label": "Willa of Tuscany<br/>c.911-970 · (Willa of Arles)"},
+      "children": [
+        "ROZALAIT",
+        {"id": "SPL_ADALBERTITALY", "label": "👑 Adalbert of Italy<br/>c.936-971 · co-King of Italy · Wikipedia"},
+        {"id": "SPL_GUYITALY", "label": "Guy of Italy<br/>10th c. · Margrave of Ivrea · Wikipedia"}
+      ],
+      "note": "Rozala 'Susanna' of Italy, Countess of Flanders. Daughter of Berengar II & Willa of Tuscany per Wikipedia 'Rozala of Italy' / 'Berengar II of Italy'."
+    },
+    {
+      "a": {"id": "SPL_TUDURGORONWY", "label": "Tudur Fychan ap Goronwy<br/>c.1310-1367 · Tudors of Penmynydd, Anglesey"},
+      "b": {"id": "SPL_MARGEDTOMOS", "label": "Marged ferch Tomos ap Llywelyn<br/>14th c."},
+      "children": [
+        "MAREDUDD",
+        {"id": "SPL_RHYSTUDUR", "label": "Rhys ap Tudur<br/>d.1412 · Glyndŵr rebel, executed · Wikipedia"},
+        {"id": "SPL_GWILYMTUDUR", "label": "Gwilym ap Tudur<br/>fl.1400-1409 · Glyndŵr rebel · Wikipedia"},
+        {"id": "SPL_GORONWYTUDUR", "label": "Goronwy ap Tudur<br/>d.1382 · Wikipedia"},
+        {"id": "SPL_EDNYFEDTUDUR", "label": "Ednyfed ap Tudur<br/>14th c. · Wikipedia"}
+      ],
+      "note": "Maredudd ap Tudur (father of Owen Tudor), youngest son of Tudur Fychan ap Goronwy & Marged ferch Tomos. Brothers per Wikipedia 'Maredudd ap Tudur' / 'Tudur ap Goronwy'."
+    },
+    {
+      "a": {"id": "SPL_JOHNIIIAUVERGNE", "label": "John III de La Tour<br/>c.1467-1501 · Count of Auvergne"},
+      "b": {"id": "SPL_JEANNEBOURBONVENDOME", "label": "Jeanne de Bourbon-Vendôme<br/>1465-1511"},
+      "children": [
+        "MADELEINEAUVERGNE",
+        {"id": "SPL_ANNEAUVERGNE", "label": "Anne de La Tour d'Auvergne<br/>1496-1524 · m. John Stewart, Duke of Albany · Wikipedia"}
+      ],
+      "note": "Madeleine de La Tour d'Auvergne (mother of Catherine de' Medici). Parents & sister Anne per Wikipedia 'Madeleine de La Tour d'Auvergne'."
+    },
+    {
+      "a": {"id": "SPL_SANCHOIII", "label": "👑 Sancho III of Castile<br/>1134-1158 · King of Castile"},
+      "b": {"id": "SPL_BLANCANAVARRE", "label": "Blanche of Navarre<br/>1133-1156 · (Blanca), dau. of García Ramírez of Navarre"},
+      "children": [
+        "AVIII"
+      ],
+      "note": "Alfonso VIII of Castile, only surviving child of Sancho III & Blanche of Navarre per Wikipedia 'Alfonso VIII of Castile' / 'Sancho III of Castile'."
+    },
+    {
+      "a": {"id": "SPL_PETERIBOURBON", "label": "👑 Peter I, Duke of Bourbon<br/>1311-1356 · killed at Poitiers"},
+      "b": {"id": "SPL_ISABELLAVALOIS", "label": "Isabella of Valois<br/>1313-1383"},
+      "children": [
+        "JOANNABOURBON",
+        {"id": "SPL_LOUISIIBOURBON", "label": "👑 Louis II, Duke of Bourbon<br/>1337-1410 · Wikipedia"},
+        {"id": "SPL_BLANCHEBOURBON", "label": "Blanche of Bourbon<br/>1339-1361 · m. Peter the Cruel of Castile · Wikipedia"}
+      ],
+      "note": "Joanna of Bourbon, queen of Charles V of France. Parents & siblings per Wikipedia 'Joanna of Bourbon' / 'Peter I, Duke of Bourbon'."
+    },
+    {
+      "a": {"id": "SPL_JOHNIIICLEVES", "label": "👑 John III, Duke of Cleves<br/>1490-1539 · united Jülich-Cleves-Berg"},
+      "b": {"id": "SPL_MARIAJULICH", "label": "Maria of Jülich-Berg<br/>1491-1543"},
+      "children": [
+        "ANNECLEVES",
+        {"id": "SPL_SIBYLLECLEVES", "label": "Sibylle of Cleves<br/>1512-1554 · m. John Frederick I, Elector of Saxony · Wikipedia"},
+        {"id": "SPL_WILLIAMCLEVES", "label": "👑 William 'the Rich'<br/>1516-1592 · Duke of Jülich-Cleves-Berg · Wikipedia"},
+        {"id": "SPL_AMALIACLEVES", "label": "Amalia of Cleves<br/>1517-1586 · Wikipedia"}
+      ],
+      "note": "Anne of Cleves, 4th wife of Henry VIII. Parents & siblings per Wikipedia 'Anne of Cleves' / 'John III, Duke of Cleves'."
+    },
+    {
+      "a": {"id": "SPL_SIRRAS", "label": "Sirras<br/>fl. early 4th c. BC · Lyncestian noble<br/>⚠ Eurydice's exact parentage is debated"},
+      "b": {"id": "SPL_EURYDICE1MOTHER", "label": "—"},
+      "children": [
+        "EURYDICE1"
+      ],
+      "note": "Eurydice I of Macedon (wife of Amyntas III, mother of Philip II). Traditionally daughter of Sirras of Lyncestis; mother unrecorded; ancestry disputed. Wikipedia 'Eurydice I of Macedon'."
+    },
+    {
+      "a": "MITHRIDATES5",
+      "b": "MITHRIDATES5W",
+      "children": [
+        "LAODICEPONT",
+        {"id": "SPL_MITHCHRESTUS", "label": "Mithridates Chrestus<br/>d.c.115 BC · brother, executed by Mithridates VI · Wikipedia"}
+      ],
+      "note": "Laodice, sister-wife of Mithridates VI of Pontus. Her parents Mithridates V Euergetes & Laodice VI already exist as nodes (MITHRIDATES5 / MITHRIDATES5W, bearing Mithridates VI); this appends Laodice & their son Mithridates Chrestus as siblings — no re-parenting. Wikipedia 'Mithridates VI Eupator' / 'Laodice (wife of Mithridates VI)'."
+    },
+    {
+      "a": "LOT",
+      "b": {"id": "SPL_LOTWIFE", "label": "Lot's wife<br/>· became a pillar of salt · Genesis 19:26"},
+      "children": [
+        "LOTDAU1",
+        "LOTDAU2"
+      ],
+      "note": "Lot's two daughters (Genesis 19). Both already exist as unnamed daughters; this gives them their parents Lot & his wife. LOTDAU1 = elder, LOTDAU2 = younger. Genesis 19:8, 19:26, 19:30-38."
+    }
+  ]
+}

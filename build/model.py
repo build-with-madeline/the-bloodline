@@ -74,8 +74,28 @@ def load_merged():
         return uid
 
     applied = 0
-    for f in sorted(ADD_DIR.glob("*.json")) if ADD_DIR.exists() else []:
-        payload = json.load(open(f, encoding="utf-8"))
+    add_files = sorted(ADD_DIR.glob("*.json")) if ADD_DIR.exists() else []
+    payloads = [(f, json.load(open(f, encoding="utf-8"))) for f in add_files]
+
+    # PASS 1 — pre-declare every person defined as an OBJECT in any additions file,
+    # so string references resolve no matter the alphabetical load order. Additions
+    # files cross-reference each other's new ids freely; a two-pass load makes the
+    # merge order-independent instead of forcing define-before-reference by filename.
+    def predeclare(ref):
+        if isinstance(ref, dict):
+            pid = ref["id"]
+            if pid not in people:
+                people[pid] = {"id": pid, "label": ref.get("label"), "icon": _icon(ref.get("label"))}
+                if ref.get("style"):
+                    people[pid]["style"] = ref["style"]
+    for _f, payload in payloads:
+        for fam in payload.get("families", []):
+            predeclare(fam.get("a")); predeclare(fam.get("b"))
+            for child in fam.get("children", []):
+                predeclare(child)
+
+    # PASS 2 — build unions and children (every ref is now resolvable)
+    for f, payload in payloads:
         for fam in payload.get("families", []):
             a = ensure_person(fam["a"])
             b = ensure_person(fam["b"])
@@ -99,6 +119,18 @@ def load_merged():
                     unions[uid]["children"].append(cid)
                     edges.append((uid, cid))
             applied += 1
+
+    # Base-data relocations: genealogy.json occasionally places a person one
+    # generation too high. additions can only APPEND children, never remove a base
+    # edge, so drop the wrong parent-edge here. (John Beaufort, Duke of Somerset was
+    # John of Gaunt's GRANDSON via John Beaufort 1st Earl of Somerset — the correct
+    # parents are added in 40_spouseparents_u3.json.)
+    REMOVE_CHILD = {("JOG", "KATS", "JB")}
+    for a, b, c in REMOVE_CHILD:
+        uid = by_parents.get(frozenset((a, b)))
+        if uid and c in unions[uid]["children"]:
+            unions[uid]["children"].remove(c)
+            edges[:] = [e for e in edges if not (e[0] == uid and e[1] == c)]
 
     # Reigning queens / female sovereigns (ruled in their own right) get the 👑,
     # like the kings. Consorts and regents (ruled for someone else) do NOT.

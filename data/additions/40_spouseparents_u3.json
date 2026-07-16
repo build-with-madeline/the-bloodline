@@ -1,0 +1,565 @@
+{
+ "_note": "Undated batch u3: married-in spouses given their DOCUMENTED parents + full siblings. 30 of 46 filled; 16 skipped as undocumented/legendary/disputed (see report). New parents/siblings carry the SPI_ prefix. Existing ids referenced (not duplicated): CLEOPATRA3, EDMWOOD, JOANBEAUSCOT+JB(existing full brother John Beaufort 1st Duke of Somerset), JOANBURGUNDY, PETERLUX, PHILIPPAGUELDERS, CATHOWARD, ELIZHOW(chained: Edmund Howard is a child of the Norfolk union AND father of Catherine), CONTESSINABARDI, FREDISWABIA, BERENICEHEROD, ALFONSOIXLEON, WARWICK, HENRYLION, EUPHEMIAROSS, BERTRADA, CONSTPORT, JOANVAL(father CHARLESVALOIS existing; Philip VI is the already-present full brother, not re-added to avoid a double parent-edge), LIUTGARDSAX(appended to existing U_liudolf_oda; Otto the Illustrious OTTOILLUS already there is her full brother), RAMONPROV, MARGDENMARK, STEPHENBLOIS, CATHPARR, JOCHEBED(appended to existing Levi/LEVIWIFE union per Numbers 26:59 — Gershon/Kohath/Merari already her brothers there), RENEANJOU, HEDBAB(traditional Popponid descent, flagged), FREDIIIHRE, LOUISESAVOY, FRANCISIIBRITTANY, MARIECLEVES. Sources are Wikipedia/standard genealogies unless a primary text is cited; ancient/biblical years signed BC.",
+ "families": [
+  {
+   "a": {
+    "id": "SPI_PHILIP2_SAVOY",
+    "label": "Philip II<br/>1438-1497 · Duke of Savoy · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_MARGARET_BOURBON",
+    "label": "Margaret of Bourbon<br/>1438-1483 · Wikipedia"
+   },
+   "children": [
+    "LOUISESAVOY",
+    {
+     "id": "SPI_PHILIBERT2_SAVOY",
+     "label": "Philibert II 'the Handsome'<br/>1480-1504 · Duke of Savoy · Wikipedia"
+    }
+   ],
+   "note": "Louise of Savoy (mother of Francis I) & her full brother Philibert II are children of Philip II of Savoy & Margaret of Bourbon."
+  },
+  {
+   "a": {
+    "id": "SPI_PTOLEMY6",
+    "label": "👑 Ptolemy VI Philometor<br/>c.186-145 BC · Pharaoh · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_CLEOPATRA2",
+    "label": "👑 Cleopatra II<br/>c.185-116 BC · Queen of Egypt · Wikipedia"
+   },
+   "children": [
+    "CLEOPATRA3",
+    {
+     "id": "SPI_CLEOPATRA_THEA",
+     "label": "👑 Cleopatra Thea<br/>c.164-121 BC · Queen of the Seleucid Empire · Wikipedia"
+    },
+    {
+     "id": "SPI_PTOLEMY_EUPATOR",
+     "label": "👑 Ptolemy Eupator<br/>c.166-152 BC · co-regent · Wikipedia"
+    },
+    {
+     "id": "SPI_PTOLEMY7",
+     "label": "👑 Ptolemy VII Neos Philopator<br/>d.c.144 BC · nominal king · Wikipedia"
+    }
+   ],
+   "note": "Cleopatra III & full siblings are children of the brother-sister marriage Ptolemy VI Philometor & Cleopatra II."
+  },
+  {
+   "a": {
+    "id": "SPI_RICHARD_ETAMPES",
+    "label": "Richard of Brittany<br/>1395-1438 · Count of Etampes · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_MARG_ORLEANS_VERTUS",
+    "label": "Marguerite of Orleans<br/>1406-1466 · Countess of Vertus · Wikipedia"
+   },
+   "children": [
+    "FRANCISIIBRITTANY",
+    {
+     "id": "SPI_MARIE_BRITTANY",
+     "label": "Marie of Brittany<br/>1424-1477 · Wikipedia"
+    },
+    {
+     "id": "SPI_ISABELLA_BRITTANY",
+     "label": "Isabella of Brittany<br/>c.1430-1470 · Wikipedia"
+    }
+   ],
+   "note": "Francis II of Brittany & full sisters are children of Richard of Etampes & Marguerite of Orleans."
+  },
+  {
+   "a": {
+    "id": "SPI_ADOLPH1_CLEVES",
+    "label": "Adolph I<br/>1373-1448 · Duke of Cleves · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_MARIE_BURGUNDY_CLEVES",
+    "label": "Marie of Burgundy<br/>1393-1463 · daughter of John the Fearless · Wikipedia"
+   },
+   "children": [
+    "MARIECLEVES",
+    {
+     "id": "SPI_JOHN1_CLEVES",
+     "label": "John I<br/>1419-1481 · Duke of Cleves · Wikipedia"
+    }
+   ],
+   "note": "Marie of Cleves (grandmother of Louis XII) & her full brother John I are children of Adolph I of Cleves & Marie of Burgundy."
+  },
+  {
+   "a": {
+    "id": "SPI_JOHN_BEAUFORT_1E",
+    "label": "John Beaufort<br/>1373-1410 · 1st Earl of Somerset · son of John of Gaunt · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_MARGARET_HOLLAND",
+    "label": "Margaret Holland<br/>1385-1439 · Wikipedia"
+   },
+   "children": [
+    "JOANBEAUSCOT",
+    "JB",
+    {
+     "id": "SPI_HENRY_BEAUFORT_2E",
+     "label": "Henry Beaufort<br/>1401-1418 · 2nd Earl of Somerset · Wikipedia"
+    },
+    {
+     "id": "SPI_EDMUND_BEAUFORT_2D",
+     "label": "Edmund Beaufort<br/>1406-1455 · 2nd Duke of Somerset · Wikipedia"
+    }
+   ],
+   "note": "Joan Beaufort (Queen of Scots) & full siblings are children of John Beaufort, 1st Earl of Somerset & Margaret Holland. JB = existing John Beaufort, 1st Duke of Somerset (1404-1444), her full brother."
+  },
+  {
+   "a": "EI",
+   "b": {
+    "id": "SPI_MARGARET_FRANCE",
+    "label": "Margaret of France<br/>1279-1318 · 2nd queen of Edward I · Wikipedia"
+   },
+   "children": [
+    "EDMWOOD",
+    {
+     "id": "SPI_THOMAS_BROTHERTON",
+     "label": "Thomas of Brotherton<br/>1300-1338 · 1st Earl of Norfolk · Wikipedia"
+    }
+   ],
+   "note": "Edmund of Woodstock & his full brother Thomas of Brotherton are children of Edward I's second marriage, to Margaret of France."
+  },
+  {
+   "a": {
+    "id": "SPI_ROBERT2_BURGUNDY",
+    "label": "Robert II<br/>1248-1306 · Duke of Burgundy · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_AGNES_FRANCE",
+    "label": "Agnes of France<br/>1260-1327 · daughter of Louis IX · Wikipedia"
+   },
+   "children": [
+    "JOANBURGUNDY",
+    {
+     "id": "SPI_ODO4_BURGUNDY",
+     "label": "Odo IV<br/>1295-1350 · Duke of Burgundy · Wikipedia"
+    },
+    {
+     "id": "SPI_MARGARET_BURGUNDY_Q",
+     "label": "Margaret of Burgundy<br/>1290-1315 · Queen of France (wife of Louis X) · Wikipedia"
+    }
+   ],
+   "note": "Joan of Burgundy 'the Lame' (queen of Philip VI) & full siblings are children of Robert II of Burgundy & Agnes of France."
+  },
+  {
+   "a": {
+    "id": "SPI_JOHN_LUX_BEAUVOIR",
+    "label": "John of Luxembourg<br/>d.1397 · Lord of Beauvoir · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_MARG_ENGHIEN",
+    "label": "Marguerite of Enghien<br/>d.1393 · Wikipedia"
+   },
+   "children": [
+    "PETERLUX",
+    {
+     "id": "SPI_JOHN2_LUX_LIGNY",
+     "label": "John II of Luxembourg<br/>1392-1441 · Count of Ligny · captor of Joan of Arc · Wikipedia"
+    },
+    {
+     "id": "SPI_LOUIS_LUX_ABP",
+     "label": "Louis of Luxembourg<br/>d.1443 · Archbishop of Rouen; Chancellor of France · Wikipedia"
+    }
+   ],
+   "note": "Peter I of Luxembourg (Count of Saint-Pol) & full brothers are children of John of Luxembourg, Lord of Beauvoir & Marguerite of Enghien."
+  },
+  {
+   "a": {
+    "id": "SPI_ADOLF_GUELDERS",
+    "label": "Adolf of Egmond<br/>1438-1477 · Duke of Guelders · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_CATHERINE_BOURBON_G",
+    "label": "Catherine of Bourbon<br/>1440-1469 · Wikipedia"
+   },
+   "children": [
+    "PHILIPPAGUELDERS",
+    {
+     "id": "SPI_CHARLES_GUELDERS",
+     "label": "Charles of Egmond<br/>1467-1538 · Duke of Guelders · Wikipedia"
+    }
+   ],
+   "note": "Philippa of Guelders & her full brother Charles of Egmond are children of Adolf of Egmond & Catherine of Bourbon."
+  },
+  {
+   "a": {
+    "id": "SPI_THOMAS_HOWARD_2D",
+    "label": "Thomas Howard<br/>1443-1524 · 2nd Duke of Norfolk · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_ELIZ_TILNEY",
+    "label": "Elizabeth Tilney<br/>d.1497 · Countess of Surrey · Wikipedia"
+   },
+   "children": [
+    "ELIZHOW",
+    {
+     "id": "SPI_THOMAS_HOWARD_3D",
+     "label": "Thomas Howard<br/>1473-1554 · 3rd Duke of Norfolk · Wikipedia"
+    },
+    {
+     "id": "SPI_EDWARD_HOWARD",
+     "label": "Edward Howard<br/>c.1476-1513 · Lord High Admiral · Wikipedia"
+    },
+    {
+     "id": "SPI_EDMUND_HOWARD",
+     "label": "Edmund Howard<br/>c.1478-1539 · father of Catherine Howard · Wikipedia"
+    }
+   ],
+   "note": "Elizabeth Howard (mother of Anne Boleyn) & full siblings are children of Thomas Howard, 2nd Duke of Norfolk & Elizabeth Tilney. Her brother Edmund is Catherine Howard's father (next family)."
+  },
+  {
+   "a": "SPI_EDMUND_HOWARD",
+   "b": {
+    "id": "SPI_JOYCE_CULPEPER",
+    "label": "Joyce Culpeper<br/>c.1480-1531 · Wikipedia"
+   },
+   "children": [
+    "CATHOWARD",
+    {
+     "id": "SPI_CHARLES_HOWARD_C",
+     "label": "Charles Howard<br/>d.1548 · Wikipedia"
+    },
+    {
+     "id": "SPI_GEORGE_HOWARD_C",
+     "label": "George Howard<br/>d.1580 · Wikipedia"
+    }
+   ],
+   "note": "Catherine Howard (Henry VIII's 5th wife) & full brothers are children of Edmund Howard & Joyce Culpeper."
+  },
+  {
+   "a": {
+    "id": "SPI_GIOVANNI_BARDI",
+    "label": "Giovanni de' Bardi<br/>Count of Vernio · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_EMILIA_PANNOCCHIESCHI",
+    "label": "Emilia Pannocchieschi<br/>Wikipedia"
+   },
+   "children": [
+    "CONTESSINABARDI"
+   ],
+   "note": "Contessina de' Bardi (wife of Cosimo the Elder) is daughter of Giovanni de' Bardi, Count of Vernio & Emilia Pannocchieschi. No siblings documented here."
+  },
+  {
+   "a": {
+    "id": "SPI_FREDERICK_BUREN",
+    "label": "Frederick of Buren<br/>c.1020-1053 · progenitor of the Hohenstaufen · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_HILDEGARD_BUREN",
+    "label": "Hildegard<br/>c.1028-1094 · of Egisheim (TRADITIONAL identification) · Wikipedia"
+   },
+   "children": [
+    "FREDISWABIA",
+    {
+     "id": "SPI_OTTO_STRASBOURG",
+     "label": "Otto<br/>d.1100 · Bishop of Strasbourg · Wikipedia"
+    }
+   ],
+   "note": "Frederick I, Duke of Swabia (first Hohenstaufen duke) is son of Frederick of Buren; his mother Hildegard's exact identity (of Egisheim) is traditional and flagged. Brother Otto, Bishop of Strasbourg, added."
+  },
+  {
+   "a": {
+    "id": "SPI_COSTOBARUS",
+    "label": "Costobarus<br/>d.c.25 BC · Idumaean governor · Josephus, Antiquities 15"
+   },
+   "b": {
+    "id": "SPI_SALOME1",
+    "label": "Salome I<br/>c.65 BC-AD 10 · sister of Herod the Great · Josephus"
+   },
+   "children": [
+    "BERENICEHEROD",
+    {
+     "id": "SPI_ANTIPATER_COSTOBAR",
+     "label": "Antipater<br/>son of Costobarus &amp; Salome I · Josephus"
+    }
+   ],
+   "note": "Berenice (mother of Herod Agrippa I) is daughter of Costobarus & Salome I (Herod the Great's sister) — Josephus, Antiquities 18.5.4. Salome I is herself daughter of Antipater & Cypros, already in the tree, but is added as a new node here (not re-parented)."
+  },
+  {
+   "a": {
+    "id": "SPI_FERDINAND2_LEON",
+    "label": "👑 Ferdinand II<br/>1137-1188 · King of Leon · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_URRACA_PORTUGAL",
+    "label": "Urraca of Portugal<br/>1151-1188 · Queen of Leon · Wikipedia"
+   },
+   "children": [
+    "ALFONSOIXLEON"
+   ],
+   "note": "Alfonso IX of Leon is the sole surviving heir of Ferdinand II of Leon & Urraca of Portugal. No full sibling survived to record."
+  },
+  {
+   "a": {
+    "id": "SPI_RICHARD_SALISBURY",
+    "label": "Richard Neville<br/>1400-1460 · 5th Earl of Salisbury · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_ALICE_MONTAGU",
+    "label": "Alice Montagu<br/>1407-1462 · Countess of Salisbury · Wikipedia"
+   },
+   "children": [
+    "WARWICK",
+    {
+     "id": "SPI_JOHN_NEVILLE_MONTAGU",
+     "label": "John Neville<br/>d.1471 · 1st Marquess of Montagu · Wikipedia"
+    },
+    {
+     "id": "SPI_GEORGE_NEVILLE_ABP",
+     "label": "George Neville<br/>1432-1476 · Archbishop of York; Chancellor · Wikipedia"
+    }
+   ],
+   "note": "Richard Neville 'Warwick the Kingmaker' & full brothers are children of Richard Neville, 5th Earl of Salisbury & Alice Montagu."
+  },
+  {
+   "a": {
+    "id": "SPI_HENRY_PROUD",
+    "label": "Henry X 'the Proud'<br/>1108-1139 · Duke of Bavaria &amp; Saxony · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_GERTRUDE_SUPPLIN",
+    "label": "Gertrude of Supplingenburg<br/>1115-1143 · daughter of Emperor Lothair III · Wikipedia"
+   },
+   "children": [
+    "HENRYLION"
+   ],
+   "note": "Henry the Lion is the only child of Henry X 'the Proud' & Gertrude of Supplingenburg."
+  },
+  {
+   "a": {
+    "id": "SPI_HUGH_ROSS",
+    "label": "Hugh, Earl of Ross<br/>d.1333 · killed at Halidon Hill · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_MARGARET_GRAHAM_ROSS",
+    "label": "Margaret Graham<br/>Wikipedia"
+   },
+   "children": [
+    "EUPHEMIAROSS",
+    {
+     "id": "SPI_WILLIAM3_ROSS",
+     "label": "William III, Earl of Ross<br/>d.1372 · Wikipedia"
+    }
+   ],
+   "note": "Euphemia de Ross (2nd queen of Robert II) & her full brother William III, Earl of Ross, are children of Hugh, Earl of Ross & Margaret Graham."
+  },
+  {
+   "a": {
+    "id": "SPI_CHARIBERT_LAON",
+    "label": "Charibert<br/>d.c.762 · Count of Laon · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_CHARIBERT_LAON_MOTHER",
+    "label": "—"
+   },
+   "children": [
+    "BERTRADA"
+   ],
+   "note": "Bertrada of Laon (mother of Charlemagne) is daughter of Charibert, Count of Laon (Einhard; Charles the Great). Her mother is uncertain (Gisela/Bertrada of Prum are proposed) — placeholder."
+  },
+  {
+   "a": {
+    "id": "SPI_DENIS_PORTUGAL",
+    "label": "👑 Denis I<br/>1261-1325 · King of Portugal · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_ELIZABETH_ARAGON",
+    "label": "Elizabeth of Aragon<br/>1271-1336 · St. Elizabeth of Portugal · Wikipedia"
+   },
+   "children": [
+    "CONSTPORT",
+    {
+     "id": "SPI_AFONSO4_PORTUGAL",
+     "label": "👑 Afonso IV<br/>1291-1357 · King of Portugal · Wikipedia"
+    }
+   ],
+   "note": "Constance of Portugal (queen of Ferdinand IV of Castile) & her full brother Afonso IV are children of King Denis I & St. Elizabeth of Aragon."
+  },
+  {
+   "a": "CHARLESVALOIS",
+   "b": {
+    "id": "SPI_MARG_ANJOU_NAPLES",
+    "label": "Margaret of Anjou<br/>1273-1299 · of Naples; 1st wife of Charles of Valois · Wikipedia"
+   },
+   "children": [
+    "JOANVAL",
+    {
+     "id": "SPI_CHARLES2_ALENCON",
+     "label": "Charles II<br/>1297-1346 · Count of Alencon · d. at Crecy · Wikipedia"
+    }
+   ],
+   "note": "Joan of Valois (Countess of Hainaut) is daughter of Charles of Valois (existing) & his 1st wife Margaret of Anjou-Naples. Full brother Charles II of Alencon added; full brother Philip VI (existing PHILIPVI) is deliberately not re-added here to avoid a double parent-edge."
+  },
+  {
+   "a": "LIUDOLF",
+   "b": "ODA",
+   "children": [
+    "LIUTGARDSAX",
+    {
+     "id": "SPI_BRUNO_SAXONY",
+     "label": "Bruno<br/>d.880 · Duke of Saxony · fell against the Vikings · Wikipedia"
+    }
+   ],
+   "note": "Liutgard of Saxony (queen of Louis the Younger) appended to the existing Liudolf & Oda union; her full brother Otto the Illustrious (OTTOILLUS) is already a child there. Brother Bruno added."
+  },
+  {
+   "a": {
+    "id": "SPI_ALFONSO2_PROVENCE",
+    "label": "Alfonso II<br/>1180-1209 · Count of Provence · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_GARSENDA_SABRAN",
+    "label": "Garsenda of Sabran<br/>c.1180-1242 · Countess of Forcalquier; troubadour patron · Wikipedia"
+   },
+   "children": [
+    "RAMONPROV"
+   ],
+   "note": "Ramon Berenguer IV, Count of Provence (father of four queens) is son of Alfonso II of Provence & Garsenda of Sabran."
+  },
+  {
+   "a": {
+    "id": "SPI_CHRISTIAN1_DENMARK",
+    "label": "👑 Christian I<br/>1426-1481 · King of Denmark, Norway &amp; Sweden · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_DOROTHEA_BRANDENBURG",
+    "label": "Dorothea of Brandenburg<br/>1430-1495 · Wikipedia"
+   },
+   "children": [
+    "MARGDENMARK",
+    {
+     "id": "SPI_JOHN_DENMARK",
+     "label": "👑 John (Hans)<br/>1455-1513 · King of Denmark · Wikipedia"
+    },
+    {
+     "id": "SPI_FREDERICK1_DENMARK",
+     "label": "👑 Frederick I<br/>1471-1533 · King of Denmark · Wikipedia"
+    }
+   ],
+   "note": "Margaret of Denmark (queen of James III of Scotland) & full brothers Kings John and Frederick I are children of Christian I of Denmark & Dorothea of Brandenburg."
+  },
+  {
+   "a": {
+    "id": "SPI_THEOBALD3_BLOIS",
+    "label": "Theobald III<br/>1019-1089 · Count of Blois &amp; Champagne · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_THEOBALD3_BLOIS_MOTHER",
+    "label": "—"
+   },
+   "children": [
+    "STEPHENBLOIS"
+   ],
+   "note": "Stephen, Count of Blois (father of King Stephen of England) is son of Theobald III, Count of Blois. His mother (Gundrada / Garsende of Maine) is uncertain — placeholder."
+  },
+  {
+   "a": {
+    "id": "SPI_THOMAS_PARR",
+    "label": "Thomas Parr<br/>c.1478-1517 · courtier of Henry VIII · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_MAUD_GREEN",
+    "label": "Maud Green<br/>1492-1531 · Wikipedia"
+   },
+   "children": [
+    "CATHPARR",
+    {
+     "id": "SPI_WILLIAM_PARR",
+     "label": "William Parr<br/>1513-1571 · 1st Marquess of Northampton · Wikipedia"
+    },
+    {
+     "id": "SPI_ANNE_PARR",
+     "label": "Anne Parr<br/>1515-1552 · Wikipedia"
+    }
+   ],
+   "note": "Catherine Parr (Henry VIII's 6th wife) & full siblings William and Anne are children of Sir Thomas Parr & Maud Green."
+  },
+  {
+   "a": "LEVI",
+   "b": "LEVIWIFE",
+   "children": [
+    "JOCHEBED"
+   ],
+   "note": "Jochebed is 'the daughter of Levi, who was born to Levi in Egypt' — Numbers 26:59. Appended to Levi's existing union; her brothers Gershon, Kohath & Merari are already children there."
+  },
+  {
+   "a": {
+    "id": "SPI_LOUIS2_ANJOU",
+    "label": "👑 Louis II<br/>1377-1417 · King of Naples; Duke of Anjou · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_YOLANDE_ARAGON",
+    "label": "Yolande of Aragon<br/>1381-1442 · 'Queen of Four Kingdoms' · Wikipedia"
+   },
+   "children": [
+    "RENEANJOU",
+    {
+     "id": "SPI_LOUIS3_ANJOU",
+     "label": "👑 Louis III<br/>1403-1434 · Duke of Anjou; titular King of Naples · Wikipedia"
+    },
+    {
+     "id": "SPI_MARIE_ANJOU",
+     "label": "Marie of Anjou<br/>1404-1463 · Queen of France (wife of Charles VII) · Wikipedia"
+    },
+    {
+     "id": "SPI_CHARLES_MAINE",
+     "label": "Charles of Anjou<br/>1414-1472 · Count of Maine · Wikipedia"
+    }
+   ],
+   "note": "Rene of Anjou & full siblings are children of Louis II of Anjou (King of Naples) & Yolande of Aragon."
+  },
+  {
+   "a": {
+    "id": "SPI_HENRY_FRANCONIA",
+    "label": "Henry of Franconia<br/>d.886 · Popponid/Babenberg margrave (TRADITIONAL descent) · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_HENRY_FRANCONIA_MOTHER",
+    "label": "—"
+   },
+   "children": [
+    "HEDBAB",
+    {
+     "id": "SPI_ADALBERT_BABENBERG",
+     "label": "Adalbert of Babenberg<br/>d.906 · executed after the Babenberg feud · Wikipedia"
+    }
+   ],
+   "note": "Hedwiga of Babenberg (wife of Otto the Illustrious) is traditionally a daughter of Henry of Franconia (the elder Babenberg/Popponid line) — flagged as traditional. Brother Adalbert of Babenberg added; mother unknown (placeholder)."
+  },
+  {
+   "a": {
+    "id": "SPI_ERNEST_IRON",
+    "label": "Ernest 'the Iron'<br/>1377-1424 · Duke of Inner Austria · Wikipedia"
+   },
+   "b": {
+    "id": "SPI_CYMBURGIS_MASOVIA",
+    "label": "Cymburgis of Masovia<br/>1394-1429 · Wikipedia"
+   },
+   "children": [
+    "FREDIIIHRE",
+    {
+     "id": "SPI_ALBERT6_AUSTRIA",
+     "label": "Albert VI<br/>1418-1463 · Archduke of Austria · Wikipedia"
+    },
+    {
+     "id": "SPI_MARGARET_AUSTRIA_SAX",
+     "label": "Margaret of Austria<br/>1416-1486 · Electress of Saxony · Wikipedia"
+    }
+   ],
+   "note": "Frederick III (first Habsburg emperor of the line) & full siblings are children of Ernest 'the Iron' of Inner Austria & Cymburgis of Masovia."
+  },
+  {
+   "a": "JOG",
+   "b": "KATS",
+   "children": [
+    "SPI_JOHN_BEAUFORT_1E"
+   ],
+   "note": "John Beaufort 1st Earl of Somerset = legitimised son of John of Gaunt & Katherine Swynford; his son the Duke was misplaced a generation up in base data"
+  }
+ ]
+}

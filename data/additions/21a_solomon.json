@@ -1,0 +1,63 @@
+{
+  "_note": "Slab c.1000-950 BC — KING SOLOMON'S HOUSEHOLD & his FOREIGN MARRIAGES (1 Kings 3-11, 2 Chronicles), each rendered as a CROSS-LINE marriage that splices a foreign royal house onto the Israelite line. Solomon (existing SOLOMON, c.1010, in 07_biblical) is NEVER given a second parent, and the existing SOLOMON+SOLOMONW->REHOBOAM union (07_biblical) is left intact — Rehoboam & Jeroboam I (existing JEROBOAMI in 10a_israel) are the divided-kingdom spine and are NOT re-parented here, so this file adds no double-parents. Divided-kingdom completeness already lives in the tree: Rehoboam->Abijah (07_biblical) for Judah and Jeroboam I->Nadab (10a_israel) for Israel; this slab therefore concentrates on the foreign marriages. FOUR THREADS: (1) EGYPT<->ISRAEL — 'the daughter of Pharaoh' whom Solomon married early (1 Kings 3:1; Pharaoh took Gezer and gave it as her dowry, 1 Kings 9:16). She is created as a daughter of EG_SIAMUN (existing, 20b) — Siamun is the most-cited candidate for her father among 21st-Dynasty kings; the alternative candidate Psusennes II (existing EG_PSUSENNES2, 20b) is noted in-label. A parallel family off EG_SIAMUN (his existing family already parents EG_PSUSENNES2, so this is a second branch, NOT a re-parenting). The Solomon union is childless (scripture records no child by her). (2) AMMON<->ISRAEL — NAAMAH the Ammonite, mother of Rehoboam (1 Kings 14:21, 2 Chron 12:13). The existing id NAAMAH is Noah's wife, so this Naamah uses NAAMAHAMMON. She is hung off the Ammonite founder BENAMMI (existing, 07k_more_bible) through a kind:bridge node because the individual ~9-century descent from Ben-Ammi is NOT recorded (ethnic descent, flagged like the Edom-kingdom bridge in 07_biblical). Her union with Solomon is left CHILDLESS to avoid re-parenting the existing REHOBOAM; her card states plainly that she was Rehoboam's mother. (3) PHOENICIA/SIDON<->ISRAEL — Solomon 'loved many foreign women ... Sidonians' (1 Kings 11:1). No individual Sidonian wife is named in scripture, so an UNNAMED Sidonian (Phoenician) noblewoman is created as a kind:bridge descendant of the Phoenician royal house (existing PHO_ABIBAAL, 20b) — tied to that house by ethnicity, with specific parentage flagged as not recorded; her union with Solomon is childless. (4) The remaining foreign-wife groups of 1 Kings 11:1 — Moabite, Edomite, Hittite (and the Sidonian summary) — are carried as a single FLAGGED summary card under a childless union, not as invented individuals. (5) The QUEEN OF SHEBA who visited Solomon (1 Kings 10, 2 Chron 9) is added as a FLAGGED visitor node; scripture records only her state visit, no marriage or child. The Ethiopian Kebra-Nagast tradition making her the mother of MENELIK I (founder of the Solomonic dynasty of Ethiopia) by Solomon is rendered as a clearly-FLAGGED legendary son, not as scripture. CROSS-LINE MARRIAGES CREATED: Solomon x Pharaoh's daughter (EGYPT<->ISRAEL); Solomon x Naamah the Ammonite (AMMON<->ISRAEL); Solomon x a Sidonian noblewoman (PHOENICIA/SIDON<->ISRAEL); Solomon x the Queen of Sheba -> Menelik I (ISRAEL<->SHEBA, legendary tradition flagged). Sorts after 07/10/20 series so SOLOMON, BENAMMI, EG_SIAMUN, EG_PSUSENNES2 & PHO_ABIBAAL all exist first; every new wife/origin node is defined before it is referenced by the Solomon union. Child/accession years are SMALLER than the parent year. Verified July 2026 against 1 Kings 3:1, 9:16, 10, 11:1-8, 14:21; 2 Chron 8:11, 9, 12:13. No fabrication; every non-scriptural or ethnic-descent link is flagged in-node.",
+  "families": [
+    {
+      "note": "EGYPT<->ISRAEL, origin. EG_SIAMUN (existing 21st-Dynasty king, 20b, referenced by id — his existing family already parents EG_PSUSENNES2, so this is a parallel branch, NOT a re-parenting) & a '—' consort; his daughter, the wife Solomon married, as child. Siamun is the most-cited candidate for her father; the alternative is Psusennes II (EG_PSUSENNES2), noted on her card.",
+      "a": "EG_SIAMUN",
+      "b": {"id": "EG_SIAMUNW2", "label": "—"},
+      "children": [
+        {"id": "EG_PHARAOHDAU", "label": "the daughter of Pharaoh<br/>c.995 BC · an Egyptian princess of the 21st Dynasty; married to Solomon early in his reign, her father giving the city of Gezer as her dowry (1 Kings 3:1, 9:16). Her father is most often identified as Siamun; alternatively Psusennes II · historical / scriptural"}
+      ]
+    },
+    {
+      "note": "CROSS-LINE MARRIAGE #1 — EGYPT<->ISRAEL. SOLOMON (existing, 07_biblical, NOT re-parented) marries EG_PHARAOHDAU (defined above). Childless union: scripture records no child by Pharaoh's daughter. This is a real Egypt<->Israel royal marriage, now joining both houses in the tree.",
+      "a": "SOLOMON",
+      "b": "EG_PHARAOHDAU",
+      "children": []
+    },
+    {
+      "note": "AMMON<->ISRAEL, origin bridge. BENAMMI (existing founder of the Ammonites, 07k_more_bible, referenced by id) & a '—' consort, kind:bridge; Naamah the Ammonite as descendant. The individual descent across ~9 centuries from Ben-Ammi is NOT recorded — an ethnic-descent bridge, flagged, in the style of the Edom-kingdom bridge in 07_biblical.",
+      "a": "BENAMMI",
+      "b": {"id": "BENAMMI_BR_W", "label": "—"},
+      "kind": "bridge",
+      "children": [
+        {"id": "NAAMAHAMMON", "label": "Naamah the Ammonite<br/>c.990 BC · a woman of the Ammonite line; wife of Solomon &amp; MOTHER of Rehoboam, the next king of Judah (1 Kings 14:21, 2 Chron 12:13). Her individual descent from Ben-Ammi is not recorded (ethnic descent, flagged) · scriptural"}
+      ]
+    },
+    {
+      "note": "CROSS-LINE MARRIAGE #2 — AMMON<->ISRAEL. SOLOMON marries NAAMAHAMMON (defined above). Union left CHILDLESS on purpose: their son Rehoboam already exists (07_biblical, SOLOMON+SOLOMONW->REHOBOAM) and must NOT be re-parented; Naamah's card states she was Rehoboam's mother. This ties the house of Ammon into the tree.",
+      "a": "SOLOMON",
+      "b": "NAAMAHAMMON",
+      "children": []
+    },
+    {
+      "note": "PHOENICIA/SIDON<->ISRAEL, origin bridge. PHO_ABIBAAL (existing root of the Phoenician/Tyre house, 20b, referenced by id) & a '—' consort, kind:bridge; an UNNAMED Sidonian noblewoman as descendant. Scripture names no individual Sidonian wife (1 Kings 11:1 lists the group), so she is tied to the Phoenician royal house by ethnicity only — specific parentage flagged as not recorded. Biblical 'Sidonian' is used broadly of the Phoenicians.",
+      "a": "PHO_ABIBAAL",
+      "b": {"id": "PHO_SIDON_BR_W", "label": "—"},
+      "kind": "bridge",
+      "children": [
+        {"id": "PHO_SIDONIANWIFE", "label": "a Sidonian noblewoman<br/>c.985 BC · a woman of the Phoenician (Sidonian) royal house; one of the Sidonian wives Solomon loved (1 Kings 11:1). No individual Sidonian wife is named in scripture; her specific parentage is not recorded, tie to the Phoenician house is by ethnicity · scriptural (individual flagged)"}
+      ]
+    },
+    {
+      "note": "CROSS-LINE MARRIAGE #3 — PHOENICIA/SIDON<->ISRAEL. SOLOMON marries PHO_SIDONIANWIFE (defined above), a childless union representing his Sidonian marriages of 1 Kings 11:1. Joins the Phoenician house to the Israelite line.",
+      "a": "SOLOMON",
+      "b": "PHO_SIDONIANWIFE",
+      "children": []
+    },
+    {
+      "note": "SUMMARY of the remaining foreign wives of 1 Kings 11:1 — Moabite, Edomite & Hittite women (plus the wider Sidonian group). Not invented as individuals; carried as ONE flagged summary card under a childless union with SOLOMON. Their foreign worship is what turned Solomon's heart in his old age (1 Kings 11:3-8).",
+      "a": "SOLOMON",
+      "b": {"id": "SOLOMON_FOREIGN_WIVES", "label": "Solomon's other foreign wives<br/>c.980 BC · summary node · Moabite, Edomite, Sidonian &amp; Hittite women among his 700 wives &amp; 300 concubines (1 Kings 11:1-3); no individuals are named in scripture, so none are invented. Their gods led him into idolatry in his old age (1 Kings 11:4-8) · scriptural (summary)"},
+      "children": []
+    },
+    {
+      "note": "CROSS-LINE MARRIAGE #4 (legendary tradition) — ISRAEL<->SHEBA. The Queen of Sheba, a flagged VISITOR node (floating root), who came to test Solomon (1 Kings 10, 2 Chron 9). Scripture records only her state visit. The Ethiopian Kebra-Nagast tradition making her the mother of MENELIK I by Solomon — founder of the Solomonic dynasty of Ethiopia — is rendered as a clearly-FLAGGED legendary child, NOT scripture.",
+      "a": "SOLOMON",
+      "b": {"id": "QUEEN_SHEBA", "label": "the Queen of Sheba<br/>c.990 BC · queen who came to test Solomon with hard questions &amp; rich gifts (1 Kings 10, 2 Chron 9). Scripture records only her visit; her name &amp; realm (Saba / Ethiopia) are extra-biblical tradition · scriptural visit + tradition (flagged)"},
+      "children": [
+        {"id": "MENELIK1", "label": "Menelik I<br/>c.960 BC · in Ethiopian tradition (Kebra Nagast) the son of Solomon &amp; the Queen of Sheba &amp; founder of the Solomonic dynasty of Ethiopia. LEGENDARY — not attested in the Bible or contemporary record · tradition (flagged)"}
+      ]
+    }
+  ]
+}

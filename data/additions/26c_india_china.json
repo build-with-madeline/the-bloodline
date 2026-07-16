@@ -1,0 +1,95 @@
+{
+  "_note": "Slab c.685-480 BC — the Axial Age in India &amp; China: the Buddha &amp; the rising kingdom of Magadha, and the Spring-and-Autumn sages of a fragmenting Zhou. THREE THREADS. (1) INDIA, the SHAKYA clan &amp; the BUDDHA — a standalone island (IN_): King Suddhodana of the Shakyas at Kapilavastu ● Queen Maya -> Siddhartha Gautama, the Buddha; Maya died seven days after his birth, so her younger sister Mahaprajapati Gotami (Suddhodana's second queen) raised him — shown as a second CHILDLESS union of Suddhodana, note-only, so the Buddha is parented once. The Buddha ● Yasodhara -> their son Rahula. MAHAVIRA (Vardhamana), the 24th &amp; final Tirthankara &amp; systematizer of Jainism, is added as a SEPARATE contemporary island: son of the Kshatriya Siddhartha &amp; Queen Trishala of the Jnatrika clan at Kundagrama near Vaishali. FLAG: the traditional Jain/Buddhist birth dates (Mahavira 599 BC, the Buddha 563 BC) are debated — many scholars date both roughly a century later (Buddha's death now often placed c.400 BC); the received traditional dates are used here as placeholders so the chain renders, NOT as settled history. (2) INDIA, the kingdom of MAGADHA (the Haryanka dynasty) — the rising power, and a SUCCESSION BRIDGE toward the existing historical Maurya line. Bimbisara (patron of the Buddha) -> his son Ajatashatru (who warred on the Vajji/Lichchhavi republics) -> his son Udayin (who founded Pataliputra). These three are genuine father-son within Haryanka. Then a single flagged BRIDGE node — the Shishunaga &amp; Nanda dynasties — carries the throne of Magadha down to the existing IN_CHANDRAGUPTA (defined in 08_convergence.json), whom the bridge references as its child. IN_CHANDRAGUPTA has NO parent in the tree (it appears only as a parent there), so attaching it here as the bridge's child DOUBLE-PARENTS NO ONE and genuinely connects historical Magadha into the main tree — because Chandragupta is already joined by the Seleucus I marriage-alliance (08_convergence.json) to the Seleucid house that sits in Adam's line. FLAG: this Magadha->Maurya link is DYNASTIC SUCCESSION / USURPATION, not descent — Shishunaga was Bimbisara's own minister who supplanted the Haryankas, and Chandragupta (with Chanakya/Kautilya) OVERTHREW the last Nanda king, Dhana Nanda, c.322 BC; the '—' bridge unions assert throne-succession only, never bloodline. Haryanka chronology is itself debated (Mahavamsa dates Bimbisara's accession 544 BC; other scholars a half-century later); the c.558/512/500 placeholders decrease down the chain and are flagged. (3) CHINA (CN_), the Spring-and-Autumn sages — flagged STANDALONE figures, not attached to the Shang/Zhou island (the Zhou is fragmenting into contending states, its kings mere figureheads at Luoyi). CONFUCIUS (Kong Qiu), the great teacher ● a lady of the Qiguan clan -> his only son Kong Li (Boyu) -> his grandson Zisi (Kong Ji), transmitter of the Doctrine of the Mean — a genuine three-generation bloodline. LAO TZU (Laozi), traditional founder of Daoism &amp; reputed author of the Daodejing, a single-figure island, FLAGGED LEGENDARY (Western scholarship doubts he was a single historical person; the traditional 571 BC birth is a placeholder). Duke Huan of Qi, first of the Five Hegemons (reigned 685-643 BC, raised up with his minister Guan Zhong), a single-figure island dated by his accession. Prefixes: India=IN_, China=CN_. Web-verified July 2026 against Wikipedia 'The Buddha', 'Family of Gautama Buddha', 'Maya (mother of the Buddha)', 'Mahavira', 'Haryanka dynasty', 'Udayin', 'Nanda dynasty', 'Confucius', 'Kong Li', 'Zisi', 'Laozi', 'Duke Huan of Qi'. No fabrication; every legendary status, debated date, usurpation &amp; succession-not-descent link flagged in-node. Every child/accession year is SMALLER than its parent's.",
+  "families": [
+    {
+      "note": "INDIA / SHAKYA (1) — Suddhodana ● Maya -> the Buddha. Island root.",
+      "a": {"id": "IN_SUDDHODANA", "label": "👑 Suddhodana<br/>c.590 BC · elected raja (king) of the Shakya clan, ruling from Kapilavastu on the Kosala frontier · father of Siddhartha Gautama, the Buddha · historical/traditional"},
+      "b": {"id": "IN_MAYA", "label": "Maya (Mayadevi)<br/>c.585 BC · queen of Suddhodana &amp; mother of the Buddha; she bore him at Lumbini beneath a sal tree on the way to her father's home &amp; died just seven days after his birth · her younger sister Mahaprajapati then raised him · historical/traditional"},
+      "children": [
+        {"id": "IN_BUDDHA", "label": "Siddhartha Gautama, the Buddha<br/>c.563 BC · 'the Awakened One'; Shakya prince who left the palace, attained enlightenment under the bodhi tree at Bodh Gaya &amp; founded Buddhism, preaching the Four Noble Truths &amp; the Eightfold Path across the Ganges plain for forty-five years · died (parinirvana) c.483 BC, though many scholars now place it c.400 BC · historical (traditional birth date debated)"}
+      ]
+    },
+    {
+      "note": "INDIA / SHAKYA (2) — Suddhodana's second queen Mahaprajapati, Maya's sister, who raised the orphaned Buddha. CHILDLESS union by design (her own children Nanda &amp; Sundari Nanda are noted in-label only, not parented), so the Buddha is parented once on the Maya union above.",
+      "a": "IN_SUDDHODANA",
+      "b": {"id": "IN_MAHAPRAJAPATI", "label": "Mahaprajapati Gotami<br/>c.585 BC · younger sister of Queen Maya &amp; second queen of Suddhodana; foster-mother who raised the infant Buddha after Maya's death · mother of Nanda &amp; Sundari Nanda (in-label only) · later the first woman ordained, founding the order of bhikkhunis (nuns) · historical/traditional"},
+      "children": []
+    },
+    {
+      "note": "INDIA / SHAKYA (3) — the Buddha ● Yasodhara -> their son Rahula.",
+      "a": "IN_BUDDHA",
+      "b": {"id": "IN_YASODHARA", "label": "Yasodhara<br/>c.563 BC · Shakya/Koliyan princess, wife of Siddhartha before his renunciation &amp; mother of his only child Rahula · she later entered the order as a bhikkhuni · historical/traditional"},
+      "children": [
+        {"id": "IN_RAHULA", "label": "Rahula<br/>c.534 BC · only son of the Buddha, born about the night he left the palace · he joined his father's sangha as a boy &amp; became one of its foremost arhats · historical/traditional"}
+      ]
+    },
+    {
+      "note": "INDIA / JAINISM — Mahavira, a SEPARATE contemporary island (not linked to the Shakyas). Siddhartha of the Jnatrika clan ● Queen Trishala -> Vardhamana Mahavira.",
+      "a": {"id": "IN_SIDDHARTHA_JN", "label": "Siddhartha (of the Jnatrika)<br/>c.630 BC · Kshatriya chief of the Jnatrika (Jnatri) clan at Kundagrama near Vaishali &amp; father of Mahavira · historical/traditional"},
+      "b": {"id": "IN_TRISHALA", "label": "Trishala<br/>c.625 BC · queen of the Jnatrika chief Siddhartha, sister of the Lichchhavi ruler Chetaka, &amp; mother of Mahavira · historical/traditional"},
+      "children": [
+        {"id": "IN_MAHAVIRA", "label": "Mahavira (Vardhamana)<br/>c.599 BC · the 24th &amp; final Tirthankara ('ford-maker') of Jainism &amp; systematizer of its doctrine; a contemporary of the Buddha who renounced the world, attained kevala (omniscience) &amp; taught ahimsa (non-violence) &amp; the five great vows, founding the fourfold Jain order · died c.527 BC · FLAG: the traditional 599 BC birth is debated — many scholars date him c.100 years later, alongside the Buddha · historical (traditional dating debated)"}
+      ]
+    },
+    {
+      "note": "INDIA / MAGADHA (1) — the Haryanka dynasty. Bimbisara, island root, ● '—' -> his son Ajatashatru. Genuine father-son.",
+      "a": {"id": "IN_BIMBISARA", "label": "👑 Bimbisara<br/>c.558 BC · king of Magadha &amp; founder-consolidator of the Haryanka dynasty, ruling from Rajagriha · a patron &amp; contemporary of both the Buddha &amp; Mahavira, he expanded Magadha by conquest &amp; marriage into the paramount power of the Ganges plain · by tradition imprisoned &amp; killed by his own son Ajatashatru · historical (Haryanka chronology debated; Mahavamsa dates his accession 544 BC)"},
+      "b": {"id": "IN_BIMBISARAW", "label": "—"},
+      "children": [
+        {"id": "IN_AJATASHATRU", "label": "👑 Ajatashatru<br/>c.512 BC · king of Magadha; son of Bimbisara · he warred on &amp; conquered the Vajji (Lichchhavi) confederacy of republics north of the Ganges &amp; fought Kosala, making Magadha supreme · new siege engines &amp; the fortification of Pataliputra are credited to his reign · historical"}
+      ]
+    },
+    {
+      "note": "INDIA / MAGADHA (2) — Ajatashatru ● '—' -> his son Udayin (Udayabhadra). Genuine father-son.",
+      "a": "IN_AJATASHATRU",
+      "b": {"id": "IN_AJATASHATRUW", "label": "—"},
+      "children": [
+        {"id": "IN_UDAYIN", "label": "👑 Udayin (Udayabhadra)<br/>c.500 BC · king of Magadha; son of Ajatashatru · he founded the city of Pataliputra (modern Patna) at the confluence of the Son &amp; Ganges &amp; moved the capital there from Rajagriha · last strong king before the Haryankas were supplanted · historical (dating debated)"}
+      ]
+    },
+    {
+      "note": "INDIA / MAGADHA (3) — the SUCCESSION BRIDGE. Udayin ● '—' -> a single flagged bridge node standing for the Shishunaga &amp; Nanda dynasties that held the Magadhan throne after the Haryankas. NOT a bloodline — throne-succession only.",
+      "a": "IN_UDAYIN",
+      "b": {"id": "IN_MAGADHA_BRIDGEW", "label": "—"},
+      "kind": "bridge",
+      "children": [
+        {"id": "IN_MAGADHA_BRIDGE", "label": "the Shishunaga &amp; Nanda kings of Magadha<br/>c.413 BC · a SUCCESSION BRIDGE, not a bloodline · the minister Shishunaga supplanted the Haryankas &amp; founded his own dynasty at Magadha, which was in turn overthrown by the low-born Nanda dynasty (Mahapadma Nanda &amp; his sons), who built the first great Indian empire · these houses held the throne down to Dhana Nanda, the last Nanda · a DYNASTIC succession through repeated usurpation, NOT father-son descent"}
+      ]
+    },
+    {
+      "note": "INDIA / MAGADHA (4) — the bridge closes into the existing HISTORICAL Maurya line: IN_MAGADHA_BRIDGE ● '—' -> the existing IN_CHANDRAGUPTA (defined in 08_convergence.json). IN_CHANDRAGUPTA has no parent there, so this attaches it once &amp; connects Magadha into the main tree (Chandragupta is already tied by the Seleucus I marriage to the Seleucid house in Adam's line). FLAG: Chandragupta, aided by Chanakya (Kautilya), OVERTHREW the last Nanda king Dhana Nanda c.322 BC — this edge is conquest/usurpation, NOT descent.",
+      "a": "IN_MAGADHA_BRIDGE",
+      "b": {"id": "IN_MAGADHA_BRIDGE2W", "label": "—"},
+      "kind": "bridge",
+      "children": ["IN_CHANDRAGUPTA"]
+    },
+    {
+      "note": "CHINA (1) — Confucius ● a lady of the Qiguan clan -> his son Kong Li. Standalone island (not attached to the Zhou king-list). Genuine father-son.",
+      "a": {"id": "CN_CONFUCIUS", "label": "Confucius (Kong Qiu; Kongzi)<br/>c.551 BC · the great teacher &amp; philosopher of the state of Lu in the Spring-and-Autumn period; his ethic of ren (humaneness), li (ritual propriety) &amp; the junzi (exemplary person) became the foundation of Confucianism &amp; of Chinese civilization · his sayings were gathered by disciples as the Analects · died c.479 BC · historical"},
+      "b": {"id": "CN_CONFUCIUSW", "label": "a lady of the Qiguan clan<br/>c.549 BC · wife of Confucius &amp; mother of his son Kong Li · historical/traditional"},
+      "children": [
+        {"id": "CN_KONGLI", "label": "Kong Li (Boyu)<br/>c.532 BC · courtesy name Boyu; the only son of Confucius · he predeceased his father &amp; is remembered chiefly as the link between the sage &amp; his philosopher-grandson Zisi · historical"}
+      ]
+    },
+    {
+      "note": "CHINA (2) — Kong Li ● '—' -> his son Zisi, Confucius's grandson.",
+      "a": "CN_KONGLI",
+      "b": {"id": "CN_KONGLIW", "label": "—"},
+      "children": [
+        {"id": "CN_ZISI", "label": "Zisi (Kong Ji)<br/>c.481 BC · grandson of Confucius; a philosopher who transmitted the Confucian teaching &amp; is traditionally credited with the Zhongyong (Doctrine of the Mean) · his line of thought later reached Mencius · historical"}
+      ]
+    },
+    {
+      "note": "CHINA (3) — Lao Tzu, a single-figure standalone island (real/legendary figure ● '—'), FLAGGED LEGENDARY.",
+      "a": {"id": "CN_LAOZI", "label": "Lao Tzu (Laozi)<br/>c.571 BC · traditional founder of Daoism &amp; reputed author of the Daodejing (Tao Te Ching), teaching the Dao ('the Way') &amp; wu wei (effortless action) · said to have been an archivist of the Zhou court whom Confucius consulted · FLAG: LEGENDARY — Western scholarship doubts he was a single historical person &amp; dates the Daodejing's compilation far later; the 571 BC birth is a traditional placeholder · legendary/traditional"},
+      "b": {"id": "CN_LAOZIW", "label": "—"},
+      "children": []
+    },
+    {
+      "note": "CHINA (4) — Duke Huan of Qi, a single-figure standalone island (real ruler ● '—'), dated by his accession.",
+      "a": {"id": "CN_DUKEHUAN", "label": "👑 Duke Huan of Qi (Lü Xiaobai)<br/>c.685 BC · ruler of the state of Qi &amp; the FIRST of the Five Hegemons (ba) of the Spring-and-Autumn period · with his minister Guan Zhong he made Qi the paramount power, rallying the feudal lords under the slogan of 'honouring the king (of Zhou) &amp; expelling the barbarians' · reigned 685-643 BC · historical"},
+      "b": {"id": "CN_DUKEHUANW", "label": "—"},
+      "children": []
+    }
+  ]
+}

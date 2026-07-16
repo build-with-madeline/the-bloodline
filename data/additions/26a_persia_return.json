@@ -1,0 +1,80 @@
+{
+  "_note": "Slab c.600-450 BC — the Achaemenid Persian empire's royal family and the Return from Exile that its founder set in motion. THREE THREADS, stitched to houses already in the tree, with one genuine cross-house marriage as the centrepiece. (1) THE ACHAEMENID ROYAL FAMILY (Persia, existing ids) — the founding kings are ALREADY wired in 06_deep_antiquity.json: CYRUSGREAT (Cyrus the Great) ● CASSANDANE parent ATOSSA; CAMBYSES1 ● MANDANE parent Cyrus; HYSTASPES parents DARIUS1; and DARIUS1 ● ATOSSA (daughter of Cyrus — the real union that fused Cyrus's senior line with the Hystaspid branch) already parent MITHRIDATES5. NONE of these people is re-created or re-parented. This file only ADDS CHILDREN onto those existing couples, on parallel union edges: Cyrus &amp; Cassandane gain their sons CAMBYSES2 (Cambyses II) &amp; BARDIYA (Smerdis) alongside the existing Atossa; Darius &amp; Atossa gain their son XERXES1 (Xerxes I) alongside the existing Mithridates node. (2) THE PERSIA<->EGYPT MARRIAGE (priority cross-house union, per Herodotus 3.1) — CAMBYSES2 ● NITETIS on a childless union tying PERSIA to the Saite house of EGYPT. Nitetis is built as a daughter of the EXISTING Saite pharaoh EG_AMASIS2 (25a_judah_exile_saite.json) on a SEPARATE union from the one on which Amasis already parents EG_PSAMTIK3, so no one is re-parented. FLAGGED AS DEBATED: Herodotus reports the Persian tradition that Amasis, afraid to refuse Cambyses, sent Nitetis dressed as his own daughter when she was in truth the child of APRIES (EG_APRIES, also in the tree) — the pharaoh Amasis had overthrown &amp; killed; other versions make her Cambyses's mother rather than wife. The whole story is legendary casus-belli for the 525 BC Persian conquest of Egypt (Cambyses defeated Amasis's son Psamtik III at Pelusium), not secure genealogy. (3) THE RETURN FROM EXILE (biblical, plain UPPERCASE) — Cyrus's edict of 538 BC (2 Chron 36:22-23; Ezra 1) freed the Judahite exiles to return &amp; rebuild. The post-exilic Davidic heir ZERUBBABEL — grandson of King JECONIAH via SHEALTIEL, governor of Judah who rebuilt the altar &amp; laid the Second Temple's foundation — ALREADY EXISTS on the spine in 07_biblical.json (JECONIAH -> SHEALTIEL -> ZERUBBABEL -> ABIUD) and is NOT duplicated or re-parented. Added here as new figures of the Return: the last First-Temple high priest SERAIAH (executed by Nebuchadnezzar at Riblah, 2 Kings 25:18-21) -> his son JOZADAK (Jehozadak), carried into exile (1 Chron 6:14-15) -> JESHUA (Joshua) son of Jozadak, high priest of the Return who with Zerubbabel rebuilt the Temple (Ezra 3; Hag 1; Zech 3); EZRA the priest-scribe (a standalone island — his descent from Seraiah &amp; through the Zadokite high-priestly line back to Aaron, Ezra 7:1-5, is carried in prose since that line is not drawn in the tree); NEHEMIAH son of Hachaliah, cupbearer to Artaxerxes &amp; governor who rebuilt Jerusalem's walls in 445 BC (Neh 1-6); and the two prophets of the rebuilding — HAGGAI (a standalone island, no parentage given in scripture) &amp; ZECHARIAHP son of Berechiah son of Iddo (Zech 1:1; id suffixed P to stay distinct from ZECHARIAH the father of John the Baptist in 07h). The Second Temple was finished 516 BC (Ezra 6:15) &amp; the walls 445 BC. Prefixes: Persia/Achaemenid &amp; Egypt use existing ids (plain / EG_); biblical figures are plain UPPERCASE. Ordering: referenced ids (Cyrus, Cassandane, Darius, Atossa, EG_AMASIS2, and the new Cambyses/Nitetis/Seraiah/Jozadak roots) are defined before they are used, and every child's year is SMALLER than its parent's. Web-verified July 2026 against Herodotus Book 3.1 (the Nitetis tradition, confirmed debated), and Wikipedia 'Cambyses II', 'Bardiya', 'Xerxes I', 'Achaemenid dynasty', plus Ezra 1-7, Nehemiah 1-6, Haggai 1, Zechariah 1, 2 Kings 25, 1 Chronicles 6. No fabrication; the Persia<->Egypt marriage, Ezra's compressed descent, and Zechariah's grandfather-compression are all flagged in-node. AVOIDS DOUBLE-PARENTING: CYRUSGREAT, CAMBYSES1, DARIUS1, ATOSSA, MANDANE, HYSTASPES, CASSANDANE, EG_AMASIS2, SHEALTIEL, ZERUBBABEL &amp; JECONIAH are all referenced by id only and never placed in a children array here.",
+  "families": [
+    {
+      "note": "ACHAEMENID (1) — Cyrus the Great's sons. The EXISTING CYRUSGREAT ● the EXISTING CASSANDANE (both referenced by id, from 06_deep_antiquity.json, NOT re-created) on a PARALLEL union to the one already bearing their daughter Atossa. New children: Cambyses II &amp; Bardiya. Atossa is NOT re-added — she is already parented on Cyrus &amp; Cassandane's other union.",
+      "a": "CYRUSGREAT",
+      "b": "CASSANDANE",
+      "children": [
+        {"id": "CAMBYSES2", "label": "👑 Cambyses II<br/>c.560 BC · King of Persia; elder son of Cyrus the Great &amp; Cassandane · succeeding his father in 530 BC he conquered Egypt, defeating the Saite pharaoh Psamtik III at Pelusium in 525 BC &amp; adding the Nile to the empire · he died in 522 BC returning to face the usurper who had seized his throne · historical"},
+        {"id": "BARDIYA", "label": "👑 Bardiya (Smerdis)<br/>c.555 BC · younger son of Cyrus the Great · by Herodotus's account Cambyses had him secretly killed, after which a magus, Gaumata, impersonated him &amp; usurped the throne in 522 BC — the pretender whom Darius &amp; six fellow nobles slew to take the crown (the Behistun inscription) · historical (debated)"}
+      ]
+    },
+    {
+      "note": "ACHAEMENID (2) — Xerxes I, son of Darius &amp; Atossa. The EXISTING DARIUS1 ● the EXISTING ATOSSA (both referenced by id, from 06_deep_antiquity.json; their union already bears the MITHRIDATES5 node) on a PARALLEL union bearing their real son Xerxes. Darius's father Hystaspes is already in the tree &amp; is NOT re-drawn.",
+      "a": "DARIUS1",
+      "b": "ATOSSA",
+      "children": [
+        {"id": "XERXES1", "label": "👑 Xerxes I 'the Great'<br/>c.518 BC · King of Persia; son of Darius I &amp; Atossa (thus grandson of Cyrus the Great through his mother) · he crushed revolts in Egypt &amp; Babylon, then led the vast 480 BC invasion of Greece — Thermopylae, the burning of Athens &amp; the naval defeat at Salamis · traditionally identified with Ahasuerus, husband of Queen Esther (Esther 1) · historical"}
+      ]
+    },
+    {
+      "note": "PERSIA<->EGYPT bridge — Nitetis, built as a daughter of the EXISTING Saite pharaoh EG_AMASIS2 (from 25a_judah_exile_saite.json). This is a SEPARATE union from the one on which Amasis already parents Psamtik III, so no one is re-parented. FLAG: per Herodotus 3.1 the tradition is that she was really the daughter of APRIES (EG_APRIES, whom Amasis overthrew), sent dressed as Amasis's own — the descent is legendary, not secure.",
+      "a": "EG_AMASIS2",
+      "b": {"id": "EG_AMASIS2W2", "label": "—"},
+      "children": [
+        {"id": "NITETIS", "label": "Nitetis<br/>c.560 BC · an Egyptian princess sent to the Persian court in the tradition of Herodotus (3.1) · presented as a daughter of the Saite pharaoh Amasis II, though Herodotus reports she was in truth the daughter of APRIES — the pharaoh Amasis had deposed &amp; killed — sent in disguise because Amasis dared neither give nor refuse his own daughter to Cambyses · her exposure of the deceit was told as the casus belli for the Persian conquest of Egypt · historical tradition (debated; some versions make her Cambyses's mother, not wife)"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE (priority) PERSIA <-> EGYPT — the new CAMBYSES2 ● the new NITETIS, tying the Achaemenid Persian house to the Saite house of Egypt. CHILDLESS by design &amp; FLAGGED DEBATED: the union is the legendary casus belli of Herodotus 3.1, the prelude to Cambyses's 525 BC conquest of Egypt, not a securely attested marriage with issue.",
+      "a": "CAMBYSES2",
+      "b": "NITETIS",
+      "children": []
+    },
+    {
+      "note": "THE RETURN (1) — the last First-Temple high priest. Seraiah (new island root of the exilic priestly line) ● '—'; his son Jozadak as child. Seraiah's descent from Aaron through the Zadokite high priests (1 Chron 6; Ezra 7:1-5) is carried in prose, since that priestly chain is not drawn out in the tree.",
+      "a": {"id": "SERAIAH", "label": "Seraiah<br/>c.620 BC · the chief (high) priest of Judah at the fall of Jerusalem, of the Zadokite line descending from Aaron (1 Chron 6:14) · taken by Nebuzaradan &amp; executed before Nebuchadnezzar at Riblah when the Temple was destroyed in 586 BC (2 Kings 25:18-21) · father of Jehozadak the exile &amp; ancestor of Ezra the scribe (Ezra 7:1) · historical (biblical)"},
+      "b": {"id": "SERAIAHW", "label": "—"},
+      "children": [
+        {"id": "JOZADAK", "label": "Jozadak (Jehozadak)<br/>c.590 BC · son of the high priest Seraiah; carried into Babylonian captivity when the LORD sent Judah into exile by the hand of Nebuchadnezzar (1 Chron 6:15) · the priestly office passed through him to his son Jeshua, high priest of the Return · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "THE RETURN (2) — Jeshua the high priest of the Return. Jozadak ● '—'; his son Jeshua as child. Jeshua led the rebuilding of the Temple alongside the governor Zerubbabel (already on the Davidic spine in 07_biblical.json, referenced in prose, NOT re-drawn).",
+      "a": "JOZADAK",
+      "b": {"id": "JOZADAKW", "label": "—"},
+      "children": [
+        {"id": "JESHUA", "label": "Jeshua (Joshua) son of Jozadak<br/>c.560 BC · high priest of the Return from exile · with the governor Zerubbabel he rebuilt the altar &amp; laid the foundation of the Second Temple after Cyrus's edict of 538 BC (Ezra 3), was cleansed &amp; crowned in the prophet Zechariah's vision (Zech 3), &amp; saw the Temple completed in 516 BC (Ezra 6:15; Hag 1) · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "THE RETURN (3) — Ezra the priest-scribe, a standalone island (real figure ● '—', childless), matching the Daniel/prophet pattern. His father is given as Seraiah (Ezra 7:1) &amp; his line traced through the Zadokite high priests back to Aaron (Ezra 7:1-5); since that priestly chain is not drawn in the tree &amp; scripture compresses the generations, his descent is noted in prose rather than wired as an edge.",
+      "a": {"id": "EZRA", "label": "Ezra<br/>c.490 BC · a priest &amp; ready scribe in the Law of Moses, descended from the high priest Seraiah through the Zadokite line back to Aaron (Ezra 7:1-5) · sent up from Babylon by Artaxerxes c.458 BC with the returning exiles, he taught the Law, ended the foreign marriages, &amp; read the Book of the Law to the assembled people (Ezra 7-10; Neh 8) · historical (biblical)"},
+      "b": {"id": "EZRAW", "label": "—"},
+      "children": []
+    },
+    {
+      "note": "THE RETURN (4) — Nehemiah the cupbearer &amp; governor. Hachaliah (new island root) ● '—'; his son Nehemiah as child (Neh 1:1).",
+      "a": {"id": "HACHALIAH", "label": "Hachaliah<br/>c.510 BC · father of Nehemiah the governor (Neh 1:1) · historical (biblical)"},
+      "b": {"id": "HACHALIAHW", "label": "—"},
+      "children": [
+        {"id": "NEHEMIAH", "label": "Nehemiah son of Hachaliah<br/>c.480 BC · cupbearer to King Artaxerxes I of Persia at Susa · appointed governor of Judah, he returned c.445 BC &amp; rebuilt the ruined walls of Jerusalem in fifty-two days against fierce opposition (Neh 1-6), then reformed the covenant community with Ezra (Neh 8-13) · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "THE RETURN (5) — the prophet Haggai, a standalone island (real figure ● '—', childless). Scripture gives him no parentage, so none is invented — matching the Daniel pattern.",
+      "a": {"id": "HAGGAI", "label": "Haggai<br/>c.560 BC · prophet of the Return whose oracles in 520 BC roused Zerubbabel &amp; the high priest Jeshua to resume the long-stalled rebuilding of the Temple (Hag 1-2; Ezra 5:1) · historical (biblical)"},
+      "b": {"id": "HAGGAIW", "label": "—"},
+      "children": []
+    },
+    {
+      "note": "THE RETURN (6) — the prophet Zechariah. Berechiah (new island root, son of Iddo) ● '—'; his son Zechariah as child. FLAG: Ezra 5:1 &amp; 6:14 call the prophet 'son of Iddo', compressing the generation of Berechiah named in Zech 1:1. Id is ZECHARIAHP to stay distinct from ZECHARIAH the father of John the Baptist (07h_holyfamily.json).",
+      "a": {"id": "BERECHIAH_Z", "label": "Berechiah<br/>c.575 BC · son of Iddo (a priestly family of the Return, Neh 12:16) &amp; father of the prophet Zechariah (Zech 1:1) · historical (biblical)"},
+      "b": {"id": "BERECHIAH_ZW", "label": "—"},
+      "children": [
+        {"id": "ZECHARIAHP", "label": "Zechariah<br/>c.550 BC · prophet, son of Berechiah, son of Iddo (Zech 1:1; called 'son of Iddo' in Ezra 5:1 by compression) · with Haggai he urged on the rebuilding of the Temple from 520 BC &amp; saw the night-visions, including the crowning of the high priest Jeshua &amp; the promise of the Branch (Zech 3-6) · historical (biblical)"}
+      ]
+    }
+  ]
+}

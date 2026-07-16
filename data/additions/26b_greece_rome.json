@@ -1,0 +1,310 @@
+{
+ "_note": "Slab c.650-500 BC — ARCHAIC/early-CLASSICAL GREECE and the EARLY ROMAN REPUBLIC. Four groups. (1) ATHENS (new GRK_ house 'Classical Greece'): the lawgivers &amp; tyrants — Draco, Solon (anchored to his attested father Execestides), Pisistratus (anchored to his father Hippocrates, Herodotus 1.59) with his sons Hippias &amp; Hipparchus, and the Alcmaeonid Cleisthenes, father of Athenian democracy (built with his real pedigree: grandfather Alcmaeon, father Megacles, mother Agariste daughter of the tyrant Cleisthenes of Sicyon). (2) THE SEVEN SAGES &amp; early philosophers (GRK_): Thales of Miletus (father Examyes, mother Cleobuline), Anaximander (father Praxiades), Pythagoras of Samos (father Mnesarchus, mother Pythais), Heraclitus of Ephesus (father Bloson) — each anchored to their recorded father per Diogenes Laertius; no kin edges between the thinkers themselves. (3) SPARTA — the two historical royal houses, grafted onto the EXISTING semi-legendary Spartan lines: the AGIAD line continues from the existing MYC_TELECLUS down through Alcamenes, Polydorus, Eurycrates, Anaxander, Eurycratides, Leon to Anaxandridas II and his half-brother sons Cleomenes I &amp; Leonidas I of Thermopylae; the EURYPONTID line continues from the existing MYC_CHARILAUS through Nicander, Theopompus and the disputed middle kings to Ariston &amp; his son Demaratus. Kept in the MYC_ house so they attach cleanly to their existing parents. Early Spartan kings before the mid-6th c. BC are semi-legendary (flagged); the two ancient king-lists (Herodotus vs Pausanias) conflict on the middle Eurypontids (noted). (4) ROME (existing ROM_ house) — the fall of the monarchy &amp; the early Republic (509 BC): CONNECTED to the existing royal Tarquins — Lucius Junius Brutus is grafted in as grandson of the existing Tarquinius Priscus via a new daughter Tarquinia (making Brutus the nephew of the existing Superbus, per Livy 1.56); and the existing Servius Tullius is linked to the existing Superbus through a new daughter Tullia, whose son Sextus Tarquinius raped Lucretia. Lucretia (daughter of Sp. Lucretius, wife of Collatinus) &amp; the rape that ended the monarchy are recorded. Standalone early-Republican figures: Publius Valerius Publicola, Coriolanus &amp; Cincinnatus. Roman dates are nominal placeholders on the schematic ladder the existing Roman-kings slab uses (accession-year based), each child's year kept strictly smaller than its parent's; the founding figures are flagged semi-legendary. Web-verified against Wikipedia 'Agiad dynasty', 'Eurypontid', 'List of kings of Sparta', 'Draco', 'Solon', 'Pisistratus', 'Cleisthenes', 'Alcmaeonidae', 'Thales of Miletus', 'Anaximander', 'Pythagoras', 'Heraclitus', 'Lucius Junius Brutus', 'Lucretia', 'Sextus Tarquinius', 'Publius Valerius Publicola', 'Coriolanus', 'Cincinnatus'. No fabrication — attested pedigrees followed, unrecorded spouses/mothers drawn as '—' placeholders rather than invented, and disputed points (the middle Eurypontid succession, Demaratus's contested paternity) flagged not resolved.",
+ "families": [
+  {
+   "note": "ATHENS (GRK_) — Draco, the harsh lawgiver whose 621 BC code prescribed death for nearly every crime ('written in blood'). Parentage unrecorded, so drawn with a '—' placeholder spouse &amp; no depicted issue; a standalone historical figure.",
+   "a": {"id": "GRK_DRACO", "label": "Draco<br/>c.650 BC · Athenian lawgiver; his 621 BC code, the first written law of Athens, was so severe it was said to be 'written in blood' · historical"},
+   "b": {"id": "GRK_DRACO_W", "label": "—"},
+   "children": []
+  },
+  {
+   "note": "ATHENS (GRK_) — Solon, anchored to his attested father Execestides, a eupatrid of the Medontid/Codrid line; Solon's mother was a cousin of Pisistratus's mother (a tie noted, not drawn).",
+   "a": {"id": "GRK_EXECESTIDES", "label": "Execestides<br/>c.630 BC · Athenian eupatrid of the Medontid line, reputedly descended from King Codrus; father of Solon · historical"},
+   "b": {"id": "GRK_EXECESTIDES_W", "label": "—"},
+   "children": [
+    {"id": "GRK_SOLON", "label": "Solon<br/>c.594 BC · Athenian statesman, poet &amp; lawgiver; his 594 BC reforms (the seisachtheia, cancelling debt-slavery) laid the foundation of democracy; one of the Seven Sages · historical"}
+   ]
+  },
+  {
+   "note": "ATHENS (GRK_) — Pisistratus, anchored to his father Hippocrates (the Athenian nobleman of Herodotus 1.59, distinct from the later Alcmaeonid Hippocrates). Pisistratus was the tyrant who seized power three times.",
+   "a": {"id": "GRK_HIPPOCRATES_ATH", "label": "Hippocrates<br/>c.630 BC · Athenian nobleman; father of the tyrant Pisistratus (Herodotus 1.59) · historical"},
+   "b": {"id": "GRK_HIPPOCRATES_ATH_W", "label": "—"},
+   "children": [
+    {"id": "GRK_PISISTRATUS", "label": "👑 Pisistratus<br/>c.600 BC · tyrant of Athens (r. 561–527 BC, twice expelled &amp; restored); patron of festivals &amp; the fixing of the Homeric text · historical"}
+   ]
+  },
+  {
+   "note": "ATHENS (GRK_) — Pisistratus x an Athenian wife ('—') > his sons the PEISISTRATIDS: Hippias, who inherited the tyranny, &amp; Hipparchus, the cultural patron slain by the Tyrannicides.",
+   "a": "GRK_PISISTRATUS",
+   "b": {"id": "GRK_PISISTRATUS_W", "label": "—"},
+   "children": [
+    {"id": "GRK_HIPPIAS", "label": "👑 Hippias<br/>c.570 BC · son of Pisistratus; last tyrant of Athens (r. 527–510 BC); expelled to Persia, he guided Darius's army at Marathon in 490 BC · historical"},
+    {"id": "GRK_HIPPARCHUS", "label": "Hipparchus<br/>c.560 BC · son of Pisistratus; co-ruler with Hippias &amp; patron of poets; assassinated 514 BC by Harmodius &amp; Aristogeiton, the Tyrannicides · historical"}
+   ]
+  },
+  {
+   "note": "ATHENS (GRK_) — the ALCMAEONID clan. Alcmaeon, its head, to his son Megacles. Alcmaeon won an Olympic chariot race (c.592 BC) &amp; grew rich aiding Croesus's envoys at Delphi.",
+   "a": {"id": "GRK_ALCMAEON", "label": "Alcmaeon<br/>c.620 BC · head of the Alcmaeonid clan; Olympic chariot victor c.592 BC; enriched by Croesus for aiding his envoys · historical"},
+   "b": {"id": "GRK_ALCMAEON_W", "label": "—"},
+   "children": [
+    {"id": "GRK_MEGACLES", "label": "Megacles<br/>c.600 BC · Alcmaeonid; won the hand of Agariste of Sicyon in her father's famous suitor-contest · historical"}
+   ]
+  },
+  {
+   "note": "ATHENS/SICYON (GRK_) — Cleisthenes of Sicyon, the Orthagorid tyrant, to his daughter Agariste, whom he married to the Alcmaeonid Megacles after a year-long contest of suitors (Herodotus 6.126-130).",
+   "a": {"id": "GRK_CLEISTHENES_SICYON", "label": "👑 Cleisthenes of Sicyon<br/>c.630 BC · tyrant of Sicyon (r. c.600–560 BC); maternal grandfather of Cleisthenes of Athens · historical"},
+   "b": {"id": "GRK_CLEISTHENES_SICYON_W", "label": "—"},
+   "children": [
+    {"id": "GRK_AGARISTE", "label": "Agariste<br/>c.595 BC · daughter of Cleisthenes of Sicyon; wife of Megacles; mother of Cleisthenes of Athens · historical"}
+   ]
+  },
+  {
+   "note": "ATHENS (GRK_) — Megacles x Agariste > their sons Cleisthenes, who framed the democracy, &amp; Hippocrates, whose daughter Agariste became the mother of Pericles (a future connection).",
+   "a": "GRK_MEGACLES",
+   "b": "GRK_AGARISTE",
+   "children": [
+    {"id": "GRK_CLEISTHENES", "label": "Cleisthenes<br/>c.570 BC · Alcmaeonid statesman; the father of Athenian democracy — his 508/507 BC reforms created the ten tribes &amp; the Council of Five Hundred · historical"},
+    {"id": "GRK_HIPPOCRATES_ALC", "label": "Hippocrates<br/>c.565 BC · brother of Cleisthenes; grandfather, through his daughter Agariste, of Pericles · historical"}
+   ]
+  },
+  {
+   "note": "PHILOSOPHERS (GRK_) — Thales of Miletus, anchored to his recorded parents Examyes &amp; Cleobuline (Diogenes Laertius 1.22). Founder of Greek natural philosophy &amp; the first of the Seven Sages; a standalone thinker.",
+   "a": {"id": "GRK_EXAMYES", "label": "Examyes<br/>c.650 BC · Milesian, said to be of Phoenician (Cadmeian) descent; father of Thales · historical"},
+   "b": {"id": "GRK_CLEOBULINE", "label": "Cleobuline<br/>c.645 BC · Milesian; mother of Thales · historical"},
+   "children": [
+    {"id": "GRK_THALES", "label": "Thales<br/>c.624 BC · philosopher &amp; geometer of Miletus; first of the Seven Sages; founder of natural philosophy; reputedly predicted the 585 BC solar eclipse · historical"}
+   ]
+  },
+  {
+   "note": "PHILOSOPHERS (GRK_) — Anaximander of Miletus, anchored to his father Praxiades (Diogenes Laertius 2.1); pupil &amp; successor of Thales. A standalone thinker.",
+   "a": {"id": "GRK_PRAXIADES", "label": "Praxiades<br/>c.640 BC · Milesian; father of the philosopher Anaximander · historical"},
+   "b": {"id": "GRK_PRAXIADES_W", "label": "—"},
+   "children": [
+    {"id": "GRK_ANAXIMANDER", "label": "Anaximander<br/>c.610 BC · Milesian philosopher; pupil of Thales; proposed the boundless (apeiron) as first principle &amp; drew the first map of the world · historical"}
+   ]
+  },
+  {
+   "note": "PHILOSOPHERS (GRK_) — Pythagoras of Samos, anchored to his parents Mnesarchus &amp; Pythais (Diogenes Laertius 8.1); mathematician &amp; founder of the Pythagorean school at Croton. A standalone thinker.",
+   "a": {"id": "GRK_MNESARCHUS", "label": "Mnesarchus<br/>c.600 BC · gem-engraver &amp; merchant of Samos; father of Pythagoras · historical"},
+   "b": {"id": "GRK_PYTHAIS", "label": "Pythais<br/>c.595 BC · of Samos; mother of Pythagoras · historical"},
+   "children": [
+    {"id": "GRK_PYTHAGORAS", "label": "Pythagoras<br/>c.570 BC · philosopher &amp; mathematician of Samos; founded the Pythagorean brotherhood at Croton in southern Italy · historical"}
+   ]
+  },
+  {
+   "note": "PHILOSOPHERS (GRK_) — Heraclitus of Ephesus, anchored to his father Bloson of the royal Androclid line (Diogenes Laertius 9.1); 'the Obscure', who taught that all things flow. A standalone thinker.",
+   "a": {"id": "GRK_BLOSON", "label": "Bloson<br/>c.575 BC · aristocrat of Ephesus, of the royal Androclid house; father of Heraclitus · historical"},
+   "b": {"id": "GRK_BLOSON_W", "label": "—"},
+   "children": [
+    {"id": "GRK_HERACLITUS", "label": "Heraclitus<br/>c.535 BC · philosopher of Ephesus, 'the Obscure'; taught universal flux (panta rhei) &amp; the unity of opposites under the logos · historical"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line, THE GRAFT. Continues from the EXISTING MYC_TELECLUS (built in 23b) to his son Alcamenes. No node re-created; MYC_TELECLUS is referenced as parent, giving the existing semi-legendary list its historical continuation.",
+   "a": "MYC_TELECLUS",
+   "b": {"id": "MYC_ALCAMENES_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ALCAMENES", "label": "👑 Alcamenes<br/>c.740 BC · son of Teleclus; Agiad king of Sparta; reign reached into the First Messenian War · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Alcamenes to Polydorus, who with the Eurypontid Theopompus led Sparta to victory in the First Messenian War.",
+   "a": "MYC_ALCAMENES",
+   "b": {"id": "MYC_POLYDORUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_POLYDORUS", "label": "👑 Polydorus<br/>c.700 BC · son of Alcamenes; Agiad king; led the conquest &amp; settlement of Messenia; a popular king, later murdered · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Polydorus to Eurycrates.",
+   "a": "MYC_POLYDORUS",
+   "b": {"id": "MYC_EURYCRATES_W", "label": "—"},
+   "children": [
+    {"id": "MYC_EURYCRATES", "label": "👑 Eurycrates<br/>c.665 BC · son of Polydorus; Agiad king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Eurycrates to Anaxander, whose reign spanned the Second Messenian War.",
+   "a": "MYC_EURYCRATES",
+   "b": {"id": "MYC_ANAXANDER_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ANAXANDER", "label": "👑 Anaxander<br/>c.640 BC · son of Eurycrates; Agiad king during the Second Messenian War · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Anaxander to Eurycratides.",
+   "a": "MYC_ANAXANDER",
+   "b": {"id": "MYC_EURYCRATIDES_W", "label": "—"},
+   "children": [
+    {"id": "MYC_EURYCRATIDES", "label": "👑 Eurycratides<br/>c.615 BC · son of Anaxander; Agiad king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Eurycratides to Leon, father of Anaxandridas II; the list now nears the well-attested historical kings.",
+   "a": "MYC_EURYCRATIDES",
+   "b": {"id": "MYC_LEON_W", "label": "—"},
+   "children": [
+    {"id": "MYC_LEON", "label": "👑 Leon<br/>c.590 BC · son of Eurycratides; Agiad king; father of Anaxandridas II · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line, into HISTORY. Leon to Anaxandridas II, the first firmly historical Agiad; the ephors made him take a second wife when his first bore no heir (Herodotus 5.39-40).",
+   "a": "MYC_LEON",
+   "b": {"id": "MYC_LEON_W2", "label": "—"},
+   "children": [
+    {"id": "MYC_ANAXANDRIDAS2", "label": "👑 Anaxandridas II<br/>c.560 BC · son of Leon; Agiad king of Sparta (r. c.560–524 BC); uniquely kept two wives at the ephors' command · historical"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Anaxandridas II by his SECOND wife ('—') > Cleomenes I, his eldest son &amp; successor. Cleomenes was a half-brother to Leonidas (different mothers, per Herodotus 5.39-41) — split into two families to keep that accurate.",
+   "a": "MYC_ANAXANDRIDAS2",
+   "b": {"id": "MYC_ANAXANDRIDAS2_W1", "label": "—"},
+   "children": [
+    {"id": "MYC_CLEOMENES1", "label": "👑 Cleomenes I<br/>c.545 BC · eldest son of Anaxandridas II (by his second wife); Agiad king (r. c.524–490 BC); crushed Argos, intervened at Athens, died mad · historical"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Anaxandridas II by his FIRST wife (a niece of Chilon) > Leonidas I; his elder full brother Dorieus &amp; younger Cleombrotus are omitted here. Leonidas is the hero of Thermopylae.",
+   "a": "MYC_ANAXANDRIDAS2",
+   "b": {"id": "MYC_ANAXANDRIDAS2_W2", "label": "—"},
+   "children": [
+    {"id": "MYC_LEONIDAS1", "label": "👑 Leonidas I<br/>c.540 BC · son of Anaxandridas II (by his first wife); Agiad king; fell with the Three Hundred at the pass of Thermopylae, 480 BC · historical"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line, THE GRAFT. Continues from the EXISTING MYC_CHARILAUS (built in 23b) to his son Nicander. MYC_CHARILAUS referenced as parent, not re-created.",
+   "a": "MYC_CHARILAUS",
+   "b": {"id": "MYC_NICANDER_W", "label": "—"},
+   "children": [
+    {"id": "MYC_NICANDER", "label": "👑 Nicander<br/>c.760 BC · son of Charilaus; Eurypontid king who raided the Argolid · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Nicander to Theopompus, the king who won the First Messenian War &amp; (with the Agiad Polydorus) is credited with creating the ephorate.",
+   "a": "MYC_NICANDER",
+   "b": {"id": "MYC_THEOPOMPUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_THEOPOMPUS", "label": "👑 Theopompus<br/>c.730 BC · son of Nicander; Eurypontid king; won the First Messenian War &amp; helped institute the ephors · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line (DISPUTED middle). Theopompus to Anaxandridas I (the Eurypontid, distinct from the Agiad Anaxandridas II above). Herodotus's &amp; Pausanias's king-lists diverge here; the succession is followed as a regnal order, flagged.",
+   "a": "MYC_THEOPOMPUS",
+   "b": {"id": "MYC_ANAXANDRIDAS1_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ANAXANDRIDAS1_EUR", "label": "👑 Anaxandridas I<br/>c.700 BC · Eurypontid king of Sparta (the Eurypontid, not the Agiad Anaxandridas II); the middle Eurypontid links are disputed between the ancient lists · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line (DISPUTED). Anaxandridas I to Archidamus I; Herodotus &amp; Pausanias disagree on the order of these kings.",
+   "a": "MYC_ANAXANDRIDAS1_EUR",
+   "b": {"id": "MYC_ARCHIDAMUS1_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ARCHIDAMUS1", "label": "👑 Archidamus I<br/>c.670 BC · Eurypontid king; his place in the succession is uncertain between the two ancient lists · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Archidamus I to Anaxilas.",
+   "a": "MYC_ARCHIDAMUS1",
+   "b": {"id": "MYC_ANAXILAS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ANAXILAS", "label": "👑 Anaxilas<br/>c.645 BC · Eurypontid king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Anaxilas to Leotychidas I (per Herodotus 8.131).",
+   "a": "MYC_ANAXILAS",
+   "b": {"id": "MYC_LEOTYCHIDAS1_W", "label": "—"},
+   "children": [
+    {"id": "MYC_LEOTYCHIDAS1", "label": "👑 Leotychidas I<br/>c.620 BC · son of Anaxilas; Eurypontid king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Leotychidas I to Hippocratidas.",
+   "a": "MYC_LEOTYCHIDAS1",
+   "b": {"id": "MYC_HIPPOCRATIDAS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_HIPPOCRATIDAS", "label": "👑 Hippocratidas<br/>c.595 BC · son of Leotychidas I; Eurypontid king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Hippocratidas to Agasicles, the father of Ariston.",
+   "a": "MYC_HIPPOCRATIDAS",
+   "b": {"id": "MYC_AGASICLES_W", "label": "—"},
+   "children": [
+    {"id": "MYC_AGASICLES", "label": "👑 Agasicles<br/>c.570 BC · son of Hippocratidas; Eurypontid king; father of Ariston · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line, into HISTORY. Agasicles to Ariston, the first firmly historical Eurypontid; friend &amp; co-king of the Agiad Anaxandridas II.",
+   "a": "MYC_AGASICLES",
+   "b": {"id": "MYC_ARISTON_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ARISTON", "label": "👑 Ariston<br/>c.545 BC · son of Agasicles; Eurypontid king (r. c.550–515 BC); reigned alongside the Agiad Anaxandridas II · historical"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Ariston x his third wife ('—') > Demaratus, whose legitimacy Ariston himself first doubted — the pretext Cleomenes I later used, bribing Delphi, to depose him.",
+   "a": "MYC_ARISTON",
+   "b": {"id": "MYC_ARISTON_W2", "label": "—"},
+   "children": [
+    {"id": "MYC_DEMARATUS", "label": "👑 Demaratus<br/>c.515 BC · son of Ariston; Eurypontid king (r. c.515–491 BC); deposed after Cleomenes I bribed Delphi to question his birth; fled to Persia &amp; counselled Xerxes at Thermopylae · historical"}
+   ]
+  },
+  {
+   "note": "ROME — THE BRUTUS GRAFT (part 1). The EXISTING Tarquinius Priscus (ROM_PRISCUS, built in 23a) x his wife Tanaquil > a daughter Tarquinia. Priscus referenced as parent, not re-created; this adds his historical/legendary consort &amp; the daughter who links the royal house to the Republic's founder.",
+   "a": "ROM_PRISCUS",
+   "b": {"id": "ROM_TANAQUIL", "label": "Tanaquil<br/>c.600 BC · Etruscan noblewoman of Tarquinii; wife of Tarquinius Priscus; a seer who won the throne first for Priscus then for Servius Tullius · legendary"},
+   "children": [
+    {"id": "ROM_TARQUINIA", "label": "Tarquinia<br/>c.575 BC · daughter of Tarquinius Priscus; sister of Superbus; wife of M. Junius &amp; mother of Lucius Junius Brutus (Livy 1.56) · legendary"}
+   ]
+  },
+  {
+   "note": "ROME — THE BRUTUS GRAFT (part 2). Marcus Junius x the existing-linked Tarquinia > their sons: Lucius Junius Brutus, founder of the Republic, &amp; an elder Marcus whom the tyrant Superbus put to death (Livy 1.56). This makes Brutus a grandson of the existing Priscus &amp; nephew of the existing Superbus.",
+   "a": {"id": "ROM_MJUNIUS", "label": "Marcus Junius<br/>c.575 BC · of the gens Junia; husband of Tarquinia; father of Lucius Junius Brutus · legendary"},
+   "b": "ROM_TARQUINIA",
+   "children": [
+    {"id": "ROM_BRUTUS", "label": "Lucius Junius Brutus<br/>c.545 BC · nephew of Tarquinius Superbus; feigned dull-wittedness (hence 'Brutus'), then led the 509 BC revolt after the rape of Lucretia; founding consul of the Roman Republic · semi-legendary"},
+    {"id": "ROM_MJUNIUS_ELDER", "label": "Marcus Junius<br/>c.548 BC · elder brother of Lucius Junius Brutus; put to death by King Tarquinius Superbus · legendary"}
+   ]
+  },
+  {
+   "note": "ROME — THE TULLIA LINK. The EXISTING Servius Tullius (ROM_SERVIUS, built in 23a) x a wife ('—') > his younger daughter Tullia. Servius referenced as parent, not re-created; Tullia ties the two existing kings together.",
+   "a": "ROM_SERVIUS",
+   "b": {"id": "ROM_SERVIUS_W2", "label": "—"},
+   "children": [
+    {"id": "ROM_TULLIA", "label": "Tullia Minor<br/>c.560 BC · younger daughter of Servius Tullius; wife of Tarquinius Superbus; drove her carriage over her murdered father's corpse · legendary"}
+   ]
+  },
+  {
+   "note": "ROME — the fall of the monarchy. The EXISTING Tarquinius Superbus (ROM_SUPERBUS, built in 23a) x Tullia > their son Sextus Tarquinius, whose rape of Lucretia triggered the 509 BC revolt. Superbus &amp; Tullia both referenced/linked, not re-created. Dates nominal (the Roman-kings ladder uses accession-year placeholders).",
+   "a": "ROM_SUPERBUS",
+   "b": "ROM_TULLIA",
+   "children": [
+    {"id": "ROM_SEXTUS", "label": "Sextus Tarquinius<br/>c.525 BC · son of Tarquinius Superbus; his rape of Lucretia sparked the fall of the monarchy in 509 BC; later killed at Gabii · legendary"}
+   ]
+  },
+  {
+   "note": "ROME — LUCRETIA. Her father Spurius Lucretius Tricipitinus, prefect of Rome, to Lucretia. Her rape by Sextus Tarquinius &amp; her suicide were the spark of the Republic; her father served as one of 509 BC's first consuls.",
+   "a": {"id": "ROM_SPLUCRETIUS", "label": "Spurius Lucretius Tricipitinus<br/>c.560 BC · prefect of Rome &amp; father of Lucretia; a suffect consul of 509 BC · semi-legendary"},
+   "b": {"id": "ROM_SPLUCRETIUS_W", "label": "—"},
+   "children": [
+    {"id": "ROM_LUCRETIA", "label": "Lucretia<br/>c.535 BC · wife of Tarquinius Collatinus; her rape by Sextus Tarquinius &amp; her suicide sparked the 509 BC revolt that ended the Roman monarchy · semi-legendary"}
+   ]
+  },
+  {
+   "note": "ROME — Lucretia x Tarquinius Collatinus, a kinsman of the royal Tarquins &amp; co-founding consul of the Republic. Childless in the tradition (she took her own life after the rape). Collatinus's exact Tarquin descent is noted in the label, not drawn as an edge.",
+   "a": {"id": "ROM_COLLATINUS", "label": "Lucius Tarquinius Collatinus<br/>c.545 BC · grand-nephew of Tarquinius Priscus; husband of Lucretia; a founding consul of the Republic in 509 BC, then exiled for bearing the hated Tarquin name · semi-legendary"},
+   "b": "ROM_LUCRETIA",
+   "children": []
+  },
+  {
+   "note": "ROME — Publius Valerius Publicola, a standalone founding figure of the Republic (gens Valeria). Drawn with a '—' placeholder spouse; his issue is not depicted.",
+   "a": {"id": "ROM_PUBLICOLA", "label": "Publius Valerius Publicola<br/>c.560 BC · of the gens Valeria; helped Brutus expel the kings; a founding consul of the Republic &amp; consul four times; called Publicola, 'friend of the people' · semi-legendary"},
+   "b": {"id": "ROM_PUBLICOLA_W", "label": "—"},
+   "children": []
+  },
+  {
+   "note": "ROME — Gnaeus Marcius Coriolanus, an early-Republican general (gens Marcia). Standalone; drawn with a '—' placeholder spouse, issue not depicted.",
+   "a": {"id": "ROM_CORIOLANUS", "label": "Gnaeus Marcius Coriolanus<br/>c.525 BC · Roman general who took Corioli (493 BC); exiled, he led the Volsci against Rome but was turned back at its gates by the pleas of the city's women · semi-legendary"},
+   "b": {"id": "ROM_CORIOLANUS_W", "label": "—"},
+   "children": []
+  },
+  {
+   "note": "ROME — Lucius Quinctius Cincinnatus, the model of Roman civic virtue (gens Quinctia). Standalone; drawn with a '—' placeholder spouse, issue not depicted.",
+   "a": {"id": "ROM_CINCINNATUS", "label": "Lucius Quinctius Cincinnatus<br/>c.519 BC · patrician &amp; twice dictator (458 &amp; 439 BC); defeated the Aequi in sixteen days then laid down power &amp; returned to his plough · semi-legendary"},
+   "b": {"id": "ROM_CINCINNATUS_W", "label": "—"},
+   "children": []
+  }
+ ]
+}

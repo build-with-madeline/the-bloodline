@@ -60,6 +60,7 @@ DYNASTIES = [
     ("ROME", "Rome — Alban Kings & the Kingdom"),
     ("MEDIA", "The Medes"),
     ("LYDIA", "Lydia"),
+    ("GREECE", "Classical Greece"),
 ]
 
 # --- explicit id overrides (win over everything) ---
@@ -281,6 +282,7 @@ def seed(pid, label):
     if pid.startswith("ROM_"): return "ROME"
     if pid.startswith("MED_"): return "MEDIA"
     if pid.startswith("LYD_"): return "LYDIA"
+    if pid.startswith("GRK_"): return "GREECE"
     if pid.startswith("MAC_"): return "ANTIQUITY"
     if pid.startswith("JUL_"): return "ANTIQUITY"
     lab = (label or "").lower()

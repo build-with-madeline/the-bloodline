@@ -48,7 +48,7 @@ ACCENT = {
     "PLANTAGENET": "#fdf0d5", "TUDOR": "#e8d9f0", "SCOTLAND": "#dae3eb",
     "MEDICI": "#e6cba0", "BYZANTIUM": "#cdbce8", "ANTIQUITY": "#d8c4a0", "SCRIPTURE": "#cbb89a",
     "SUMER": "#c98f5a", "EGYPT": "#cba13a", "CHINA": "#7fae86", "INDIA": "#e0913a",
-    "ELAM": "#b08a6a", "ASSYRIA": "#8a95ad", "BABYLON": "#c07a4a", "MARI": "#9c7ab0", "YAMHAD": "#b0895a", "HITTITE": "#a86a6a", "HYKSOS": "#c0a24a", "MITANNI": "#6a9ca8", "ARZAWA": "#9aa86a", "CRETE": "#5a9ca0", "MYCENAE": "#c08a6a", "TROY": "#b06a7a", "PHOENICIA": "#5a9c7a", "ARAM": "#a89a5a", "ROME": "#b0605a", "MEDIA": "#7a6ab0", "LYDIA": "#b0a05a",
+    "ELAM": "#b08a6a", "ASSYRIA": "#8a95ad", "BABYLON": "#c07a4a", "MARI": "#9c7ab0", "YAMHAD": "#b0895a", "HITTITE": "#a86a6a", "HYKSOS": "#c0a24a", "MITANNI": "#6a9ca8", "ARZAWA": "#9aa86a", "CRETE": "#5a9ca0", "MYCENAE": "#c08a6a", "TROY": "#b06a7a", "PHOENICIA": "#5a9c7a", "ARAM": "#a89a5a", "ROME": "#b0605a", "MEDIA": "#7a6ab0", "LYDIA": "#b0a05a", "GREECE": "#5a8ab0",
 }
 SLUG = {k: k.lower() for k, _ in DYNASTIES}
 TITLE = dict(DYNASTIES)

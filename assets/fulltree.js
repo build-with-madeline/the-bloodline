@@ -185,15 +185,17 @@
 
   // vertical: each row is as tall as its tallest card, with a routing band below it
   const rowH = byLane.map(row => Math.max(1, ...row.map(p => cardH[p])));
-  const GAPB = 74, PXY = 5.4;
+  const GAPB = 42, PXY = 2.4;
   const laneY = [0];
   for (let r = 1; r < laneYear.length; r++) laneY[r] = Math.max(laneY[r - 1] + rowH[r - 1] + GAPB, (laneYear[r] - laneYear[0]) * PXY);
   ids.forEach(p => pos[p].y = laneY[lane[p]]);
 
-  // ---- separate disconnected bloodlines into their own column ----
-  // Adam's line and any unconnected tradition (e.g. the Sumerian King List) share
-  // the same era-rows, so the raw layout interleaves them. Keep each one's rows (decades
-  // stay accurate) but slide every non-main component into its own column to the left.
+  // ---- separate disconnected bloodlines ----
+  // Adam's line is the main tree. Large unconnected king-lists (Sumer, China, ...) each
+  // get their own temporal column to the left. The many TINY islands (lone prophets,
+  // philosophers, generals) are tiled into a compact GALLERY so they don't spread the
+  // canvas to the horizon. mainSet lets the opening view center on the main tree.
+  let compOf = {}, mainSet = null;
   (() => {
     const adj = {};
     const link = (a, b) => { (adj[a] = adj[a] || []).push(b); (adj[b] = adj[b] || []).push(a); };
@@ -202,24 +204,40 @@
       for (let i = 0; i < ps.length; i++) for (let j = i + 1; j < ps.length; j++) link(ps[i], ps[j]);
       u.children.forEach(c => ps.forEach(p => link(p, c)));
     });
-    const comp = {}; let ci = 0;
-    ids.forEach(p => { if (comp[p] !== undefined) return; const c = ci++; comp[p] = c; const st = [p]; while (st.length) { const n = st.pop(); (adj[n] || []).forEach(m => { if (comp[m] === undefined) { comp[m] = c; st.push(m); } }); } });
-    const size = {}; ids.forEach(p => size[comp[p]] = (size[comp[p]] || 0) + 1);
+    ids.forEach(p => { if (compOf[p] !== undefined) return; const c = p; compOf[p] = c; const st = [p]; while (st.length) { const n = st.pop(); (adj[n] || []).forEach(m => { if (compOf[m] === undefined) { compOf[m] = c; st.push(m); } }); } });
+    const size = {}; ids.forEach(p => size[compOf[p]] = (size[compOf[p]] || 0) + 1);
     const comps = Object.keys(size).sort((a, b) => size[b] - size[a]);
-    if (comps.length > 1) {
-      let leftEdge = Math.min(...ids.map(p => pos[p].x));
-      const COLGAP = 460;
-      comps.slice(1).forEach(c => {                       // every component except the biggest
-        const members = ids.filter(p => comp[p] == c);
-        // compact the island into a tight column: repack each of its rows from x=0
-        // (the raw layout had spread it across the full tree width)
-        const rows = {};
-        members.forEach(p => (rows[lane[p]] = rows[lane[p]] || []).push(p));
-        Object.values(rows).forEach(row => { row.sort((a, b) => pos[a].x - pos[b].x); row.forEach((p, i) => pos[p].x = i * (CW + HGAP)); });
-        const rightEdge = Math.max(...members.map(p => pos[p].x + CW));
-        const offset = (leftEdge - COLGAP) - rightEdge;   // slide so its right edge sits COLGAP left of everything so far
-        members.forEach(p => pos[p].x += offset);
-        leftEdge = Math.min(...members.map(p => pos[p].x));
+    mainSet = new Set(ids.filter(p => compOf[p] == comps[0]));
+    if (comps.length <= 1) return;
+    const BIG = 8, COLGAP = 130;
+    let leftEdge = Math.min(...ids.map(p => pos[p].x));
+    const compact = members => {                          // repack an island's rows from x=0; return its width
+      const rows = {}; members.forEach(p => (rows[lane[p]] = rows[lane[p]] || []).push(p));
+      let w = 0;
+      Object.values(rows).forEach(row => { row.sort((a, b) => pos[a].x - pos[b].x); row.forEach((p, i) => { pos[p].x = i * (CW + HGAP); w = Math.max(w, pos[p].x + CW); }); });
+      return w;
+    };
+    // large islands -> their own temporal column (rows stay at true era height)
+    comps.slice(1).filter(c => size[c] >= BIG).forEach(c => {
+      const members = ids.filter(p => compOf[p] == c);
+      const w = compact(members);
+      const off = (leftEdge - COLGAP) - w;
+      members.forEach(p => pos[p].x += off);
+      leftEdge = Math.min(...members.map(p => pos[p].x));
+    });
+    // small islands -> gallery: compact each, stack several per column, wrap leftwards
+    const smallComps = comps.slice(1).filter(c => size[c] < BIG);
+    if (smallComps.length) {
+      const galTop = Math.min(...ids.map(p => pos[p].y)), COLH = 3200;
+      let colRight = leftEdge - COLGAP, yCur = galTop, colW = 0;
+      smallComps.forEach(c => {
+        const members = ids.filter(p => compOf[p] == c);
+        const w = compact(members);
+        const yTop = Math.min(...members.map(p => pos[p].y));
+        const islH = Math.max(...members.map(p => pos[p].y + cardH[p])) - yTop;
+        if (yCur + islH > galTop + COLH && yCur > galTop) { colRight -= colW + COLGAP; yCur = galTop; colW = 0; }
+        members.forEach(p => { pos[p].x = (colRight - w) + pos[p].x; pos[p].y = yCur + (pos[p].y - yTop); });
+        yCur += islH + 40; colW = Math.max(colW, w);
       });
     }
   })();
@@ -228,6 +246,8 @@
   const minX = Math.min(...ids.map(p => pos[p].x)) - PAD, minY = Math.min(...ids.map(p => pos[p].y)) - PAD;
   const W = Math.max(...ids.map(p => pos[p].x)) + CW + PAD - minX, H = Math.max(...ids.map(p => pos[p].y + cardH[p])) + PAD - minY;
   ids.forEach(p => { pos[p].x -= minX; pos[p].y -= minY; cardEls[p].style.left = pos[p].x + 'px'; cardEls[p].style.top = pos[p].y + 'px'; });
+  const _mx = ids.filter(p => mainSet && mainSet.has(p)).map(p => pos[p].x);
+  const mainCx = _mx.length ? (Math.min(..._mx) + Math.max(..._mx) + CW) / 2 : W / 2;   // horizontal center of the main tree
   stage.style.width = W + 'px'; stage.style.height = H + 'px';
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('width', W); svg.setAttribute('height', H);
 
@@ -316,8 +336,13 @@
   function fit() {
     const cw = wrap.clientWidth, ch = wrap.clientHeight;
     if (!cw || !ch) { requestAnimationFrame(fit); return; }
-    scale = Math.min(cw / W, ch / H) * 0.94;
-    tx = (cw - W * scale) / 2; ty = (ch - H * scale) / 2; apply();
+    // A ~200-generation tree is far taller than wide; fitting the whole height
+    // collapses cards to slivers. Floor the zoom so the overview stays legible and
+    // start at the top (the earliest people) when the tree overflows the viewport.
+    scale = Math.max(Math.min(cw / W, ch / H) * 0.94, 0.15);
+    tx = cw / 2 - mainCx * scale;                          // center on the MAIN tree, not the island gallery
+    ty = (H * scale <= ch) ? (ch - H * scale) / 2 : 20;
+    apply();
   }
   function focusPerson(pid, highlight) {
     const cw = wrap.clientWidth, ch = wrap.clientHeight;

@@ -1,0 +1,90 @@
+{
+ "_note": "BRIDGES: four flagged links that stitch isolated king-list islands into the main tree (and consolidate China internally). These are NOT bloodline. Each connecting family carries kind:bridge (renders faint/dashed) and its bridge node's label states the mechanism: SUCCESSION, CONQUEST, or FOUNDING. To avoid double-parenting, every node that GAINS a parent here was verified to be a ROOT (no existing parent) before this file was written: BAB_SUMUABUM, IN_BIMBISARA, CN_ZHAOXIANG, CN_GAOZU, CAR_DIDO. The tail nodes on the parent side (SUM_URNINURTA, IN_KURU, CN_PING, CN_HUHAI, PHO_ITHOBAAL1) keep their own existing families; they only gain an extra outward marriage to a placeholder spouse. (1) SUMER->BABYLON: the Isin usurper Ur-Ninurta (c.1923) -> the Amorite-kingdoms bridge -> Sumu-abum, founder of Babylon's First Dynasty (c.1894, ROOT) — Babylon rose amid the Isin-Larsa Sumerian south, which Hammurabi absorbed by conquering Rim-Sin of Larsa in 1763 BC; SUCCESSION, not descent. (2) PURANIC INDIA->THE MAURYAS: Kuru (c.2400, Puranic tail) -> the Puranic-dynasties bridge -> Bimbisara of Magadha (c.558, ROOT, the Haryanka->Shishunaga->Nanda->Maurya entry) — LEGENDARY/schematic succession the Puranas draw from the post-Mahabharata kings down to the Mauryas. (3) CHINA (internal only, NOT connected to the West): Mandate-of-Heaven succession by conquest — King Ping of Zhou (c.770, Zhou tail) -> Spring-&-Autumn/Warring-States bridge -> King Zhaoxiang of Qin (c.306, ROOT of the Qin line that produced Qin Shi Huang), and Huhai/Qin Er Shi (c.230, Qin tail) -> Chu-Han-Contention bridge -> Emperor Gaozu of Han (Liu Bang, ROOT). NOTE: Gaozu's fixed label reads 256-195 BC, so his parsed birth-year predates Huhai's; this is inherent to a dynastic-succession bridge (Qin fell 207 BC, Han founded 202 BC), NOT descent, and the layout's lane logic still forces him below the bridge. (4) CARTHAGE->PHOENICIA/TYRE: the documented Tyrian king-list (Menander of Ephesus via Josephus) is extended as real father-son descent — Ithobaal I -> Baal-Eser II -> Mattan I — then Mattan I's children Pygmalion (stays in Tyre) & Elissa/Dido are attached via a FOUNDING bridge, since Dido (ROOT) fled her brother Pygmalion of Tyre to found Carthage in 814 BC. Web-verified 2026-07-16.",
+ "families": [
+
+  {
+   "a": "SUM_URNINURTA",
+   "b": {"id": "SUM_BABYLON_BRIDGEW1", "label": "—"},
+   "kind": "bridge",
+   "children": [
+    {"id": "SUM_BABYLON_BRIDGE", "label": "the Amorite kingdoms<br/>c.1900 BC · Babylon rose amid the Isin-Larsa Sumerian south, &amp; Hammurabi absorbed the south by conquering Rim-Sin of Larsa in 1763 BC · SUCCESSION / CONQUEST, not descent"}
+   ]
+  },
+  {
+   "a": "SUM_BABYLON_BRIDGE",
+   "b": {"id": "SUM_BABYLON_BRIDGEW2", "label": "—"},
+   "kind": "bridge",
+   "children": ["BAB_SUMUABUM"]
+  },
+
+  {
+   "a": "IN_KURU",
+   "b": {"id": "IN_PURANIC_BRIDGEW1", "label": "—"},
+   "kind": "bridge",
+   "children": [
+    {"id": "IN_PURANIC_BRIDGE", "label": "the Puranic dynasties<br/>c.1200 BC · the Puranas trace the post-Mahabharata kings (Barhadrathas &rarr; Pradyotas &rarr; Shishunagas &rarr; Nandas) down to the Mauryas · LEGENDARY / schematic SUCCESSION, not descent"}
+   ]
+  },
+  {
+   "a": "IN_PURANIC_BRIDGE",
+   "b": {"id": "IN_PURANIC_BRIDGEW2", "label": "—"},
+   "kind": "bridge",
+   "children": ["IN_BIMBISARA"]
+  },
+
+  {
+   "a": "CN_PING",
+   "b": {"id": "CN_ZHOUQIN_BRIDGEW1", "label": "—"},
+   "kind": "bridge",
+   "children": [
+    {"id": "CN_ZHOUQIN_BRIDGE", "label": "the Spring &amp; Autumn &amp; Warring States<br/>c.350 BC · as Zhou authority waned, the state of Qin rose &amp; conquered its rivals to unify China · the MANDATE OF HEAVEN passing by CONQUEST, not bloodline"}
+   ]
+  },
+  {
+   "a": "CN_ZHOUQIN_BRIDGE",
+   "b": {"id": "CN_ZHOUQIN_BRIDGEW2", "label": "—"},
+   "kind": "bridge",
+   "children": ["CN_ZHAOXIANG"]
+  },
+
+  {
+   "a": "CN_HUHAI",
+   "b": {"id": "CN_QINHAN_BRIDGEW1", "label": "—"},
+   "kind": "bridge",
+   "children": [
+    {"id": "CN_QINHAN_BRIDGE", "label": "the Chu-Han Contention<br/>c.206 BC · after Qin's collapse in 207 BC, Liu Bang defeated Xiang Yu &amp; founded the Han in 202 BC · the MANDATE OF HEAVEN passing by CONQUEST, not bloodline"}
+   ]
+  },
+  {
+   "a": "CN_QINHAN_BRIDGE",
+   "b": {"id": "CN_QINHAN_BRIDGEW2", "label": "—"},
+   "kind": "bridge",
+   "children": ["CN_GAOZU"]
+  },
+
+  {
+   "a": "PHO_ITHOBAAL1",
+   "b": {"id": "PHO_ITHOBAAL1_W2", "label": "—"},
+   "children": [
+    {"id": "PHO_BAALESER2", "label": "👑 Baal-Eser II (Baal-Mazzer II)<br/>c.856 BC · King of Tyre, son of Ithobaal I; paid tribute to Shalmaneser III in 841 BC · from the Tyrian king-list of Menander of Ephesus (via Josephus) · historical"}
+   ]
+  },
+  {
+   "a": "PHO_BAALESER2",
+   "b": {"id": "PHO_BAALESER2_W", "label": "—"},
+   "children": [
+    {"id": "PHO_MATTAN1", "label": "👑 Mattan I<br/>c.840 BC · King of Tyre, son of Baal-Eser II; father of Pygmalion &amp; of Elissa (Dido) · historical"}
+   ]
+  },
+  {
+   "a": "PHO_MATTAN1",
+   "b": {"id": "PHO_MATTAN1_W", "label": "—"},
+   "kind": "bridge",
+   "children": [
+    {"id": "PHO_PYGMALION", "label": "👑 Pygmalion of Tyre<br/>c.831 BC · King of Tyre, son of Mattan I, whose murder of Elissa's husband Acerbas drove her to flee &amp; found Carthage · historical"},
+    "CAR_DIDO"
+   ]
+  }
+
+ ]
+}

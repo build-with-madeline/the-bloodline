@@ -1,0 +1,274 @@
+{
+  "_note": "Slab c.300-200 BC — the HELLENISTIC SUCCESSOR KINGDOMS after Alexander, woven together by their notorious cross-house marriages. Builds on the Diadochi already in the tree (28a_alexander.json, 03_antiquity.json) and NEVER re-parents an existing node: MAC_DEMETRIUS1, MAC_ANTIGONUS1, MAC_LYSIMACHUS, MAC_CASSANDER, MAC_ALEXANDER, MAC_OLYMPIAS, MAC_CLEOPATRA, PTOLEMY1/2/3, BERENICE1/2, ARSINOE1, SELEUCUS1, ANTIOCHUS1/2/3, LAODICE3 & STRATONICE are all referenced by id only. Where an existing pair gains a NEW child (Arsinoe II under Ptolemy I & Berenice I; Berenice-Syra under Ptolemy II & Arsinoe I; Apama II under Antiochus I & Stratonice; Seleucus IV & Antiochis under Antiochus III & Laodice III) the family is re-stated with the SAME two parents so the build merely APPENDS a sibling (same pattern as 28a's Ostanes). Two existing nodes that had NO parents gain a birth-union here (this adds ancestry, it does not re-parent): STRATONICE 'of Syria' is shown as the daughter of Demetrius I Poliorcetes & Phila (which ties the whole existing Seleucid line up into the Antigonid house), and BERENICE II gains her real Cyrenean/Seleucid parents Magas & Apama II. New figures mostly use the MAC_ prefix (routes to ANTIQUITY); Attalid/Cappadocian/Seleucid-extension figures use plain or ATT_ ids and classify into ANTIQUITY by graph propagation through their marriages. THE BUILD: (1) ANTIGONID KINGS OF MACEDON — from the EXISTING Demetrius I Poliorcetes ● Phila come Antigonus II Gonatas & Stratonice; Gonatas ● Phila II (daughter of Seleucus I) -> Demetrius II -> (● Chryseis) Philip V, who fought Rome -> (● Polycratia) Perseus, the last king crushed by Rome at Pydna 168 BC, plus his brother Demetrius, executed on Philip's order. Antigonus III Doson is drawn on his TRUE collateral descent (son of Demetrius the Fair, son of Demetrius I ● Ptolemais of Egypt), NOT falsely as a son of Demetrius II — he was Philip V's guardian-regent. (2) PYRRHUS OF EPIRUS — the great general of the 'Pyrrhic victory', of the Aeacid/Molossian royal house. Connected to the Macedonian house through the shared ancestor Alcetas I of Epirus: Alcetas I -> Neoptolemus I (father of the EXISTING Olympias, mother of Alexander the Great, and of Alexander I of Epirus) and -> Arybbas -> Aeacides -> Pyrrhus & Deidamia. Olympias thus gains her real Epirote parentage, making Pyrrhus a documented kinsman of Alexander. Epirus is knotted into the Hellenistic houses by three real marriages: Deidamia ● Demetrius I Poliorcetes (Epirus<->Antigonid), Alexander I of Epirus ● Cleopatra of Macedon (Epirus<->Argead, the wedding at which Philip II was killed), and Pyrrhus ● Antigone, daughter of Berenice I by her first husband Philip (Epirus<->Ptolemaic). (3) ATTALIDS OF PERGAMON — the eunuch founder Philetaerus (no issue) -> his nephew Eumenes I -> Attalus I 'Soter' -> Eumenes II & Attalus II -> Attalus III, who willed Pergamon to Rome (133 BC). Tied to the Seleucids via Cappadocia: Antiochis (daughter of Antiochus III) ● Ariarathes IV of Cappadocia -> Stratonice of Pergamon, who married Eumenes II then his brother Attalus II and bore Attalus III. (4) THE MARRIAGE WEB — the famous 'transfer': Seleucus I ● Stratonice, then the EXISTING Antiochus I ● Stratonice (already in the tree); Ptolemy II ● Arsinoe II, his own sister (childless), after Arsinoe II's earlier marriage to Lysimachus of Thrace; Antiochus II ● Berenice (daughter of Ptolemy II), whose murder set off the Third Syrian / Laodicean War; Perseus ● Laodice V (daughter of Seleucus IV); Ptolemy III ● Berenice II already stands in 03_antiquity, so only Berenice II's Cyrenean parents are added. The Greco-Bactrian Diodotus I, who broke from the Seleucids c.245 BC, is drawn as a small FLAGGED island (no genuine blood tie to the tree). Web-verified July 2026 against Wikipedia/Livius 'Antigonus II Gonatas', 'Phila II', 'Demetrius II of Macedon', 'Antigonus III Doson', 'Demetrius the Fair', 'Philip V of Macedon', 'Perseus of Macedon', 'Laodice V', 'Pyrrhus of Epirus', 'Aeacides of Epirus', 'Olympias', 'Arsinoe II', 'Berenice (daughter of Ptolemy II)', 'Magas of Cyrene', 'Apama II', 'Antiochis (daughter of Antiochus the Great)', 'Stratonice of Pergamon', 'Attalus I/II/III', 'Eumenes I/II', 'Philetaerus', 'Diodotus I'. Historical throughout; unattested spouses are '—' placeholders and the collateral descent of Doson, the childless sibling/dynastic unions, and the un-linked Bactrian island are flagged rather than smoothed over.",
+  "families": [
+    {
+      "note": "EPIRUS / AEACID ROOT — Alcetas I of Epirus, the shared ancestor that makes Pyrrhus a kinsman of Alexander. His sons Neoptolemus I & Arybbas found the two branches that meet again in this slab.",
+      "a": {"id": "MAC_ALCETAS1", "label": "👑 Alcetas I of Epirus<br/>c.420 BC · King of the Molossians of Epirus (Aeacid house) · father of Neoptolemus I &amp; Arybbas · the common ancestor linking Pyrrhus to Olympias &amp; Alexander the Great · historical"},
+      "b": {"id": "MAC_ALCETAS1W", "label": "—"},
+      "children": [
+        {"id": "MAC_NEOPTOLEMUS1", "label": "👑 Neoptolemus I of Epirus<br/>c.390 BC · King of the Molossians, son of Alcetas I · father of Olympias (mother of Alexander the Great) &amp; of Alexander I of Epirus · historical"},
+        {"id": "MAC_ARYBBAS", "label": "👑 Arybbas of Epirus<br/>c.385 BC · King of the Molossians, son of Alcetas I &amp; brother of Neoptolemus I · grandfather of Pyrrhus · historical"}
+      ]
+    },
+    {
+      "note": "EPIRUS<->ARGEAD — Neoptolemus I is drawn as the father of the EXISTING Olympias (MAC_OLYMPIAS, referenced by id; she had no parents in the tree, so this ADDS her real Epirote ancestry, it does not re-parent her) and of her brother Alexander I of Epirus.",
+      "a": "MAC_NEOPTOLEMUS1",
+      "b": {"id": "MAC_NEOPTOLEMUS1W", "label": "—"},
+      "children": [
+        "MAC_OLYMPIAS",
+        {"id": "MAC_ALEXANDER1EP", "label": "👑 Alexander I of Epirus 'the Molossian'<br/>c.370-331 BC · King of Epirus, son of Neoptolemus I &amp; brother of Olympias · married his niece Cleopatra of Macedon · died campaigning in Italy · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — EPIRUS<->ARGEAD (MACEDON). Alexander I of Epirus ● Cleopatra of Macedon (the EXISTING MAC_CLEOPATRA, daughter of Philip II; referenced by id, not re-parented) — the wedding at which Philip II was assassinated (336 BC). Their son Neoptolemus II briefly shared Epirus with Pyrrhus.",
+      "a": "MAC_ALEXANDER1EP",
+      "b": "MAC_CLEOPATRA",
+      "children": [
+        {"id": "MAC_NEOPTOLEMUS2", "label": "👑 Neoptolemus II of Epirus<br/>c.335 BC · King of Epirus, son of Alexander I &amp; Cleopatra of Macedon · co-ruled with his cousin Pyrrhus, who then had him killed · historical"}
+      ]
+    },
+    {
+      "note": "EPIRUS / AEACID — Arybbas' branch continues to Aeacides, father of Pyrrhus.",
+      "a": "MAC_ARYBBAS",
+      "b": {"id": "MAC_ARYBBASW", "label": "—"},
+      "children": [
+        {"id": "MAC_AEACIDES", "label": "👑 Aeacides of Epirus<br/>c.360 BC · King of the Molossians, son of Arybbas · father of Pyrrhus &amp; Deidamia · deposed &amp; killed in the wars of the Diadochi · historical"}
+      ]
+    },
+    {
+      "note": "PYRRHUS' GENERATION — Aeacides ● Phthia of Thessaly bear Pyrrhus, the great general, &amp; Deidamia, who married into the Antigonid house.",
+      "a": "MAC_AEACIDES",
+      "b": {"id": "MAC_PHTHIA_EP", "label": "Phthia of Thessaly<br/>c.355 BC · daughter of the Thessalian commander Menon · wife of Aeacides &amp; mother of Pyrrhus &amp; Deidamia · historical"},
+      "children": [
+        {"id": "MAC_PYRRHUS", "label": "👑 Pyrrhus of Epirus<br/>319-272 BC · King of Epirus (&amp; briefly Macedon), Aeacid kinsman of Alexander · the great general whose ruinously costly wins over Rome gave us the phrase 'Pyrrhic victory' · killed by a rooftile in a street fight at Argos · historical"},
+        {"id": "MAC_DEIDAMIA", "label": "Deidamia of Epirus<br/>c.315 BC · Aeacid princess, daughter of Aeacides &amp; sister of Pyrrhus · wife of Demetrius I Poliorcetes · historical"}
+      ]
+    },
+    {
+      "note": "PTOLEMAIC PRELUDE — Berenice I's FIRST marriage, to the Macedonian Philip, before she wed Ptolemy I. The EXISTING BERENICE1 is referenced by id (this is a second union for her, not a re-parenting). Their daughter Antigone married Pyrrhus.",
+      "a": {"id": "MAC_PHILIP_ANTIGONE", "label": "Philip<br/>c.360 BC · a Macedonian, first husband of Berenice I before her marriage to Ptolemy I Soter · father of Antigone · historical"},
+      "b": "BERENICE1",
+      "children": [
+        {"id": "MAC_ANTIGONE", "label": "Antigone<br/>c.325 BC · daughter of Berenice I by Philip &amp; stepdaughter of Ptolemy I · wife of Pyrrhus of Epirus · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — EPIRUS<->PTOLEMAIC. Pyrrhus ● Antigone (daughter of Berenice I, hence tied to the Ptolemaic house that backed his campaigns) bear Alexander II of Epirus.",
+      "a": "MAC_PYRRHUS",
+      "b": "MAC_ANTIGONE",
+      "children": [
+        {"id": "MAC_ALEXANDER2EP", "label": "👑 Alexander II of Epirus<br/>c.297-242 BC · King of Epirus, son of Pyrrhus &amp; Antigone · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — EPIRUS<->ANTIGONID. Deidamia of Epirus ● the EXISTING Demetrius I Poliorcetes (MAC_DEMETRIUS1, referenced by id). Drawn childless (their son Alexander was obscure &amp; left no line).",
+      "a": "MAC_DEMETRIUS1",
+      "b": "MAC_DEIDAMIA",
+      "children": []
+    },
+    {
+      "note": "ANTIGONID KINGS (1) — the EXISTING Demetrius I Poliorcetes ● Phila (daughter of the regent Antipater, sister of Cassander) bear Antigonus II Gonatas, the next Antigonid king, AND Stratonice. Stratonice is the EXISTING STRATONICE 'of Syria' (referenced by id) — she had no parents in the tree, so this ADDS her ancestry and, through her, knots the whole existing Seleucid line up into the Antigonid house.",
+      "a": "MAC_DEMETRIUS1",
+      "b": {"id": "MAC_PHILA1", "label": "Phila<br/>c.350 BC · daughter of the regent Antipater &amp; sister of Cassander · first wife of Demetrius I Poliorcetes · mother of Antigonus II Gonatas &amp; Stratonice · historical"},
+      "children": [
+        {"id": "MAC_ANTIGONUS2", "label": "👑 Antigonus II Gonatas<br/>c.319-239 BC · King of Macedon r.277-239 BC, son of Demetrius I Poliorcetes · beat back the invading Gauls &amp; secured the Antigonid hold on Macedon &amp; Greece · historical"},
+        "STRATONICE"
+      ]
+    },
+    {
+      "note": "THE FAMOUS 'TRANSFER' (part 1) — Seleucus I ● Stratonice. The EXISTING Seleucus I (SELEUCUS1) married Stratonice, then ceded her to his son Antiochus I (whose marriage to STRATONICE already stands in 03_antiquity). Both existing ids referenced only. Their daughter here is Phila II.",
+      "a": "SELEUCUS1",
+      "b": "STRATONICE",
+      "children": [
+        {"id": "MAC_PHILA2", "label": "Phila II<br/>c.300 BC · daughter of Seleucus I &amp; Stratonice · married her maternal uncle Antigonus II Gonatas · mother of Demetrius II · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — ANTIGONID<->SELEUCID. Antigonus II Gonatas ● Phila II (daughter of Seleucus I) bear Demetrius II, continuing the Antigonid line with Seleucid blood.",
+      "a": "MAC_ANTIGONUS2",
+      "b": "MAC_PHILA2",
+      "children": [
+        {"id": "MAC_DEMETRIUS2", "label": "👑 Demetrius II 'Aetolicus'<br/>c.276-229 BC · King of Macedon r.239-229 BC, son of Antigonus II Gonatas &amp; Phila II · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE PRELUDE — PTOLEMAIC. The EXISTING Ptolemy I (PTOLEMY1, referenced by id) ● Eurydice (his wife before Berenice I; a second union for him, not a re-parenting) bear Ptolemais, who married Demetrius I Poliorcetes.",
+      "a": "PTOLEMY1",
+      "b": {"id": "MAC_EURYDICE_PTOL", "label": "Eurydice<br/>c.340 BC · daughter of the regent Antipater &amp; a wife of Ptolemy I Soter · mother of Ptolemais · historical"},
+      "children": [
+        {"id": "MAC_PTOLEMAIS", "label": "Ptolemais<br/>c.315 BC · daughter of Ptolemy I &amp; Eurydice · wife of Demetrius I Poliorcetes · mother of Demetrius the Fair · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — ANTIGONID<->PTOLEMAIC. The EXISTING Demetrius I Poliorcetes ● Ptolemais (daughter of Ptolemy I) bear Demetrius the Fair — the collateral branch that produced Antigonus III Doson.",
+      "a": "MAC_DEMETRIUS1",
+      "b": "MAC_PTOLEMAIS",
+      "children": [
+        {"id": "MAC_DEMETRIUSFAIR", "label": "👑 Demetrius the Fair<br/>c.285-249 BC · briefly King of Cyrene, son of Demetrius I Poliorcetes &amp; Ptolemais · father of Antigonus III Doson · murdered in Cyrene · historical"}
+      ]
+    },
+    {
+      "note": "ANTIGONID KINGS (2) — DOSON'S TRUE DESCENT. Demetrius the Fair ● Olympias of Larissa bear Antigonus III Doson. FLAG: Doson was NOT a son of Demetrius II; he was this collateral cousin who served as guardian-regent &amp; then king for the young Philip V (and married Philip V's widowed mother Chryseis).",
+      "a": "MAC_DEMETRIUSFAIR",
+      "b": {"id": "MAC_OLYMPIAS_LARISSA", "label": "Olympias of Larissa<br/>c.265 BC · Thessalian noblewoman, daughter of Polycleitus of Larissa · wife of Demetrius the Fair · mother of Antigonus III Doson · historical"},
+      "children": [
+        {"id": "MAC_ANTIGONUS3", "label": "👑 Antigonus III Doson<br/>c.263-221 BC · King of Macedon r.229-221 BC, son of Demetrius the Fair · guardian-regent for the young Philip V whom he raised as his heir · crushed Sparta at Sellasia (222 BC) · historical"}
+      ]
+    },
+    {
+      "note": "ANTIGONID KINGS (3) — the main line resumes. Demetrius II ● Chryseis (also called Phthia; after Demetrius' death she married the regent Doson) bear Philip V.",
+      "a": "MAC_DEMETRIUS2",
+      "b": {"id": "MAC_CHRYSEIS", "label": "Chryseis (Phthia)<br/>c.255 BC · wife of Demetrius II &amp; mother of Philip V · after Demetrius' death married the regent Antigonus III Doson · historical"},
+      "children": [
+        {"id": "MAC_PHILIP5", "label": "👑 Philip V of Macedon<br/>238-179 BC · King of Macedon r.221-179 BC, son of Demetrius II · fought Rome in the First &amp; Second Macedonian Wars, beaten at Cynoscephalae (197 BC) · historical"}
+      ]
+    },
+    {
+      "note": "ANTIGONID KINGS (4) — Philip V ● Polycratia of Argos bear Perseus, the last Antigonid king, &amp; his younger brother Demetrius, whom Philip executed after Perseus poisoned his father's mind against him.",
+      "a": "MAC_PHILIP5",
+      "b": {"id": "MAC_POLYCRATIA", "label": "Polycratia of Argos<br/>c.220 BC · wife of Philip V of Macedon · mother of Perseus · historical"},
+      "children": [
+        {"id": "MAC_PERSEUS", "label": "👑 Perseus of Macedon<br/>c.212-166 BC · last King of Macedon r.179-168 BC, son of Philip V · defeated by Rome at Pydna (168 BC), which abolished the Macedonian kingdom · died a Roman captive · historical"},
+        {"id": "MAC_DEMETRIUS_EXEC", "label": "Demetrius of Macedon<br/>c.207-180 BC · younger son of Philip V, held hostage at Rome &amp; favoured by the Senate · executed on his father's order after Perseus turned Philip against him · historical"}
+      ]
+    },
+    {
+      "note": "SELEUCID EXTENSION — appended to the EXISTING pair Antiochus III ● Laodice III (both referenced by id; same parents re-stated, so this only ADDS siblings to the existing Cleopatra I). Seleucus IV succeeded his father; Antiochis married into Cappadocia.",
+      "a": "ANTIOCHUS3",
+      "b": "LAODICE3",
+      "children": [
+        {"id": "SELEUCUS4", "label": "👑 Seleucus IV Philopator<br/>c.218-175 BC · Seleucid King r.187-175 BC, son of Antiochus III · burdened by the Roman war indemnity · father of Laodice V &amp; Demetrius I Soter · historical"},
+        {"id": "ANTIOCHIS", "label": "Antiochis<br/>c.220 BC · Seleucid princess, daughter of Antiochus III &amp; Laodice III · married Ariarathes IV of Cappadocia · historical"}
+      ]
+    },
+    {
+      "note": "SELEUCID EXTENSION — Seleucus IV ● Laodice IV bear Laodice V, the bride who joined the Seleucid house to Antigonid Macedon.",
+      "a": "SELEUCUS4",
+      "b": {"id": "LAODICE4", "label": "Laodice IV<br/>c.215 BC · Seleucid princess &amp; queen, wife of Seleucus IV · mother of Laodice V · historical"},
+      "children": [
+        {"id": "MAC_LAODICE5", "label": "Laodice V<br/>c.195 BC · Seleucid princess, daughter of Seleucus IV · married Perseus of Macedon (178 BC), binding the Seleucid &amp; Antigonid royal houses · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — ANTIGONID<->SELEUCID. Perseus of Macedon ● Laodice V (daughter of Seleucus IV). Drawn childless in the tree; the union sealed a Macedonian-Seleucid axis that alarmed Rome on the eve of the Third Macedonian War.",
+      "a": "MAC_PERSEUS",
+      "b": "MAC_LAODICE5",
+      "children": []
+    },
+    {
+      "note": "PTOLEMAIC — appended to the EXISTING pair Ptolemy I ● Berenice I (both referenced by id; same parents re-stated, so this only ADDS a sibling to the existing Ptolemy II). Arsinoe II was the most formidable Ptolemaic queen.",
+      "a": "PTOLEMY1",
+      "b": "BERENICE1",
+      "children": [
+        {"id": "MAC_ARSINOE2", "label": "👑 Arsinoe II<br/>316-270 BC · Ptolemaic princess, daughter of Ptolemy I &amp; Berenice I · queen in turn of Lysimachus of Thrace, of Ptolemy Keraunos, then of her own full brother Ptolemy II · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — PTOLEMAIC<->THRACE. Arsinoe II's FIRST marriage, to the EXISTING Lysimachus (MAC_LYSIMACHUS, referenced by id, who had only a placeholder spouse before). Drawn childless here (their sons perished in the dynastic bloodshed that followed Lysimachus' fall at Corupedium).",
+      "a": "MAC_LYSIMACHUS",
+      "b": "MAC_ARSINOE2",
+      "children": []
+    },
+    {
+      "note": "SIBLING MARRIAGE — PTOLEMAIC. The EXISTING Ptolemy II (PTOLEMY2, referenced by id; his pair with Arsinoe I -> Ptolemy III stands untouched) ● his full sister Arsinoe II — the union that gave the pair their cult title 'Philadelphoi'. Childless.",
+      "a": "PTOLEMY2",
+      "b": "MAC_ARSINOE2",
+      "children": []
+    },
+    {
+      "note": "PTOLEMAIC — appended to the EXISTING pair Ptolemy II ● Arsinoe I (both referenced by id; same parents re-stated, so this only ADDS a sibling to the existing Ptolemy III). Berenice was the ill-fated Seleucid bride.",
+      "a": "PTOLEMY2",
+      "b": "ARSINOE1",
+      "children": [
+        {"id": "BERENICE_SYRA", "label": "Berenice 'Syra'<br/>c.280-246 BC · daughter of Ptolemy II · sent to marry the Seleucid Antiochus II; her murder unleashed the Third Syrian (Laodicean) War · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — SELEUCID<->PTOLEMAIC (the 'Laodicean War'). The EXISTING Antiochus II (ANTIOCHUS2, referenced by id; his pair with Laodice I -> Seleucus II stands untouched) put aside Laodice I to marry Berenice, daughter of Ptolemy II. Their infant son &amp; Berenice were murdered by Laodice's faction, igniting the war.",
+      "a": "ANTIOCHUS2",
+      "b": "BERENICE_SYRA",
+      "children": [
+        {"id": "ANTIOCHUS_BABY", "label": "Antiochus<br/>c.250-246 BC · infant son of Antiochus II &amp; Berenice · murdered together with his mother by Laodice's partisans, the spark of the Third Syrian War · historical"}
+      ]
+    },
+    {
+      "note": "SELEUCID — appended to the EXISTING pair Antiochus I ● Stratonice (both referenced by id; same parents re-stated, so this only ADDS a sibling to the existing Antiochus II). Apama II married the king of Cyrene.",
+      "a": "ANTIOCHUS1",
+      "b": "STRATONICE",
+      "children": [
+        {"id": "APAMA2", "label": "Apama II<br/>c.290 BC · Seleucid princess, daughter of Antiochus I · married Magas of Cyrene · mother of Berenice II · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — CYRENE<->SELEUCID, feeding the PTOLEMAIC line. Magas of Cyrene ● Apama II (a Seleucid) bear Berenice II — the EXISTING BERENICE2 (referenced by id; she had no parents in the tree, so this ADDS her real ancestry). Berenice II went on to marry Ptolemy III (that union already stands in 03_antiquity).",
+      "a": {"id": "MAGAS", "label": "👑 Magas of Cyrene<br/>c.317-250 BC · King of Cyrene, stepson of Ptolemy I through his mother Berenice I · married the Seleucid Apama II · father of Berenice II · historical"},
+      "b": "APAMA2",
+      "children": ["BERENICE2"]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — CAPPADOCIA<->SELEUCID, the bridge to Pergamon. Ariarathes IV of Cappadocia ● Antiochis (daughter of Antiochus III) bear Stratonice of Pergamon, who married into the Attalid house.",
+      "a": {"id": "ARIARATHES4", "label": "👑 Ariarathes IV of Cappadocia<br/>c.235-163 BC · King of Cappadocia r.220-163 BC · married the Seleucid Antiochis · father of Stratonice of Pergamon &amp; of Ariarathes V · historical"},
+      "b": "ANTIOCHIS",
+      "children": [
+        {"id": "STRATONICE_PERG", "label": "Stratonice of Pergamon<br/>c.200 BC · princess of Cappadocia, daughter of Ariarathes IV &amp; Antiochis · married Eumenes II of Pergamon &amp; after him his brother Attalus II · mother of Attalus III · historical"}
+      ]
+    },
+    {
+      "note": "ATTALIDS OF PERGAMON (root) — Attalus of Tium ● Boa of Paphlagonia found the family. Their son Philetaerus, a eunuch, built the dynasty's fortune but left no issue; the crown passed through his brothers' lines.",
+      "a": {"id": "ATT_ATTALUS_TIUM", "label": "Attalus of Tium<br/>c.380 BC · Macedonian settler at Tium, patriarch of the Attalid family of Pergamon · father of Philetaerus · historical"},
+      "b": {"id": "ATT_BOA", "label": "Boa<br/>c.370 BC · a Paphlagonian, wife of Attalus of Tium &amp; mother of Philetaerus · historical"},
+      "children": [
+        {"id": "ATT_PHILETAERUS", "label": "👑 Philetaerus<br/>c.343-263 BC · eunuch founder &amp; first ruler of the Attalid dynasty of Pergamon r.282-263 BC · built its power on the treasury he held for Lysimachus · left no issue; succeeded by his nephew Eumenes I · historical"},
+        {"id": "ATT_EUMENESBRO", "label": "Eumenes<br/>c.340 BC · brother of Philetaerus · father of Eumenes I · historical"},
+        {"id": "ATT_ATTALUSBRO", "label": "Attalus<br/>c.335 BC · kinsman of Philetaerus of the Attalid family · father of Attalus I · historical"}
+      ]
+    },
+    {
+      "note": "ATTALIDS — Eumenes I, the nephew who succeeded the childless Philetaerus &amp; won Pergamon's effective independence from the Seleucids.",
+      "a": "ATT_EUMENESBRO",
+      "b": {"id": "ATT_EUMENESBROW", "label": "—"},
+      "children": [
+        {"id": "ATT_EUMENES1", "label": "👑 Eumenes I of Pergamon<br/>c.290-241 BC · ruler of Pergamon r.263-241 BC, nephew &amp; successor of Philetaerus · defeated Antiochus I to secure independence · left no son, adopting his cousin Attalus I · historical"}
+      ]
+    },
+    {
+      "note": "ATTALIDS — Attalus ● Antiochis bear Attalus I, adopted heir of Eumenes I &amp; the first Attalid to take the royal title.",
+      "a": "ATT_ATTALUSBRO",
+      "b": {"id": "ATT_ANTIOCHIS", "label": "Antiochis<br/>c.300 BC · wife of Attalus &amp; mother of Attalus I; reputed to be of Seleucid descent · historical"},
+      "children": [
+        {"id": "ATT_ATTALUS1", "label": "👑 Attalus I 'Soter'<br/>269-197 BC · first King of Pergamon r.241-197 BC · won a famous victory over the invading Galatians &amp; allied Pergamon with Rome against Macedon · historical"}
+      ]
+    },
+    {
+      "note": "ATTALIDS — Attalus I ● Apollonis of Cyzicus bear the brother-kings Eumenes II &amp; Attalus II.",
+      "a": "ATT_ATTALUS1",
+      "b": {"id": "ATT_APOLLONIS", "label": "Apollonis of Cyzicus<br/>c.250 BC · wife of Attalus I, famed for her devoted sons · mother of Eumenes II &amp; Attalus II · historical"},
+      "children": [
+        {"id": "ATT_EUMENES2", "label": "👑 Eumenes II 'Soter'<br/>c.221-159 BC · King of Pergamon r.197-159 BC, son of Attalus I · Rome's ally at Magnesia (190 BC), rewarded with most of Seleucid Asia Minor; built the Great Altar of Pergamon · historical"},
+        {"id": "ATT_ATTALUS2", "label": "👑 Attalus II 'Philadelphus'<br/>220-138 BC · King of Pergamon r.159-138 BC, son of Attalus I &amp; loyal brother of Eumenes II · historical"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE — ATTALID<->CAPPADOCIA (Seleucid blood). Eumenes II ● Stratonice of Pergamon (daughter of Ariarathes IV &amp; the Seleucid Antiochis) bear Attalus III, the last king of Pergamon.",
+      "a": "ATT_EUMENES2",
+      "b": "STRATONICE_PERG",
+      "children": [
+        {"id": "ATT_ATTALUS3", "label": "👑 Attalus III<br/>c.170-133 BC · last King of Pergamon r.138-133 BC, son of Eumenes II &amp; Stratonice · a scholar-king who bequeathed his kingdom to Rome, becoming the province of Asia · historical"}
+      ]
+    },
+    {
+      "note": "ATTALID<->CAPPADOCIA — after Eumenes II died, his brother &amp; successor Attalus II married the same Stratonice of Pergamon (a real Hellenistic remarriage). Childless.",
+      "a": "ATT_ATTALUS2",
+      "b": "STRATONICE_PERG",
+      "children": []
+    },
+    {
+      "note": "GRECO-BACTRIA — Diodotus I, the Seleucid satrap who broke away c.245 BC to found an independent Hellenistic kingdom on the far eastern edge of Alexander's world. FLAG: no genuine blood or marriage tie to the rest of the tree survives, so this is drawn as a small standalone island (MAC_ prefix keeps it on the Antiquity page).",
+      "a": {"id": "MAC_DIODOTUS1", "label": "👑 Diodotus I of Bactria<br/>c.285-235 BC · Seleucid satrap of Bactria who declared independence c.245 BC, founding the Greco-Bactrian kingdom · ⚠ no verified blood tie to the tree — flagged island · historical"},
+      "b": {"id": "MAC_DIODOTUS1W", "label": "—"},
+      "children": [
+        {"id": "MAC_DIODOTUS2", "label": "👑 Diodotus II of Bactria<br/>c.252-223 BC · Greco-Bactrian king, son of Diodotus I · reversed his father's policy to ally with Parthia against the Seleucids · historical"}
+      ]
+    }
+  ]
+}

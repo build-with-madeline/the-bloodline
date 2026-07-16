@@ -1,0 +1,225 @@
+{
+ "_note": "Slab c.300-200 BC (with descendants trailing to c.120 BC) — the PUNIC WARS between Rome &amp; Carthage, and the QIN unification of China. THREE REGIONS. (1) CARTHAGE (CAR_, a new house) — the BARCID family: Hamilcar Barca, hero-general of the First Punic War, -> his sons HANNIBAL (247-183 BC, who crossed the Alps with elephants &amp; smashed Rome at Cannae, 216 BC), Hasdrubal (killed at the Metaurus, 207 BC) &amp; Mago, plus a daughter married to Hamilcar's son-in-law HASDRUBAL THE FAIR (● a daughter of Hamilcar), founder of Cartago Nova. Hannibal ● his Iberian wife Imilce (no attested surviving issue). Dido/Elissa (c.814 BC) is added as the LEGENDARY founder-queen, flagged. The THREE PUNIC WARS (264-241, 218-201, 149-146 BC) ended with the DESTRUCTION OF CARTHAGE in 146 BC. (2) ROME (ROM_) — the CORNELII SCIPIONES &amp; the generals of the wars: Publius Cornelius Scipio (consul 218) -> SCIPIO AFRICANUS (236-183 BC, victor over Hannibal at ZAMA, 202 BC) -> his daughter CORNELIA, the bridge into the GRACCHI: Cornelia ● Tiberius Sempronius Gracchus the Elder -> the tribunes TIBERIUS &amp; GAIUS GRACCHUS and a daughter Sempronia. SCIPIO AEMILIANUS (185-129 BC), adopted grandson of Africanus, who DESTROYED CARTHAGE in 146 BC, ● Sempronia — a genuine CROSS-LINK tying the Scipio &amp; Gracchan lines. Standalone generals: Fabius Maximus 'Cunctator' the Delayer, Marcus Claudius Marcellus the Sword of Rome, &amp; Cato the Elder ('Carthage must be destroyed'). (3) CHINA (CN_) — the QIN unification: a NEW Qin-state chain (King Zhaoxiang -> King Xiaowen -> King Zhuangxiang -> KING ZHENG, who became QIN SHI HUANG, 259-210 BC, first emperor of a unified China in 221 BC, builder of the Great Wall &amp; the Terracotta Army) -> his sons FUSU &amp; HUHAI (Qin Er Shi, the second emperor, under whom the dynasty fell in 207 BC). The Qin Ying clan claimed legendary descent from Zhuanxu, but that ~2000-year gap is not a clean genealogical link, so the Qin chain stands as its own island rather than attaching to the existing Shang/Zhou China figures. Prefixes: Rome=ROM_, Carthage=CAR_ (new house), China=CN_. All figures HISTORICAL except Dido (flagged LEGENDARY). Web-verified July 2026 against Wikipedia 'Hamilcar Barca', 'Hannibal', 'Hasdrubal the Fair', 'Scipio Africanus', 'Cornelia (mother of the Gracchi)', 'Scipio Aemilianus', 'King Zhuangxiang of Qin', 'Qin Shi Huang', 'Qin Er Shi'. NO fabrication.",
+ "families": [
+  {
+   "note": "CARTHAGE — the legendary foundation. Dido / Elissa, Tyrian princess, traditional founder-queen of Carthage (trad. 814 BC). Standalone, flagged LEGENDARY.",
+   "a": {
+    "id": "CAR_DIDO",
+    "label": "Dido (Elissa)<br/>c.814 BC · Tyrian princess &amp; legendary founder-queen of Carthage, who fled her brother Pygmalion of Tyre &amp; founded the city on the North African coast · Virgil's Aeneid makes her Aeneas' doomed lover · LEGENDARY / traditional"
+   },
+   "b": {
+    "id": "CAR_DIDO_W",
+    "label": "—"
+   },
+   "children": []
+  },
+  {
+   "note": "CARTHAGE — the BARCID family, the great enemy of Rome. Hamilcar Barca -> his sons HANNIBAL (of the Alps &amp; Cannae), Hasdrubal &amp; Mago, and a daughter who married Hasdrubal the Fair. Three PUNIC WARS (264-241, 218-201, 149-146 BC) ended with the destruction of Carthage in 146 BC.",
+   "a": {
+    "id": "CAR_HAMILCAR",
+    "label": "Hamilcar Barca<br/>c.275 BC · Carthaginian general &amp; statesman, commander in the First Punic War (holding out in Sicily) &amp; founder of Carthaginian power in Spain, where he died fighting Iberians in 228 BC · patriarch of the BARCID house &amp; father of Hannibal · historical"
+   },
+   "b": {
+    "id": "CAR_HAMILCAR_W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CAR_HANNIBAL",
+     "label": "👑 Hannibal Barca<br/>c.247 BC · greatest Carthaginian general &amp; Rome's supreme enemy; crossed the Alps with war-elephants in the Second Punic War &amp; annihilated the Roman army at Cannae (216 BC); finally beaten by Scipio at Zama (202 BC); died in exile c.183 BC · historical"
+    },
+    {
+     "id": "CAR_HASDRUBAL_BARCA",
+     "label": "Hasdrubal Barca<br/>c.245 BC · son of Hamilcar &amp; brother of Hannibal; commanded in Spain &amp; marched to reinforce his brother in Italy, but was defeated &amp; killed at the Metaurus (207 BC), his severed head thrown into Hannibal's camp · historical"
+    },
+    {
+     "id": "CAR_MAGO",
+     "label": "Mago Barca<br/>c.243 BC · youngest son of Hamilcar &amp; brother of Hannibal; fought at Cannae &amp; later campaigned in Spain, Liguria &amp; Italy; died of wounds at sea c.203 BC as Carthage recalled its armies · historical"
+    },
+    {
+     "id": "CAR_HAMILCAR_D",
+     "label": "a daughter of Hamilcar Barca<br/>c.250 BC · one of Hamilcar's daughters, given in marriage to his lieutenant Hasdrubal the Fair, sealing the Barcid succession in Spain · historical"
+    }
+   ]
+  },
+  {
+   "note": "CARTHAGE — Hamilcar's son-in-law Hasdrubal the Fair ● a daughter of Hamilcar. He succeeded Hamilcar in Spain &amp; was in turn succeeded by Hannibal.",
+   "a": {
+    "id": "CAR_HASDRUBAL_FAIR",
+    "label": "Hasdrubal the Fair<br/>c.270 BC · Carthaginian commander &amp; son-in-law of Hamilcar Barca, whom he succeeded in Spain (228 BC); founded Carthago Nova (Cartagena) &amp; fixed the Ebro treaty line with Rome; assassinated 221 BC, opening the way for Hannibal's command · historical"
+   },
+   "b": "CAR_HAMILCAR_D",
+   "children": []
+  },
+  {
+   "note": "CARTHAGE — Hannibal ● Imilce, his Iberian wife from Castulo. No securely-attested surviving issue; union shown for the marriage-tie.",
+   "a": "CAR_HANNIBAL",
+   "b": {
+    "id": "CAR_IMILCE",
+    "label": "Imilce<br/>c.235 BC · Iberian (Bastetani/Castulo) noblewoman, wife of Hannibal, married at Castulo in Spain during the Barcid ascendancy · historical/traditional"
+   },
+   "children": []
+  },
+  {
+   "note": "ROME — the CORNELII SCIPIONES. Publius Cornelius Scipio (consul 218) -> his son SCIPIO AFRICANUS, victor over Hannibal at Zama (202 BC). (Publius' brother Gnaeus, who died with him in Spain in 211, noted in-label only.)",
+   "a": {
+    "id": "ROM_PUBLIUS_SCIPIO",
+    "label": "Publius Cornelius Scipio<br/>c.265 BC · consul 218 BC of the patrician CORNELII SCIPIONES; fought Hannibal at the Ticinus &amp; Trebia, then commanded in Spain, where he &amp; his brother Gnaeus were killed in 211 BC · father of Scipio Africanus · historical"
+   },
+   "b": {
+    "id": "ROM_PUBLIUS_SCIPIO_W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "ROM_SCIPIO_AFRICANUS",
+     "label": "Scipio Africanus<br/>c.236 BC · Publius Cornelius Scipio Africanus, Rome's finest general of the Second Punic War; conquered Carthaginian Spain, then defeated HANNIBAL decisively at ZAMA (202 BC), ending the war · died 183 BC · historical"
+    }
+   ]
+  },
+  {
+   "note": "ROME — Scipio Africanus ● Aemilia Tertia -> their daughter CORNELIA, who bridges the Scipios into the Gracchi. (Africanus' own sons are noted in-label; his line's fame passed through Cornelia.)",
+   "a": "ROM_SCIPIO_AFRICANUS",
+   "b": {
+    "id": "ROM_AEMILIA_TERTIA",
+    "label": "Aemilia Tertia<br/>c.230 BC · daughter of the consul Lucius Aemilius Paullus (who fell at Cannae); wife of Scipio Africanus &amp; a famously wealthy Roman matron · mother of Cornelia · historical"
+   },
+   "children": [
+    {
+     "id": "ROM_CORNELIA",
+     "label": "Cornelia Africana<br/>c.190 BC · daughter of Scipio Africanus &amp; mother of the GRACCHI; a model Roman matron who called her sons 'her jewels' &amp; refused a royal marriage to raise them alone · the BRIDGE from the Scipios to the Gracchi · historical"
+    }
+   ]
+  },
+  {
+   "note": "ROME — Cornelia ● Tiberius Sempronius Gracchus the Elder -> the reforming tribunes TIBERIUS &amp; GAIUS GRACCHUS, and a daughter Sempronia. This union is the Scipio->Gracchi bridge the brief calls for.",
+   "a": {
+    "id": "ROM_TIB_GRACCHUS_ELDER",
+    "label": "Tiberius Sempronius Gracchus<br/>c.217 BC · twice consul &amp; censor, a distinguished plebeian noble; married Cornelia, daughter of his former rival's house, uniting Sempronii &amp; Scipiones · father of the reforming Gracchi · died c.154 BC · historical"
+   },
+   "b": "ROM_CORNELIA",
+   "children": [
+    {
+     "id": "ROM_TIB_GRACCHUS",
+     "label": "Tiberius Gracchus<br/>c.163 BC · tribune of the plebs 133 BC whose land-reform law &amp; violent death (clubbed by senators on the Capitol) opened the century of Roman civil strife · grandson of Scipio Africanus · historical"
+    },
+    {
+     "id": "ROM_GAIUS_GRACCHUS",
+     "label": "Gaius Gracchus<br/>c.154 BC · younger brother of Tiberius; tribune 123-122 BC who pressed a sweeping reform program &amp; died in the violence of 121 BC · historical"
+    },
+    {
+     "id": "ROM_SEMPRONIA",
+     "label": "Sempronia<br/>c.170 BC · daughter of Cornelia &amp; sister of the Gracchi; married to Scipio Aemilianus, tying the Gracchan line back to the Scipios · historical"
+    }
+   ]
+  },
+  {
+   "note": "ROME — Scipio Aemilianus ● Sempronia (sister of the Gracchi). He destroyed Carthage in 146 BC; his marriage links the Scipio &amp; Gracchan lines. Adopted grandson of Africanus, born son of Aemilius Paullus.",
+   "a": {
+    "id": "ROM_SCIPIO_AEMILIANUS",
+    "label": "Scipio Aemilianus<br/>c.185 BC · Publius Cornelius Scipio Aemilianus Africanus; born a son of Aemilius Paullus &amp; adopted into the Scipiones (grandson-by-adoption of Africanus); as consul he took &amp; DESTROYED CARTHAGE in 146 BC, ending the Third Punic War · historical"
+   },
+   "b": "ROM_SEMPRONIA",
+   "children": []
+  },
+  {
+   "note": "ROME — Fabius Maximus 'Cunctator', the Delayer whose attritional strategy checked Hannibal. Standalone general.",
+   "a": {
+    "id": "ROM_FABIUS_CUNCTATOR",
+    "label": "Fabius Maximus 'Cunctator'<br/>c.280 BC · Quintus Fabius Maximus Verrucosus, five-times consul &amp; dictator; 'the Delayer' whose cautious, battle-avoiding Fabian strategy wore Hannibal down after Cannae &amp; saved Rome · died 203 BC · historical"
+   },
+   "b": {
+    "id": "ROM_FABIUS_CUNCTATOR_W",
+    "label": "—"
+   },
+   "children": []
+  },
+  {
+   "note": "ROME — Marcus Claudius Marcellus, 'the Sword of Rome', captor of Syracuse. Standalone general.",
+   "a": {
+    "id": "ROM_MARCELLUS",
+    "label": "Marcus Claudius Marcellus<br/>c.270 BC · five-times consul, called 'the Sword of Rome' to Fabius' 'Shield'; won the spolia opima in single combat, took Syracuse (212 BC, in whose sack Archimedes died), &amp; fell in a Carthaginian ambush 208 BC · historical"
+   },
+   "b": {
+    "id": "ROM_MARCELLUS_W",
+    "label": "—"
+   },
+   "children": []
+  },
+  {
+   "note": "ROME — Cato the Elder, whose refrain 'Carthage must be destroyed' drove the Third Punic War. Standalone.",
+   "a": {
+    "id": "ROM_CATO_ELDER",
+    "label": "Cato the Elder<br/>c.234 BC · Marcus Porcius Cato, consul &amp; censor, stern moralist &amp; first great Latin prose author; ended every Senate speech 'Carthago delenda est' — Carthage must be destroyed — pressing the war that razed it in 146 BC · died 149 BC · historical"
+   },
+   "b": {
+    "id": "ROM_CATO_ELDER_W",
+    "label": "—"
+   },
+   "children": []
+  },
+  {
+   "note": "CHINA (Qin state) — a NEW Qin chain extending the China island. King Zhaoxiang of Qin -> his son King Xiaowen (Lord Anguo). The Qin royal Ying clan claimed legendary descent from Zhuanxu, but no clean bloodline links it to the existing Shang/Zhou island, so this stands as its own chain.",
+   "a": {
+    "id": "CN_ZHAOXIANG",
+    "label": "👑 King Zhaoxiang of Qin<br/>c.325 BC · Ying Ji, king of Qin (reigned 306-251 BC), the longest-ruling Qin king; under him &amp; general Bai Qi, Qin crushed its rivals (Changping, 260 BC) &amp; ended the puppet Zhou (256 BC), setting the stage for unification · historical"
+   },
+   "b": {
+    "id": "CN_ZHAOXIANG_W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_XIAOWEN",
+     "label": "👑 King Xiaowen of Qin<br/>c.302 BC · Lord Anguo (Ying Zhu), son of Zhaoxiang; reigned only briefly, dying in 250 BC just three days after his formal coronation · father of King Zhuangxiang · historical"
+    }
+   ]
+  },
+  {
+   "note": "CHINA (Qin state) — King Xiaowen ● Lady Xia -> their son King Zhuangxiang (Yiren).",
+   "a": "CN_XIAOWEN",
+   "b": {
+    "id": "CN_XIAOWEN_W",
+    "label": "Lady Xia<br/>c.298 BC · a concubine of Lord Anguo (King Xiaowen) &amp; birth-mother of Yiren, the future King Zhuangxiang · historical"
+   },
+   "children": [
+    {
+     "id": "CN_ZHUANGXIANG",
+     "label": "👑 King Zhuangxiang of Qin<br/>c.281 BC · Yiren (Zichu), son of King Xiaowen; once a hostage in Zhao, raised to the throne through the merchant Lü Buwei's scheming; reigned 250-247 BC · father of the First Emperor · historical"
+    }
+   ]
+  },
+  {
+   "note": "CHINA (Qin state) — King Zhuangxiang ● Lady Zhao -> their son Ying Zheng, who became QIN SHI HUANG, first emperor of a unified China (221 BC).",
+   "a": "CN_ZHUANGXIANG",
+   "b": {
+    "id": "CN_ZHAOJI",
+    "label": "Lady Zhao (Zhao Ji)<br/>c.280 BC · queen consort of King Zhuangxiang &amp; mother of Ying Zheng, the First Emperor; formerly of Lü Buwei's household in Zhao · later regent-mother in a scandal-ridden dowager court · historical"
+   },
+   "children": [
+    {
+     "id": "CN_QINSHIHUANG",
+     "label": "👑 Qin Shi Huang<br/>c.259 BC · Ying Zheng, king of Qin from 247 BC, who conquered the warring states &amp; UNIFIED CHINA in 221 BC as its FIRST EMPEROR; standardized script, coin &amp; law, linked the northern walls into the GREAT WALL, &amp; was buried with the TERRACOTTA ARMY · died 210 BC · historical"
+    }
+   ]
+  },
+  {
+   "note": "CHINA (Qin state) — Qin Shi Huang -> his sons FUSU (the exiled heir) &amp; HUHAI, who became Qin Er Shi, the SECOND EMPEROR, under whom the dynasty collapsed in 207 BC (consort unrecorded).",
+   "a": "CN_QINSHIHUANG",
+   "b": {
+    "id": "CN_QSH_W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "CN_FUSU",
+     "label": "Fusu<br/>c.241 BC · eldest son of Qin Shi Huang, a humane prince exiled to the northern frontier for remonstrating with his father; forced to suicide in 210 BC by a forged decree from Zhao Gao &amp; Li Si, clearing the way for his brother · historical"
+    },
+    {
+     "id": "CN_HUHAI",
+     "label": "👑 Huhai (Qin Er Shi)<br/>c.230 BC · youngest son of Qin Shi Huang, installed as the SECOND EMPEROR (Qin Er Shi) in 210 BC; a puppet of the eunuch Zhao Gao, under whom rebellion engulfed the empire; forced to suicide 207 BC as the Qin dynasty collapsed · historical"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "_note": "Slab c.500-390 BC — the PERSIAN WARS, the GOLDEN AGE OF ATHENS, the PELOPONNESIAN WAR, and the mid ROMAN REPUBLIC. All figures are historical (a few early-Republican Romans flagged semi-legendary per the tradition). Athenians &amp; other Greeks use the existing GRK_ 'Classical Greece' house; Spartan royals stay in the existing MYC_ Spartan house so they attach cleanly to their parents; Romans use the existing ROM_ house. Roman dates are nominal placeholders on the schematic accession-year ladder the existing Roman slabs use; every child's year is kept strictly smaller than its parent's. CONNECTED TO EXISTING LINES: (1) PERICLES tied firmly into the ALCMAEONID family — a new node GRK_HIPPOCRATES_ALC (Hippocrates, brother of the existing reformer GRK_CLEISTHENES) is appended as a second child of the existing union GRK_MEGACLES x GRK_AGARISTE (Agariste of Sicyon); Hippocrates' daughter Agariste the younger (GRK_AGARISTE_Y) married Xanthippus and bore Pericles (Herodotus/Plutarch; Wikipedia 'Pericles','Alcmaeonidae'). (2) ALCIBIADES tied to the SAME Alcmaeonid line on his mother's side — Hippocrates' son Megacles (GRK_MEGACLES4) fathered Deinomache (GRK_DEINOMACHE), who married Cleinias and bore Alcibiades; Deinomache and Pericles' mother Agariste were siblings, so Pericles was Alcibiades' cousin-once-removed and (with Ariphron) his guardian after Cleinias fell at Coronea 447 BC (Plutarch 'Alcibiades'; Wikipedia 'Alcibiades'). (3) PAUSANIAS THE REGENT grafted onto the AGIAD royal house — Cleombrotus (MYC_CLEOMBROTUS) is appended as a full brother of the existing MYC_LEONIDAS1 (same union: existing MYC_ANAXANDRIDAS2 x his first wife MYC_ANAXANDRIDAS2_W2), and his son Pausanias, victor of Plataea 479 BC, follows (Herodotus 9.10; Wikipedia 'Pausanias the Regent'). (4) CIMON built as son of Miltiades, the victor of Marathon. (5) In Rome, CAESO QUINCTIUS appended as a son of the EXISTING ROM_CINCINNATUS (via his existing union ROM_CINCINNATUS x ROM_CINCINNATUS_W); his 461 BC trial &amp; exile ruined his father (Livy 3.11-13). STANDALONE historical figures (drawn with a '—' placeholder spouse, no issue depicted — this is expected per the brief): Themistocles, Aristides the Just, the playwrights Aeschylus/Sophocles/Euripides/Aristophanes, the historians Herodotus &amp; Thucydides, the sculptor Phidias, Socrates, the Spartan general Lysander, the Eurypontid king Archidamus II, the decemvir Appius Claudius, and Camillus. AVOID DOUBLE-PARENTING: every new person sits in exactly one child-union. Web-verified against Wikipedia 'Miltiades','Cimon','Themistocles','Aristides','Pausanias the Regent','Pericles','Xanthippus (father of Pericles)','Aspasia','Pericles the Younger','Alcmaeonidae','Alcibiades','Cleinias','Lysander','Archidamus II','Aeschylus','Sophocles','Euripides','Aristophanes','Herodotus','Thucydides','Phidias','Socrates','Caeso Quinctius','Appius Claudius Crassus','Marcus Furius Camillus'. No fabrication — attested pedigrees followed; unrecorded spouses drawn as '—' placeholders rather than invented.",
+ "families": [
+
+  {"note": "THE PERSIAN WARS — ATHENS. Miltiades the Younger, the victor of Marathon (490 BC), x Hegesipyle (daughter of the Thracian king Olorus) > Cimon.",
+   "a": {"id": "GRK_MILTIADES", "label": "Miltiades the Younger<br/>c.550 BC · Athenian general; architect of the victory over Darius's Persians at Marathon, 490 BC · historical"},
+   "b": {"id": "GRK_HEGESIPYLE", "label": "Hegesipyle<br/>c.540 BC · daughter of the Thracian king Olorus; kin to the historian Thucydides · historical"},
+   "children": [
+    {"id": "GRK_CIMON", "label": "Cimon<br/>c.510 BC · Athenian statesman &amp; general; smashed the Persians at the Eurymedon (c.466 BC); leader of the conservative, pro-Spartan bloc · historical"}
+   ]},
+
+  {"note": "THE PERSIAN WARS — ATHENS. Themistocles, the architect of the naval victory at Salamis (480 BC). Standalone.",
+   "a": {"id": "GRK_THEMISTOCLES", "label": "Themistocles<br/>c.524 BC · Athenian statesman; built the fleet &amp; engineered the decisive Greek victory over Xerxes at Salamis, 480 BC; later ostracised, he died in Persian service · historical"},
+   "b": {"id": "GRK_THEMISTOCLES_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE PERSIAN WARS — ATHENS. Aristides 'the Just', Themistocles' rival, hero of Marathon &amp; Plataea. Standalone.",
+   "a": {"id": "GRK_ARISTIDES", "label": "Aristides 'the Just'<br/>c.530 BC · Athenian statesman &amp; general at Marathon &amp; Plataea; a byword for fairness; founder of the Delian League's tribute assessment · historical"},
+   "b": {"id": "GRK_ARISTIDES_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE PERSIAN WARS — SPARTA, AGIAD graft. Cleombrotus appended as a FULL BROTHER of the existing Leonidas I: same union, the existing MYC_ANAXANDRIDAS2 x his first wife MYC_ANAXANDRIDAS2_W2. Cleombrotus commanded at the Isthmus in 480 &amp; died soon after.",
+   "a": "MYC_ANAXANDRIDAS2",
+   "b": "MYC_ANAXANDRIDAS2_W2",
+   "children": [
+    {"id": "MYC_CLEOMBROTUS", "label": "👑 Cleombrotus<br/>c.535 BC · son of Anaxandridas II; full brother of Leonidas I; Agiad prince who fortified the Isthmus against Xerxes, 480 BC · historical"}
+   ]},
+
+  {"note": "THE PERSIAN WARS — SPARTA. Cleombrotus > Pausanias, regent for the boy-king Pleistarchus and the victorious commander at Plataea.",
+   "a": "MYC_CLEOMBROTUS",
+   "b": {"id": "MYC_CLEOMBROTUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_PAUSANIAS_REGENT", "label": "Pausanias<br/>c.510 BC · Agiad regent for Pleistarchus; led the Greeks to the war-ending victory over the Persians at Plataea, 479 BC; later suspected of Medism &amp; starved to death by the Spartans · historical"}
+   ]},
+
+  {"note": "THE ALCMAEONID GRAFT. Hippocrates appended as a second son of the EXISTING union GRK_MEGACLES x GRK_AGARISTE (Agariste of Sicyon) — brother of the reformer Cleisthenes, and grandfather of both Pericles and Alcibiades's mother.",
+   "a": "GRK_MEGACLES",
+   "b": "GRK_AGARISTE",
+   "children": [
+    {"id": "GRK_HIPPOCRATES_ALC", "label": "Hippocrates<br/>c.560 BC · Alcmaeonid; brother of Cleisthenes the reformer; grandfather of Pericles &amp; of Deinomache · historical"}
+   ]},
+
+  {"note": "ALCMAEONID line. Hippocrates > his daughter Agariste the younger (mother of Pericles) and his son Megacles (father of Deinomache) — the two were siblings, the tie that made Pericles &amp; Alcibiades kin.",
+   "a": "GRK_HIPPOCRATES_ALC",
+   "b": {"id": "GRK_HIPPOCRATES_ALC_W", "label": "—"},
+   "children": [
+    {"id": "GRK_AGARISTE_Y", "label": "Agariste the younger<br/>c.520 BC · Alcmaeonid; niece of Cleisthenes the reformer; wife of Xanthippus &amp; mother of Pericles · historical"},
+    {"id": "GRK_MEGACLES4", "label": "Megacles<br/>c.520 BC · Alcmaeonid; son of Hippocrates; father of Deinomache, the mother of Alcibiades · historical"}
+   ]},
+
+  {"note": "THE GOLDEN AGE — ATHENS. Xanthippus (victor of Mycale, 479 BC) x Agariste the younger the Alcmaeonid > PERICLES, the great statesman of the Athenian golden age.",
+   "a": {"id": "GRK_XANTHIPPUS", "label": "Xanthippus<br/>c.525 BC · Athenian statesman &amp; general; commanded at the victory of Mycale, 479 BC; father of Pericles · historical"},
+   "b": "GRK_AGARISTE_Y",
+   "children": [
+    {"id": "GRK_PERICLES", "label": "Pericles<br/>c.495 BC · the pre-eminent statesman of the Athenian golden age; led the democracy for three decades, built the Parthenon, shaped the Delian League into empire · historical"}
+   ]},
+
+  {"note": "THE GOLDEN AGE — ATHENS. Pericles x Aspasia of Miletus > Pericles the Younger.",
+   "a": "GRK_PERICLES",
+   "b": {"id": "GRK_ASPASIA", "label": "Aspasia<br/>c.470 BC · of Miletus; partner of Pericles; renowned for her intellect &amp; her salon in golden-age Athens · historical"},
+   "children": [
+    {"id": "GRK_PERICLES_Y", "label": "Pericles the Younger<br/>c.440 BC · son of Pericles &amp; Aspasia; Athenian general; among the six executed after the sea-battle of Arginusae, 406 BC · historical"}
+   ]},
+
+  {"note": "THE GOLDEN AGE — the tragedians. Aeschylus, the father of tragedy &amp; a Marathon veteran. Standalone.",
+   "a": {"id": "GRK_AESCHYLUS", "label": "Aeschylus<br/>c.525 BC · 'father of tragedy'; fought at Marathon; author of the Oresteia &amp; The Persians · historical"},
+   "b": {"id": "GRK_AESCHYLUS_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE GOLDEN AGE — the tragedians. Sophocles, master of the mature tragic form. Standalone.",
+   "a": {"id": "GRK_SOPHOCLES", "label": "Sophocles<br/>c.497 BC · Athenian tragedian; wrote Oedipus Rex, Antigone &amp; Electra; added the third actor to the stage · historical"},
+   "b": {"id": "GRK_SOPHOCLES_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE GOLDEN AGE — the tragedians. Euripides, the most modern &amp; psychological of the three. Standalone.",
+   "a": {"id": "GRK_EURIPIDES", "label": "Euripides<br/>c.480 BC · Athenian tragedian; Medea, The Bacchae &amp; Trojan Women; the most searching &amp; unconventional of the great three · historical"},
+   "b": {"id": "GRK_EURIPIDES_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE GOLDEN AGE — comedy. Aristophanes, the master of Old Comedy. Standalone.",
+   "a": {"id": "GRK_ARISTOPHANES", "label": "Aristophanes<br/>c.446 BC · father of Old Comedy; Lysistrata, The Clouds, The Frogs; savage satirist of golden-age Athens · historical"},
+   "b": {"id": "GRK_ARISTOPHANES_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE GOLDEN AGE — history. Herodotus, the 'father of history', chronicler of the Persian Wars. Standalone.",
+   "a": {"id": "GRK_HERODOTUS", "label": "Herodotus<br/>c.484 BC · of Halicarnassus; the 'father of history'; his Histories narrate the Greco-Persian Wars · historical"},
+   "b": {"id": "GRK_HERODOTUS_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE PELOPONNESIAN WAR — history. Thucydides, the analytical historian of the war itself. Standalone.",
+   "a": {"id": "GRK_THUCYDIDES", "label": "Thucydides<br/>c.460 BC · Athenian general &amp; historian; his History of the Peloponnesian War founded critical, evidence-based historiography · historical"},
+   "b": {"id": "GRK_THUCYDIDES_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE GOLDEN AGE — art. Phidias, sculptor of the Parthenon &amp; overseer of Pericles' building programme. Standalone.",
+   "a": {"id": "GRK_PHIDIAS", "label": "Phidias<br/>c.480 BC · Athenian sculptor; directed the Parthenon's sculpture &amp; made the chryselephantine Zeus at Olympia &amp; Athena Parthenos · historical"},
+   "b": {"id": "GRK_PHIDIAS_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE GOLDEN AGE — philosophy. Socrates, the fountainhead of Western philosophy. Standalone.",
+   "a": {"id": "GRK_SOCRATES", "label": "Socrates<br/>c.470 BC · Athenian philosopher; father of the Socratic method &amp; of Western moral philosophy; condemned to drink hemlock, 399 BC · historical"},
+   "b": {"id": "GRK_SOCRATES_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE PELOPONNESIAN WAR — ALCMAEONID graft, mother's side. Megacles (son of Hippocrates) > Deinomache, the Alcmaeonid mother of Alcibiades.",
+   "a": "GRK_MEGACLES4",
+   "b": {"id": "GRK_MEGACLES4_W", "label": "—"},
+   "children": [
+    {"id": "GRK_DEINOMACHE", "label": "Deinomache<br/>c.480 BC · Alcmaeonid; daughter of Megacles; cousin of Pericles; mother of Alcibiades · historical"}
+   ]},
+
+  {"note": "THE PELOPONNESIAN WAR — ATHENS. Cleinias x Deinomache the Alcmaeonid > ALCIBIADES; after Cleinias fell at Coronea (447 BC), Pericles &amp; Ariphron became the boy's guardians — the tie to the Alcmaeonid line.",
+   "a": {"id": "GRK_CLEINIAS", "label": "Cleinias<br/>c.480 BC · Athenian noble; fought at Artemisium in his own ship; father of Alcibiades; killed at the battle of Coronea, 447 BC · historical"},
+   "b": "GRK_DEINOMACHE",
+   "children": [
+    {"id": "GRK_ALCIBIADES", "label": "Alcibiades<br/>c.450 BC · brilliant, mercurial Athenian general &amp; statesman; ward of Pericles; his shifting allegiances (Athens, Sparta, Persia) shaped the Peloponnesian War · historical"}
+   ]},
+
+  {"note": "THE PELOPONNESIAN WAR — SPARTA. Lysander, the admiral who crushed Athens at Aegospotami (405 BC) and took the city in 404, ending the war. Standalone (non-royal).",
+   "a": {"id": "GRK_LYSANDER", "label": "Lysander<br/>c.454 BC · Spartan admiral; destroyed the Athenian fleet at Aegospotami (405 BC) &amp; captured Athens in 404, winning the Peloponnesian War for Sparta · historical"},
+   "b": {"id": "GRK_LYSANDER_W", "label": "—"},
+   "children": []},
+
+  {"note": "THE PELOPONNESIAN WAR — SPARTA. Archidamus II, the Eurypontid king who opened the war; its first phase (431-421) bears his name. Standalone (his Eurypontid branch, via Leotychidas II, is not otherwise in the tree).",
+   "a": {"id": "MYC_ARCHIDAMUS2", "label": "👑 Archidamus II<br/>c.500 BC · Eurypontid king of Sparta (r. c.469-427 BC); led the invasions of Attica that opened the Peloponnesian War — its first decade is called the Archidamian War · historical"},
+   "b": {"id": "MYC_ARCHIDAMUS2_W", "label": "—"},
+   "children": []},
+
+  {"note": "ROME — the mid Republic. Appius Claudius Crassus, the dominant decemvir; the board of ten codified Rome's first written law, the TWELVE TABLES (451-450 BC); his tyranny &amp; the Verginia affair brought the decemvirate down. Standalone.",
+   "a": {"id": "ROM_APPIUSCLAUDIUS_DEC", "label": "Appius Claudius Crassus<br/>c.495 BC · leading decemvir; the ten oversaw Rome's first written code, the Twelve Tables (451-450 BC); his tyranny &amp; the Verginia scandal ended the decemvirate, 449 BC · historical"},
+   "b": {"id": "ROM_APPIUSCLAUDIUS_DEC_W", "label": "—"},
+   "children": []},
+
+  {"note": "ROME — the mid Republic. Caeso appended as a son of the EXISTING Cincinnatus (his existing union). Caeso's violent resistance to the tribunes &amp; his 461 BC trial forced his exile and helped drive Cincinnatus back to his plough.",
+   "a": "ROM_CINCINNATUS",
+   "b": "ROM_CINCINNATUS_W",
+   "children": [
+    {"id": "ROM_CAESO_QUINCTIUS", "label": "Caeso Quinctius<br/>c.485 BC · patrician son of Cincinnatus; his fierce obstruction of the plebeian tribunes led to a famous trial (461 BC) &amp; self-imposed exile, ruining his father · historical"}
+   ]},
+
+  {"note": "ROME — the mid Republic. Marcus Furius Camillus, hailed the 'second founder of Rome': he took Etruscan Veii (396 BC) and, recalled from exile, rallied Rome after the Gauls sacked it (390 BC). Standalone.",
+   "a": {"id": "ROM_CAMILLUS", "label": "Marcus Furius Camillus<br/>c.446 BC · Roman soldier &amp; five-time dictator; captured Veii (396 BC) &amp; restored Rome after the Gallic sack (390 BC); called the 'second founder of Rome' · historical"},
+   "b": {"id": "ROM_CAMILLUS_W", "label": "—"},
+   "children": []}
+
+ ]
+}

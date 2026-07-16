@@ -1,0 +1,76 @@
+{
+  "_note": "Slab c.500-430 BC — the later Achaemenid kings, the story of Esther, and the close of the Hebrew Bible. THREE THREADS, wired to figures already in the tree, with ONE genuine cross-house marriage (Persia <-> Scripture) as the centrepiece. (1) THE LATER ACHAEMENIDS (Persia, new ids PER_) — extended as real father-son descent DOWN from the EXISTING XERXES1 (Xerxes I, already parented by DARIUS1 ● ATOSSA in 26a_persia_return.json and NOT re-parented here). Xerxes I ● his queen Amestris (daughter of Otanes) bear Artaxerxes I 'Longimanus' (the king of Ezra & Nehemiah, r.465-424 BC); Artaxerxes I's sons Xerxes II (r.424 BC, murdered after ~45 days) & Darius II 'Ochus' (r.423-404 BC) — historically by different mothers, Xerxes II by Queen Damaspia and Darius II by a Babylonian concubine Cosmartidene, noted in prose & drawn on one union for clarity; Darius II ● his half-sister Parysatis bear Artaxerxes II 'Mnemon' (r.404-358 BC) & Cyrus the Younger (the pretender of Xenophon's Anabasis, killed at Cunaxa 401 BC). Web-verified July 2026 against Wikipedia 'Xerxes I', 'Artaxerxes I', 'Darius II', 'Artaxerxes II', 'Cyrus the Younger' and Encyclopaedia Iranica 'Darius II'/'Artaxerxes II'. (2) THE STORY OF ESTHER (the priority cross-house marriage, SCRIPTURE <-> PERSIA) — King Ahasuerus of the book of Esther is traditionally identified with XERXES1 (Xerxes I), so the union XERXES1 ● ESTHER is drawn as a real cross-line marriage on a SEPARATE, childless union parallel to Xerxes's Achaemenid union with Amestris (XERXES1 is referenced by id only and never re-parented). Esther (Hadassah) is a Jewess of the tribe of BENJAMIN of the Kishite/Saulide kindred (Esther 2:5), daughter of Abihail (Esther 2:15); her cousin & guardian Mordecai is son of Jair, son of Shimei, son of Kish, a Benjaminite (Esther 2:5). The Kishite chain Kish(E) -> Shimei -> {Jair, Abihail} -> {Mordecai, Esther} is built as a fresh SCRIPTURE island; Abihail 'the uncle of Mordecai' (Esther 2:15) is drawn as Jair's brother so that Esther is Mordecai's first cousin. CONNECTION TO THE EXISTING BENJAMIN/SAUL LINE, FLAGGED: Esther 2:5 names Mordecai's ancestor as 'Kish, a Benjaminite', and Jewish tradition (b. Megillah 13a) reads Mordecai & Esther as of the house of King Saul (KISH -> SAUL, in 10a_israel.json). But the Kish of Esther 2:5 lived c.600 BC, some four-and-a-half centuries after Saul's father Kish (c.1075 BC), so this later Kish is NOT the same person; the two are kindred within Benjamin, not identical. To avoid a false ~475-year edge & any double-parenting of the EXISTING KISH or SAUL, the Kishite descent is kept as its own island and the Benjaminite/Saulide kinship is carried in prose & on the cards rather than wired as an edge. Haman the Agagite is deliberately omitted. This thread ties the Jewish line to the Persian crown. (3) CLOSE OF THE HEBREW BIBLE — Malachi, the last of the writing prophets (c.430 BC), added as a standalone SCRIPTURE island (no parentage is given him in scripture, so none is invented, matching the Daniel/Haggai pattern). His card notes the sealing of the Law under Ezra (Neh 8) & Nehemiah's second term as governor (c.432 BC, Neh 13:6-7); EZRA & NEHEMIAH already exist in 26a_persia_return.json and are referenced in prose only, NOT duplicated. Prefixes: new Persian figures use PER_ (they classify into ANTIQUITY by graph propagation from Xerxes I); biblical figures use plain UPPERCASE (SCRIPTURE). Ordering: every referenced id (XERXES1 existing; PER_ARTAXERXES1, PER_DARIUS2, and the Kishite roots) is defined before it is used, and every child's year is SMALLER than its parent's. Web-verified July 2026; no fabrication. Flags: Artaxerxes I's sons' differing mothers, Ahasuerus=Xerxes identification, and the later-Kish-vs-Saul's-Kish distinction are all noted in-node. AVOIDS DOUBLE-PARENTING: XERXES1, DARIUS1, ATOSSA, KISH, SAUL, BENJAMIN, EZRA & NEHEMIAH are referenced by id or in prose only and never placed in a children array here.",
+  "families": [
+    {
+      "note": "LATER ACHAEMENIDS (1) — Artaxerxes I, son of Xerxes I. The EXISTING XERXES1 (referenced by id, parented by Darius I & Atossa in 26a; NOT re-created or re-parented) ● his queen Amestris (new, daughter of Otanes). Their son Artaxerxes I 'Longimanus' is the Persian king who commissioned both Ezra (c.458 BC) & Nehemiah (c.445 BC).",
+      "a": "XERXES1",
+      "b": {"id": "PER_AMESTRIS", "label": "Amestris<br/>c.520 BC · queen of Persia, daughter of the noble Otanes &amp; wife of Xerxes I · a powerful figure at the court, remembered by Herodotus for her ferocity · mother of Artaxerxes I &amp; of the princes Darius, Hystaspes &amp; Achaemenes · historical"},
+      "children": [
+        {"id": "PER_ARTAXERXES1", "label": "👑 Artaxerxes I 'Longimanus'<br/>c.500 BC · King of Persia, r.465-424 BC; son of Xerxes I &amp; Amestris · came to the throne after his father's assassination · the Artaxerxes who sent Ezra the scribe up to Jerusalem (c.458 BC) &amp; his cupbearer Nehemiah to rebuild the city walls (c.445 BC) · surnamed 'Long-Hand' (Longimanus) · historical"}
+      ]
+    },
+    {
+      "note": "LATER ACHAEMENIDS (2) — the sons of Artaxerxes I. PER_ARTAXERXES1 ● '—'. FLAG: historically the two sons had different mothers — Xerxes II was the son of Queen Damaspia, while Darius II 'Ochus' was born of a Babylonian concubine, Cosmartidene, and seized the throne in the turmoil after Xerxes II's murder; they are drawn on one union here for clarity, with the distinction noted.",
+      "a": "PER_ARTAXERXES1",
+      "b": {"id": "PER_ARTAXERXES1W", "label": "—"},
+      "children": [
+        {"id": "PER_XERXES2", "label": "👑 Xerxes II<br/>c.475 BC · King of Persia, r.424 BC; only legitimate son of Artaxerxes I, by Queen Damaspia · reigned barely forty-five days before he was murdered by his half-brother Sogdianus in a palace coup · historical"},
+        {"id": "PER_DARIUS2", "label": "👑 Darius II 'Ochus'<br/>c.475 BC · King of Persia, r.423-404 BC; son of Artaxerxes I by the Babylonian concubine Cosmartidene · seized the throne after killing the usurper Sogdianus · his reign saw Persian gold flow into the Peloponnesian War against Athens &amp; the revolt of Egypt · historical"}
+      ]
+    },
+    {
+      "note": "LATER ACHAEMENIDS (3) — the sons of Darius II by Parysatis. PER_DARIUS2 ● his half-sister Parysatis (new). Their elder son Artaxerxes II took the throne; their younger, favoured son Cyrus the Younger rebelled against him — the march &amp; battle immortalised in Xenophon's Anabasis.",
+      "a": "PER_DARIUS2",
+      "b": {"id": "PER_PARYSATIS", "label": "Parysatis<br/>c.470 BC · queen of Persia, daughter of Artaxerxes I &amp; half-sister &amp; wife of Darius II · a formidable power at court who schemed for her favourite son Cyrus &amp; took bloody revenge after his death · mother of Artaxerxes II &amp; Cyrus the Younger · historical"},
+      "children": [
+        {"id": "PER_ARTAXERXES2", "label": "👑 Artaxerxes II 'Mnemon'<br/>c.435 BC · King of Persia, r.404-358 BC; elder son of Darius II &amp; Parysatis · defeated his brother Cyrus the Younger's rebellion at Cunaxa in 401 BC · his long reign, though marked by revolts &amp; the loss then recovery of influence in Greece, was the longest of any Achaemenid king · historical"},
+        {"id": "PER_CYRUSYOUNGER", "label": "Cyrus the Younger<br/>c.423 BC · Persian prince, younger son of Darius II &amp; Parysatis · satrap of Asia Minor who raised an army of Greek mercenaries — the Ten Thousand — to seize the throne from his brother Artaxerxes II · killed at the battle of Cunaxa in 401 BC, the campaign chronicled by Xenophon in the Anabasis · historical"}
+      ]
+    },
+    {
+      "note": "ESTHER (1) — the Kishite root. Kish (the Benjaminite of Esther 2:5, a NEW island node, NOT the EXISTING KISH who was Saul's father c.1075 BC) ● '—'; his son Shimei as child. FLAG on card: kindred to King Saul's house (b. Megillah 13a) but a distinct, later Kish — no edge is drawn to the existing Kish/Saul line.",
+      "a": {"id": "KISH_E", "label": "Kish<br/>c.600 BC · a Benjaminite of the kindred of King Saul, carried from Jerusalem into Babylonian exile (Esther 2:6) · great-grandfather of Mordecai (Esther 2:5) · a distinct, later namesake of Saul's father Kish, not the same man · historical (biblical)"},
+      "b": {"id": "KISH_EW", "label": "—"},
+      "children": [
+        {"id": "SHIMEI_E", "label": "Shimei<br/>c.570 BC · a Benjaminite, son of Kish &amp; grandfather of Mordecai (Esther 2:5) · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "ESTHER (2) — the brothers Jair &amp; Abihail. SHIMEI_E ● '—'; two sons: Jair (father of Mordecai) &amp; Abihail (father of Esther). Abihail is named 'the uncle of Mordecai' (Esther 2:15), so he is drawn as Jair's brother, making Esther &amp; Mordecai first cousins.",
+      "a": "SHIMEI_E",
+      "b": {"id": "SHIMEI_EW", "label": "—"},
+      "children": [
+        {"id": "JAIR_E", "label": "Jair<br/>c.540 BC · a Benjaminite, son of Shimei &amp; father of Mordecai (Esther 2:5) · historical (biblical)"},
+        {"id": "ABIHAIL_E", "label": "Abihail<br/>c.540 BC · a Benjaminite, son of Shimei, brother of Jair &amp; father of Esther · called 'the uncle of Mordecai' (Esther 2:15), making Esther &amp; Mordecai first cousins · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "ESTHER (3) — Mordecai, son of Jair. JAIR_E ● '—'; his son Mordecai as child. Mordecai raised his orphaned cousin Esther, uncovered a plot against the king, and with Esther delivered the Jews of the empire from Haman's decree (the feast of Purim).",
+      "a": "JAIR_E",
+      "b": {"id": "JAIR_EW", "label": "—"},
+      "children": [
+        {"id": "MORDECAI", "label": "Mordecai<br/>c.510 BC · a Jew of the tribe of Benjamin at Susa, son of Jair, son of Shimei, son of Kish (Esther 2:5) · guardian &amp; cousin of Esther, he refused to bow to Haman &amp; exposed a plot against the king; after Haman's fall he was raised to be second to the king &amp; established the feast of Purim (Esther 8-10) · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "ESTHER (4) — Esther, daughter of Abihail. ABIHAIL_E ● '—'; his daughter Esther as child. Taken into the royal harem after Vashti's fall, Hadassah/Esther became queen of Persia &amp; used her position to save her people.",
+      "a": "ABIHAIL_E",
+      "b": {"id": "ABIHAIL_EW", "label": "—"},
+      "children": [
+        {"id": "ESTHER", "label": "Esther (Hadassah)<br/>c.500 BC · a Jewess of the tribe of Benjamin, daughter of Abihail &amp; cousin of Mordecai (Esther 2:5-7,15) · chosen by King Ahasuerus to be queen of Persia in place of Vashti; at Mordecai's urging she risked her life before the king &amp; won the deliverance of the Jews from Haman's decree (Esther 4-9) · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "CROSS-HOUSE MARRIAGE (priority) SCRIPTURE <-> PERSIA — the EXISTING XERXES1 (Xerxes I, referenced by id, NOT re-parented) ● the new ESTHER, tying the Jewish/Benjaminite line to the Persian crown. Drawn CHILDLESS on a union PARALLEL to Xerxes's Achaemenid union with Amestris. FLAG: the book of Esther names the king Ahasuerus, identified by most scholars with Xerxes I (Old Persian Khshayarsha); the marriage is the heart of the Purim narrative.",
+      "a": "XERXES1",
+      "b": "ESTHER",
+      "children": []
+    },
+    {
+      "note": "CLOSE OF THE HEBREW BIBLE — Malachi, the last of the writing prophets, a standalone SCRIPTURE island (real figure ● '—', childless). Scripture gives him no parentage, so none is invented (matching the Daniel/Haggai pattern). His card notes the sealing of the Law under Ezra (Neh 8) &amp; Nehemiah's second governorship (c.432 BC); EZRA &amp; NEHEMIAH already exist in 26a and are referenced in prose only, NOT duplicated.",
+      "a": {"id": "MALACHI", "label": "Malachi<br/>c.430 BC · the last of the Hebrew prophets, whose oracles rebuked the post-exilic priesthood &amp; people for corrupt worship, broken marriages &amp; withheld tithes, &amp; promised the coming messenger before 'the great &amp; dreadful day of the LORD' (Mal 3-4) · his book closes the Hebrew Bible, in the age when Ezra sealed the reading of the Law (Neh 8) &amp; Nehemiah returned for a second term as governor (c.432 BC, Neh 13) · historical (biblical)"},
+      "b": {"id": "MALACHIW", "label": "—"},
+      "children": []
+    }
+  ]
+}

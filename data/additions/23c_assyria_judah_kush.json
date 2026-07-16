@@ -1,0 +1,71 @@
+{
+  "_note": "Slab c.800-680 BC — the Neo-Assyrian empire crushing the small kingdoms, the fall of the northern kingdom of Israel (722 BC), Judah under Hezekiah, and Egypt's Kushite 25th Dynasty. Every family here either enriches an ALREADY-PRESENT spine node with its family/consort in a CHILDLESS union (so no existing king is re-parented) or builds a small standalone island; the great kings themselves are referenced by id, never re-created and never placed in a children array. FOUR THREADS. (1) JUDAH — the wives of the existing Davidic kings, added as childless unions that name (but do NOT re-parent) the sons already on the spine: Jerusha daughter of Zadok ● Uzziah (Azariah, c.810, who was struck with leprosy for burning incense in the Temple, 2 Chron 26:19-21, and lived in isolation while his son Jotham governed) — she was the mother of Jotham (2 Kings 15:33, already in the tree); Abijah (Abi) daughter of Zechariah ● Ahaz (c.755, who stripped the Temple to buy Assyrian help and sent Tiglath-Pileser III the message 'I am your servant and your son', 2 Kings 16:7) — she was the mother of Hezekiah (2 Kings 18:2; 2 Chron 29:1, already in the tree); Hephzibah ● Hezekiah (c.741, the great reformer who cleansed the Temple, was granted fifteen added years after a mortal illness, 2 Kings 20, and survived Sennacherib's 701 BC siege of Jerusalem) — she was the mother of Manasseh (2 Kings 21:1, already on the spine, NOT re-added). Plus the prophets of the age: ISAIAH son of Amoz (c.760, who counseled Hezekiah through the 701 siege and spoke of Immanuel, Isaiah 7); MICAH of Moresheth (contemporary of Isaiah, foretold Bethlehem, Micah 5:2); and the two great northern prophets AMOS of Tekoa and HOSEA son of Beeri, who foretold the doom and exile of the northern kingdom — the note-figures for the fall of the North. (2) THE FALL OF THE NORTH — the last kings of Israel (Menahem, Pekah, Hoshea) already exist in 10a_israel.json and are NOT touched; the conquest itself is already narrated on the existing Assyrian cards (Shalmaneser V besieged Samaria; Sargon II completed its fall in 722 BC and deported the ten tribes, the 'lost tribes'), so it is carried here in prose and on Hosea's card rather than by re-drawing any king. (3) ASSYRIA (AS_) — the whole imperial spine of this era (Tiglath-Pileser III c.745, Shalmaneser V, Sargon II 722, Sennacherib 705, Esarhaddon, Ashurbanipal) ALREADY EXISTS in 10c_assyria.json as a fully parented succession chain and is NOT recreated. The one missing family member is Sennacherib's consort NAQIA (Zakutu), added as a CHILDLESS union on the existing AS_SENNACHERIB: she bore Esarhaddon (already in the tree, NOT re-parented) and, as queen-mother, secured his and Ashurbanipal's successions via the Zakutu Treaty. (4) EGYPT — the KUSHITE 25th DYNASTY (EG_): the Egyptian kings Piye, Shabaka and Taharqa already exist in 10b_egypt.json. Added here are their Nubian homeland forebears at Napata as a small island — ALARA (c.780, founder-figure of the Napatan royal house) -> KASHTA (c.760, his successor and probable brother; extended Kushite rule to Thebes and consecrated his daughter Amenirdis I as God's Wife of Amun) — with Kashta's sons Piye and Shabaka named in-label only, NOT re-parented (Piye is already a child of EG_THIRDINTERMEDIATE). And SHEBITKU (Shabataka, c.702), added as a NEW second son of the existing EG_PIYE on a separate '—' union (Piye already parents Shabaka on his own union, so this parallel branch double-parents no one); Shebitku reigned between Shabaka and Taharqa, his brother, who is already in the tree. Prefixes: biblical=plain UPPERCASE, Egypt/Kush=EG_, Assyria=AS_. Every accession/child year is SMALLER than its parent's. Kushite and Third-Intermediate dates are conventional and debated (flagged); the Alara-Kashta-Piye kinship is a scholarly reconstruction, not directly attested (flagged). Web-verified July 2026 against Wikipedia 'Alara of Kush', 'Kashta', 'Twenty-fifth Dynasty of Egypt', 'Shebitku', 'Naqi'a', World History Encyclopedia 'Zakutu', plus the biblical books of Kings, Chronicles, Isaiah, Micah, Amos and Hosea. No fabrication; every usurpation, uncertain descent or debated date flagged in-node.",
+  "families": [
+    {
+      "note": "JUDAH (1) — Uzziah's family. Jerusha daughter of Zadok ● the existing UZZIAH (referenced by id, NOT re-parented). Childless union: their son Jotham is already on the spine. Uzziah's leprosy carried on her card.",
+      "a": "UZZIAH",
+      "b": {"id": "JERUSHA", "label": "Jerusha (Jerushah)<br/>c.795 BC · daughter of Zadok; wife of King Uzziah of Judah &amp; mother of King Jotham (2 Kings 15:33, already in the tree) · her husband Uzziah reigned long &amp; ably but was struck with leprosy for usurping the priests' office to burn incense in the Temple (2 Chron 26:16-21), living the rest of his life in isolation while Jotham governed the land · historical (biblical)"},
+      "children": []
+    },
+    {
+      "note": "JUDAH (2) — Ahaz's family. Abijah (Abi) daughter of Zechariah ● the existing AHAZ (referenced by id, NOT re-parented). Childless union: their son Hezekiah is already on the spine. Ahaz's submission to Assyria carried on her card.",
+      "a": "AHAZ",
+      "b": {"id": "ABIJAHJUDAH", "label": "Abijah (Abi)<br/>c.760 BC · daughter of Zechariah; wife of King Ahaz of Judah &amp; mother of the reformer King Hezekiah (2 Kings 18:2; 2 Chron 29:1, already in the tree) · her husband Ahaz, pressed by the Syro-Ephraimite war, stripped the Temple &amp; palace to buy the aid of Assyria, submitting to Tiglath-Pileser III with the words 'I am your servant &amp; your son' (2 Kings 16:7-9) · historical (biblical)"},
+      "children": []
+    },
+    {
+      "note": "JUDAH (3) — Hezekiah's family. Hephzibah ● the existing HEZEKIAH (referenced by id, NOT re-parented). Childless union: their son Manasseh is already on the spine (2 Kings 21:1), so he is named in-label only, NOT re-added. Hezekiah's reform, illness &amp; the 701 siege carried on her card.",
+      "a": "HEZEKIAH",
+      "b": {"id": "HEPHZIBAH", "label": "Hephzibah<br/>c.725 BC · wife of King Hezekiah of Judah &amp; mother of King Manasseh (2 Kings 21:1, already on the spine) · her husband Hezekiah was Judah's great reformer — he cleansed the Temple &amp; smashed the high places (2 Kings 18:4); recovered from a mortal illness with fifteen years added to his life (2 Kings 20:1-11); and withstood the Assyrian king Sennacherib's siege of Jerusalem in 701 BC, when the army encamped against the city withdrew (2 Kings 18-19) · historical (biblical)"},
+      "children": []
+    },
+    {
+      "note": "JUDAH (4) — the prophet Isaiah. Amoz (new island root) ● a '—' consort; his son ISAIAH as child.",
+      "a": {"id": "AMOZ", "label": "Amoz<br/>c.785 BC · father of the prophet Isaiah (Isaiah 1:1); by later tradition a brother of King Amaziah of Judah, though scripture says only 'Amoz' · historical (biblical)"},
+      "b": {"id": "AMOZW", "label": "—"},
+      "children": [
+        {"id": "ISAIAH", "label": "Isaiah<br/>c.760 BC · son of Amoz; the great prophet of Judah, active from the death of Uzziah through the reigns of Jotham, Ahaz &amp; Hezekiah (Isaiah 1:1) · counseled Hezekiah through Sennacherib's 701 BC siege &amp; his illness (Isaiah 36-39); spoke of the child Immanuel born of a virgin (Isaiah 7:14) &amp; of the suffering servant (Isaiah 53) · historical (biblical)"}
+      ]
+    },
+    {
+      "note": "JUDAH (5) — the prophet Micah, a standalone island (real figure ● '—').",
+      "a": {"id": "MICAH", "label": "Micah<br/>c.750 BC · prophet of Moresheth in the Judean lowlands, a contemporary of Isaiah, prophesying under Jotham, Ahaz &amp; Hezekiah (Micah 1:1) · foretold the fall of both Samaria &amp; Jerusalem and named Bethlehem as the birthplace of the coming ruler (Micah 5:2) · historical (biblical)"},
+      "b": {"id": "MICAHW", "label": "—"},
+      "children": []
+    },
+    {
+      "note": "THE FALL OF THE NORTH (note-figure) — Amos, the herdsman-prophet of Tekoa, a standalone island. Foretold the doom of the northern kingdom.",
+      "a": {"id": "AMOS", "label": "Amos<br/>c.765 BC · a herdsman &amp; dresser of sycamore-figs from Tekoa in Judah, sent north to prophesy against the prosperous but unjust kingdom of Israel under Jeroboam II (Amos 1:1; 7:14-15) · foretold Israel's overthrow &amp; exile 'beyond Damascus' (Amos 5:27), fulfilled by Assyria a generation later · historical (biblical)"},
+      "b": {"id": "AMOSW", "label": "—"},
+      "children": []
+    },
+    {
+      "note": "THE FALL OF THE NORTH (note-figure) — Hosea son of Beeri, the northern prophet, a standalone island. His card carries the conquest of Samaria &amp; the deportation of the ten tribes; the last kings (Menahem, Pekah, Hoshea) and the Assyrian besiegers (Shalmaneser V, Sargon II) already exist elsewhere and are NOT re-drawn.",
+      "a": {"id": "HOSEA", "label": "Hosea<br/>c.755 BC · son of Beeri; the last prophet of the northern kingdom, whose marriage to Gomer became a living parable of Israel's unfaithfulness (Hosea 1) · he foretold the fall of Samaria — which the Assyrians Shalmaneser V &amp; Sargon II besieged &amp; took in 722 BC, deporting the ten northern tribes into exile as the 'lost tribes' in the last days of King Hoshea (2 Kings 17) · historical (biblical)"},
+      "b": {"id": "HOSEAW", "label": "—"},
+      "children": []
+    },
+    {
+      "note": "ASSYRIA — the missing family member. NAQIA (Zakutu) ● the existing AS_SENNACHERIB (referenced by id, NOT re-parented). CHILDLESS union by design: their son is the ALREADY-EXISTING Esarhaddon (10c), noted in-label ONLY and NOT re-parented by a second edge.",
+      "a": "AS_SENNACHERIB",
+      "b": {"id": "AS_NAQIA", "label": "👑 Naqia (Zakutu)<br/>c.728 BC · a consort of Sennacherib (secondary wife, married while he was still crown prince) &amp; mother of Esarhaddon (already in the tree; not re-drawn here) · a woman of extraordinary power for Assyria: as queen-mother she helped secure Esarhaddon's contested accession, then bound the empire's magnates by the Zakutu Treaty to accept her grandson Ashurbanipal, ruling in her own name at the height of her influence · historical"},
+      "children": []
+    },
+    {
+      "note": "EGYPT / KUSH (1) — the Napata homeland forebears, a standalone island. Alara (island root, founder-figure of the Napatan royal house) ● a '—' consort; his successor &amp; probable brother Kashta as child.",
+      "a": {"id": "EG_ALARA", "label": "👑 Alara<br/>c.780 BC · king of Kush at Napata, the earliest named ruler of the kingdom &amp; founder-figure of the Napatan royal house later venerated by the 25th-Dynasty pharaohs · he ruled only Nubia, not Egypt, so he was not himself a pharaoh · historical (dates debated)"},
+      "b": {"id": "EG_ALARAW", "label": "—"},
+      "children": [
+        {"id": "EG_KASHTA", "label": "👑 Kashta<br/>c.760 BC · king of Kush at Napata, successor &amp; probable brother of Alara · pushed Kushite power north to Elephantine &amp; Thebes and had his daughter Amenirdis I consecrated as God's Wife of Amun, setting the stage for the conquest of Egypt · father (per the standard reconstruction, not directly attested) of Piye &amp; Shabaka, the first two Kushite pharaohs of Egypt (both already in the tree; named here in-label only, NOT re-parented) · historical (kinship &amp; dates debated)"}
+      ]
+    },
+    {
+      "note": "EGYPT / KUSH (2) — Shebitku, added as a NEW second son of the existing EG_PIYE on a SEPARATE '—' union (Piye already parents Shabaka on his own union in 10b, so this parallel branch double-parents no one). Shebitku reigned between Shabaka &amp; his brother Taharqa, both already in the tree.",
+      "a": "EG_PIYE",
+      "b": {"id": "EG_PIYEW2", "label": "—"},
+      "children": [
+        {"id": "EG_SHEBITKU", "label": "👑 Shebitku (Shabataka)<br/>c.702 BC · 25th (Kushite / Nubian) Dynasty · son of Piye, reigning between his uncle Shabaka &amp; his brother Taharqa (both already in the tree) · his reign saw the first great clash with a resurgent Assyria as Kushite Egypt backed the Levantine states against Sennacherib · historical (order &amp; dates of Shabaka/Shebitku debated)"}
+      ]
+    }
+  ]
+}

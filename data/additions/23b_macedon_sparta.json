@@ -1,0 +1,180 @@
+{
+ "_note": "Slab c.1120-700 BC — the BRIDGE from the HERACLEIDAE (existing MYC_ nodes) down to the ARGEAD KINGS OF MACEDON (existing MAC_ line) and to the two Spartan royal houses. Two threads, both hanging off nodes already in the tree. THREAD 1 — MACEDON. The existing Argead line already runs PERDICCAS1MAC (Perdiccas I, c.700, founder of the Macedonian kingship per Herodotus 7.137/8.139) > ARGAEUS1MAC > PHILIP1MAC > AEROPUS1MAC > ALCETAS1MAC > AMYNTAS1MAC > ALEXANDER1MAC 'the Philhellene' > AMYNTASOFALEX > ARRHIDAEUS > AMYNTAS3 (Amyntas III) > PHILIP2 (built in 06_deep_antiquity.json). PERDICCAS1MAC currently has NO parent — it is the parentless top of the Argead chain. This slab therefore does NOT recreate any of those kings (that would duplicate them / double-parent them). Instead it builds ONLY the missing LEGENDARY stretch above Perdiccas I and grafts it on by making PERDICCAS1MAC the child of Tyrimmas — giving the existing chain its first parent, with no double-parenting. AMYNTAS3 is left untouched (it already has its parent ARRHIDAEUS). The new legendary line follows the received classical pedigree of Caranus (recorded in Diodorus and the Argead king-list tradition; the branch that names Coenus & Tyrimmas): the Argive Temenid kings MYC_TEMENUS (existing) > Ceisus > Maron > Thestrus > Acous > Aristodamidas (all Heraclid kings of Argos, kept in the MYCENAE house as MYC_), then the migration north to found Macedon at Aegae — MAC_CARANUS (c.808, the traditional first Argead king per Theopompus) > Coenus > Tyrimmas > and on to the existing Perdiccas I. The whole Temenus->Perdiccas stretch is LEGENDARY/semi-legendary and each node is flagged; the tradition (Herodotus 8.137) making the Macedonian kings Heraclids descended from Temenus of Argos is a dynastic claim, not documented fact. RESULT: a continuous line MYC_TEMENUS > MYC_CEISUS > MYC_MARON > MYC_THESTRUS > MYC_ACOUS > MYC_ARISTODAMIDAS > MAC_CARANUS > MAC_COENUS > MAC_TYRIMMAS > PERDICCAS1MAC > ... > AMYNTAS3 > PHILIP2 — the Greek legends now reach Philip II. THREAD 2 — SPARTA's dual kingship, the two houses from the twin sons of Aristodemus (existing MYC_EURYSTHENES & MYC_PROCLES, c.1090). AGIAD line from Eurysthenes: Agis I (eponym) > Echestratus > Labotas > Doryssus > Agesilaus I > Archelaus > Teleclus. EURYPONTID line from Procles: Soos (a later insertion, likely fictitious) > Eurypon (eponym) > Prytanis > Polydectes > Eunomus > his sons Charilaus (the king) and Lycurgus (c.800, the lawgiver & regent — no crown; his parentage and which king he guarded, the infant Charilaus per Simonides/Plutarch or the Agiad Labotas per Herodotus 1.65, are disputed — noted, not resolved). Father-son links per Herodotus 8.131 (Eurypontid) & the Agiad list; these early Spartan kings are semi-legendary (little evidence before the mid-6th c. BC) and each is flagged. Dates are nominal placeholders that descend from the tree's existing 1090 BC anchor for the twins (older than the traditional c.930 BC reign-dates) so every child year stays smaller than its parent's. Web-verified against Wikipedia 'Caranus of Macedon', 'Argead dynasty', 'List of kings of Sparta', 'Agiad dynasty', 'Eurypontid', and Diodorus's Temenid pedigree. No fabrication — received mythology and the classical king-lists followed; unattested consorts drawn as '—' placeholders rather than invented; disputed points flagged.",
+ "families": [
+  {
+   "note": "MACEDON (LEGENDARY) — the Argive Temenid line. MYC_TEMENUS (existing: Heraclid who took Argos in the Dorian Return) to his son Ceisus, king of Argos, first of the intermediary Temenid kings in Caranus's received pedigree.",
+   "a": "MYC_TEMENUS",
+   "b": {"id": "MYC_CEISUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_CEISUS", "label": "👑 Ceisus<br/>c.1085 BC · son of Temenus; king of Argos in the Temenid line · LEGENDARY"}
+   ]
+  },
+  {
+   "note": "MACEDON (LEGENDARY) — Temenid kings of Argos. Ceisus to Maron.",
+   "a": "MYC_CEISUS",
+   "b": {"id": "MYC_MARON_W", "label": "—"},
+   "children": [
+    {"id": "MYC_MARON", "label": "👑 Maron<br/>c.1030 BC · Temenid king of Argos; ancestor of the Macedonian Argeads in the received pedigree · LEGENDARY"}
+   ]
+  },
+  {
+   "note": "MACEDON (LEGENDARY) — Temenid kings of Argos. Maron to Thestrus.",
+   "a": "MYC_MARON",
+   "b": {"id": "MYC_THESTRUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_THESTRUS", "label": "👑 Thestrus<br/>c.975 BC · Temenid of the Argive royal line; ancestor of Caranus · LEGENDARY"}
+   ]
+  },
+  {
+   "note": "MACEDON (LEGENDARY) — Temenid kings of Argos. Thestrus to Acous.",
+   "a": "MYC_THESTRUS",
+   "b": {"id": "MYC_ACOUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ACOUS", "label": "👑 Acous<br/>c.920 BC · Temenid of the Argive royal line; ancestor of Caranus · LEGENDARY"}
+   ]
+  },
+  {
+   "note": "MACEDON (LEGENDARY) — Temenid kings of Argos. Acous to Aristodamidas, the last Argive-side ancestor before the migration north.",
+   "a": "MYC_ACOUS",
+   "b": {"id": "MYC_ARISTODAMIDAS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ARISTODAMIDAS", "label": "👑 Aristodamidas<br/>c.865 BC · Temenid king of Argos; father of Caranus in the received Argead pedigree · LEGENDARY"}
+   ]
+  },
+  {
+   "note": "MACEDON (LEGENDARY) — the founding of the Argead dynasty. Aristodamidas to CARANUS (MAC_ prefix routes to the ANTIQUITY house), the Heraclid of Argos who migrated north and founded the Macedonian kingdom at Aegae; the traditional first Argead king (Theopompus, Marsyas), distinct from Herodotus's Perdiccas-first tradition.",
+   "a": "MYC_ARISTODAMIDAS",
+   "b": {"id": "MAC_CARANUS_W", "label": "—"},
+   "children": [
+    {"id": "MAC_CARANUS", "label": "👑 Caranus<br/>c.808 BC · Heraclid of Argos who went north &amp; founded the Argead dynasty at Aegae; the legendary first king of Macedon · LEGENDARY"}
+   ]
+  },
+  {
+   "note": "MACEDON (LEGENDARY) — Caranus to Coenus, his son and successor in the Argead line.",
+   "a": "MAC_CARANUS",
+   "b": {"id": "MAC_COENUS_W", "label": "—"},
+   "children": [
+    {"id": "MAC_COENUS", "label": "👑 Coenus<br/>c.775 BC · son of Caranus; king of Macedon in the Argead line · LEGENDARY"}
+   ]
+  },
+  {
+   "note": "MACEDON (semi-legendary) — Coenus to Tyrimmas, an intermediary king inserted before Perdiccas I to extend the Argead line to eight generations from c.808 BC. Tyrimmas is the father of Perdiccas I.",
+   "a": "MAC_COENUS",
+   "b": {"id": "MAC_TYRIMMAS_W", "label": "—"},
+   "children": [
+    {"id": "MAC_TYRIMMAS", "label": "👑 Tyrimmas<br/>c.740 BC · son of Coenus; father of Perdiccas I; an intermediary king inserted to lengthen the Argead pedigree · semi-legendary"}
+   ]
+  },
+  {
+   "note": "MACEDON — THE GRAFT. Tyrimmas to the EXISTING Perdiccas I (PERDICCAS1MAC, built in 06_deep_antiquity.json, c.700, founder of the Macedonian kingship per Herodotus). PERDICCAS1MAC had no parent; this family gives it its first, connecting the legendary Temenid line down into the historical Argead chain PERDICCAS1MAC > ... > AMYNTAS3 > PHILIP2. No node re-created, no double-parenting — PERDICCAS1MAC is referenced, not redefined, and AMYNTAS3 is left with its existing parent ARRHIDAEUS.",
+   "a": "MAC_TYRIMMAS",
+   "b": {"id": "MAC_TYRIMMAS_W2", "label": "—"},
+   "children": ["PERDICCAS1MAC"]
+  },
+  {
+   "note": "SPARTA — the AGIAD royal house (semi-legendary). MYC_EURYSTHENES (existing: elder twin son of Aristodemus, founder of the Agiad line) to Agis I, from whom the house takes its name.",
+   "a": "MYC_EURYSTHENES",
+   "b": {"id": "MYC_AGIS1_W", "label": "—"},
+   "children": [
+    {"id": "MYC_AGIS1", "label": "👑 Agis I<br/>c.1050 BC · son of Eurysthenes; eponym of the Agiad royal house of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Agis I to Echestratus.",
+   "a": "MYC_AGIS1",
+   "b": {"id": "MYC_ECHESTRATUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ECHESTRATUS", "label": "👑 Echestratus<br/>c.1010 BC · son of Agis I; Agiad king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Echestratus to Labotas (Leobotas), whom Herodotus (1.65) makes the boy-king for whom Lycurgus served as regent.",
+   "a": "MYC_ECHESTRATUS",
+   "b": {"id": "MYC_LABOTAS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_LABOTAS", "label": "👑 Labotas<br/>c.965 BC · son of Echestratus; Agiad king; in Herodotus the child-king guarded by his uncle Lycurgus · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Labotas to Doryssus.",
+   "a": "MYC_LABOTAS",
+   "b": {"id": "MYC_DORYSSUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_DORYSSUS", "label": "👑 Doryssus<br/>c.920 BC · son of Labotas; Agiad king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Doryssus to Agesilaus I.",
+   "a": "MYC_DORYSSUS",
+   "b": {"id": "MYC_AGESILAUS1_W", "label": "—"},
+   "children": [
+    {"id": "MYC_AGESILAUS1", "label": "👑 Agesilaus I<br/>c.875 BC · son of Doryssus; Agiad king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Agesilaus I to Archelaus (the Agiad, distinct from the Macedonian Archelaus).",
+   "a": "MYC_AGESILAUS1",
+   "b": {"id": "MYC_ARCHELAUS_SP_W", "label": "—"},
+   "children": [
+    {"id": "MYC_ARCHELAUS_SP", "label": "👑 Archelaus<br/>c.825 BC · son of Agesilaus I; Agiad king who with the Eurypontid Charilaus took Aegys · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — AGIAD line. Archelaus to Teleclus, who pushed Sparta's power south into the Eurotas valley and was killed by the Messenians — the line reaching toward ~750 BC.",
+   "a": "MYC_ARCHELAUS_SP",
+   "b": {"id": "MYC_TELECLUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_TELECLUS", "label": "👑 Teleclus<br/>c.760 BC · son of Archelaus; Agiad king who took Amyclae, Pharis &amp; Geronthrae; slain by Messenians · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — the EURYPONTID royal house (semi-legendary). MYC_PROCLES (existing: younger twin son of Aristodemus, founder of the Eurypontid line) to Soos, a name inserted into the list to balance the two houses and likely fictitious.",
+   "a": "MYC_PROCLES",
+   "b": {"id": "MYC_SOOS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_SOOS", "label": "👑 Soos<br/>c.1050 BC · reputed son of Procles; Eurypontid king; a later insertion, likely fictitious · LEGENDARY"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Soos to Eurypon, from whom the house takes its name.",
+   "a": "MYC_SOOS",
+   "b": {"id": "MYC_EURYPON_W", "label": "—"},
+   "children": [
+    {"id": "MYC_EURYPON", "label": "👑 Eurypon<br/>c.1010 BC · son of Soos; eponym of the Eurypontid royal house of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Eurypon to Prytanis.",
+   "a": "MYC_EURYPON",
+   "b": {"id": "MYC_PRYTANIS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_PRYTANIS", "label": "👑 Prytanis<br/>c.960 BC · son of Eurypon; Eurypontid king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line (father-son order per Herodotus 8.131). Prytanis to Polydectes (the Spartan king, distinct from the Seriphian Polydectes of myth).",
+   "a": "MYC_PRYTANIS",
+   "b": {"id": "MYC_POLYDECTES_SP_W", "label": "—"},
+   "children": [
+    {"id": "MYC_POLYDECTES_SP", "label": "👑 Polydectes<br/>c.905 BC · son of Prytanis; Eurypontid king of Sparta · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Polydectes to Eunomus, father of Charilaus and, in the common tradition, of Lycurgus the lawgiver.",
+   "a": "MYC_POLYDECTES_SP",
+   "b": {"id": "MYC_EUNOMUS_W", "label": "—"},
+   "children": [
+    {"id": "MYC_EUNOMUS", "label": "👑 Eunomus<br/>c.850 BC · son of Polydectes; Eurypontid king; father of Charilaus &amp; (in tradition) of Lycurgus · semi-legendary"}
+   ]
+  },
+  {
+   "note": "SPARTA — EURYPONTID line. Eunomus x a wife > two sons: Charilaus, the reigning Eurypontid king, and Lycurgus, the lawgiver. Lycurgus bears no crown (regent, not king); the sources dispute his exact parentage and which king he guarded — the infant Charilaus (Simonides, Plutarch) or the Agiad Labotas (Herodotus 1.65) — so it is flagged, not resolved.",
+   "a": "MYC_EUNOMUS",
+   "b": {"id": "MYC_EUNOMUS_W2", "label": "—"},
+   "children": [
+    {"id": "MYC_CHARILAUS", "label": "👑 Charilaus<br/>c.790 BC · son of Eunomus; Eurypontid king who raided Argos &amp; Tegea; nephew &amp; ward of Lycurgus · semi-legendary"},
+    {"id": "MYC_LYCURGUS", "label": "Lycurgus<br/>c.800 BC · younger Eurypontid son (traditionally of Eunomus); the lawgiver who framed Sparta's constitution &amp; served as royal regent — parentage &amp; the king he guarded disputed · semi-legendary"}
+   ]
+  }
+ ]
+}

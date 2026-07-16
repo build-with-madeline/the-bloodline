@@ -1,0 +1,275 @@
+{
+ "_note": "Slab c.1180-509 BC — the LEGENDARY FOUNDING OF ROME, the bridge from Troy (Aeneas) through the Alban kings of Alba Longa to Romulus and the seven kings of the Roman Kingdom. EVERY figure is legendary or (for the later kings) semi-historical, and each label is flagged LEGENDARY; the dates are nominal placeholders on a schematic ladder, each child's year strictly smaller than its parent's. Prefix ROM_ = the new house 'Rome — Alban Kings & the Kingdom'; the god Mars reuses the deity convention as CRE_MARS (as the Troy slab did with CRE_ZEUS/CRE_APHRODITE for the divine parents). Connects FROM the existing TRO_AENEAS (Aeneas, son of Anchises & Aphrodite, already in the tree). THREAD 1 — LAVINIUM & IULUS: King Latinus of the Latins x Amata > Lavinia, whom Aeneas married (founding Lavinium). Aeneas x Lavinia > Ascanius, also called IULUS, who founded Alba Longa c.30 years after Lavinium. VARIANT (noted, no fabrication): the dominant Virgilian tradition makes Ascanius/Iulus the son of Aeneas's first (Trojan) wife Creusa, who came with him to Italy, while Silvius is the son born to Lavinia in the woods after Aeneas's death; Livy 1.3 leaves the mother of Ascanius openly uncertain ('whether son of Creusa... or of Lavinia'). This slab follows the task's Lavinian line (Ascanius as son of Lavinia) and records the Creusa variant in the label. The gens Julia of Rome claimed descent from Iulus — the thread that later points to Julius Caesar (a FUTURE connection for the tree). THREAD 2 — THE ALBAN KINGS (ROM_): the traditional schematic king-list (Livy 1.3, Wikipedia 'Kings of Alba Longa'), invented to fill the ~400 years between Aeneas's settlement and 753 BC. Drawn as father-son succession per the tradition, with mothers unrecorded (placeholder '—'): Ascanius > Silvius > Aeneas Silvius > Latinus Silvius > Alba > Atys > Capys > Capetus > Tiberinus (drowned in and named the Tiber) > Agrippa > Romulus Silvius > Aventinus (buried on the Aventine) > Procas > his two sons NUMITOR (elder, rightful heir) & Amulius (who usurped the throne). THREAD 3 — THE FOUNDING: Amulius made Numitor's daughter Rhea Silvia a Vestal Virgin to end her father's line; she bore twins to the god Mars — ROMULUS & Remus (traditional founding 753 BC; Remus slain by Romulus over the walls). THREAD 4 — THE SEVEN KINGS OF ROME (ROM_, legendary -> semi-historical; Varronian accession dates): Romulus (753) > Numa Pompilius (715) > Tullus Hostilius (673) > Ancus Marcius (642) > Tarquinius Priscus (616) > Servius Tullius (578) > Tarquinius Superbus (534), expelled 509 BC when the Roman Republic began. The kingship was ELECTIVE, not dynastic: these succession links are throne-succession, NOT bloodline (each drawn with a '—' placeholder, the same convention this tree uses for Egyptian throne-succession) — EXCEPT the kin claims noted in the labels: Ancus Marcius was Numa's grandson (via Numa's daughter Pompilia), and the Tarquins were tied by marriage (Priscus x Tanaquil; Superbus, son/grandson of Priscus, married Tullia, daughter of Servius Tullius). Web-verified against Wikipedia 'Kings of Alba Longa', 'Procas', 'Romulus and Remus', 'King of Rome', Livy 'History of Rome' Book 1.3-1.60, and Virgil's Aeneid; where sources diverge (Ascanius's mother, Superbus as son vs grandson of Priscus) the labels/notes carry the variant. No fabrication — the received Roman legend and the traditional (Varronian) chronology are followed; the Alban king-list is flagged as schematic.",
+ "families": [
+  {
+   "note": "LAVINIUM (LEGENDARY) — King Latinus of the Latins x Queen Amata > Lavinia, the Latin princess Aeneas married. Both parents attested in Virgil's Aeneid.",
+   "a": {
+    "id": "ROM_LATINUS",
+    "label": "👑 Latinus<br/>c.1200 BC · king of the Latins in Latium; son of Faunus in the tradition; gave his daughter Lavinia to Aeneas, sealing the Trojan-Latin union · LEGENDARY"
+   },
+   "b": {
+    "id": "ROM_AMATA",
+    "label": "Amata<br/>c.1198 BC · queen of the Latins, wife of Latinus; opposed the match &amp; favored Turnus for Lavinia; died by her own hand as Troy's cause prevailed · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "ROM_LAVINIA",
+     "label": "Lavinia<br/>c.1195 BC · daughter of Latinus &amp; Amata; wife of Aeneas; the town of Lavinium was named for her; mother of the Alban line · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "TROY -> ROME LINK (LEGENDARY) — the existing TRO_AENEAS x Lavinia > Ascanius/IULUS, founder of Alba Longa. VARIANT: the Virgilian tradition instead makes Ascanius/Iulus the son of Aeneas's Trojan first wife Creusa (who came to Italy with him), and Silvius the son of Lavinia born after Aeneas's death; Livy 1.3 leaves Ascanius's mother uncertain. The gens Julia claimed descent from Iulus — the thread toward Julius Caesar (a future connection).",
+   "a": "TRO_AENEAS",
+   "b": "ROM_LAVINIA",
+   "children": [
+    {
+     "id": "ROM_ASCANIUS",
+     "label": "👑 Ascanius (Iulus)<br/>c.1180 BC · son of Aeneas; founder &amp; first king of Alba Longa c.30 yrs after Lavinium; ancestor claimed by the gens Julia (hence Julius Caesar) — VARIANT: often called son of Aeneas's Trojan wife Creusa, not Lavinia · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Ascanius > Silvius. The list is drawn as father-son succession per the tradition; mothers are unrecorded ('—'). Silvius, born in the woods (silva), gave his name to the Silvii, the Alban dynastic cognomen.",
+   "a": "ROM_ASCANIUS",
+   "b": {"id": "ROM_SILVIUS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_SILVIUS",
+     "label": "👑 Silvius<br/>c.1148 BC · king of Alba Longa; born in the forest (silva), eponym of the Silvii, the dynastic name of the Alban kings · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Silvius > Aeneas Silvius.",
+   "a": "ROM_SILVIUS",
+   "b": {"id": "ROM_AENEASSILVIUS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_AENEASSILVIUS",
+     "label": "👑 Aeneas Silvius<br/>c.1116 BC · king of Alba Longa; second of the Silvian line · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Aeneas Silvius > Latinus Silvius.",
+   "a": "ROM_AENEASSILVIUS",
+   "b": {"id": "ROM_LATINUSSILVIUS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_LATINUSSILVIUS",
+     "label": "👑 Latinus Silvius<br/>c.1084 BC · king of Alba Longa; said to have founded Latin colonies (the 'Prisci Latini') · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Latinus Silvius > Alba, eponym of Alba Longa.",
+   "a": "ROM_LATINUSSILVIUS",
+   "b": {"id": "ROM_ALBA_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_ALBA",
+     "label": "👑 Alba<br/>c.1052 BC · king of Alba Longa; the city's eponym in the tradition · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Alba > Atys (also given as Epytus/Capetus in some lists).",
+   "a": "ROM_ALBA",
+   "b": {"id": "ROM_ATYS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_ATYS",
+     "label": "👑 Atys<br/>c.1020 BC · king of Alba Longa (rendered Epytus/Capetus in some versions of the list) · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Atys > Capys.",
+   "a": "ROM_ATYS",
+   "b": {"id": "ROM_CAPYS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_CAPYS_ALB",
+     "label": "👑 Capys<br/>c.988 BC · king of Alba Longa (distinct from the Trojan Capys of the Dardanian line) · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Capys > Capetus.",
+   "a": "ROM_CAPYS_ALB",
+   "b": {"id": "ROM_CAPETUS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_CAPETUS",
+     "label": "👑 Capetus<br/>c.956 BC · king of Alba Longa · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Capetus > Tiberinus, who drowned in the river Albula and gave it the name Tiber.",
+   "a": "ROM_CAPETUS",
+   "b": {"id": "ROM_TIBERINUS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_TIBERINUS",
+     "label": "👑 Tiberinus (Silvius)<br/>c.924 BC · king of Alba Longa; drowned in the river Albula, which was thereafter named the Tiber (Tiberis) &amp; he a river-god · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Tiberinus > Agrippa.",
+   "a": "ROM_TIBERINUS",
+   "b": {"id": "ROM_AGRIPPA_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_AGRIPPA",
+     "label": "👑 Agrippa<br/>c.892 BC · king of Alba Longa · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Agrippa > Romulus Silvius (also given as Remulus/Allodius), said to have been struck by lightning for aping Jupiter's thunder.",
+   "a": "ROM_AGRIPPA",
+   "b": {"id": "ROM_ROMULUSSILVIUS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_ROMULUSSILVIUS",
+     "label": "👑 Romulus Silvius<br/>c.860 BC · king of Alba Longa (Remulus/Allodius in variants); tradition says he mimicked Jupiter's thunder &amp; was killed by a thunderbolt · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Romulus Silvius > Aventinus, buried on and eponym of the Aventine Hill.",
+   "a": "ROM_ROMULUSSILVIUS",
+   "b": {"id": "ROM_AVENTINUS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_AVENTINUS",
+     "label": "👑 Aventinus<br/>c.828 BC · king of Alba Longa; buried on the hill that took his name, the Aventine of Rome · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY, schematic) — Aventinus > Procas, last undisputed king of Alba Longa.",
+   "a": "ROM_AVENTINUS",
+   "b": {"id": "ROM_PROCAS_M", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_PROCAS",
+     "label": "👑 Procas<br/>c.796 BC · king of Alba Longa; father of Numitor &amp; Amulius; willed the throne to the elder Numitor · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "ALBAN KINGS (LEGENDARY) — Procas's two sons: NUMITOR (the elder, rightful heir) & Amulius (who seized the throne, killed Numitor's sons, and made Numitor's daughter a Vestal). Mother unrecorded ('—').",
+   "a": "ROM_PROCAS",
+   "b": {"id": "ROM_PROCAS_W", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_NUMITOR",
+     "label": "👑 Numitor<br/>c.790 BC · rightful king of Alba Longa, elder son of Procas; deposed by his brother Amulius; grandfather of Romulus &amp; Remus, later restored by them · LEGENDARY"
+    },
+    {
+     "id": "ROM_AMULIUS",
+     "label": "👑 Amulius<br/>c.788 BC · younger son of Procas; usurped the throne of Alba Longa from Numitor, murdered Numitor's sons &amp; forced Rhea Silvia into the Vestals; slain when Romulus &amp; Remus restored their grandfather · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "THE FOUNDING (LEGENDARY) — Numitor > Rhea Silvia (Ilia), the Vestal Virgin. Mother unrecorded ('—').",
+   "a": "ROM_NUMITOR",
+   "b": {"id": "ROM_NUMITOR_W", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_RHEASILVIA",
+     "label": "Rhea Silvia (Ilia)<br/>c.772 BC · daughter of Numitor; made a Vestal Virgin by Amulius to end her father's line; bore Romulus &amp; Remus to the god Mars &amp; was imprisoned · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "THE FOUNDING (LEGENDARY) — Rhea Silvia x the god Mars (CRE_MARS, new deity node following this tree's divine-parent convention) > the twins ROMULUS & Remus. Set adrift on the Tiber, suckled by the she-wolf, they founded Rome; Remus was slain by Romulus in the quarrel over the walls (traditional founding 753 BC).",
+   "a": "ROM_RHEASILVIA",
+   "b": {
+    "id": "CRE_MARS",
+    "label": "Mars<br/>c.800 BC · Roman god of war; father of Romulus &amp; Remus by Rhea Silvia, making him the divine ancestor of the Roman people · LEGENDARY"
+   },
+   "children": [
+    {
+     "id": "ROM_ROMULUS",
+     "label": "👑 Romulus<br/>753 BC · son of Rhea Silvia &amp; Mars; with his twin Remus suckled by the she-wolf; founder &amp; first king of Rome (traditionally 21 April 753 BC); slew Remus over the walls; deified as Quirinus · LEGENDARY"
+    },
+    {
+     "id": "ROM_REMUS",
+     "label": "Remus<br/>753 BC · twin of Romulus; leapt in scorn over the new walls of Rome &amp; was killed by his brother, so that one founder should rule · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "SEVEN KINGS OF ROME (LEGENDARY -> semi-historical) — Romulus > Numa Pompilius. ELECTIVE succession, NOT descent: this link is throne-succession (placeholder '—'), the same convention this tree uses for Egyptian king-lists. Numa, a Sabine of Cures (son of Pomponius), was chosen by the people for his piety; he founded Rome's religious institutions.",
+   "a": "ROM_ROMULUS",
+   "b": {"id": "ROM_NUMA_SUCCW", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_NUMA",
+     "label": "👑 Numa Pompilius<br/>715 BC · 2nd king of Rome (acc. 715 BC), a Sabine of Cures, son of Pomponius; ELECTED, not kin to Romulus; founded the priesthoods, the calendar &amp; Roman religion · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "SEVEN KINGS OF ROME (LEGENDARY -> semi-historical) — Numa > Tullus Hostilius. Elective throne-succession, not descent ('—'). Tullus, grandson of Hostus Hostilius, was the warlike king who destroyed Alba Longa and moved its people to Rome.",
+   "a": "ROM_NUMA",
+   "b": {"id": "ROM_TULLUS_SUCCW", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_TULLUS",
+     "label": "👑 Tullus Hostilius<br/>673 BC · 3rd king of Rome (acc. 673 BC); grandson of Hostus Hostilius; a warrior-king who razed Alba Longa &amp; brought the Alban families to Rome · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "SEVEN KINGS OF ROME (LEGENDARY -> semi-historical) — Tullus > Ancus Marcius. KIN CLAIMED: Ancus was the grandson of Numa Pompilius (through Numa's daughter Pompilia); the succession itself was still elective, so the edge is drawn as throne-succession ('—') with the kinship noted here.",
+   "a": "ROM_TULLUS",
+   "b": {"id": "ROM_ANCUS_SUCCW", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_ANCUS",
+     "label": "👑 Ancus Marcius<br/>642 BC · 4th king of Rome (acc. 642 BC); grandson of Numa via his daughter Pompilia; built the first Tiber bridge &amp; the port of Ostia; ancestor claimed by the gens Marcia · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "SEVEN KINGS OF ROME (LEGENDARY -> semi-historical) — Ancus > Tarquinius Priscus. Elective throne-succession ('—'). Priscus, son of the Corinthian exile Demaratus, migrated from Etruscan Tarquinii with his wife Tanaquil &amp; won the throne; he began the great works (Circus Maximus, Cloaca Maxima, Capitoline temple).",
+   "a": "ROM_ANCUS",
+   "b": {"id": "ROM_PRISCUS_SUCCW", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_PRISCUS",
+     "label": "👑 Lucius Tarquinius Priscus<br/>616 BC · 5th king of Rome (acc. 616 BC); son of the Corinthian Demaratus, came from Etruscan Tarquinii with his wife Tanaquil; the first Etruscan king; head of the Tarquin house · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "SEVEN KINGS OF ROME (LEGENDARY -> semi-historical) — Priscus > Servius Tullius. Elective throne-succession ('—'), though tied to the Tarquins: Servius was raised in Priscus's household &amp; married a daughter of Priscus; Tanaquil secured him the throne after Priscus's murder. Servius reformed the census, tribes &amp; army &amp; walled the city.",
+   "a": "ROM_PRISCUS",
+   "b": {"id": "ROM_SERVIUS_SUCCW", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_SERVIUS",
+     "label": "👑 Servius Tullius<br/>578 BC · 6th king of Rome (acc. 578 BC); reputedly son of the captive Ocrisia, raised in Priscus's house &amp; wed to his daughter; reformed the census &amp; the centuriate army; murdered by Tarquinius Superbus &amp; his own daughter Tullia · LEGENDARY"
+    }
+   ]
+  },
+  {
+   "note": "SEVEN KINGS OF ROME (LEGENDARY -> semi-historical) — Servius > Tarquinius Superbus, the last king. KIN/MARRIAGE CLAIMED: Superbus was the son (some say grandson) of Tarquinius Priscus and married Tullia, daughter of Servius, whom the pair murdered to seize the throne. Edge drawn as throne-succession ('—') with the ties noted. His expulsion in 509 BC began the Roman Republic.",
+   "a": "ROM_SERVIUS",
+   "b": {"id": "ROM_SUPERBUS_SUCCW", "label": "—"},
+   "children": [
+    {
+     "id": "ROM_SUPERBUS",
+     "label": "👑 Lucius Tarquinius Superbus<br/>534 BC · 7th &amp; last king of Rome (acc. 534 BC); son/grandson of Priscus; married Tullia, daughter of Servius, &amp; helped murder him; his tyranny &amp; the rape of Lucretia by his son led to his expulsion in 509 BC — the birth of the Roman Republic · LEGENDARY"
+    }
+   ]
+  }
+ ]
+}

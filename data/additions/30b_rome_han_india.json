@@ -1,0 +1,147 @@
+{
+ "_note": "Slab c.200-100 BC — the late ROMAN REPUBLIC toward the civil wars, the HAN DYNASTY of China, the SHUNGA dynasty &amp; the INDO-GREEKS of India. THREE REGIONS. (1) ROME (ROM_/JUL_) — the age of Marius &amp; Sulla. GAIUS MARIUS (157-86 BC), the 'third founder of Rome', seven-times consul &amp; army reformer, is tied INTO the existing gens Julia: he married JULIA, a paternal AUNT of Julius Caesar. Julia was the daughter of the existing JUL_CAESARGF (Gaius Julius Caesar, the dictator's grandfather) ● JUL_MARCIA — so she is APPENDED as a NEW sibling of the existing JUL_CAESARF (Caesar's father) under those SAME two parents (the append-a-sibling pattern used throughout these slabs; no one is re-parented). Marius ● Julia -> their son GAIUS MARIUS THE YOUNGER (consul 82 BC). This is the genuine Rome-internal tie between Marius &amp; JULIUSCAESAR's family the brief calls for. STANDALONE historical figures ('—' placeholder spouse, no issue depicted): Lucius Cornelius SULLA the dictator (Marius' rival, first to march on Rome &amp; proscribe his enemies) and Quintus Caecilius Metellus NUMIDICUS of the great plebeian-noble Metelli (Marius' commander turned rival in the Jugurthine War). The Gracchi (already in 29b) are referenced only in-note as the aftermath that set Marius' generation in motion. (2) CHINA (CN_) — the HAN DYNASTY, the great house that rose after Qin's collapse. Built as a father-son imperial chain, drawn as a NEW standalone Han island: the Han claimed NO descent from the Qin (Liu Bang was a commoner), so it is NOT attached to the existing Qin nodes (CN_QINSHIHUANG etc.) — flagged as a succession, not a bloodline. LIU BANG / Emperor GAOZU (256-195 BC, the peasant who founded the Han in 202 BC) ● Empress LÜ ZHI -> Emperor HUI (Liu Ying); Gaozu ● Consort BO -> Emperor WEN (Liu Heng). NOTE ON THE CHAIN: historically Emperor Wen was NOT Hui's descendant but Gaozu's own son by a different consort, who took the throne after the Lü clan was purged — so he is drawn (accurately) as a second son of Gaozu, NOT falsely as Hui's heir. From Wen the true father-son line runs: Wen ● Empress DOU -> Emperor JING (Liu Qi) ● Consort WANG -> Emperor WU (156-87 BC), the great expansionist who opened the SILK ROAD, pushed back the Xiongnu &amp; made Confucianism state doctrine. (3) INDIA (IN_/GRK_) — the fall of the Mauryas &amp; the Indo-Greeks. the last Maurya, the EXISTING IN_BRIHADRATHA (08_convergence.json), was overthrown &amp; killed by his own general PUSHYAMITRA SHUNGA, who founded the SHUNGA dynasty — a SUCCESSION, not kinship; the existing Brihadratha node is left untouched (not re-defined, not re-parented) &amp; referenced only in-note. Pushyamitra ● — -> his son &amp; successor AGNIMITRA (hero of Kalidasa's play Malavikagnimitra) — a real Shunga father-son pair. And the INDO-GREEKS: MENANDER I / Milinda (r.c.165-130 BC), the Bactrian-Greek king of the Milindapanha who embraced Buddhism — a Greek ruler deep in India, the Hellenistic-Indian fusion; drawn with GRK_ prefix as a FLAGGED standalone island (he belonged to the Euthydemid, NOT the Diodotid, line, so there is no clean blood tie to the existing Greco-Bactrian MAC_DIODOTUS nodes). Menander ● his queen AGATHOKLEIA -> their son STRATO I Soter, for whom Agathokleia ruled as regent (the traditional Tarn/Bopearachchi reconstruction; a later-dating numismatic view is noted). Prefixes: Rome=ROM_/JUL_, China=CN_, India=IN_, Indo-Greek=GRK_. All figures HISTORICAL (Menander/Agnimitra part-traditional, flagged). AVOID DOUBLE-PARENTING: every child (Julia, Marius the Younger, Hui, Wen, Jing, Wu, Agnimitra, Strato I) sits in exactly ONE child-union; the Han Emperors Wen &amp; Wu use ids CN_HANWEN &amp; CN_HANWU to avoid clashing with the existing Zhou kings CN_WEN &amp; CN_WU; JUL_CAESARGF ● JUL_MARCIA and CN_GAOZU are each re-stated only to APPEND a sibling, never to re-parent. Child years kept strictly SMALLER than parents on the schematic ladder. Web-verified July 2026 against Wikipedia 'Gaius Marius','Julia (wife of Marius)','Gaius Marius the Younger','Lucius Cornelius Sulla','Quintus Caecilius Metellus Numidicus','Emperor Gaozu of Han','Empress Lü Zhi','Emperor Hui of Han','Emperor Wen of Han','Emperor Jing of Han','Emperor Wu of Han','Brihadratha Maurya','Pushyamitra Shunga','Agnimitra','Menander I','Agathoclea','Strato I'. NO fabrication.",
+ "families": [
+  {
+   "note": "ROME — Julia, paternal AUNT of Julius Caesar &amp; wife of Marius, APPENDED as a new sibling of the existing JUL_CAESARF under the SAME two existing parents JUL_CAESARGF ● JUL_MARCIA (24_gens_julia.json). This is the Marius->Julii tie: no re-parenting, only a sibling added.",
+   "a": "JUL_CAESARGF",
+   "b": "JUL_MARCIA",
+   "children": [
+    {
+     "id": "JUL_JULIA_MARII",
+     "label": "Julia<br/>c.126 BC · daughter of Gaius Julius Caesar &amp; Marcia, and paternal AUNT of the dictator Julius Caesar; her marriage to the 'new man' Marius gave him patrician standing &amp; launched his career; the young Caesar delivered her funeral eulogy in 69 BC · the Julii-Marius bridge · historical"
+    }
+   ]
+  },
+  {
+   "note": "ROME — GAIUS MARIUS ● Julia (aunt of Caesar) -> their only son GAIUS MARIUS THE YOUNGER. Marius, the seven-times consul &amp; reformer of the legions, is thus knotted into the gens Julia &amp; Caesar's own family.",
+   "a": {
+    "id": "ROM_MARIUS",
+    "label": "👑 Gaius Marius<br/>157-86 BC · seven-times consul &amp; 'third founder of Rome'; the 'new man' who reformed the army into a professional force loyal to its general, crushed Jugurtha &amp; the Cimbri &amp; Teutones, then fought the bloody civil war with Sulla · uncle-by-marriage of Julius Caesar · historical"
+   },
+   "b": "JUL_JULIA_MARII",
+   "children": [
+    {
+     "id": "ROM_MARIUS_YOUNGER",
+     "label": "Gaius Marius the Younger<br/>c.109 BC · son of Marius &amp; Julia; consul at barely 26 in 82 BC during the Marian-Sullan civil war; besieged by Sulla at Praeneste, he took his own life as the city fell · historical"
+    }
+   ]
+  },
+  {
+   "note": "ROME — Lucius Cornelius Sulla, the dictator &amp; rival of Marius. STANDALONE ('—' spouse): first Roman to march his army on Rome, victor in the civil war, author of the proscriptions who then laid down power.",
+   "a": {
+    "id": "ROM_SULLA",
+    "label": "👑 Lucius Cornelius Sulla<br/>c.138-78 BC · patrician general &amp; rival of Marius; first to march legions on Rome, twice, &amp; the first to hold the office of dictator to remake the state; his proscriptions butchered his enemies before he stunned Rome by resigning · historical"
+   },
+   "b": {
+    "id": "ROM_SULLA_W",
+    "label": "—"
+   },
+   "children": []
+  },
+  {
+   "note": "ROME — Quintus Caecilius Metellus Numidicus, of the great plebeian-noble Metelli; Marius' commander in Numidia turned rival, exiled for refusing Saturninus' land law. STANDALONE ('—' spouse), representing the Metelli.",
+   "a": {
+    "id": "ROM_METELLUS_NUMIDICUS",
+    "label": "Quintus Caecilius Metellus Numidicus<br/>c.160-91 BC · consul 109 BC of the powerful CAECILII METELLI; commander against Jugurtha in Numidia (whence his cognomen), under whom Marius served before eclipsing him; a stern optimate driven into exile for defying the tribune Saturninus · historical"
+   },
+   "b": {
+    "id": "ROM_METELLUS_NUMIDICUS_W",
+    "label": "—"
+   },
+   "children": []
+  },
+  {
+   "note": "CHINA (Han) — a NEW Han island. LIU BANG / Emperor GAOZU, the commoner who founded the Han in 202 BC ● Empress LÜ ZHI -> Emperor HUI (Liu Ying). The Han claimed NO descent from the fallen Qin, so this stands as its own chain, flagged as a succession not a bloodline.",
+   "a": {
+    "id": "CN_GAOZU",
+    "label": "👑 Emperor Gaozu of Han (Liu Bang)<br/>256-195 BC · peasant-born rebel leader who defeated Xiang Yu in the Chu-Han contention &amp; FOUNDED the HAN DYNASTY in 202 BC, China's great enduring empire after Qin's collapse · ⚠ new dynasty, no bloodline from Qin — flagged island · historical"
+   },
+   "b": {
+    "id": "CN_LUZHI",
+    "label": "Empress Lü Zhi<br/>c.241-180 BC · principal wife of Gaozu &amp; mother of Emperor Hui; after Gaozu's death the ruthless dowager-empress who dominated the court &amp; elevated her Lü clan, purged after her death · historical"
+   },
+   "children": [
+    {
+     "id": "CN_HUI",
+     "label": "👑 Emperor Hui of Han (Liu Ying)<br/>210-188 BC · son of Gaozu &amp; Empress Lü; second Han emperor (r.195-188 BC), a mild ruler overshadowed &amp; broken by his mother's court intrigues; died young, leaving power to the Lü dowager · historical"
+    }
+   ]
+  },
+  {
+   "note": "CHINA (Han) — Gaozu ● Consort BO -> Emperor WEN (Liu Heng). Re-states Gaozu to APPEND a second son by a different consort. FLAG: historically Wen was NOT Hui's heir but Gaozu's own son, raised to the throne after the Lü clan was purged — drawn accurately as Gaozu's son, not as Hui's descendant.",
+   "a": "CN_GAOZU",
+   "b": {
+    "id": "CN_BOJI",
+    "label": "Consort Bo (Empress Dowager Bo)<br/>c.215 BC · a lesser consort of Gaozu &amp; mother of Liu Heng (Emperor Wen); her low standing kept her &amp; her son safe from Empress Lü's purges, and she lived to see him take the throne in 180 BC · historical"
+   },
+   "children": [
+    {
+     "id": "CN_HANWEN",
+     "label": "👑 Emperor Wen of Han (Liu Heng)<br/>203-157 BC · son of Gaozu &amp; Consort Bo; raised to the throne in 180 BC after the Lü clan fell; a frugal, Daoist-minded ruler whose lenient reign began the prosperous 'Rule of Wen &amp; Jing' · historical"
+    }
+   ]
+  },
+  {
+   "note": "CHINA (Han) — Emperor Wen ● Empress DOU -> Emperor JING (Liu Qi). The true father-son line resumes.",
+   "a": "CN_HANWEN",
+   "b": {
+    "id": "CN_DOU",
+    "label": "Empress Dou<br/>c.205 BC · wife of Emperor Wen &amp; mother of Emperor Jing; a devout Daoist whose influence as grand dowager shaped the early reign of her grandson Emperor Wu · historical"
+   },
+   "children": [
+    {
+     "id": "CN_JING",
+     "label": "👑 Emperor Jing of Han (Liu Qi)<br/>188-141 BC · son of Emperor Wen; his reign completed the 'Rule of Wen &amp; Jing' &amp; crushed the Rebellion of the Seven States (154 BC), consolidating central power for his son Wu · historical"
+    }
+   ]
+  },
+  {
+   "note": "CHINA (Han) — Emperor Jing ● Consort WANG ZHI -> Emperor WU, the dynasty's great expansionist.",
+   "a": "CN_JING",
+   "b": {
+    "id": "CN_WANGZHI",
+    "label": "Empress Wang Zhi<br/>c.180 BC · consort of Emperor Jing &amp; mother of Emperor Wu, whom she maneuvered past his half-brothers to the succession; a formidable palace politician · historical"
+   },
+   "children": [
+    {
+     "id": "CN_HANWU",
+     "label": "👑 Emperor Wu of Han (Liu Che)<br/>156-87 BC · the great expansionist emperor (r.141-87 BC); pushed back the Xiongnu, opened the SILK ROAD to the west, annexed vast territory &amp; made CONFUCIANISM the state doctrine, defining imperial China for two millennia · historical"
+    }
+   ]
+  },
+  {
+   "note": "INDIA (Shunga) — PUSHYAMITRA SHUNGA, founder of the Shunga dynasty by SUCCESSION: he assassinated the last Maurya, the EXISTING IN_BRIHADRATHA (08_convergence.json) — a coup, NOT kinship, so no blood-edge to the Mauryas &amp; the existing node is left untouched — ● — -> his son &amp; successor AGNIMITRA. A real Shunga father-son pair.",
+   "a": {
+    "id": "IN_PUSHYAMITRA",
+    "label": "👑 Pushyamitra Shunga<br/>c.185 BC · Mauryan general who assassinated the last emperor Brihadratha (185 BC) &amp; FOUNDED the SHUNGA dynasty, ruling Magadha for some 36 years; a Brahmanical revivalist who checked the Indo-Greek advance · a succession from the Mauryas, not a bloodline · historical"
+   },
+   "b": {
+    "id": "IN_PUSHYAMITRA_W",
+    "label": "—"
+   },
+   "children": [
+    {
+     "id": "IN_AGNIMITRA",
+     "label": "Agnimitra<br/>c.160 BC · son &amp; successor of Pushyamitra as Shunga king; the romantic hero of Kalidasa's Sanskrit play Malavikagnimitra, though little is historically recorded of his reign · historical (part-traditional)"
+    }
+   ]
+  },
+  {
+   "note": "INDIA (Indo-Greek) — MENANDER I / Milinda, the Bactrian-Greek king who embraced Buddhism (the Milindapanha), drawn with GRK_ prefix as a FLAGGED standalone island: of the Euthydemid, not the Diodotid, line, so no clean blood tie to the existing Greco-Bactrian MAC_DIODOTUS nodes. Menander ● his queen AGATHOKLEIA -> their son STRATO I, for whom she ruled as regent.",
+   "a": {
+    "id": "GRK_MENANDER",
+    "label": "👑 Menander I (Milinda)<br/>c.165 BC · the greatest INDO-GREEK king (r.c.165-130 BC), a Bactrian-Greek who ruled a wide realm in northwest India from Sagala; famed in the Buddhist Milindapanha ('Questions of Milinda') as a convert to Buddhism · the Hellenistic-Indian fusion · ⚠ Euthydemid line, no verified tie to the tree — flagged island · historical"
+   },
+   "b": {
+    "id": "GRK_AGATHOKLEIA",
+    "label": "Agathokleia<br/>c.155 BC · Indo-Greek queen &amp; wife of Menander I; after his death she ruled as REGENT for their infant son Strato I, holding the eastern territories of Gandhara &amp; Punjab through the succession wars · historical"
+   },
+   "children": [
+    {
+     "id": "GRK_STRATO1",
+     "label": "👑 Strato I Soter<br/>c.140 BC · Indo-Greek king, son of Menander I &amp; Agathokleia, who reigned under his mother's regency &amp; kept his father's Athena-with-thunderbolt coinage &amp; the title Soter · (a later numismatic dating is debated) · historical"
+    }
+   ]
+  }
+ ]
+}

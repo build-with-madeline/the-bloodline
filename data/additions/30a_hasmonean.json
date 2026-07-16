@@ -1,0 +1,62 @@
+{
+  "_note": "Slab c.200-100 BC — the MACCABEAN REVOLT, the HASMONEAN DYNASTY of independent Judea, and the SELEUCID DECLINE. Builds on the Hasmonean spine already in the tree (06_deep_antiquity.json) and the Seleucids in 03_antiquity.json / 29a_hellenistic.json, and NEVER re-parents an existing node. MATTATHIAS, MATTATHIASW, SIMONTHASSI, JOHNHYRCANUS, JOHNHYRCANUSW, ALEXJANNAEUS, SALOMEALEX, ARISTOBULUS2, ALEXANDERHAS, ALEXANDRAHAS, MARIAMNE, HERODGREAT, ANTIOCHUS3, LAODICE3, SELEUCUS4, LAODICE4 are all referenced by id only. Where an existing couple gains a NEW child the SAME two parent ids are re-stated so the build merely APPENDS a sibling to their existing union (same pattern as 29a). (1) THE MACCABEES — the four brothers of the EXISTING Simon Thassi are appended to their parents Mattathias ● (wife): John Gaddi, Judas Maccabeus 'the Hammer' who rededicated the Temple in 164 BC (Hanukkah), Eleazar Avaran, and Jonathan Apphus the first Hasmonean High Priest (1 Macc 2:2-5). (2) THE DYNASTY — John Hyrcanus I gains a second son, Aristobulus I, the first Hasmonean to take the title King. Alexander Jannaeus ● Salome Alexandra gain a second son, Hyrcanus II, whose civil war with his brother Aristobulus II (already in the tree) let Rome in under Pompey in 63 BC. (3) THE HASMONEAN<->HERODIAN LINK (priority) — the cross-house marriage MARIAMNE ● HERODGREAT already stands in 03_antiquity, and Mariamne is already the daughter of ALEXANDERHAS (son of Aristobulus II) ● ALEXANDRAHAS in 06. This slab completes the flow by giving ALEXANDRAHAS (Alexandra, who had NO parents in the tree — this ADDS ancestry, it does not re-parent) her real father Hyrcanus II. Mariamne I is thus the granddaughter of BOTH Aristobulus II (through her father Alexander) AND Hyrcanus II (through her mother Alexandra), exactly as Josephus records, and the whole Hasmonean priest-king line now flows down into the Herodian house through her. MARIAMNE is NOT re-parented. (4) SELEUCID DECLINE — Antiochus III ● Laodice III gain a new son, Antiochus IV Epiphanes, the villain of the revolt who desecrated the Jerusalem Temple in 167 BC; his son Antiochus V Eupator, and (under Seleucus IV ● Laodice IV) Demetrius I Soter who seized the throne from the boy-king, extend the dying line. Web-verified July 2026 against 1 Maccabees 2 (USCCB) and Josephus (Antiquities): the five sons of Mattathias and their surnames, Aristobulus I as the first Hasmonean king, the Hyrcanus II / Aristobulus II civil war and Pompey (63 BC), Mariamne I's double Hasmonean descent, and Antiochus IV's desecration of the Temple (167 BC). Historical throughout; unrecorded spouses are placeholders. Ordered so any newly-defined node exists before it is referenced.",
+  "families": [
+    {
+      "note": "THE MACCABEES — the four brothers of the EXISTING Simon Thassi appended to their parents Mattathias ● wife (1 Macc 2:2-5). Simon (SIMONTHASSI) already stands as the fifth son and founder of the dynasty.",
+      "a": "MATTATHIAS",
+      "b": "MATTATHIASW",
+      "children": [
+        {"id": "JOHNGADDI", "label": "John Gaddi<br/>d.160 BC · eldest son of Mattathias · led an ill-fated baggage escort &amp; was killed by the sons of Jambri · 1 Maccabees"},
+        {"id": "JUDASMACC", "label": "Judas Maccabeus<br/>d.160 BC · 'the Hammer' · led the revolt to victory &amp; rededicated the Temple 164 BC (Hanukkah) · fell in battle at Elasa · 1 Maccabees"},
+        {"id": "ELEAZARAVARAN", "label": "Eleazar Avaran<br/>d.162 BC · 'the Piercer' · slew a Seleucid war-elephant at Beth-zechariah &amp; was crushed beneath it · 1 Maccabees"},
+        {"id": "JONATHANAPPHUS", "label": "👑 Jonathan Apphus<br/>d.143 BC · first Hasmonean High Priest of Judaea · succeeded Judas as leader of the revolt · 1 Maccabees"}
+      ]
+    },
+    {
+      "note": "THE DYNASTY (1) — John Hyrcanus I gains a second son, Aristobulus I, appended beside the EXISTING Alexander Jannaeus. Aristobulus I was the first of the house to assume the royal title (Josephus, Ant. 13.301). Died after a one-year reign, leaving no lasting line.",
+      "a": "JOHNHYRCANUS",
+      "b": "JOHNHYRCANUSW",
+      "children": [
+        {"id": "ARISTOBULUS1", "label": "👑 Aristobulus I<br/>d.103 BC · High Priest &amp; the first Hasmonean to take the title King of Judaea · reigned barely a year · Josephus"}
+      ]
+    },
+    {
+      "note": "THE DYNASTY (2) — Alexander Jannaeus ● Salome Alexandra gain a second son, Hyrcanus II, appended beside the EXISTING Aristobulus II. Hyrcanus II's dynastic civil war with his brother Aristobulus II brought Pompey and Rome into Judea in 63 BC.",
+      "a": "ALEXJANNAEUS",
+      "b": "SALOMEALEX",
+      "children": [
+        {"id": "HYRCANUS2", "label": "👑 Hyrcanus II<br/>c.110-30 BC · High Priest &amp; ethnarch of Judaea · his civil war with his brother Aristobulus II let Rome in (Pompey, 63 BC) · Josephus"}
+      ]
+    },
+    {
+      "note": "THE HASMONEAN<->HERODIAN LINK (priority). ALEXANDRAHAS (Alexandra, Mariamne's mother; already a bare parent-node in 06 with NO parents) is given her real father Hyrcanus II — this ADDS ancestry, it does not re-parent her. Her husband ALEXANDERHAS (Mariamne's father) already stands in 06 as a son of Aristobulus II, and MARIAMNE ● HERODGREAT already stands in 03_antiquity. So Mariamne I is the granddaughter of BOTH Aristobulus II (via her father) AND Hyrcanus II (via her mother), and the Hasmonean priest-king line now flows down into the Herodian house. MARIAMNE is referenced NOWHERE here and is NOT re-parented.",
+      "a": "HYRCANUS2",
+      "b": {"id": "HYRCANUS2W", "label": "wife, name unknown"},
+      "children": ["ALEXANDRAHAS"]
+    },
+    {
+      "note": "SELEUCID DECLINE (1) — Antiochus III ● Laodice III gain a new son, Antiochus IV Epiphanes, appended beside the EXISTING Seleucus IV, Antiochis &amp; Cleopatra I. He is the villain of the Maccabean revolt who desecrated the Jerusalem Temple in 167 BC.",
+      "a": "ANTIOCHUS3",
+      "b": "LAODICE3",
+      "children": [
+        {"id": "ANTIOCHUS4", "label": "👑 Antiochus IV Epiphanes<br/>c.215-164 BC · Seleucid King r.175-164 BC, son of Antiochus III · desecrated the Jerusalem Temple 167 BC, igniting the Maccabean revolt · 1 Maccabees"}
+      ]
+    },
+    {
+      "note": "SELEUCID DECLINE (2) — Antiochus IV ● wife bear the boy-king Antiochus V Eupator, deposed &amp; executed by his cousin Demetrius I.",
+      "a": "ANTIOCHUS4",
+      "b": {"id": "ANTIOCHUS4W", "label": "wife, name unknown"},
+      "children": [
+        {"id": "ANTIOCHUS5", "label": "👑 Antiochus V Eupator<br/>c.173-161 BC · Seleucid boy-king r.164-161 BC, son of Antiochus IV · seized &amp; executed by his cousin Demetrius I Soter · 1 Maccabees"}
+      ]
+    },
+    {
+      "note": "SELEUCID DECLINE (3) — Seleucus IV ● Laodice IV gain a new son, Demetrius I Soter, appended beside the EXISTING Laodice V. Held hostage at Rome, he escaped, seized the throne from the child Antiochus V, and ruled the shrinking Seleucid realm.",
+      "a": "SELEUCUS4",
+      "b": "LAODICE4",
+      "children": [
+        {"id": "DEMETRIUS1SOTER", "label": "👑 Demetrius I Soter<br/>c.185-150 BC · Seleucid King r.161-150 BC, son of Seleucus IV · escaped Roman hostage-hood &amp; took the throne from Antiochus V · 1 Maccabees"}
+      ]
+    }
+  ]
+}

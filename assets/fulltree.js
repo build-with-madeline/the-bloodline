@@ -369,9 +369,12 @@
   // so an "only hide if all parents collapsed" rule would fold nothing — folding the
   // transitive subtree is what actually declutters and matches the mental model.
   const collapsed = new Set();
+  const nonHist = new Set(ids.filter(p => P[p] && P[p].h === 0));   // legend / myth / tradition / unattested
+  let historyOnly = false;
   const connEls = [...svg.querySelectorAll('.conn,.dot,.conn-hit')];
   function applyCollapse() {
     const hidden = new Set();
+    if (historyOnly) nonHist.forEach(p => hidden.add(p));           // filter: documented history only
     const st = [];
     collapsed.forEach(c => kidsOf(c).forEach(k => { if (!hidden.has(k)) { hidden.add(k); st.push(k); } }));
     while (st.length) { const x = st.pop(); kidsOf(x).forEach(k => { if (!hidden.has(k)) { hidden.add(k); st.push(k); } }); }
@@ -525,6 +528,19 @@
   document.getElementById('zoomIn').onclick = () => { startPan(); scale *= 1.2; apply(); endPan(); };
   document.getElementById('zoomOut').onclick = () => { startPan(); scale /= 1.2; apply(); endPan(); };
   document.getElementById('fitBtn').onclick = fit;
+
+  // ---- "documented history only" filter: hide legend / myth / tradition / unattested ----
+  const histBtn = document.getElementById('histToggle'), genStat = document.getElementById('genstat');
+  const histCount = ids.length - nonHist.size;
+  if (histBtn) histBtn.onclick = () => {
+    historyOnly = !historyOnly;
+    histBtn.classList.toggle('on', historyOnly);
+    histBtn.textContent = historyOnly ? 'Show all' : 'Documented history only';
+    if (genStat) genStat.textContent = historyOnly
+      ? `${histCount} documented · legend, myth & tradition hidden`
+      : `${ids.length} people · from Adam to the House of Hanover`;
+    applyCollapse();
+  };
   window.addEventListener('resize', fit);
 
   // ---- 8. detail panel + search ----

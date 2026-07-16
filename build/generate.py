@@ -17,6 +17,7 @@ Key design points:
 """
 import json
 import html
+import re
 import sys
 import hashlib
 from pathlib import Path
@@ -391,10 +392,66 @@ def explorer_html():
 """
 
 # ---------- whole tree on one page, explorer card design ----------
+# ---------- historicity: which people have scientific/scholarly attestation ----------
+# The filter's "documented history only" view removes everyone this marks non-historical:
+# mythological houses, legend/tradition-tagged people, and figures older than the
+# earliest attested horizon of their civilization (the biblical/scriptural spine, the
+# antediluvian king-lists, legendary founders). Tuned + audited against known anchors.
+_MYTH_HOUSES = {"MYCENAE", "TROY", "CRETE"}
+_HORIZON = {  # earliest scientifically-attested birth year per civilization
+    "SCRIPTURE": -900, "SUMER": -2800, "EGYPT": -3200, "CHINA": -1250, "INDIA": -350,
+    "ELAM": -2600, "ASSYRIA": -2000, "BABYLON": -2000, "HITTITE": -1700, "MITANNI": -1600,
+    "HYKSOS": -1700, "ARZAWA": -1450, "PHOENICIA": -1100, "ARAM": -1050, "MARI": -2000,
+    "YAMHAD": -1900, "ROME": -753, "MEDIA": -728, "LYDIA": -720, "ANTIQUITY": -650,
+}
+# tight self-qualifiers: the phrase tags the PERSON as legend/tradition (not a passing
+# mention like "began the tradition of" or a "⚠ disputed link" note on a real person).
+_TIGHT = re.compile(
+    r'semi-legend|·\s*legendary|·\s*mythical|·\s*traditional\b|'
+    r'legendary (first|founder|king|queen|hero|ancestor|figure|namesake)|'
+    r'traditionally (named|credited|traced|identified|said|held|reckoned)|'
+    r'traditional (mother|father|wife|husband|link|identification|founder)|'
+    r'per (the )?(saga|sagas|jubilee|jubilees|kebra|midrash|vita|puranas?)|'
+    r'pseudepigraph|puranic|a name in the [^·<]*list|mythical|'
+    r'named as .{0,34}(traditional|legend)', re.I)
+_HIST_OVERRIDE = {"XERXES1"}     # documented figures a rule wrongly caught -> keep
+_LEGEND_OVERRIDE = set()         # force non-historical
+
+def _hist_byear(pid):
+    if PEOPLE[pid].get("byear") is not None:
+        return PEOPLE[pid]["byear"]
+    lab = (PEOPLE[pid].get("label") or "").lower()
+    m = re.search(r'(\d{1,4})\s*bc', lab)
+    if m:
+        return -int(m.group(1))
+    m = re.search(r'\b(\d{3,4})\b', lab)
+    if m and 100 <= int(m.group(1)) <= 2000:
+        return int(m.group(1))
+    return None
+
+def _historicity():
+    h = {}
+    for pid in PEOPLE:
+        house = DYN_OF.get(pid)
+        lab = PEOPLE[pid].get("label") or ""
+        if pid in _HIST_OVERRIDE:
+            h[pid] = 1; continue
+        if pid in _LEGEND_OVERRIDE or house in _MYTH_HOUSES or _TIGHT.search(lab):
+            h[pid] = 0; continue
+        y = _hist_byear(pid)
+        if house == "SCRIPTURE" and y is None:            # undated biblical genealogy layer
+            h[pid] = 0; continue
+        if house in _HORIZON and y is not None and y < _HORIZON[house]:
+            h[pid] = 0; continue
+        h[pid] = 1
+    return h
+
 def full_tree_html():
+    HIST = _historicity()
     data = {
         "people": {pid: {"label": PEOPLE[pid]["label"], "house": DYN_OF.get(pid),
-                         **({"byear": PEOPLE[pid]["byear"]} if PEOPLE[pid].get("byear") is not None else {})}
+                         **({"byear": PEOPLE[pid]["byear"]} if PEOPLE[pid].get("byear") is not None else {}),
+                         **({"h": 0} if HIST.get(pid) == 0 else {})}
                    for pid in PEOPLE},
         "unions": [{k: v for k, v in [("parents", u["parents"]), ("children", u["children"]), ("kind", u.get("kind")), ("mistress", u.get("mistress"))] if v is not None} for u in UNIONS.values()],
         "houses": {k: {"title": t.split("—")[0].strip(), "accent": ACCENT[k]} for k, t in DYNASTIES},
@@ -417,7 +474,10 @@ def full_tree_html():
     <input id="search" type="text" placeholder="Search {total} people&hellip;" autocomplete="off">
     <div id="results" class="results" hidden></div>
   </div>
-  <div class="genctl"><span>{total} people &middot; from Adam to the House of Hanover</span></div>
+  <div class="genctl">
+    <button id="histToggle" class="hist-toggle" type="button" title="Hide legend, myth &amp; tradition; show only figures with scholarly attestation">Documented history only</button>
+    <span id="genstat">{total} people &middot; from Adam to the House of Hanover</span>
+  </div>
 </header>
 <div id="explore-wrap">
   <div id="stage"><svg id="links"></svg></div>

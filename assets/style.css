@@ -184,6 +184,15 @@ body.explorer { overflow: hidden; background: var(--navy); }
 .pcard.chidden { display: none; }
 #links .uhidden { display: none; }
 #explore-wrap.zfar .collapse-handle { display: none; }   /* unusable + clutter when zoomed out */
+/* "documented history only" filter toggle in the header (override the 24px .genctl button) */
+.genctl .hist-toggle {
+  width: auto; height: auto; flex-shrink: 0; white-space: nowrap;
+  font: inherit; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.04em; cursor: pointer;
+  padding: 5px 11px; border-radius: 13px;
+  background: transparent; color: #c7a24f; border: 1px solid #4a4636;
+}
+.genctl .hist-toggle:hover { background: rgba(199,162,79,0.14); color: #c7a24f; }
+.genctl .hist-toggle.on { background: #c7a24f; color: #1a1f38; border-color: #c7a24f; font-weight: 600; }
 /* hover-to-trace / click-to-spotlight: the focused line stays lit, the rest fades.
    Connectors rest at a calm low opacity so the whole web reads quietly until you
    hover or click a person to light up their bloodline. */

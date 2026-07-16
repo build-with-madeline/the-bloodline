@@ -184,14 +184,28 @@
   const cardH = {}; ids.forEach(p => cardH[p] = cardEls[p].offsetHeight);   // measured, variable per card
 
   // vertical: each row is as tall as its tallest card, with a routing band below it
-  // Empty lanes (the constraint loop creates thousands, to keep parent-above-child ordering)
-  // take ZERO vertical space, so only the ~330 populated rows stack. Pure compact stacking —
-  // the era labels still show each row's year, but we don't stretch by absolute time.
+  // Vertical placement: each PERSON sits at their own ERA (birth year), in compact time-bands.
+  // Positioning by person-year (not by graph-depth lane, and not by a lane's mixed median)
+  // is essential — long legendary chains (Heracles -> the Macedonian kings) otherwise push
+  // their descendants (the Hellenistic/Roman houses) far below their true era. Missing years
+  // are interpolated from kin; sparse ages compact so the tree doesn't stretch.
   const rowH = byLane.map(row => row.length ? Math.max(...row.map(p => cardH[p])) : 0);
   const GAPB = 46;
-  const laneY = [0];
-  for (let r = 1; r < laneYear.length; r++) laneY[r] = laneY[r - 1] + (rowH[r - 1] > 0 ? rowH[r - 1] + GAPB : 0);
-  ids.forEach(p => pos[p].y = laneY[lane[p]]);
+  const yr2 = {}; ids.forEach(p => yr2[p] = year[p]);
+  for (let pass = 0; pass < 6; pass++) ids.forEach(p => {
+    if (yr2[p] != null) return;
+    let v = null;
+    parentsOf(p).forEach(q => { if (yr2[q] != null) v = (v == null) ? yr2[q] + 20 : Math.max(v, yr2[q] + 20); });
+    kidsOf(p).forEach(q => { if (yr2[q] != null) v = (v == null) ? yr2[q] - 20 : Math.min(v, yr2[q] - 20); });
+    if (v != null) yr2[p] = v;
+  });
+  ids.forEach(p => { if (yr2[p] == null) yr2[p] = minYear; });
+  const BAND = 15, PITCH = 130;
+  const bandKey = y => Math.round(y / BAND);
+  const bands = [...new Set(ids.map(p => bandKey(yr2[p])))].sort((a, b) => a - b);
+  const bandY = {}; bands.forEach((b, i) => bandY[b] = i * PITCH);
+  const laneY = laneYear.map(y => y == null ? 0 : (bandY[bandKey(y)] || 0));   // per-lane era Y, for the axis/routing
+  ids.forEach(p => pos[p].y = bandY[bandKey(yr2[p])]);
 
   // ---- separate disconnected bloodlines ----
   // Adam's line is the main tree. Large unconnected king-lists (Sumer, China, ...) each
@@ -333,11 +347,13 @@
   // ---- 7. pan / zoom ----
   const wrap = document.getElementById('explore-wrap');
   let scale = 1, tx = 0, ty = 0;
+  let _onApply = null;
   const apply = () => {
     scale = Math.max(0.05, Math.min(3, scale));
     stage.style.transform = `translate(${tx}px,${ty}px) scale(${scale})`;
     wrap.classList.toggle('zfar', scale < 0.22);    // drop fine text when zoomed out
     wrap.classList.toggle('zvfar', scale < 0.1);    // very far: cards become house-colored blocks
+    if (_onApply) _onApply();
   };
   function fit() {
     const cw = wrap.clientWidth, ch = wrap.clientHeight;
@@ -497,6 +513,46 @@
   search.addEventListener('input', runSearch);
   search.addEventListener('keydown', e => { if (e.key === 'Enter') { const b = results.querySelector('button'); if (b) b.click(); } });
   document.addEventListener('click', e => { if (!e.target.closest('.searchbox')) results.hidden = true; });
+
+  // ---- era navigation: a jump-rail down the left + a live "current era" label ----
+  (() => {
+    const rail = document.getElementById('era-rail'), now = document.getElementById('era-now');
+    if (!rail) return;
+    const ERAS = [['Creation', -3800], ['Patriarchs', -1900], ['Exodus', -1300], ['Judges', -1150],
+      ['Kings', -950], ['Exile', -600], ['Classical', -460], ['Alexander', -330],
+      ['Rome', -60], ['Christ', 1], ['Franks', 700], ['Crusades', 1150], ['Tudors', 1600]];
+    // map year <-> stage-y using the populated era rows
+    const marks = bands.filter(b => b * BAND > -4200 && b * BAND < 1850).map(b => [b * BAND, bandY[b] - minY]);
+    marks.sort((a, b) => a[0] - b[0]);
+    if (!marks.length) return;
+    const near = (arr, i, v) => arr.reduce((best, m) => Math.abs(m[i] - v) < Math.abs(best[i] - v) ? m : best, arr[0]);
+    const yForYear = yr => near(marks, 0, yr)[1];
+    const yearForY = y => near(marks, 1, y)[0];
+    const fmtY = yr => yr < 0 ? (-yr) + ' BC' : (yr < 1000 ? yr + ' AD' : '' + yr);
+    const jumpToYear = yr => {
+      const cw = wrap.clientWidth, ch = wrap.clientHeight;
+      scale = Math.max(scale, 0.42);
+      tx = cw / 2 - mainCx * scale;
+      ty = ch / 2 - (yForYear(yr) + 60) * scale;
+      apply();
+    };
+    const btns = ERAS.map(([label, yr]) => {
+      const b = document.createElement('button');
+      b.className = 'era-chip'; b.textContent = label;
+      b.style.top = (yForYear(yr) / H * 100) + '%';
+      b.title = 'Jump to c. ' + fmtY(yr);
+      b.onclick = () => jumpToYear(yr);
+      rail.appendChild(b);
+      return b;
+    });
+    _onApply = () => {
+      const yr = yearForY((wrap.clientHeight / 2 - ty) / scale);
+      if (now) now.textContent = 'c. ' + fmtY(yr);
+      let bi = 0, bd = Infinity;
+      ERAS.forEach(([, y], i) => { const d = Math.abs(y - yr); if (d < bd) { bd = d; bi = i; } });
+      btns.forEach((b, i) => b.classList.toggle('here', i === bi));
+    };
+  })();
 
   fit();
 })();

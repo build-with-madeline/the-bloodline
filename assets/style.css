@@ -280,3 +280,18 @@ body.landing {
 .house-card .hn { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: #aeb6d0; }
 
 footer { text-align: center; padding: 8px 20px 60px; color: #9ba3bf; font-size: 0.8rem; }
+
+/* ---- era navigation: left jump-rail + current-era readout ---- */
+.era-rail{position:fixed;left:0;top:58px;bottom:0;width:118px;z-index:30;pointer-events:none}
+.era-chip{position:absolute;left:10px;transform:translateY(-50%);pointer-events:auto;
+  background:rgba(18,26,44,.66);color:#c7a24f;border:1px solid rgba(199,162,79,.26);
+  border-radius:20px;padding:3px 11px;font-size:11px;letter-spacing:.05em;cursor:pointer;
+  white-space:nowrap;-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);
+  transition:background .15s,color .15s,border-color .15s}
+.era-chip:hover{background:rgba(199,162,79,.24);color:#f2e4bc;border-color:rgba(199,162,79,.5)}
+.era-chip.here{background:#c7a24f;color:#141c2e;border-color:#c7a24f;font-weight:600;box-shadow:0 0 0 3px rgba(199,162,79,.18)}
+.era-now{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:30;
+  background:rgba(18,26,44,.82);color:#ecdfc0;border:1px solid rgba(199,162,79,.32);
+  border-radius:16px;padding:5px 18px;font-size:13px;letter-spacing:.07em;pointer-events:none;
+  -webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+@media (max-width:640px){.era-rail{width:88px}.era-chip{font-size:10px;padding:2px 8px}}

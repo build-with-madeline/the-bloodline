@@ -422,6 +422,8 @@ def full_tree_html():
 <div id="explore-wrap">
   <div id="stage"><svg id="links"></svg></div>
 </div>
+<div id="era-rail" class="era-rail" aria-label="Jump to an era"></div>
+<div id="era-now" class="era-now">c. 4000 BC</div>
 <aside id="panel" class="panel" hidden></aside>
 <div class="controls">
   <button id="zoomIn">+</button>

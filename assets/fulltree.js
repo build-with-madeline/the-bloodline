@@ -296,54 +296,63 @@
   D.unions.forEach((u, ui) => {
     const ps = u.parents;
     const a = ps[0], b = ps[1] || ps[0];
-    const pl = Math.max(lane[a], lane[b]);
-    const adjacent = ps.length > 1 && lane[a] === lane[b] && Math.abs(pos[a].x - pos[b].x) <= CW + HGAP + 6;
+    const twoP = ps.length > 1 && a !== b;
+    // The union point sits just beneath the lower parent card, anchored to REAL card
+    // positions (not lane coordinates) so bars/drops stay glued to their cards.
+    const adjacent = twoP && Math.abs(pos[a].y - pos[b].y) < 40 && Math.abs(pos[a].x - pos[b].x) <= CW + HGAP + 8;
     const p = [];
     let mx, my;
-    if (adjacent) {                                                     // spouses side by side: short bar in the gap between cards
+    if (!twoP) {                                                        // single recorded parent
+      my = cyv(a); mx = cx(a);
+    } else if (adjacent) {                                              // spouses side by side: short bar in the gap between cards
       my = (cyv(a) + cyv(b)) / 2;
       const Lx = Math.min(pos[a].x, pos[b].x) + CW, Rx = Math.max(pos[a].x, pos[b].x);
       mx = (Lx + Rx) / 2;
       p.push(`M ${Lx} ${my} L ${Rx} ${my}`);
-    } else {                                                            // far-apart spouses: route the bar through the gap below
-      my = rowBottom(pl) + 16;
+    } else {                                                            // far-apart spouses: drop both stems to a bar just below them
+      my = Math.max(bot(a), bot(b)) + 18;
       mx = (cx(a) + cx(b)) / 2;
-      if (ps.length > 1) {
-        p.push(`M ${cx(a)} ${bot(a)} L ${cx(a)} ${my}`);
-        p.push(`M ${cx(b)} ${bot(b)} L ${cx(b)} ${my}`);
-        p.push(`M ${cx(a)} ${my} L ${cx(b)} ${my}`);
-      } else { my = cyv(a); mx = cx(a); }
+      p.push(`M ${cx(a)} ${bot(a)} L ${cx(a)} ${my}`);
+      p.push(`M ${cx(b)} ${bot(b)} L ${cx(b)} ${my}`);
+      p.push(`M ${cx(a)} ${my} L ${cx(b)} ${my}`);
     }
     if (u.children.length) {
-      const adjKids = u.children.filter(c => lane[c] <= pl + 1);
-      const farKids = u.children.filter(c => lane[c] > pl + 1);
-      if (adjKids.length) {                                            // sibling bar sits JUST ABOVE the children (top line + short drops)
-        const sibY = Math.min(...adjKids.map(top)) - 24;
-        const xs = adjKids.map(cx).concat([mx]);
-        p.push(`M ${mx} ${my} L ${mx} ${sibY}`);                        // parent stem down to the sibling bar
-        p.push(`M ${Math.min(...xs)} ${sibY} L ${Math.max(...xs)} ${sibY}`);   // the top line connecting siblings
-        adjKids.forEach(c => p.push(`M ${cx(c)} ${sibY} L ${cx(c)} ${top(c)}`)); // short drop to each sibling
+      const kids = u.children.filter(c => pos[c]);
+      // "near" kids form a normal sibling set just below the union; the rest are
+      // deep/summary descendants routed individually. Split by REAL vertical distance.
+      const isNear = c => top(c) >= my - PITCH && top(c) <= my + PITCH * 2.4;
+      const near = kids.filter(isNear), far = kids.filter(c => !isNear(c));
+      if (near.length) {                                               // sibling bar just above the children
+        const sibY = Math.min(...near.map(top)) - 20;
+        const xs = near.map(cx).concat([mx]);
+        p.push(`M ${mx} ${my} L ${mx} ${sibY}`);
+        p.push(`M ${Math.min(...xs)} ${sibY} L ${Math.max(...xs)} ${sibY}`);
+        near.forEach(c => p.push(`M ${cx(c)} ${sibY} L ${cx(c)} ${top(c)}`));
       }
-      if (farKids.length) {                                            // deeper descendants: route down a card-free column
-        const busY = rowBottom(pl) + 40;
+      if (far.length) {                                                // deep descendants: bus just below the union, own drop each
+        const busY = my + 22;
         p.push(`M ${mx} ${my} L ${mx} ${busY}`);
-        farKids.forEach(c => {
-          const inter = []; for (let L = pl + 1; L < lane[c]; L++) inter.push(L);
-          const colX = clearColumn(cx(c), inter);
-          const dropY = top(c) - 24;
+        far.forEach(c => {
+          const colX = cx(c), dropY = top(c) - 18;
           p.push(`M ${mx} ${busY} L ${colX} ${busY} L ${colX} ${dropY} L ${cx(c)} ${dropY} L ${cx(c)} ${top(c)}`);
         });
       }
     }
     const conc = u.kind === 'concubine';
-    const bridge = u.kind === 'bridge';                                 // a millennia-spanning "unrecorded span" summary link
+    // A link whose parents and children sit centuries apart is a telescoped / sparsely
+    // documented span (dynasty summaries: Edom's kings, the Kassites, gens Julia -> Caesar).
+    // Draw it like a bridge (thin, dashed, dim) so it recedes instead of streaking bold.
+    const ys = [my, bot(a)]; if (twoP) ys.push(bot(b));
+    u.children.forEach(c => { if (pos[c]) ys.push(top(c)); });
+    const longspan = Math.max(...ys) - Math.min(...ys) > 1000;
+    const bridge = u.kind === 'bridge' || (!conc && longspan);          // "unrecorded span" summary link
     if (conc && u.mistress != null && pos[u.mistress]) {                // faint dotted tie from a servant/concubine union back to the mistress
       svgParts.push(`<path class="mtie" d="M ${mx} ${my} L ${cx(u.mistress)} ${cyv(u.mistress)}" fill="none" stroke="#9b7d54" stroke-width="1" stroke-dasharray="1 4" opacity="0.65"/>`);
     }
     const dash = conc ? ' stroke-dasharray="5 3"' : bridge ? ' stroke-dasharray="2 7"' : '';
     const stroke = conc ? '#9b7d54' : bridge ? '#565039' : '#7d6f4d';
     svgParts.push(`<path class="conn-hit" data-u="${ui}" d="${p.join(' ')}" fill="none" stroke="rgba(0,0,0,0)" stroke-width="12" pointer-events="stroke"/>`);
-    svgParts.push(`<path class="conn${conc ? ' conc' : ''}${bridge ? ' bridge' : ''}" data-u="${ui}" d="${p.join(' ')}" fill="none" stroke="${stroke}" stroke-width="${bridge ? 1 : 1.4}"${dash}/>`);
+    svgParts.push(`<path class="conn${conc ? ' conc' : ''}${bridge ? ' bridge' : ''}" data-u="${ui}" d="${p.join(' ')}" fill="none" stroke="${stroke}" stroke-width="${bridge ? 1 : 1.4}"${dash}${bridge ? ' opacity="0.5"' : ''}/>`);
     svgParts.push(`<circle class="dot${conc ? ' conc' : ''}${bridge ? ' bridge' : ''}" data-u="${ui}" cx="${mx}" cy="${my}" r="${bridge ? 4 : 5}" fill="${conc || bridge ? '#12162e' : '#a87f2e'}" stroke="${bridge ? '#6b6045' : '#a87f2e'}" stroke-width="1.5"/>`);
   });
   svg.innerHTML = svgParts.join('');

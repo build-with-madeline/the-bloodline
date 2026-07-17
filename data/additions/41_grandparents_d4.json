@@ -5,7 +5,7 @@
       "b": {"id": "R2G_MARY_HUNGARY", "label": "Mary of Hungary<br/>1257-1323 · Queen of Naples, Arpad princess · Wikipedia"},
       "children": [
         "SPI_MARG_ANJOU_NAPLES",
-        "SPH_MARGARET_ANJOU_NAPLES",
+        "SPI_MARG_ANJOU_NAPLES",
         {"id": "R2G_ROBERT_NAPLES", "label": "👑 Robert 'the Wise'<br/>1276-1343 · King of Naples, succeeded his father · Wikipedia"}
       ],
       "note": "Charles II of Naples & Mary of Hungary -> Margaret of Anjou-Naples (1st wife of Charles of Valois) + brother Robert the Wise, King of Naples. NOTE: SPI_MARG_ANJOU_NAPLES (batch d4) and SPH_MARGARET_ANJOU_NAPLES (batch u2) are DUPLICATE round-1 ids for the same historical woman (Margaret/Marguerite, Countess of Anjou, dau. of Charles II of Naples) — both linked here to avoid a second fabricated parent set. Wikipedia 'Margaret of Anjou, Countess of Anjou'."

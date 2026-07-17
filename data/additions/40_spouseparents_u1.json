@@ -104,7 +104,7 @@
      "a": {"id": "SPG_AFONSO4PORTUGAL", "label": "👑 Afonso IV 'the Brave'<br/>1291-1357 · King of Portugal"},
      "b": {"id": "SPG_BEATRICECASTILE", "label": "Beatrice of Castile<br/>1293-1359 · Queen of Portugal"},
      "children": ["MARIAPORT",
-       {"id": "SPG_PETER1PORTUGAL", "label": "👑 Peter I 'the Just'<br/>1320-1367 · King of Portugal"}]},
+       {"id": "SPE_PEDROI", "label": "👑 Peter I 'the Just'<br/>1320-1367 · King of Portugal"}]},
 
     {"note": "Herleva of Falaise, mother of William the Conqueror — daughter of Fulbert of Falaise (traditional; tanner/chamberlain). Mother unknown. Brother: Walter, protector of young William.",
      "a": {"id": "SPG_FULBERT", "label": "Fulbert of Falaise<br/>· tanner/chamberlain; Herleva's father · traditional"},

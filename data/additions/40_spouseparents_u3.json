@@ -169,7 +169,7 @@
   },
   {
    "a": {
-    "id": "SPI_ADOLF_GUELDERS",
+    "id": "SPJ_ADOLFGUELDERS",
     "label": "Adolf of Egmond<br/>1438-1477 · Duke of Guelders · Wikipedia"
    },
    "b": {
@@ -374,7 +374,7 @@
    "children": [
     "CONSTPORT",
     {
-     "id": "SPI_AFONSO4_PORTUGAL",
+     "id": "SPG_AFONSO4PORTUGAL",
      "label": "👑 Afonso IV<br/>1291-1357 · King of Portugal · Wikipedia"
     }
    ],

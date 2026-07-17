@@ -57,7 +57,7 @@
     },
     {
       "note": "Charles, Count of Angoulême -> Jean of Orléans (Count of Angoulême) & Marguerite de Rohan; sister Jeanne",
-      "a": {"id": "SPH_JEAN_ANGOULEME", "label": "Jean of Orléans<br/>1399-1467 · Count of Angoulême ('the Good') · Wikipedia"},
+      "a": {"id": "SPJ_JOHNANGOULEME", "label": "Jean of Orléans<br/>1399-1467 · Count of Angoulême ('the Good') · Wikipedia"},
       "b": {"id": "SPH_MARGUERITE_ROHAN", "label": "Marguerite de Rohan<br/>c.1412-1497 · dau. of Alain IX de Rohan · Wikipedia"},
       "children": ["CHARLESANGOULEME", {"id": "SPH_JEANNE_ANGOULEME", "label": "Jeanne of Orléans<br/>1462-1520 · Countess of Angoulême · Wikipedia"}]
     },
@@ -112,7 +112,7 @@
     {
       "note": "Philip VI (first Valois king) -> Charles of Valois (existing) & his 1st wife Margaret, Countess of Anjou; brother Charles II of Alençon",
       "a": "CHARLESVALOIS",
-      "b": {"id": "SPH_MARGARET_ANJOU_NAPLES", "label": "Margaret, Countess of Anjou<br/>1273-1299 · dau. of Charles II of Naples; 1st wife of Charles of Valois · Wikipedia"},
+      "b": {"id": "SPI_MARG_ANJOU_NAPLES", "label": "Margaret, Countess of Anjou<br/>1273-1299 · dau. of Charles II of Naples; 1st wife of Charles of Valois · Wikipedia"},
       "children": ["PHILIPVI", {"id": "SPH_CHARLES2_ALENCON", "label": "Charles II, Count of Alençon<br/>1297-1346 · killed at Crécy · Wikipedia"}]
     },
     {

@@ -228,16 +228,16 @@
     },
     {
       "a": "ALFONSOXI",
-      "b": {"id": "R2H_LEONORDEGUZMAN", "label": "Leonor de Guzmán<br/>1310-1351 · mistress of Alfonso XI of Castile · Wikipedia"},
+      "b": {"id": "R2G_ELEANOR_GUZMAN", "label": "Leonor de Guzmán<br/>1310-1351 · mistress of Alfonso XI of Castile · Wikipedia"},
       "children": [
-        {"id": "R2H_HENRYIICASTILE", "label": "👑 Henry II<br/>1334-1379 · King of Castile 'the Fratricidal'; illegitimate son, legitimized · Wikipedia"},
-        {"id": "R2H_FADRIQUEALFONSOCASTILE", "label": "Fadrique Alfonso de Castilla<br/>1334-1358 · Master of Santiago; executed by his half-brother Peter the Cruel · Wikipedia"}
+        {"id": "SPG_HENRY2CASTILE", "label": "👑 Henry II<br/>1334-1379 · King of Castile 'the Fratricidal'; illegitimate son, legitimized · Wikipedia"},
+        {"id": "SPK_FADRIQUE_ALFONSO", "label": "Fadrique Alfonso de Castilla<br/>1334-1358 · Master of Santiago; executed by his half-brother Peter the Cruel · Wikipedia"}
       ],
       "note": "Henry II of Castile (founder of the Trastámara dynasty) and his twin Fadrique Alfonso, Master of Santiago, are illegitimate (later legitimized) children of Alfonso XI of Castile (existing ALFONSOXI, from his relationship with Leonor de Guzmán — a separate union from his marriage to Maria of Portugal/MARIAPORT, already in the tree). NOTE: Fadrique Alfonso de Castilla (executed 1358) is a DIFFERENT, earlier person from the existing FADRIQUE node ('Fadrique Enriquez, Admiral of Castile', a 15th-century descendant) — kept distinct to avoid conflating generations. Wikipedia 'Henry II of Castile'."
     },
     {
-      "a": "R2H_HENRYIICASTILE",
-      "b": {"id": "R2H_JUANAMANUELCASTILE", "label": "Juana Manuel<br/>1339-1381 · Queen of Castile · Wikipedia"},
+      "a": "SPG_HENRY2CASTILE",
+      "b": {"id": "SPG_JUANAMANUEL", "label": "Juana Manuel<br/>1339-1381 · Queen of Castile · Wikipedia"},
       "children": [
         "SPK_ELEANOR_CAST",
         "JOHNICAST"

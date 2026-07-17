@@ -177,7 +177,7 @@
       "a": "SPJ_ARNOLDGUELDERS",
       "b": "SPJ_CATHERINECLEVES",
       "children": [
-        "SPI_ADOLF_GUELDERS",
+        "SPJ_ADOLFGUELDERS",
         {"id": "R2I_WILLIAM_GUELDERS", "label": "William<br/>b.1434 · d. young · Wikipedia"},
         {"id": "R2I_MARGARET_GUELDERS", "label": "Margaret<br/>c.1436-1486 · m. Frederick I, Count Palatine of Simmern · Wikipedia"},
         {"id": "R2I_CATHERINE_GUELDERS_REGENT", "label": "Catherine<br/>1439-1496 · Regent of Guelders; m. Louis de Bourbon · Wikipedia"}

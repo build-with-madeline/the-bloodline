@@ -1,0 +1,794 @@
+{
+  "families": [
+    {
+      "a": {
+        "id": "R2J_FERRANTE1NAPLES",
+        "label": "👑 Ferdinand I 'Ferrante'<br/>1423-1494 · King of Naples · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ISABELLACLERMONT",
+        "label": "Isabella of Clermont<br/>c.1424-1465 · Queen consort of Naples · Wikipedia"
+      },
+      "children": [
+        "SPH_ELEANOR_NAPLES",
+        {
+          "id": "R2J_ALFONSO2NAPLES",
+          "label": "👑 Alfonso II<br/>1448-1495 · King of Naples · Wikipedia"
+        },
+        {
+          "id": "R2J_FREDERICK4NAPLES",
+          "label": "👑 Frederick<br/>1452-1504 · King of Naples · Wikipedia"
+        },
+        {
+          "id": "R2J_JOHNNAPLESCARD",
+          "label": "✝ John of Naples<br/>1456-1485 · Cardinal · Wikipedia"
+        },
+        {
+          "id": "R2J_BEATRICENAPLES",
+          "label": "Beatrice of Naples<br/>1457-1508 · Queen consort of Hungary · Wikipedia"
+        },
+        {
+          "id": "R2J_FRANCISSANTANGELO",
+          "label": "Francis of Naples<br/>1461-1486 · Duke of Sant'Angelo · Wikipedia"
+        }
+      ],
+      "note": "Eleanor of Naples (SPH_ELEANOR_NAPLES) is a documented daughter of Ferdinand I 'Ferrante' of Naples & Isabella of Clermont. Full siblings Alfonso II, Frederick, John (cardinal), Beatrice (Queen of Hungary) and Francis added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_CARLOORSINI",
+        "label": "Carlo Orsini<br/>· per Treccani; Roberto's parentage disputed (it.wiki names Orso Orsini & Elisabetta dell'Anguillara) · Treccani"
+      },
+      "b": {
+        "id": "R2J_PAOLAORSINI",
+        "label": "Paola Orsini<br/>· per Treccani · Treccani"
+      },
+      "children": [
+        "SPJ_ROBERTOORSINI",
+        {
+          "id": "R2J_NAPOLEONEORSINI",
+          "label": "Napoleone Orsini<br/>c.1431-1480 · Treccani"
+        }
+      ],
+      "note": "PARENTAGE DISPUTED: Treccani gives Roberto Orsini's parents as Carlo Orsini & Paola Orsini (used here); Italian Wikipedia instead names Orso Orsini & Elisabetta dell'Anguillara. Sibling Napoleone Orsini added per Treccani."
+    },
+    {
+      "a": {
+        "id": "R2J_AMERIGOSANSEVERINO",
+        "label": "Amerigo Sanseverino<br/>c.1415-1452 · 1st Count of Capaccio · Treccani"
+      },
+      "b": {
+        "id": "R2J_MARGHERITASANSEVERINO",
+        "label": "Margherita Sanseverino<br/>· Treccani"
+      },
+      "children": [
+        "SPJ_CATERINASANSEVERINO"
+      ],
+      "note": "Caterina Sanseverino is daughter of Amerigo Sanseverino, 1st Count of Capaccio, & Margherita Sanseverino. No documented siblings. Treccani."
+    },
+    {
+      "a": {
+        "id": "R2J_GEOFFREYBOLEYN",
+        "label": "Geoffrey Boleyn<br/>1406-1463 · Lord Mayor of London · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ANNEHOO",
+        "label": "Anne Hoo<br/>c.1424-1484 · Wikipedia"
+      },
+      "children": [
+        "SPH_WILLIAM_BOLEYN",
+        {
+          "id": "R2J_THOMASBOLEYN_D1471",
+          "label": "Thomas Boleyn<br/>d.1471 · Wikipedia"
+        },
+        {
+          "id": "R2J_ISABELBOLEYN",
+          "label": "Isabel Boleyn<br/>d.1485 · Wikipedia"
+        },
+        {
+          "id": "R2J_ALICEBOLEYN",
+          "label": "Alice Boleyn<br/>d.c.1480 · Wikipedia"
+        },
+        {
+          "id": "R2J_ANNEBOLEYN_D1509",
+          "label": "Anne Boleyn<br/>d.c.1509 · Wikipedia"
+        }
+      ],
+      "note": "William Boleyn (grandfather of Anne Boleyn) is son of Geoffrey Boleyn, Lord Mayor of London, & Anne Hoo. Full siblings Thomas, Isabel, Alice and Anne added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_THOMASBUTLER7ORMOND",
+        "label": "Thomas Butler<br/>d.1515 · 7th Earl of Ormond · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ANNEHANKFORD",
+        "label": "Anne Hankford<br/>1431-1485 · Wikipedia"
+      },
+      "children": [
+        "SPH_MARGARET_BUTLER",
+        {
+          "id": "R2J_ANNEBUTLER_ORMOND",
+          "label": "Anne Butler<br/>1455-1533 · Wikipedia"
+        }
+      ],
+      "note": "Margaret Butler is daughter of Thomas Butler, 7th Earl of Ormond, & Anne Hankford. Full sister Anne Butler added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_GEORGEDARELL",
+        "label": "Sir George Darell<br/>d.c.1474 · of Littlecote · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_MARGARETSTOURTON",
+        "label": "Margaret Stourton<br/>b.c.1433 · Wikipedia"
+      },
+      "children": [
+        "SPK_ELIZ_DARELL"
+      ],
+      "note": "Elizabeth Darell (wife of John Seymour d.1491) is daughter of Sir George Darell of Littlecote & Margaret Stourton. No documented siblings. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_BERTRAND6AUVERGNE",
+        "label": "Bertrand VI de La Tour<br/>c.1417-1497 · Count of Auvergne and Boulogne · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_LOUISETREMOILLE",
+        "label": "Louise de La Trémoille<br/>1432-1474 · Wikipedia"
+      },
+      "children": [
+        "SPL_JOHNIIIAUVERGNE",
+        {
+          "id": "R2J_FRANCOISEAUVERGNE",
+          "label": "Françoise de La Tour<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_JEANNEAUVERGNE",
+          "label": "Jeanne de La Tour<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_ANNEAUVERGNE_D1512",
+          "label": "Anne de La Tour<br/>d.1512 · m. Alexander Stewart, Duke of Albany · Wikipedia"
+        },
+        {
+          "id": "R2J_LOUISEAUVERGNE",
+          "label": "Louise de La Tour<br/>· Wikipedia"
+        }
+      ],
+      "note": "John III de La Tour d'Auvergne is son of Bertrand VI de La Tour & Louise de La Trémoille. Full siblings Françoise, Jeanne, Anne (d.1512) and Louise added. NB: this sibling Anne de La Tour (d.1512, m. Alexander Stewart) is DISTINCT from the existing niece node SPL_ANNEAUVERGNE (1496-1524, m. John Stewart, Duke of Albany), John III's own daughter. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_DOMINGOBORJA",
+        "label": "Domingo de Borja<br/>· Wikipedia"
+      },
+      "b": {
+        "id": "R2J_FRANCINALLANCOL",
+        "label": "Francina Llançol<br/>· Wikipedia"
+      },
+      "children": [
+        "SPF_ISABELBORJA",
+        {
+          "id": "R2J_CALLIXTUSIII",
+          "label": "✝ Alfons de Borja<br/>1378-1458 · Pope Callixtus III · Wikipedia"
+        },
+        {
+          "id": "R2J_CATALINABORJA",
+          "label": "Catalina de Borja<br/>· Wikipedia"
+        }
+      ],
+      "note": "Isabel de Borja is daughter of Domingo de Borja & Francina Llançol. Full siblings Pope Callixtus III (Alfons de Borja) and Catalina added. Wikipedia."
+    },
+    {
+      "a": "SPK_FERDINAND_VISEU",
+      "b": {
+        "id": "R2J_BEATRIZVISEU",
+        "label": "Beatriz of Portugal<br/>c.1430-1506 · Duchess of Viseu and Beja · Wikipedia"
+      },
+      "children": [
+        "SPK_MANUELI_PORT",
+        {
+          "id": "R2J_JOAOVISEU",
+          "label": "João<br/>1448-1472 · Wikipedia"
+        },
+        {
+          "id": "R2J_DIOGOVISEU",
+          "label": "Diogo<br/>1450-1484 · Duke of Viseu · Wikipedia"
+        },
+        {
+          "id": "R2J_ELEANORVISEU",
+          "label": "Eleanor of Viseu<br/>1458-1525 · Queen consort of Portugal · Wikipedia"
+        },
+        {
+          "id": "R2J_ISABELLAVISEU",
+          "label": "Isabella of Viseu<br/>1459-1521 · Duchess of Braganza · Wikipedia"
+        },
+        {
+          "id": "R2J_DUARTEVISEU",
+          "label": "Duarte<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_SIMAOVISEU",
+          "label": "Simão<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_CATARINAVISEU",
+          "label": "Catarina<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_DINISVISEU",
+          "label": "Dinis<br/>· Wikipedia"
+        }
+      ],
+      "note": "Manuel I of Portugal is youngest son of Infante Ferdinand, Duke of Viseu (EXISTING node SPK_FERDINAND_VISEU, reused as father) & Beatriz of Portugal. Full siblings João, Diogo, Eleanor of Viseu (Queen of Portugal), Isabella of Viseu, Duarte, Simão, Catarina and Dinis added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_ARCHIBALD5ANGUS",
+        "label": "Archibald Douglas 'Bell-the-Cat'<br/>c.1449-1513 · 5th Earl of Angus · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ELIZABETHBOYD_ANGUS",
+        "label": "Elizabeth Boyd<br/>d.1498 · Wikipedia"
+      },
+      "children": [
+        "SPK_GEORGE_DOUGLAS_MA",
+        {
+          "id": "R2J_MARIOTDOUGLAS",
+          "label": "Mariot Douglas<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_WILLIAMDOUGLAS_D1513",
+          "label": "William Douglas<br/>d.1513 · Wikipedia"
+        },
+        {
+          "id": "R2J_GAVINDOUGLAS",
+          "label": "✝ Gavin Douglas<br/>c.1472-1522 · Bishop of Dunkeld; poet · Wikipedia"
+        },
+        {
+          "id": "R2J_ELIZABETHDOUGLAS_ANGUS",
+          "label": "Elizabeth Douglas<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_ARCHIBALDGREYSTEIL",
+          "label": "Archibald Douglas 'Greysteil'<br/>c.1475-1522 · Wikipedia"
+        },
+        {
+          "id": "R2J_JANETDOUGLAS",
+          "label": "Janet Douglas<br/>· Wikipedia"
+        }
+      ],
+      "note": "George Douglas, Master of Angus, is son of Archibald Douglas 'Bell-the-Cat', 5th Earl of Angus, & Elizabeth Boyd. Full siblings Mariot, William, Gavin (Bishop of Dunkeld), Elizabeth, Archibald 'Greysteil' and Janet added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_JOHNDRUMMOND1LORD",
+        "label": "John Drummond<br/>d.1519 · 1st Lord Drummond · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ELIZABETHLINDSAY_DRUM",
+        "label": "Elizabeth Lindsay<br/>· Wikipedia"
+      },
+      "children": [
+        "SPK_ELIZ_DRUMMOND",
+        {
+          "id": "R2J_MALCOLMDRUMMOND",
+          "label": "Malcolm Drummond<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_DAVIDDRUMMOND",
+          "label": "David Drummond<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_WILLIAMDRUMMOND",
+          "label": "William Drummond<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_JOHNDRUMMOND2",
+          "label": "John Drummond<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_MARGARETDRUMMOND",
+          "label": "Margaret Drummond<br/>d.1501 · mistress of James IV of Scotland · Wikipedia"
+        },
+        {
+          "id": "R2J_BEATRIXDRUMMOND",
+          "label": "Beatrix Drummond<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_ANNABELLADRUMMOND2",
+          "label": "Annabella Drummond<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_EUPHEMEDRUMMOND",
+          "label": "Eupheme Drummond<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_SIBYLLADRUMMOND",
+          "label": "Sibylla Drummond<br/>· Wikipedia"
+        }
+      ],
+      "note": "Elizabeth Drummond is daughter of John Drummond, 1st Lord Drummond, & Elizabeth Lindsay. Full siblings incl. Margaret Drummond (mistress of James IV) added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_WILLIAMPARR1KENDAL",
+        "label": "Sir William Parr<br/>d.1483 · 1st Baron Parr of Kendal · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ELIZFITZHUGH_PARR",
+        "label": "Elizabeth FitzHugh<br/>· Wikipedia"
+      },
+      "children": [
+        "SPI_THOMAS_PARR",
+        {
+          "id": "R2J_ANNEPARR_D1513",
+          "label": "Anne Parr<br/>d.1513 · Wikipedia"
+        },
+        {
+          "id": "R2J_WILLIAMPARR_HORTON",
+          "label": "William Parr<br/>c.1483-1547 · 1st Baron Parr of Horton · Wikipedia"
+        },
+        {
+          "id": "R2J_JOHNPARR_D1508",
+          "label": "John Parr<br/>d.1508 · Wikipedia"
+        }
+      ],
+      "note": "Thomas Parr (father of Queen Catherine Parr) is son of Sir William Parr, 1st Baron Parr of Kendal, & Elizabeth FitzHugh. Full siblings Anne, William (of Horton) and John added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_RICHARDCULPEPER",
+        "label": "Sir Richard Culpeper<br/>c.1428-1484 · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ISABELWORSLEY",
+        "label": "Isabel Worsley<br/>c.1450-1527 · Wikipedia"
+      },
+      "children": [
+        "SPI_JOYCE_CULPEPER",
+        {
+          "id": "R2J_THOMASCULPEPER_1484",
+          "label": "Thomas Culpeper<br/>1484-1492 · Wikipedia"
+        },
+        {
+          "id": "R2J_MARGARETCULPEPER",
+          "label": "Margaret Culpeper<br/>· Wikipedia"
+        }
+      ],
+      "note": "Joyce Culpeper (mother of Catherine Howard) is daughter of Sir Richard Culpeper & Isabel Worsley. Full siblings Thomas and Margaret added. The oft-repeated 'sister Elizabeth' is a documented genealogical error and is deliberately omitted. Wikipedia."
+    },
+    {
+      "a": "FERDII",
+      "b": "ISABELLAI",
+      "children": [
+        "SPK_MARIA_ARAGON",
+        {
+          "id": "R2J_ISABELLAARAGON_1470",
+          "label": "Isabella of Aragon<br/>1470-1498 · Queen consort of Portugal · Wikipedia"
+        },
+        {
+          "id": "R2J_JOHNASTURIAS",
+          "label": "John<br/>1478-1497 · Prince of Asturias · Wikipedia"
+        },
+        "JUANAMAD",
+        "COA"
+      ],
+      "note": "Maria of Aragon (SPK_MARIA_ARAGON) is a daughter of the Catholic Monarchs, Ferdinand II of Aragon (EXISTING FERDII) & Isabella I of Castile (EXISTING ISABELLAI). This union ALREADY EXISTS as U_ferdii_isabellai with children COA (Catherine of Aragon) and JUANAMAD (Juana 'the Mad') — both referenced by existing id, not duplicated. New full siblings Isabella of Aragon (1470-1498) and John, Prince of Asturias, added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_MATTHEW2LENNOX",
+        "label": "Matthew Stewart<br/>c.1470-1513 · 2nd Earl of Lennox · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ELIZHAMILTON_LENNOX",
+        "label": "Elizabeth Hamilton<br/>· Wikipedia"
+      },
+      "children": [
+        "SPJ_JOHNSTEWART3LENNOX",
+        {
+          "id": "R2J_MUNGOSTEWART",
+          "label": "Mungo Stewart<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_AGNESSTEWART_LENNOX",
+          "label": "Agnes Stewart<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_MARGARETSTEWART_LENNOX",
+          "label": "Margaret Stewart<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_ELIZABETHSTEWART_LENNOX",
+          "label": "Elizabeth Stewart<br/>· Wikipedia"
+        },
+        {
+          "id": "R2J_CATHERINESTEWART_LENNOX",
+          "label": "Catherine Stewart<br/>· Wikipedia"
+        }
+      ],
+      "note": "John Stewart, 3rd Earl of Lennox, is son of Matthew Stewart, 2nd Earl of Lennox, & Elizabeth Hamilton. Full siblings Mungo, Agnes, Margaret, Elizabeth and Catherine added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_JOHN2CLEVES",
+        "label": "John II<br/>1458-1521 · Duke of Cleves · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_MATHILDEHESSE_CLEVES",
+        "label": "Mathilde of Hesse<br/>1473-1505 · Wikipedia"
+      },
+      "children": [
+        "SPL_JOHNIIICLEVES",
+        {
+          "id": "R2J_ANNACLEVES_WALDECK",
+          "label": "Anna of Cleves<br/>1495-1567 · m. Philip III of Waldeck-Eisenberg · Wikipedia"
+        },
+        {
+          "id": "R2J_ADOLFCLEVES_1498",
+          "label": "Adolf of Cleves<br/>1498-1525 · Wikipedia"
+        }
+      ],
+      "note": "John III, Duke of Cleves, is son of John II, Duke of Cleves, & Mathilde of Hesse. Full siblings Anna of Cleves (1495-1567, m. Philip III of Waldeck) and Adolf added. NB: this sister Anna of Cleves is NOT Henry VIII's fourth wife (existing node ANNECLEVES); a distinct node is used. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_WILLIAM4JULICH",
+        "label": "William IV<br/>1455-1511 · Duke of Jülich-Berg · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_SIBYLLEBRANDENBURG",
+        "label": "Sibylle of Brandenburg<br/>1467-1524 · Wikipedia"
+      },
+      "children": [
+        "SPL_MARIAJULICH"
+      ],
+      "note": "Maria of Jülich-Berg is the only child of William IV, Duke of Jülich-Berg, & Sibylle of Brandenburg. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_THOMASGREEN_NORTON",
+        "label": "Sir Thomas Green<br/>1461-1506 · of Green's Norton · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_JOANFOGGE",
+        "label": "Joan Fogge<br/>b.c.1466 · Wikipedia"
+      },
+      "children": [
+        "SPI_MAUD_GREEN",
+        {
+          "id": "R2J_ANNEGREEN_VAUX",
+          "label": "Anne Green<br/>1489-1523 · m. Nicholas Vaux · Wikipedia"
+        }
+      ],
+      "note": "Maud Green (mother of Queen Catherine Parr) is daughter of Sir Thomas Green of Green's Norton & Joan Fogge. Full sister Anne Green (m. Nicholas Vaux) added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_JOHN1ATHOLL",
+        "label": "John Stewart<br/>c.1440-1513 · 1st Earl of Atholl · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ELEANORSINCLAIR",
+        "label": "Eleanor Sinclair<br/>d.1519 · Wikipedia"
+      },
+      "children": [
+        "SPJ_ELIZSTEWARTATHOLL",
+        {
+          "id": "R2J_JOHN2ATHOLL",
+          "label": "John Stewart<br/>· 2nd Earl of Atholl · Wikipedia"
+        },
+        {
+          "id": "R2J_ANDREWSTEWART_CAITHNESS",
+          "label": "✝ Andrew Stewart<br/>· Bishop of Caithness · Wikipedia"
+        }
+      ],
+      "note": "Elizabeth Stewart is placed as a daughter of John Stewart, 1st Earl of Atholl, & Eleanor Sinclair; full siblings John (2nd Earl) and Andrew (Bishop of Caithness) added. FLAG: her exact identity among same-named Atholl half-sisters is genealogically uncertain. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_FREDERICKTILNEY",
+        "label": "Sir Frederick Tilney<br/>· Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ELIZCHENEY_TILNEY",
+        "label": "Elizabeth Cheney<br/>1422-1473 · Wikipedia"
+      },
+      "children": [
+        "SPI_ELIZ_TILNEY"
+      ],
+      "note": "Elizabeth Tilney is the only child of Sir Frederick Tilney & Elizabeth Cheney. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_CHRISTIAN3DEN",
+        "label": "👑 Christian III<br/>1503-1559 · King of Denmark and Norway · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_DOROTHEASAXELAUEN",
+        "label": "Dorothea of Saxe-Lauenburg<br/>1511-1571 · Queen consort of Denmark · Wikipedia"
+      },
+      "children": [
+        "SPF_FREDERICKIIDEN",
+        {
+          "id": "R2J_ANNADENMARK_1532",
+          "label": "Anna of Denmark<br/>b.1532 · Electress of Saxony · Wikipedia"
+        },
+        {
+          "id": "R2J_MAGNUSHOLSTEIN",
+          "label": "Magnus<br/>b.1540 · Duke of Holstein · Wikipedia"
+        },
+        {
+          "id": "R2J_JOHNYOUNGERDEN",
+          "label": "John the Younger<br/>b.1545 · Duke of Schleswig-Holstein-Sonderburg · Wikipedia"
+        },
+        {
+          "id": "R2J_DOROTHEADENMARK_1546",
+          "label": "Dorothea of Denmark<br/>b.1546 · Wikipedia"
+        }
+      ],
+      "note": "Frederick II of Denmark is son of Christian III of Denmark & Dorothea of Saxe-Lauenburg. Full siblings Anna, Magnus (Duke of Holstein), John the Younger and Dorothea added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_ANTOINEBOURBON",
+        "label": "Antoine de Bourbon<br/>1518-1562 · Duke of Vendôme; King consort of Navarre · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_JEANNEDALBRET",
+        "label": "👑 Jeanne d'Albret<br/>1528-1572 · Queen of Navarre · Wikipedia"
+      },
+      "children": [
+        "SPF_HENRIIV",
+        {
+          "id": "R2J_HENRIBOURBON_1551",
+          "label": "Henri de Bourbon<br/>1551-1553 · Wikipedia"
+        },
+        {
+          "id": "R2J_LOUISBOURBON_1555",
+          "label": "Louis de Bourbon<br/>1555-1557 · Count of Marle · Wikipedia"
+        },
+        {
+          "id": "R2J_MADELEINEBOURBON_1556",
+          "label": "Madeleine de Bourbon<br/>1556 · Wikipedia"
+        },
+        {
+          "id": "R2J_CATHERINEBOURBON_NAVARRE",
+          "label": "Catherine de Bourbon<br/>1559-1604 · Duchess of Bar · Wikipedia"
+        }
+      ],
+      "note": "Henri IV of France is son of Antoine de Bourbon, Duke of Vendôme, & Jeanne d'Albret, Queen of Navarre. Full siblings (most died in infancy) Henri, Louis, Madeleine and Catherine de Bourbon added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_ULRICH3MECK",
+        "label": "Ulrich III<br/>1527-1603 · Duke of Mecklenburg-Güstrow · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ELIZDENMARK_MECK",
+        "label": "Elizabeth of Denmark<br/>1524-1586 · Wikipedia"
+      },
+      "children": [
+        "SPF_SOPHIEMECK"
+      ],
+      "note": "Sophie of Mecklenburg-Güstrow (Queen of Denmark) is the only child of Ulrich III, Duke of Mecklenburg-Güstrow, & Elizabeth of Denmark. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_LOUIS6PALATINE",
+        "label": "Louis VI<br/>1539-1583 · Elector Palatine · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ELISABETHHESSE_PAL",
+        "label": "Elisabeth of Hesse<br/>1539-1582 · Wikipedia"
+      },
+      "children": [
+        "SPF_FREDERICKIVPAL",
+        {
+          "id": "R2J_ANNAMARIEPAL_SWEDEN",
+          "label": "Anna Marie<br/>1561-1589 · m. Charles IX of Sweden · Wikipedia"
+        },
+        {
+          "id": "R2J_CHRISTINEPAL_1573",
+          "label": "Christine<br/>1573-1619 · Wikipedia"
+        },
+        {
+          "id": "R2J_KATHARINAPAL_1572",
+          "label": "Katharina<br/>1572-1586 · Wikipedia"
+        }
+      ],
+      "note": "Frederick IV, Elector Palatine, is son of Louis VI, Elector Palatine, & Elisabeth of Hesse. Full siblings Anna Marie (m. Charles IX of Sweden), Christine and Katharina added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_FRANCESCO1MEDICI",
+        "label": "Francesco I de' Medici<br/>1541-1587 · Grand Duke of Tuscany · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_JOANNAAUSTRIA_MED",
+        "label": "Joanna of Austria<br/>1547-1578 · Grand Duchess of Tuscany · Wikipedia"
+      },
+      "children": [
+        "SPF_MARIEMEDICI",
+        {
+          "id": "R2J_ELEONORAMEDICI_GONZAGA",
+          "label": "Eleonora de' Medici<br/>1567-1611 · m. Vincenzo I Gonzaga · Wikipedia"
+        },
+        {
+          "id": "R2J_ANNAMEDICI_1569",
+          "label": "Anna de' Medici<br/>1569-1584 · Wikipedia"
+        },
+        {
+          "id": "R2J_FILIPPOMEDICI_1577",
+          "label": "Filippo de' Medici<br/>1577-1582 · Wikipedia"
+        }
+      ],
+      "note": "Marie de' Medici (Queen of France) is daughter of Francesco I de' Medici, Grand Duke of Tuscany, & Joanna of Austria. Full siblings Eleonora (m. Vincenzo I Gonzaga), Anna and Filippo added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_WILLIAMSILENT",
+        "label": "William the Silent<br/>1533-1584 · Prince of Orange; Stadtholder · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_CHARLOTTEBOURBON",
+        "label": "Charlotte of Bourbon-Montpensier<br/>c.1546-1582 · Princess consort of Orange · Wikipedia"
+      },
+      "children": [
+        "SPF_LOUISEJULIANANAS",
+        {
+          "id": "R2J_ELISABETHORANGE_1577",
+          "label": "Elisabeth of Nassau<br/>1577-1642 · Duchess of Bouillon · Wikipedia"
+        },
+        {
+          "id": "R2J_CATHARINABELGICA",
+          "label": "Catharina Belgica of Nassau<br/>1578-1648 · Wikipedia"
+        },
+        {
+          "id": "R2J_CHARLOTTEFLANDRINA",
+          "label": "Charlotte Flandrina of Nassau<br/>1579-1640 · Wikipedia"
+        },
+        {
+          "id": "R2J_CHARLOTTEBRABANTINA",
+          "label": "Charlotte Brabantina of Nassau<br/>1580-1631 · Wikipedia"
+        },
+        {
+          "id": "R2J_EMILIAANTWERPIANA",
+          "label": "Emilia Antwerpiana of Nassau<br/>1581-1657 · Wikipedia"
+        }
+      ],
+      "note": "Louise Juliana of Nassau is daughter of William the Silent, Prince of Orange, & his third wife Charlotte of Bourbon-Montpensier. Full sisters Elisabeth, Catharina Belgica, Charlotte Flandrina, Charlotte Brabantina and Emilia Antwerpiana added. William the Silent node (R2J_WILLIAMSILENT) is shared with family 28 (his fourth marriage). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_WILLIAMYOUNGERBRUNS",
+        "label": "William 'the Younger'<br/>1535-1592 · Duke of Brunswick-Lüneburg · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_DOROTHEADENMARK_BRUNS",
+        "label": "Dorothea of Denmark<br/>1546-1617 · Wikipedia"
+      },
+      "children": [
+        "SPF_GEORGEBRUNS",
+        {
+          "id": "R2J_ERNEST2BRUNS",
+          "label": "Ernest II<br/>1564-1611 · Duke of Brunswick-Lüneburg · Wikipedia"
+        },
+        {
+          "id": "R2J_AUGUSTUSELDERBRUNS",
+          "label": "Augustus the Elder<br/>1568-1636 · Duke of Brunswick-Lüneburg · Wikipedia"
+        },
+        {
+          "id": "R2J_FREDERICK4BRUNS",
+          "label": "Frederick IV<br/>1574-1648 · Duke of Brunswick-Lüneburg · Wikipedia"
+        }
+      ],
+      "note": "George, Duke of Brunswick-Lüneburg, is son of William 'the Younger', Duke of Brunswick-Lüneburg, & Dorothea of Denmark (15 children in total). Notable full brothers Ernest II, Augustus the Elder and Frederick IV added. Wikipedia."
+    },
+    {
+      "a": "R2J_WILLIAMSILENT",
+      "b": {
+        "id": "R2J_LOUISECOLIGNY",
+        "label": "Louise de Coligny<br/>1555-1620 · Princess consort of Orange · Wikipedia"
+      },
+      "children": [
+        "SPF_FREDHENRYORANGE"
+      ],
+      "note": "Frederick Henry, Prince of Orange, is the only child of William the Silent by his fourth wife Louise de Coligny. Father node R2J_WILLIAMSILENT is the SAME person as in family 26 (a second, distinct union). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_LOUIS5HESSE",
+        "label": "Louis V<br/>1577-1626 · Landgrave of Hesse-Darmstadt · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_MAGDALENEBRANDENBURG",
+        "label": "Magdalene of Brandenburg<br/>1582-1616 · Wikipedia"
+      },
+      "children": [
+        "SPF_ANNEELEONHESSE",
+        {
+          "id": "R2J_GEORGE2HESSE",
+          "label": "George II<br/>1605-1661 · Landgrave of Hesse-Darmstadt · Wikipedia"
+        }
+      ],
+      "note": "Anne Eleonore of Hesse-Darmstadt is daughter of Louis V, Landgrave of Hesse-Darmstadt, & Magdalene of Brandenburg. Notable full brother George II (Landgrave) added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_JOHNALBERT1SOLMS",
+        "label": "John Albert I<br/>1563-1623 · Count of Solms-Braunfels · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_AGNESSAYN_SOLMS",
+        "label": "Agnes of Sayn-Wittgenstein<br/>1568-1617 · Wikipedia"
+      },
+      "children": [
+        "SPF_AMALIASOLMS",
+        {
+          "id": "R2J_ELISABETHSOLMS_1593",
+          "label": "Elisabeth of Solms-Braunfels<br/>1593-1636 · Wikipedia"
+        },
+        {
+          "id": "R2J_URSULASOLMS_1594",
+          "label": "Ursula of Solms-Braunfels<br/>1594-1657 · Wikipedia"
+        },
+        {
+          "id": "R2J_KONRADLUDWIGSOLMS",
+          "label": "Konrad Ludwig of Solms-Braunfels<br/>1595-1635 · Wikipedia"
+        },
+        {
+          "id": "R2J_JOHANNALBRECHT2SOLMS",
+          "label": "Johann Albrecht II of Solms-Braunfels<br/>1599-1648 · Wikipedia"
+        }
+      ],
+      "note": "Amalia of Solms-Braunfels (Princess of Orange) is daughter of John Albert I, Count of Solms-Braunfels, & Agnes of Sayn-Wittgenstein. Full siblings Elisabeth, Ursula, Konrad Ludwig and Johann Albrecht II added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_TEODOSIO2BRAGANZA",
+        "label": "Teodósio II<br/>1568-1630 · Duke of Braganza · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_ANAVELASCO",
+        "label": "Ana de Velasco y Girón<br/>1585-1607 · Duchess of Braganza · Wikipedia"
+      },
+      "children": [
+        "SPF_JOHNIVPORT",
+        {
+          "id": "R2J_DUARTEBRAGANZA_1605",
+          "label": "Duarte of Braganza<br/>1605-1649 · Wikipedia"
+        },
+        {
+          "id": "R2J_CATARINABRAGANZA_1606",
+          "label": "Catarina of Braganza<br/>1606-1610 · Wikipedia"
+        },
+        {
+          "id": "R2J_ALEXANDREBRAGANZA_1607",
+          "label": "Alexandre of Braganza<br/>1607-1637 · Wikipedia"
+        }
+      ],
+      "note": "John IV of Portugal (first Braganza king) is son of Teodósio II, Duke of Braganza, & Ana de Velasco y Girón. Full siblings Duarte, Catarina and Alexandre added. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2J_HENRYHYDE_DINTON",
+        "label": "Henry Hyde<br/>d.1634 · of Dinton, Wiltshire · Wikipedia"
+      },
+      "b": {
+        "id": "R2J_MARYLANGFORD",
+        "label": "Mary Langford<br/>· Wikipedia"
+      },
+      "children": [
+        "SPF_EDWARDHYDE",
+        {
+          "id": "R2J_SUSANNAHYDE",
+          "label": "Susanna Hyde<br/>· Wikipedia"
+        }
+      ],
+      "note": "Edward Hyde, 1st Earl of Clarendon, is son of Henry Hyde of Dinton & Mary Langford. Sister Susanna Hyde added (other siblings unnamed). Wikipedia."
+    }
+  ]
+}

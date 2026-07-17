@@ -14,8 +14,8 @@
       "note": "Antigone (niece of Antipater, wife of Magas, mother of Berenice I) was daughter of Cassander, a minor Macedonian noble who was Antipater's BROTHER — Wikipedia ('Berenice I') does not confirm or deny whether this is the same person as the far more famous King Cassander (Antipater's SON, already in the tree as MAC_CASSANDER); since the relationships differ (brother vs. son) they are treated as distinct, and the ambiguity is flagged in the label rather than assumed. Mother unrecorded."
     },
     {
-      "a": {"id": "R2L_WALTERDEBURGH", "label": "Walter de Burgh<br/>1230-1271 · 1st Earl of Ulster · Wikipedia"},
-      "b": {"id": "R2L_AVELINEFITZJOHN", "label": "Aveline FitzJohn<br/>fl.1257 · dau. of Sir John FitzGeoffrey, Justiciar of Ireland · Wikipedia"},
+      "a": {"id": "R2F_WALTER_DEBURGH", "label": "Walter de Burgh<br/>1230-1271 · 1st Earl of Ulster · Wikipedia"},
+      "b": {"id": "R2F_AVELINE_FITZJOHN", "label": "Aveline FitzJohn<br/>fl.1257 · dau. of Sir John FitzGeoffrey, Justiciar of Ireland · Wikipedia"},
       "children": [
         "SPG_EGIDIADEBURGH",
         "SPJ_RICHARDDEBURGH",

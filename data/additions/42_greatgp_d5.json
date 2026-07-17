@@ -1,0 +1,518 @@
+{
+ "families": [
+  {
+   "a": {
+    "id": "R3F_FERNANDO_CERDA",
+    "label": "Fernando de la Cerda<br/>d.1322 · Lord of Lara & Lerma, grandson of Alfonso X of Castile · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_JUANA_LARA",
+    "label": "Juana Núñez de Lara 'la Palomilla'<br/>c.1285-1351 · Lady of Lara · Wikipedia"
+   },
+   "children": [
+    "R2G_BLANCA_LARA"
+   ],
+   "note": "Blanca Núñez de Lara (3rd wife of Juan Manuel, Prince of Villena) is daughter of Fernando de la Cerda, Lord of Lara (grandson of Alfonso X of Castile), & Juana Núñez de Lara 'la Palomilla'. Wikipedia 'Blanca Núñez de Lara'."
+  },
+  {
+   "a": {
+    "id": "R3F_THOMAS_HOLLAND1",
+    "label": "Thomas Holland<br/>c.1314-1360 · 1st Earl of Kent; founder Knight of the Garter · Wikipedia"
+   },
+   "b": "JOANKENT",
+   "children": [
+    "R2H_THOMASHOLLAND2KENT"
+   ],
+   "note": "Thomas Holland, 2nd Earl of Kent, is son of Thomas Holland, 1st Earl of Kent, & Joan of Kent 'the Fair Maid of Kent' (EXISTING JOANKENT — she later married Edward the Black Prince and was mother of Richard II). Linked to the existing Joan of Kent node. Wikipedia 'Thomas Holland, 2nd Earl of Kent'."
+  },
+  {
+   "a": {
+    "id": "R3F_LOUIS2_FLANDERS",
+    "label": "Louis II 'de Male'<br/>1330-1384 · Count of Flanders, Nevers & Rethel · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_MARGARET_BRABANT_FL",
+    "label": "Margaret of Brabant<br/>1323-1368 · Countess of Flanders, dau. of John III, Duke of Brabant · Wikipedia"
+   },
+   "children": [
+    "R2H_MARGARETIIIFLANDERS"
+   ],
+   "note": "Margaret III, suo jure Countess of Flanders (m. Philip the Bold of Burgundy), was the only surviving child of Louis II de Male, Count of Flanders, & Margaret of Brabant. NOTE: this Margaret of Brabant (1323-1368) is a DIFFERENT person from R2G_MARGARET_BRABANT2 (1276-1311, Holy Roman Empress, in 41_grandparents_d4.json) — same name, earlier generation, kept distinct. Wikipedia 'Margaret III, Countess of Flanders'."
+  },
+  {
+   "a": "SPK_PETERIV_ARAGON",
+   "b": "SPK_ELEANOR_SICILY",
+   "children": [
+    "SPK_JOHNI_ARAGON"
+   ],
+   "note": "DEDUP — John I of Aragon's parents already exist as SPK_PETERIV_ARAGON × SPK_ELEANOR_SICILY (40_spouseparents_u5.json), whose children already include a DUPLICATE round-1 node SPK_JOHNI_ARAGON for the very same person. The round-2 node R2H_JOHNIARAGON (created in 41_grandparents_d5.json as husband of Yolande of Bar) is linked to those EXISTING parents here rather than fabricating a new set; pre-existing duplicate SPK_JOHNI_ARAGON vs R2H_JOHNIARAGON is flagged for a future merge. Wikipedia 'John I of Aragon'."
+  },
+  {
+   "a": {
+    "id": "R3F_ALBERT2_AUSTRIA",
+    "label": "Albert II 'the Wise'<br/>1298-1358 · Duke of Austria & Styria · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_JOANNA_PFIRT",
+    "label": "Joanna of Pfirt<br/>1300-1351 · Duchess of Austria, heiress of Ferrette (Pfirt) · Wikipedia"
+   },
+   "children": [
+    "R2H_LEOPOLDIIIAUSTRIA"
+   ],
+   "note": "Leopold III, Duke of Austria (killed at Sempach), is son of Albert II 'the Wise', Duke of Austria, & Joanna of Pfirt. Wikipedia 'Leopold III, Duke of Austria'."
+  },
+  {
+   "a": {
+    "id": "R3F_HUGH_AUDLEY",
+    "label": "Hugh de Audley (the elder)<br/>c.1267-1326 · Lord Audley · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ISOLDE_MORTIMER",
+    "label": "Isolde de Mortimer<br/>d.1338 · dau. of Edmund Mortimer, Baron Mortimer of Wigmore; widow of Walter de Balun · Wikipedia"
+   },
+   "children": [
+    "R2G_ALICE_AUDLEY"
+   ],
+   "note": "Alice de Audley (wife of Ralph Neville, 2nd Baron Neville de Raby) is daughter of Hugh de Audley the elder & Isolde de Mortimer. Distinct from her brother Hugh de Audley the younger, Earl of Gloucester. Wikipedia 'Hugh de Audley'."
+  },
+  {
+   "a": {
+    "id": "R3F_GALEAZZO2_VISCONTI",
+    "label": "Galeazzo II Visconti<br/>c.1320-1378 · co-lord of Milan · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_BIANCA_SAVOY",
+    "label": "Bianca of Savoy<br/>1336-1387 · dau. of Aymon, Count of Savoy · Wikipedia"
+   },
+   "children": [
+    "R2H_GIANGALEAZZOVISCONTI"
+   ],
+   "note": "Gian Galeazzo Visconti, 1st Duke of Milan, is son of Galeazzo II Visconti & Bianca of Savoy. Wikipedia 'Gian Galeazzo Visconti'."
+  },
+  {
+   "a": {
+    "id": "R3F_OTTO3_CARINTHIA",
+    "label": "Otto III<br/>c.1265-1310 · Duke of Carinthia & Count of Tyrol (House of Gorizia / Meinhardiner) · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_EUPHEMIA_SILESIA",
+    "label": "Euphemia of Silesia-Legnica<br/>c.1281-1347 · Duchess of Carinthia, dau. of Henry V, Duke of Legnica · Wikipedia"
+   },
+   "children": [
+    "R2G_ELISABETH_CARINTHIA"
+   ],
+   "note": "Elisabeth of Carinthia-Tyrol (Queen of Sicily) is daughter of Otto III, Duke of Carinthia & Count of Tyrol, & Euphemia of Silesia-Legnica. Wikipedia 'Elizabeth of Carinthia, Queen of Sicily' / 'Otto III, Duke of Carinthia'."
+  },
+  {
+   "a": "R2G_PETER2_SICILY",
+   "b": "R2G_ELISABETH_CARINTHIA",
+   "children": [
+    {
+     "id": "R3F_BEATRICE_SICILY",
+     "label": "Beatrice of Sicily<br/>1326-1365 · Electress Palatine; m. Rupert II · Wikipedia"
+    }
+   ],
+   "note": "CROSS-LINK — Beatrice of Sicily (wife of Rupert II, Elector Palatine, and mother of Rupert, King of the Romans) is added as an additional documented daughter of the EXISTING union Peter II of Sicily (R2G_PETER2_SICILY) × Elisabeth of Carinthia (R2G_ELISABETH_CARINTHIA) from 41_grandparents_d4.json — making her a full sister of Eleanor of Sicily (SPK_ELEANOR_SICILY) and Louis of Sicily. Wikipedia 'Beatrice of Sicily (1326-1365)'."
+  },
+  {
+   "a": {
+    "id": "R3F_RUPERT2_PALATINE",
+    "label": "Rupert II<br/>1325-1398 · Elector Palatine · Wikipedia"
+   },
+   "b": "R3F_BEATRICE_SICILY",
+   "children": [
+    "R2H_RUPERTKINGROMANS"
+   ],
+   "note": "Rupert, King of the Romans (Elector Palatine as Rupert III), is son of Rupert II, Elector Palatine, & Beatrice of Sicily (linked above to the existing Sicilian royal line — his maternal grandparents are Peter II of Sicily & Elisabeth of Carinthia). Wikipedia 'Rupert, King of the Romans'."
+  },
+  {
+   "a": {
+    "id": "R3F_SIEMOWIT3_MASOVIA",
+    "label": "Siemowit III<br/>c.1320-1381 · Duke of Masovia · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_EUPHEMIA_OPAVA",
+    "label": "Euphemia of Opava (Troppau)<br/>d.1352 · Duchess of Masovia, dau. of Nicholas II, Duke of Opava · Wikipedia"
+   },
+   "children": [
+    "R2H_SIEMOWITIVMASOVIA"
+   ],
+   "note": "Siemowit IV, Duke of Masovia, is son of Siemowit III, Duke of Masovia, & his first wife Euphemia of Opava. Wikipedia 'Siemowit III, Duke of Masovia'."
+  },
+  {
+   "a": {
+    "id": "R3F_FREDERICK5_NUREMBERG",
+    "label": "Frederick V<br/>1333-1398 · Burgrave of Nuremberg (House of Hohenzollern) · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ELISABETH_MEISSEN",
+    "label": "Elisabeth of Meissen<br/>1329-1375 · Burgravine of Nuremberg, dau. of Frederick II, Margrave of Meissen · Wikipedia"
+   },
+   "children": [
+    "R2H_ELISABETHNUREMBERG"
+   ],
+   "note": "Elisabeth of Nuremberg (Queen of the Romans, wife of Rupert) is daughter of Frederick V, Burgrave of Nuremberg, & Elisabeth of Meissen. Wikipedia 'Elisabeth of Nuremberg'."
+  },
+  {
+   "a": "PETERCRUEL",
+   "b": "PADILLA",
+   "children": [
+    "R2H_ISABELLADECASTILEYORK"
+   ],
+   "note": "DEDUP — Isabella of Castile, Duchess of York, is daughter of the EXISTING Peter 'the Cruel' of Castile (PETERCRUEL) & María de Padilla (PADILLA); linked to those existing nodes rather than duplicating them (their union U_petercruel_padilla and her sister Constance, Duchess of Lancaster, are already in the tree). Wikipedia 'Isabella of Castile, Duchess of York'."
+  },
+  {
+   "a": {
+    "id": "R3F_ALVARO_PEREIRA",
+    "label": "✝ Álvaro Gonçalves Pereira<br/>c.1310-1379 · Prior of Crato (Order of the Hospital) in Portugal · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_IRIA_CARVALHAL",
+    "label": "Iria Gonçalves do Carvalhal<br/>14th c. · mother of Nuno Álvares Pereira · Wikipedia"
+   },
+   "children": [
+    "R2H_NUNOALVARESPEREIRA"
+   ],
+   "note": "St. Nuno Álvares Pereira (Constable of Portugal) was the later-legitimised illegitimate son of Álvaro Gonçalves Pereira, Prior of Crato, & Iria Gonçalves do Carvalhal; his paternal grandfather was Gonçalo Pereira, Archbishop of Braga. Wikipedia 'Nuno Álvares Pereira'."
+  },
+  {
+   "a": {
+    "id": "R3F_ROGER_BEAUCHAMP_SR",
+    "label": "Sir Roger Beauchamp<br/>d.1373/4 · of Bletsoe; predeceased his father the 1st Baron · History of Parliament Online"
+   },
+   "b": {
+    "id": "R3F_ROGER_BEAUCHAMP_MOTHER",
+    "label": "—"
+   },
+   "children": [
+    "R2H_ROGERBEAUCHAMP2BLETSOE"
+   ],
+   "note": "MODERATE CONFIDENCE — Roger Beauchamp, 2nd Baron Beauchamp of Bletsoe, was son of Sir Roger Beauchamp (d.1373/4), who predeceased his own father Roger Beauchamp, 1st Baron Beauchamp of Bletsoe; the 2nd Baron therefore inherited from his grandfather. History of Parliament names his mother only tentatively ('probably' Joan, dau./heiress of William Clopton, widow of Sir Walter Walcot); because a 'Joan Clopton' is already recorded in this tree as the 2nd Baron's WIFE (41_grandparents_d5.json), the maternal identity is left as a placeholder to avoid conflation. History of Parliament Online 'Beauchamp, Sir Roger (1362-1406)'."
+  },
+  {
+   "a": {
+    "id": "R3F_ROBERT1_BAR",
+    "label": "Robert I<br/>1344-1411 · Duke of Bar & Marquis of Pont-à-Mousson · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_MARIE_FRANCE_BAR",
+    "label": "Marie of France<br/>1344-1404 · Duchess of Bar, dau. of John II of France · Wikipedia"
+   },
+   "children": [
+    "R2H_YOLANDEOFBAR"
+   ],
+   "note": "Yolande of Bar (Queen of Aragon) is daughter of Robert I, Duke of Bar, & Marie of France (Marie de Valois). Wikipedia 'Yolande of Bar' / 'Marie of France, Duchess of Bar'."
+  },
+  {
+   "a": "JOHNIIFR",
+   "b": "BONNELUX",
+   "children": [
+    "R3F_MARIE_FRANCE_BAR",
+    {
+     "id": "R3F_JOHN_BERRY",
+     "label": "John<br/>1340-1416 · Duke of Berry & Auvergne; famed patron of the arts (Très Riches Heures) · Wikipedia"
+    }
+   ],
+   "note": "CROSS-LINK — two further documented children of the EXISTING John II of France (JOHNIIFR) × Bonne of Luxembourg (BONNELUX) are added: Marie of France, Duchess of Bar (mother of Yolande of Bar, above) and John, Duke of Berry (father of Marie of Berry, below). They join their already-added siblings Charles V, Joan of Valois and Isabelle of Valois under this union. Wikipedia."
+  },
+  {
+   "a": {
+    "id": "R3F_ROBERT_CLIFFORD1",
+    "label": "Robert de Clifford<br/>1274-1314 · 1st Baron de Clifford; killed at Bannockburn · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_MAUD_CLARE",
+    "label": "Maud de Clare<br/>d.1327 · Baroness Clifford, dau. of Thomas de Clare, Lord of Thomond · Wikipedia"
+   },
+   "children": [
+    "R2H_IDOINEDECLIFFORD"
+   ],
+   "note": "Idoine de Clifford (wife of Henry Percy, 2nd Baron Percy) is daughter of Robert de Clifford, 1st Baron de Clifford, & Maud de Clare. Wikipedia 'Robert de Clifford, 1st Baron de Clifford'."
+  },
+  {
+   "a": {
+    "id": "R3F_ALGIRDAS",
+    "label": "Algirdas<br/>c.1296-1377 · Grand Duke of Lithuania · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ULIANA_TVER",
+    "label": "Uliana of Tver<br/>c.1330-1392 · Grand Duchess of Lithuania, dau. of Alexander I of Tver · Wikipedia"
+   },
+   "children": [
+    "R2H_ALEXANDRAOFLITHUANIA"
+   ],
+   "note": "Alexandra of Lithuania (Duchess of Masovia) is daughter of Grand Duke Algirdas & his second wife Uliana of Tver; her brother was Władysław II Jagiełło, King of Poland. Wikipedia 'Aldona/Alexandra of Lithuania' / 'Algirdas'."
+  },
+  {
+   "a": "R2H_CHARLESIINAVARRE",
+   "b": "R2H_JOANOFVALOIS_NAVARRE",
+   "children": [
+    "R2H_JOANOFNAVARREENGLAND"
+   ],
+   "note": "DEDUP — Joan of Navarre (Duchess of Brittany, later Queen of England as 2nd wife of Henry IV) is daughter of the EXISTING Charles II of Navarre (R2H_CHARLESIINAVARRE) × Joan of Valois (R2H_JOANOFVALOIS_NAVARRE), both already in the tree (41_grandparents_d5.json) as parents of her brother Charles III of Navarre. Linked to those existing nodes; no new grandparents created. Wikipedia 'Joan of Navarre, Queen of England'."
+  },
+  {
+   "a": {
+    "id": "R3F_EBERHARD2_WURTTEMBERG",
+    "label": "Eberhard II 'the Greiner'<br/>1315-1392 · Count of Württemberg · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ELISABETH_HENNEBERG",
+    "label": "Elisabeth of Henneberg<br/>d.1389 · Countess of Württemberg, dau. of Henry VIII of Henneberg-Schleusingen · Wikipedia"
+   },
+   "children": [
+    "R2H_SOPHIEWURTTEMBERG"
+   ],
+   "note": "Sophie of Württemberg (Duchess of Lorraine) is daughter of Eberhard II 'the Greiner', Count of Württemberg, & Elisabeth of Henneberg. Wikipedia 'Eberhard II, Count of Württemberg'."
+  },
+  {
+   "a": {
+    "id": "R3F_JOHN1_LIGNY",
+    "label": "John I of Luxembourg<br/>1313-1364 · Lord of Ligny, Beauvoir & Roussy · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ALIX_DAMPIERRE",
+    "label": "Alix of Dampierre<br/>d.1346 · dame de Richebourg · Wikipedia"
+   },
+   "children": [
+    "R2H_GUYOFLUXEMBOURGSTPOL"
+   ],
+   "note": "Guy of Luxembourg, Count of Ligny & Saint-Pol (killed at Baesweiler), is son of John I of Luxembourg, Lord of Ligny, & Alix of Dampierre, dame de Richebourg. Wikipedia 'Guy I, Count of Ligny' / 'John I, Lord of Ligny'."
+  },
+  {
+   "a": {
+    "id": "R3F_EDWARD_DESPENSER",
+    "label": "Edward le Despenser<br/>1336-1375 · 1st Baron le Despenser, Knight of the Garter · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ELIZABETH_BURGHERSH",
+    "label": "Elizabeth de Burghersh<br/>1342-1409 · Baroness le Despenser, dau. of Bartholomew de Burghersh · Wikipedia"
+   },
+   "children": [
+    "R2I_THOMAS_DESPENSER"
+   ],
+   "note": "Thomas le Despenser, 1st Earl of Gloucester (beheaded 1400), is son of Edward le Despenser, 1st Baron le Despenser, & Elizabeth de Burghersh. Wikipedia 'Thomas le Despenser, 1st Earl of Gloucester'."
+  },
+  {
+   "a": {
+    "id": "R3F_EDMUND_MORTIMER3",
+    "label": "Edmund Mortimer<br/>1352-1381 · 3rd Earl of March · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_PHILIPPA_CLARENCE",
+    "label": "Philippa of Clarence<br/>1355-1382 · 5th Countess of Ulster, dau. of Lionel of Antwerp, Duke of Clarence (son of Edward III) · Wikipedia"
+   },
+   "children": [
+    "R2H_ROGERMORTIMER4MARCH"
+   ],
+   "note": "Roger Mortimer, 4th Earl of March (heir presumptive to Richard II), is son of Edmund Mortimer, 3rd Earl of March, & Philippa of Clarence — through whom the Mortimer/York claim to the English throne descended from Lionel of Antwerp, second surviving son of Edward III. Wikipedia 'Roger Mortimer, 4th Earl of March'."
+  },
+  {
+   "a": {
+    "id": "R3F_PIERO_BARDI",
+    "label": "Piero de' Bardi<br/>d.1345 · Conte di Vernio · Geneanet"
+   },
+   "b": {
+    "id": "R3F_SOZZO_BARDI_MOTHER",
+    "label": "—"
+   },
+   "children": [
+    "R2L_SOZZODEBARDI"
+   ],
+   "note": "MODERATE CONFIDENCE — Sozzo de' Bardi, Signore di Vernio, is given as son of Piero de' Bardi, Conte di Vernio (d.1345), by genealogical compilations (Geneanet). Those same trees also name his mother as Beatrice Mozzi, but a 'Beatrice Mozzi' is already recorded in this tree as Sozzo's WIFE (41_grandparents_d5.json), so the maternal identity is left as a placeholder here to avoid conflation. Geneanet 'Sozzo de' Bardi'."
+  },
+  {
+   "a": "R3F_JOHN_BERRY",
+   "b": {
+    "id": "R3F_JOAN_ARMAGNAC",
+    "label": "Joan of Armagnac<br/>1346-1387 · Duchess of Berry, dau. of John I, Count of Armagnac · Wikipedia"
+   },
+   "children": [
+    "R2I_MARIE_BERRY"
+   ],
+   "note": "Marie of Berry (Duchess of Auvergne in her own right) is daughter of John, Duke of Berry (defined above as a child of John II of France), & his first wife Joan of Armagnac. Wikipedia 'Marie of Berry'."
+  },
+  {
+   "a": {
+    "id": "R3F_JOHN1_LAMARCHE",
+    "label": "John I of Bourbon<br/>1344-1393 · Count of La Marche · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_CATHERINE_VENDOME",
+    "label": "Catherine of Vendôme<br/>1350-1412 · suo jure Countess of Vendôme & Castres · Wikipedia"
+   },
+   "children": [
+    "R2I_LOUIS1_VENDOME"
+   ],
+   "note": "Louis I, Count of Vendôme, is son of John I of Bourbon, Count of La Marche, & Catherine of Vendôme (heiress of Vendôme) — the founding couple of the Bourbon-Vendôme line that led to Henry IV of France. Wikipedia 'Louis I, Count of Vendôme'."
+  },
+  {
+   "a": {
+    "id": "R3F_GUILLAUME_SABRAN",
+    "label": "Guillaume de Sabran<br/>14th c. · Count of Ariano · Geneanet / soc.genealogy.medieval"
+   },
+   "b": {
+    "id": "R3F_FRANCESCA_CELANO",
+    "label": "Francesca di Celano<br/>14th c. · of the Counts of Celano · Geneanet"
+   },
+   "children": [
+    "R2H_JEANNEDESABRAN"
+   ],
+   "note": "MODERATE CONFIDENCE — Jeanne de Sabran (1st wife of Nicola Orsini, Count of Nola) is given as daughter of Guillaume de Sabran, Count of Ariano, & Francesca di Celano by genealogical compilations (Geneanet; soc.genealogy.medieval discussion). Not documented in a Wikipedia biography, so flagged. Geneanet / soc.genealogy.medieval 'Jeanne de Sabran'."
+  },
+  {
+   "a": {
+    "id": "R3F_LOUIS2_BOURBON",
+    "label": "Louis II 'the Good'<br/>1337-1410 · Duke of Bourbon · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ANNA_AUVERGNE",
+    "label": "Anna of Auvergne<br/>1358-1417 · Dauphine of Auvergne & Countess of Forez · Wikipedia"
+   },
+   "children": [
+    "R2I_JOHN1_BOURBON"
+   ],
+   "note": "John I, Duke of Bourbon (captured at Agincourt, died in English captivity), is son of Louis II 'the Good', Duke of Bourbon, & Anna of Auvergne. Wikipedia 'John I, Duke of Bourbon'."
+  },
+  {
+   "a": {
+    "id": "R3F_ALAIN8_ROHAN",
+    "label": "Alain VIII<br/>d.1429 · Viscount of Rohan · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_BEATRIX_CLISSON",
+    "label": "Béatrix de Clisson<br/>d.1448 · dau. of Olivier V de Clisson, Constable of France · Wikipedia"
+   },
+   "children": [
+    "R2I_ALAIN9_ROHAN"
+   ],
+   "note": "Alain IX, Viscount of Rohan, is son of Alain VIII de Rohan & Béatrix de Clisson (co-heiress of the Constable Olivier de Clisson). Wikipedia 'Alan IX, Viscount of Rohan'."
+  },
+  {
+   "a": {
+    "id": "R3F_ARCHAMBAUD_FOIX",
+    "label": "Archambaud de Grailly<br/>c.1330-1412 · Captal de Buch, Count of Foix (jure uxoris) · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ISABELLA_FOIX",
+    "label": "Isabella<br/>1361-1428 · suo jure Countess of Foix & Viscountess of Béarn · Wikipedia"
+   },
+   "children": [
+    "R2I_JOHN1_FOIX"
+   ],
+   "note": "John I, Count of Foix, is the eldest son of Archambaud de Grailly, Captal de Buch, & Isabella, suo jure Countess of Foix. Wikipedia 'John I, Count of Foix'."
+  },
+  {
+   "a": {
+    "id": "R3F_ALBERTO5_ESTE",
+    "label": "Alberto V d'Este<br/>1347-1393 · Lord of Ferrara, Modena & Reggio · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ISOTTA_ALBARESANI",
+    "label": "Isotta Albaresani<br/>14th c. · mother of Niccolò III d'Este · Wikipedia"
+   },
+   "children": [
+    "R2I_NICCOLO3_ESTE"
+   ],
+   "note": "Niccolò III d'Este, Marquess of Ferrara, was the (later legitimised) son of Alberto V d'Este, Lord of Ferrara, & Isotta Albaresani. Wikipedia 'Niccolò III d'Este'."
+  },
+  {
+   "a": {
+    "id": "R3F_JOHN5_ARKEL",
+    "label": "John V<br/>d.1428 · Lord of Arkel · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_JOHANNA_JULICH",
+    "label": "Johanna of Jülich<br/>d.1394 · Lady of Arkel, of the House of Jülich · Wikipedia"
+   },
+   "children": [
+    "R2I_MARIA_ARKEL"
+   ],
+   "note": "Maria van Arkel (wife of John II of Egmond) is daughter and heiress of John V, Lord of Arkel, & Johanna of Jülich. Wikipedia 'John V of Arkel'."
+  },
+  {
+   "a": {
+    "id": "R3F_ARNOLD_EGMOND",
+    "label": "Arnold (Aarnout)<br/>d.1409 · Lord of Egmond & IJsselstein · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_JOLANTHE_LEININGEN",
+    "label": "Jolanthe of Leiningen<br/>d.1434 · Lady of Egmond, dau. of Frederick VIII of Leiningen · Wikipedia"
+   },
+   "children": [
+    "R2I_JOHN2_EGMOND"
+   ],
+   "note": "John II, Lord of Egmond ('met de Bellen'), is son of Arnold, Lord of Egmond, & Jolanthe of Leiningen. Wikipedia 'John II, Lord of Egmond'."
+  },
+  {
+   "a": {
+    "id": "R3F_JOHN_MONTAGU3",
+    "label": "John Montagu<br/>c.1350-1400 · 3rd Earl of Salisbury; executed after the Epiphany Rising · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_MAUD_FRANCIS",
+    "label": "Maud Francis<br/>d.1424 · Countess of Salisbury, dau. of Adam Francis, Lord Mayor of London · Wikipedia"
+   },
+   "children": [
+    "R2I_THOMAS_MONTAGU"
+   ],
+   "note": "Thomas Montagu, 4th Earl of Salisbury (killed at the siege of Orléans), is son of John Montagu, 3rd Earl of Salisbury, & Maud Francis. Wikipedia 'Thomas Montagu, 4th Earl of Salisbury'."
+  },
+  {
+   "a": {
+    "id": "R3F_GIOVANNI_ORSINI",
+    "label": "Giovanni Orsini<br/>d. after 1398 · of the Bracciano Orsini · genmarenostrum / FamilySearch"
+   },
+   "b": {
+    "id": "R3F_BARTOLOMEA_SPINELLI",
+    "label": "Bartolomea Spinelli<br/>14th c. · mother of Carlo Orsini · FamilySearch"
+   },
+   "children": [
+    "R2I_CARLO_ORSINI"
+   ],
+   "note": "MODERATE CONFIDENCE — Carlo Orsini, 1st Signore/Duca di Bracciano, is given as son of Giovanni Orsini (d. after 1398) & Bartolomea Spinelli by genealogical compilations (genmarenostrum, FamilySearch). Not documented in a Wikipedia biography, so flagged. genmarenostrum / FamilySearch 'Carlo Orsini, signore di Bracciano'."
+  },
+  {
+   "a": {
+    "id": "R3F_WALTER3_ENGHIEN",
+    "label": "Walter III of Enghien<br/>d.1345 · Lord of Enghien · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_ISABELLA_BRIENNE",
+    "label": "Isabella of Brienne<br/>1305-1360 · Countess of Brienne & Conversano · Wikipedia"
+   },
+   "children": [
+    "R2H_LOUISOFENGHIEN"
+   ],
+   "note": "Louis of Enghien (Count of Brienne & Conversano, titular Duke of Athens) was the fourth son of Walter III of Enghien, Lord of Enghien, & Isabella of Brienne, Countess of Brienne — through whom the Brienne and Conversano titles passed. Wikipedia 'Louis, Count of Enghien' / 'Isabella, Countess of Brienne'."
+  },
+  {
+   "a": {
+    "id": "R3F_ADOLF2_MARK",
+    "label": "Adolf II<br/>c.1288-1347 · Count of Mark · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_MARGARET_CLEVES",
+    "label": "Margaret of Cleves<br/>d.1348 · Countess of Mark, dau. of Dietrich VIII of Cleves · Wikipedia"
+   },
+   "children": [
+    "R2H_ADOLFIIIMARK"
+   ],
+   "note": "Adolf III, Count of Mark & (as Adolf I) Count of Cleves — uniting Mark and Cleves — was the second son of Adolf II, Count of Mark, & Margaret of Cleves. Wikipedia 'Adolf III of the Marck'."
+  },
+  {
+   "a": {
+    "id": "R3F_JOHN7_HARCOURT",
+    "label": "John VII<br/>1370-1452 · Count of Harcourt & Aumale, Baron of Elbeuf · Wikipedia"
+   },
+   "b": {
+    "id": "R3F_MARIE_ALENCON",
+    "label": "Marie of Alençon<br/>1373-1417 · Countess of Harcourt, dau. of Peter II, Count of Alençon · Wikipedia"
+   },
+   "children": [
+    "R2I_MARIE_HARCOURT"
+   ],
+   "note": "Marie of Harcourt (Countess of Aumale, wife of Antoine of Lorraine, Count of Vaudémont) is the eldest daughter of John VII, Count of Harcourt, & Marie of Alençon. Wikipedia 'Marie, Countess of Harcourt'."
+  }
+ ]
+}

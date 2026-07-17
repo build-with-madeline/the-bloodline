@@ -1,0 +1,31 @@
+{
+ "_note": "ROUND 3 great-grandparents (BC batch, R3A_ prefix): one more documented generation behind the round-2 R2A_ ancestors in the late-Republic Roman slab. Web-verified July 2026 against Wikipedia/Plutarch. FILLED 3 of 8. (1) R2A_SALONIA <- her father Salonius, a freedman and under-secretary (scribe) of Cato the Elder, per Plutarch, Cato the Elder 24; mother unnamed, no siblings recorded. (2) R2A_MLIVIUSDRUSUS_COS112 <- his father Gaius Livius Drusus (cos 147 BC), plus documented brother Gaius Livius Drusus 'the jurist'; mother unnamed. DEDUP/AMBIGUITY: the Livia gens stemma also makes a sister 'Livia' (the one who married Q. Servilius Caepio then M. Porcius Cato) a DAUGHTER of cos 147 / sister of cos 112 — but that Livia is the EXISTING node SPC_LIVIADRUSA, already placed in this tree as the DAUGHTER of cos 112 (sister of the reformer) per the competing reconstruction in Wikipedia 'M. Livius Drusus (reformer)'. To avoid re-parenting an existing node and creating a contradictory second placement, sister Livia is NOT added here; only the jurist brother is added. (3) R2A_QSERVILIUSCAEPIO (praetor 91) <- his father Q. Servilius Caepio (cos 106 BC, of Arausio / the Gold of Tolosa) & (likely, flagged) Caecilia Metella, probable daughter of Metellus Macedonicus; documented sisters Servilia (m. M. Livius Drusus the reformer) & a second Servilia (possibly m. Q. Lutatius Catulus, though sources hedge whether she was his sister or aunt). Caepio cos 106's own father and Metellus Macedonicus are NOT created (a further generation, and only referenced in-note). SKIPPED 5 as genuinely undocumented further back: R2A_MTULLIUSCICERO_GP (Cicero's grandfather 'a leading man of Arpinum' — his own father is not named in any source); R2A_LJULIUSCAESAR_PR (the Julii Caesares stemma has an explicit gap here — Wikipedia notes only a *conjectured* descent from Sextus Julius Caesar pr. 208 / L. Julius Libo cos 267, 'uncertain'; no attested immediate father, so skipped per no-fabrication); R2A_FULVIA_JC (parents unrecorded); R2A_GRATIDIA (sister of M. Gratidius of Arpinum, but the Gratidii's father is not named in the sources); R2A_CORNELIA_DRUSUS (Cornelia's 'precise identity remains unknown' — only a speculative Scipionic-branch guess, no attested parents). No fabrication; unnamed parents drawn as '—'. Sources: Plutarch 'Cato the Elder' 24; Wikipedia 'Salonia', 'Marcus Livius Drusus (consul)', 'Livia gens', 'Quintus Servilius Caepio (consul 106 BC)', 'Quintus Servilius Caepio (quaestor 103 BC)'.",
+
+ "families": [
+  {
+   "a": {"id": "R3A_SALONIUS", "label": "Salonius<br/>c.200 BC · a freedman and under-secretary (scribe) to Cato the Elder; father of Salonia, Cato's second wife · Plutarch, Cato the Elder 24"},
+   "b": {"id": "R3A_SALONIUS_WIFE", "label": "—"},
+   "children": ["R2A_SALONIA"],
+   "note": "Salonia's father was Salonius, Cato the Elder's freedman under-secretary; when Cato asked whether he had found a husband for his young daughter, he asked for her himself. Mother unnamed, no siblings recorded. Plutarch, Cato the Elder 24 / Wikipedia 'Salonia'."
+  },
+  {
+   "a": {"id": "R3A_GLIVIUSDRUSUS_COS147", "label": "Gaius Livius Drusus<br/>c.185 BC · consul 147 BC; father of M. Livius Drusus (cos 112 BC) · Wikipedia 'Livia gens'"},
+   "b": {"id": "R3A_GLIVIUSDRUSUS_COS147_WIFE", "label": "—"},
+   "children": [
+    "R2A_MLIVIUSDRUSUS_COS112",
+    {"id": "R3A_GLIVIUSDRUSUS_JURIST", "label": "Gaius Livius Drusus<br/>c.153 BC · Roman jurist, noted for courtesy and persuasiveness; brother of M. Livius Drusus (cos 112 BC) · Wikipedia 'Livia gens'"}
+   ],
+   "note": "M. Livius Drusus (cos 112 BC) was son of Gaius Livius Drusus (cos 147 BC); documented brother Gaius Livius Drusus 'the jurist'. Mother unnamed. NOTE: the Livia-gens stemma also makes a sister Livia (who married Q. Servilius Caepio, then M. Porcius Cato) a daughter of cos 147 here; but that Livia is the EXISTING node SPC_LIVIADRUSA, already placed as the daughter of cos 112 under the competing reconstruction, so she is NOT re-added/re-parented. Cos 147's own father was Marcus Livius Drusus Aemilianus (a further generation, not added). Wikipedia 'Marcus Livius Drusus (consul)' / 'Livia gens'."
+  },
+  {
+   "a": {"id": "R3A_QSERVILIUSCAEPIO_COS106", "label": "Quintus Servilius Caepio<br/>c.160-aft.100 BC · consul 106 BC &amp; proconsul; his defeat at Arausio (105 BC) and the vanished 'Gold of Tolosa'; father of Q. Servilius Caepio (praetor 91 BC) · Wikipedia"},
+   "b": {"id": "R3A_CAECILIAMETELLA_CAEPIO", "label": "Caecilia Metella<br/>c.155 BC · wife (likely — sources hedge) of Q. Servilius Caepio (cos 106 BC); probably a daughter of Q. Caecilius Metellus Macedonicus; mother of the praetor of 91 BC · Wikipedia (uncertain)"},
+   "children": [
+    "R2A_QSERVILIUSCAEPIO",
+    {"id": "R3A_SERVILIA_DRUSUS", "label": "Servilia<br/>c.128 BC · daughter of Q. Servilius Caepio (cos 106 BC); wife of M. Livius Drusus 'the reformer' (tribune 91 BC); sister of the praetor of 91 BC · Wikipedia"},
+    {"id": "R3A_SERVILIA_CATULUS", "label": "Servilia<br/>c.126 BC · a Servilia of the cos-106 family, possibly wife of Q. Lutatius Catulus (sources hedge whether she was Caepio's sister or aunt) · Wikipedia (uncertain)"}
+   ],
+   "note": "Q. Servilius Caepio (praetor 91 BC) was son of Q. Servilius Caepio (cos 106 BC of Arausio); his mother was likely (sources uncertain) Caecilia Metella, probable daughter of Metellus Macedonicus. Documented sisters: Servilia (m. M. Livius Drusus the reformer) and a second Servilia (possibly m. Q. Lutatius Catulus). Caepio cos 106's own father and Metellus Macedonicus are a further generation and are not created here. Wikipedia 'Quintus Servilius Caepio (consul 106 BC)' / '(quaestor 103 BC)'."
+  }
+ ]
+}

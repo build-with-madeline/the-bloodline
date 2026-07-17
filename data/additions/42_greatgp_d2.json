@@ -1,0 +1,204 @@
+{
+  "_note": "ROUND 3 (great-grandparents), batch d_800_1400_2: one generation back from 33 round-2 grandparents (medieval, 800-1400 AD). 33 of 34 batch ids given documented parents; SKIPPED 1: R2E_HUMBERT1SAVOY (Humbert I 'Whitehands', founder of the House of Savoy) — his parentage is legendary/undocumented (Wikipedia: 'the origins of this dynasty are unknown'; late-medieval legend names a Saxon 'Berold', unverifiable), so no parents created. Where both parents already existed in the tree, families merge onto the existing union (Fulk V+Ermengarde of Maine -> Sibylla of Anjou; Louis VII+Constance of Castile -> Alys of France; Henry the Lion+Matilda of England -> Henry V Palatine; Amadeus III of Savoy [SPG_AMADEUS3SAVOY]+Mahaut of Albon -> Matilda & Humbert III of Savoy; Alfonso VII [R2E_ALFONSO7_LEONCASTILE]+Richeza of Poland -> Sancha of Castile). Cross-links realized this batch: Gerard, Duke of Lorraine + Hedwige of Namur are parents of BOTH batch member Beatrice of Lorraine and (as a sibling node) Theodoric II of Lorraine, father of batch member Thierry of Alsace; Geza II of Hungary + Euphrosyne of Kiev are parents of BOTH batch member Bela III and Elizabeth of Hungary (R3C_ELIZABETH_HUNGARY), who is the mother of batch member Ludmilla of Bohemia. New nodes use the R3C_ prefix. Sourced to Wikipedia except Hugues du Perche's parents (Henry Project/Geni reconstruction, moderate confidence) and Beatrice of Faucigny's father (genealogical sources, moderate confidence). Two mothers not recorded (Amaury de Montfort's, Beatrice of Faucigny's) use clearly-labeled placeholder nodes with no invented name. Verified 2026-07-17.",
+  "families": [
+    {
+      "a": {"id": "R3C_FULCOIS_MORTAGNE", "label": "Fulcois<br/>fl.c.980 · Count of Mortagne (Perche), of the viscounts of Ch&acirc;teaudun · Henry Project"},
+      "b": {"id": "R3C_MELISENDE_PERCHE", "label": "M&eacute;lisende<br/>· wife of Fulcois of Mortagne · Henry Project"},
+      "children": ["R2D_HUGUESPERCHE"],
+      "note": "Hugues du Perche, Count of Gatinais, was youngest son of Fulcois, Count of Mortagne (Perche), of the Chateaudun viscount family, & his wife Melisende. Reconstructed lineage per the Henry Project / Geni; moderate confidence."
+    },
+    {
+      "a": {"id": "R3C_RENAUD1_BURGUNDY", "label": "Reginald I (Renaud I)<br/>d.1057 · Count of Burgundy · Wikipedia"},
+      "b": {"id": "R3C_ALICE_NORMANDY", "label": "Alice (Adeliza) of Normandy<br/>· dau. of Richard II, Duke of Normandy · Wikipedia"},
+      "children": ["R2E_WILLIAM1BURGUNDY"],
+      "note": "William I 'the Great', Count of Burgundy, was son of Reginald I, Count of Burgundy, & Alice of Normandy (daughter of Richard II of Normandy, who exists at base id in the tree; not linked here as that is a further generation back). Wikipedia 'William I, Count of Burgundy'."
+    },
+    {
+      "a": {"id": "R3C_MANFRED1_TURIN", "label": "Manfred I<br/>d.c.1000 · Margrave of Turin (Arduinici) · Wikipedia"},
+      "b": {"id": "R3C_PRANGARDA_CANOSSA", "label": "Prangarda of Canossa<br/>· wife of Manfred I of Turin · Wikipedia"},
+      "children": ["R2E_ULRICMANFRED2_TURIN"],
+      "note": "Ulric Manfred II (Olderico Manfredi II), Margrave of Turin, was son of Manfred I of Turin (Arduinici dynasty) & Prangarda of Canossa. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_THEODORIC1_LORRAINE", "label": "Theodoric I (Dietrich)<br/>c.965-1027 · Duke of Upper Lorraine · Wikipedia"},
+      "b": {"id": "R3C_RICHILDE_LORRAINE", "label": "Richilde<br/>· wife of Theodoric I of Upper Lorraine · Wikipedia"},
+      "children": ["R2E_HILDEGARDE_SUNDGAU"],
+      "note": "Hildegarde of Sundgau (2nd wife of Fulk III 'Nerra' of Anjou) was daughter of Theodoric I, Duke of Upper Lorraine (House of Ardennes-Bar), & his wife Richilde. Wikipedia 'Theodoric I, Duke of Upper Lorraine'."
+    },
+    {
+      "a": {"id": "R3C_WILLIAM_HAINAUT_MONTFORT", "label": "Guillaume (William) de Hainaut<br/>fl.c.1000 · 1st Lord of Montfort-l'Amaury · Wikipedia (Orderic Vitalis)"},
+      "b": {"id": "R3C_MONTFORT_MOTHER", "label": "wife of William de Hainaut<br/>· mother of Amaury I; not recorded"},
+      "children": ["R2E_AMAURY1MONTFORT"],
+      "note": "Amaury I de Montfort was son of Guillaume (William) de Hainaut, 1st Lord of Montfort, named as his father by Orderic Vitalis; his mother is not recorded (placeholder node, no invented identity). Wikipedia 'Amaury I de Montfort'."
+    },
+    {
+      "a": {"id": "R3C_BERNARD1_SAXONY", "label": "Bernard I<br/>d.1011 · Duke of Saxony (Billung) · Wikipedia"},
+      "b": {"id": "R3C_HILDEGARD_STADE", "label": "Hildegard of Stade<br/>· wife of Bernard I of Saxony · Wikipedia"},
+      "children": ["R2E_BERNARD2SAXONY"],
+      "note": "Bernard II, Duke of Saxony, was son of Bernard I, Duke of Saxony (Billung dynasty), & Hildegard of Stade. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_BOSO1_TURENNE", "label": "Boson (Boso) I<br/>d.1091 · Viscount of Turenne (d. on pilgrimage to Jerusalem) · Wikipedia"},
+      "b": {"id": "R3C_GERBERGA_TERRASSON", "label": "Gerberga of Terrasson<br/>· dau. of Bernard of Terrasson; later a nun · Wikipedia"},
+      "children": ["R2L_RAYMONDI_TURENNE"],
+      "note": "Raymond I, Viscount of Turenne, was son of Boson I of Turenne & Gerberga of Terrasson (daughter of Bernard of Terrasson-Lavilledieu). Wikipedia 'Raymond I of Turenne'."
+    },
+    {
+      "a": {"id": "R3C_GEBHARD_SUPPLINBURG", "label": "Gebhard<br/>d.1075 · Count of Supplinburg · Wikipedia"},
+      "b": {"id": "R3C_HEDWIG_FORMBACH", "label": "Hedwig of Formbach<br/>· wife of Gebhard of Supplinburg · Wikipedia"},
+      "children": ["R2E_LOTHAIR3_HRE"],
+      "note": "Emperor Lothair III (Lothair of Supplinburg) was son of Gebhard, Count of Supplinburg, & Hedwig of Formbach. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_ALFONSO6_LEONCASTILE", "label": "&#128081; Alfonso VI 'the Brave'<br/>1040-1109 · King of Le&oacute;n &amp; Castile · Wikipedia"},
+      "b": {"id": "R3C_CONSTANCE_BURGUNDY", "label": "Constance of Burgundy<br/>c.1046-1093 · 2nd queen of Alfonso VI · Wikipedia"},
+      "children": ["R2E_URRACA_LEONCASTILE"],
+      "note": "Queen Urraca of Leon-Castile-Galicia was daughter of Alfonso VI of Leon & Castile and his 2nd wife Constance of Burgundy. Wikipedia 'Urraca of Leon and Castile'."
+    },
+    {
+      "a": {"id": "R3C_THEODORIC2_LORRAINE", "label": "Theodoric II (Dietrich)<br/>c.1055-1115 · Duke of Lorraine · Wikipedia"},
+      "b": {"id": "R3C_GERTRUDE_FLANDERS1117", "label": "Gertrude of Flanders<br/>d.1117 · dau. of Robert I of Flanders; wife of Theodoric II of Lorraine · Wikipedia"},
+      "children": ["R2F_THIERRY_ALSACE"],
+      "note": "Thierry (Diederik) of Alsace, Count of Flanders, was son of Theodoric II, Duke of Lorraine, & Gertrude of Flanders (d.1117, daughter of Robert I 'the Frisian' of Flanders). NOTE: this Gertrude of Flanders (d.1117) is a DIFFERENT person from R2F_GERTRUDE_FLANDERS (d.1186) in 41_grandparents_d3.json, who is Thierry's own daughter — kept distinct. Theodoric II is also linked below as a son of Gerard of Lorraine, making him full brother of batch member Beatrice of Lorraine. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_TANCRED_HAUTEVILLE", "label": "Tancred of Hauteville<br/>c.980-1041 · Norman lord of Hauteville-la-Guichard · Wikipedia"},
+      "b": {"id": "R3C_FRESSENDA_HAUTEVILLE", "label": "Fressenda<br/>· 2nd wife of Tancred of Hauteville · Wikipedia"},
+      "children": ["R2E_ROGER1_SICILY"],
+      "note": "Roger I, Count of Sicily ('the Great Count'), was youngest son of Tancred of Hauteville & his 2nd wife Fressenda (also mother of Robert Guiscard). Wikipedia 'Tancred of Hauteville'."
+    },
+    {
+      "a": {"id": "R3C_ULRICH_PASSAU", "label": "Ulrich<br/>c.1047-1099 · Count of Passau (Vornbach/Formbach) · Wikipedia"},
+      "b": {"id": "R3C_ADELAIDE_PASSAU", "label": "Adelaide<br/>· wife of Ulrich of Passau (of Lechsgem&uuml;nd/Frontenhausen; sources vary) · Wikipedia"},
+      "children": ["R2E_UTA_PASSAU"],
+      "note": "Uta of Passau (wife of Engelbert II of Carinthia) was daughter of Ulrich, Count of Passau, & his wife Adelaide (identified variously as of Lechsgemund or Frontenhausen). Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_BALDWIN3_HAINAUT", "label": "Baldwin III<br/>d.1120 · Count of Hainaut · Wikipedia"},
+      "b": {"id": "R3C_YOLANDE_GELDERLAND", "label": "Yolande of Wassenberg (Gelderland)<br/>· wife of Baldwin III of Hainaut · Wikipedia"},
+      "children": ["R2F_BALDWINIV_HAIN"],
+      "note": "Baldwin IV, Count of Hainaut, was son of Baldwin III of Hainaut & Yolande of Wassenberg (of the Gelderland/Geldern house). Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_HENRY_PORTUGAL", "label": "Henry of Burgundy<br/>c.1066-1112 · Count of Portugal · Wikipedia"},
+      "b": {"id": "R3C_TERESA_LEON", "label": "Teresa of Le&oacute;n<br/>c.1080-1130 · Countess of Portugal; illeg. dau. of Alfonso VI · Wikipedia"},
+      "children": ["R2F_AFONSOI_PORTUGAL"],
+      "note": "Afonso I 'Henriques', first King of Portugal, was son of Henry of Burgundy, Count of Portugal, & Teresa of Leon (illegitimate daughter of Alfonso VI of Leon — the same Alfonso VI created above as father of Urraca; Teresa and Urraca were thus half-sisters, though Teresa is not linked to that node as it is a further generation back). Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_GODFREY1_NAMUR", "label": "Godfrey I<br/>c.1067-1139 · Count of Namur · Wikipedia"},
+      "b": {"id": "R3C_ERMESINDE_LUX", "label": "Ermesinde of Luxembourg<br/>c.1075-1143 · Countess of Namur · Wikipedia"},
+      "children": ["R2F_ALICE_NAMUR"],
+      "note": "Alice (Alix) of Namur, Countess of Hainaut, was daughter of Godfrey I, Count of Namur, & Ermesinde of Luxembourg. Wikipedia."
+    },
+    {
+      "a": "FULK",
+      "b": "ERM",
+      "children": ["R2F_SIBYLLA_ANJOU"],
+      "note": "Sibylla of Anjou was daughter of Fulk V of Anjou (existing FULK) & his 1st wife Ermengarde of Maine (existing ERM). Union merges with the existing FULK+ERM marriage. Wikipedia 'Sibylla of Anjou'."
+    },
+    {
+      "a": {"id": "R3C_GERARD_LORRAINE", "label": "Gerard 'the Great'<br/>c.1030-1070 · Duke of (Upper) Lorraine · Wikipedia"},
+      "b": {"id": "R3C_HEDWIGE_NAMUR", "label": "Hedwige of Namur<br/>· dau. of Albert II, Count of Namur; wife of Gerard of Lorraine · Wikipedia"},
+      "children": [
+        "R2E_BEATRIX_LORRAINE",
+        "R3C_THEODORIC2_LORRAINE",
+        {"id": "R3C_GERARD_VAUDEMONT", "label": "Gerard I<br/>1057-1108 · Count of Vaud&eacute;mont · Wikipedia"}
+      ],
+      "note": "Beatrice of Lorraine (Countess of Burgundy, wife of Stephen I) was daughter of Gerard 'the Great', Duke of Lorraine (Gerard of Alsace; the 'Gerard IV' of her label), & Hedwige of Namur. Her full brother Theodoric II, Duke of Lorraine (R3C_THEODORIC2_LORRAINE) is the father of batch member Thierry of Alsace — linking the two Lorraine branches. Full brother Gerard I, Count of Vaudemont, added. Wikipedia 'Beatrice of Lorraine, Countess of Burgundy'."
+    },
+    {
+      "a": "SPG_AMADEUS3SAVOY",
+      "b": {"id": "R3C_MAHAUT_ALBON", "label": "Mahaut (Matilda) of Albon<br/>· dau. of Guigues III, Count of Albon; wife of Amadeus III of Savoy · Wikipedia"},
+      "children": ["R2F_MATILDA_SAVOY", "R2F_HUMBERTIII_SAVOY"],
+      "note": "Matilda of Savoy (Queen of Portugal) and Humbert III, Count of Savoy, were both children of Amadeus III, Count of Savoy (existing SPG_AMADEUS3SAVOY), & Mahaut (Matilda) of Albon, daughter of Guigues III of Albon. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_WELF4_BAVARIA", "label": "Welf IV (Welf I as duke)<br/>c.1035-1101 · Duke of Bavaria · Wikipedia"},
+      "b": {"id": "R3C_JUDITH_FLANDERS", "label": "Judith of Flanders<br/>c.1033-1094 · dau. of Baldwin IV of Flanders; wife of Welf IV · Wikipedia"},
+      "children": ["R2E_HENRY9_BAVARIA"],
+      "note": "Henry IX 'the Black', Duke of Bavaria, was son of Welf IV, Duke of Bavaria (styled Welf I as duke), & Judith of Flanders (previously widow of Tostig Godwinson). NOTE: this 11th-century Judith of Flanders is distinct from the 9th-century Judith at base id (daughter of Charles the Bald). Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_HENRY_NORTHEIM", "label": "Henry 'the Fat'<br/>c.1055-1101 · Count of Northeim, Margrave of Frisia · Wikipedia"},
+      "b": {"id": "R3C_GERTRUDE_BRUNSWICK", "label": "Gertrude of Brunswick<br/>c.1060-1117 · dau. of Egbert I of Meissen; wife of Henry of Northeim · Wikipedia"},
+      "children": ["R2E_RICHENZA_NORTHEIM"],
+      "note": "Richenza of Northeim (wife of Emperor Lothair III) was daughter of Henry 'the Fat', Count of Northeim, & Gertrude of Brunswick (Brunonid house). Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_GEZA2_HUNGARY", "label": "&#128081; G&eacute;za II<br/>1130-1162 · King of Hungary · Wikipedia"},
+      "b": {"id": "R3C_EUPHROSYNE_KIEV", "label": "Euphrosyne of Kiev<br/>c.1130-1193 · Queen of Hungary; dau. of Grand Prince Mstislav I · Wikipedia"},
+      "children": [
+        "R2F_BELAIII_HUNGARY",
+        {"id": "R3C_ELIZABETH_HUNGARY", "label": "Elizabeth of Hungary<br/>c.1149-1189 · Duchess of Bohemia; wife of Frederick of Bohemia · Wikipedia"}
+      ],
+      "note": "Bela III, King of Hungary, was son of Geza II of Hungary & Euphrosyne of Kiev. His sister Elizabeth of Hungary (R3C_ELIZABETH_HUNGARY) married Frederick, Duke of Bohemia, and is the mother of batch member Ludmilla of Bohemia (below) — linking the Hungarian and Bohemian branches. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_RAMON_BERENGUER3_BCN", "label": "Ramon Berenguer III 'the Great'<br/>1082-1131 · Count of Barcelona · Wikipedia"},
+      "b": {"id": "R3C_DOUCE_PROVENCE", "label": "Douce I<br/>c.1090-1127 · Countess of Provence; wife of Ramon Berenguer III · Wikipedia"},
+      "children": ["R2E_BERENGUELA_BARCELONA"],
+      "note": "Berenguela of Barcelona (1st wife of Alfonso VII) was daughter of Ramon Berenguer III 'the Great', Count of Barcelona, & Douce I of Provence. Wikipedia."
+    },
+    {
+      "a": "R2E_ALFONSO7_LEONCASTILE",
+      "b": {"id": "R3C_RICHEZA_POLAND", "label": "Richeza of Poland<br/>1140-1185 · 2nd queen of Alfonso VII; dau. of W&#322;adys&#322;aw II of Poland · Wikipedia"},
+      "children": ["R2F_SANCHA_CASTILE_ARAGON"],
+      "note": "Sancha of Castile (Queen of Aragon, 1155-1208) was daughter of Alfonso VII of Leon-Castile (existing R2E_ALFONSO7_LEONCASTILE) by his 2nd wife Richeza of Poland — a separate union from Alfonso VII's 1st marriage to Berenguela of Barcelona (batch d2). Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_RAMON_BERENGUER4_BCN", "label": "Ramon Berenguer IV<br/>c.1114-1162 · Count of Barcelona, Prince of Aragon · Wikipedia"},
+      "b": {"id": "R3C_PETRONILLA_ARAGON", "label": "&#128081; Petronilla<br/>1136-1173 · Queen of Aragon in her own right · Wikipedia"},
+      "children": ["R2F_ALFONSOII_ARAGON"],
+      "note": "Alfonso II, King of Aragon, was son of Ramon Berenguer IV, Count of Barcelona, & Petronilla, Queen of Aragon (their marriage united Aragon and Barcelona). Ramon Berenguer IV was himself a son of Ramon Berenguer III (created above as Berenguela's father). NOTE: distinct from the later Ramon Berenguer IV, Count of Provence, at base id. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_AYMON1_FAUCIGNY", "label": "Aymon I<br/>fl.1120-1170 · Lord (Sire) of Faucigny · Wikipedia"},
+      "b": {"id": "R3C_FAUCIGNY_MOTHER", "label": "wife of Aymon I of Faucigny<br/>· mother of Beatrice; not securely recorded"},
+      "children": ["R2F_BEATRICE_FAUCIGNY"],
+      "note": "Beatrice of Faucigny (wife of William I, Count of Geneva; mother of Margaret of Geneva) was daughter of Aymon I, Lord of Faucigny; her mother is not securely recorded (placeholder node, no invented identity). Moderate confidence per genealogical sources / Wikipedia."
+    },
+    {
+      "a": "LOUISVII",
+      "b": "R2E_CONSTANCE_CASTILE",
+      "children": ["R2F_ALYS_VEXIN"],
+      "note": "Alys of France (Countess of the Vexin, betrothed to Richard the Lionheart) was daughter of Louis VII of France (existing LOUISVII) & his 2nd wife Constance of Castile (existing R2E_CONSTANCE_CASTILE, from batch d2). Wikipedia 'Alys, Countess of the Vexin'."
+    },
+    {
+      "a": {"id": "R3C_FREDERICK_BOHEMIA", "label": "Frederick (Bed&#345;ich)<br/>c.1142-1189 · Duke of Bohemia (P&#345;emyslid) · Wikipedia"},
+      "b": "R3C_ELIZABETH_HUNGARY",
+      "children": ["R2F_LUDMILLA_BOHEMIA"],
+      "note": "Ludmilla of Bohemia (Duchess of Bavaria) was daughter of Frederick, Duke of Bohemia, & Elizabeth of Hungary (R3C_ELIZABETH_HUNGARY, sister of batch member Bela III — see the Geza II family above). Wikipedia 'Ludmilla of Bohemia'."
+    },
+    {
+      "a": {"id": "R3C_AMALRIC1_JERUSALEM", "label": "&#128081; Amalric I<br/>1136-1174 · King of Jerusalem · Wikipedia"},
+      "b": {"id": "R3C_MARIA_KOMNENE", "label": "Maria Komnene<br/>c.1154-1217 · Queen of Jerusalem; grand-niece of Manuel I Komnenos · Wikipedia"},
+      "children": ["R2F_ISABELLAI_JERUSALEM"],
+      "note": "Isabella I, Queen of Jerusalem, was daughter of Amalric I of Jerusalem & his 2nd wife Maria Komnene. Wikipedia."
+    },
+    {
+      "a": "HENRYLION",
+      "b": "MATILDAPLANT",
+      "children": ["R2F_HENRYV_PALATINE"],
+      "note": "Henry V, Count Palatine of the Rhine, was eldest son of Henry the Lion, Duke of Saxony (existing HENRYLION), & Matilda of England (existing MATILDAPLANT, daughter of Henry II of England). Union merges with the existing HENRYLION+MATILDAPLANT marriage. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_OTTO1_BAVARIA", "label": "Otto I<br/>c.1117-1183 · Duke of Bavaria (first Wittelsbach duke) · Wikipedia"},
+      "b": {"id": "R3C_AGNES_LOON", "label": "Agnes of Loon<br/>c.1150-1191 · Duchess of Bavaria · Wikipedia"},
+      "children": ["R2F_LOUISI_BAVARIA"],
+      "note": "Louis I 'the Kelheimer', Duke of Bavaria, was son of Otto I, Duke of Bavaria (first Wittelsbach duke), & Agnes of Loon. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_CONRAD_PALATINE", "label": "Conrad<br/>c.1134-1195 · Count Palatine of the Rhine (Hohenstaufen) · Wikipedia"},
+      "b": {"id": "R3C_IRMENGARD_HENNEBERG", "label": "Irmengard of Henneberg<br/>· wife of Conrad, Count Palatine of the Rhine · Wikipedia"},
+      "children": ["R2F_AGNES_HOHENSTAUFEN"],
+      "note": "Agnes of Hohenstaufen (heiress of the Rhenish Palatinate) was daughter of Conrad, Count Palatine of the Rhine (a Hohenstaufen, half-brother of Emperor Frederick Barbarossa), & Irmengard of Henneberg. Wikipedia."
+    },
+    {
+      "a": {"id": "R3C_JOHN1_PONTHIEU", "label": "John I<br/>d.1191 · Count of Ponthieu · Wikipedia"},
+      "b": {"id": "R3C_BEATRICE_STPOL", "label": "Beatrice of Saint-Pol<br/>· wife of John I of Ponthieu · Wikipedia"},
+      "children": ["R2F_WILLIAMIV_PONTHIEU"],
+      "note": "William IV Talvas, Count of Ponthieu, was son of John I, Count of Ponthieu, & Beatrice of Saint-Pol (House of Belleme-Montgomery). Wikipedia 'William III, Count of Ponthieu'."
+    }
+  ]
+}

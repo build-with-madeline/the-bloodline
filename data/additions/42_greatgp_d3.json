@@ -1,0 +1,233 @@
+{
+  "_note": "ROUND 3 great-grandparents for batch d_800_1400_3: parents of the round-2 grandparent nodes (R2F_/R2G_/R2L_). Documented lines only. Convergence handled: Berengaria of León reuses EXISTING ALFONSOIXLEON+BERENGARIA; Maria of Brabant's mother reuses EXISTING R2F_ADELAIDE_BURGUNDY (=Adelaide of Burgundy d.1273, dau of Hugh IV, already in 41_grandparents_d3); Charles II of Naples reuses EXISTING CHARLESANJOU; Beatrice of Castile reuses EXISTING ALFONSOX. New nodes use R3D_ prefix. SKIPPED: R2L_MARGARETDECLARE_MONTIFEX (no documented/agreed parents; WikiTree/Geni sources conflict).",
+  "families": [
+    {
+      "note": "Gilbert de Clare, Earl of Gloucester & Hertford -> parents Richard de Clare, 3rd Earl of Hertford, & Amice FitzRobert, suo jure Countess of Gloucester (dau. of William FitzRobert, 2nd Earl of Gloucester). Wikipedia.",
+      "a": {"id": "R3D_RICHARDDECLARE_HERTFORD", "label": "Richard de Clare<br/>c.1153-1217 · 3rd Earl of Hertford · Wikipedia"},
+      "b": {"id": "R3D_AMICE_GLOUCESTER", "label": "Amice FitzRobert<br/>c.1160-1225 · suo jure Countess of Gloucester · Wikipedia"},
+      "children": ["R2F_GILBERTDECLARE_GLOUC"]
+    },
+    {
+      "note": "Wulgrin (Vulgrin) II Taillefer, Count of Angoulême -> parents William Taillefer, Count of Angoulême (William IV/V, d.1120), & Vitapoy de Benauges (mother per Wikipedia, less certain). NOTE: the round-2 node dates Wulgrin II d.1181, but the documented Wulgrin II Taillefer (father of William VI) died c.1140; date discrepancy inherited from the existing node, not corrected here.",
+      "a": {"id": "R3D_WILLIAM_TAILLEFER_ANG", "label": "William Taillefer<br/>d.1120 · Count of Angoulême (William IV/V) · Wikipedia"},
+      "b": {"id": "R3D_VITAPOY_BENAUGES", "label": "Vitapoy de Benauges<br/>· wife of the Count of Angoulême (identity less certain) · Wikipedia"},
+      "children": ["R2F_WULGRINII_ANGOULEME"]
+    },
+    {
+      "note": "Agnes of Antioch (Anne de Châtillon), Queen of Hungary -> parents Raynald de Châtillon, Prince of Antioch (executed by Saladin 1187), & Constance of Antioch (Princess of Antioch, dau. of Bohemond II). Wikipedia.",
+      "a": {"id": "R3D_RAYNALD_CHATILLON", "label": "Raynald de Châtillon<br/>c.1125-1187 · Prince of Antioch; executed by Saladin · Wikipedia"},
+      "b": {"id": "R3D_CONSTANCE_ANTIOCH", "label": "Constance of Antioch<br/>1128-1163 · Princess of Antioch · Wikipedia"},
+      "children": ["R2F_AGNES_ANTIOCH"]
+    },
+    {
+      "note": "Erard II, Count of Brienne -> parents Walter II (Gautier II), Count of Brienne, & Humbeline de Baudement (dau. of André de Baudement, lord of Baudement). Wikipedia.",
+      "a": {"id": "R3D_WALTERII_BRIENNE", "label": "Walter II (Gautier II)<br/>d.1161 · Count of Brienne · Wikipedia"},
+      "b": {"id": "R3D_HUMBELINE_BAUDEMENT", "label": "Humbeline de Baudement<br/>· dau. of André de Baudement · Wikipedia"},
+      "children": ["R2F_ERARDII_BRIENNE"]
+    },
+    {
+      "note": "Margaret of Burgundy, Countess of Savoy -> parents Hugh III, Duke of Burgundy, & his second wife Beatrice of Albon, Dauphine of Viennois. Wikipedia.",
+      "a": {"id": "R3D_HUGHIII_BURGUNDY", "label": "Hugh III<br/>1142-1192 · Duke of Burgundy · Wikipedia"},
+      "b": {"id": "R3D_BEATRICE_ALBON", "label": "Beatrice of Albon<br/>c.1161-1228 · Dauphine of Viennois · Wikipedia"},
+      "children": ["R2F_MARGARET_BURGUNDY_SAVOY"]
+    },
+    {
+      "note": "Conrad, Marquis of Montferrat, King of Jerusalem -> parents William V 'the Old', Marquis of Montferrat, & Judith of Babenberg (dau. of Leopold III of Austria); brother Boniface I of Montferrat, leader of the Fourth Crusade. Wikipedia.",
+      "a": {"id": "R3D_WILLIAMV_MONTFERRAT", "label": "William V 'the Old'<br/>c.1115-1191 · Marquis of Montferrat · Wikipedia"},
+      "b": {"id": "R3D_JUDITH_BABENBERG", "label": "Judith of Babenberg<br/>c.1120-1168 · dau. of Leopold III of Austria · Wikipedia"},
+      "children": [
+        "R2F_CONRAD_MONTFERRAT",
+        {"id": "R3D_BONIFACE1_MONTFERRAT", "label": "👑 Boniface I<br/>c.1150-1207 · Marquis of Montferrat, King of Thessalonica; led the Fourth Crusade · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Beatrice of Viennois (Beatrice of Vienne/Mâcon), fourth wife of Humbert III of Savoy and mother of Thomas I -> parents Gerard I (Géraud I), Count of Mâcon and Vienne, & Maurette de Salins. Wikipedia/Geni. NOTE: round-2 node dates her d.1194; documented death is 1230, discrepancy inherited from the existing node.",
+      "a": {"id": "R3D_GERARDI_MACON", "label": "Gerard I (Géraud)<br/>c.1132-1184 · Count of Mâcon and Vienne · Wikipedia"},
+      "b": {"id": "R3D_MAURETTE_SALINS", "label": "Maurette de Salins<br/>· Countess of Mâcon · Wikipedia"},
+      "children": ["R2F_BEATRICE_VIENNOIS"]
+    },
+    {
+      "note": "William I, Count of Geneva -> parents Amadeus I, Count of Geneva, & Matilda de Cuiseaux. Wikipedia.",
+      "a": {"id": "R3D_AMADEUSI_GENEVA", "label": "Amadeus I<br/>d.1178 · Count of Geneva · Wikipedia"},
+      "b": {"id": "R3D_MATILDA_CUISEAUX", "label": "Matilda de Cuiseaux<br/>· Countess of Geneva · Wikipedia"},
+      "children": ["R2F_WILLIAMI_GENEVA"]
+    },
+    {
+      "note": "Robert de Brus, 4th Lord of Annandale -> parents William de Brus, Lord of Annandale, & Christian (Christina) of the house of Galloway (her exact identity is debated among sources). Wikipedia.",
+      "a": {"id": "R3D_WILLIAM_BRUS", "label": "William de Brus<br/>d.c.1211 · Lord of Annandale · Wikipedia"},
+      "b": {"id": "R3D_CHRISTIAN_GALLOWAY", "label": "Christian (Christina)<br/>· of the house of Galloway; wife of William de Brus (identity debated) · Wikipedia"},
+      "children": ["R2F_ROBERTIV_BRUS"]
+    },
+    {
+      "note": "Isabel Marshal -> parents William Marshal, 1st Earl of Pembroke (regent of England), & Isabel de Clare, 4th Countess of Pembroke (dau. of Richard 'Strongbow' de Clare & Aoife of Leinster); brother William Marshal the younger, 2nd Earl of Pembroke. Wikipedia. NOTE: this Isabel de Clare (b) is distinct from the existing SPJ_ISABELDECLARE (dau. of Gilbert de Clare).",
+      "a": {"id": "R3D_WILLIAM_MARSHAL", "label": "William Marshal<br/>c.1146-1219 · 1st Earl of Pembroke; regent of England · Wikipedia"},
+      "b": {"id": "R3D_ISABELDECLARE_PEMBROKE", "label": "Isabel de Clare<br/>c.1172-1220 · 4th Countess of Pembroke; dau. of Richard 'Strongbow' de Clare · Wikipedia"},
+      "children": [
+        "R2F_ISABEL_MARSHAL",
+        {"id": "R3D_WILLIAM_MARSHAL2", "label": "William Marshal<br/>1190-1231 · 2nd Earl of Pembroke · Wikipedia"}
+      ]
+    },
+    {
+      "note": "William VIII, Lord of Montpellier -> parents William VII, Lord of Montpellier, & Matilda of Burgundy. Wikipedia.",
+      "a": {"id": "R3D_WILLIAMVII_MONTPELLIER", "label": "William VII<br/>d.1172 · Lord of Montpellier · Wikipedia"},
+      "b": {"id": "R3D_MATILDA_BURGUNDY_MONT", "label": "Matilda of Burgundy<br/>· Lady of Montpellier · Wikipedia"},
+      "children": ["R2F_WILLIAMVIII_MONTPELLIER"]
+    },
+    {
+      "note": "Afonso III, King of Portugal -> parents Afonso II 'the Fat', King of Portugal, & Urraca of Castile (dau. of Alfonso VIII of Castile & Eleanor of England); brother Sancho II, whom Afonso III succeeded. Wikipedia.",
+      "a": {"id": "R3D_AFONSOII_PORTUGAL", "label": "👑 Afonso II 'the Fat'<br/>1185-1223 · King of Portugal · Wikipedia"},
+      "b": {"id": "R3D_URRACA_CASTILE", "label": "Urraca of Castile<br/>1186-1220 · Queen of Portugal; dau. of Alfonso VIII of Castile · Wikipedia"},
+      "children": [
+        "R2F_AFONSOIII_PORTUGAL",
+        {"id": "R3D_SANCHOII_PORTUGAL", "label": "👑 Sancho II 'the Pious'<br/>1209-1248 · King of Portugal · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Yolande de Dreux, Duchess of Burgundy -> parents Robert III 'Gasteblé', Count of Dreux, & Aénor de Saint-Valery; brother John I, Count of Dreux. Wikipedia.",
+      "a": {"id": "R3D_ROBERTIII_DREUX", "label": "Robert III 'Gasteblé'<br/>1185-1234 · Count of Dreux · Wikipedia"},
+      "b": {"id": "R3D_AENOR_STVALERY", "label": "Aénor de Saint-Valery<br/>d.1250 · Countess of Dreux · Wikipedia"},
+      "children": [
+        "R2F_YOLANDE_DREUX",
+        {"id": "R3D_JOHNI_DREUX", "label": "John I<br/>1215-1249 · Count of Dreux · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Hugh IV, Duke of Burgundy -> parents Odo III (Eudes III), Duke of Burgundy, & his second wife Alice de Vergy. Wikipedia.",
+      "a": {"id": "R3D_EUDESIII_BURGUNDY", "label": "Odo III (Eudes III)<br/>1166-1218 · Duke of Burgundy · Wikipedia"},
+      "b": {"id": "R3D_ALICE_VERGY", "label": "Alice de Vergy<br/>c.1182-1252 · Duchess of Burgundy · Wikipedia"},
+      "children": ["R2F_HUGHIV_BURGUNDY"]
+    },
+    {
+      "note": "Henry V 'the Blond', Count of Luxembourg -> parents Waleran III, Duke of Limburg (Count of Luxembourg jure uxoris), & Ermesinde, Countess of Luxembourg in her own right. Wikipedia.",
+      "a": {"id": "R3D_WALERANIII_LIMBURG", "label": "Waleran III<br/>c.1180-1226 · Duke of Limburg, Count of Luxembourg (jure uxoris) · Wikipedia"},
+      "b": {"id": "R3D_ERMESINDE_LUX", "label": "Ermesinde<br/>1186-1247 · Countess of Luxembourg in her own right · Wikipedia"},
+      "children": ["R2F_HENRYV_LUX_BLOND"]
+    },
+    {
+      "note": "John I of Avesnes, Count of Hainaut -> parents Burchard (Bouchard) IV, Lord of Avesnes, & Margaret II, Countess of Flanders and Hainaut (Margaret of Constantinople). Wikipedia. NOTE: R2F_BALDWIN_AVESNES already exists in 41_grandparents_d3 (placed there as John I's son); not re-added here as a sibling to avoid a conflicting parent assignment.",
+      "a": {"id": "R3D_BURCHARD_AVESNES", "label": "Burchard (Bouchard) IV<br/>c.1182-1244 · Lord of Avesnes · Wikipedia"},
+      "b": {"id": "R3D_MARGARETII_FLANDERS", "label": "👑 Margaret II<br/>1202-1280 · Countess of Flanders and Hainaut · Wikipedia"},
+      "children": ["R2F_JOHNI_AVESNES"]
+    },
+    {
+      "note": "Adelaide of Holland, Countess of Hainaut -> parents Floris IV, Count of Holland, & Matilda of Brabant (dau. of Henry I, Duke of Brabant); brother William II, Count of Holland and King of the Romans. Wikipedia.",
+      "a": {"id": "R3D_FLORISIV_HOLLAND", "label": "Floris IV<br/>1210-1234 · Count of Holland · Wikipedia"},
+      "b": {"id": "R3D_MATILDA_BRABANT_HOLL", "label": "Matilda of Brabant<br/>1200-1267 · Countess of Holland; dau. of Henry I of Brabant · Wikipedia"},
+      "children": [
+        "R2F_ADELAIDE_HOLLAND",
+        {"id": "R3D_WILLIAMII_HOLLAND", "label": "👑 William II<br/>1227-1256 · Count of Holland, King of the Romans · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Walter de Burgh, 1st Earl of Ulster -> parents Richard Mór de Burgh, 1st Lord of Connaught, & Egidia de Lacy (dau. of Walter de Lacy, Lord of Meath). Wikipedia.",
+      "a": {"id": "R3D_RICHARDMOR_DEBURGH", "label": "Richard Mór de Burgh<br/>c.1194-1242 · 1st Lord of Connaught · Wikipedia"},
+      "b": {"id": "R3D_EGIDIA_DELACY", "label": "Egidia de Lacy<br/>· dau. of Walter de Lacy, Lord of Meath · Wikipedia"},
+      "children": ["R2F_WALTER_DEBURGH"]
+    },
+    {
+      "note": "Berengaria of León (3rd wife of John of Brienne) -> parents the EXISTING Alfonso IX, King of León, & the EXISTING Berengaria of Castile (already married in the base tree, U_alfonsoix_berengaria; Ferdinand III and Alfonso de Molina are their recorded children). Both parents reused; no new nodes. Wikipedia.",
+      "a": "ALFONSOIXLEON",
+      "b": "BERENGARIA",
+      "children": ["R2G_BERENGARIA_LEON"]
+    },
+    {
+      "note": "Baldwin Wake, Lord of Bourne -> parents Hugh Wake, Lord of Bourne (died on crusade), & Joan de Stuteville (dau. of Nicholas de Stuteville & Devorguilla of Galloway). Wikipedia/thepeerage.",
+      "a": {"id": "R3D_HUGH_WAKE", "label": "Hugh Wake<br/>d.1241 · Lord of Bourne; died on crusade · thepeerage"},
+      "b": {"id": "R3D_JOAN_STUTEVILLE", "label": "Joan de Stuteville<br/>d.1276 · dau. of Nicholas de Stuteville · thepeerage"},
+      "children": ["R2F_BALDWIN_WAKE"]
+    },
+    {
+      "note": "Beatrice of Castile, Queen of Portugal (illegitimate dau. of Alfonso X) -> father the EXISTING Alfonso X 'the Wise' of Castile (reused); mother Mayor Guillén de Guzmán, his mistress. Wikipedia.",
+      "a": "ALFONSOX",
+      "b": {"id": "R3D_MAYOR_GUZMAN", "label": "Mayor Guillén de Guzmán<br/>c.1205-1262 · noblewoman; mistress of Alfonso X of Castile · Wikipedia"},
+      "children": ["R2F_BEATRICE_CASTILE_ILLEG"]
+    },
+    {
+      "note": "Henry I 'the Fat', King of Navarre -> parents Theobald I, King of Navarre (Thibaut IV, Count of Champagne, 'the Troubadour'), & his third wife Margaret of Bourbon; brother Theobald II, whom Henry I succeeded. Wikipedia.",
+      "a": {"id": "R3D_THEOBALDI_NAVARRE", "label": "👑 Theobald I 'the Troubadour'<br/>1201-1253 · King of Navarre, Count of Champagne (Thibaut IV) · Wikipedia"},
+      "b": {"id": "R3D_MARGARET_BOURBON_NAV", "label": "Margaret of Bourbon<br/>c.1217-1256 · Queen of Navarre · Wikipedia"},
+      "children": [
+        "R2G_HENRY1_NAVARRE",
+        {"id": "R3D_THEOBALDII_NAVARRE", "label": "👑 Theobald II<br/>1238-1270 · King of Navarre · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Blanche of Artois, Queen of Navarre -> parents Robert I 'the Good', Count of Artois (brother of Louis IX; died at Mansurah 1250), & Matilda of Brabant (dau. of Henry II, Duke of Brabant); brother Robert II, Count of Artois. Wikipedia.",
+      "a": {"id": "R3D_ROBERTI_ARTOIS", "label": "Robert I 'the Good'<br/>1216-1250 · Count of Artois; died at Mansurah · Wikipedia"},
+      "b": {"id": "R3D_MATILDA_BRABANT_ART", "label": "Matilda of Brabant<br/>1224-1288 · Countess of Artois; dau. of Henry II of Brabant · Wikipedia"},
+      "children": [
+        "R2G_BLANCHE_ARTOIS",
+        {"id": "R3D_ROBERTII_ARTOIS", "label": "Robert II<br/>1250-1302 · Count of Artois · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Charles II of Naples 'the Lame' -> father the EXISTING Charles I of Anjou, King of Sicily (reused, CHARLESANJOU); mother Beatrice of Provence, Countess of Provence (dau. of Ramon Berenguer IV of Provence & Beatrice of Savoy, sister of Margaret of Provence). Wikipedia.",
+      "a": "CHARLESANJOU",
+      "b": {"id": "R3D_BEATRICE_PROVENCE", "label": "Beatrice of Provence<br/>1234-1267 · Countess of Provence, Queen of Sicily · Wikipedia"},
+      "children": ["R2G_CHARLES2_NAPLES"]
+    },
+    {
+      "note": "Maria of Brabant (2nd queen of Philip III of France) -> parents Henry III 'the Debonair', Duke of Brabant, & the EXISTING Adelaide of Burgundy (R2F_ADELAIDE_BURGUNDY, d.1273, dau. of Hugh IV of Burgundy & Yolande de Dreux — already in 41_grandparents_d3; reused as mother). Sibling John I 'the Victorious', Duke of Brabant (also used as father below for Margaret of Brabant). Wikipedia.",
+      "a": {"id": "R3D_HENRYIII_BRABANT", "label": "Henry III 'the Debonair'<br/>1230-1261 · Duke of Brabant · Wikipedia"},
+      "b": "R2F_ADELAIDE_BURGUNDY",
+      "children": [
+        "R2G_MARIA_BRABANT",
+        {"id": "R3D_JOHNI_BRABANT", "label": "👑 John I 'the Victorious'<br/>1252/53-1294 · Duke of Brabant · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Alfonso Téllez de Meneses 'el Mozo' -> father Alfonso Téllez de Meneses 'el Viejo', Lord of Meneses and Alburquerque (d.1230); mother not recorded in the sources (el Mozo was a son of el Viejo's first marriage, wife unnamed). Wikipedia.",
+      "a": {"id": "R3D_ALFONSOTELLEZ_VIEJO", "label": "Alfonso Téllez de Meneses 'el Viejo'<br/>c.1161-1230 · Lord of Meneses and Alburquerque · Wikipedia"},
+      "b": {"id": "R3D_ALFONSOTELLEZ_MOZO_MOTHER", "label": "—"},
+      "children": ["R2F_ALFONSOTELLEZ_MOZO"]
+    },
+    {
+      "note": "Mary of Hungary, Queen of Naples -> parents Stephen V, King of Hungary, & Elizabeth the Cuman; brother Ladislaus IV 'the Cuman', King of Hungary. Wikipedia.",
+      "a": {"id": "R3D_STEPHENV_HUNGARY", "label": "👑 Stephen V<br/>1239-1272 · King of Hungary · Wikipedia"},
+      "b": {"id": "R3D_ELIZABETH_CUMAN", "label": "Elizabeth the Cuman<br/>c.1244-1290 · Queen of Hungary · Wikipedia"},
+      "children": [
+        "R2G_MARY_HUNGARY",
+        {"id": "R3D_LADISLAUSIV_HUNGARY", "label": "👑 Ladislaus IV 'the Cuman'<br/>1262-1290 · King of Hungary · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Judith (Guta) of Habsburg, Queen of Bohemia -> parents Rudolf I, King of the Romans (first Habsburg king), & his first wife Gertrude of Hohenberg; brother Albert I, King of the Romans and Duke of Austria. Wikipedia.",
+      "a": {"id": "R3D_RUDOLFI_HABSBURG", "label": "👑 Rudolf I<br/>1218-1291 · King of the Romans (first Habsburg king) · Wikipedia"},
+      "b": {"id": "R3D_GERTRUDE_HOHENBERG", "label": "Gertrude of Hohenberg<br/>c.1225-1281 · Queen of the Romans · Wikipedia"},
+      "children": [
+        "R2G_JUDITH_HABSBURG",
+        {"id": "R3D_ALBERTI_GERMANY", "label": "👑 Albert I<br/>1255-1308 · King of the Romans, Duke of Austria · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Wenceslaus II, King of Bohemia & Poland -> parents Ottokar II (Přemysl Otakar II), King of Bohemia, & his second wife Kunigunda of Slavonia. Wikipedia.",
+      "a": {"id": "R3D_OTTOKARII_BOHEMIA", "label": "👑 Ottokar II 'the Iron and Golden King'<br/>c.1233-1278 · King of Bohemia (Přemysl Otakar II) · Wikipedia"},
+      "b": {"id": "R3D_KUNIGUNDA_SLAVONIA", "label": "Kunigunda of Slavonia<br/>c.1245-1285 · Queen of Bohemia · Wikipedia"},
+      "children": ["R2G_WENCESLAUS2_BOHEMIA"]
+    },
+    {
+      "note": "Henry VII, Holy Roman Emperor -> parents Henry VI, Count of Luxembourg (died at the Battle of Worringen 1288), & Beatrice of Avesnes. Henry VI was a son of the batch entry Henry V 'the Blond' & Margaret of Bar (that link is one generation further back). Wikipedia.",
+      "a": {"id": "R3D_HENRYVI_LUXEMBOURG", "label": "Henry VI<br/>c.1240-1288 · Count of Luxembourg; died at Worringen · Wikipedia"},
+      "b": {"id": "R3D_BEATRICE_AVESNES", "label": "Beatrice of Avesnes<br/>c.1260-1321 · Countess of Luxembourg · Wikipedia"},
+      "children": ["R2G_HENRY7_LUX"]
+    },
+    {
+      "note": "Margaret of Brabant, Holy Roman Empress -> parents John I 'the Victorious', Duke of Brabant (same R3D_JOHNI_BRABANT created above as Maria of Brabant's brother), & Margaret of Flanders (dau. of Guy of Dampierre, Count of Flanders). Wikipedia.",
+      "a": "R3D_JOHNI_BRABANT",
+      "b": {"id": "R3D_MARGARET_FLANDERS_BRAB", "label": "Margaret of Flanders<br/>1251-1285 · Duchess of Brabant; dau. of Guy of Dampierre · Wikipedia"},
+      "children": ["R2G_MARGARET_BRABANT2"]
+    },
+    {
+      "note": "Louis I 'the Lame', Duke of Bourbon -> parents Robert, Count of Clermont and Lord of Bourbon (sixth son of Louis IX of France), & Beatrice of Burgundy, suo jure Lady of Bourbon. Wikipedia.",
+      "a": {"id": "R3D_ROBERT_CLERMONT", "label": "Robert<br/>1256-1317 · Count of Clermont, Lord of Bourbon; son of Louis IX · Wikipedia"},
+      "b": {"id": "R3D_BEATRICE_BOURBON", "label": "Beatrice of Burgundy<br/>1257-1310 · suo jure Lady of Bourbon · Wikipedia"},
+      "children": ["R2G_LOUIS1_BOURBON"]
+    },
+    {
+      "note": "Sir William de Montifex (Montfitchet) of Auchterarder -> father Sir William de Montfichet of Cargill & Auchterarder (d. before 1296), per Douglas Richardson / WikiTree / Geni; mother not recorded. Lower-reliability line, flagged, matching the WikiTree/Geni sourcing of the batch node itself.",
+      "a": {"id": "R3D_WILLIAM_MONTFICHET_ELDER", "label": "Sir William de Montfichet<br/>c.1250-1288 · of Cargill & Auchterarder · WikiTree/Geni (D. Richardson)"},
+      "b": {"id": "R3D_MONTFICHET_MOTHER", "label": "—"},
+      "children": ["R2L_WILLIAMMONTIFEX"]
+    }
+  ]
+}

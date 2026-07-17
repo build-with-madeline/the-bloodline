@@ -1,0 +1,198 @@
+{
+  "_note": "ROUND 3 batch (undated_2): for round-2-added ancestors whose OWN label lacked a parseable year (mostly medieval/early-modern nobility, plus two legendary Norse figures), this adds THEIR documented parents one generation further back, with full siblings where cleanly documented in the same source. New nodes use the R3L_ prefix; unknown parents are '—' placeholders suffixed _MOTHER/_WIFE. Filled 28 of 34; skipped 6 as genuinely undocumented. DEDUP: Elizabeth Hamilton's mother is the EXISTING MARYSTEW3 (Mary Stewart, dau. of James II of Scotland by Mary of Guelders, U_james2_maryguel) — referenced by bare id, not duplicated; this links the Hamilton/Lennox line into the tree's royal Stewarts. Paola Gironima Orsini (R2I_PAOLA_ORSINI) is the same person as the separately-added R2J_PAOLAORSINI (wife of Carlo Orsini, Duca di Bracciano) — a within-round-2 duplicate across batch files; her parents are attached to the R2I id used here, and the duplication is flagged, not merged (merging round-2 nodes is out of scope). Rainou de Sabran (R2F_RAINOU_SABRAN) and his wife Garsende of Forcalquier (R2F_GARSENDE_FORCALQUIER) are two separate batch entries and each gets its own parent family. FLAGGED disputed/traditional/compilation-sourced (source in each note): Skoglar Toste (Sigrid's father) and Ivar, Earl of the Uplands (Eystein Glumra's father) are LEGENDARY, saga-only figures (Heimskringla / Orkneyinga Saga) — included with prominent ⚠ flags to stay consistent with the existing ⚠-flagged Norse nodes already in the tree (Sigrid, Eystein, Rognvald), NOT presented as historically documented; Engelbert I's wife Hedwig's Billung descent is uncertain (Wikipedia hedge); Bertha of Milan's father Otbert II vs Otbert III is disputed; Joan Clopton's father William vs Walter Clopton varies across sources; Boson II of Châtellerault's parents (Hugues I & Gerberge) and Robert 'Brochard's parents (Hamon & Hildeburge de Bellême) and Margaret de Graham's parents (Sir Patrick de Graham of Kincardine & Annabella of Strathearn) and Helvise du Donjon's father (Frédéric du Donjon) are sourced to genealogical compilations (Geni/Geneanet/FamilySearch/soc.genealogy.medieval), Wikipedia not carrying these lines. SKIPPED (undocumented / unresolved parentage, no fabrication): R2F_EUDOKIA_KOMNENE (Lady of Montpellier — parentage unresolved between two candidate fathers, sebastokrator Isaac Komnenos vs protostrator Alexios Komnenos, with no scholarly consensus; not in any contemporary Byzantine source); R2E_GODEHILDIS_EVREUX (parentage unknown and genealogically confused with Adelaide of Barcelona, Roger de Tosny's first wife); R2H_ESTEFANIA_HINESTROSA (Estefanía's OWN parents are not recorded — only her husband Fernán Gutiérrez de Hinestrosa's disputed parentage is discussed in sources); R2L_EREMBURGE_CHATEAUDULOIR (Gervais II's obscure first wife; no reliable parentage, sources conflate her across generations); R2L_SANCHAMARTINS and R2L_LOURENCO_FATHER (fl.1330s Lisbon merchants — no documented parents). Web-verified July 2026 against Wikipedia (English/French), Wikidata, and, where flagged, genealogical compilations (Geni, Geneanet, FamilySearch, soc.genealogy.medieval).",
+  "families": [
+    {
+      "a": {"id": "R3L_SKOGLARTOSTE", "label": "Skoglar Toste (Skagul Tosti)<br/>fl.10th c. · legendary Swedish chieftain of Västergötland; named father of Sigrid · ⚠ legendary/saga-only · Snorri, Heimskringla"},
+      "b": {"id": "R3L_SKOGLARTOSTE_WIFE", "label": "—"},
+      "children": [
+        "R2D_SIGRIDHAUGHTY",
+        {"id": "R3L_ULFTOSTESSON", "label": "Ulf Tostesson<br/>fl.10th c. · brother of Sigrid; father of Ragnvald Ulfsson and ancestor of King Stenkil of Sweden · ⚠ saga-only · Heimskringla"}
+      ],
+      "note": "Sigrid the Haughty is named in Heimskringla (Snorri Sturluson) as daughter of Skoglar Toste, a legendary Viking chieftain of Västergötland whose OWN parents are not recorded in any source. ⚠ LEGENDARY / saga-only — included with prominent flag only to keep the saga lineage consistent with the tree's existing ⚠-flagged Norse nodes; not historically documented. Saga-attested brother Ulf Tostesson (father of Ragnvald Ulfsson, grandfather of King Stenkil) added. Mother unrecorded (the round-2 label already flags Sigrid's maternity as disputed — Adam of Bremen names a Polish mother instead)."
+    },
+    {
+      "a": {"id": "R3L_ODO_VITRY", "label": "Odo<br/>· Castellan of Vitry · Wikipedia"},
+      "b": {"id": "R3L_MATILDA_RETHEL", "label": "Matilda of Rethel<br/>· Countess of Rethel; dau. of Hugh I of Rethel, sister of Baldwin II of Jerusalem · Wikipedia"},
+      "children": ["R2E_GUITIER_RETHEL"],
+      "note": "Guitier (Ithier), Count of Rethel, was son of Odo, Castellan of Vitry, and Matilda, Countess of Rethel, whom he succeeded; through his mother (dau. of Hugh I of Rethel) he was nephew of Baldwin II of Jerusalem. No siblings named. Wikipedia 'Guitier, Count of Rethel'."
+    },
+    {
+      "a": {"id": "R3L_ROSTAING_SABRAN", "label": "Rostaing of Sabran<br/>· lord of Sabran · Wikipedia"},
+      "b": {"id": "R3L_ROSCA_UZES", "label": "Rosca of Uzès<br/>· wife of Rostaing of Sabran · Wikipedia"},
+      "children": ["R2F_RAINOU_SABRAN"],
+      "note": "Rainou (Rénier) of Sabran, lord of Caylar and Ansouis, was son of Rostaing of Sabran and Rosca of Uzès (Wikipedia 'Rainou of Sabran'). No siblings named."
+    },
+    {
+      "a": {"id": "R3L_FREDERIC_DONJON", "label": "Frédéric du Donjon<br/>d.c.1138 · Sire du Donjon &amp; Yerres; of the counts of Corbeil · ⚠ his own ancestry uncertain · WikiTree/soc.genealogy.medieval"},
+      "b": {"id": "R3L_DONJON_MOTHER", "label": "—"},
+      "children": [
+        "R2E_HELVISE_DONJON",
+        {"id": "R3L_GUI_DONJON", "label": "Gui du Donjon<br/>fl.12th c. · brother of Helvise; noted knight of the Corbeil line · Geneanet"}
+      ],
+      "note": "Helvise du Donjon (1st wife of Renaud de Courtenay) was daughter of Frédéric du Donjon, Sire du Donjon and Yerres, and sister of the knight Gui du Donjon; the family descended from the counts of Corbeil. ⚠ Frédéric's own parentage is uncertain (compilation sources variously give 'Everard' or a Corbeil descent). Mother unrecorded. soc.genealogy.medieval / WikiTree / Geneanet."
+    },
+    {
+      "a": {"id": "R3L_ENGELBERT1_ISTRIA", "label": "Engelbert I<br/>d.1096 · Margrave of Istria; House of Sponheim · Wikipedia"},
+      "b": {"id": "R3L_HEDWIG_ISTRIA", "label": "Hedwig<br/>· wife of Engelbert I; possibly a dau. of Bernard II, Duke of Saxony (Billung) · ⚠ maternal descent uncertain · Wikipedia"},
+      "children": ["R2E_ENGELBERT2_CARINTHIA"],
+      "note": "Engelbert II, Duke of Carinthia, was son of Engelbert I, Margrave of Istria (House of Sponheim), and his wife Hedwig, whose descent is uncertain — possibly a daughter of the Billung duke Bernard II of Saxony (Wikipedia 'Engelbert, Duke of Carinthia'). ⚠ maternal identity flagged."
+    },
+    {
+      "a": {"id": "R3L_MANFRED_DELVASTO", "label": "Manfred del Vasto<br/>· of the Aleramici; brother of Boniface del Vasto, Marquess of Western Liguria · Wikipedia"},
+      "b": {"id": "R3L_DELVASTO_MOTHER", "label": "—"},
+      "children": ["R2E_ADELAIDE_DELVASTO"],
+      "note": "Adelaide del Vasto (3rd wife of Roger I of Sicily, later Queen of Jerusalem) was daughter of Manfred del Vasto of the Aleramici (brother of Boniface del Vasto, Marquess of Western Liguria). Her mother's identity is unknown. Wikipedia 'Adelaide del Vasto'."
+    },
+    {
+      "a": {"id": "R3L_GILBERT_LAIGLE", "label": "Gilbert de l'Aigle<br/>d.c.1118 · Seigneur de l'Aigle · Wikipedia"},
+      "b": {"id": "R3L_JULIANA_PERCHE", "label": "Juliana du Perche<br/>· dau. of Geoffrey II, Count of Perche · Wikipedia"},
+      "children": [
+        "R2E_MARGARET_LAIGLE",
+        {"id": "R3L_RICHER_LAIGLE", "label": "Richer de l'Aigle<br/>d.1176 · Seigneur de l'Aigle; brother of Margaret · Wikipedia"}
+      ],
+      "note": "Margaret de l'Aigle (Queen of Navarre, 1st wife of García Ramírez) was daughter of Gilbert de l'Aigle and Juliana du Perche (dau. of Geoffrey II, Count of Perche). Brother Richer de l'Aigle, Seigneur de l'Aigle, added. Wikipedia 'Margaret of L'Aigle'."
+    },
+    {
+      "a": {"id": "R3L_THEODORIC2_LORRAINE", "label": "Thierry II (Theodoric II)<br/>c.1055-1115 · Duke of Lorraine · Wikipedia"},
+      "b": {"id": "R3L_HEDWIG_FORMBACH", "label": "Hedwig of Formbach<br/>· wife of Theodoric II; by an earlier marriage also mother of Emperor Lothair III · Wikipedia"},
+      "children": ["R2E_SIMON1_LORRAINE"],
+      "note": "Simon I, Duke of Lorraine, was the eldest son of Theodoric II (Thierry II), Duke of Lorraine, and Hedwig of Formbach; Hedwig had earlier borne Emperor Lothair III, making Simon his half-brother. Wikipedia 'Simon I, Duke of Lorraine'."
+    },
+    {
+      "a": {"id": "R3L_CHARLES1_ALBRET", "label": "Charles I d'Albret<br/>1368-1415 · Lord of Albret, Constable of France; killed at Agincourt · Wikipedia"},
+      "b": {"id": "R3L_MARIE_SULLY", "label": "Marie de Sully<br/>· dau. of Louis de Sully &amp; Isabel de Craon · Wikipedia"},
+      "children": [
+        "R2I_JEANNE_ALBRET",
+        {"id": "R3L_CHARLES2_ALBRET", "label": "Charles II d'Albret<br/>d.1471 · Count of Dreux; brother of Jeanne · Wikipedia"}
+      ],
+      "note": "Jeanne d'Albret (wife of John I, Count of Foix) was daughter of Charles I d'Albret, Constable of France (killed at Agincourt 1415), and Marie de Sully (dau. of Louis de Sully & Isabel de Craon), married 1400. Brother Charles II d'Albret, Count of Dreux, added. Wikipedia 'Charles I d'Albret'."
+    },
+    {
+      "a": {"id": "R3L_WILLIAM_CLOPTON", "label": "William de Clopton<br/>fl.14th c. · of Clopton · ⚠ some sources name her father Walter Clopton · soc.genealogy.medieval/WikiTree"},
+      "b": {"id": "R3L_CLOPTON_MOTHER", "label": "—"},
+      "children": ["R2H_JOANCLOPTON"],
+      "note": "Joan Clopton (wife of a Roger Beauchamp of Bletsoe) is given as daughter of William de Clopton (Blomefield: 'daughter and heir of William, 2nd son of Sir William Clopton'). ⚠ some genealogies name her father Walter Clopton instead; mother unrecorded. soc.genealogy.medieval / WikiTree."
+    },
+    {
+      "a": {"id": "R3L_LANCELIN1_BEAUGENCY", "label": "Lancelin I de Beaugency<br/>d.c.1040 · first lord of Beaugency and La Flèche · Wikipedia"},
+      "b": {"id": "R3L_ADELBERGE_MAINE", "label": "Adelberge (Adèle) de Maine<br/>· wife of Lancelin I de Beaugency · Wikipedia"},
+      "children": ["R2E_JEAN_LAFLECHE"],
+      "note": "Jean de la Flèche (de Beaugency), father of Elias I of Maine, was a younger son of Lancelin I de Beaugency (first lord of both Beaugency and La Flèche) and Adelberge de Maine. Wikipedia 'Jean de la Flèche'."
+    },
+    {
+      "a": {"id": "R3K_GIACOMO_ORSINI_TAGL", "label": "Giacomo (Jacopo) Orsini<br/>· Conte di Tagliacozzo e Alba · Wikidata/Genealogics"},
+      "b": {"id": "R3K_ISABELLA_MARZANO", "label": "Isabella Marzano<br/>· wife of Giacomo Orsini · Wikidata/Genealogics"},
+      "children": ["R2I_PAOLA_ORSINI"],
+      "note": "Paola Gironima Orsini, heiress of Tagliacozzo (R2I_PAOLA_ORSINI), was daughter of Giacomo (Jacopo) Orsini, Conte di Tagliacozzo e Alba, and Isabella Marzano (Wikidata Q100439108 / Genealogics). ⚠ DEDUP: R2I_PAOLA_ORSINI is the same person as the separately-added R2J_PAOLAORSINI (wife of Carlo Orsini, Duca di Bracciano) — a within-round-2 duplicate across batch files; parents are attached to the R2I id, duplication flagged not merged."
+    },
+    {
+      "a": {"id": "R3L_HAMON_CHATEAUDULOIR", "label": "Hamon (Haimo)<br/>· Seigneur de Château-du-Loir · ⚠ compilation-sourced · Geneanet/FamilySearch"},
+      "b": {"id": "R3L_HILDEBURGE_BELLEME", "label": "Hildeburge de Bellême<br/>· of the House of Bellême · ⚠ compilation-sourced · Geneanet/FamilySearch"},
+      "children": ["R2L_ROBERTBROCHARD"],
+      "note": "Robert 'Brochard', Lord of Château-du-Loir, is given as a younger son of Hamon (Haimo), Seigneur de Château-du-Loir, and Hildeburge de Bellême. ⚠ compilation-sourced (Geneanet/FamilySearch/Geni) — Wikipedia does not carry this line; consistent with the round-2 flag that Robert Brochard himself was compilation-sourced."
+    },
+    {
+      "a": {"id": "R3L_DAVID_HUNTINGDON", "label": "David of Scotland<br/>1152-1219 · 8th Earl of Huntingdon; grandson of David I of Scotland · Wikipedia"},
+      "b": {"id": "R3L_MAUD_CHESTER", "label": "Maud (Matilda) of Chester<br/>1171-1233 · dau. of Hugh de Kevelioc, 5th Earl of Chester · Wikipedia"},
+      "children": [
+        "R2F_ISOBEL_HUNTINGDON",
+        {"id": "R3L_JOHN_LESCOT", "label": "John of Scotland (le Scot)<br/>1207-1237 · Earl of Chester and Huntingdon; brother of Isobel · Wikipedia"}
+      ],
+      "note": "Isobel of Huntingdon (wife of Robert de Brus, 4th Lord of Annandale — the line carrying the Bruce claim to the Scottish throne) was daughter of David of Scotland, 8th Earl of Huntingdon (grandson of David I), and Maud of Chester (dau. of Hugh de Kevelioc, 5th Earl of Chester). Brother John le Scot, Earl of Chester and Huntingdon, added. Wikipedia."
+    },
+    {
+      "a": {"id": "R3L_JOHN_FITZGEOFFREY", "label": "John FitzGeoffrey<br/>d.1258 · Justiciar of Ireland; son of Geoffrey FitzPeter, Earl of Essex · Wikipedia"},
+      "b": {"id": "R3L_ISABEL_BIGOD", "label": "Isabel Bigod<br/>· dau. of Hugh Bigod, 3rd Earl of Norfolk, &amp; Maud Marshal · Wikipedia"},
+      "children": [
+        "R2F_AVELINE_FITZJOHN",
+        {"id": "R3L_JOHNFITZJOHN", "label": "John FitzJohn<br/>d.1275 · baron of Shere; brother of Aveline · Wikipedia"},
+        {"id": "R3L_RICHARDFITZJOHN", "label": "Richard FitzJohn<br/>d.1297 · brother of Aveline · Wikipedia"}
+      ],
+      "note": "Aveline FitzJohn (wife of Walter de Burgh, 1st Earl of Ulster) was daughter of John FitzGeoffrey, Justiciar of Ireland (son of Geoffrey FitzPeter, Earl of Essex), and Isabel Bigod (dau. of Hugh Bigod, 3rd Earl of Norfolk, & Maud Marshal). Brothers John FitzJohn and Richard FitzJohn added. Wikipedia 'John Fitzgeoffrey'."
+    },
+    {
+      "a": {"id": "R3L_ALFONSO_MENESES_TIZON", "label": "Alfonso Alfonso de Meneses 'el Tizón'<br/>· son of Alfonso Téllez de Meneses · Wikipedia/Geni"},
+      "b": {"id": "R3L_MAYOR_GIRON", "label": "Mayor González Girón<br/>· wife of Alfonso de Meneses 'el Tizón' · Geni"},
+      "children": ["R2G_MARIA_MENESES"],
+      "note": "María Alfonso de Meneses (mistress of Sancho IV of Castile) was daughter of Alfonso Alfonso de Meneses 'el Tizón' (son of Alfonso Téllez de Meneses) and Mayor González Girón. Wikipedia / Geni."
+    },
+    {
+      "a": {"id": "R3L_JAMESHAMILTON1", "label": "James Hamilton<br/>c.1415-1479 · 1st Lord Hamilton · Wikipedia"},
+      "b": "MARYSTEW3",
+      "children": [
+        "R2J_ELIZHAMILTON_LENNOX",
+        {"id": "R3L_JAMESHAMILTON_ARRAN", "label": "James Hamilton<br/>1475-1529 · 1st Earl of Arran; brother of Elizabeth · Wikipedia"}
+      ],
+      "note": "Elizabeth Hamilton (wife of Matthew Stewart, 2nd Earl of Lennox) was daughter of James Hamilton, 1st Lord Hamilton, and Mary Stewart, Princess of Scotland. DEDUP: the mother is the EXISTING MARYSTEW3 (Mary Stewart, dau. of James II of Scotland & Mary of Guelders, union U_james2_maryguel) — referenced by bare id, not duplicated, linking the Hamilton/Lennox line into the tree's royal Stewarts. Brother James Hamilton, 1st Earl of Arran, added. Wikipedia 'Matthew Stewart, 2nd Earl of Lennox'."
+    },
+    {
+      "a": {"id": "R3L_HUGUES1_CHATELLERAULT", "label": "Hugues I<br/>· Viscount of Châtellerault · ⚠ compilation-sourced · Geni/genealogical compilations"},
+      "b": {"id": "R3L_GERBERGE_CHATEL", "label": "Gerberge<br/>· wife of Hugues I of Châtellerault · ⚠ compilation-sourced · Geni"},
+      "children": ["R2E_BOSON2_CHATELLERAULT"],
+      "note": "Boson II, Viscount of Châtellerault (father of Aimery I), is given as son of Hugues I, Viscount of Châtellerault, and his wife Gerberge. ⚠ compilation-sourced (Geni/WikiTree/genealogical compilations); Wikipedia's 'Aimery I' article does not name Boson II's parents."
+    },
+    {
+      "a": {"id": "R3L_ALBERIC2_DAMMARTIN", "label": "Alberic II<br/>d.c.1183 · Count of Dammartin · Wikipedia"},
+      "b": {"id": "R3L_CLEMENCE_BAR", "label": "Clémence de Bar<br/>· dau. of Reginald I, Count of Bar · Wikipedia"},
+      "children": ["R2F_ALBERICIII_DAMMARTIN"],
+      "note": "Alberic III (Aubry III), Count of Dammartin, was son of Alberic II, Count of Dammartin, and Clémence de Bar (dau. of Reginald I, Count of Bar). Wikipedia 'Alberic II, Count of Dammartin'."
+    },
+    {
+      "a": {"id": "R3L_PATRICK_GRAHAM", "label": "Sir Patrick de Graham<br/>c.1235-1296 · Lord of Kincardine; died at Dunbar · ⚠ attribution disputed · FamilySearch/thepeerage"},
+      "b": {"id": "R3L_ANNABELLA_STRATHEARN", "label": "Annabella of Strathearn<br/>· of the comital house of Strathearn · ⚠ compilation-sourced · FamilySearch"},
+      "children": ["R2H_MARGARETDEGRAHAM"],
+      "note": "Margaret de Graham (wife of Sir Malcolm Drummond, 10th Thane of Lennox) is given as daughter of Sir Patrick de Graham of Kincardine and Annabella of Strathearn. ⚠ the parentage is compilation-sourced and disputed across Scottish genealogies (FamilySearch/thepeerage); flagged, not asserted as settled."
+    },
+    {
+      "a": {"id": "R3L_PONS_TOULOUSE", "label": "Pons<br/>d.1060/61 · Count of Toulouse · Wikipedia"},
+      "b": {"id": "R3L_ALMODIS_MARCHE", "label": "Almodis de la Marche<br/>c.1020-1071 · dau. of Bernard I, Count of La Marche; later Countess of Barcelona · Wikipedia"},
+      "children": [
+        "R2E_WILLIAM4_TOULOUSE",
+        {"id": "R3L_RAYMOND4_TOULOUSE", "label": "Raymond IV 'of Saint-Gilles'<br/>c.1041-1105 · Count of Toulouse; leader of the First Crusade; brother of William IV · Wikipedia"}
+      ],
+      "note": "William IV, Count of Toulouse, was son of Pons, Count of Toulouse, and Almodis de la Marche (married 1045, repudiated 1053; later abducted and married by Ramon Berenguer I of Barcelona). Full brother Raymond IV of Saint-Gilles, crusade leader, added. Wikipedia 'William IV, Count of Toulouse'."
+    },
+    {
+      "a": {"id": "R3L_JUAN_FERNANDEZ_LIMIA", "label": "Juan Fernández<br/>· tenant-in-chief in Limia and Monterroso · Wikipedia/Geni"},
+      "b": {"id": "R3L_MARIA_RIBEIRA", "label": "María Pais Ribeira 'a Ribeirinha'<br/>· noblewoman; also mistress of Sancho I of Portugal · Wikipedia"},
+      "children": ["R2F_MARIA_LIMIA"],
+      "note": "María Anes de Limia (wife of Alfonso Téllez de Meneses 'el Mozo', grandmother of Queen María de Molina) was daughter of Juan Fernández, tenant-in-chief in Limia y Monterroso, and María Pais Ribeira 'a Ribeirinha' (the noblewoman who was also a mistress of Sancho I of Portugal). Wikipedia 'Alfonso Téllez de Meneses el Mozo'."
+    },
+    {
+      "a": {"id": "R3L_WILLIAM4_FORCALQUIER", "label": "William IV of Forcalquier<br/>c.1130-1208 · Count of Forcalquier; son of Bertrand I of Forcalquier · Wikipedia"},
+      "b": {"id": "R3L_ADELAIDE_BEZIERS", "label": "Adelaide de Béziers<br/>· dau. of Raymond Trencavel, Viscount of Béziers, &amp; Saura de Carcassonne · Wikipedia"},
+      "children": ["R2F_GARSENDE_FORCALQUIER"],
+      "note": "Garsende of Forcalquier (mother of Garsenda, Countess of Forcalquier; wife of Rainou de Sabran) was the only child and heir of William IV of Forcalquier and Adelaide de Béziers (dau. of Raymond Trencavel, Viscount of Béziers, & Saura de Carcassonne); she predeceased her father c.1193. Wikipedia 'William IV of Forcalquier'."
+    },
+    {
+      "a": {"id": "R3L_IVAR_UPLANDS", "label": "Ivar<br/>fl.9th c. · Earl of the Uplands (Oppland); son of Halfdan the Old per the Orkneyinga Saga · ⚠ legendary/saga-only · Orkneyinga Saga"},
+      "b": {"id": "R3L_IVAR_WIFE", "label": "—"},
+      "children": ["R2D_EYSTEINGLUMRA"],
+      "note": "Eystein Glumra ('the Noisy') is named in the Orkneyinga Saga as son of Ivar, Earl of the Uplands, and grandson of Halfdan the Old. ⚠ LEGENDARY / saga-only — included with prominent flag to keep the saga lineage consistent with the tree's existing ⚠-flagged Eystein/Rognvald nodes; not historically documented. Mother unrecorded."
+    },
+    {
+      "a": {"id": "R3L_PEDRO_ESTEVES", "label": "Pedro Esteves<br/>· father of Inês Pires · Wikidata"},
+      "b": {"id": "R3L_MARIA_ANES_INES", "label": "Maria Anes<br/>· mother of Inês Pires · Wikidata"},
+      "children": ["R2H_INESPIRESESTEVES"],
+      "note": "Inês Pires Esteves (mistress of John I of Portugal; mother of Afonso, 1st Duke of Braganza) was daughter of Pedro Esteves and Maria Anes. Wikidata 'Inês Pires' (Q2098219)."
+    },
+    {
+      "a": {"id": "R3L_HENRY2_BAR", "label": "Henry II<br/>c.1190-1239 · Count of Bar · Wikipedia"},
+      "b": {"id": "R3L_PHILIPPA_DREUX", "label": "Philippa of Dreux<br/>d.1242 · dau. of Robert II, Count of Dreux · Wikipedia"},
+      "children": ["R2F_MARGARET_BAR"],
+      "note": "Margaret of Bar (Countess of Luxembourg, wife of Henry V) was the eldest of seven children of Henry II, Count of Bar, and Philippa of Dreux (dau. of Robert II, Count of Dreux). Wikipedia 'Margaret of Bar'."
+    },
+    {
+      "a": {"id": "R3L_OTBERT2_MILAN", "label": "Otbert II (Oberto)<br/>· Obertenghi marquis of Milan · ⚠ some sources name Otbert III instead · Wikipedia"},
+      "b": {"id": "R3L_OTBERT_WIFE", "label": "—"},
+      "children": ["R2E_BERTHA_MILAN"],
+      "note": "Bertha of Milan (wife of Ulric Manfred II of Turin, mother of Adelaide of Susa) was a member of the Obertenghi dynasty, most often given as daughter of the marquis Otbert II. ⚠ disputed — some argue her father was Otbert III of Milan; mother unrecorded. Wikipedia 'Bertha of Milan'."
+    },
+    {
+      "a": {"id": "R3L_GUY_DESMIER", "label": "Guy Desmier<br/>· seigneur d'Olbreuse; Huguenot nobleman · Geneanet/FamilySearch"},
+      "b": {"id": "R3L_RENEE_LATOUCHE", "label": "Renée de la Touche<br/>· wife of Guy Desmier d'Olbreuse · Geneanet/FamilySearch"},
+      "children": ["R2K_ALEXDESMIEROLBREUSE"],
+      "note": "Alexandre Desmier, seigneur d'Olbreuse (1608-1660; father of Éléonore, Duchess of Brunswick-Lüneburg), was son of Guy Desmier d'Olbreuse and Renée de la Touche. Geneanet / FamilySearch."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "_note": "ROUND 3 (great-grandparents) for the undated_1 batch: 34 round-2 ancestors (grandparent generation, mostly medieval/early-modern European nobility whose round-2 labels carried no parseable year) given THEIR documented parents + notable full siblings, one generation further back. New nodes use the R3K_ prefix; existing tree nodes are referenced by id string. FILLED 21, SKIPPED 13. HIGH-VALUE CROSS-LINKS: (1) Beatrix of Namur (R2E_BEATRIX_NAMUR, this batch) and Alice of Namur (R2F_ALICE_NAMUR, existing round-2 node, Countess of Hainaut) are BOTH daughters of Godfrey I, Count of Namur, & Ermesinde of Luxembourg — one family entry links the two round-2 additions as sisters (brother Henry the Blind added). (2) Marguerite de Bretagne (R2I_MARGUERITE_BRETAGNE) is a documented daughter of John IV, Duke of Brittany, & Joan of Navarre, who ALREADY EXIST as R2H_JOHNIVDUKEBRITTANY + R2H_JOANOFNAVARREENGLAND (added in 41_grandparents_d5.json as parents of Richard, Count of Etampes) — parents referenced by id, Marguerite added as their child (full sister of Richard of Etampes), NOT duplicated. (3) Hildegarde of Burgundy's mother is Ermengarde of Anjou (dau of Fulk III Nerra), who ALREADY EXISTS as SPK_ERMENGARDE_ANJOU (added in 40_spouseparents_u5.json, where her FIRST marriage to Geoffrey II of Gatinais produced Fulk IV); her SECOND marriage, to the new node Robert I, Duke of Burgundy, produced Hildegarde — existing mother referenced by id, linking the Anjou and Burgundy ducal lines. (4) Elizabeth FitzHugh's mother Alice Neville is a daughter of Richard Neville, 5th Earl of Salisbury (existing SPI_RICHARD_SALISBURY) — noted in the family note (Salisbury himself not re-added, one gen further back). NEW DOCUMENTED GRANDLINE LINKS surfaced: Cardinal Jules Mazarin (added as full brother of Laura Margherita Mazzarini) becomes a documented great-granduncle; Robert, Count of Mortain (half-brother of William the Conqueror) enters as Emma of Mortain's father; the Borgia line deepens via Rodrigo de Borja (b.1349) and via Domingo de Borja's union (Domingo's OWN parents skipped as undocumented). FLAGGED disputed/uncertain (source given per note): Regelinda of Zurich's father (Wikipedia: 'Eberhard I, Count of Zurich OR possibly Waltfred, Margrave of Verona and Friuli' — father flagged, mother Gisela named). MODERATE-CONFIDENCE (compilation sources where Wikipedia is silent, flagged in-note): Agnes of Montfaucon's parents (FamilySearch/Geneanet), Bartholomew de l'Ile-Bouchard's parents (geni/WikiTree/Geneanet/FamilySearch cross-agree; he took the L'Ile-Bouchard name via his mother the heiress), Elizabeth Lindsay's mother Marjory Dunbar (thepeerage/geni; father Wikipedia), Mary Langford's parents (History of Parliament/WikiTree), Paola Orsini's parents (geni/Wikidata; she was heiress of Tagliacozzo). SKIPPED 13 (undocumented parentage or unnamed placeholders, no fabrication): R2J_FRANCINALLANCOL & R2J_DOMINGOBORJA (Pope Callixtus III's parents — a minor Valencian merchant/gentry family; their own parents are not documented in Wikipedia or reliable sources); R2D_AVATOURS (her brother Matfrid I, Count of Orleans, is the earliest documented Matfriding — his/their parents are unrecorded, Wikidata lists mother 'unknown'); R2L_BEATRICEMOZZI (Geneanet-only wife of Sozzo de' Bardi, no documented parents); R2L_ELISABETH_CHATEAUDULOIR (compilation-only, no documented parents); R2E_OTHELINDIS_HOLLAND (parentage unresolved between Bernard I, Duke of Saxony [Billung] and Bernard, Margrave of the Nordmark; no scholarly consensus, mother unknown); R2E_HERMANN2_MOTHER (the node itself is a disputed identity — Richlind of Swabia vs Judith of Ohningen — so parents are doubly unresolved); R2D_DONALDII_MOTHER & R2D_OSBURH_MOTHER (unnamed '—' placeholders, no identity to research); R2D_GERBERGERENNES (10th-c. wife of Judicael Berengar of Rennes, parents unrecorded); R2E_ANCILLA_SAVOY (her own identity is uncertain — 'poss. of Lenzburg or of Aoste' — so parentage cannot be assigned); R2I_ISABEL_GODDARD (obscure second wife of John de Wydeville, no documented parents); R2L_GISELA_VERONA (compilation-level figure — Wikipedia 'Judith, Duchess of Bavaria' documents neither Gisela of Verona's nor Eberhard of Sulichgau's parents). 👑 = regnant sovereigns only (dukes/counts/consorts get none, per house style); ✝ = high clergy. Web-verified 2026-07-17 against English/French Wikipedia and, where flagged, genealogical compilations (thepeerage, geni, Geneanet, WikiTree, FamilySearch, History of Parliament).",
+  "families": [
+    {
+      "a": {"id": "R3K_LEUTHARD1_PARIS", "label": "Leuthard I of Paris<br/>fl.800s · Frankish count (Girardid kin) · Wikipedia"},
+      "b": {"id": "R3K_GRIMHILDA", "label": "Grimhilda (Grimeut)<br/>· wife of Leuthard I of Paris · Wikipedia"},
+      "children": ["R2D_ENGELTRUDE"],
+      "note": "Engeltrude de Fezensac (wife of Odo I, Count of Orleans, and mother of the existing Ermentrude of Orleans, empress of Charles the Bald) is named by Wikipedia 'Engeltrude de Fezensac' as the only daughter of Leuthard I of Paris & his wife Grimhilda; presented as fact, no dispute flag. No documented full siblings."
+    },
+    {
+      "a": {"id": "R3K_LERMA", "label": "Francisco de Sandoval y Rojas<br/>1553-1625 · 1st Duke of Lerma; valido (chief minister) of Philip III · Wikipedia"},
+      "b": {"id": "R3K_CATALINA_CERDA", "label": "Catalina de la Cerda y Portugal<br/>1551-1603 · dau. of Juan de la Cerda, 4th Duke of Medinaceli · Wikipedia"},
+      "children": [
+        "R2K_JUANADESANDOVAL",
+        {"id": "R3K_CRISTOBAL_UCEDA", "label": "Cristóbal Gómez de Sandoval<br/>1581-1624 · 1st Duke of Uceda; valido of Philip III · Wikipedia"},
+        {"id": "R3K_DIEGO_SANDOVAL", "label": "Diego Gómez de Sandoval<br/>d.1632 · Count of Saldaña · Wikipedia"},
+        {"id": "R3K_CATALINA_SANDOVAL", "label": "Catalina de Sandoval<br/>d.1648 · m. Pedro Fernández de Castro, 7th Count of Lemos · Wikipedia"}
+      ],
+      "note": "Juana Gómez de Sandoval y de la Cerda (wife of Juan Manuel Pérez de Guzmán, 8th Duke of Medina Sidonia) is a documented daughter of Francisco de Sandoval y Rojas, 1st Duke of Lerma, & Catalina de la Cerda y Portugal. Full siblings Cristóbal (Duke of Uceda), Diego (Count of Saldaña), Catalina (Countess of Lemos) added. NOTE to avoid confusion: Luisa de Guzmán (Queen consort of Portugal) is Juana's DAUGHTER, not her sister, and already sits in the tree via 41_grandparents_e3.json. Wikipedia."
+    },
+    {
+      "a": {"id": "R3K_JOHNCLIFFORD7", "label": "John Clifford<br/>1389-1422 · 7th Baron de Clifford; died at the siege of Meaux · Wikipedia"},
+      "b": {"id": "R3K_ELIZPERCY_CLIFFORD", "label": "Elizabeth Percy<br/>1390-1436 · dau. of Sir Henry 'Hotspur' Percy · Wikipedia"},
+      "children": [
+        "R2I_MARY_CLIFFORD",
+        {"id": "R3K_THOMASCLIFFORD8", "label": "Thomas Clifford<br/>1414-1455 · 8th Baron de Clifford; killed at the First Battle of St Albans · Wikipedia"}
+      ],
+      "note": "Mary Clifford (wife of Sir Philip Wentworth) is a documented daughter of John Clifford, 7th Baron de Clifford, & Elizabeth Percy (daughter of Harry 'Hotspur' Percy). Full brother Thomas Clifford, 8th Baron, added. Wikipedia."
+    },
+    {
+      "a": {"id": "R3K_HENRYFITZHUGH5", "label": "Henry FitzHugh<br/>c.1429-1472 · 5th Baron FitzHugh of Ravensworth · Wikipedia"},
+      "b": {"id": "R3K_ALICENEVILLE_FH", "label": "Alice Neville<br/>c.1430-aft.1503 · dau. of Richard Neville, 5th Earl of Salisbury · Wikipedia"},
+      "children": [
+        "R2J_ELIZFITZHUGH_PARR",
+        {"id": "R3K_RICHARDFITZHUGH6", "label": "Sir Richard FitzHugh<br/>d.1487 · 6th Baron FitzHugh · Wikipedia"},
+        {"id": "R3K_ANNEFITZHUGH_LOVELL", "label": "Anne FitzHugh<br/>· m. Francis Lovell, 1st Viscount Lovell (Yorkist favourite of Richard III) · Wikipedia"}
+      ],
+      "note": "Elizabeth FitzHugh (wife of Sir William Parr and grandmother of Queen Catherine Parr) is a documented daughter of Henry FitzHugh, 5th Baron FitzHugh, & Alice Neville. Full siblings Sir Richard (6th Baron) and Anne (Viscountess Lovell) added. CROSS-LINK: her mother Alice Neville is a daughter of the existing Richard Neville, 5th Earl of Salisbury (SPI_RICHARD_SALISBURY) — Salisbury not re-added here (one generation further back). Wikipedia."
+    },
+    {
+      "a": {"id": "R3K_ROBERT1_BURGUNDY", "label": "Robert I 'the Old'<br/>1011-1076 · Duke of Burgundy; founder of the elder ducal House of Burgundy · Wikipedia"},
+      "b": "SPK_ERMENGARDE_ANJOU",
+      "children": ["R2E_HILDEGARDE_BURGUNDY_AQ"],
+      "note": "Hildegarde of Burgundy (3rd wife of William VIII, Duke of Aquitaine) is documented as the only daughter of Robert I, Duke of Burgundy, by his second wife Ermengarde of Anjou. DEDUP: Ermengarde of Anjou (daughter of Fulk III Nerra of Anjou) ALREADY EXISTS as SPK_ERMENGARDE_ANJOU (40_spouseparents_u5.json), where her FIRST marriage to Geoffrey II, Count of Gatinais, produced Fulk IV of Anjou; her second marriage to Robert I of Burgundy is a separate union — mother referenced by id, linking the Anjou and Burgundy ducal lines. Robert I's children by his set-aside first wife Helie de Semur (incl. Dukes Hugh I and Henry) are half-siblings, excluded. Wikipedia."
+    },
+    {
+      "a": {"id": "R3K_RENAUD_ROUCY", "label": "Renaud (Ragenold)<br/>d.973 · Count of Roucy · Wikipedia"},
+      "b": {"id": "R3K_ALBERADE_LORRAINE", "label": "Alberade of Lorraine<br/>· dau. of Gilbert, Duke of Lorraine &amp; Gerberga of Saxony · Wikipedia"},
+      "children": [
+        "R2D_ERMENTRUDEROUCY",
+        {"id": "R3K_EBLES1_ROUCY", "label": "✝ Ebles I of Roucy<br/>d.1033 · Archbishop of Reims · Wikipedia"}
+      ],
+      "note": "Ermentrude of Roucy (wife of Otto-William, Count of Burgundy) is a documented daughter of Renaud/Ragenold, Count of Roucy, & Alberade of Lorraine (daughter of Gilbert, Duke of Lorraine, and Gerberga of Saxony, a sister of Emperor Otto I). Brother Ebles I, Archbishop of Reims, added. The Ottonian tie via Gerberga is one generation further back and not re-added here. Wikipedia."
+    },
+    {
+      "a": {"id": "R3K_RENAUD2_CLERMONT", "label": "Renaud II<br/>d.1162 · Count of Clermont-en-Beauvaisis · Wikipedia"},
+      "b": {"id": "R3K_ADELAIDE_VERMANDOIS", "label": "Adelaide of Vermandois<br/>c.1065-1122 · Countess of Vermandois; widow of Hugh Magnus · Wikipedia"},
+      "children": [
+        "R2F_MATHILDE_CLERMONT",
+        {"id": "R3K_MARGUERITE_CLERMONT", "label": "Marguerite de Clermont<br/>· m. Charles I 'the Good', Count of Flanders · Wikipedia"}
+      ],
+      "note": "Mathilde of Clermont (heiress of Clermont, wife of Alberic III of Dammartin) is a documented daughter of Renaud II, Count of Clermont-en-Beauvaisis, by his first wife Adelaide of Vermandois (daughter of Herbert IV of Vermandois and widow of Hugh Magnus, Count of Vermandois). Full sister Marguerite (Countess of Flanders, wife of Charles the Good) added. Wikipedia."
+    },
+    {
+      "a": {"id": "R3K_AMADEUS_MONTFAUCON", "label": "Amadeus (Amédée) de Montfaucon<br/>· lord of Montfaucon · FamilySearch/Geneanet"},
+      "b": {"id": "R3K_BEATRICE_JOINVILLE", "label": "Beatrice de Joinville<br/>· wife of Amadeus de Montfaucon · FamilySearch/Geneanet"},
+      "children": ["R2F_AGNES_MONTFAUCON"],
+      "note": "MODERATE CONFIDENCE: Agnes de Montfaucon (Countess of Brienne, mother of John of Brienne, King of Jerusalem) is given by genealogical compilations (FamilySearch, Geneanet) as daughter of Amadeus/Amédée de Montfaucon & Beatrice de Joinville; English Wikipedia names Agnes but not her parents. No documented full siblings."
+    },
+    {
+      "a": {"id": "R3K_MILES_COURTENAY", "label": "Miles (Milon) de Courtenay<br/>c.1069-1127 · Seigneur de Courtenay · Wikipedia"},
+      "b": {"id": "R3K_ERMENGARDE_NEVERS", "label": "Ermengarde de Nevers<br/>· dau. of Renaud II, Count of Nevers · Wikipedia"},
+      "children": [
+        "R2E_RENAUD1_COURTENAY",
+        {"id": "R3K_WILLIAM_COURTENAY", "label": "William de Courtenay<br/>· son of Miles de Courtenay · Wikipedia"},
+        {"id": "R3K_JOSCELIN_COURTENAY2", "label": "Joscelin de Courtenay<br/>· son of Miles de Courtenay · Wikipedia"}
+      ],
+      "note": "Renaud (Reginald) de Courtenay, Lord of Courtenay, is a documented son of Miles/Milon de Courtenay, Seigneur de Courtenay, & Ermengarde de Nevers (daughter of Renaud II, Count of Nevers). Brothers William (Willelmus) and Joscelin (Joscelinus), who appear with him in a 1120x1139 charter, added. Wikipedia 'Renaud de Courtenay' / 'House of Courtenay'."
+    },
+    {
+      "a": {"id": "R3C_GODFREY1_NAMUR", "label": "Godfrey I<br/>c.1067-1139 · Count of Namur · Wikipedia"},
+      "b": {"id": "R3C_ERMESINDE_LUX", "label": "Ermesinde of Luxembourg<br/>c.1075-1143 · dau. of Conrad I, Count of Luxembourg · Wikipedia"},
+      "children": [
+        "R2E_BEATRIX_NAMUR",
+        "R2F_ALICE_NAMUR",
+        {"id": "R3K_HENRY_NAMUR_BLIND", "label": "Henry IV 'the Blind'<br/>1112-1196 · Count of Namur &amp; Luxembourg · Wikipedia"}
+      ],
+      "note": "CROSS-LINK between two round-2 additions: Beatrix of Namur (R2E_BEATRIX_NAMUR, this batch, wife of Guitier, Count of Rethel) and Alice of Namur (R2F_ALICE_NAMUR, existing, Countess of Hainaut) are BOTH documented daughters of Godfrey I, Count of Namur, & his wife Ermesinde of Luxembourg — so they are sisters. Alice referenced by id (she is a parent in 41_grandparents_d3.json; her own parents were not yet placed). Brother Henry IV 'the Blind', Count of Namur and Luxembourg, added. Wikipedia 'Guitier, Count of Rethel' / 'Godfrey I, Count of Namur'."
+    },
+    {
+      "a": {"id": "R3K_ROBERT_MORTAIN", "label": "Robert<br/>c.1031-1090 · Count of Mortain; half-brother of William the Conqueror · Wikipedia"},
+      "b": {"id": "R3K_MATILDA_MONTGOMERY", "label": "Matilda de Montgomery<br/>· dau. of Roger de Montgomery, 1st Earl of Shrewsbury · Wikipedia"},
+      "children": [
+        "R2E_EMMA_MORTAIN",
+        {"id": "R3K_WILLIAM_MORTAIN", "label": "William<br/>d.aft.1140 · Count of Mortain; rebelled against Henry I, captured at Tinchebrai · Wikipedia"}
+      ],
+      "note": "Emma of Mortain (wife of William IV, Count of Toulouse, and grandmother of William IX of Aquitaine) is a documented daughter of Robert, Count of Mortain (uterine half-brother of William the Conqueror), & Matilda de Montgomery (daughter of Roger de Montgomery, 1st Earl of Shrewsbury). Brother William, Count of Mortain, added. Robert's own parents (Herluin de Conteville & Herleva) are one generation further back, not added. Wikipedia."
+    },
+    {
+      "a": {"id": "R3K_AIMERY4_THOUARS", "label": "Aimery IV<br/>c.1024-1093 · Viscount of Thouars · Wikipedia"},
+      "b": {"id": "R3K_AREMGARDE_MAULEON", "label": "Aremgarde de Mauléon<br/>d.bef.1088 · 1st wife of Aimery IV; dau. of Geoffroy de Mauléon · Wikipedia"},
+      "children": ["R2E_ALEANOR_THOUARS"],
+      "note": "Aleanor (Aenora) de Thouars (wife of Boson II, Viscount of Châtellerault) is a documented daughter of Aimery IV, Viscount of Thouars, by his first wife Aremgarde de Mauléon. Aimery IV's other children are not cleanly assigned between his two Mauléon wives, so no siblings added (no fabrication). Wikipedia 'Aimery IV of Thouars' / 'Aimery I, Viscount of Châtellerault'."
+    },
+    {
+      "a": "R2H_JOHNIVDUKEBRITTANY",
+      "b": "R2H_JOANOFNAVARREENGLAND",
+      "children": ["R2I_MARGUERITE_BRETAGNE"],
+      "note": "DEDUP CROSS-LINK: Marguerite de Bretagne (wife of Alain IX, Viscount of Rohan) is a documented daughter of John IV, Duke of Brittany, & Joan of Navarre — both ALREADY EXIST as R2H_JOHNIVDUKEBRITTANY + R2H_JOANOFNAVARREENGLAND (added in 41_grandparents_d5.json as parents of Richard, Count of Étampes). Parents referenced by id; Marguerite added as their child (full sister of Richard of Étampes), not duplicated. Wikipedia 'Joan of Navarre, Queen of England'."
+    },
+    {
+      "a": {"id": "R3K_EBERHARD1_ZURICH", "label": "Eberhard I<br/>· Count of Zürich (⚠ disputed: possibly Waltfred, Margrave of Verona &amp; Friuli) · Wikipedia"},
+      "b": {"id": "R3K_GISELA_ZURICH_MOTHER", "label": "Gisela<br/>· granddau. of Eberhard of Friuli &amp; Gisela, daughter of Louis the Pious · Wikipedia"},
+      "children": ["R2L_REGELINDA_ZURICH"],
+      "note": "Regelinda (Reginlind) of Zürich (wife of Burchard II, Duke of Swabia, and later of Duke Hermann I) — Wikipedia 'Regelinda of Zürich' names her mother clearly as Gisela (granddaughter of Eberhard of Friuli and the Carolingian Gisela, daughter of Louis the Pious) but flags her FATHER as disputed: 'Eberhard I, Count of Zürich, or possibly Waltfred, Margrave of Verona and Friuli.' The batch label follows the Eberhard identification; the alternative is flagged in the father's label. No documented siblings."
+    },
+    {
+      "a": {"id": "R3K_PIETRO_MAZZARINI", "label": "Pietro Mazzarini<br/>1576-1654 · Sicilian-born steward to the Colonna family; father of Cardinal Mazarin · Wikipedia"},
+      "b": {"id": "R3K_ORTENSIA_BUFALINI", "label": "Ortensia Bufalini<br/>1575-1644 · of the Bufalini nobility of Città di Castello · Wikipedia"},
+      "children": [
+        "R2K_LAURAMARGMAZZARINI",
+        {"id": "R3K_CARDINAL_MAZARIN", "label": "✝ Jules (Giulio) Mazarin<br/>1602-1661 · Cardinal; chief minister of France under Louis XIV · Wikipedia"},
+        {"id": "R3K_MICHELE_MAZARIN", "label": "✝ Michele Mazzarino<br/>1605-1648 · Cardinal; Archbishop of Aix-en-Provence · Wikipedia"},
+        {"id": "R3K_GIROLAMA_MAZZARINI", "label": "Girolama Mazzarini<br/>c.1614-1656 · mother of the Mancini sisters ('Mazarinettes') · Wikipedia"}
+      ],
+      "note": "Laura Margherita Mazzarini (mother of Laura Martinozzi, Duchess of Modena) is the eldest daughter of Pietro Mazzarini & Ortensia Bufalini. Full siblings added: Cardinal Jules Mazarin (chief minister of France) — thereby a documented great-granduncle in the line — his brother Cardinal Michele (Archbishop of Aix), and Girolama Mazzarini (mother of the Mancini 'Mazarinettes'). Wikipedia 'Cardinal Mazarin'."
+    },
+    {
+      "a": {"id": "R3K_RODRIGO_BORJA_1349", "label": "Rodrigo de Borja<br/>b.1349 · Valencian nobleman of Xàtiva · Wikipedia"},
+      "b": {"id": "R3K_SABINA_ANGLESOLA", "label": "Sabina d'Anglesola<br/>· 1st wife of Rodrigo de Borja · Wikipedia"},
+      "children": ["R2I_RODRIGO_BORJA_FENOLLET"],
+      "note": "Rodrigo Gil de Borja y Fenollet (Jurado of Xàtiva, grandfather of Pope Alexander VI) is the only son of Rodrigo de Borja (b.1349) by his first wife Sabina d'Anglesola, per Wikipedia 'Rodrigo Gil de Borja y Fennolet'. He took the 'Fenollet' name from his stepmother Francesca de Fenollet. Paternal grandfather Gonzalo Gil de Borja is one generation further back, not added."
+    },
+    {
+      "a": {"id": "R3K_ALEXLINDSAY4CRAWFORD", "label": "Alexander Lindsay<br/>d.1453 · 4th Earl of Crawford ('Earl Beardie') · Wikipedia"},
+      "b": {"id": "R3K_MARJORY_DUNBAR", "label": "Marjory (Margaret) Dunbar<br/>· wife of the 4th Earl of Crawford · thepeerage/geni"},
+      "children": ["R2J_ELIZABETHLINDSAY_DRUM"],
+      "note": "Elizabeth Lindsay (wife of John Drummond, 1st Lord Drummond) is a documented daughter of Alexander Lindsay, 4th Earl of Crawford ('Earl Beardie'), per Wikipedia 'John Drummond, 1st Lord Drummond'. Her mother is given by thepeerage/geni as Marjory (Margaret) Dunbar; Wikipedia does not name the mother, so flagged moderate confidence."
+    },
+    {
+      "a": {"id": "R3K_EDWARD_LANGFORD", "label": "Edward Langford<br/>· of Trowbridge, Wiltshire; wealthy merchant · History of Parliament/WikiTree"},
+      "b": {"id": "R3K_MARY_HYDE_LANGFORD", "label": "Mary Hyde<br/>· wife of Edward Langford · WikiTree"},
+      "children": ["R2J_MARYLANGFORD"],
+      "note": "MODERATE CONFIDENCE: Mary Langford (wife of Henry Hyde of Dinton and mother of Sir Lawrence Hyde's line / grandmother of Edward Hyde, 1st Earl of Clarendon's kin) is given as daughter of Edward Langford of Trowbridge (a wealthy merchant whose fortune she inherited) & Mary Hyde, per the History of Parliament entry on Henry Hyde and WikiTree. No siblings documented."
+    },
+    {
+      "a": {"id": "R3K_GIACOMO_ORSINI_TAGL", "label": "Giacomo (Jacopo) Orsini<br/>· Count of Tagliacozzo &amp; Alba · geni/Wikidata"},
+      "b": {"id": "R3K_ISABELLA_MARZANO", "label": "Isabella Marzano<br/>· wife of Giacomo Orsini · geni/Wikidata"},
+      "children": ["R2I_PAOLA_ORSINI"],
+      "note": "MODERATE CONFIDENCE: Paola (Gironima) Orsini, heiress of Tagliacozzo (wife of Carlo Orsini, mother of Roberto Orsini, Count of Tagliacozzo), is given by geni/Wikidata as daughter of Giacomo/Jacopo Orsini, Count of Tagliacozzo & Alba, & Isabella Marzano — consistent with her being heiress of Tagliacozzo. Flagged as compilation-sourced (Treccani names Paola but not her parents)."
+    },
+    {
+      "a": {"id": "R3K_ROBERT_DEQUINCY", "label": "Robert de Quincy<br/>d.1257 · son of Saher IV de Quincy, Earl of Winchester · Wikipedia"},
+      "b": {"id": "R3K_ELEN_FERCH_LLYWELYN", "label": "Elen ferch Llywelyn<br/>c.1207-1253 · dau. of Llywelyn the Great, Prince of Gwynedd · Wikipedia"},
+      "children": ["R2F_HAWISE_QUINCY"],
+      "note": "Hawise de Quincy (wife of Baldwin Wake, Lord of Bourne) is a documented daughter of Robert de Quincy (a younger son of Saher IV de Quincy, Earl of Winchester) & Elen ferch Llywelyn, daughter of Llywelyn the Great of Gwynedd — the parents already named in Hawise's round-2 label, now given as nodes. Llywelyn the Great himself is one generation further back, not added. Wikipedia."
+    },
+    {
+      "a": {"id": "R3K_ARCHAMBAUD_BUEIL", "label": "Archambaud de Bueil<br/>c.1019-1068 · seigneur de Bueil · geni/WikiTree/Geneanet"},
+      "b": {"id": "R3K_AGNES_ILEBOUCHARD", "label": "Agnès de l'Isle-Bouchard<br/>· heiress of L'Île-Bouchard · geni/WikiTree/Geneanet"},
+      "children": ["R2E_BARTHOLOMEW_ILEBOUCHARD"],
+      "note": "MODERATE CONFIDENCE: Bartholomew (Barthélémy), Lord of L'Île-Bouchard (father of Dangereuse de l'Isle Bouchard, the maternal grandmother of Eleanor of Aquitaine), is given by cross-agreeing genealogical compilations (geni, WikiTree, Geneanet, FamilySearch) as son of Archambaud de Bueil & Agnès de l'Isle-Bouchard — he carried the L'Île-Bouchard name via his mother, the family heiress. Flagged as compilation-sourced (English Wikipedia 'Dangereuse' does not document Bartholomew's parents)."
+    }
+  ]
+}

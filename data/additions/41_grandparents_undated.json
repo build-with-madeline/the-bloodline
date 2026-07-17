@@ -101,7 +101,7 @@
       "note": "Teresa Lourenço's parents were Lourenço and Sancha Martins, both Lisbon merchants, per Wikipedia 'Teresa Lourenço' ('Her parents were Lourenço and Sancha Martins, who were merchants'). No documented siblings."
     },
     {
-      "a": {"id": "R2L_BURCHARDII_SWABIA", "label": "Burchard II<br/>d.926 · Duke of Swabia · Wikipedia"},
+      "a": {"id": "R2D_BURCHARDII_SWABIA", "label": "Burchard II<br/>d.926 · Duke of Swabia · Wikipedia"},
       "b": {"id": "R2L_REGELINDA_ZURICH", "label": "Regelinda (Reginlind)<br/>· dau. of Count Eberhard I of Zürich · Wikipedia"},
       "children": [
         "SPH_HICHA_SWABIA",

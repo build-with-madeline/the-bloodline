@@ -1,0 +1,155 @@
+{
+  "_note": "Round 3 (great-grandparents) for the 13 round-2 grandparents in batch e_1400_1750_3. Each existing R2*/R2J_/R2K_ batch person is referenced by id string and joined to newly documented parents (R3J_ prefix) plus full/notable siblings. KEY CORRECTION: Magdalene of Brandenburg (m. Louis V of Hesse-Darmstadt) is NOT a sister of Anne Catherine of Brandenburg — Anne Catherine is daughter of Joachim Frederick, Elector of Brandenburg (family 1), while Magdalene is daughter of Joachim Frederick's FATHER, John George, Elector of Brandenburg, by his third wife (family 5), so they are half-aunt/niece, not sisters. CONVERGENCE: Joachim Ernst, Margrave of Brandenburg-Ansbach (1583-1625) is BOTH a full sibling of Magdalene (child of John George + Elisabeth of Anhalt-Zerbst, defined once as R3J_JOACHIMERNSTANSBACH in family 5) AND the father of Albert II of Brandenburg-Ansbach (family 9, where he is referenced by id string) — no double-parenting. Stillbirths omitted where noted; Spanish-noble siblings of the Medina Sidonia and Velasco lines not documented in English Wikipedia (parents only). 👑 = regnant sovereigns only. Sourced to Wikipedia except Ana de Silva y Mendoza years (Wikidata/Geni) and Sophie Margarete's mother (Familypedia/Wikidata).",
+  "families": [
+    {
+      "note": "Anne Catherine of Brandenburg -> father Joachim Frederick, Elector of Brandenburg & mother Catherine of Brandenburg-Küstrin (his first wife). Full siblings from that first marriage listed with years (Wikipedia). Half-siblings from Joachim Frederick's second marriage to Eleonore of Prussia excluded (different mother).",
+      "a": {"id": "R3J_JOACHIMFREDBRAND", "label": "👑 Joachim Frederick<br/>1546-1608 · Elector of Brandenburg · Wikipedia"},
+      "b": {"id": "R3J_CATHBRANDKUSTRIN", "label": "Catherine of Brandenburg-Küstrin<br/>1549-1602 · Electress of Brandenburg · Wikipedia"},
+      "children": [
+        "R2K_ANNECATHBRAND",
+        {"id": "R3J_JOHNSIGISMUNDBRAND", "label": "👑 John Sigismund<br/>1572-1619 · Elector of Brandenburg · Wikipedia"},
+        {"id": "R3J_JOHNGEORGEJAGERNDORF", "label": "John George<br/>1577-1624 · Duke of Jägerndorf · Wikipedia"},
+        {"id": "R3J_AUGUSTFREDBRAND", "label": "August Frederick of Brandenburg<br/>1580-1601 · Wikipedia"},
+        {"id": "R3J_ALBERTFREDBRAND", "label": "Albert Frederick of Brandenburg<br/>1582-1600 · Wikipedia"},
+        {"id": "R3J_JOACHIMBRAND1583", "label": "Joachim of Brandenburg<br/>1583-1600 · Wikipedia"},
+        {"id": "R3J_ERNESTBRAND1583", "label": "Ernest of Brandenburg<br/>1583-1613 · Wikipedia"},
+        {"id": "R3J_BARBARASOPHIEBRAND", "label": "Barbara Sophie of Brandenburg<br/>1584-1636 · Duchess of Württemberg · Wikipedia"},
+        {"id": "R3J_CHRISTIANWMBRAND", "label": "Christian William of Brandenburg<br/>1587-1665 · Administrator of Magdeburg · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Sir Thomas Aylesbury -> father William Aylesbury & mother Anne Poole; he was the second son (elder brother unnamed). No birth/death dates documented for the parents (Wikipedia).",
+      "a": {"id": "R3J_WILLIAMAYLESBURY", "label": "William Aylesbury<br/>of London · father of Sir Thomas Aylesbury · Wikipedia"},
+      "b": {"id": "R3J_ANNEPOOLE", "label": "Anne Poole<br/>wife of William Aylesbury · Wikipedia"},
+      "children": [
+        "R2K_THOMASAYLESBURY"
+      ]
+    },
+    {
+      "note": "Louis V, Landgrave of Hesse-Darmstadt -> father George I, Landgrave of Hesse-Darmstadt & mother Magdalene of Lippe (his first wife). Full siblings surviving to record listed with years (Wikipedia). Half-sibling Henry (b.1590, mother Eleonore of Württemberg) excluded.",
+      "a": {"id": "R3J_GEORGE1HESSEDARM", "label": "George I<br/>1547-1596 · Landgrave of Hesse-Darmstadt · Wikipedia"},
+      "b": {"id": "R3J_MAGDALENELIPPE", "label": "Magdalene of Lippe<br/>1552-1587 · Landgravine of Hesse-Darmstadt · Wikipedia"},
+      "children": [
+        "R2J_LOUIS5HESSE",
+        {"id": "R3J_CHRISTINEHESSEDARM", "label": "Christine of Hesse-Darmstadt<br/>1578-1596 · Wikipedia"},
+        {"id": "R3J_ELISABETHHESSEDARM", "label": "Elisabeth of Hesse-Darmstadt<br/>1579-1655 · Wikipedia"},
+        {"id": "R3J_PHILIP3HESSEBUTZBACH", "label": "Philip III<br/>1581-1643 · Landgrave of Hesse-Butzbach · Wikipedia"},
+        {"id": "R3J_FREDERICK1HESSEHOMBURG", "label": "Frederick I<br/>1585-1638 · Landgrave of Hesse-Homburg · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Juan Manuel Pérez de Guzmán, 8th Duke of Medina Sidonia -> father Alonso Pérez de Guzmán, 7th Duke of Medina Sidonia (commander of the 1588 Spanish Armada) & mother Ana de Silva y Mendoza (daughter of Ruy Gómez de Silva, 1st Prince of Éboli, and Ana de Mendoza, the Princess of Éboli). Other children documented (7 sons, 2 daughters total) but not individually named with dates in English Wikipedia — parents only.",
+      "a": {"id": "R3J_ALONSO7MEDINASIDONIA", "label": "Alonso Pérez de Guzmán<br/>1550-1615 · 7th Duke of Medina Sidonia; commander of the Spanish Armada · Wikipedia"},
+      "b": {"id": "R3J_ANADESILVAMENDOZA", "label": "Ana de Silva y Mendoza<br/>1561-1610 · Duchess of Medina Sidonia; dau. of the Princess of Éboli · Wikidata/Geni"},
+      "children": [
+        "R2K_DUKEMEDINASIDONIA"
+      ]
+    },
+    {
+      "note": "Magdalene of Brandenburg -> father John George, Elector of Brandenburg & mother Elisabeth of Anhalt-Zerbst (his third wife). Full siblings from that third marriage listed with years (Wikipedia). Joachim Ernst (1583-1625) is DEFINED HERE and reused by id string as the father in the Albert II of Brandenburg-Ansbach family below. Christian became Margrave of Brandenburg-Bayreuth. Half-siblings from John George's earlier marriages excluded (different mothers).",
+      "a": {"id": "R3J_JOHNGEORGEBRANDELECTOR", "label": "👑 John George<br/>1525-1598 · Elector of Brandenburg · Wikipedia"},
+      "b": {"id": "R3J_ELISABETHANHALTZERBST", "label": "Elisabeth of Anhalt-Zerbst<br/>1563-1607 · Electress of Brandenburg · Wikipedia"},
+      "children": [
+        "R2J_MAGDALENEBRANDENBURG",
+        {"id": "R3J_CHRISTIANBRANDBAYREUTH", "label": "Christian<br/>1581-1655 · Margrave of Brandenburg-Bayreuth · Wikipedia"},
+        {"id": "R3J_JOACHIMERNSTANSBACH", "label": "Joachim Ernst<br/>1583-1625 · Margrave of Brandenburg-Ansbach · Wikipedia"},
+        {"id": "R3J_AGNESBRAND1584", "label": "Agnes of Brandenburg<br/>1584-1629 · Wikipedia"},
+        {"id": "R3J_FREDERICKBRAND1588", "label": "Frederick of Brandenburg<br/>1588-1611 · Wikipedia"},
+        {"id": "R3J_ELISABETHSOPHIEBRAND", "label": "Elisabeth Sophia of Brandenburg<br/>1589-1629 · Wikipedia"},
+        {"id": "R3J_DOROTHEASIBYLLEBRAND", "label": "Dorothea Sibylle of Brandenburg<br/>1590-1625 · Wikipedia"},
+        {"id": "R3J_GEORGEALBERTBRAND", "label": "George Albert of Brandenburg<br/>1591-1615 · Wikipedia"},
+        {"id": "R3J_SIGISMUNDBRAND1592", "label": "Sigismund of Brandenburg<br/>1592-1640 · Wikipedia"},
+        {"id": "R3J_JOHNBRAND1597", "label": "John of Brandenburg<br/>1597-1627 · Wikipedia"},
+        {"id": "R3J_JOHNGEORGEBRAND1598", "label": "John George of Brandenburg<br/>1598-1637 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Ana de Velasco y Girón -> father Juan Fernández de Velasco, 5th Duke of Frías (Constable of Castile) & mother María Téllez-Girón (daughter of Pedro Téllez-Girón, 1st Duke of Osuna). Siblings not documented with dates in English Wikipedia — parents only.",
+      "a": {"id": "R3J_JUANFERNANDEZVELASCO", "label": "Juan Fernández de Velasco<br/>1550-1634 · 5th Duke of Frías; Constable of Castile · Wikipedia"},
+      "b": {"id": "R3J_MARIATELLEZGIRON", "label": "María Téllez-Girón<br/>Duchess of Frías; dau. of the 1st Duke of Osuna · Wikipedia"},
+      "children": [
+        "R2J_ANAVELASCO"
+      ]
+    },
+    {
+      "note": "Francesco I d'Este -> father Alfonso III d'Este, Duke of Modena (who abdicated in 1629 to become a Capuchin friar) & mother Isabella of Savoy (dau. of Charles Emmanuel I, Duke of Savoy). Full siblings listed with years (Wikipedia); Cesare died in childhood.",
+      "a": {"id": "R3J_ALFONSO3ESTE", "label": "Alfonso III d'Este<br/>1591-1644 · Duke of Modena; later Capuchin friar · Wikipedia"},
+      "b": {"id": "R3J_ISABELLASAVOY", "label": "Isabella of Savoy<br/>1591-1626 · Duchess of Modena · Wikipedia"},
+      "children": [
+        "R2K_FRANCESCOIESTE",
+        {"id": "R3J_CESAREESTE1609", "label": "Cesare d'Este<br/>1609-1613 · died in childhood · Wikipedia"},
+        {"id": "R3J_OBIZZOESTE", "label": "Obizzo d'Este<br/>1611-1644 · Bishop of Modena · Wikipedia"},
+        {"id": "R3J_RINALDOESTECARD", "label": "✝ Rinaldo d'Este<br/>1618-1672 · Cardinal · Wikipedia"},
+        {"id": "R3J_MARGHERITAESTE1619", "label": "Margherita d'Este<br/>1619-1692 · m. Ferrante III Gonzaga, Duke of Guastalla · Wikipedia"},
+        {"id": "R3J_ANNABEATRICEESTE", "label": "Anna Beatrice d'Este<br/>1626-1690 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Maria Caterina Farnese (called Maria in some sources) -> father Ranuccio I Farnese, Duke of Parma & mother Margherita Aldobrandini. Surviving full siblings listed with years (Wikipedia); stillborn/miscarried children omitted. Her sister Vittoria became Francesco I d'Este's SECOND wife (noted in the round-2 file).",
+      "a": {"id": "R3J_RANUCCIO1FARNESE", "label": "Ranuccio I Farnese<br/>1569-1622 · Duke of Parma · Wikipedia"},
+      "b": {"id": "R3J_MARGHERITAALDOBRANDINI", "label": "Margherita Aldobrandini<br/>1588-1646 · Duchess of Parma · Wikipedia"},
+      "children": [
+        "R2K_MARIACATFARNESE",
+        {"id": "R3J_ALESSANDROFARNESE1610", "label": "Alessandro Farnese<br/>1610-1630 · excluded from the succession · Wikipedia"},
+        {"id": "R3J_ODOARDO1FARNESE", "label": "Odoardo Farnese<br/>1612-1646 · Duke of Parma · Wikipedia"},
+        {"id": "R3J_VITTORIAFARNESE1618", "label": "Vittoria Farnese<br/>1618-1649 · 2nd wife of Francesco I d'Este · Wikipedia"},
+        {"id": "R3J_FRANCESCOMARIAFARNESECARD", "label": "✝ Francesco Maria Farnese<br/>1620-1647 · Cardinal · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Albert II, Margrave of Brandenburg-Ansbach -> father Joachim Ernst, Margrave of Brandenburg-Ansbach (R3J_JOACHIMERNSTANSBACH, DEFINED ABOVE as a son of John George, Elector of Brandenburg; referenced here by id string — no double-parenting) & mother Sophie of Solms-Laubach. Full siblings listed with years (Wikipedia); a son Albert was stillborn (1617) and is omitted.",
+      "a": "R3J_JOACHIMERNSTANSBACH",
+      "b": {"id": "R3J_SOPHIESOLMSLAUBACH", "label": "Sophie of Solms-Laubach<br/>1594-1651 · Margravine of Brandenburg-Ansbach · Wikipedia"},
+      "children": [
+        "R2K_ALBERTIIANSBACH",
+        {"id": "R3J_SOPHIEANSBACH1614", "label": "Sophie of Brandenburg-Ansbach<br/>1614-1646 · Wikipedia"},
+        {"id": "R3J_FREDERICK3ANSBACH", "label": "Frederick III<br/>1616-1634 · Margrave of Brandenburg-Ansbach; killed in the Thirty Years' War · Wikipedia"},
+        {"id": "R3J_CHRISTIANANSBACH1623", "label": "Christian of Brandenburg-Ansbach<br/>1623-1633 · died in childhood · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Johannetta of Sayn-Wittgenstein -> father Ernest, Count of Sayn-Wittgenstein-Sayn (who died three months before her birth in 1632) & mother Louise Juliane of Erbach; she was the sixth and youngest child. Named siblings added (Louis, who succeeded as Count and died 1636; and Ernestine Salentine); the remaining siblings are not documented with dates in English Wikipedia. No birth/death years given for the parents.",
+      "a": {"id": "R3J_ERNESTSAYNWITTGENSTEIN", "label": "Ernest<br/>d.1632 · Count of Sayn-Wittgenstein-Sayn · Wikipedia"},
+      "b": {"id": "R3J_LOUISEJULIANEERBACH", "label": "Louise Juliane of Erbach<br/>Countess of Sayn-Wittgenstein-Sayn · Wikipedia"},
+      "children": [
+        "R2K_JOHANNETTASAYNWITT",
+        {"id": "R3J_LOUISSAYNWITTGENSTEIN", "label": "Louis<br/>d.1636 · Count of Sayn-Wittgenstein-Sayn · Wikipedia"},
+        {"id": "R3J_ERNESTINESALENTINESAYN", "label": "Ernestine Salentine of Sayn-Wittgenstein<br/>· Wikipedia"}
+      ]
+    },
+    {
+      "note": "John George I, Duke of Saxe-Eisenach -> father William, Duke of Saxe-Weimar & mother Eleonore Dorothea of Anhalt-Dessau. Full siblings listed with years (Wikipedia); several ruled the partitioned Ernestine duchies (John Ernest II of Saxe-Weimar, Adolf Wilhelm of Saxe-Eisenach, Bernhard II of Saxe-Jena).",
+      "a": {"id": "R3J_WILLIAMSAXEWEIMAR", "label": "William<br/>1598-1662 · Duke of Saxe-Weimar · Wikipedia"},
+      "b": {"id": "R3J_ELEONOREDOROTHEADESSAU", "label": "Eleonore Dorothea of Anhalt-Dessau<br/>1602-1664 · Duchess of Saxe-Weimar · Wikipedia"},
+      "children": [
+        "R2K_JOHNGEORGISAXEEISEN",
+        {"id": "R3J_WILLIAMSAXEWEIMAR1626", "label": "William of Saxe-Weimar<br/>1626-1626 · died in infancy · Wikipedia"},
+        {"id": "R3J_JOHNERNEST2SAXEWEIMAR", "label": "John Ernest II<br/>1627-1683 · Duke of Saxe-Weimar · Wikipedia"},
+        {"id": "R3J_JOHNWILLIAMSAXEWEIMAR", "label": "John William of Saxe-Weimar<br/>1630-1639 · Wikipedia"},
+        {"id": "R3J_ADOLFWILHELMSAXEEISEN", "label": "Adolf Wilhelm<br/>1632-1668 · Duke of Saxe-Eisenach · Wikipedia"},
+        {"id": "R3J_WILHELMINEELEONORESW", "label": "Wilhelmine Eleonore of Saxe-Weimar<br/>1636-1653 · Wikipedia"},
+        {"id": "R3J_BERNHARD2SAXEJENA", "label": "Bernhard II<br/>1638-1678 · Duke of Saxe-Jena · Wikipedia"},
+        {"id": "R3J_FREDERICKSAXEWEIMAR1640", "label": "Frederick of Saxe-Weimar<br/>1640-1656 · Wikipedia"},
+        {"id": "R3J_DOROTHEAMARIESAXEWEIMAR", "label": "Dorothea Marie of Saxe-Weimar<br/>1641-1675 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Sophie Margarete of Oettingen-Oettingen -> father Joachim Ernst, Count of Oettingen-Oettingen & mother Anna Sibylle of Solms-Sonnenwalde (his first wife, who died in 1635, the year after Sophie Margarete's birth). Her father remarried twice more; half-siblings (incl. Albrecht Ernst I, 1st Prince of Oettingen-Oettingen) are from those later marriages and are not added here. No full sibling documented with dates. Mother's identity per Familypedia/Wikidata.",
+      "a": {"id": "R3J_JOACHIMERNSTOETTINGEN", "label": "Joachim Ernst<br/>1612-1658 · Count of Oettingen-Oettingen · Wikipedia"},
+      "b": {"id": "R3J_ANNASIBYLLESOLMSSONNEN", "label": "Anna Sibylle of Solms-Sonnenwalde<br/>c.1615-1635 · Countess of Oettingen-Oettingen · Familypedia/Wikidata"},
+      "children": [
+        "R2K_SOPHIEMARGOETTINGEN"
+      ]
+    },
+    {
+      "note": "Henry Hyde of Dinton (father of Edward Hyde, 1st Earl of Clarendon) -> father Lawrence Hyde I of Gussage St Michael (MP, d.1590) & mother Anne Sybill. Notable brothers added: Sir Nicholas Hyde (Lord Chief Justice) and Lawrence Hyde II (attorney-general to Anne of Denmark); Lawrence Hyde I had many other children not enumerated here. No years documented for the mother.",
+      "a": {"id": "R3J_LAWRENCEHYDE1", "label": "Lawrence Hyde<br/>d.1590 · MP; of Gussage St Michael, Dorset · Wikipedia"},
+      "b": {"id": "R3J_ANNESYBILLHYDE", "label": "Anne Sybill<br/>wife of Lawrence Hyde · Wikipedia"},
+      "children": [
+        "R2J_HENRYHYDE_DINTON",
+        {"id": "R3J_NICHOLASHYDE", "label": "Sir Nicholas Hyde<br/>c.1572-1631 · Lord Chief Justice of England · Wikipedia"},
+        {"id": "R3J_LAWRENCEHYDE2", "label": "Lawrence Hyde<br/>1562-1641 · attorney-general to Anne of Denmark · Wikipedia"}
+      ]
+    }
+  ]
+}

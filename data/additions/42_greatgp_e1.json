@@ -1,0 +1,197 @@
+{
+  "_note": "ROUND 3 (great-grandparents) for batch e_1400_1750_1 (early-modern round-2 grandparents, 1400-1750). For each round-2 node in the batch, its documented parents are added one generation further back (new nodes use the R3H_ prefix). Filled 31 of 34 batch ids across 30 families (Elizabeth Cheney occupies ONE family for her two duplicate ids). Skipped 3: R2L_JOHNSAY (Sir John Say's parentage is unconfirmed/disputed — competing Podington-Saye, Heron, and Fiennes theories, none documented), R2L_ALICE_STOURTONW (only 'Alice', 2nd wife of the elder John Stourton; her own parentage undocumented), and R2L_JOHNSTOURTON_D1438 (see DEDUP/DATA-ERROR flag below). MAJOR DEDUP / CROSS-LINKS: (1) Antoine of Vaudémont's father Ferry I of Lorraine, Count of Vaudémont, is added as an ADDITIONAL documented child of the EXISTING R2H_JOHNIDUKELORRAINE + R2H_SOPHIEWURTTEMBERG union (younger brother of the existing Charles II of Lorraine) rather than re-creating that generation; (2) Ferdinand I 'Ferrante' of Naples is the illegitimate son of the EXISTING R2I_ALFONSO5_ARAGON (Alfonso V) by his mistress Giraldona Carlino (new node) — father referenced, not duplicated; (3) Beatriz of Portugal, Duchess of Viseu, is added as an ADDITIONAL child of the EXISTING JOHNCONST (John, Constable of Portugal) + ISABBARCELOS (Isabel of Barcelos) union — full sister of the existing ISABPORT (Isabella of Portugal, Queen of Castile) — no new grandparents created; (4) John Stewart, 1st Earl of Atholl, is the son of Sir James Stewart the Black Knight of Lorne (new node) by the EXISTING JOANBEAUSCOT (Joan Beaufort, dowager Queen of Scots) — mother referenced, not duplicated; full brothers James (Earl of Buchan) and Andrew (Bishop of Moray) added. DATA-ERROR FLAG (pre-existing, not editable here): the round-2 file 41_grandparents_undated.json pairs R2L_JOHNSTOURTON_D1438 (Sir John Stourton d.1438) AS SPOUSE of R2L_ALICE_STOURTONW (Alice d.1407) and makes them parents of Edith Stourton. This is a generational conflation: historically Alice (d.1407) was the SECOND WIFE of the ELDER John Stourton of Stourton (c.1334-1406), and John (d.1438, the escheator) and Edith were both their CHILDREN (History of Parliament; soc.genealogy.medieval). Correctly adding John d.1438's parents (John Stourton the elder + Alice) would make R2L_ALICE_STOURTONW simultaneously his wife and his mother, a contradiction/cycle. Both Stourton-undated nodes are therefore SKIPPED for round 3 and the conflation flagged for a future correction pass. DISPUTE/SOURCE FLAGS: Amerigo Sanseverino's parents (Filippo Sanseverino, Count of Matera, & Elisabetta d'Aquino) and Richard Culpeper's parents (Sir William Culpeper & Elizabeth Ferrers) and Elizabeth Coker's parents (Sir Robert Coker & Joan Wallys) rest on genealogical compilations (Geneanet/Geni/WikiTree/thepeerage) rather than a dedicated Wikipedia article — sourced accordingly in each note. Web-verified July 2026 against Wikipedia (English/French) and, where flagged, genealogical databases. 👑 = reigning kings/emperors only; ✝ = clergy.",
+  "families": [
+    {
+      "a": "R2H_JOHNIDUKELORRAINE",
+      "b": "R2H_SOPHIEWURTTEMBERG",
+      "children": [
+        {"id": "R3H_FERRY1_VAUDEMONT", "label": "Ferry I of Lorraine<br/>c.1369-1415 · Count of Vaudémont &amp; Sire de Joinville; killed at Agincourt · Wikipedia"}
+      ],
+      "note": "Ferry I (Frédéric) of Lorraine, Count of Vaudémont, was a younger son of the existing John I, Duke of Lorraine, & Sophie of Württemberg — younger brother of the existing Charles II of Lorraine (SPG_CHARLES2LORRAINE). Added as an additional child of that existing union rather than re-creating the grandparents. Wikipedia."
+    },
+    {
+      "a": "R3H_FERRY1_VAUDEMONT",
+      "b": {"id": "R3H_MARGUERITE_JOINVILLE", "label": "Marguerite de Joinville<br/>d.1417 · Countess of Vaudémont, heiress of Joinville · Wikipedia"},
+      "children": ["R2I_ANTOINE_VAUDEMONT"],
+      "note": "Antoine, Count of Vaudémont, is the documented son of Ferry I of Lorraine, Count of Vaudémont, & Marguerite de Joinville (who brought him the lordship of Joinville). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_RUDOLF3_SAXEWITT", "label": "Rudolf III<br/>c.1373-1419 · Duke of Saxe-Wittenberg &amp; Elector of Saxony · Wikipedia"},
+      "b": {"id": "R3H_BARBARA_LIEGNITZ", "label": "Barbara of Liegnitz<br/>· of Silesia-Liegnitz, 2nd wife of Rudolf III · Wikipedia"},
+      "children": ["R2I_BARBARA_SAXEWITT"],
+      "note": "Barbara of Saxe-Wittenberg was the eldest daughter of Rudolf III, Duke of Saxe-Wittenberg and Elector of Saxony, by his second wife Barbara of Silesia-Liegnitz. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_GUY13_LAVAL", "label": "Guy XIII de Laval<br/>1385-1414 · Count of Laval (born Jean de Montfort) · Wikipedia"},
+      "b": {"id": "R3H_ANNE_LAVAL", "label": "Anne de Laval<br/>1385-1466 · Countess of Laval in her own right · Wikipedia"},
+      "children": ["R2I_JEANNE_LAVAL_VENDOME"],
+      "note": "Jeanne de Laval (2nd wife of Louis I of Vendôme) was daughter of Guy XIII, Count of Laval (born Jean de Montfort, who took the name/arms of Laval on marrying the heiress) & Anne de Laval. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_FREDERICK1_BRANDENBURG", "label": "Frederick I<br/>1371-1440 · Elector of Brandenburg; first Hohenzollern elector · Wikipedia"},
+      "b": {"id": "R3H_ELISABETH_BAVARIA_BRAND", "label": "Elisabeth of Bavaria-Landshut<br/>1383-1442 · Electress of Brandenburg · Wikipedia"},
+      "children": ["R2I_JOHN_BRANDKULM"],
+      "note": "John 'the Alchemist', Margrave of Brandenburg-Kulmbach, was the eldest son of Frederick I, Elector of Brandenburg, & Elisabeth of Bavaria-Landshut. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_GEOFFREYBOLEYN_SALLE", "label": "Geoffrey Boleyn<br/>d.1440 · yeoman of Salle, Norfolk · Wikipedia"},
+      "b": {"id": "R3H_ALICE_BRACTON", "label": "Alice Bracton<br/>· dau. &amp; heiress of Sir John Bracton of Norfolk · Wikipedia"},
+      "children": ["R2J_GEOFFREYBOLEYN"],
+      "note": "Geoffrey Boleyn, Lord Mayor of London, was son of the elder Geoffrey Boleyn (d.1440) of Salle & his wife Alice, née Bracton, heiress of Sir John Bracton. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_WILLIAM3_FERRERS_GROBY", "label": "William de Ferrers<br/>c.1333-1371 · 3rd Baron Ferrers of Groby · Wikipedia"},
+      "b": {"id": "R3H_MARGARET_UFFORD", "label": "Margaret de Ufford<br/>· dau. &amp; co-heiress of Robert Ufford, Earl of Suffolk · Wikipedia"},
+      "children": ["R2H_MARGARETFERRERS"],
+      "note": "Margaret Ferrers, Countess of Warwick, was daughter of William de Ferrers, 3rd Baron Ferrers of Groby, & Margaret de Ufford (co-heiress of the Earl of Suffolk). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_PIERRE_BEAUVAU", "label": "Pierre de Beauvau<br/>· Baron of Beauvau · Wikipedia"},
+      "b": {"id": "R3H_JEANNE_CRAON", "label": "Jeanne de Craon<br/>· dau. of Pierre de Craon · Wikipedia"},
+      "children": ["R2I_LOUIS_BEAUVAU"],
+      "note": "Louis de Beauvau, seneschal of Anjou, was son of Pierre de Beauvau, Baron of Beauvau, & Jeanne de Craon (dau. of Pierre de Craon). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_THOMAS3_SALUZZO", "label": "Thomas III<br/>1356-1416 · Marquess of Saluzzo · Wikipedia"},
+      "b": {"id": "R3H_MARGUERITE_PIERREPONT", "label": "Marguerite de Pierrepont<br/>· of Roucy, dau. of Hugh II de Pierrepont, Count of Roucy · Wikipedia"},
+      "children": ["R2I_RICCIARDA_SALUZZO"],
+      "note": "Ricciarda of Saluzzo (3rd wife of Niccolò III d'Este) was daughter of Thomas III, Marquess of Saluzzo, & his French wife Marguerite de Pierrepont (of Roucy). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_AMADEUS8_SAVOY", "label": "Amadeus VIII 'the Peaceful'<br/>1383-1451 · Duke of Savoy; later Antipope Felix V · Wikipedia"},
+      "b": {"id": "R3H_MARY_BURGUNDY_SAVOY", "label": "Mary of Burgundy<br/>1386-1422 · Duchess of Savoy, dau. of Philip the Bold · Wikipedia"},
+      "children": ["R2I_LOUIS_DUKE_SAVOY"],
+      "note": "Louis, Duke of Savoy, was son of Amadeus VIII (first Duke of Savoy, later Antipope Felix V) & Mary of Burgundy (daughter of Philip the Bold, Duke of Burgundy). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_FILIPPO_SANSEVERINO", "label": "Filippo Sanseverino<br/>· Count of Matera · Geneanet"},
+      "b": {"id": "R3H_ELISABETTA_AQUINO", "label": "Elisabetta d'Aquino<br/>· of the d'Aquino family · Geneanet"},
+      "children": ["R2J_AMERIGOSANSEVERINO"],
+      "note": "Amerigo Sanseverino, 1st Count of Capaccio, is recorded as son of Filippo Sanseverino, Count of Matera, & Elisabetta d'Aquino. SOURCE FLAG: rests on genealogical compilations (Geneanet/Geni), not a dedicated Wikipedia biography."
+    },
+    {
+      "a": {"id": "R3H_BERTRAND5_LATOUR", "label": "Bertrand V de La Tour<br/>1390-1461 · Count of Auvergne and Boulogne · Wikipedia"},
+      "b": {"id": "R3H_JACQUETTE_PESCHIN", "label": "Jacquette du Peschin<br/>c.1395-1473 · dau. of Louis, lord of Peschin · Wikipedia"},
+      "children": ["R2J_BERTRAND6AUVERGNE"],
+      "note": "Bertrand VI de La Tour, Count of Auvergne and Boulogne, was son of Bertrand V de La Tour d'Auvergne & Jacquette du Peschin (m. 1416). Wikipedia (fr)."
+    },
+    {
+      "a": {"id": "R3H_JANUS_CYPRUS", "label": "👑 Janus<br/>1375-1432 · King of Cyprus, Armenia &amp; Jerusalem (House of Lusignan) · Wikipedia"},
+      "b": {"id": "R3H_CHARLOTTE_BOURBON_CYPRUS", "label": "Charlotte de Bourbon<br/>c.1388-1422 · Queen of Cyprus; of Bourbon-La Marche · Wikipedia"},
+      "children": ["R2I_ANNE_CYPRUS"],
+      "note": "Anne of Lusignan (Anne of Cyprus), Duchess of Savoy, was daughter of Janus, King of Cyprus, & his second wife Charlotte de Bourbon (of the Bourbon-La Marche line). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_LAWRENCE_CHENEY", "label": "Lawrence Cheney<br/>c.1396-1461 · High Sheriff of Cambridgeshire · Wikipedia"},
+      "b": {"id": "R3H_ELIZABETH_COKAYNE", "label": "Elizabeth Cokayne<br/>· dau. of John Cokayne of Bury Hatley · Wikipedia"},
+      "children": ["R2L_ELIZABETHCHENEY", "R2J_ELIZCHENEY_TILNEY"],
+      "note": "Elizabeth Cheney (1422-1473, Lady Say) was the eldest child of Lawrence Cheney, High Sheriff of Cambridgeshire, & Elizabeth Cokayne. NOTE: R2L_ELIZABETHCHENEY and R2J_ELIZCHENEY_TILNEY are the SAME woman created under two ids (she married firstly Sir Frederick Tilney, secondly Sir John Say) — both listed as children of this single union. Wikipedia."
+    },
+    {
+      "a": "R2I_ALFONSO5_ARAGON",
+      "b": {"id": "R3H_GIRALDONA_CARLINO", "label": "Giraldona Carlino<br/>· mistress of Alfonso V of Aragon · Wikipedia"},
+      "children": ["R2J_FERRANTE1NAPLES"],
+      "note": "Ferdinand I 'Ferrante', King of Naples, was the illegitimate (later legitimized) son of the existing Alfonso V of Aragon (R2I_ALFONSO5_ARAGON) by his mistress Giraldona Carlino — father referenced by id, mother a new node. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_THOMAS_HOO", "label": "Thomas Hoo<br/>c.1396-1455 · Baron Hoo and Hastings, KG · Wikipedia"},
+      "b": {"id": "R3H_ELIZABETH_WYCHINGHAM", "label": "Elizabeth Wychingham<br/>· 1st wife of Thomas Hoo · Wikipedia"},
+      "children": ["R2J_ANNEHOO"],
+      "note": "Anne Hoo (wife of Geoffrey Boleyn) was the only child of Thomas Hoo, Baron Hoo and Hastings, by his first wife Elizabeth Wychingham. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_WILLIAM_MOLEYNS", "label": "Sir William Moleyns<br/>1378-1425 · of Stoke Poges; died at the Siege of Orleans · Wikipedia"},
+      "b": {"id": "R3H_MARGERY_WHALESBOROUGH", "label": "Margery Whalesborough<br/>d.1439 · Baroness Moleyns · Wikipedia"},
+      "children": ["R2I_CATHERINE_MOLEYNS"],
+      "note": "Catherine Moleyns (1st wife of John Howard) was daughter of Sir William Moleyns & Margery Whalesborough. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_TRISTAN_CLERMONT", "label": "Tristan de Clermont<br/>· Count of Copertino · Wikipedia"},
+      "b": {"id": "R3H_CATERINA_ORSINI_BALZO", "label": "Caterina Orsini del Balzo<br/>· of Taranto, dau. of Raimondo Orsini del Balzo &amp; Maria d'Enghien · Wikipedia"},
+      "children": ["R2J_ISABELLACLERMONT"],
+      "note": "Isabella of Clermont, Queen of Naples, was elder daughter of Tristan de Clermont, Count of Copertino, & Caterina Orsini del Balzo (through whom she inherited the Principality of Taranto). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_JOHN_SEYMOUR_WULFHALL", "label": "Sir John Seymour<br/>c.1402-1464 · of Wulfhall, Wiltshire · Wikipedia"},
+      "b": {"id": "R3H_ISABEL_WILLIAMS", "label": "Isabel Williams<br/>d.1486 · dau. of Mark Williams, Mayor of Bristol · Wikipedia"},
+      "children": ["R2I_JOHN_SEYMOUR_SHERIFF"],
+      "note": "John Seymour (High Sheriff of Wiltshire, d.1463) was son of Sir John Seymour of Wulfhall & Isabel Williams (dau. of Mark Williams, Mayor of Bristol). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_GERHARD6_JULICH_BERG", "label": "Gerhard VI of Jülich<br/>d.1360 · Count of Berg and Ravensberg · Wikipedia"},
+      "b": {"id": "R3H_MARGARET_RAVENSBERG", "label": "Margaret of Ravensberg<br/>· dau. &amp; heiress of Otto IV, Count of Ravensberg · Wikipedia"},
+      "children": ["R2H_MARGARETJULICH"],
+      "note": "Margaret of Jülich (wife of Adolf III of the Marck & Cleves) was daughter of Gerhard VI of Jülich, Count of Berg and Ravensberg, & Margaret of Ravensberg. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_ROBERT_HOWARD", "label": "Sir Robert Howard<br/>1385-1436 · of Tendring Hall, Stoke-by-Nayland · Wikipedia"},
+      "b": {"id": "R3H_MARGARET_MOWBRAY", "label": "Margaret Mowbray<br/>1391-1459 · dau. of Thomas Mowbray, 1st Duke of Norfolk · Wikipedia"},
+      "children": ["R2I_JOHN_HOWARD_1DUKE"],
+      "note": "John Howard, 1st Duke of Norfolk, was son of Sir Robert Howard & Margaret Mowbray (through whom the Howards inherited the Norfolk dukedom and descent from Thomas of Brotherton). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_WILLIAM_CULPEPER", "label": "Sir William Culpeper<br/>· of Oxon Hoath; High Sheriff of Kent 1426-27 · genealogical"},
+      "b": {"id": "R3H_ELIZABETH_FERRERS_CULPEPER", "label": "Elizabeth Ferrers<br/>· wife of Sir William Culpeper · genealogical"},
+      "children": ["R2J_RICHARDCULPEPER"],
+      "note": "Sir Richard Culpeper of Oxon Hoath is recorded as son of Sir William Culpeper (High Sheriff of Kent, from whom Oxon Hoath passed to him) & Elizabeth Ferrers. SOURCE FLAG: genealogical compilations (WikiTree/Geni/thepeerage), not a dedicated Wikipedia biography."
+    },
+    {
+      "a": "JOHNCONST",
+      "b": "ISABBARCELOS",
+      "children": ["R2J_BEATRIZVISEU"],
+      "note": "Beatriz of Portugal, Duchess of Viseu and Beja, was daughter of the existing John, Constable of Portugal (JOHNCONST, Lord of Reguengos), & Isabel of Barcelos (ISABBARCELOS) — full sister of the existing Isabella of Portugal, Queen of Castile (ISABPORT). Added as an additional child of the existing union; no new grandparents created. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_RICHARD_HANKFORD", "label": "Sir Richard Hankford<br/>d.1431 · feudal baron of Bampton, Devon · Wikipedia"},
+      "b": {"id": "R3H_ANNE_MONTAGU", "label": "Anne Montagu<br/>· dau. of John Montagu, 3rd Earl of Salisbury · Wikipedia"},
+      "children": ["R2J_ANNEHANKFORD"],
+      "note": "Anne Hankford, Countess of Ormond, was daughter and co-heiress of Sir Richard Hankford of Annery by his second wife Anne Montagu (dau. of John Montagu, 3rd Earl of Salisbury, and thus sister of the existing Thomas Montagu, 4th Earl, R2I_THOMAS_MONTAGU). Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_GEORGES1_TREMOILLE", "label": "Georges I de La Trémoille<br/>1382-1446 · Grand Chamberlain; favorite of Charles VII · Wikipedia"},
+      "b": {"id": "R3H_CATHERINE_ISLEBOUCHARD", "label": "Catherine de l'Isle-Bouchard<br/>· Dame de l'Isle-Bouchard · Wikipedia"},
+      "children": ["R2J_LOUISETREMOILLE"],
+      "note": "Louise de La Trémoille (wife of Bertrand VI de La Tour d'Auvergne) was daughter of Georges I de La Trémoille & Catherine de l'Isle-Bouchard. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_JOHN1_BARON_STOURTON", "label": "John Stourton<br/>1400-1462 · 1st Baron Stourton · Wikipedia"},
+      "b": {"id": "R3H_MARGERY_WADHAM", "label": "Margery Wadham<br/>c.1411-1462 · Baroness Stourton · Wikipedia"},
+      "children": ["R2J_MARGARETSTOURTON"],
+      "note": "Margaret Stourton (b.c.1433, m. Sir George Darell of Littlecote) was daughter of John Stourton, 1st Baron Stourton, & Margery Wadham. NOTE: a DIFFERENT Margaret Stourton (Abbess of Shaftesbury, existing R2L_MARGARETSTOURTON) belongs to the earlier, separate escheator branch. Wikipedia / thepeerage."
+    },
+    {
+      "a": {"id": "R3H_GERHARD6_HOLSTEIN", "label": "Gerhard VI<br/>c.1367-1404 · Count of Holstein-Rendsburg, Duke of Schleswig · Wikipedia"},
+      "b": {"id": "R3H_ELISABETH_BRUNSWICK_HOLSTEIN", "label": "Elisabeth of Brunswick-Grubenhagen<br/>· Countess of Holstein-Rendsburg · Wikipedia"},
+      "children": ["R2I_HEDWIG_HOLSTEIN"],
+      "note": "Hedwig of Holstein (wife of Dietrich of Oldenburg, mother of Christian I of Denmark) was daughter of Gerhard VI, Count of Holstein-Rendsburg and Duke of Schleswig, & Elisabeth of Brunswick-Grubenhagen. Wikipedia. (Distinct from the batch's Gerhard VI of Oldenburg, R2I_GERHARD6_OLDENBURG.)"
+    },
+    {
+      "a": {"id": "R3H_ROBERT_COKER", "label": "Sir Robert Coker<br/>c.1380-c.1441 · of Lydeard St Lawrence, Somerset · genealogical"},
+      "b": {"id": "R3H_JOAN_WALLYS", "label": "Joan Wallys<br/>· wife of Sir Robert Coker · genealogical"},
+      "children": ["R2I_ELIZABETH_COKER"],
+      "note": "Elizabeth Coker (2nd wife of John Seymour) was daughter of Sir Robert Coker of Lydeard St Lawrence, Somerset, & Joan Wallys. SOURCE FLAG: genealogical compilations (Geni/thepeerage); mother's identity less firmly attested."
+    },
+    {
+      "a": {"id": "R3H_CHRISTIAN5_OLDENBURG", "label": "Christian V<br/>c.1342-1399 · Count of Oldenburg · Wikipedia"},
+      "b": {"id": "R3H_AGNES_HOHNSTEIN", "label": "Agnes of Hohnstein<br/>c.1340-c.1404 · Countess of Oldenburg · Wikipedia"},
+      "children": ["R2I_DIETRICH_OLDENBURG"],
+      "note": "Dietrich 'the Fortunate', Count of Oldenburg (father of Christian I of Denmark), was son of Christian V, Count of Oldenburg, & Agnes of Hohnstein. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_JAMES_BLACKKNIGHT", "label": "Sir James Stewart<br/>c.1383-1451 · the Black Knight of Lorne · Wikipedia"},
+      "b": "JOANBEAUSCOT",
+      "children": [
+        "R2J_JOHN1ATHOLL",
+        {"id": "R3H_JAMES_BUCHAN", "label": "James Stewart<br/>d.1499 · Earl of Buchan · Wikipedia"},
+        {"id": "R3H_ANDREW_MORAY", "label": "✝ Andrew Stewart<br/>c.1443-1501 · Bishop of Moray · Wikipedia"}
+      ],
+      "note": "John Stewart, 1st Earl of Atholl, was the eldest child of Sir James Stewart the Black Knight of Lorne (new node) & the existing Joan Beaufort, dowager Queen of Scots (JOANBEAUSCOT), by her second marriage — mother referenced by id. Full brothers James (Earl of Buchan) and Andrew (Bishop of Moray) added. Wikipedia."
+    },
+    {
+      "a": {"id": "R3H_GEORGE4_ANGUS", "label": "George Douglas<br/>c.1417-1463 · 4th Earl of Angus · Wikipedia"},
+      "b": {"id": "R3H_ISABEL_SIBBALD", "label": "Isabella Sibbald<br/>· dau. of the Master of the Household of James II · Wikipedia"},
+      "children": ["R2J_ARCHIBALD5ANGUS"],
+      "note": "Archibald Douglas 'Bell-the-Cat', 5th Earl of Angus, was the eldest son of George Douglas, 4th Earl of Angus (head of the Red Douglas line), & Isabella Sibbald. Wikipedia."
+    }
+  ]
+}

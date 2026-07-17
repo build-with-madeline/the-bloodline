@@ -1,0 +1,225 @@
+{
+  "_note": "ROUND 3 (great-grandparents) for batch d_800_1400_4 (medieval 800-1400 AD): documented parents (+ selected notable full siblings) for the 34 round-2 grandparent ids in that batch, going ONE generation further back. NEW nodes use the R3E_ prefix. 31 of 34 filled; 3 SKIPPED as insufficiently documented (no fabrication): (a) R2I_MARGUERITE_AULNAY (Marguerite d'Aulnay, wife of Bertrand III des Baux) — her parents (Robert d'Aulnay + Isabella Stendardo) appear only in user-generated genealogy databases (Geni/WikiTree/MyHeritage), no Wikipedia or scholarly source; (b) R2H_FERNANGUTIERREZHINESTROSA (Fernán Gutiérrez de Hinestrosa) — his own parents are named only in an 18th-c. genealogy (Juan de Ariza, 1772) which gives TWO possible mothers, no reliable primary/modern source (his wife Estefanía and children are documented, but not his ascendancy); (c) R2H_MALCOLMDRUMMOND10 (Sir Malcolm Drummond, '10th Thane of Lennox') — the Drummond 'Thanes of Lennox' pedigree is a discredited later construct; sources are genealogy databases only (Geni/thePeerage) and the mother is unnamed ('a daughter of Graham'). MAJOR DEDUP / CROSS-LINKS to EXISTING nodes (grepped before writing): (1) R2F_JAMESII_ARAGON (James II of Aragon) ALREADY EXISTS (created in 41_grandparents_d3.json as a child of R2F_PETERIII_ARAGON + R2F_CONSTANCE_SICILY_ARAGON) — referenced as father of Alfonso IV, NOT duplicated; (2) R2F_FREDERICKIII_SICILY (Frederick III of Sicily) LIKEWISE ALREADY EXISTS in d3 — referenced as father of Peter II of Sicily, not duplicated (so Alfonso IV of Aragon and Peter II of Sicily are documented first cousins, both grandsons of Peter III the Great); (3) Blanche of Anjou (mother of Alfonso IV) and Eleanor of Anjou (mother of Peter II of Sicily) are BOTH added as daughters of the EXISTING R2G_CHARLES2_NAPLES + R2G_MARY_HUNGARY union (from 41_grandparents_d4.json) — i.e. Charles II of Naples is great-grandfather of both cousins; (4) Manuel of Castile (father of Juan Manuel of Villena) is added as a son of the EXISTING FERDIII + BEATSWAB union (Ferdinand III of Castile & Beatrice of Swabia, base tree); (5) Elizabeth of Rhuddlan (mother of William de Bohun) is added as a daughter of the EXISTING EI + EOC union (Edward I & Eleanor of Castile, base tree); (6) Philip III of Navarre (father of Charles II of Navarre) is added as a son of the EXISTING R2G_LOUIS_EVREUX (Louis, Count of Évreux, from d4) with a new mother node Margaret of Artois; (7) Louis I of Anjou and Philip the Bold of Burgundy are BOTH merged as sons of the EXISTING JOHNIIFR + BONNELUX union (John II of France & Bonne of Luxembourg, base tree); (8) the shared new node R3E_LOUIS4_HRE (Louis IV, Holy Roman Emperor) parents BOTH Stephen II of Bavaria (by 1st wife Beatrix of Świdnica) and Albert I of Bavaria (by 2nd wife Margaret II of Hainaut); (9) within-batch kin link: Guy IV de Châtillon, Count of Saint-Pol (father of Mahaut de Châtillon-Saint-Pol, the 1293 one / 3rd wife of Charles of Valois) also parents a new son Jean de Châtillon, who is in turn the father of the OTHER batch Mahaut de Châtillon (the 1335 Countess of Saint-Pol) — so the two Mahauts are documented aunt & niece. DISAMBIGUATION: R2H_JOHNIDUKELORRAINE's mother 'Marie of Blois' (R3E_MARIE_BLOIS_LORRAINE, d.1380, dau. of Guy I of Blois-Châtillon, 2nd wife of Rudolph of Lorraine) is a DIFFERENT woman from the batch's own R2H_MARIEDEBLOISCHATILLON (Marie of Blois-Châtillon, 1345-1404, Duchess of Anjou, dau. of Charles of Blois) — kept as separate nodes. Sourced to Wikipedia except where flagged; the des Baux/Orsini-Nola, Beaumont-au-Maine, and Castilian Guzmán lines are Wikipedia + specialist genealogy where noted (Beaumont father flagged moderate-confidence). 👑 reserved for regnant kings/queens/emperors. Verified 2026-07-17.",
+  "families": [
+    {
+      "a": {"id": "R3E_JOHN2_AVESNES", "label": "John II of Avesnes<br/>1247-1304 · Count of Hainaut &amp; Holland · Wikipedia"},
+      "b": {"id": "R3E_PHILIPPA_LUX", "label": "Philippa of Luxembourg<br/>c.1252-1311 · Countess consort of Hainaut · Wikipedia"},
+      "children": [
+        "R2G_MARY_AVESNES",
+        {"id": "R3E_WILLIAM1_HAINAUT", "label": "👑 William I 'the Good'<br/>c.1286-1337 · Count of Hainaut &amp; Holland; father of Philippa of Hainaut (queen of Edward III) &amp; Margaret II of Hainaut · Wikipedia"}
+      ],
+      "note": "Mary of Avesnes (Marie de Hainaut), Duchess of Bourbon, is a daughter of John II of Avesnes, Count of Hainaut, & Philippa of Luxembourg; full brother William I, Count of Hainaut, added (his own daughters Philippa of Hainaut and Margaret II of Hainaut are queen of Edward III and mother of batch-member Albert I of Bavaria, respectively — cross-link kept to one generation). Wikipedia 'Mary of Avesnes'."
+    },
+    {
+      "a": "FERDIII",
+      "b": "BEATSWAB",
+      "children": [
+        {"id": "R3E_MANUEL_CASTILE", "label": "Manuel of Castile<br/>1234-1283 · Infante of Castile, Lord of Villena; youngest son of Ferdinand III · Wikipedia"}
+      ],
+      "note": "Manuel of Castile (father of Juan Manuel of Villena) is the youngest son of the EXISTING Ferdinand III 'the Saint' of Castile (FERDIII) & his 1st wife Beatrice of Swabia (BEATSWAB) — merged into their existing union. Wikipedia 'Juan Manuel, Prince of Villena'."
+    },
+    {
+      "a": {"id": "R3E_MANUEL_CASTILE", "label": "Manuel of Castile<br/>1234-1283 · Infante of Castile, Lord of Villena · Wikipedia"},
+      "b": {"id": "R3E_BEATRICE_SAVOY_VILLENA", "label": "Beatrice of Savoy<br/>d.1292 · 2nd wife of Manuel of Castile; dau. of Amadeus IV of Savoy · Wikipedia"},
+      "children": ["R2G_JUANMANUEL_VILLENA"],
+      "note": "Juan Manuel, Prince of Villena (author of El Conde Lucanor), is son of Infante Manuel of Castile & his 2nd wife Beatrice of Savoy (daughter of Amadeus IV, Count of Savoy). Wikipedia 'Juan Manuel, Prince of Villena'."
+    },
+    {
+      "a": {"id": "R3E_PATRICK_CHAWORTH_SR", "label": "Patrick de Chaworth<br/>d.1258 · Lord of Kidwelly · Wikipedia"},
+      "b": {"id": "R3E_HAWISE_LONDRES", "label": "Hawise de Londres<br/>d. aft.1274 · heiress of Kidwelly · Wikipedia"},
+      "children": ["R2G_PATRICK_CHAWORTH"],
+      "note": "Patrick de Chaworth (d.1283), Lord of Kidwelly, is son of Patrick de Chaworth (d.1258) & Hawise de Londres, heiress of Kidwelly. Wikipedia 'Patrick de Chaworth'."
+    },
+    {
+      "a": {"id": "R3E_RANULF_NEVILLE", "label": "Ranulph de Neville<br/>c.1262-1331 · 1st Baron Neville de Raby · Wikipedia"},
+      "b": {"id": "R3E_EUPHEMIA_CLAVERING", "label": "Euphemia de Clavering<br/>d.1329 · dau. of Robert FitzRoger of Clavering · Wikipedia"},
+      "children": ["R2G_RALPH2_NEVILLE"],
+      "note": "Ralph Neville, 2nd Baron Neville de Raby, is son of Ranulph de Neville, 1st Baron Neville de Raby, & Euphemia de Clavering (his own grandson is Ralph Neville, 1st Earl of Westmorland / existing RALPHNEV). Wikipedia 'Ralph Neville, 2nd Baron Neville de Raby'."
+    },
+    {
+      "a": {"id": "R3E_GUY4_CHATILLON", "label": "Guy IV de Châtillon<br/>c.1254-1317 · Count of Saint-Pol, Butler of France · Wikipedia"},
+      "b": {"id": "R3E_MARIE_BRITTANY_STPOL", "label": "Marie of Brittany<br/>1268-1339 · Countess of Saint-Pol; dau. of John II, Duke of Brittany · Wikipedia"},
+      "children": [
+        "R2G_MAHAUT_CHATILLON",
+        {"id": "R3E_JEAN_CHATILLON_STPOL", "label": "Jean de Châtillon<br/>d.1344 · Count of Saint-Pol · Wikipedia"}
+      ],
+      "note": "Mahaut de Châtillon-Saint-Pol (c.1293-1358, 3rd wife of Charles of Valois) is a daughter of Guy IV de Châtillon, Count of Saint-Pol, & Marie of Brittany. Full brother Jean de Châtillon, Count of Saint-Pol (d.1344), added — he is the father of the OTHER batch Mahaut de Châtillon (Countess of Saint-Pol, R2H_MAHAUT_STPOL, below), making the two Mahauts aunt & niece. Wikipedia 'Guy IV of Châtillon'."
+    },
+    {
+      "a": {"id": "R3E_BERTRAND2_BAUX", "label": "Bertrand II des Baux<br/>d. c.1305 · Count of Andria (del Balzo) · Wikipedia"},
+      "b": {"id": "R3E_BERENGARIA_ANDRIA", "label": "Berengaria of Andria<br/>fl. late 13th c. · heiress of Andria · Wikipedia"},
+      "children": ["R2I_BERTRAND3_BAUX"],
+      "note": "Bertrand III des Baux, Count of Andria, Montescaglioso & Squillace, is son of Bertrand II des Baux (del Balzo) & Berengaria of Andria. Wikipedia 'Bertrand III of Baux'."
+    },
+    {
+      "a": "R2F_JAMESII_ARAGON",
+      "b": {"id": "R3E_BLANCHE_ANJOU", "label": "Blanche of Anjou<br/>1280-1310 · Queen of Aragon; dau. of Charles II of Naples · Wikipedia"},
+      "children": ["R2G_ALFONSO4_ARAGON"],
+      "note": "Alfonso IV 'the Kind' of Aragon is son of the EXISTING James II 'the Just' of Aragon (R2F_JAMESII_ARAGON, created in d3 as a son of Peter III the Great & Constance of Sicily) & his 2nd wife Blanche of Anjou. Wikipedia 'Alfonso IV of Aragon'."
+    },
+    {
+      "a": "R2F_FREDERICKIII_SICILY",
+      "b": {"id": "R3E_ELEANOR_ANJOU", "label": "Eleanor of Anjou<br/>1289-1341 · Queen of Sicily (Trinacria); dau. of Charles II of Naples · Wikipedia"},
+      "children": ["R2G_PETER2_SICILY"],
+      "note": "Peter II of Sicily is son of the EXISTING Frederick III of Sicily (R2F_FREDERICKIII_SICILY, created in d3 as a son of Peter III the Great & Constance of Sicily) & Eleanor of Anjou — so Peter II of Sicily and Alfonso IV of Aragon (above) are first cousins, both grandsons of Peter III the Great. Wikipedia 'Peter II of Sicily'."
+    },
+    {
+      "a": "R2G_CHARLES2_NAPLES",
+      "b": "R2G_MARY_HUNGARY",
+      "children": [
+        {"id": "R3E_BLANCHE_ANJOU", "label": "Blanche of Anjou<br/>1280-1310 · Queen of Aragon · Wikipedia"},
+        {"id": "R3E_ELEANOR_ANJOU", "label": "Eleanor of Anjou<br/>1289-1341 · Queen of Sicily (Trinacria) · Wikipedia"}
+      ],
+      "note": "Blanche of Anjou (mother of Alfonso IV of Aragon) and Eleanor of Anjou (mother of Peter II of Sicily) are both daughters of the EXISTING Charles II of Naples & Mary of Hungary union (R2G_CHARLES2_NAPLES + R2G_MARY_HUNGARY, from d4) — added as additional children, making Charles II of Naples the shared great-grandfather of the two royal cousins above. Wikipedia 'Charles II of Naples'."
+    },
+    {
+      "a": {"id": "R3E_HENRY_PERCY1", "label": "Henry de Percy<br/>1273-1314 · 1st Baron Percy of Alnwick · Wikipedia"},
+      "b": {"id": "R3E_ELEANOR_FITZALAN", "label": "Eleanor FitzAlan<br/>d.1328 · dau. of Richard FitzAlan, 8th Earl of Arundel · Wikipedia"},
+      "children": ["R2H_HENRYPERCY2NDBARON"],
+      "note": "Henry Percy, 2nd Baron Percy of Alnwick, is son of Henry de Percy, 1st Baron Percy, & Eleanor FitzAlan. Wikipedia 'Henry Percy, 2nd Baron Percy'."
+    },
+    {
+      "a": {"id": "R3E_RAOUL_BEAUMONT", "label": "Raoul VII de Beaumont<br/>d. c.1239 · Viscount of Beaumont-au-Maine · racineshistoire / Geni"},
+      "b": {"id": "R3E_RAOUL_BEAUMONTW", "label": "—"},
+      "children": ["R2G_AGNES_BEAUMONT"],
+      "note": "Agnes de Beaumont, heiress and Viscountess of Beaumont-au-Maine (who inherited from her brothers), is a daughter of Raoul VII de Beaumont, Viscount of Beaumont-au-Maine. Mother not reliably named (placeholder). MODERATE confidence — French noble house documented in racineshistoire.free.fr (Comtes & vicomtes du Maine) and genealogy databases rather than a dedicated Wikipedia article; some sources number the father Raoul VIII."
+    },
+    {
+      "a": {"id": "R3E_WILLIAM_BEAUCHAMP9", "label": "William de Beauchamp<br/>d.1298 · 9th Earl of Warwick · Wikipedia"},
+      "b": {"id": "R3E_MAUD_FITZJOHN", "label": "Maud FitzJohn<br/>d.1301 · dau. of John FitzGeoffrey · Wikipedia"},
+      "children": [
+        "R2G_ISABEL_BEAUCHAMP",
+        {"id": "R3E_GUY_BEAUCHAMP10", "label": "Guy de Beauchamp<br/>c.1272-1315 · 10th Earl of Warwick · Wikipedia"}
+      ],
+      "note": "Isabel de Beauchamp is a daughter of William de Beauchamp, 9th Earl of Warwick, & Maud FitzJohn. Full brother Guy de Beauchamp, 10th Earl of Warwick, added (Guy is grandfather of batch-member Thomas de Beauchamp, 12th Earl, via Thomas the 11th Earl, below). Wikipedia 'Isabel de Beauchamp'."
+    },
+    {
+      "a": {"id": "R3E_PEDRO_GUZMAN", "label": "Pedro Núñez de Guzmán<br/>d. c.1312 · Castilian noble, Adelantado mayor de Andalucía · Wikipedia"},
+      "b": {"id": "R3E_BEATRIZ_PONCE", "label": "Beatriz Ponce de León<br/>fl. early 14th c. · great-granddau. of Alfonso IX of León · Wikipedia"},
+      "children": ["R2G_ELEANOR_GUZMAN"],
+      "note": "Eleanor (Leonor) de Guzmán, mistress of Alfonso XI and mother of Henry II of Castile, is daughter of Pedro Núñez de Guzmán & Beatriz Ponce de León. Wikipedia 'Eleanor de Guzmán'."
+    },
+    {
+      "a": {"id": "R3E_HUMPHREY4_BOHUN", "label": "Humphrey de Bohun<br/>1276-1322 · 4th Earl of Hereford, Constable of England · Wikipedia"},
+      "b": {"id": "R3E_ELIZABETH_RHUDDLAN", "label": "Elizabeth of Rhuddlan<br/>1282-1316 · dau. of Edward I of England · Wikipedia"},
+      "children": ["R2G_WILLIAM_BOHUN"],
+      "note": "William de Bohun, 1st Earl of Northampton, is a son of Humphrey de Bohun, 4th Earl of Hereford, & Elizabeth of Rhuddlan (daughter of Edward I). Wikipedia 'William de Bohun, 1st Earl of Northampton'."
+    },
+    {
+      "a": "EI",
+      "b": "EOC",
+      "children": [
+        {"id": "R3E_ELIZABETH_RHUDDLAN", "label": "Elizabeth of Rhuddlan<br/>1282-1316 · Countess of Hereford &amp; Holland · Wikipedia"}
+      ],
+      "note": "Elizabeth of Rhuddlan (mother of William de Bohun) is added as a daughter of the EXISTING Edward I 'Longshanks' & Eleanor of Castile union (EI + EOC, base tree). Wikipedia 'Elizabeth of Rhuddlan'."
+    },
+    {
+      "a": {"id": "R3E_EDMUND_FITZALAN9", "label": "Edmund FitzAlan<br/>1285-1326 · 9th Earl of Arundel; executed · Wikipedia"},
+      "b": {"id": "R3E_ALICE_WARENNE", "label": "Alice de Warenne<br/>1287-1338 · dau. of William de Warenne · Wikipedia"},
+      "children": ["R2H_RICHARDFITZALAN3"],
+      "note": "Richard FitzAlan, 10th Earl of Arundel, is son of Edmund FitzAlan, 9th Earl of Arundel, & Alice de Warenne. Wikipedia 'Richard FitzAlan, 10th Earl of Arundel'."
+    },
+    {
+      "a": {"id": "R3E_BARTHOLOMEW_BADLESMERE", "label": "Bartholomew de Badlesmere<br/>c.1275-1322 · 1st Baron Badlesmere; hanged · Wikipedia"},
+      "b": {"id": "R3E_MARGARET_CLARE_BADLESMERE", "label": "Margaret de Clare<br/>d.1333 · dau. of Thomas de Clare, Lord of Thomond · Wikipedia"},
+      "children": ["R2G_ELIZABETH_BADLESMERE"],
+      "note": "Elizabeth de Badlesmere is daughter of Bartholomew de Badlesmere, 1st Baron Badlesmere, & Margaret de Clare (daughter of Thomas de Clare of Thomond — a DISTINCT Margaret de Clare from R2L_MARGARETDECLARE_MONTIFEX). Wikipedia 'Elizabeth de Badlesmere'."
+    },
+    {
+      "a": {"id": "R3E_LOUIS4_HRE", "label": "👑 Louis IV of Bavaria<br/>1282-1347 · Holy Roman Emperor · Wikipedia"},
+      "b": {"id": "R3E_BEATRIX_SWIDNICA", "label": "Beatrix of Świdnica<br/>1290-1322 · 1st wife of Louis IV; Silesian Piast · Wikipedia"},
+      "children": ["R2G_STEPHEN2_BAVARIA"],
+      "note": "Stephen II, Duke of Bavaria, is a son of Louis IV, Holy Roman Emperor, & his 1st wife Beatrix of Świdnica. Wikipedia 'Stephen II, Duke of Bavaria'."
+    },
+    {
+      "a": "R3E_LOUIS4_HRE",
+      "b": {"id": "R3E_MARGARET2_HAINAUT", "label": "Margaret II<br/>1311-1356 · Countess of Hainaut &amp; Holland; 2nd wife of Louis IV; dau. of William I of Hainaut · Wikipedia"},
+      "children": ["R2H_ALBERTIBAVARIA"],
+      "note": "Albert I, Duke of Bavaria-Straubing, Count of Holland/Hainaut/Zeeland, is a son of Louis IV, Holy Roman Emperor (same R3E_LOUIS4_HRE node as Stephen II's father, above), by his 2nd wife Margaret II, Countess of Hainaut (daughter of William I of Hainaut — kin to batch-member Mary of Avesnes' line). Wikipedia 'Albert I, Duke of Bavaria'."
+    },
+    {
+      "a": {"id": "R3E_STEFANO_VISCONTI", "label": "Stefano Visconti<br/>d.1327 · co-lord of Milan; son of Matteo I Visconti · Wikipedia"},
+      "b": {"id": "R3E_VALENTINA_DORIA", "label": "Valentina Doria<br/>d. c.1359 · of the Genoese Doria family · Wikipedia"},
+      "children": ["R2H_BERNABOVISCONTI"],
+      "note": "Bernabò Visconti, Lord of Milan, is a son of Stefano Visconti & Valentina Doria (his brothers Matteo II and Galeazzo II Visconti co-ruled Milan with him; Galeazzo II was father of Gian Galeazzo — not built out here). Wikipedia 'Bernabò Visconti'."
+    },
+    {
+      "a": {"id": "R3E_PEDRO_CASTRO", "label": "Pedro Fernández de Castro<br/>d.1343 · Lord of Lemos &amp; Sarria, 'de la Guerra' · Wikipedia"},
+      "b": {"id": "R3E_ALDONCA_VALADARES", "label": "Aldonça Lourenço de Valadares<br/>fl. 1320s · Portuguese noblewoman (mother by relationship, not marriage) · Wikipedia"},
+      "children": ["R2H_INESDECASTRO"],
+      "note": "Inês de Castro (posthumously crowned queen of Portugal) is the natural daughter of Pedro Fernández de Castro, Lord of Lemos and Sarria, & Aldonça Lourenço de Valadares. Wikipedia 'Inês de Castro'."
+    },
+    {
+      "a": {"id": "R3E_GOMBAU_ENTENCA", "label": "Gombau d'Entença<br/>d.1309 · Aragonese noble, Lord of Entença · Wikipedia"},
+      "b": {"id": "R3E_CONSTANCA_ANTILLON", "label": "Constança d'Antillón<br/>d.1327 · Lady of Antillón &amp; Alcolea · Wikipedia"},
+      "children": ["R2G_TERESA_ENTENZA"],
+      "note": "Teresa d'Entença, Countess of Urgell (1st wife of Alfonso IV of Aragon), is the eldest daughter of Gombau d'Entença & Constança d'Antillón. Wikipedia 'Teresa d'Entença'."
+    },
+    {
+      "a": {"id": "R3E_MASTINO2_SCALA", "label": "Mastino II della Scala<br/>1308-1351 · Lord of Verona · Wikipedia"},
+      "b": {"id": "R3E_TADDEA_CARRARA", "label": "Taddea da Carrara<br/>d.1351 · of the Carrara lords of Padua · Wikipedia"},
+      "children": ["R2H_BEATRICEDELLASCALA"],
+      "note": "Beatrice Regina della Scala, Lady of Milan (wife of Bernabò Visconti), is a daughter of Mastino II della Scala, Lord of Verona, & Taddea da Carrara. Wikipedia 'Beatrice Regina della Scala'."
+    },
+    {
+      "a": {"id": "R3E_ROBERTO_ORSINI_NOLA", "label": "Roberto Orsini<br/>d.1345 · 2nd Count of Nola · Wikipedia"},
+      "b": {"id": "R3E_SVEVA_BALZO", "label": "Sveva del Balzo<br/>fl. early 14th c. · of the del Balzo (des Baux) family · Wikipedia"},
+      "children": ["R2H_NICOLOORSININOLA"],
+      "note": "Nicola (Nicolò) Orsini, Count of Nola and Soleto, is son of Roberto Orsini, 2nd Count of Nola, & Sveva del Balzo (of the del Balzo/des Baux family). Wikipedia 'Nicola Orsini, Count of Nola'."
+    },
+    {
+      "a": {"id": "R3E_PHILIP3_NAVARRE", "label": "👑 Philip III of Navarre<br/>1306-1343 · King of Navarre, Count of Évreux · Wikipedia"},
+      "b": {"id": "R3E_JOAN2_NAVARRE", "label": "👑 Joan II of Navarre<br/>1312-1349 · Queen regnant of Navarre; dau. of Louis X of France · Wikipedia"},
+      "children": ["R2H_CHARLESIINAVARRE"],
+      "note": "Charles II 'the Bad' of Navarre is son of Philip III of Navarre (Count of Évreux) & Joan II of Navarre (queen regnant, daughter of Louis X of France & Margaret of Burgundy). Wikipedia 'Charles II of Navarre'."
+    },
+    {
+      "a": "R2G_LOUIS_EVREUX",
+      "b": {"id": "R3E_MARGARET_ARTOIS", "label": "Margaret of Artois<br/>1285-1311 · Countess of Évreux; dau. of Philip of Artois · Wikipedia"},
+      "children": ["R3E_PHILIP3_NAVARRE"],
+      "note": "Philip III of Navarre (father of Charles II of Navarre) is son of the EXISTING Louis, Count of Évreux (R2G_LOUIS_EVREUX, from d4) & Margaret of Artois — merged onto Louis of Évreux's line. Wikipedia 'Philip III of Navarre'."
+    },
+    {
+      "a": "R3E_JEAN_CHATILLON_STPOL",
+      "b": {"id": "R3E_JEANNE_FIENNES", "label": "Jeanne de Fiennes<br/>d. c.1353 · Countess of Saint-Pol · Geni / Wikidata"},
+      "children": ["R2H_MAHAUT_STPOL"],
+      "note": "Mahaut de Châtillon, Countess of Saint-Pol (wife of Guy of Luxembourg), is daughter of Jean de Châtillon, Count of Saint-Pol (d.1344 — the same R3E_JEAN_CHATILLON_STPOL added above as a son of Guy IV de Châtillon), & Jeanne de Fiennes. She is thus the niece of the other batch Mahaut de Châtillon-Saint-Pol. Wikipedia 'Mahaut of Châtillon' / Wikidata."
+    },
+    {
+      "a": {"id": "R3E_THOMAS_BEAUCHAMP11", "label": "Thomas de Beauchamp<br/>1313/14-1369 · 11th Earl of Warwick · Wikipedia"},
+      "b": {"id": "R3E_KATHERINE_MORTIMER", "label": "Katherine Mortimer<br/>d.1369 · dau. of Roger Mortimer, 1st Earl of March · Wikipedia"},
+      "children": ["R2H_THOMASBEAUCHAMP12"],
+      "note": "Thomas de Beauchamp, 12th Earl of Warwick, is son of Thomas de Beauchamp, 11th Earl of Warwick, & Katherine Mortimer (daughter of Roger Mortimer, 1st Earl of March). Wikipedia 'Thomas de Beauchamp, 12th Earl of Warwick'."
+    },
+    {
+      "a": {"id": "R3E_JOHN_MONTFORT", "label": "John of Montfort<br/>1295-1345 · claimant Duke of Brittany, Count of Montfort · Wikipedia"},
+      "b": {"id": "R3E_JOANNA_FLANDERS", "label": "Joanna of Flanders<br/>c.1295-1374 · 'la Flamme'; defended Brittany for the Montfort cause · Wikipedia"},
+      "children": ["R2H_JOHNIVDUKEBRITTANY"],
+      "note": "John IV, Duke of Brittany, is son of John of Montfort (claimant Duke of Brittany) & Joanna of Flanders. Wikipedia 'John IV, Duke of Brittany'."
+    },
+    {
+      "a": "JOHNIIFR",
+      "b": "BONNELUX",
+      "children": ["R2H_LOUISIANJOU", "R2H_PHILIPTHEBOLD"],
+      "note": "Louis I, Duke of Anjou (King of Naples), and Philip the Bold, Duke of Burgundy, are both sons of the EXISTING John II of France & Bonne of Luxembourg union (JOHNIIFR + BONNELUX, whose son Charles V/CHARLESVFR and daughters Joan & Isabelle of Valois are already in the tree) — merged as additional children. Wikipedia 'Louis I, Duke of Anjou' / 'Philip the Bold'."
+    },
+    {
+      "a": {"id": "R3E_LOUIS1_BRZEG", "label": "Louis I of Brzeg<br/>c.1313-1398 · Duke of Brzeg (Brieg) &amp; Legnica; Silesian Piast · Wikipedia"},
+      "b": {"id": "R3E_AGNES_SAGAN", "label": "Agnes of Sagan<br/>c.1321-1362 · dau. of Henry IV of Głogów-Żagań · Wikipedia"},
+      "children": ["R2H_MARGARETOFBRIEG"],
+      "note": "Margaret of Brieg (Duchess of Bavaria-Straubing, wife of Albert I) is daughter of Louis I 'the Fair' of Brzeg & Agnes of Sagan (Głogów-Żagań). Wikipedia 'Margaret of Brieg' / 'Louis I of Brzeg'."
+    },
+    {
+      "a": {"id": "R3E_CHARLES_BLOIS", "label": "Charles of Blois<br/>1319-1364 · claimant Duke of Brittany; 'Charles the Saint' · Wikipedia"},
+      "b": {"id": "R3E_JOANNA_PENTHIEVRE", "label": "Joanna of Penthièvre<br/>1319-1384 · Duchess of Brittany in her own right (Penthièvre claim) · Wikipedia"},
+      "children": ["R2H_MARIEDEBLOISCHATILLON"],
+      "note": "Marie of Blois-Châtillon, Duchess of Anjou (wife of Louis I of Anjou), is daughter of Charles of Blois (claimant Duke of Brittany) & Joanna of Penthièvre. Wikipedia 'Marie of Blois'."
+    },
+    {
+      "a": {"id": "R3E_RUDOLPH_LORRAINE", "label": "Rudolph, Duke of Lorraine<br/>1320-1346 · Duke of Lorraine; killed at Crécy · Wikipedia"},
+      "b": {"id": "R3E_MARIE_BLOIS_LORRAINE", "label": "Marie of Blois<br/>d.1380 · 2nd wife of Rudolph of Lorraine; dau. of Guy I of Blois-Châtillon · Wikipedia"},
+      "children": ["R2H_JOHNIDUKELORRAINE"],
+      "note": "John I, Duke of Lorraine, is son of Rudolph, Duke of Lorraine (killed at Crécy), & his 2nd wife Marie of Blois. NOTE: this Marie of Blois (d.1380, daughter of Guy I of Blois-Châtillon) is a DIFFERENT person from the batch's own Marie of Blois-Châtillon (R2H_MARIEDEBLOISCHATILLON, 1345-1404, daughter of Charles of Blois) — kept separate. Wikipedia 'John I, Duke of Lorraine' / 'Rudolph, Duke of Lorraine'."
+    }
+  ]
+}

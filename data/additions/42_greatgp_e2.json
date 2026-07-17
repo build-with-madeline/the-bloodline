@@ -1,0 +1,208 @@
+{
+  "families": [
+    {
+      "a": {"id": "R3I_OTWELLWORSLEY", "label": "Otwell Worsley<br/>c.1410-1470 · esquire, of Southwark, Surrey · WikiTree/probate"},
+      "b": {"id": "R3I_ROSETREVOR", "label": "Rose Trevor<br/>· wife of Otwell Worsley · WikiTree"},
+      "children": ["R2J_ISABELWORSLEY"],
+      "note": "Isabel Worsley (wife of Sir Richard Culpeper) was daughter of Otwell Worsley, esq. of Southwark, & Rose Trevor. WikiTree Worsley-52; TNA probate PROB 11/22/332."
+    },
+    {
+      "a": {"id": "R3I_GERHARD7JULICHBERG", "label": "Gerhard VII<br/>c.1416-1475 · Duke of Jülich-Berg · Wikipedia"},
+      "b": {"id": "R3I_SOPHIESAXELAUEN_JB", "label": "Sophie of Saxe-Lauenburg<br/>· Duchess of Jülich-Berg · Wikipedia"},
+      "children": ["R2J_WILLIAM4JULICH"],
+      "note": "William IV, Duke of Jülich-Berg (1455-1511), was son of Gerhard VII, Duke of Jülich-Berg, & Sophie of Saxe-Lauenburg. Wikipedia 'William IV, Duke of Jülich-Berg'."
+    },
+    {
+      "a": {"id": "SPI_JOHN1_CLEVES", "label": "John I<br/>1419-1481 · Duke of Cleves · Wikipedia"},
+      "b": {"id": "R3I_ELIZABETHNEVERS", "label": "Elizabeth of Nevers<br/>c.1439-1483 · dau. of John I, Count of Nevers · Wikipedia"},
+      "children": ["R2J_JOHN2CLEVES"],
+      "note": "John II, Duke of Cleves (1458-1521), was son of John I, Duke of Cleves (existing node SPI_JOHN1_CLEVES from round 1) & Elizabeth of Nevers. Wikipedia. Parents attached to the existing John I node."
+    },
+    {
+      "a": {"id": "R3I_THOMASGREEN_D1462", "label": "Sir Thomas Green<br/>1421-1462 · of Green's Norton · Wikipedia"},
+      "b": {"id": "R3I_MATILDATHROCKMORTON", "label": "Matilda Throckmorton<br/>d.1496+ · Wikipedia"},
+      "children": ["R2J_THOMASGREEN_NORTON"],
+      "note": "Sir Thomas Green of Green's Norton (1461-1506, great-grandfather of Katherine Parr) was son of Sir Thomas Green (1421-d.1462) & Matilda Throckmorton. Wikipedia 'Sir Thomas Green'."
+    },
+    {
+      "a": {"id": "R3I_ROBERTBAR_MARLE", "label": "Robert of Bar<br/>c.1390-1415 · Count of Marle &amp; Soissons; d. at Agincourt · Wikipedia"},
+      "b": {"id": "R3I_JEANNEBETHUNE", "label": "Jeanne de Béthune<br/>c.1397-d.c.1450 · Viscountess of Meaux · Wikipedia"},
+      "children": ["R2I_JEANNE_DE_BAR"],
+      "note": "Jeanne de Bar, Countess of Marle & Soissons (d.1462), was daughter of Robert of Bar (Count of Marle & Soissons, killed at Agincourt 1415) & Jeanne de Béthune. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_ROGERWENTWORTH", "label": "Roger Wentworth<br/>· esq., of Nettlestead · Wikipedia"},
+      "b": {"id": "R3I_MARGERYDESPENSER", "label": "Margery le Despenser<br/>d.1478 · suo jure Baroness le Despenser · Wikipedia"},
+      "children": ["R2I_PHILIP_WENTWORTH"],
+      "note": "Sir Philip Wentworth of Nettlestead (d.1464) was son & heir of Roger Wentworth, esq., & Margery le Despenser. Wikipedia 'Philip Wentworth'."
+    },
+    {
+      "a": {"id": "R3I_JOHNFOGGE", "label": "Sir John Fogge<br/>c.1417-1490 · of Ashford, Kent · Wikipedia"},
+      "b": {"id": "R3I_ALICEHAUTE", "label": "Alice Haute<br/>· 2nd wife of Sir John Fogge · Wikipedia"},
+      "children": ["R2J_JOANFOGGE"],
+      "note": "Joan Fogge (wife of Sir Thomas Green) daughter of Sir John Fogge & (per most sources) his 2nd wife Alice Haute. FLAG: her exact link is disputed — some sources make her Sir John Fogge's granddaughter rather than daughter. Wikipedia 'Joan Fogge'."
+    },
+    {
+      "a": {"id": "R3I_ALBRECHT3ACHILLES", "label": "Albrecht III Achilles<br/>1414-1486 · Elector of Brandenburg · Wikipedia"},
+      "b": {"id": "R3I_ANNASAXONY_BRAND", "label": "Anna of Saxony<br/>1437-1512 · Electress of Brandenburg · Wikipedia"},
+      "children": ["R2J_SIBYLLEBRANDENBURG"],
+      "note": "Sibylle of Brandenburg (1467-1524, Duchess of Jülich-Berg) was daughter of Albrecht III Achilles, Elector of Brandenburg, & his 2nd wife Anna of Saxony. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_JOHNSTEWART1LENNOX", "label": "John Stewart<br/>c.1430-1495 · 1st Earl of Lennox · Wikipedia"},
+      "b": {"id": "R3I_MARGARETMONTGOMERIE", "label": "Margaret Montgomerie<br/>· dau. of Alexander Montgomerie, 1st Lord Montgomerie · Wikipedia"},
+      "children": ["R2J_MATTHEW2LENNOX"],
+      "note": "Matthew Stewart, 2nd Earl of Lennox (c.1470-1513), was son of John Stewart, 1st Earl of Lennox, & Margaret Montgomerie. Wikipedia 'Matthew Stewart, 2nd Earl of Lennox'."
+    },
+    {
+      "a": {"id": "R3I_HENRY3HESSE", "label": "Henry III<br/>1441-1483 · Landgrave of Upper Hesse (Hesse-Marburg) · Wikipedia"},
+      "b": {"id": "R3I_ANNAKATZENELNBOGEN", "label": "Anna of Katzenelnbogen<br/>1443-1494 · Wikipedia"},
+      "children": ["R2J_MATHILDEHESSE_CLEVES"],
+      "note": "Mathilde of Hesse (1473-1505, Duchess of Cleves) was daughter of Henry III, Landgrave of Upper Hesse, & Anna of Katzenelnbogen. Wikipedia 'Matilda of Hesse'."
+    },
+    {
+      "a": {"id": "R3I_WILLIAMDARELL", "label": "Sir William Darell<br/>d.1461 · Sheriff of Wiltshire · WikiTree/geni"},
+      "b": {"id": "R3I_ELIZABETHCALSTON", "label": "Elizabeth Calston<br/>d.1464 · WikiTree/geni"},
+      "children": ["R2J_GEORGEDARELL"],
+      "note": "Sir George Darell of Littlecote (c.1419-1474) was son of Sir William Darrell (Sheriff of Wiltshire, d.1461) & Elizabeth Calston. WikiTree Darell-54; geni."
+    },
+    {
+      "a": {"id": "R3I_THOMASPARR_D1461", "label": "Sir Thomas Parr<br/>1405-1461 · of Kendal · Wikipedia"},
+      "b": {"id": "R3I_ALICETUNSTALL", "label": "Alice Tunstall<br/>· dau. of Sir Thomas Tunstall of Thurland · Wikipedia"},
+      "children": ["R2J_WILLIAMPARR1KENDAL"],
+      "note": "Sir William Parr, 1st Baron Parr of Kendal (d.1483, grandfather of Katherine Parr), was eldest son of Sir Thomas Parr (1405-1461) & Alice Tunstall. Wikipedia 'William Parr (died 1483)'."
+    },
+    {
+      "a": {"id": "R3I_ROBERTBOYD1LORD", "label": "Robert Boyd<br/>d.c.1482 · 1st Lord Boyd; Great Chamberlain of Scotland · Wikipedia"},
+      "b": {"id": "R3I_MARIOTMAXWELL", "label": "Mariota Maxwell<br/>· dau. of Sir Robert Maxwell of Calderwood · thePeerage"},
+      "children": ["R2J_ELIZABETHBOYD_ANGUS"],
+      "note": "Elizabeth Boyd (d.1498, Countess of Angus, wife of Archibald 'Bell-the-Cat' Douglas) was daughter of Robert Boyd, 1st Lord Boyd, & Mariota Maxwell. thePeerage/WikiTree Boyd-324."
+    },
+    {
+      "a": {"id": "SPI_FREDERICK1_DENMARK", "label": "👑 Frederick I<br/>1471-1533 · King of Denmark · Wikipedia"},
+      "b": {"id": "R3I_ANNABRANDENBURG_DEN", "label": "Anna of Brandenburg<br/>1487-1514 · Queen consort of Denmark · Wikipedia"},
+      "children": ["R2J_CHRISTIAN3DEN"],
+      "note": "Christian III of Denmark (1503-1559) was son of Frederick I of Denmark (existing node SPI_FREDERICK1_DENMARK) & his 1st wife Anna of Brandenburg. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_MAGNUS1SAXELAUEN", "label": "Magnus I<br/>1470-1543 · Duke of Saxe-Lauenburg · Wikipedia"},
+      "b": {"id": "R3I_CATHERINEBRUNSWICK_SL", "label": "Catherine of Brunswick-Wolfenbüttel<br/>1488-1563 · Wikipedia"},
+      "children": ["R2J_DOROTHEASAXELAUEN"],
+      "note": "Dorothea of Saxe-Lauenburg (1511-1571, Queen of Denmark) was daughter of Magnus I, Duke of Saxe-Lauenburg, & Catherine of Brunswick-Wolfenbüttel. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_JAMESBUTLER4ORMOND", "label": "James Butler<br/>c.1390-1452 · 4th Earl of Ormond ('the White Earl') · Wikipedia"},
+      "b": {"id": "R3I_JOANBEAUCHAMP_ORMOND", "label": "Joan de Beauchamp<br/>d.1430 · dau. of William Beauchamp, 1st Baron Bergavenny · Wikipedia"},
+      "children": ["R2J_THOMASBUTLER7ORMOND"],
+      "note": "Thomas Butler, 7th Earl of Ormond (d.1515), was third son of James Butler, 4th Earl of Ormond ('the White Earl'), & his 1st wife Joan de Beauchamp — NOT of the 5th Earl (his elder brother). Wikipedia 'Thomas Butler, 7th Earl of Ormond'."
+    },
+    {
+      "a": {"id": "R3I_CHARLESBOURBON_VENDOME", "label": "Charles de Bourbon<br/>1489-1537 · Duke of Vendôme · Wikipedia"},
+      "b": {"id": "R3I_FRANCOISEALENCON", "label": "Françoise d'Alençon<br/>1490-1550 · Duchess of Vendôme · Wikipedia"},
+      "children": ["R2J_ANTOINEBOURBON"],
+      "note": "Antoine de Bourbon (1518-1562, Duke of Vendôme, King consort of Navarre) was son of Charles de Bourbon, Duke of Vendôme, & Françoise d'Alençon. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_MALCOLMDRUMMOND", "label": "Sir Malcolm Drummond<br/>d.1470 · of Cargill &amp; Stobhall; Chief of Clan Drummond · Wikipedia"},
+      "b": {"id": "R3I_MARIOTAMURRAY", "label": "Mariota Murray<br/>· dau. of Sir David Murray of Tullibardine · Wikipedia"},
+      "children": ["R2J_JOHNDRUMMOND1LORD"],
+      "note": "John Drummond, 1st Lord Drummond (d.1519), was eldest son of Sir Malcolm Drummond of Cargill & Stobhall & Mariota Murray of Tullibardine. Wikipedia 'John Drummond, 1st Lord Drummond'."
+    },
+    {
+      "a": {"id": "R3I_WILLIAMSINCLAIR_CAITHNESS", "label": "William Sinclair<br/>c.1410-1484 · 1st Earl of Caithness, 3rd Earl of Orkney · Wikipedia"},
+      "b": {"id": "R3I_MARJORYSUTHERLAND", "label": "Marjory Sutherland<br/>d.c.1480 · Wikipedia"},
+      "children": ["R2J_ELEANORSINCLAIR"],
+      "note": "Eleanor Sinclair (d.1519, Countess of Atholl) was daughter of William Sinclair, 1st Earl of Caithness (3rd Earl of Orkney), & Marjory Sutherland. Wikipedia/familysearch."
+    },
+    {
+      "a": {"id": "SPI_FREDERICK1_DENMARK", "label": "👑 Frederick I<br/>1471-1533 · King of Denmark · Wikipedia"},
+      "b": {"id": "R3I_SOPHIEPOMERANIA_DEN", "label": "Sophie of Pomerania<br/>1498-1568 · Queen consort of Denmark · Wikipedia"},
+      "children": ["R2J_ELIZDENMARK_MECK"],
+      "note": "Elizabeth of Denmark (1524-1586, Duchess of Mecklenburg) was daughter of Frederick I of Denmark (existing node SPI_FREDERICK1_DENMARK) & his 2nd wife Sophie of Pomerania — half-sister of Christian III. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_ALBERT7MECKLENBURG", "label": "Albert VII<br/>1486-1547 · Duke of Mecklenburg ('the Handsome') · Wikipedia"},
+      "b": {"id": "R3I_ANNABRANDENBURG_MECK", "label": "Anna of Brandenburg<br/>1507-1567 · Duchess of Mecklenburg · Wikipedia"},
+      "children": ["R2J_ULRICH3MECK"],
+      "note": "Ulrich III, Duke of Mecklenburg-Güstrow (1527-1603), was third son of Duke Albert VII of Mecklenburg & Anna of Brandenburg (distinct from Christian III's mother of the same name). Wikipedia 'Ulrich, Duke of Mecklenburg'."
+    },
+    {
+      "a": {"id": "R3I_HENRY2NAVARRE", "label": "👑 Henry II<br/>1503-1555 · King of Navarre (Henri d'Albret) · Wikipedia"},
+      "b": {"id": "R3I_MARGUERITEANGOULEME", "label": "Marguerite of Angoulême<br/>1492-1549 · Queen consort of Navarre; author of the Heptaméron · Wikipedia"},
+      "children": ["R2J_JEANNEDALBRET"],
+      "note": "Jeanne d'Albret (1528-1572, Queen of Navarre) was daughter of Henry II of Navarre (Henri d'Albret) & Marguerite of Angoulême (sister of Francis I of France). Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_WILLIAM1NASSAU", "label": "William I<br/>1487-1559 · Count of Nassau-Dillenburg ('the Rich') · Wikipedia"},
+      "b": {"id": "R3I_JULIANASTOLBERG", "label": "Juliana of Stolberg<br/>1506-1580 · Countess of Nassau · Wikipedia"},
+      "children": ["R2J_WILLIAMSILENT"],
+      "note": "William the Silent, Prince of Orange (1533-1584), was eldest son of William I 'the Rich', Count of Nassau-Dillenburg, & Juliana of Stolberg. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_ERNEST1BRUNSWICK", "label": "Ernest I<br/>1497-1546 · Duke of Brunswick-Lüneburg ('the Confessor') · Wikipedia"},
+      "b": {"id": "R3I_SOPHIEMECKLENBURG_BR", "label": "Sophie of Mecklenburg<br/>1507-1541 · Duchess of Brunswick-Lüneburg · Wikipedia"},
+      "children": ["R2J_WILLIAMYOUNGERBRUNS"],
+      "note": "William the Younger, Duke of Brunswick-Lüneburg (1535-1592), was third son of Ernest I 'the Confessor' & Sophie of Mecklenburg. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_PHILIP1HESSE", "label": "Philip I<br/>1504-1567 · Landgrave of Hesse ('the Magnanimous') · Wikipedia"},
+      "b": {"id": "R3I_CHRISTINESAXONY_HESSE", "label": "Christine of Saxony<br/>1505-1549 · Landgravine of Hesse · Wikipedia"},
+      "children": ["R2J_ELISABETHHESSE_PAL"],
+      "note": "Elisabeth of Hesse (1539-1582, Electress Palatine) was daughter of Philip I 'the Magnanimous', Landgrave of Hesse, & Christine of Saxony. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_FREDERICK3PALATINE", "label": "Frederick III<br/>1515-1576 · Elector Palatine ('the Pious') · Wikipedia"},
+      "b": {"id": "R3I_MARIEBRANDENBURG_KULM", "label": "Marie of Brandenburg-Kulmbach<br/>1519-1567 · Electress Palatine · Wikipedia"},
+      "children": ["R2J_LOUIS6PALATINE"],
+      "note": "Louis VI, Elector Palatine (1539-1583), was eldest son of Frederick III 'the Pious', Elector Palatine, & Marie of Brandenburg-Kulmbach. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_COSIMO1MEDICI", "label": "Cosimo I de' Medici<br/>1519-1574 · Grand Duke of Tuscany · Wikipedia"},
+      "b": {"id": "R3I_ELEONORATOLEDO", "label": "Eleanor of Toledo<br/>1522-1562 · Grand Duchess of Tuscany · Wikipedia"},
+      "children": ["R2J_FRANCESCO1MEDICI"],
+      "note": "Francesco I de' Medici (1541-1587, Grand Duke of Tuscany) was son of Cosimo I de' Medici & Eleanor of Toledo. Wikipedia."
+    },
+    {
+      "a": {"id": "R2J_CHRISTIAN3DEN", "label": "👑 Christian III<br/>1503-1559 · King of Denmark and Norway · Wikipedia"},
+      "b": {"id": "R2J_DOROTHEASAXELAUEN", "label": "Dorothea of Saxe-Lauenburg<br/>1511-1571 · Queen consort of Denmark · Wikipedia"},
+      "children": ["R2J_DOROTHEADENMARK_BRUNS"],
+      "note": "CONVERGENCE: Dorothea of Denmark (1546-1617, Duchess of Brunswick-Lüneburg) was daughter of Christian III of Denmark & Dorothea of Saxe-Lauenburg — both already grandparents in this same batch (R2J_CHRISTIAN3DEN, R2J_DOROTHEASAXELAUEN). No new parent nodes created; links the two existing batch grandparents as a couple. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_LOUIS3MONTPENSIER", "label": "Louis III de Bourbon<br/>1513-1582 · Duke of Montpensier · Wikipedia"},
+      "b": {"id": "R3I_JACQUELINELONGWY", "label": "Jacqueline de Longwy<br/>c.1520-1561 · Countess of Bar-sur-Seine · Wikipedia"},
+      "children": ["R2J_CHARLOTTEBOURBON"],
+      "note": "Charlotte of Bourbon-Montpensier (c.1546-1582, Princess of Orange) was a daughter of Louis III de Bourbon, Duke of Montpensier, & Jacqueline de Longwy. Wikipedia 'Charlotte of Bourbon'."
+    },
+    {
+      "a": {"id": "R3I_FERDINAND1HRE", "label": "👑 Ferdinand I<br/>1503-1564 · Holy Roman Emperor · Wikipedia"},
+      "b": {"id": "R3I_ANNABOHEMIAHUNGARY", "label": "Anna of Bohemia and Hungary<br/>1503-1547 · Holy Roman Empress · Wikipedia"},
+      "children": ["R2J_JOANNAAUSTRIA_MED"],
+      "note": "Joanna of Austria (1547-1578, Grand Duchess of Tuscany) was the youngest daughter of Ferdinand I, Holy Roman Emperor, & Anna of Bohemia and Hungary. Wikipedia."
+    },
+    {
+      "a": {"id": "R3I_GASPARD2COLIGNY", "label": "Gaspard II de Coligny<br/>1519-1572 · Admiral of France; d. St. Bartholomew's Day Massacre · Wikipedia"},
+      "b": {"id": "R3I_CHARLOTTELAVAL", "label": "Charlotte de Laval<br/>c.1530-1568 · Wikipedia"},
+      "children": ["R2J_LOUISECOLIGNY"],
+      "note": "Louise de Coligny (1555-1620, Princess of Orange) was daughter of Gaspard II de Coligny, Admiral of France, & Charlotte de Laval. Wikipedia 'Louise de Coligny'."
+    },
+    {
+      "a": {"id": "R3I_KONRADSOLMS", "label": "Konrad<br/>1540-1592 · Count of Solms-Braunfels · Wikipedia"},
+      "b": {"id": "R3I_ELISABETHNASSAU_SOLMS", "label": "Elisabeth of Nassau-Dillenburg<br/>1542-1603 · Wikipedia"},
+      "children": ["R2J_JOHNALBERT1SOLMS"],
+      "note": "John Albert I, Count of Solms-Braunfels (1563-1623), was eldest son of Konrad, Count of Solms-Braunfels, & Elisabeth of Nassau-Dillenburg. Wikipedia/geni."
+    },
+    {
+      "a": {"id": "R3I_LOUIS1SAYN", "label": "Louis I<br/>1532-1605 · Count of Sayn-Wittgenstein · Wikipedia"},
+      "b": {"id": "R3I_ELISABETHSOLMSLAUBACH", "label": "Elisabeth of Solms-Laubach<br/>1549-1599 · Wikipedia"},
+      "children": ["R2J_AGNESSAYN_SOLMS"],
+      "note": "Agnes of Sayn-Wittgenstein (1568-1617) was daughter of Louis I, Count of Sayn-Wittgenstein, & Elisabeth of Solms-Laubach. Wikipedia 'Louis I, Count of Sayn-Wittgenstein'."
+    },
+    {
+      "a": {"id": "R3I_JOAO1BRAGANZA", "label": "João I<br/>1543-1583 · 6th Duke of Braganza · Wikipedia"},
+      "b": {"id": "R3I_CATARINAGUIMARAES", "label": "Catarina<br/>1540-1614 · Duchess of Braganza; granddau. of King Manuel I of Portugal · Wikipedia"},
+      "children": ["R2J_TEODOSIO2BRAGANZA"],
+      "note": "Teodósio II, Duke of Braganza (1568-1630, father of King João IV), was son of João I, 6th Duke of Braganza, & Infanta Catarina of Guimarães, Duchess of Braganza. Wikipedia."
+    }
+  ]
+}

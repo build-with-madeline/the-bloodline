@@ -1,0 +1,164 @@
+{
+  "_note": "ROUND 3 batch (undated_3): one more generation back (documented parents + full siblings) for round-2-added ancestors whose OWN label lacked a parseable year (mostly medieval/early-modern nobility). NEW nodes use the R3M_ prefix; unknown parents are '—' placeholders. FILLED 24 of 33; SKIPPED 9 as genuinely undocumented or unresolved (listed below). Ancestries converge: several grandparent generations already exist in the tree and are referenced in the notes rather than re-added one level up — Magnus of Saxony's father is the EXISTING R2E_ORDULF_SAXONY; Blanche de Brienne's grandfather is the EXISTING John of Brienne, King of Jerusalem; Ermentrude of France's father is the EXISTING Louis the Stammerer; García Ramírez's maternal grandfather is El Cid; Herbert I of Maine's father is Hugh III of Maine (each one further generation back, not created in this one-generation batch). FLAGGED disputed/compilation-sourced identifications in each note and label: Gerberga of Anjou's parentage (Geoffrey of Nevers per Wikipedia vs. the Ratburn of Vienne hypothesis); Leonor de Alvim's parents (João Pires de Alvim & Branca Pires Coelho per Wikipedia vs. an alternative Pedro Soares de Alvim & Maria Esteves); Joan of Geneva's father (Gerold of Geneva only surmised, via the much-later Chronicles of Savoy); Joan Beauchamp of Wellington (WikiTree/soc.genealogy.medieval, with a competing Lillesdon parentage). Compilation-only (Geneanet/Geni/Ixent/History of Parliament, not Wikipedia): Marguerite de Chambley, Lucrezia Conti, Sibília de Escrivà, Jacquette Poussard, Girolamo Martinozzi, Margherita Sanseverino, John de Wydeville. Two new Eilikas are kept distinct: the round-2 R2E_EILIKA_SCHWEINFURT (Wulfhild's grandmother) vs. the new R3M_EILIKA_BALLENSTEDT (Wulfhild's sister). SKIPPED (no fabrication): R2L_THOMASBITTLESGATE (parents not reliably documented); R2D_OSLAC (Asser gives no father — only general descent from the Jutish conquerors Stuf & Wihtgar); R2D_EMILIENNE (Emiliane, wife of Ebalus Manzer — parentage unrecorded); R2D_ROGNVALD_MOTHER ('—' placeholder, no identity); R2E_STEPHANIE_BURGUNDY (identity itself unsettled, no documented parents); R2E_BERTRADE_MONTFORT ('de Gometz' parentage not Wikipedia-confirmed, already flagged in round 2); R2E_GERBERGE_BLAISON (Éon de Blaison & Tchélétis de Trèves explicitly lack any primary-source confirmation); R2J_CARLOORSINI (parentage disputed/undocumented, Roberto Orsini's own descent contested); R2D_AELFGIFUSHAFT_FATHER ('—' placeholder, no identity). Web-verified July 2026 against Wikipedia (English/French/Portuguese) and, where flagged, genealogical compilations.",
+  "families": [
+    {
+      "a": {"id": "R3M_ROGER_POITEVIN", "label": "Roger the Poitevin<br/>fl.1080s-1120s · Anglo-Norman magnate; Count of La Marche (jure uxoris) · Wikipedia"},
+      "b": {"id": "R3M_ALMODIS_MARCHE", "label": "Almodis<br/>· Countess of La Marche; dau. of Aldebert II of La Marche · Wikipedia"},
+      "children": ["R2F_PONCIA_POITEVIN"],
+      "note": "Poncia, first wife of Wulgrin II, Count of Angoulême, was daughter of Roger the Poitevin (son of Roger de Montgomery) & Almodis, Countess of La Marche (dau. of Aldebert II of La Marche), per Wikipedia 'Wulgrin II, Count of Angoulême'. No other children of this union documented."
+    },
+    {
+      "a": {"id": "R3M_FRANCIS_DENMAN", "label": "Francis Denman<br/>c.1531-1599 · rector of West Retford, Notts · Wikipedia"},
+      "b": {"id": "R3M_ANNE_BLOUNT", "label": "Anne Blount<br/>fl.1580s · wife of Francis Denman · Wikipedia"},
+      "children": ["R2K_ANNEDENMAN"],
+      "note": "Anne Denman (1587-1661), 2nd wife of Sir Thomas Aylesbury, was the younger daughter of Francis Denman of Retford (rector of West Retford) & Anne Blount, per Wikipedia 'Anne Denman'. Francis was son of Nicholas Denman & Anne Hercy (grandparents, not added)."
+    },
+    {
+      "a": {"id": "R3M_GEOFFROY_NEVERS", "label": "Geoffrey of Nevers<br/>fl.900s · ⚠ per Wikipedia; identity disputed · Wikipedia"},
+      "b": {"id": "R3M_ABA_NEVERS", "label": "Aba<br/>fl.900s · wife of Geoffrey of Nevers · Wikipedia"},
+      "children": ["R2D_GERBERGAANJOUW"],
+      "note": "Gerberga, wife of Fulk II 'the Good', Count of Anjou, is given by Wikipedia ('Fulk II, Count of Anjou') as daughter of Geoffrey of Nevers & Aba; a competing hypothesis makes her a daughter of Ratburn I, Vicomte de Vienne. ⚠ disputed, flagged rather than resolved."
+    },
+    {
+      "a": {"id": "R3M_JOAO_PIRES_ALVIM", "label": "João Pires de Alvim<br/>fl.1350s · nobleman of Entre-Douro-e-Minho · Wikipedia"},
+      "b": {"id": "R3M_BRANCA_COELHO", "label": "Branca Pires Coelho<br/>· wife of João Pires de Alvim · Wikipedia"},
+      "children": ["R2H_LEONORDEALVIM"],
+      "note": "Leonor de Alvim, wife of St. Nuno Álvares Pereira, was daughter of João Pires de Alvim & Branca Pires Coelho (Wikipedia 'Leonor de Alvim'); she became her father's heir for lack of sons. ⚠ an alternative account names her parents as Pedro Soares de Alvim & Maria Esteves — flagged."
+    },
+    {
+      "a": {"id": "R3M_PHILIP_TILNEY", "label": "Sir Philip Tilney<br/>· of Boston, Lincolnshire · Wikipedia/genealogy"},
+      "b": {"id": "R3M_ISABEL_THORPE", "label": "Isabel de Thorpe<br/>· wife of Sir Philip Tilney · genealogy"},
+      "children": ["R2J_FREDERICKTILNEY"],
+      "note": "Sir Frederick Tilney (d.1445/47) of Ashwellthorpe (Norfolk) & Boston (Lincolnshire) was son of Sir Philip Tilney & Isabel de Thorpe, per Wikipedia 'Frederick Tilney' and standard genealogies. His heiress daughter Elizabeth Tilney continued the line into the Howard family."
+    },
+    {
+      "a": {"id": "R3M_FERRY_CHAMBLEY", "label": "Ferry de Chambley<br/>· of Lorraine · Geneanet/genealogy"},
+      "b": {"id": "R3M_JEANNE_LAUNAY", "label": "Jeanne de Launay<br/>· wife of Ferry de Chambley · Geneanet/genealogy"},
+      "children": ["R2I_MARGUERITE_CHAMBLEY"],
+      "note": "Marguerite de Chambley (d.c.1456), 1st wife of Louis de Beauvau, was daughter of Ferry de Chambley & Jeanne de Launay, per Geneanet/genealogieonline. ⚠ compilation-sourced (not in Wikipedia's 'Louis de Beauvau' article)."
+    },
+    {
+      "a": {"id": "R3M_CUNIGUNDA_FATHER", "label": "—"},
+      "b": {"id": "R3M_ERMENTRUDE_FRANCE", "label": "Ermentrude of France<br/>· dau. of Louis the Stammerer & Adelaide of Paris · Wikipedia"},
+      "children": ["R2D_CUNIGUNDA_ARDENNES"],
+      "note": "Cunigunda (wife of Wigeric of Lotharingia) was daughter of Ermentrude of France — herself daughter of King Louis the Stammerer (an EXISTING tree node) & Adelaide of Paris. Ermentrude's husband, Cunigunda's father, is unrecorded, so left as '—'. Per Wikipedia 'Cunigunda of France' / 'Ermentrude (daughter of Louis the Stammerer)'."
+    },
+    {
+      "a": {"id": "R3M_JEAN_BRIENNE_BUTLER", "label": "Jean de Brienne<br/>d.1296 · Grand Butler of France; son of John of Brienne, King of Jerusalem · Wikipedia"},
+      "b": {"id": "R3M_JEANNE_CHATEAUDUN", "label": "Jeanne<br/>· Dame de Châteaudun, 1st wife of Jean de Brienne · Wikipedia"},
+      "children": ["R2F_BLANCHE_BRIENNE"],
+      "note": "Blanche de Brienne (Baroness Tingry, c.1252-c.1302), only child & heiress, was daughter of Jean de Brienne, Grand Butler of France, & his 1st wife Jeanne, Dame de Châteaudun (widow of Jean I de Montfort). Jean was son of the EXISTING John of Brienne, King of Jerusalem (grandparent, not re-added). Wikipedia 'Blanche de Brienne, Baroness Tingry'."
+    },
+    {
+      "a": {"id": "R3M_ALDOBRANDINO_CONTI", "label": "Aldobrandino Conti<br/>· Signore di Valmontone · Wikidata/genealogy"},
+      "b": {"id": "R3M_CATERINA_SANGRO", "label": "Caterina de' Sangro<br/>· dei Baroni di Bugnara; wife of Aldobrandino Conti · genealogy"},
+      "children": ["R2I_LUCREZIA_CONTI"],
+      "note": "Lucrezia Conti (wife of Orso Orsini, Lord of Monterotondo; great-grandmother of Clarice Orsini de' Medici) was daughter of Aldobrandino Conti, Signore di Valmontone, & Caterina de' Sangro, per genmarenostrum/Wikidata. ⚠ compilation-sourced."
+    },
+    {
+      "a": {"id": "R3M_ANDREU_ESCRIVA", "label": "Andreu Guillem Escrivà<br/>· senyor d'Agres · Geneanet/Ixent"},
+      "b": {"id": "R3M_SIBILIA_PROIXITA", "label": "Sibília de Pròixita<br/>· wife of Andreu Guillem Escrivà · Geneanet/Ixent"},
+      "children": ["R2I_SIBILIA_ESCRIVA"],
+      "note": "Sibília de Escrivà i de Pròixita (mother of Jofré de Borja, in the ancestry of Pope Alexander VI) was daughter of Andreu Guillem Escrivà, senyor d'Agres, & Sibília de Pròixita, per Catalan genealogies (Geneanet/Ixent). ⚠ compilation-sourced."
+    },
+    {
+      "a": {"id": "R3M_ENGUERRAND2_FIENNES", "label": "Enguerrand II de Fiennes<br/>· Seigneur de Fiennes · Wikipedia"},
+      "b": {"id": "R3M_ISABELLE_CONDE", "label": "Isabelle de Condé<br/>· wife of Enguerrand II de Fiennes · Wikipedia"},
+      "children": ["R2F_WILLIAM_FIENNES"],
+      "note": "William (Guillaume) II de Fiennes, Baron of Tingry (husband of Blanche de Brienne, above), was son of Enguerrand II de Fiennes & Isabelle de Condé, per Wikipedia 'Blanche de Brienne, Baroness Tingry'."
+    },
+    {
+      "a": {"id": "R3M_JOACHIM_POUSSARD", "label": "Joachim Poussard<br/>· seigneur du Bas-Vandré · Geni/genealogy"},
+      "b": {"id": "R3M_SUSANNE_GAILLARD", "label": "Susanne Gaillard<br/>· de Saint-Dizant; wife of Joachim Poussard · Geni/genealogy"},
+      "children": ["R2K_JACQUETTEPOUSSARD"],
+      "note": "Jacquette Poussard du Bas-Vandré (wife of Alexandre Desmier d'Olbreuse; grandmother of Éléonore d'Olbreuse) was daughter of Joachim Poussard, seigneur du Bas-Vandré, & Susanne Gaillard de Saint-Dizant, per Geni/genealogy. ⚠ compilation-sourced."
+    },
+    {
+      "a": {"id": "R3M_MAGNUS_SAXONY", "label": "Magnus<br/>c.1045-1106 · Duke of Saxony; last of the Billungs · Wikipedia"},
+      "b": {"id": "R3M_SOPHIA_HUNGARY", "label": "Sophia of Hungary<br/>· dau. of Béla I of Hungary; wife of Magnus of Saxony · Wikipedia"},
+      "children": [
+        "R2E_WULFHILD_SAXONY",
+        {"id": "R3M_EILIKA_BALLENSTEDT", "label": "Eilika of Saxony<br/>1081-1142 · m. Otto of Ballenstedt; ancestress of the Ascanians · Wikipedia"}
+      ],
+      "note": "Wulfhild of Saxony (wife of Henry IX of Bavaria) and her sister Eilika (wife of Otto of Ballenstedt, ancestress of the Ascanians/Anhalt) were the two daughters of Magnus, last Billung Duke of Saxony, & Sophia of Hungary (dau. of Béla I). Magnus was son of the EXISTING R2E_ORDULF_SAXONY (grandparent, not re-added). This new Eilika is distinct from the round-2 R2E_EILIKA_SCHWEINFURT (Wulfhild's great-grandmother). Wikipedia 'Magnus, Duke of Saxony'."
+    },
+    {
+      "a": {"id": "R3M_HENRY3_LOUVAIN", "label": "Henry III<br/>c.1055-1095 · Count of Louvain · Wikipedia"},
+      "b": {"id": "R3M_GERTRUDE_FLANDERS_LOUVAIN", "label": "Gertrude of Flanders<br/>· dau. of Robert I of Flanders; wife of Henry III of Louvain · Wikipedia"},
+      "children": ["R2E_ADELAIDE_LEUVEN"],
+      "note": "Adelaide of Leuven (wife of Simon I, Duke of Lorraine) was daughter of Henry III, Count of Louvain, & Gertrude of Flanders (dau. of Robert I 'the Frisian'). Henry III left only daughters and was succeeded by his BROTHER Godfrey I (uncle, not sibling); the other daughters are unnamed in the sources. This Gertrude is distinct from the later R2F_GERTRUDE_FLANDERS already in the tree. Wikipedia 'Adelaide of Leuven' / 'Henry III, Count of Louvain'."
+    },
+    {
+      "a": {"id": "R3M_ANTONIO_SANSEVERINO_MARSICO", "label": "Antonio Sanseverino<br/>d.1384 · 5th Count of Marsico; Constable of Naples-Sicily · Wikipedia/Geni"},
+      "b": {"id": "R3M_ISABELLA_DELBALZO_MARSICO", "label": "Isabella del Balzo<br/>· wife of Antonio Sanseverino, Count of Marsico · Geni"},
+      "children": ["R2H_GIOVANNASANSEVERINO"],
+      "note": "Giovanna di Sanseverino (wife of Louis, Count of Enghien; mother of Margaret, Countess of Brienne) was daughter of Antonio di Sanseverino, 5th Count of Marsico, Constable of the kingdom of Naples-Sicily, & Isabella del Balzo, per Wikipedia 'Louis, Count of Enghien' / Geni. This Isabella del Balzo is distinct from the later del Balzo nodes already in the tree."
+    },
+    {
+      "a": {"id": "R3M_RAMIRO_SANCHEZ", "label": "Ramiro Sánchez<br/>· Lord of Monzón; grandson of García Sánchez III of Navarre · Wikipedia"},
+      "b": {"id": "R3M_CRISTINA_RODRIGUEZ", "label": "Cristina Rodríguez<br/>· dau. of Rodrigo Díaz de Vivar (El Cid) · Wikipedia"},
+      "children": ["R2E_GARCIARAMIREZ_NAVARRE"],
+      "note": "👑 García Ramírez 'the Restorer', King of Navarre, was son of Ramiro Sánchez, Lord of Monzón (descended, via an illegitimate line, from King García Sánchez III of Navarre), & Cristina Rodríguez, daughter of Rodrigo Díaz de Vivar, El Cid. El Cid (grandparent) not re-added here. Wikipedia 'García Ramírez of Navarre'."
+    },
+    {
+      "a": {"id": "R3M_GEROLD_GENEVA", "label": "Gerold<br/>· Count of Geneva · ⚠ surmised, per later Chronicles of Savoy · Wikipedia"},
+      "b": {"id": "R3M_GEROLD_GENEVA_MOTHER", "label": "—"},
+      "children": ["R2E_JOAN_GENEVA"],
+      "note": "Joan of Geneva (wife of Amadeus II of Savoy) is named by the much-later Chronicles of Savoy as daughter of 'Girard, Count of Burgundy', whom scholars surmise to be Count Gerold of Geneva. ⚠ a reconstruction, not firmly documented; primary sources are scarce. Mother unrecorded. Wikipedia 'Joan of Geneva'."
+    },
+    {
+      "a": {"id": "R3M_VINCENZO_MARTINOZZI", "label": "Vincenzo Martinozzi<br/>· of Fano · Geni/genealogy"},
+      "b": {"id": "R3M_MARGHERITA_MARCOLINI", "label": "Margherita Marcolini<br/>· wife of Vincenzo Martinozzi · Geni/genealogy"},
+      "children": ["R2K_GIROLAMOMARTINOZZI"],
+      "note": "Girolamo (Geronimo) Martinozzi (1610-1680), father of the Martinozzi sisters (Mazarinettes Laura & Anne Marie) by Laura Mazzarini, was son of Vincenzo Martinozzi & Margherita Marcolini, per Geni/genealogy. ⚠ compilation-sourced."
+    },
+    {
+      "a": {"id": "R3M_HERBERT1_MAINE", "label": "Herbert I 'Wake-Dog' (Éveille-Chien)<br/>d.1036 · Count of Maine · Wikipedia"},
+      "b": {"id": "R3M_HERBERT1_MAINE_WIFE", "label": "—"},
+      "children": [
+        "R2E_PAULA_MAINE",
+        {"id": "R3M_HUGH4_MAINE", "label": "Hugh IV<br/>d.1051 · Count of Maine · Wikipedia"},
+        {"id": "R3M_GERSENDA_MAINE", "label": "Gersenda of Maine<br/>· m. Theobald III of Blois, then Albert Azzo II of Este · Wikipedia"},
+        {"id": "R3M_BIOTA_MAINE", "label": "Biota of Maine<br/>· m. Walter III, Count of the Vexin · Wikipedia"}
+      ],
+      "note": "Paula of Maine (wife of Jean de la Flèche, mother of Elias I of Maine) was daughter of Herbert I 'Wake-Dog', Count of Maine (d.1036), by an unrecorded wife. Full siblings: Hugh IV (successor as Count of Maine), Gersenda (m. Theobald III of Blois, then Albert Azzo II of Este), and Biota (m. Walter III of the Vexin). Herbert was son of Hugh III of Maine (grandparent, not re-added). Wikipedia 'Herbert I, Count of Maine'."
+    },
+    {
+      "a": {"id": "R3M_HENRY_SCHWEINFURT", "label": "Henry of Schweinfurt<br/>c.970-1017 · Margrave of the Nordgau · Wikipedia"},
+      "b": {"id": "R3M_GERBERGA_GLEIBERG", "label": "Gerberga of Gleiberg<br/>c.970-aft.1036 · dau. of Herbert of the Wetterau; wife of Henry of Schweinfurt · Wikipedia"},
+      "children": [
+        "R2E_EILIKA_SCHWEINFURT",
+        {"id": "R3M_OTTO3_SWABIA", "label": "Otto III 'the White'<br/>d.1057 · Margrave of the Nordgau & Duke of Swabia · Wikipedia"},
+        {"id": "R3M_JUDITH_SCHWEINFURT", "label": "Judith of Schweinfurt<br/>d.1058 · m. Bretislav I of Bohemia, then Peter Orseolo of Hungary · Wikipedia"}
+      ],
+      "note": "Eilika of Schweinfurt (wife of Bernard II, Duke of Saxony) was daughter of Henry of Schweinfurt, Margrave of the Nordgau, & Gerberga of Gleiberg (dau. of Herbert of the Wetterau). Full siblings: Otto III 'the White', Duke of Swabia, and Judith (m. Bretislav I of Bohemia, then Peter Orseolo, King of Hungary). Wikipedia 'Eilika of Schweinfurt' / 'Henry of Schweinfurt'."
+    },
+    {
+      "a": {"id": "R3M_WILLIAM_BEAUCHAMP_WELLINGTON", "label": "William Beauchamp<br/>· of Wellington, Somerset · WikiTree/soc.genealogy.medieval"},
+      "b": {"id": "R3M_WILLIAM_BEAUCHAMP_WELLINGTON_WIFE", "label": "—"},
+      "children": ["R2L_JOANBEAUCHAMP_WELLINGTON"],
+      "note": "Joan Beauchamp (wife of Thomas Bittlesgate) was daughter & co-heiress of William Beauchamp of Wellington, Somerset, per WikiTree/soc.genealogy.medieval; her mother is unrecorded. ⚠ a competing view in the same forum makes her instead a daughter of Sir John Beauchamp of Lillesdon & Joan Bridport — flagged, not resolved. Low-certainty (no Wikipedia coverage)."
+    },
+    {
+      "a": {"id": "R3M_ANTONIO_SANSEVERINO_SANMARCO", "label": "Antonio Sanseverino<br/>· 2nd Duke of San Marco · Geni/genealogy"},
+      "b": {"id": "R3M_ANTONIO_SANSEVERINO_SANMARCO_WIFE", "label": "—"},
+      "children": ["R2J_MARGHERITASANSEVERINO"],
+      "note": "Margherita Sanseverino (1st wife of Amerigo Sanseverino, 1st Count of Capaccio; later wife of Roberto Orsini, Count of Tagliacozzo) was daughter of Antonio Sanseverino, 2nd Duke of San Marco, per Geni/solofrastorica. A DISTINCT Antonio from Giovanna Sanseverino's father (5th Count of Marsico, d.1384, above). Mother unrecorded. ⚠ compilation-sourced."
+    },
+    {
+      "a": {"id": "R3M_GEOFFROY2_PERCHE", "label": "Geoffroy II<br/>c.1040-1100 · Count of Perche (Geoffroy de Châteaudun) · Wikipedia"},
+      "b": {"id": "R3M_BEATRIX_RAMERUPT", "label": "Béatrix de Ramerupt<br/>· dau. of Hilduin IV of Montdidier & Alice de Roucy · Wikipedia"},
+      "children": [
+        "R2L_MATHILDE_PERCHE",
+        {"id": "R3M_ROTROU3_PERCHE", "label": "Rotrou III 'the Great'<br/>d.1144 · Count of Perche; crusader · Wikipedia"}
+      ],
+      "note": "Mathilde du Perche (1st wife of Raymond I, Viscount of Turenne) was daughter of Geoffroy II, Count of Perche, & Béatrix de Ramerupt (dau. of Hilduin IV of Montdidier & Alice de Roucy). Full brother: Rotrou III 'le Grand', Count of Perche (crusader). Wikipedia 'Geoffrey II, Count of Perche'."
+    },
+    {
+      "a": {"id": "R3M_RICHARD_WYDEVILLE", "label": "Richard de Wydeville<br/>b.c.1310 · of Grafton, Northamptonshire · History of Parliament/genealogy"},
+      "b": {"id": "R3M_ELIZABETH_LYONS", "label": "Elizabeth Lyons<br/>· dau. of Sir John Lyons of Warkworth; 2nd wife of Richard de Wydeville · genealogy"},
+      "children": ["R2I_JOHN_WYDEVILLE_GRAFTON"],
+      "note": "John de Wydeville of Grafton (Sheriff of Northamptonshire, d.c.1400; ancestor of the Woodvilles/Queen Elizabeth Woodville) was son of Richard de Wydeville — first of the Grafton family to gain more than local prominence — by his 2nd wife Elizabeth, daughter of Sir John Lyons of Warkworth, per History of Parliament / Geni. ⚠ parliamentary-biography/compilation-sourced."
+    }
+  ]
+}

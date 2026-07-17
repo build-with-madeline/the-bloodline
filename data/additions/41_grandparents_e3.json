@@ -1,0 +1,101 @@
+{
+  "_note": "Round 2 (one more generation back) for 8 round-1-added spouse-parents (batch e_1400_1750_3): Frederick III of Denmark, Luisa de Guzmán, Frances Aylesbury, Alfonso IV d'Este, Laura Martinozzi, Éléonore d'Olbreuse, John Frederick of Brandenburg-Ansbach, Eleonore Erdmuthe of Saxe-Eisenach. Existing batch person referenced by id string; new grandparents/great-grandparents and siblings are R2K_ nodes. All 8 fully documented on Wikipedia; no skips this batch. Half-siblings from a parent's other marriages are noted in the family 'note' but not added as nodes (kept to full-sibling unions, matching round-1 convention). 👑 = regnant sovereigns only.",
+  "families": [
+    {
+      "note": "Frederick III of Denmark -> father Christian IV (SPF_CHRISTIANIV, existing id, defined in the Anne of Denmark family) & mother Anne Catherine of Brandenburg; full siblings incl. Christian Prince-Elect (predeceased his father) and Ulrik (Prince-Bishop of Schwerin, murdered 1633); three others died in infancy/childhood. Half-siblings from Christian IV's later morganatic marriage to Kirsten Munk not included (different mother).",
+      "a": "SPF_CHRISTIANIV",
+      "b": {"id": "R2K_ANNECATHBRAND", "label": "Anne Catherine of Brandenburg<br/>1575-1612 · Queen consort of Denmark &amp; Norway · Wikipedia"},
+      "children": [
+        "SPF_FREDERICKIIIDEN",
+        {"id": "R2K_CHRISTIANPRINCEELECT", "label": "Christian, Prince-Elect of Denmark<br/>1603-1647 · heir apparent; predeceased his father · Wikipedia"},
+        {"id": "R2K_FREDERICKDEN1599", "label": "Frederick, Hereditary Prince of Denmark<br/>1599-1599 · died in infancy · Wikipedia"},
+        {"id": "R2K_SOPHIEDEN1605", "label": "Princess Sophie of Denmark<br/>1605-1605 · died in infancy · Wikipedia"},
+        {"id": "R2K_ELISABETHDEN1606", "label": "Princess Elisabeth of Denmark<br/>1606-1608 · died in infancy · Wikipedia"},
+        {"id": "R2K_ULRIKDEN1611", "label": "Ulrik of Denmark<br/>1611-1633 · Prince-Bishop of Schwerin; murdered · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Luisa de Guzmán -> father Juan Manuel Pérez de Guzmán y Silva, 8th Duke of Medina Sidonia & mother Juana Gómez de Sandoval y de la Cerda (dau. of Francisco de Sandoval y Rojas, 1st Duke of Lerma); brother Gaspar succeeded as 9th Duke of Medina Sidonia (sourced to Wikidata/Geni; not named in the English Wikipedia biography of the 8th Duke).",
+      "a": {"id": "R2K_DUKEMEDINASIDONIA", "label": "Juan Manuel Pérez de Guzmán y Silva<br/>1579-1636 · 8th Duke of Medina Sidonia · Wikipedia"},
+      "b": {"id": "R2K_JUANADESANDOVAL", "label": "Juana Gómez de Sandoval y de la Cerda<br/>dau. of Francisco de Sandoval y Rojas, 1st Duke of Lerma · Wikipedia"},
+      "children": [
+        "SPF_LUISAGUZMAN",
+        {"id": "R2K_GASPARMEDINASIDONIA", "label": "Gaspar Alfonso Pérez de Guzmán<br/>1602-1664 · 9th Duke of Medina Sidonia · Wikidata/Geni"}
+      ]
+    },
+    {
+      "note": "Frances Aylesbury -> father Sir Thomas Aylesbury, 1st Baronet & mother Anne Denman (his second wife); four full siblings named (William, Thomas, Anne, Barbara), no birth/death dates documented for them.",
+      "a": {"id": "R2K_THOMASAYLESBURY", "label": "Sir Thomas Aylesbury<br/>1576-1657 · 1st Baronet; Master of Requests &amp; Master of the Mint · Wikipedia"},
+      "b": {"id": "R2K_ANNEDENMAN", "label": "Anne Denman<br/>fl.1600s · second wife of Sir Thomas Aylesbury · Wikipedia"},
+      "children": [
+        "SPF_FRANCESAYLESBURY",
+        {"id": "R2K_WILLIAMAYLESBURY", "label": "William Aylesbury<br/>fl.1600s · son of Sir Thomas Aylesbury · Wikipedia"},
+        {"id": "R2K_THOMASAYLESBURYJR", "label": "Thomas Aylesbury<br/>fl.1600s · son of Sir Thomas Aylesbury · Wikipedia"},
+        {"id": "R2K_ANNEAYLESBURY", "label": "Anne Aylesbury<br/>fl.1600s · dau. of Sir Thomas Aylesbury · Wikipedia"},
+        {"id": "R2K_BARBARAAYLESBURY", "label": "Barbara Aylesbury<br/>fl.1600s · dau. of Sir Thomas Aylesbury · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Alfonso IV d'Este -> father Francesco I d'Este, Duke of Modena & mother Maria Caterina Farnese (his first wife); full siblings listed, several of whom died in infancy/childhood. Half-siblings Vittoria (b.1649, mother Vittoria Farnese) and Rinaldo, later Duke of Modena (b.1655, mother Lucrezia Barberini), from Francesco I's subsequent marriages, not included as nodes here (different mother).",
+      "a": {"id": "R2K_FRANCESCOIESTE", "label": "Francesco I d'Este<br/>1610-1658 · Duke of Modena · Wikipedia"},
+      "b": {"id": "R2K_MARIACATFARNESE", "label": "Maria Caterina Farnese<br/>1615-1646 · Duchess of Modena · Wikipedia"},
+      "children": [
+        "SPF_ALFONSOIVESTE",
+        {"id": "R2K_ALFONSOESTE1632", "label": "Alfonso d'Este<br/>1632-1632 · died in infancy · Wikipedia"},
+        {"id": "R2K_ISABELLAESTE", "label": "Isabella d'Este<br/>1635-1666 · Wikipedia"},
+        {"id": "R2K_ELEONORAESTE1639", "label": "Eleonora d'Este<br/>1639-1640 · died in infancy · Wikipedia"},
+        {"id": "R2K_TEDALDOESTE1640", "label": "Tedaldo d'Este<br/>1640-1643 · died in infancy · Wikipedia"},
+        {"id": "R2K_ALMERIGOESTE", "label": "Almerigo d'Este<br/>1641-1660 · Wikipedia"},
+        {"id": "R2K_ELEONORAESTE1643", "label": "Eleonora d'Este<br/>1643-1722 · Wikipedia"},
+        {"id": "R2K_MARIAESTE", "label": "Maria d'Este<br/>1644-1684 · Wikipedia"},
+        {"id": "R2K_TEDALDOESTE1646", "label": "Tedaldo d'Este<br/>1646-1646 · died in infancy · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Laura Martinozzi -> father Girolamo Martinozzi & mother Laura Margherita Mazzarini (eldest sister of Cardinal Mazarin, making the Martinozzi daughters his nieces, among the 'Mazarinettes'); older sister Anne Marie (later Princess of Conti). No birth/death dates documented for the parents.",
+      "a": {"id": "R2K_GIROLAMOMARTINOZZI", "label": "Girolamo Martinozzi<br/>father of the Martinozzi sisters (Mazarinettes) · Wikipedia"},
+      "b": {"id": "R2K_LAURAMARGMAZZARINI", "label": "Laura Margherita Mazzarini<br/>eldest sister of Cardinal Mazarin · Wikipedia"},
+      "children": [
+        "SPF_LAURAMARTINOZZI",
+        {"id": "R2K_ANNEMARIEMARTINOZZI", "label": "Anne Marie Martinozzi<br/>1637-1672 · m. Armand de Bourbon, Prince of Conti · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Éléonore d'Olbreuse -> father Alexandre Desmier, seigneur d'Olbreuse & mother Jacquette Poussard du Bas-Vandré; two sisters, Angélique (elder) and Marie (younger). No birth/death dates documented for the parents or for Marie.",
+      "a": {"id": "R2K_ALEXDESMIEROLBREUSE", "label": "Alexandre Desmier<br/>seigneur d'Olbreuse; Huguenot nobleman · Wikipedia"},
+      "b": {"id": "R2K_JACQUETTEPOUSSARD", "label": "Jacquette Poussard du Bas-Vandré<br/>Huguenot noblewoman · Wikipedia"},
+      "children": [
+        "SPF_ELEONOREOLBREUSE",
+        {"id": "R2K_ANGELIQUEOLBREUSE", "label": "Angélique Desmier d'Olbreuse<br/>d.1688 · m. Count Henry V Reuss of Untergreiz, 1678 · Wikipedia"},
+        {"id": "R2K_MARIEOLBREUSE", "label": "Marie Desmier d'Olbreuse<br/>m. Olivier de Beaulieu-Marconnay · Wikipedia"}
+      ]
+    },
+    {
+      "note": "John Frederick, Margrave of Brandenburg-Ansbach -> father Albert II, Margrave of Brandenburg-Ansbach & mother Sophie Margarete of Oettingen-Oettingen; full siblings listed.",
+      "a": {"id": "R2K_ALBERTIIANSBACH", "label": "Albert II, Margrave of Brandenburg-Ansbach<br/>1620-1667 · Wikipedia"},
+      "b": {"id": "R2K_SOPHIEMARGOETTINGEN", "label": "Sophie Margarete of Oettingen-Oettingen<br/>1634-1664 · Wikipedia"},
+      "children": [
+        "SPF_JOHNFREDANSBACH",
+        {"id": "R2K_LUISESOPHIEANSBACH", "label": "Luise Sophie of Brandenburg-Ansbach<br/>1652-1668 · Wikipedia"},
+        {"id": "R2K_ALBRECHTERNSTANSBACH", "label": "Albrecht Ernst of Brandenburg-Ansbach<br/>1659-1674 · Wikipedia"},
+        {"id": "R2K_DOROTHEACHARLOTTEANS", "label": "Dorothea Charlotte of Brandenburg-Ansbach<br/>1661-1705 · Wikipedia"},
+        {"id": "R2K_ELEONOREJULIANEANS", "label": "Eleonore Juliane of Brandenburg-Ansbach<br/>1663-1724 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Eleonore Erdmuthe of Saxe-Eisenach -> father John George I, Duke of Saxe-Eisenach & mother Johannetta of Sayn-Wittgenstein; full siblings listed, several of whom died in infancy.",
+      "a": {"id": "R2K_JOHNGEORGISAXEEISEN", "label": "John George I, Duke of Saxe-Eisenach<br/>1634-1686 · Wikipedia"},
+      "b": {"id": "R2K_JOHANNETTASAYNWITT", "label": "Johannetta of Sayn-Wittgenstein<br/>1632-1701 · Wikipedia"},
+      "children": [
+        "SPF_ELEONERDMUTHE",
+        {"id": "R2K_FREDAUGUSTSAXEEISEN", "label": "Frederick August, Hereditary Prince of Saxe-Eisenach<br/>1663-1684 · Wikipedia"},
+        {"id": "R2K_JOHANNGEORGIISAXEEISEN", "label": "John George II, Duke of Saxe-Eisenach<br/>1665-1698 · Wikipedia"},
+        {"id": "R2K_JOHANNWILHELMSAXEEISEN", "label": "Johann Wilhelm of Saxe-Eisenach<br/>1666-1729 · Wikipedia"},
+        {"id": "R2K_MAXHEINRICHSAXEEISEN", "label": "Maximilian Heinrich of Saxe-Eisenach<br/>1666-1668 · died in infancy · Wikipedia"},
+        {"id": "R2K_LOUISESAXEEISEN", "label": "Louise of Saxe-Eisenach<br/>1668-1669 · died in infancy · Wikipedia"},
+        {"id": "R2K_FREDERICKAELISABETHSAXE", "label": "Fredericka Elisabeth of Saxe-Eisenach<br/>1669-1730 · m. Duke of Saxe-Weissenfels · Wikipedia"},
+        {"id": "R2K_ERNSTGUSTAVSAXEEISEN", "label": "Ernst Gustav of Saxe-Eisenach<br/>1672-1672 · died in infancy · Wikipedia"}
+      ]
+    }
+  ]
+}

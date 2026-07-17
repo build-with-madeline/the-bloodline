@@ -1,0 +1,236 @@
+{
+  "_note": "Round 2 (one more generation back) for batch e_1400_1750_1: 32 round-1 spouse-parents (late-medieval/early-modern, 1400-1750) given their documented parents + full siblings. All 32 filled — no skips; this era is extremely well documented. New nodes use the R2I_ prefix. MAJOR DEDUP/CROSS-LINKS found by grepping existing additions before writing: (1) Richard Neville, 5th Earl of Salisbury -> parents are the EXISTING RALPHNEV + JOANBEAU (already parents of Cecily Neville/CN); (2) Eleanor of Aragon, Queen of Portugal -> parents are the EXISTING FERDIARAGON + ELEANORALB (already parents of JOHNIIARAGON); (3) Marguerite of Orleans, Countess of Vertus -> parents are the EXISTING SPJ_LOUIS1ORLEANS + SPJ_VALENTINAVISCONTI (already parents of CHARLESORLEANS/SPJ_JOHNANGOULEME); (4) Agnes of Burgundy -> parents are the EXISTING SPJ_JOHNFEARLESS + SPJ_MARGARETBAVARIA (already parents of PHILIPGOOD/SPJ_ANNEBURGUNDY); (5) Catherine of Cleves -> parents are the EXISTING SPI_ADOLPH1_CLEVES + SPI_MARIE_BURGUNDY_CLEVES (already parents of MARIECLEVES); (6) Eleanor of Navarre -> parents are the EXISTING JOHNIIARAGON + BLANCHENAV (already parents of CHARLESVIANA); (7) Isabel le Despenser's mother is Constance of York, who ALREADY EXISTS as R2H_CONSTANCEOFYORK (created in 41_grandparents_d5.json as EOL's daughter) — referenced, not duplicated; (8) Alice Montagu's mother Eleanor Holland is textually confusable with her ELDER SISTER of the identical name (R2H_ELEANORHOLLAND, m. Roger Mortimer, already in d5) — Wikipedia's 'Eleanor Holland' article explicitly warns these are two different daughters of Thomas Holland, 2nd Earl of Kent; Alice's actual mother is a NEW distinct node (R2I_ELEANORHOLLAND_SALISBURY) added as an ADDITIONAL child of the EXISTING R2H_THOMASHOLLAND2KENT + R2H_ALICEFITZALAN union rather than re-creating that grandparent generation; (9) Peter II of Luxembourg's father Louis de Luxembourg, Count of Saint-Pol, is added as a NEW additional child of the EXISTING PETERLUX + MARGBAUX union (already parents of Jacquetta of Luxembourg/JL, Duchess of Bedford, mother of Elizabeth Woodville) — Peter II is thus a documented nephew of Jacquetta; (10) Charles I of Bourbon + Agnes of Burgundy's EXISTING union (from 40_spouseparents_u2.json, already parents of ISABBOURBON/John II/Peter II Beaujeu) gains two more documented daughters, Margaret of Bourbon (Duchess of Savoy) and Catherine of Bourbon (Duchess of Guelders) — both round-1 ids in this same batch; (11) Philip II of Savoy and Margaret of Savoy (Countess of Saint-Pol) — both round-1 ids in this batch — share the same parents, Louis, Duke of Savoy & Anne of Cyprus, so one family entry resolves both; (12) Arnold, Duke of Guelders + Catherine of Cleves's EXISTING union (from 40_spouseparents_u4.json, already parents of MARYGUELDERS/SPJ_ADOLFGUELDERS) gains full siblings incl. this batch's SPI_ADOLF_GUELDERS — FLAGGING a pre-existing round-1 DATA DUPLICATE: SPJ_ADOLFGUELDERS (u4) and SPI_ADOLF_GUELDERS (u3) are the same historical person (Adolf of Egmond, Duke of Guelders, 1438-1477) created independently under two ids in two different round-1 files; not resolved here (no edits to other files permitted), left for a future dedup pass. DISPUTE FLAG: Jofré Llançol i Escrivà's paternal line (Llançol vs Borja) is flagged as debated in his own round-1 label; Wikipedia nonetheless names his parents as Rodrigo Gil de Borja y Fenollet & Sibília de Escrivà y Pròixita, which is given here as the standard/documented answer while preserving the existing dispute flag. Sources are Wikipedia/standard genealogies (Verified 2026-07-17). 👑 = regnant sovereigns only.",
+  "families": [
+    {
+      "a": "RALPHNEV",
+      "b": "JOANBEAU",
+      "children": ["SPI_RICHARD_SALISBURY"],
+      "note": "Richard Neville, 5th Earl of Salisbury, is documented son of Ralph Neville, Earl of Westmorland, & Joan Beaufort — half-blood brother (same union) of the existing Cecily Neville (CN), Duchess of York. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_THOMAS_DESPENSER", "label": "Thomas le Despenser<br/>1373-1400 · 1st Earl of Gloucester; beheaded for plotting against Henry IV · Wikipedia"},
+      "b": "R2H_CONSTANCEOFYORK",
+      "children": ["SPG_ISABELDESPENSER"],
+      "note": "Isabel le Despenser was born posthumously (26 Jul 1400, six months after her father's beheading) to Thomas le Despenser & Constance of York — Constance already exists in the tree as R2H_CONSTANCEOFYORK (daughter of Edmund of Langley/EOL, added in 41_grandparents_d5.json). Only child. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_JOHN1_BOURBON", "label": "John I<br/>c.1381-1434 · Duke of Bourbon; captured at Agincourt, died in English captivity · Wikipedia"},
+      "b": {"id": "R2I_MARIE_BERRY", "label": "Marie of Berry<br/>1375-1434 · Duchess of Auvergne in her own right, dau. of John, Duke of Berry · Wikipedia"},
+      "children": ["SPH_CHARLES1_BOURBON"],
+      "note": "Charles I, Duke of Bourbon, is documented eldest son of John I, Duke of Bourbon, & Marie of Berry. Wikipedia."
+    },
+    {
+      "a": "FERDIARAGON",
+      "b": "ELEANORALB",
+      "children": [
+        "SPK_ELEANOR_ARAGON2",
+        {"id": "R2I_ALFONSO5_ARAGON", "label": "👑 Alfonso V 'the Magnanimous'<br/>1396-1458 · King of Aragon, Sicily &amp; Naples · Wikipedia"},
+        {"id": "R2I_MARIA_ARAGON_CASTILE", "label": "Maria of Aragon<br/>1396/1403-1445 · Queen consort of Castile, m. John II of Castile · Wikipedia"}
+      ],
+      "note": "Eleanor of Aragon, Queen of Portugal (wife of Duarte/DUARTE), is documented daughter of Ferdinand I of Aragon (FERDIARAGON) & Eleanor of Alburquerque (ELEANORALB) — full sister of the existing John II of Aragon (JOHNIIARAGON). Full brother Alfonso V and full sister Maria (queen of the existing JOHNIICAST) added. Wikipedia."
+    },
+    {
+      "a": "SPJ_LOUIS1ORLEANS",
+      "b": "SPJ_VALENTINAVISCONTI",
+      "children": ["SPI_MARG_ORLEANS_VERTUS"],
+      "note": "Marguerite of Orleans, Countess of Vertus, is documented daughter of Louis I, Duke of Orleans, & Valentina Visconti — full sister of the existing Charles, Duke of Orleans (CHARLESORLEANS) & John of Angouleme (SPJ_JOHNANGOULEME). Wikipedia."
+    },
+    {
+      "a": "SPJ_JOHNFEARLESS",
+      "b": "SPJ_MARGARETBAVARIA",
+      "children": ["SPH_AGNES_BURGUNDY"],
+      "note": "Agnes of Burgundy (wife of Charles I of Bourbon) is documented daughter of John the Fearless & Margaret of Bavaria — full sister of the existing Philip the Good (PHILIPGOOD) & Anne of Burgundy (SPJ_ANNEBURGUNDY). Wikipedia."
+    },
+    {
+      "a": "R2H_THOMASHOLLAND2KENT",
+      "b": "R2H_ALICEFITZALAN",
+      "children": [
+        {"id": "R2I_ELEANORHOLLAND_SALISBURY", "label": "Eleanor Holland<br/>c.1386-aft.1413 · Countess of Salisbury; m. Thomas Montagu 1399 — NOT to be confused with her elder sister of the same name, Countess of March (existing R2H_ELEANORHOLLAND) · Wikipedia"}
+      ],
+      "note": "Alice Montagu's mother Eleanor Holland, Countess of Salisbury, is a documented THIRD daughter of the existing Thomas Holland, 2nd Earl of Kent (R2H_THOMASHOLLAND2KENT) & Alice FitzAlan (R2H_ALICEFITZALAN) union — added here rather than re-creating those grandparents. Wikipedia 'Eleanor Holland' explicitly disambiguates her from her elder sister of the same name (R2H_ELEANORHOLLAND, m. Roger Mortimer, already in the tree)."
+    },
+    {
+      "a": {"id": "R2I_THOMAS_MONTAGU", "label": "Thomas Montagu<br/>1388-1428 · 4th Earl of Salisbury; killed at the Siege of Orleans · Wikipedia"},
+      "b": "R2I_ELEANORHOLLAND_SALISBURY",
+      "children": ["SPI_ALICE_MONTAGU"],
+      "note": "Alice Montagu, 5th Countess of Salisbury, is the only legitimate child of Thomas Montagu, 4th Earl of Salisbury, & Eleanor Holland (linked above). Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_JOHN2_EGMOND", "label": "John II<br/>c.1385-1451 · Lord of Egmond ('met de Bellen') · Wikipedia"},
+      "b": {"id": "R2I_MARIA_ARKEL", "label": "Maria van Arkel<br/>c.1385-1415 · heiress, dau. of John V, Lord of Arkel · Wikipedia"},
+      "children": [
+        "SPJ_ARNOLDGUELDERS",
+        {"id": "R2I_WILLIAM2_EGMOND", "label": "William II<br/>1412-1483 · Lord of Egmond · Wikipedia"}
+      ],
+      "note": "Arnold, Duke of Guelders, is documented son of John II, Lord of Egmond, & Maria van Arkel — full brother of William II, Lord of Egmond. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_ALAIN9_ROHAN", "label": "Alain IX<br/>1382-1462 · Viscount of Rohan · Wikipedia"},
+      "b": {"id": "R2I_MARGUERITE_BRETAGNE", "label": "Marguerite de Bretagne<br/>· dau. of John IV, Duke of Brittany · Wikipedia"},
+      "children": ["SPH_MARGUERITE_ROHAN"],
+      "note": "Marguerite de Rohan (wife of Jean of Orleans, Count of Angouleme) is documented daughter of Alain IX, Viscount of Rohan, & Marguerite de Bretagne. Wikipedia."
+    },
+    {
+      "a": "SPI_ADOLPH1_CLEVES",
+      "b": "SPI_MARIE_BURGUNDY_CLEVES",
+      "children": ["SPJ_CATHERINECLEVES"],
+      "note": "Catherine of Cleves (wife of Arnold, Duke of Guelders) is documented daughter of Adolph I, Duke of Cleves, & Marie of Burgundy — full sister of the existing Marie of Cleves (MARIECLEVES). Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_ORSO_ORSINI", "label": "Orso Orsini<br/>c.1372-1424 · Lord of Monterotondo; drowned at the Battle of Zagonara · Wikipedia"},
+      "b": {"id": "R2I_LUCREZIA_CONTI", "label": "Lucrezia Conti<br/>dau. of Aldobrandino Conti, Lord of Valmontone · Wikipedia"},
+      "children": ["SPK_JACOPO_ORSINI"],
+      "note": "Jacopo Orsini, Lord of Monterotondo & Bracciano, is documented son of Orso Orsini & Lucrezia Conti. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_BERTRAND3_BAUX", "label": "Bertrand III des Baux<br/>1295-1347 · Count of Andria, Montescaglioso &amp; Squillace · Wikipedia"},
+      "b": {"id": "R2I_MARGUERITE_AULNAY", "label": "Marguerite d'Aulnay<br/>c.1300-c.1340 · 2nd wife of Bertrand III des Baux · Wikipedia"},
+      "children": ["SPK_FRANCESCO_BALZO"],
+      "note": "Francesco del Balzo, Duke of Andria, is documented son of Bertrand III des Baux & his second wife Marguerite d'Aulnay. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_JOHN1_FOIX", "label": "John I<br/>1382-1436 · Count of Foix · Wikipedia"},
+      "b": {"id": "R2I_JEANNE_ALBRET", "label": "Jeanne d'Albret<br/>· dau. of Charles I d'Albret, Constable of France (killed at Agincourt) · Wikipedia"},
+      "children": ["SPH_GASTON4_FOIX"],
+      "note": "Gaston IV, Count of Foix, is documented son of John I, Count of Foix (2nd marriage), & Jeanne d'Albret. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_CARLO_ORSINI", "label": "Carlo Orsini<br/>1388-1445 · Duca di Bracciano · Wikipedia"},
+      "b": {"id": "R2I_PAOLA_ORSINI", "label": "Paola Gironima Orsini<br/>· heiress of Tagliacozzo · Wikipedia"},
+      "children": ["SPK_MADDALENA_ORSINI"],
+      "note": "Maddalena Orsini (2nd wife of Jacopo Orsini) is documented daughter of Carlo Orsini, Duca di Bracciano, & Paola Gironima Orsini, heiress of Tagliacozzo — one of 11 children. Wikipedia/Wikidata."
+    },
+    {
+      "a": {"id": "R2I_DIETRICH_OLDENBURG", "label": "Dietrich (Theoderic)<br/>d.1440 · Count of Oldenburg &amp; Delmenhorst · Wikipedia"},
+      "b": {"id": "R2I_HEDWIG_HOLSTEIN", "label": "Hedwig of Holstein<br/>d.1436 · dau. of Gerhard VI, Count of Holstein · Wikipedia"},
+      "children": [
+        "SPI_CHRISTIAN1_DENMARK",
+        {"id": "R2I_MAURICE_OLDENBURG", "label": "Maurice<br/>· Count of Oldenburg · Wikipedia"},
+        {"id": "R2I_GERHARD6_OLDENBURG", "label": "Gerhard VI<br/>· Count of Oldenburg · Wikipedia"},
+        {"id": "R2I_ADELHEID_MANSFELD", "label": "Adelheid<br/>· Countess von Mansfeld-Querfurt · Wikipedia"}
+      ],
+      "note": "Christian I, King of Denmark, Norway & Sweden, is documented eldest son of Count Dietrich of Oldenburg (2nd marriage) & Hedwig of Holstein — full siblings Maurice, Gerhard VI, and Adelheid added. Wikipedia."
+    },
+    {
+      "a": "JOHNIIARAGON",
+      "b": "BLANCHENAV",
+      "children": ["SPH_ELEANOR_NAVARRE"],
+      "note": "Eleanor of Navarre (wife of Gaston IV of Foix) is documented youngest child of John II of Aragon & Blanche I of Navarre — full sister of the existing Charles, Prince of Viana (CHARLESVIANA). Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_ANTOINE_VAUDEMONT", "label": "Antoine<br/>c.1400-1458 · Count of Vaudémont, Sire de Joinville · Wikipedia"},
+      "b": {"id": "R2I_MARIE_HARCOURT", "label": "Marie of Harcourt<br/>1398-1476 · Countess of Harcourt &amp; Aumale · Wikipedia"},
+      "children": [
+        "SPG_FREDERICK2VAUDEMONT",
+        {"id": "R2I_HENRI_VAUDEMONT", "label": "✝ Henri of Lorraine-Vaudémont<br/>d.1505 · Bishop of Thérouanne, then Metz · Wikipedia"}
+      ],
+      "note": "Frederick II, Count of Vaudémont, is documented son of Antoine, Count of Vaudémont, & Marie of Harcourt — full brother Henri (bishop) added. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_LOUIS1_VENDOME", "label": "Louis I<br/>1376-1446 · Count of Vendôme · Wikipedia"},
+      "b": {"id": "R2I_JEANNE_LAVAL_VENDOME", "label": "Jeanne de Laval<br/>c.1405-1466 · dau. of Guy XIII, Count of Laval · Wikipedia"},
+      "children": ["SPH_JEAN8_VENDOME"],
+      "note": "Jean VIII de Bourbon, Count of Vendôme, is documented son of Louis I, Count of Vendôme, & Jeanne de Laval. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_JOHN_BRANDKULM", "label": "John 'the Alchemist'<br/>1406-1464 · Margrave of Brandenburg-Kulmbach · Wikipedia"},
+      "b": {"id": "R2I_BARBARA_SAXEWITT", "label": "Barbara of Saxe-Wittenberg<br/>1405-1465 · dau. of Rudolf III, Duke of Saxe-Wittenberg · Wikipedia"},
+      "children": ["SPI_DOROTHEA_BRANDENBURG"],
+      "note": "Dorothea of Brandenburg, Queen of Denmark, is documented daughter of John, Margrave of Brandenburg-Kulmbach, & Barbara of Saxe-Wittenberg. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_NICCOLO3_ESTE", "label": "Niccolò III<br/>1383-1441 · Marquess of Ferrara · Wikipedia"},
+      "b": {"id": "R2I_RICCIARDA_SALUZZO", "label": "Ricciarda of Saluzzo<br/>1410-1474 · dau. of Thomas III of Saluzzo (3rd wife) · Wikipedia"},
+      "children": [
+        "SPH_ERCOLE1_ESTE",
+        {"id": "R2I_SIGISMONDO_ESTE", "label": "Sigismondo d'Este<br/>1433-1507 · Wikipedia"}
+      ],
+      "note": "Ercole I d'Este, Duke of Ferrara, is documented son of Niccolò III d'Este, Marquess of Ferrara, & his third wife Ricciarda of Saluzzo — full brother Sigismondo added. Wikipedia."
+    },
+    {
+      "a": "PETERLUX",
+      "b": "MARGBAUX",
+      "children": [
+        {"id": "R2I_LOUIS_LUX_STPOL", "label": "Louis de Luxembourg<br/>1418-1475 · Count of Saint-Pol, Brienne &amp; Ligny; Constable of France, beheaded 1475 · Wikipedia"}
+      ],
+      "note": "Louis de Luxembourg, Count of Saint-Pol (father of this batch's Peter II), is a documented additional son of the existing Peter I of Luxembourg (PETERLUX) & Margaret of Baux (MARGBAUX) union — full brother of the existing Jacquetta of Luxembourg (JL), Duchess of Bedford. Wikipedia."
+    },
+    {
+      "a": "R2I_LOUIS_LUX_STPOL",
+      "b": {"id": "R2I_JEANNE_DE_BAR", "label": "Jeanne de Bar<br/>d.1462 · Countess of Marle &amp; Soissons, dau. of Robert of Bar · Wikipedia"},
+      "children": ["SPK_PETERII_LUX"],
+      "note": "Peter II, Count of Saint-Pol, is documented son of Louis de Luxembourg, Count of Saint-Pol (linked above), & his first wife Jeanne de Bar. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_LOUIS_BEAUVAU", "label": "Louis de Beauvau<br/>1409-1492 · Count of Beauvau, seneschal of Anjou · Wikipedia"},
+      "b": {"id": "R2I_MARGUERITE_CHAMBLEY", "label": "Marguerite de Chambley<br/>· of Lorraine, 1st wife of Louis de Beauvau · Wikipedia"},
+      "children": ["SPH_ISABELLE_BEAUVAU"],
+      "note": "Isabelle de Beauvau (wife of Jean VIII de Bourbon-Vendome) was the only child of Louis de Beauvau & his first wife Marguerite de Chambley. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_RODRIGO_BORJA_FENOLLET", "label": "Rodrigo Gil de Borja y Fenollet<br/>Jurado del Estamento Militar de Xàtiva · Wikipedia"},
+      "b": {"id": "R2I_SIBILIA_ESCRIVA", "label": "Sibília de Escrivà y Pròixita<br/>· Wikipedia"},
+      "children": ["SPF_JOFREBORJA"],
+      "note": "Jofré Llançol i Escrivà's paternal lineage (Llançol vs Borja) is flagged as debated in his own round-1 label; Wikipedia nonetheless names his parents as Rodrigo Gil de Borja y Fenollet & Sibília de Escrivà y Pròixita — given here as the standard documented answer, dispute flag preserved."
+    },
+    {
+      "a": "SPJ_ARNOLDGUELDERS",
+      "b": "SPJ_CATHERINECLEVES",
+      "children": [
+        "SPI_ADOLF_GUELDERS",
+        {"id": "R2I_WILLIAM_GUELDERS", "label": "William<br/>b.1434 · d. young · Wikipedia"},
+        {"id": "R2I_MARGARET_GUELDERS", "label": "Margaret<br/>c.1436-1486 · m. Frederick I, Count Palatine of Simmern · Wikipedia"},
+        {"id": "R2I_CATHERINE_GUELDERS_REGENT", "label": "Catherine<br/>1439-1496 · Regent of Guelders; m. Louis de Bourbon · Wikipedia"}
+      ],
+      "note": "DATA-DUPLICATE FLAG: Adolf of Egmond, Duke of Guelders (1438-1477), was already added as an EXISTING child of this same Arnold+Catherine of Cleves union under a DIFFERENT round-1 id, SPJ_ADOLFGUELDERS, in 40_spouseparents_u4.json. This batch's SPI_ADOLF_GUELDERS (from 40_spouseparents_u3.json) is the SAME historical person under a second id — both are added here as-is per this round's scope (fill parents for the given batch id); the underlying round-1 duplicate is not resolved (no edits to other files permitted) and is flagged for a future dedup/merge pass. Full siblings William, Margaret & Catherine (also per Wikipedia's 'Arnold, Duke of Guelders') added alongside."
+    },
+    {
+      "a": {"id": "R2I_LOUIS_DUKE_SAVOY", "label": "Louis<br/>1413-1465 · Duke of Savoy · Wikipedia"},
+      "b": {"id": "R2I_ANNE_CYPRUS", "label": "Anne of Lusignan<br/>1418-1462 · of Cyprus, Duchess of Savoy · Wikipedia"},
+      "children": [
+        "SPI_PHILIP2_SAVOY",
+        "SPK_MARGARET_SAVOY",
+        {"id": "R2I_AMADEUS9_SAVOY", "label": "😇 Amadeus IX<br/>1435-1472 · Duke of Savoy · Wikipedia"},
+        {"id": "R2I_CHARLOTTE_SAVOY", "label": "Charlotte of Savoy<br/>c.1441-1483 · Queen consort of France, m. Louis XI · Wikipedia"}
+      ],
+      "note": "Philip II, Duke of Savoy, and his sister Margaret, Countess of Saint-Pol — both round-1 ids in this batch — are documented children of Louis, Duke of Savoy, & Anne of Lusignan of Cyprus (one of 19 children); full siblings Amadeus IX (Duke of Savoy, beatified) and Charlotte (queen of Louis XI of France) added. Wikipedia."
+    },
+    {
+      "a": "SPH_CHARLES1_BOURBON",
+      "b": "SPH_AGNES_BURGUNDY",
+      "children": ["SPI_MARGARET_BOURBON", "SPI_CATHERINE_BOURBON_G"],
+      "note": "Margaret of Bourbon (Duchess of Savoy) & Catherine of Bourbon (Duchess of Guelders) — both round-1 ids in this batch — are documented additional daughters of the existing Charles I of Bourbon + Agnes of Burgundy union (already parents of ISABBOURBON, John II & Peter II 'Beaujeu' of Bourbon). Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_JOHN_WYDEVILLE_GRAFTON", "label": "John de Wydeville<br/>of Grafton, Northamptonshire · Wikipedia"},
+      "b": {"id": "R2I_ISABEL_GODDARD", "label": "Isabel Goddard<br/>· Wikipedia"},
+      "children": ["SPF_RICHWYDEVILLE"],
+      "note": "Richard Wydeville (chamberlain to the Duke of Bedford, grandfather of Elizabeth Woodville) is documented son of John de Wydeville of Grafton & Isabel Goddard, by a second marriage — his elder half-brother Thomas Wydeville (different mother) is not added per the full-sibling convention. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_JOHN_HOWARD_1DUKE", "label": "John Howard<br/>c.1425-1485 · 1st Duke of Norfolk; killed at Bosworth · Wikipedia"},
+      "b": {"id": "R2I_CATHERINE_MOLEYNS", "label": "Catherine Moleyns<br/>1424-1465 · 1st wife of John Howard · Wikipedia"},
+      "children": [
+        "SPI_THOMAS_HOWARD_2D",
+        {"id": "R2I_NICHOLAS_HOWARD", "label": "Nicholas Howard<br/>d.c.1468 · Wikipedia"},
+        {"id": "R2I_ISABEL_HOWARD", "label": "Isabel Howard<br/>m. Robert Mortimer (d.1485) · Wikipedia"},
+        {"id": "R2I_ANNE_HOWARD_D", "label": "Anne Howard<br/>1446-1474 · m. Sir Edmund Gorges · Wikipedia"},
+        {"id": "R2I_JANE_HOWARD", "label": "Jane Howard<br/>m. John Timperley · Wikipedia"},
+        {"id": "R2I_MARGARET_HOWARD_D", "label": "Margaret Howard<br/>m. Sir John Wyndham · Wikipedia"}
+      ],
+      "note": "Thomas Howard, 2nd Duke of Norfolk, is documented eldest son of John Howard, 1st Duke of Norfolk, & his first wife Catherine Moleyns — full siblings (one other son, four daughters) added. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_PHILIP_WENTWORTH", "label": "Sir Philip Wentworth<br/>d.1464 · of Nettlestead, Suffolk · Wikipedia"},
+      "b": {"id": "R2I_MARY_CLIFFORD", "label": "Mary Clifford<br/>· dau. of John Clifford, 7th Baron de Clifford · Wikipedia"},
+      "children": ["SPH_HENRY_WENTWORTH"],
+      "note": "Sir Henry Wentworth of Nettlestead was the only son and heir of Sir Philip Wentworth & Mary Clifford — NOTE his wife (a different generation) was Anne Say, not to be confused with the mother here. Wikipedia."
+    },
+    {
+      "a": {"id": "R2I_JOHN_SEYMOUR_SHERIFF", "label": "John Seymour<br/>c.1425-1463 · Knight of the Shire &amp; High Sheriff of Wiltshire · Wikipedia"},
+      "b": {"id": "R2I_ELIZABETH_COKER", "label": "Elizabeth Coker<br/>b.c.1436 · Wikipedia"},
+      "children": ["SPK_JOHN_SEYMOUR_SR"],
+      "note": "John Seymour of Wolf Hall (grandfather of Queen Jane Seymour) was the eldest of three sons of John Seymour, Sheriff of Wiltshire, & Elizabeth Coker. Wikipedia."
+    }
+  ]
+}

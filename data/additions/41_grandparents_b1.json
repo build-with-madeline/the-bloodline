@@ -1,0 +1,148 @@
+{
+  "_note": "ROUND 2, batch b_1000BC_0_1 (R2A_ prefix) — one more documented generation behind the round-1 spouse-parents. Web-verified July 2026 against Wikipedia/Wikidata for each figure named below plus the cited ancient sources. NEVER re-parents an existing node: PTOLEMY5, CLEOPATRA1, ANTIOCHUS2, LAODICE1, ANTIPATER, CYPROSNAB, HERODGREAT, MARIAMNE, ROM_CATO_ELDER and SPC_LIVIADRUSA are all referenced by id only; where an existing pair already stands, the SAME two parent ids are re-stated so the build only APPENDS a sibling. FILLED (documented): SPC_ARIARATHES3 <- Ariaramnes of Cappadocia <- Ariarathes II (Cappadocian king-list, Diodorus/Wikipedia). SPC_STRATONICE_CAP <- the EXISTING Seleucid pair ANTIOCHUS2 + LAODICE1 (she is their attested daughter, sister of Seleucus II — Wikipedia 'Stratonice of Cappadocia'). SPC_RUTILIA <- Publius Rutilius, whose other children were P. Rutilius Rufus (cos 105 BC) & Lucius (Wikipedia 'Rutilia gens'/'Aurelia (mother of Caesar)'). SPI_PTOLEMY6 & SPI_CLEOPATRA2 <- the EXISTING pair PTOLEMY5 + CLEOPATRA1 (both already stand as parents of PTOLEMY8 in 03_antiquity.json; this appends their other two attested children). SPC_LICINIA_MUC <- L. Licinius Crassus 'the Orator' (cos 95 BC) — a DIFFERENT Lucius Licinius Crassus from the existing SPC_LLICINIUSCRASSUS (son of P. Licinius Crassus cos 97, d.87 BC), flagged as distinct in-label. SPC_LIVIADRUSA <- M. Livius Drusus (cos 112 BC) & Cornelia, gaining documented siblings the reformer M. Livius Drusus (tribune 91 BC) and Mamercus Aemilius Lepidus Livianus (cos 77 BC, adopted into the Aemilii). SPC_JULIAANTONIA <- L. Julius Caesar (cos 90 BC) <- L. Julius Caesar (praetor 94 BC) & Fulvia, two clean generations per Wikipedia 'Lucius Julius Caesar (consul 90 BC)'; gains a documented brother, L. Julius Caesar (cos 64 BC) — his own Fulvia is NOT the same person as Mark Antony's later wife Fulvia, flagged in-label. SPC_MPORCIUSCATO_F <- M. Porcius Cato Salonianus <- the EXISTING ROM_CATO_ELDER by his second wife Salonia (Plutarch/Wikipedia 'Cato the Younger'), giving Cato the Younger's father his real place as Cato the Elder's grandson. SPC_POMPEIUSSTRABO <- Sextus Pompeius <- Gnaeus Pompeius, of the gens Pompeia of Picenum (Wikipedia 'Gnaeus Pompeius Strabo'). SPC_QMUCIUSSCAEVOLA <- Publius Mucius Scaevola (cos 133 BC, Pontifex Maximus) — Wikipedia 'Quintus Mucius Scaevola Pontifex'. SPC_AUFIDIA <- Aufidius Lurco, named in her own round-1 label (Suetonius, Tiberius 3). SPC_MANTONIUSCRETICUS <- Marcus Antonius 'the Orator' (cos 99 BC, d.87 BC), named in his own round-1 label. SPI_SALOME1 <- the EXISTING pair ANTIPATER + CYPROSNAB (Herod the Great's own parents, already a union in 07_biblical.json bearing HERODGREAT; this appends their attested daughter Salome I — Josephus). SPC_MTULLIUSCICERO_F <- M. Tullius Cicero (the orator's grandfather, 'a leading man of Arpinum') & Gratidia, sister of M. Gratidius (Plutarch, Cicero 1). SPC_SERVILIA <- Q. Servilius Caepio (praetor 91 BC) & the EXISTING SPC_LIVIADRUSA (her earlier marriage, already noted in her round-1 label), gaining documented siblings a younger Servilia and Gnaeus Servilius Caepio (Wikipedia 'Servilia (mother of Brutus)'). SPK_SALAMPSIO <- the EXISTING pair HERODGREAT + MARIAMNE (already a union bearing ARISTOBULUS4; this appends their attested daughter Salampsio — Josephus). SKIPPED (undocumented further ancestry, reported separately): SPB_ANDIA, SPB_NICOMACHUS_STA (only a legendary centuries-spanning Asclepiad descent claim via Machaon, not a named immediate parent), SPB_PHAESTIS, SPB_ANTIOCHUS_GEN, SPB_LAODICE_SEL, SPC_LAURELIUSCOTTA, SPC_HELVIA, SPC_LUCILIA, SPC_ANNIA_CINNA, SPC_MFULVIUSBAMBALIO, SPC_SEMPRONIA_FUL, SPC_LCORNELIUSCINNA (modern sources call the link to the cos-127-BC Cinna 'not certain'), SPC_MJUNIUSBRUTUSELDER, SPC_DJUNIUSSILANUS ('may have been' son of M. Junius Silanus cos 109 — too hedged), SPC_MLIVIUSDRUSUSCL (Borghesi's two competing candidate fathers, no single attested one). No fabrication — unnamed mothers/fathers drawn as '—' placeholders, never invented; ordered so every new id is defined before it is referenced.",
+  "families": [
+    {
+      "note": "CAPPADOCIA — the standard Ariarathid king-list one generation further back: Ariarathes II, father of Ariaramnes.",
+      "a": {"id": "R2A_ARIARATHES2", "label": "👑 Ariarathes II of Cappadocia<br/>c.280 BC · satrap-turned-king of Cappadocia; father of Ariaramnes · historical"},
+      "b": {"id": "R2A_ARIARATHES2W", "label": "—"},
+      "children": [
+        {"id": "R2A_ARIARAMNES", "label": "👑 Ariaramnes of Cappadocia<br/>c.280-230 BC · king of Cappadocia; father of Ariarathes III · historical"}
+      ]
+    },
+    {
+      "note": "CAPPADOCIA — Ariaramnes fathers the existing Ariarathes III, first of the house to take the royal title.",
+      "a": "R2A_ARIARAMNES",
+      "b": {"id": "R2A_ARIARAMNESW", "label": "—"},
+      "children": ["SPC_ARIARATHES3"]
+    },
+    {
+      "note": "SELEUCID EXTENSION — appended to the EXISTING pair Antiochus II Theos & Laodice I (both referenced by id; same parents re-stated). Stratonice of Cappadocia is their attested daughter, full sister of Seleucus II Callinicus (already the pair's child in 03_antiquity.json).",
+      "a": "ANTIOCHUS2",
+      "b": "LAODICE1",
+      "children": ["SPC_STRATONICE_CAP"]
+    },
+    {
+      "note": "ROME — Rutilia's father & siblings, per Wikipedia 'Rutilia gens'/'Aurelia (mother of Caesar)': Rutilia was one of three children of a Publius Rutilius, her brothers being P. Rutilius Rufus (the jurist-historian, consul 105 BC) and Lucius.",
+      "a": {"id": "R2A_PRUTILIUS", "label": "Publius Rutilius<br/>c.175 BC · Roman senator of the gens Rutilia; father of Rutilia, P. Rutilius Rufus &amp; Lucius · historical"},
+      "b": {"id": "R2A_PRUTILIUSW", "label": "—"},
+      "children": [
+        "SPC_RUTILIA",
+        {"id": "R2A_RUTILIUSRUFUS", "label": "Publius Rutilius Rufus<br/>c.158-c.78 BC · consul 105 BC, jurist &amp; historian; unjustly exiled in 92 BC, wrote his memoirs abroad; brother of Rutilia · historical"},
+        {"id": "R2A_LRUTILIUS", "label": "Lucius Rutilius<br/>c.165 BC · brother of Rutilia &amp; of P. Rutilius Rufus · historical"}
+      ]
+    },
+    {
+      "note": "PTOLEMAIC EXTENSION — appended to the EXISTING pair Ptolemy V Epiphanes & Cleopatra I 'Syra' (both referenced by id; same parents re-stated as their existing child Ptolemy VIII in 03_antiquity.json). Ptolemy VI Philometor & Cleopatra II were their other two attested children.",
+      "a": "PTOLEMY5",
+      "b": "CLEOPATRA1",
+      "children": ["SPI_PTOLEMY6", "SPI_CLEOPATRA2"]
+    },
+    {
+      "note": "ROME — Licinia, wife of Q. Mucius Scaevola Pontifex, was daughter of L. Licinius Crassus 'the Orator' (cos 95 BC), Cicero's model in De Oratore. He is DISTINCT from the existing SPC_LLICINIUSCRASSUS (son of the consul P. Licinius Crassus, d.87 BC in the Marian purge) — a different man of the same name, flagged in-label.",
+      "a": {"id": "R2A_LLICINIUSCRASSUS_ORATOR", "label": "Lucius Licinius Crassus 'the Orator'<br/>140-91 BC · consul 95 BC, the great advocate of Cicero's De Oratore (distinct from the younger L. Licinius Crassus, son of consul P. Licinius Crassus, already in the tree); father of Licinia · historical"},
+      "b": {"id": "R2A_LLICINIUSCRASSUS_ORATORW", "label": "—"},
+      "children": ["SPC_LICINIA_MUC"]
+    },
+    {
+      "note": "ROME — Livia (Drusa)'s parents & siblings: M. Livius Drusus (cos 112 BC, censor 109 BC, died in office) & Cornelia. Their other children were M. Livius Drusus 'the reformer' (tribune 91 BC, whose assassination triggered the Social War) and Mamercus (adopted into the Aemilii Lepidi). Wikipedia 'Marcus Livius Drusus (consul)'/'(reformer)'.",
+      "a": {"id": "R2A_MLIVIUSDRUSUS_COS112", "label": "Marcus Livius Drusus<br/>c.155-108(d.in office) BC · consul 112 BC &amp; censor 109 BC; father of the reformer, of Livia (Drusa) &amp; of Mamercus · historical"},
+      "b": {"id": "R2A_CORNELIA_DRUSUS", "label": "Cornelia<br/>c.155 BC · wife of M. Livius Drusus (cos 112 BC); mother of the reformer, Livia (Drusa) &amp; Mamercus · historical"},
+      "children": [
+        "SPC_LIVIADRUSA",
+        {"id": "R2A_MLIVIUSDRUSUS_REFORMER", "label": "Marcus Livius Drusus 'the reformer'<br/>d.91 BC · tribune of the plebs 91 BC; his reform program &amp; assassination triggered the Social War; brother of Livia (Drusa) · historical"},
+        {"id": "R2A_MAMERCUSLEPIDUS", "label": "Mamercus Aemilius Lepidus Livianus<br/>c.118 BC · born a Livius Drusus, adopted into the Aemilii Lepidi; consul 77 BC; married a daughter of Sulla; brother of Livia (Drusa) · historical"}
+      ]
+    },
+    {
+      "note": "ROME — the Julii Caesares one generation further back: L. Julius Caesar (cos 90 BC, Julia's father) was himself son of L. Julius Caesar (praetor 94 BC, propraetor of Macedonia) &amp; Fulvia. Wikipedia 'Lucius Julius Caesar (consul 90 BC)'. This Fulvia is NOT the later Fulvia who married Mark Antony (flagged to avoid confusion).",
+      "a": {"id": "R2A_LJULIUSCAESAR_PR", "label": "Lucius Julius Caesar<br/>c.170 BC · praetor 94 BC &amp; propraetor of Macedonia; father of L. Julius Caesar (cos 90 BC) · historical"},
+      "b": {"id": "R2A_FULVIA_JC", "label": "Fulvia<br/>c.165 BC · wife of L. Julius Caesar (praetor 94 BC) — distinct from the later Fulvia who married Mark Antony; mother of L. Julius Caesar (cos 90 BC) · historical"},
+      "children": [
+        {"id": "R2A_LJULIUSCAESAR_COS90", "label": "Lucius Julius Caesar<br/>c.134-87 BC · consul 90 BC in the Social War; second cousin of Julius Caesar's father; father of Julia (mother of Mark Antony) · historical"}
+      ]
+    },
+    {
+      "note": "ROME — L. Julius Caesar (cos 90 BC) fathers the existing Julia (Mark Antony's mother) and her documented brother L. Julius Caesar (cos 64 BC).",
+      "a": "R2A_LJULIUSCAESAR_COS90",
+      "b": {"id": "R2A_LJULIUSCAESAR_COS90W", "label": "—"},
+      "children": [
+        "SPC_JULIAANTONIA",
+        {"id": "R2A_LJULIUSCAESAR_COS64", "label": "Lucius Julius Caesar<br/>c.100-46 BC · consul 64 BC; brother of Julia, mother of Mark Antony · historical"}
+      ]
+    },
+    {
+      "note": "ROME — the EXISTING Cato the Elder (ROM_CATO_ELDER, standalone in 29b_punic_qin.json) gains a SECOND, real union with his attested second wife Salonia, bearing M. Porcius Cato Salonianus. This does not re-parent Cato the Elder; it adds his true second marriage per Plutarch/Wikipedia 'Cato the Younger'.",
+      "a": "ROM_CATO_ELDER",
+      "b": {"id": "R2A_SALONIA", "label": "Salonia<br/>c.175 BC · second wife of Cato the Elder, married in his old age; mother of M. Porcius Cato Salonianus · Plutarch, Cato the Elder 24"},
+      "children": [
+        {"id": "R2A_MPORCIUSCATO_SALONIANUS", "label": "Marcus Porcius Cato Salonianus<br/>c.154 BC · son of Cato the Elder by his second wife Salonia; father of M. Porcius Cato (Cato the Younger's father) · historical"}
+      ]
+    },
+    {
+      "note": "ROME — M. Porcius Cato Salonianus fathers the existing M. Porcius Cato, making Cato the Younger the true grandson of Cato the Elder.",
+      "a": "R2A_MPORCIUSCATO_SALONIANUS",
+      "b": {"id": "R2A_MPORCIUSCATO_SALONIANUSW", "label": "—"},
+      "children": ["SPC_MPORCIUSCATO_F"]
+    },
+    {
+      "note": "ROME — Gnaeus Pompeius Strabo's own father & grandfather, of the gens Pompeia of Picenum. Wikipedia 'Gnaeus Pompeius Strabo'.",
+      "a": {"id": "R2A_GNPOMPEIUS", "label": "Gnaeus Pompeius<br/>c.190 BC · of the gens Pompeia of Picenum; father of Sextus Pompeius · historical"},
+      "b": {"id": "R2A_GNPOMPEIUSW", "label": "—"},
+      "children": [
+        {"id": "R2A_SEXTUSPOMPEIUS_SR", "label": "Sextus Pompeius<br/>c.165 BC · of Picenum; father of Gnaeus Pompeius Strabo · historical"}
+      ]
+    },
+    {
+      "note": "ROME — Sextus Pompeius fathers the existing Gnaeus Pompeius Strabo, Pompey the Great's father.",
+      "a": "R2A_SEXTUSPOMPEIUS_SR",
+      "b": {"id": "R2A_SEXTUSPOMPEIUS_SRW", "label": "—"},
+      "children": ["SPC_POMPEIUSSTRABO"]
+    },
+    {
+      "note": "ROME — Q. Mucius Scaevola 'Pontifex' was son of P. Mucius Scaevola (cos 133 BC), also Pontifex Maximus. Wikipedia 'Quintus Mucius Scaevola Pontifex'/'Publius Mucius Scaevola (consul 133 BC)'.",
+      "a": {"id": "R2A_PMUCIUSSCAEVOLA", "label": "Publius Mucius Scaevola<br/>c.176-c.115 BC · consul 133 BC &amp; Pontifex Maximus, the jurist; father of Q. Mucius Scaevola 'Pontifex' · historical"},
+      "b": {"id": "R2A_PMUCIUSSCAEVOLAW", "label": "—"},
+      "children": ["SPC_QMUCIUSSCAEVOLA"]
+    },
+    {
+      "note": "ROME — Aufidia's father, named in her own round-1 label. Suetonius, Tiberius 3.",
+      "a": {"id": "R2A_AUFIDIUSLURCO", "label": "Aufidius Lurco<br/>1st c. BC · Roman eques; father of Aufidia, grandfather of the empress Livia · Suetonius, Tiberius 3"},
+      "b": {"id": "R2A_AUFIDIUSLURCOW", "label": "—"},
+      "children": ["SPC_AUFIDIA"]
+    },
+    {
+      "note": "ROME — M. Antonius Creticus's father, named in his own round-1 label: the orator Marcus Antonius, killed in the Marian proscriptions of 87 BC.",
+      "a": {"id": "R2A_MANTONIUS_ORATOR", "label": "Marcus Antonius 'the Orator'<br/>143-87 BC · consul 99 BC, the leading Roman orator of his generation before Cicero; killed in the Marian proscriptions; father of M. Antonius Creticus, grandfather of Mark Antony · historical"},
+      "b": {"id": "R2A_MANTONIUS_ORATORW", "label": "—"},
+      "children": ["SPC_MANTONIUSCRETICUS"]
+    },
+    {
+      "note": "HERODIAN — appended to the EXISTING pair Antipater the Idumaean & Cypros (both referenced by id; their existing union already bears HERODGREAT in 07_biblical.json). Salome I, Herod's sister, is their attested daughter. Josephus, Antiquities.",
+      "a": "ANTIPATER",
+      "b": "CYPROSNAB",
+      "children": ["SPI_SALOME1"]
+    },
+    {
+      "note": "ROME — Cicero's paternal grandfather & grandmother: M. Tullius Cicero, 'a leading man of Arpinum' who petitioned in 115 BC for the extension of the secret ballot, married Gratidia, sister of M. Gratidius. Plutarch, Cicero 1.",
+      "a": {"id": "R2A_MTULLIUSCICERO_GP", "label": "Marcus Tullius Cicero<br/>c.170 BC · a leading man of Arpinum, grandfather of the orator Cicero · Plutarch, Cicero 1"},
+      "b": {"id": "R2A_GRATIDIA", "label": "Gratidia<br/>c.165 BC · sister of Marcus Gratidius; wife of M. Tullius Cicero (the elder); grandmother of the orator Cicero · Plutarch, Cicero 1"},
+      "children": ["SPC_MTULLIUSCICERO_F"]
+    },
+    {
+      "note": "ROME — Servilia's father Q. Servilius Caepio (praetor 91 BC) & the EXISTING Livia (Drusa) — her earlier marriage, already noted in Livia's own round-1 label. Their other attested children were a younger Servilia and Gnaeus Servilius Caepio. Wikipedia 'Servilia (mother of Brutus)'.",
+      "a": {"id": "R2A_QSERVILIUSCAEPIO", "label": "Quintus Servilius Caepio<br/>c.130-90 BC · quaestor 100 BC &amp; praetor 91 BC; first husband of Livia (Drusa); father of Servilia, mother of Brutus · historical"},
+      "b": "SPC_LIVIADRUSA",
+      "children": [
+        "SPC_SERVILIA",
+        {"id": "R2A_SERVILIA_YOUNGER", "label": "Servilia<br/>c.98 BC · younger daughter of Q. Servilius Caepio &amp; Livia (Drusa); sister of Servilia, mother of Brutus · historical"},
+        {"id": "R2A_GNSERVILIUSCAEPIO", "label": "Gnaeus Servilius Caepio<br/>c.96 BC · son of Q. Servilius Caepio &amp; Livia (Drusa); brother of Servilia, mother of Brutus · historical"}
+      ]
+    },
+    {
+      "note": "HERODIAN — appended to the EXISTING pair Herod the Great & Mariamne I (both referenced by id; their existing union already bears ARISTOBULUS4 in 03_antiquity.json). Salampsio is their attested daughter. Josephus, Antiquities.",
+      "a": "HERODGREAT",
+      "b": "MARIAMNE",
+      "children": ["SPK_SALAMPSIO"]
+    }
+  ]
+}

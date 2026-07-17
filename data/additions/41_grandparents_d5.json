@@ -1,0 +1,249 @@
+{
+  "families": [
+    {
+      "a": {"id": "R2H_RICHARDFITZALAN3", "label": "Richard FitzAlan<br/>1313-1376 · 3rd/10th Earl of Arundel · Wikipedia"},
+      "b": "SPJ_ELEANORLANCASTER",
+      "children": [
+        "SPE_JOANFITZALAN",
+        {"id": "R2H_RICHARDFITZALAN4", "label": "Richard FitzAlan<br/>c.1346-1397 · 4th/11th Earl of Arundel; beheaded for treason under Richard II · Wikipedia"},
+        {"id": "R2H_ALICEFITZALAN", "label": "Alice FitzAlan<br/>c.1350-1416 · Countess of Kent · Wikipedia"},
+        {"id": "R2H_JOHNFITZALAN1BARON", "label": "John FitzAlan<br/>1349-1379 · 1st Baron Arundel · Wikipedia"}
+      ],
+      "note": "Joan FitzAlan (Countess of Hereford) is daughter of Richard FitzAlan, 3rd/10th Earl of Arundel, & Eleanor of Lancaster (existing round-1 SPJ_ELEANORLANCASTER). Full siblings Richard (4th Earl), Alice (m. Thomas Holland, 2nd Earl of Kent — used below to link Margaret Holland & Eleanor Holland's family), and John (1st Baron Arundel). Wikipedia 'Richard FitzAlan, 3rd Earl of Arundel'."
+    },
+    {
+      "a": "SPE_PEDROI",
+      "b": {"id": "R2H_INESDECASTRO", "label": "Inês de Castro<br/>c.1325-1355 · murdered on the orders of Afonso IV; posthumously crowned queen by Peter I · Wikipedia"},
+      "children": [
+        "SPH_BEATRICE_PORTUGAL",
+        {"id": "R2H_JOHN_VALENCIADECAMPOS", "label": "John of Portugal<br/>1349-1397 · Duke of Valencia de Campos; 1383-85 succession claimant · Wikipedia"},
+        {"id": "R2H_DENIS_CIFUENTES", "label": "Denis of Portugal<br/>1354-1397 · Lord of Cifuentes; 1383-85 succession claimant · Wikipedia"}
+      ],
+      "note": "Beatrice of Portugal is daughter of Peter I of Portugal (existing SPE_PEDROI) & his mistress/posthumously-recognized wife Inês de Castro; children legitimized 1361. Full siblings John (Valencia de Campos) & Denis (Cifuentes) added; a fourth child, Afonso, died in infancy and is omitted. Wikipedia 'Inês de Castro'."
+    },
+    {
+      "a": {"id": "R2H_GARCIALOPEZPADILLA", "label": "García López de Padilla<br/>c.1256-1336 · lord of Padilla de Abajo, Burgos · genealogical sources (RAH, Fundación Casa Ducal de Medinaceli)"},
+      "b": {"id": "R2H_JUANPADILLA_MOTHER", "label": "—"},
+      "children": ["SPL_JUANPADILLA"],
+      "note": "MODERATE CONFIDENCE: Juan García de Padilla (father of María de Padilla, mistress of Peter the Cruel) is identified as son of García López de Padilla, lord of Padilla de Abajo, by multiple independent genealogical compilations (Real Academia de la Historia biografia, Fundación Casa Ducal de Medinaceli, FamilySearch/Geneanet trees) — dates/generation details vary slightly between sources, so flagged as moderate confidence rather than primary-source certain. Mother not reliably documented (one low-quality aggregator names 'Leonor de Vera' but this is not corroborated), left as placeholder."
+    },
+    {
+      "a": {"id": "R2H_BERNABOVISCONTI", "label": "Bernabò Visconti<br/>1323-1385 · Lord of Milan · Wikipedia"},
+      "b": {"id": "R2H_BEATRICEDELLASCALA", "label": "Beatrice Regina della Scala<br/>1331-1384 · Lady of Milan · Wikipedia"},
+      "children": [
+        "SPK_TADDEA_VISC",
+        {"id": "R2H_VIRIDISVISCONTI", "label": "Viridis Visconti<br/>d.1414 · m. Leopold III, Duke of Austria · Wikipedia"}
+      ],
+      "note": "Taddea Visconti (1st wife of Stephen III of Bavaria, mother of Isabeau of Bavaria) was the eldest of fifteen children of Bernabò Visconti, Lord of Milan, & Beatrice Regina della Scala. Full sister Viridis Visconti added (needed below as wife of Leopold III of Austria). Wikipedia 'Taddea Visconti'."
+    },
+    {
+      "a": {"id": "R2H_FERNANGUTIERREZHINESTROSA", "label": "Fernán Gutiérrez de Hinestrosa<br/>d. by 1336 · lord of Hinestrosa · historia-hispanica.rah.es"},
+      "b": {"id": "R2H_ESTEFANIA_HINESTROSA", "label": "Estefanía<br/>fl.1330s · wife of Fernán Gutiérrez de Hinestrosa · historia-hispanica.rah.es"},
+      "children": [
+        "SPL_MARIAHINESTROSA",
+        {"id": "R2H_JUANFERNANDEZHINESTROSA", "label": "Juan Fernández de Hinestrosa<br/>d.1372 · Chancellor & Admiral of Castile under Peter I · Wikipedia (ES)"}
+      ],
+      "note": "María González de Hinestrosa (mother of María de Padilla) and her brother Juan Fernández de Hinestrosa (later Admiral of Castile) inherited Hinestrosa jointly in 1336 as children of Fernán Gutiérrez de Hinestrosa & Estefanía, per the cartulary of the Santa Clara convent of Astudillo (cited on historia-hispanica.rah.es); supersedes an older, less-reliable Salazar y Castro attribution to a different 'Fernán González de Hinestrosa'."
+    },
+    {
+      "a": "JOHNIIFR",
+      "b": "BONNELUX",
+      "children": [
+        {"id": "R2H_JOANOFVALOIS_NAVARRE", "label": "Joan of Valois<br/>1343-1373 · Queen of Navarre; m. Charles II of Navarre · Wikipedia"},
+        {"id": "R2H_ISABELLE_VALOIS_VISCONTI", "label": "Isabelle of Valois<br/>1348-1372 · Duchess of Milan; m. Gian Galeazzo Visconti · Wikipedia"}
+      ],
+      "note": "Two daughters of John II of France & Bonne of Luxembourg (existing JOHNIIFR x BONNELUX, whose son Charles V/CHARLESVFR is already in the tree) are added here: Joan of Valois, who married Charles II of Navarre (mother of this batch's Charles III of Navarre, below), and Isabelle of Valois, who married Gian Galeazzo Visconti (mother of this batch's Valentina Visconti, below). Wikipedia."
+    },
+    {
+      "a": {"id": "R2H_CHARLESIINAVARRE", "label": "👑 Charles II of Navarre 'the Bad'<br/>1332-1387 · King of Navarre · Wikipedia"},
+      "b": "R2H_JOANOFVALOIS_NAVARRE",
+      "children": ["SPK_CHARLESIII_NAV"],
+      "note": "Charles III of Navarre 'the Noble' is son of Charles II of Navarre & Joan of Valois (daughter of John II of France, linked above to the existing French royal line). Wikipedia 'Charles III of Navarre'."
+    },
+    {
+      "a": {"id": "R2H_GIANGALEAZZOVISCONTI", "label": "Gian Galeazzo Visconti<br/>1351-1402 · 1st Duke of Milan · Wikipedia"},
+      "b": "R2H_ISABELLE_VALOIS_VISCONTI",
+      "children": ["SPJ_VALENTINAVISCONTI"],
+      "note": "Valentina Visconti (wife of Louis I, Duke of Orleans) is daughter of Gian Galeazzo Visconti, 1st Duke of Milan, & Isabelle of Valois (linked above to the existing French royal line). Wikipedia 'Valentina Visconti'."
+    },
+    {
+      "a": "CHARLESVFR",
+      "b": "JOANNABOURBON",
+      "children": ["SPJ_LOUIS1ORLEANS"],
+      "note": "Louis I, Duke of Orleans (assassinated by John the Fearless), is the younger son of Charles V of France & Joanna of Bourbon (existing CHARLESVFR x JOANNABOURBON marriage, whose other son Charles VI/CHARLESVI is already in the tree). New family entry merges with the existing marriage rather than duplicating it. Wikipedia 'Louis I, Duke of Orléans'."
+    },
+    {
+      "a": {"id": "R2H_MALCOLMDRUMMOND10", "label": "Sir Malcolm Drummond<br/>d.c.1346 · 10th Thane of Lennox · thepeerage.com"},
+      "b": {"id": "R2H_MARGARETDEGRAHAM", "label": "Margaret de Graham<br/>fl.1330s · wife of Malcolm Drummond, 10th Thane of Lennox · thepeerage.com"},
+      "children": ["SPH_JOHN_DRUMMOND"],
+      "note": "Sir John Drummond of Stobhall (d.c.1373, father of Annabella Drummond, Queen of Scotland via this batch's round-1 family) was son of Sir Malcolm Drummond, 10th Thane of Lennox, & Margaret de Graham. thepeerage.com / geni.com."
+    },
+    {
+      "a": {"id": "R2H_ADOLFIIIMARK", "label": "Adolf III<br/>d.1394 · Count of Mark & Cleves · Wikipedia"},
+      "b": {"id": "R2H_MARGARETJULICH", "label": "Margaret of Jülich<br/>d.1425 · Countess of Mark & Cleves · Wikipedia"},
+      "children": ["SPI_ADOLPH1_CLEVES"],
+      "note": "Adolph I, Duke of Cleves, is son of Adolf III, Count of Mark & Cleves, & Margaret of Jülich. Wikipedia 'Adolph I, Duke of Cleves'."
+    },
+    {
+      "a": {"id": "R2H_RUPERTKINGROMANS", "label": "👑 Rupert<br/>1352-1410 · King of the Romans (Elector Palatine as Rupert III) · Wikipedia"},
+      "b": {"id": "R2H_ELISABETHNUREMBERG", "label": "Elisabeth of Nuremberg<br/>1358-1411 · Queen consort of the Romans, of the House of Hohenzollern · Wikipedia"},
+      "children": ["SPG_MARGPALATINATE"],
+      "note": "Margaret of the Palatinate (Duchess of Lorraine) is daughter of Rupert, King of the Romans (Elector Palatine), & Elisabeth of Nuremberg. Wikipedia 'Margaret of the Palatinate'."
+    },
+    {
+      "a": "JOAOI",
+      "b": {"id": "R2H_INESPIRESESTEVES", "label": "Inês Pires Esteves<br/>fl.1370s-1380s · mistress of John I of Portugal before his marriage · Wikipedia"},
+      "children": ["SPG_AFONSO1BRAGANZA"],
+      "note": "Afonso I, 1st Duke of Braganza, is the illegitimate (later legitimized) son of King John I of Portugal (existing JOAOI, before his marriage to Philippa of Lancaster) & his mistress Inês Pires Esteves. Union flagged illegitimate; legitimate half-siblings (via Philippa of Lancaster) already present elsewhere in the tree are omitted here. Wikipedia 'Afonso I, Duke of Braganza'."
+    },
+    {
+      "a": {"id": "R2H_LOUISIANJOU", "label": "👑 Louis I<br/>1339-1384 · King of Naples (crowned 1382); Duke of Anjou, founder of Valois-Anjou · Wikipedia"},
+      "b": {"id": "R2H_MARIEDEBLOISCHATILLON", "label": "Marie of Blois-Châtillon<br/>1345-1404 · Duchess of Anjou, Countess of Maine · Wikipedia"},
+      "children": [
+        "SPI_LOUIS2_ANJOU",
+        {"id": "R2H_CHARLESOFANJOUMAINE", "label": "Charles of Anjou<br/>1380-1404 · Prince of Taranto, Count of Maine, Étampes & Gien · Wikipedia"}
+      ],
+      "note": "Louis II of Anjou (King of Naples, husband of Yolande of Aragon below) is son of Louis I of Anjou & Marie of Blois-Châtillon. Full brother Charles of Anjou added. Wikipedia 'Louis I of Anjou' / 'Marie of Blois, Duchess of Anjou'."
+    },
+    {
+      "a": {"id": "R2H_LEOPOLDIIIAUSTRIA", "label": "Leopold III<br/>1351-1386 · Duke of Austria; killed at the Battle of Sempach · Wikipedia"},
+      "b": "R2H_VIRIDISVISCONTI",
+      "children": ["SPI_ERNEST_IRON"],
+      "note": "Ernest 'the Iron', Duke of Inner Austria (father of Emperor Frederick III via Cymburgis of Masovia, below), is the third son of Leopold III, Duke of Austria, & Viridis Visconti (daughter of Bernabò Visconti, linked above). Wikipedia 'Ernest, Duke of Austria'."
+    },
+    {
+      "a": {"id": "R2H_HENRYPERCY2NDBARON", "label": "Henry Percy<br/>1299-1352 · 2nd Baron Percy of Alnwick · Wikipedia"},
+      "b": {"id": "R2H_IDOINEDECLIFFORD", "label": "Idoine de Clifford<br/>d.1365 · dau. of Robert de Clifford, 1st Baron Clifford · Wikipedia"},
+      "children": ["SPJ_MAUDPERCY"],
+      "note": "Maud Percy (wife of John Neville, 3rd Baron Neville de Raby) is daughter of Henry Percy, 2nd Baron Percy, & Idoine de Clifford. Wikipedia 'Henry Percy, 2nd Baron Percy'."
+    },
+    {
+      "a": {"id": "R2H_NUNOALVARESPEREIRA", "label": "😇 Nuno Álvares Pereira<br/>1360-1431 · Constable of Portugal; canonized 2009 · Wikipedia"},
+      "b": {"id": "R2H_LEONORDEALVIM", "label": "Leonor de Alvim<br/>fl.1380s · wife of Nuno Álvares Pereira · Wikipedia"},
+      "children": ["SPG_BEATRIZALVIM"],
+      "note": "Beatriz Pereira de Alvim was the only child of Nuno Álvares Pereira (Constable of Portugal, canonized Saint Nuno of Saint Mary) & his wife Leonor de Alvim. Wikipedia 'Beatriz Pereira de Alvim'."
+    },
+    {
+      "a": {"id": "R2H_JOHNIARAGON", "label": "👑 John I<br/>1350-1396 · King of Aragon · Wikipedia"},
+      "b": {"id": "R2H_YOLANDEOFBAR", "label": "Yolande of Bar<br/>1365-1431 · Queen of Aragon, dau. of Robert I, Duke of Bar & Marie de Valois · Wikipedia"},
+      "children": ["SPI_YOLANDE_ARAGON"],
+      "note": "Yolande of Aragon ('Queen of Four Kingdoms', mother-in-law of Charles VII of France) is eldest daughter of John I of Aragon & his 2nd wife Yolande of Bar. Wikipedia 'Yolande of Aragon'."
+    },
+    {
+      "a": {"id": "R2H_THOMASBEAUCHAMP12", "label": "Thomas de Beauchamp<br/>1339-1401 · 12th Earl of Warwick · Wikipedia"},
+      "b": {"id": "R2H_MARGARETFERRERS", "label": "Margaret Ferrers<br/>d.1407 · Countess of Warwick, dau. of William Ferrers, 3rd Baron Ferrers of Groby · Wikipedia"},
+      "children": ["SPG_RICHARDBEAUCHAMP"],
+      "note": "Richard de Beauchamp, 13th Earl of Warwick, is son of Thomas de Beauchamp, 12th Earl of Warwick, & Margaret Ferrers. Wikipedia 'Richard Beauchamp, 13th Earl of Warwick'."
+    },
+    {
+      "a": {"id": "R2H_ROGERBEAUCHAMP2BLETSOE", "label": "Roger Beauchamp<br/>1362-1406 · 2nd Baron Beauchamp of Bletsoe · History of Parliament Online"},
+      "b": {"id": "R2H_JOANCLOPTON", "label": "Joan Clopton<br/>fl.1380s · wife of Roger Beauchamp, 2nd Baron Beauchamp of Bletsoe · FamilySearch"},
+      "children": ["SPF_JOHNBEAUCHBLETSO"],
+      "note": "John Beauchamp, 3rd Baron Beauchamp of Bletsoe (father of Margaret Beauchamp of Bletsoe, mother of Lady Margaret Beaufort), is son of Roger Beauchamp, 2nd Baron Beauchamp of Bletsoe, & Joan Clopton. History of Parliament Online 'BEAUCHAMP, Sir Roger (1362-1406)'; mother's name has some source variation, flagged moderate confidence."
+    },
+    {
+      "a": {"id": "R2H_THOMASHOLLAND2KENT", "label": "Thomas Holland<br/>1350-1397 · 2nd Earl of Kent · Wikipedia"},
+      "b": "R2H_ALICEFITZALAN",
+      "children": [
+        "SPI_MARGARET_HOLLAND",
+        {"id": "R2H_ELEANORHOLLAND", "label": "Eleanor Holland<br/>d.1405 · m. Roger Mortimer, 4th Earl of March · Wikipedia"}
+      ],
+      "note": "Margaret Holland (Duchess of Clarence) and her sister Eleanor Holland (mother of this batch's Anne de Mortimer, below) are daughters of Thomas Holland, 2nd Earl of Kent, & Alice FitzAlan (linked above, daughter of Richard FitzAlan, 3rd Earl of Arundel). Wikipedia 'Margaret Holland, Duchess of Clarence'."
+    },
+    {
+      "a": {"id": "R2H_ROGERMORTIMER4MARCH", "label": "Roger Mortimer<br/>1374-1398 · 4th Earl of March; heir presumptive to Richard II · Wikipedia"},
+      "b": "R2H_ELEANORHOLLAND",
+      "children": [
+        "SPF_ANNEMORTIMER",
+        {"id": "R2H_EDMUNDMORTIMER5MARCH", "label": "Edmund Mortimer<br/>1391-1425 · 5th Earl of March; Yorkist claim, imprisoned by Henry IV & V · Wikipedia"}
+      ],
+      "note": "Anne de Mortimer (transmitting the senior Yorkist claim) and her brother Edmund Mortimer, 5th Earl of March, are children of Roger Mortimer, 4th Earl of March, & Eleanor Holland (linked above). Wikipedia 'Roger Mortimer, 4th Earl of March' / 'Anne de Mortimer'."
+    },
+    {
+      "a": "EOL",
+      "b": {"id": "R2H_ISABELLADECASTILEYORK", "label": "Isabella of Castile<br/>c.1355-1392 · Duchess of York, dau. of Peter 'the Cruel' of Castile · Wikipedia"},
+      "children": [
+        "SPF_RICHCONISBURGH",
+        {"id": "R2H_EDWARDOFNORWICH", "label": "Edward of Norwich<br/>c.1373-1415 · 2nd Duke of York; killed at Agincourt · Wikipedia"},
+        {"id": "R2H_CONSTANCEOFYORK", "label": "Constance of York<br/>1374-1416 · Lady Despenser · Wikipedia"}
+      ],
+      "note": "Richard of Conisburgh, 3rd Earl of Cambridge (executed for the Southampton Plot), is son of Edmund of Langley, Duke of York (existing EOL, previously without listed children), & Isabella of Castile. Full siblings Edward, 2nd Duke of York (d. Agincourt) and Constance, Lady Despenser, added. Wikipedia 'Edmund of Langley, 1st Duke of York'."
+    },
+    {
+      "a": "SPJ_JOHNFEARLESS",
+      "b": "SPJ_MARGARETBAVARIA",
+      "children": ["SPI_MARIE_BURGUNDY_CLEVES"],
+      "note": "Marie of Burgundy (wife of Adolph I of Cleves) is an additional documented daughter of John the Fearless & Margaret of Bavaria — the same couple already given in round-1 file 40_spouseparents_u4.json (which lists children Philip the Good & Anne of Burgundy). This entry adds her to that existing marriage rather than duplicating the parents. Wikipedia 'Marie of Cleves'."
+    },
+    {
+      "a": {"id": "R2H_PHILIPTHEBOLD", "label": "Philip the Bold<br/>1342-1404 · Duke of Burgundy · Wikipedia"},
+      "b": {"id": "R2H_MARGARETIIIFLANDERS", "label": "Margaret III<br/>1350-1405 · Countess of Flanders, Artois & Burgundy · Wikipedia"},
+      "children": [
+        "SPJ_JOHNFEARLESS",
+        {"id": "R2H_MARGARETOFBURGUNDYHAINAUT", "label": "Margaret of Burgundy<br/>1374-1441 · Countess of Hainaut & Holland; m. William VI · Wikipedia"}
+      ],
+      "note": "John the Fearless, Duke of Burgundy, is son of Philip the Bold, Duke of Burgundy, & Margaret III, Countess of Flanders. Full sister Margaret of Burgundy (Countess of Hainaut/Holland) added. Wikipedia 'John the Fearless' / 'Philip the Bold'."
+    },
+    {
+      "a": {"id": "R2H_ALBERTIBAVARIA", "label": "Albert I<br/>1336-1404 · Duke of Bavaria-Straubing, Count of Holland, Hainaut & Zeeland · Wikipedia"},
+      "b": {"id": "R2H_MARGARETOFBRIEG", "label": "Margaret of Brieg<br/>c.1342-1386 · Duchess of Bavaria-Straubing · Wikipedia"},
+      "children": ["SPJ_MARGARETBAVARIA"],
+      "note": "Margaret of Bavaria (Duchess of Burgundy, above) was the fifth child of Albert I, Duke of Bavaria-Straubing (Count of Holland, Hainaut & Zeeland), & Margaret of Brieg. Wikipedia 'Margaret of Bavaria'."
+    },
+    {
+      "a": {"id": "R2H_JOHNIDUKELORRAINE", "label": "John I<br/>1346-1390 · Duke of Lorraine · Wikipedia"},
+      "b": {"id": "R2H_SOPHIEWURTTEMBERG", "label": "Sophie of Württemberg<br/>d.1369 · Duchess of Lorraine, dau. of Eberhard II, Count of Württemberg · Wikipedia"},
+      "children": ["SPG_CHARLES2LORRAINE"],
+      "note": "Charles II 'the Bold', Duke of Lorraine, is the elder son of John I, Duke of Lorraine, & Sophie of Württemberg. Wikipedia 'Charles II, Duke of Lorraine'."
+    },
+    {
+      "a": {"id": "R2H_NICOLOORSININOLA", "label": "Nicolo Orsini<br/>b.1331 · Count of Nola & Soleto; Senator of Rome, Justiciar of Naples · thepeerage.com"},
+      "b": {"id": "R2H_JEANNEDESABRAN", "label": "Jeanne de Sabran<br/>d.c.1378 · 1st wife of Nicolo Orsini · geni.com/thepeerage.com"},
+      "children": ["SPK_SVEVA_ORSINI"],
+      "note": "Sveva Orsini (wife of Francesco del Balzo, Duke of Andria — this couple's own family, with daughter Margaret of Baux/MARGBAUX, already recorded in round-1 file 40_spouseparents_u5.json) is daughter of Nicolo Orsini, Count of Nola, by his first wife Jeanne de Sabran."
+    },
+    {
+      "a": {"id": "R2H_LOUISOFENGHIEN", "label": "Louis of Enghien<br/>d.1394 · Count of Brienne & Conversano, titular Duke of Athens · Wikipedia"},
+      "b": {"id": "R2H_GIOVANNASANSEVERINO", "label": "Giovanna of Sanseverino<br/>fl.1360s · wife of Louis of Enghien · Wikipedia"},
+      "children": ["SPI_MARG_ENGHIEN"],
+      "note": "Marguerite of Enghien (mother of Peter I of Luxembourg, Count of Saint-Pol, via her earlier round-1 marriage to John of Luxembourg, Lord of Beauvoir, in 40_spouseparents_u3.json) is eldest daughter of Louis of Enghien, Count of Brienne & Conversano, & Giovanna of Sanseverino. Wikipedia 'Margaret, Countess of Brienne'."
+    },
+    {
+      "a": {"id": "R2H_GUYOFLUXEMBOURGSTPOL", "label": "Guy of Luxembourg<br/>d.1371 · Count of Saint-Pol · Wikipedia"},
+      "b": {"id": "R2H_MAHAUT_STPOL", "label": "Mahaut de Châtillon<br/>c.1335-1378 · Countess of Saint-Pol, wife of Guy of Luxembourg · Wikipedia"},
+      "children": ["SPI_JOHN_LUX_BEAUVOIR"],
+      "note": "John of Luxembourg, Lord of Beauvoir (father, with Marguerite of Enghien above, of Peter I of Luxembourg/PETERLUX, already in the tree), is son of Guy of Luxembourg, Count of Saint-Pol, & Mahaut de Châtillon. NOTE: this Mahaut de Châtillon (Countess of Saint-Pol, married Guy of Luxembourg) is a DIFFERENT, later person from R2G_MAHAUT_CHATILLON in 41_grandparents_d4.json (3rd wife of Charles of Valois, d.1358) — same family name, different generation, kept as distinct nodes. Wikipedia."
+    },
+    {
+      "a": {"id": "R2H_SIEMOWITIVMASOVIA", "label": "Siemowit IV<br/>c.1352-1426 · Duke of Masovia · Wikipedia"},
+      "b": {"id": "R2H_ALEXANDRAOFLITHUANIA", "label": "Alexandra of Lithuania<br/>c.1368-1434 · Duchess of Masovia, dau. of Grand Duke Algirdas · Wikipedia"},
+      "children": ["SPI_CYMBURGIS_MASOVIA"],
+      "note": "Cymburgis of Masovia (wife of Ernest 'the Iron', mother of Emperor Frederick III) is the second daughter of Duke Siemowit IV of Masovia & Alexandra of Lithuania (daughter of Grand Duke Algirdas, sister of King Władysław II Jagiełło of Poland). Wikipedia 'Cymburgis of Masovia'."
+    },
+    {
+      "a": {"id": "R2H_JOHNIVDUKEBRITTANY", "label": "John IV<br/>1339-1399 · Duke of Brittany · Wikipedia"},
+      "b": {"id": "R2H_JOANOFNAVARREENGLAND", "label": "Joan of Navarre<br/>c.1368-1437 · Duchess of Brittany, later Queen of England (2nd marriage, to Henry IV) · Wikipedia"},
+      "children": ["SPI_RICHARD_ETAMPES"],
+      "note": "Richard, Count of Étampes (father of Francis II, last independent Duke of Brittany, via his round-1 marriage to Marguerite of Orléans in 40_spouseparents_u3.json), is the youngest son of John IV, Duke of Brittany, & Joan of Navarre. Wikipedia 'Richard, Count of Étampes' / 'Joan of Navarre, Queen of England'."
+    },
+    {
+      "a": "ALFONSOXI",
+      "b": {"id": "R2H_LEONORDEGUZMAN", "label": "Leonor de Guzmán<br/>1310-1351 · mistress of Alfonso XI of Castile · Wikipedia"},
+      "children": [
+        {"id": "R2H_HENRYIICASTILE", "label": "👑 Henry II<br/>1334-1379 · King of Castile 'the Fratricidal'; illegitimate son, legitimized · Wikipedia"},
+        {"id": "R2H_FADRIQUEALFONSOCASTILE", "label": "Fadrique Alfonso de Castilla<br/>1334-1358 · Master of Santiago; executed by his half-brother Peter the Cruel · Wikipedia"}
+      ],
+      "note": "Henry II of Castile (founder of the Trastámara dynasty) and his twin Fadrique Alfonso, Master of Santiago, are illegitimate (later legitimized) children of Alfonso XI of Castile (existing ALFONSOXI, from his relationship with Leonor de Guzmán — a separate union from his marriage to Maria of Portugal/MARIAPORT, already in the tree). NOTE: Fadrique Alfonso de Castilla (executed 1358) is a DIFFERENT, earlier person from the existing FADRIQUE node ('Fadrique Enriquez, Admiral of Castile', a 15th-century descendant) — kept distinct to avoid conflating generations. Wikipedia 'Henry II of Castile'."
+    },
+    {
+      "a": "R2H_HENRYIICASTILE",
+      "b": {"id": "R2H_JUANAMANUELCASTILE", "label": "Juana Manuel<br/>1339-1381 · Queen of Castile · Wikipedia"},
+      "children": [
+        "SPK_ELEANOR_CAST",
+        "JOHNICAST"
+      ],
+      "note": "Eleanor of Castile (Queen of Navarre, this batch) and John I of Castile (existing JOHNICAST, previously without listed parents in the tree) are children of Henry II of Castile & Juana Manuel. Wikipedia 'Eleanor of Castile, Queen of Navarre' / 'John I of Castile'."
+    }
+  ],
+  "_note": "Batch d5+d6 (round 2, medieval 800-1400 AD): 32 of 33 round-1 parent ids given documented parents (and, where available, full/notable siblings) going one generation further back. SKIPPED 1: SPH_JEAN_ANGOULEME (Jean of Orléans, Count of Angoulême, 1399-1467) — his parents (Louis I, Duke of Orleans & Valentina Visconti) are ALREADY fully documented under a DUPLICATE round-1 id, SPJ_JOHNANGOULEME, in 40_spouseparents_u4.json (same family: Louis I x Valentina Visconti -> CHARLESORLEANS, SPJ_JOHNANGOULEME). No new family created to avoid fabricating a second parent set for the same historical person; flagging this pre-existing round-1 duplicate (SPH_JEAN_ANGOULEME vs SPJ_JOHNANGOULEME) for future cleanup/merge. High-value cross-links made to the EXISTING tree in this batch: Richard FitzAlan x Eleanor of Lancaster (existing SPJ_ELEANORLANCASTER) branches into both the Joan FitzAlan and (via new daughter Alice FitzAlan) the Margaret/Eleanor Holland families; John II of France x Bonne of Luxembourg (existing JOHNIIFR x BONNELUX, whose son Charles V/CHARLESVFR is already in the tree) gains two new daughters, Joan of Valois (mother of Charles III of Navarre) and Isabelle of Valois (mother of Valentina Visconti); Charles V x Joanna of Bourbon (existing CHARLESVFR x JOANNABOURBON) gains son Louis I of Orleans; Alfonso XI (existing) gains an illegitimate union with Leonor de Guzmán producing Henry II of Castile, whose own marriage to Juana Manuel in turn links to the existing, previously-parentless John I of Castile (JOHNICAST); Edmund of Langley (existing EOL, previously childless in the tree) gains three children incl. Richard of Conisburgh; John I of Portugal (existing JOAOI) gains illegitimate son Afonso I of Braganza; John the Fearless x Margaret of Bavaria (existing round-1 couple) gains daughter Marie of Burgundy. New nodes use the R2H_ prefix. Sourced to Wikipedia and, for the Castilian Padilla/Hinestrosa and Scottish Drummond/Montifex lines, to specialist genealogical references (Real Academia de la Historia, Fundación Casa Ducal de Medinaceli, History of Parliament Online, thepeerage.com) — flagged moderate-confidence where sources vary. Verified 2026-07-17."
+}

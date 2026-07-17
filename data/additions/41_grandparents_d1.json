@@ -1,0 +1,370 @@
+{
+  "_note": "Batch D1 (ROUND 2, medieval Europe 800-1400 AD): documented parents + full siblings, going ONE MORE GENERATION BACK for round-1 spousal-parent additions in 40_spouseparents_d.json that had no ancestry shown. New ancestors use the R2D_ prefix. Unknown mothers/fathers are placeholders. Disputed/saga-only parentage flagged in-label. DEDUP: reused EXISTING ids ROLLO+POPPA (Adele of Normandy's parents), EDWARDELDER (Edmund I's father), and SPE_CONRADBURG+SPE_MATILDAFR (Gerberga of Burgundy's parents, merging into their existing union). Also cross-links two batch entries as kin: Rudolf II of Burgundy & Willa of Tuscany's mother Willa of Burgundy are full siblings (children of Rudolf I of Burgundy); Adelaide-Blanche of Anjou & Ermengarde-Gerberga of Anjou's father Geoffrey I Grisegonelle are full siblings (children of Fulk II of Anjou). SKIPPED (parentage genuinely undocumented/unresolved, no fabrication): SPE_ROBERTSTRONG (Robert the Strong -- no contemporary primary source; 3 conflicting modern theories, no scholarly consensus), SPK_DIETRICH_WEST & SPK_REINHILD (only a generic 'House of Widukind'/'Danish-Frisian' dynastic claim, no parents named by Wikipedia), SPH_WERNER5 (explicitly 'first documented Salian' -- no earlier ancestor known), SPJ_HEDWIGNORDGAU (parentage hypotheses exist but 'none backed by convincing evidence' per sources), SPJ_ERMENTRUDEGLEIBERG (no Wikipedia article; thin/conflicting genealogy-database sourcing, and her identity as Frederick of Luxembourg's wife is itself disputed), SPJ_ESTRIDOBOTRITE (father an unnamed Obotrite chief; 'no contemporary accounts naming specific relatives' per sources). Verified against Wikipedia/Asser/Heimskringla/Chronicle of the Kings of Alba, July 2026.",
+  "families": [
+    {
+      "a": {
+        "id": "R2D_HUGHTOURS",
+        "label": "Hugh, Count of Tours<br/>d.837 · Carolingian magnate (Etichonid); father of Adelaide of Tours · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_AVATOURS",
+        "label": "Ava<br/>fl.810s-820s · sister of Matfrid, Count of Orl&eacute;ans; wife of Hugh of Tours · Wikipedia"
+      },
+      "children": [
+        "SPE_ADELAIDETOURS"
+      ],
+      "note": "Adelaide of Tours -> father Hugh, Count of Tours, & mother Ava (sister of Matfrid of Orleans). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_ODOORLEANS",
+        "label": "Odo I, Count of Orl&eacute;ans<br/>d.834 · father of Ermentrude, Queen of the Franks · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_ENGELTRUDE",
+        "label": "Engeltrude of F&eacute;zensac<br/>fl.820s · wife of Odo, Count of Orl&eacute;ans · Wikipedia"
+      },
+      "children": [
+        "SPG_ERMENTRUDE"
+      ],
+      "note": "Ermentrude of Orleans -> parents Odo (Eudes), Count of Orleans, & Engeltrude of Fezensac. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_EYSTEINGLUMRA",
+        "label": "Eystein Glumra (Ivarsson)<br/>fl.9th c. · petty king on Norway's west coast, per the Heimskringla · &#9888; saga-only, uncertain"
+      },
+      "b": {
+        "id": "R2D_ROGNVALD_MOTHER",
+        "label": "&mdash;"
+      },
+      "children": [
+        "SPE_ROGNVALD",
+        {
+          "id": "R2D_SIGURDORKNEY",
+          "label": "Sigurd Eysteinsson<br/>d.c.892 · first Earl of Orkney; brother of Rognvald, per the Heimskringla · &#9888; saga-only, uncertain"
+        }
+      ],
+      "note": "Rognvald Eysteinsson & his brother Sigurd (first Earl of Orkney), sons of the saga-figure Eystein Glumra. Saga-only (Heimskringla); mother unrecorded."
+    },
+    {
+      "a": {
+        "id": "R2D_OSLAC",
+        "label": "Oslac of the Isle of Wight<br/>fl.830s · King's Butler (pincerna) of Wessex; descended from the Jutish conquerors Stuf &amp; Wihtgar, per Asser · Asser"
+      },
+      "b": {
+        "id": "R2D_OSBURH_MOTHER",
+        "label": "&mdash;"
+      },
+      "children": [
+        "SPG_OSBURH"
+      ],
+      "note": "Osburh, first wife of Aethelwulf -> father Oslac, King's Butler, per Asser's Life of King Alfred. Mother unrecorded."
+    },
+    {
+      "a": {
+        "id": "R2D_RUDOLFI_BURG",
+        "label": "👑 Rudolf I of Burgundy<br/>c.859-912 · first King of Upper Burgundy · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_WILLAPROVENCE",
+        "label": "Willa (Guilla) of Provence<br/>fl.880s-c.936 · dau. of Boso, King of Provence; m.(2) Hugh of Italy · Wikipedia"
+      },
+      "children": [
+        "SPK_RUDOLFII_BURG",
+        {
+          "id": "R2D_WILLABURGUNDY",
+          "label": "Willa of Burgundy<br/>c.890-c.926 · m. Boso, Margrave of Tuscany · Wikipedia"
+        },
+        {
+          "id": "R2D_ADELAIDEBURG_ELDER",
+          "label": "Adelaide of Burgundy<br/>fl.890s-928 · m. Louis the Blind, Emperor; sister of Rudolf II (distinct from her niece St Adelaide) · Wikipedia"
+        },
+        {
+          "id": "R2D_WALDRADABURG",
+          "label": "Waldrada of Burgundy<br/>fl.900s · m. Boniface I, Margrave of Spoleto · Wikipedia"
+        }
+      ],
+      "note": "Rudolf II of Burgundy & full siblings Willa (m. Boso of Tuscany, linking to Willa of Tuscany's parents below), Adelaide (m. Louis the Blind), Waldrada (m. Boniface of Spoleto) -- children of Rudolf I of Burgundy & Willa/Guilla of Provence. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_BOSOTUSCANY",
+        "label": "Boso, Margrave of Tuscany<br/>d.c.936 · son of Theobald of Arles &amp; Bertha (illeg. dau. of Lothair II) · Wikipedia"
+      },
+      "b": "R2D_WILLABURGUNDY",
+      "children": [
+        "SPL_WILLATUSCANY"
+      ],
+      "note": "Willa of Tuscany -> father Boso, Margrave of Tuscany, & mother Willa of Burgundy (already added above as Rudolf II's sister -- linking these two batch entries as first cousins... actually aunt/niece via Rudolf line). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_LUITPOLD_BAV",
+        "label": "👑 Liutpold (Luitpold), Margrave of Bavaria<br/>d.907 · fell at the Battle of Pressburg; founder of the Luitpolding dynasty · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_KUNIGUNDE_SWABIA",
+        "label": "Kunigunde of Swabia<br/>d.923 · dau. of Berthold I, Count Palatine of Swabia (Ahalolfing) · Wikipedia"
+      },
+      "children": [
+        "SPH_ARNULF_BAVARIA"
+      ],
+      "note": "Arnulf 'the Bad', Duke of Bavaria -> parents Luitpold, Margrave of Bavaria, & Kunigunde of Swabia. Wikipedia (Luitpoldings)."
+    },
+    {
+      "a": {
+        "id": "R2D_CONSTANTINEI_SCOT",
+        "label": "👑 Constantine I of Scotland<br/>d.876 · King of the Picts/Alba (Causant&iacute;n mac Cin&aacute;eda) · historical"
+      },
+      "b": {
+        "id": "R2D_DONALDII_MOTHER",
+        "label": "&mdash;"
+      },
+      "children": [
+        "SPE_DONALDII"
+      ],
+      "note": "Donald II of Scotland -> father Constantine I of Scotland; mother unrecorded. Chronicle of the Kings of Alba."
+    },
+    {
+      "a": {
+        "id": "R2D_ADALBERTIVREA",
+        "label": "👑 Adalbert I, Margrave of Ivrea<br/>c.880-c.923 · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_GISELAFRIULI",
+        "label": "Gisela of Friuli<br/>d.c.910 · dau. of Berengar I, King of Italy · Wikipedia"
+      },
+      "children": [
+        "SPL_BERENGARII"
+      ],
+      "note": "Berengar II of Italy -> parents Adalbert I, Margrave of Ivrea, & Gisela of Friuli (herself dau. of King Berengar I of Italy). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_BURCHARDII_SWABIA",
+        "label": "👑 Burchard II, Duke of Swabia<br/>d.926 · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_REGELINDA",
+        "label": "Regelinda (Reginlinde)<br/>d.958 · Duchess of Swabia · Wikipedia"
+      },
+      "children": [
+        "SPK_BERTHA_SWABIA"
+      ],
+      "note": "Bertha of Swabia -> parents Duke Burchard II of Swabia & Regelinda. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_EBALUSMANZER",
+        "label": "👑 Ebalus 'Manzer', Duke of Aquitaine<br/>c.860-935 · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_EMILIENNE",
+        "label": "Emiliane (Emilienne)<br/>fl.900s · wife of Ebalus Manzer · Wikipedia"
+      },
+      "children": [
+        "SPG_WILLIAM3AQ"
+      ],
+      "note": "William III 'Towhead', Duke of Aquitaine -> parents Ebalus Manzer & Emiliane. Wikipedia."
+    },
+    {
+      "a": "ROLLO",
+      "b": "POPPA",
+      "children": [
+        "SPG_ADELENORMANDY"
+      ],
+      "note": "Adele of Normandy -> parents Rollo of Normandy & Poppa of Bayeux (both EXISTING ids; merges into their existing union). Wikipedia."
+    },
+    {
+      "a": "EDWARDELDER",
+      "b": {
+        "id": "R2D_EADGIFUKENT",
+        "label": "Eadgifu of Kent<br/>c.903-c.966 · third wife of Edward the Elder; dau. of Sigehelm, Ealdorman of Kent · historical"
+      },
+      "children": [
+        "SPE_EDMUNDI",
+        {
+          "id": "R2D_EADRED",
+          "label": "👑 Eadred<br/>c.923-955 · King of the English r.946-955 · historical"
+        }
+      ],
+      "note": "Edmund I & his full brother King Eadred, sons of the EXISTING Edward the Elder by his third wife Eadgifu of Kent (dau. of Sigehelm, Ealdorman of Kent). New union (Edward's first two wives/unions already in tree). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_WIGERIC",
+        "label": "Wigeric, Count Palatine of Lotharingia<br/>d.c.919 · founder of the House of Ardennes-Luxembourg · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_CUNIGUNDA_ARDENNES",
+        "label": "Cunigunda<br/>fl.900s · granddaughter of Louis the Stammerer; wife of Wigeric · Wikipedia"
+      },
+      "children": [
+        "SPJ_SIEGFRIEDLUX"
+      ],
+      "note": "Siegfried, first Count of Luxembourg -> parents Wigeric, Count Palatine of Lotharingia, & Cunigunda (distinct from the earlier Vermandois-line Cunigunda of Laon already in the tree). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_FULKIIANJOU",
+        "label": "👑 Fulk II 'the Good', Count of Anjou<br/>c.905-960 · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_GERBERGAANJOUW",
+        "label": "Gerberga<br/>fl.920s-930s · wife of Fulk II of Anjou · Wikipedia"
+      },
+      "children": [
+        "SPE_ADELAIDEBLANCHE",
+        {
+          "id": "R2D_GEOFFREYIANJOU",
+          "label": "👑 Geoffrey I 'Grisegonelle' (Greymantle), Count of Anjou<br/>c.938-987 · Wikipedia"
+        }
+      ],
+      "note": "Adelaide-Blanche of Anjou & her brother Geoffrey I 'Grisegonelle', Count of Anjou, children of Fulk II 'the Good' & Gerberga. Geoffrey I is the father (see next family) of the OTHER batch entry Ermengarde-Gerberga of Anjou, so this links two batch persons as niece/uncle. Wikipedia."
+    },
+    {
+      "a": "R2D_GEOFFREYIANJOU",
+      "b": {
+        "id": "R2D_ADELEMEAUX",
+        "label": "Adele of Meaux<br/>934-982 · dau. of Robert of Vermandois, Count of Troyes &amp; Meaux; wife of Geoffrey I of Anjou · Wikipedia"
+      },
+      "children": [
+        "SPE_ERMENGARDEANJOU"
+      ],
+      "note": "Ermengarde-Gerberga of Anjou -> parents Geoffrey I 'Grisegonelle' of Anjou (EXISTING new id from the family above) & his wife Adele of Meaux. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_LOUISIV_FR",
+        "label": "👑 Louis IV 'd'Outremer', King of France<br/>920/921-954 · son of Charles the Simple · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_GERBERGASAXONY",
+        "label": "Gerberga of Saxony<br/>c.913-984 · sister of Otto I, Holy Roman Emperor · Wikipedia"
+      },
+      "children": [
+        "SPE_MATILDAFR",
+        {
+          "id": "R2D_LOTHAIRFR",
+          "label": "👑 Lothair, King of France<br/>941-986 · Wikipedia"
+        }
+      ],
+      "note": "Matilda of France & her brother King Lothair, children of Louis IV 'd'Outremer' & Gerberga of Saxony (sister of Otto I). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_AELFGIFUSHAFT_FATHER",
+        "label": "&mdash;"
+      },
+      "b": {
+        "id": "R2D_WYNFLAED",
+        "label": "Wynflaed<br/>fl.930s-940s · mother of AElfgifu of Shaftesbury, per a 966 charter of King Edgar · Wikipedia"
+      },
+      "children": [
+        "SPE_AELFGIFUSHAFT"
+      ],
+      "note": "AElfgifu of Shaftesbury -> mother Wynflaed, named as Edgar's grandmother in a 966 charter; father unrecorded. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_BOSONII_ARLES",
+        "label": "Boson II, Count of Arles &amp; Avignon<br/>d.c.965 · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_CONSTANCEARLES",
+        "label": "Constance<br/>fl.960s · wife of Boson II, named with him in a 963 charter as parents of William, Rotbold &amp; Pons; her own origin unattested · Wikipedia"
+      },
+      "children": [
+        "SPE_WILLIAMIPROV",
+        {
+          "id": "R2D_ROTBOLDPROVENCE",
+          "label": "Rotbold, Count of Provence<br/>d.1008 · Wikipedia"
+        },
+        {
+          "id": "R2D_PONSPROVENCE",
+          "label": "Pons of Provence<br/>fl.963 · named 'juvenis' in the 963 Montmajour charter · Wikipedia"
+        }
+      ],
+      "note": "William I of Provence & his brothers Rotbold & Pons, sons of Boson II, Count of Arles & Avignon, & his wife Constance -- per a 963 charter naming all three as parents' sons. Wikipedia."
+    },
+    {
+      "a": "SPE_CONRADBURG",
+      "b": "SPE_MATILDAFR",
+      "children": [
+        "SPG_GERBERGABURGUNDY"
+      ],
+      "note": "Gerberga of Burgundy, Duchess of Swabia -> daughter of Conrad I of Burgundy & Matilda of France (BOTH EXISTING ids; merges into their existing union alongside Rudolph III, Bertha of Burgundy & Gisela of Burgundy already there). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_WILLIAMIV_AQUIT",
+        "label": "👑 William IV 'Fierebras', Duke of Aquitaine<br/>937-995 · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_EMMABLOIS",
+        "label": "Emma of Blois<br/>950-1003 · dau. of Theobald I, Count of Blois; regent of Aquitaine · Wikipedia"
+      },
+      "children": [
+        "SPK_WILLIAMV_AQUIT"
+      ],
+      "note": "William V of Aquitaine 'the Great' -> parents William IV 'Fierebras' & Emma of Blois (dau. of Theobald I of Blois; distinct from the later Theobald II/III/V of Blois already in the tree). Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_ERICVICTORIOUS",
+        "label": "👑 Eric the Victorious (Erik Segersall)<br/>c.945-995 · King of Sweden · historical"
+      },
+      "b": {
+        "id": "R2D_SIGRIDHAUGHTY",
+        "label": "Sigrid the Haughty (Storr&aring;da)<br/>fl.980s-990s · dau. of Skoglar Toste, per Icelandic sagas · &#9888; maternity disputed -- Adam of Bremen names a different, Polish, mother"
+      },
+      "children": [
+        "SPJ_OLOFSKOT"
+      ],
+      "note": "Olof Skotkonung -> father Eric the Victorious (undisputed). Mother is disputed between Sigrid the Haughty (Icelandic sagas) and an unnamed sister/daughter of Boleslaw I of Poland (Adam of Bremen); flagged in label."
+    },
+    {
+      "a": {
+        "id": "R2D_JUDICAELBERENGAR",
+        "label": "Judicael Berengar, Count of Rennes<br/>d.970 · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_GERBERGERENNES",
+        "label": "Gerberge<br/>fl.920s-950s · wife of Judicael Berengar · Wikipedia"
+      },
+      "children": [
+        "SPE_CONANI"
+      ],
+      "note": "Conan I of Rennes -> parents Judicael Berengar, Count of Rennes, & his wife Gerberge. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_OTTOWILLIAM_BURG",
+        "label": "👑 Otto-William, Count of Burgundy<br/>c.958-1026 · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_ERMENTRUDEROUCY",
+        "label": "Ermentrude of Roucy<br/>fl.980s · wife of Otto-William · Wikipedia"
+      },
+      "children": [
+        "SPK_AGNES_BURGUNDY"
+      ],
+      "note": "Agnes of Burgundy -> parents Otto-William, Count of Burgundy, & Ermentrude of Roucy. Wikipedia."
+    },
+    {
+      "a": {
+        "id": "R2D_HUGUESPERCHE",
+        "label": "Hugues du Perche, Count of G&acirc;tinais<br/>fl.990s-1015 · Wikipedia"
+      },
+      "b": {
+        "id": "R2D_BEATRICEMACON",
+        "label": "B&eacute;atrice de M&acirc;con<br/>fl.990s-1015 · dau. of Aubry II de M&acirc;con · Wikipedia"
+      },
+      "children": [
+        "SPK_GEOFFREY_GATINAIS"
+      ],
+      "note": "Geoffrey II, Count of Gatinais -> parents Hugues du Perche, Count of Gatinais, & Beatrice de Macon (dau. of Aubry II de Macon). Wikipedia."
+    }
+  ]
+}

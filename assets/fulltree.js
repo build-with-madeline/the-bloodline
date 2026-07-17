@@ -169,7 +169,15 @@
   const cardEls = {}, handleEls = {};
   const frag = document.createDocumentFragment();
   ids.forEach(pid => {
-    const L = lines(pid), sub = L.slice(1, 3).join(' · ');
+    const L = lines(pid);
+    // On-card text is a short teaser only — the full label (every clause, every
+    // source citation) lives in the sidebar panel via updatePanel(). Trimming here
+    // keeps card height small and UNIFORM (see PITCH below): long-form biography
+    // labels used to inflate a card past its 130px time-band and overlap the row
+    // beneath it. CSS line-clamp is the real backstop; this trim just keeps the
+    // DOM string short for 3600+ cards.
+    let sub = L.slice(1, 3).join(' · ');
+    if (sub.length > 110) sub = sub.slice(0, 108).replace(/\s+\S*$/, '') + '…';
     const el = document.createElement('div');
     el.className = 'pcard'; el.id = 'c_' + pid;
     el.style.left = pos[pid].x + 'px'; el.style.width = CW + 'px'; el.style.setProperty('--acc', accOf(pid));
@@ -264,6 +272,25 @@
       });
     }
   })();
+
+  // ---- cross-lane collision fix ----
+  // X is computed per-LANE (each generation-depth lane its own row) or, inside an
+  // island, per-lane-within-that-island — but Y here is by real YEAR (or, for a
+  // repacked island, by row-stack position). Two people from entirely unrelated lines
+  // (a king of Judah vs. a pharaoh; two different lanes inside one small island) can
+  // land at the exact same Y and have independently-computed X ranges that overlap,
+  // since neither placement pass ever had to guard against a CROSS-lane collision.
+  // Run this once, after every X/Y adjustment (including the island repack above) is
+  // done, so it catches overlaps from both the main tree and the island gallery.
+  const byY = {};
+  ids.forEach(p => (byY[pos[p].y] = byY[pos[p].y] || []).push(p));
+  Object.values(byY).forEach(row => {
+    row.sort((a, b) => pos[a].x - pos[b].x);
+    for (let i = 1; i < row.length; i++) {
+      const need = pos[row[i - 1]].x + CW + HGAP;
+      if (pos[row[i]].x < need) pos[row[i]].x = need;
+    }
+  });
 
   const PAD = 130;
   const minX = Math.min(...ids.map(p => pos[p].x)) - PAD, minY = Math.min(...ids.map(p => pos[p].y)) - PAD;

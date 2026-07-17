@@ -1,0 +1,56 @@
+{
+  "families": [
+    {
+      "note": "Phasael I (elder brother of Herod the Great) is son of the EXISTING Antipater the Idumean & Cypros — appended as a NEW sibling under the EXISTING union (only Herod the Great was previously listed as their child); no re-parenting. Josephus, Antiquities 14.121; Jewish War 1.181.",
+      "a": "ANTIPATER",
+      "b": "CYPROSNAB",
+      "children": [
+        {"id": "R2B_PHASAEL1", "label": "Phasael I<br/>d.40 BC · elder brother of Herod the Great, son of Antipater the Idumean &amp; Cypros · governor of Jerusalem, took his own life in Parthian captivity 40 BC · Josephus"}
+      ]
+    },
+    {
+      "note": "Phasael I fathered the batch person Phasael II (husband of Salampsio) on the wife of an unrecorded name; Phasael II 'seems to have been posthumous' per Josephus, i.e. born after Phasael I's suicide in 40 BC, and no siblings of his are documented. Josephus, Antiquities 17.196; Jewish War 1.266.",
+      "a": "R2B_PHASAEL1",
+      "b": {"id": "R2B_PHASAEL1W", "label": "—"},
+      "children": ["SPK_PHASAEL_II"]
+    },
+    {
+      "note": "Mithridates II of Commagene, son of Antiochus I Theos (the builder of Nemrut Dagh), is the documented father of Mithridates III — one generation further back than Iotapa's own parents below. Wikipedia 'Mithridates II of Commagene'.",
+      "a": {"id": "R2B_MITHRIDATES2_COM", "label": "👑 Mithridates II of Commagene<br/>r.31-20 BC · King of Commagene, son of Antiochus I Theos · died at Rome 20 BC · father of Mithridates III · Wikipedia"},
+      "b": {"id": "R2B_MITHRIDATES2_COMW", "label": "—"},
+      "children": [
+        {"id": "R2B_MITHRIDATES3_COM", "label": "👑 Mithridates III of Commagene<br/>d.12 BC · King of Commagene r.20-12 BC, son of Mithridates II · father of Antiochus III &amp; of two daughters both named Iotapa · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Iotapa (the batch person, wife of Sampsiceramus II of Emesa) is a daughter of King Mithridates III of Commagene by his queen Iotapa of Media Atropatene (herself daughter of King Artavasdes I, below). Her full brother Antiochus III succeeded their father as king and married their full sister — also named Iotapa (Commagene practiced sibling-marriage; the same pattern recurs a generation later with Antiochus IV & his sister-wife Iotapa, already flagged elsewhere in the tree). Wikipedia 'Mithridates III of Commagene', 'Antiochus III of Commagene', 'Iotapa (spouse of Antiochus III)', 'Iotapa (daughter of Artavasdes I)'.",
+      "a": "R2B_MITHRIDATES3_COM",
+      "b": {"id": "R2B_IOTAPA_ELDER", "label": "👑 Iotapa<br/>fl.33-20 BC · princess of Media Atropatene, daughter of Artavasdes I · engaged 33 BC to Alexander Helios (son of Antony &amp; Cleopatra), betrothal dissolved 30 BC · queen consort of Mithridates III of Commagene · Wikipedia"},
+      "children": [
+        "SPJ_IOTAPAEMESA",
+        {"id": "R2B_ANTIOCHUS3_COM", "label": "👑 Antiochus III of Commagene<br/>d.17 AD · King of Commagene r.12 BC-17 AD, son of Mithridates III · married his full sister Iotapa · Wikipedia"},
+        {"id": "R2B_IOTAPA_SISTER", "label": "👑 Iotapa of Commagene<br/>· daughter of Mithridates III, full sister of Antiochus III &amp; of Iotapa (wife of Sampsiceramus II) · married her own brother Antiochus III &amp; ruled Commagene beside him · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Artavasdes I of Media Atropatene is the documented father of Iotapa (mother of the batch person's spouse, above) — one generation further back. Wikipedia 'Artavasdes I of Media Atropatene', 'Iotapa (daughter of Artavasdes I)'.",
+      "a": {"id": "R2B_ARTAVASDES1_ATROP", "label": "👑 Artavasdes I of Media Atropatene<br/>r.56-30 BC (Media Atropatene), r.30-20 BC (Lesser Armenia) · son of Ariobarzanes I · father of Iotapa, Ariobarzanes II &amp; Darius II · Wikipedia"},
+      "b": {"id": "R2B_ARTAVASDES1W", "label": "—"},
+      "children": ["R2B_IOTAPA_ELDER"]
+    },
+    {
+      "note": "Sampsiceramus II's grandfather Iamblichus II, priest-king of Emesa, whose death (c.14 AD) let his grandson succeed to the Emesene throne; his son Sohaemus (below) had meanwhile ruled the client territory of Chalcis as his vassal. Wikipedia 'Sampsiceramus II'.",
+      "a": {"id": "R2B_IAMBLICHUS2", "label": "👑 Iamblichus II<br/>d.c.14 AD · priest-king of Emesa r.20 BC-14 AD; grandfather of Sampsiceramus II · Wikipedia"},
+      "b": {"id": "R2B_IAMBLICHUS2W", "label": "—"},
+      "children": [
+        {"id": "R2B_SOHAEMUS_CHALCIS", "label": "Sohaemus of Chalcis<br/>r.20 BC-14 AD · son of Iamblichus II; ruled the client territory of Chalcis as his father's vassal · father of Sampsiceramus II of Emesa · Wikipedia (distinct from his own grandson, the later Sohaemus of Emesa r.54-73 AD)"}
+      ]
+    },
+    {
+      "note": "Sohaemus of Chalcis is the documented father of the batch person Sampsiceramus II (Wikipedia 'Sampsiceramus II': 'His father Sohaemus ruled from 20 BC to 14 AD in Chalcis, as a vassal of Iamblichus II'); no mother named, no other children of his documented.",
+      "a": "R2B_SOHAEMUS_CHALCIS",
+      "b": {"id": "R2B_SOHAEMUS_CHALCISW", "label": "—"},
+      "children": ["SPJ_SAMPSICERAMUS2"]
+    }
+  ]
+}

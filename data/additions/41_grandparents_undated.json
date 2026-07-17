@@ -1,0 +1,177 @@
+{
+  "_note": "ROUND 2 batch (undated): for round-1-added parents whose OWN label lacked a parseable year (mostly medieval/early-modern European nobility with no ancestry shown), this adds THEIR documented parents/grandparents plus full siblings, one generation further back (occasionally two, where the further generation is directly and cleanly documented in the same source). New nodes use the R2L_ prefix; unknown parents are '—' placeholders suffixed _MOTHER. Filled 20 of 30; skipped 10 as genuinely undocumented (see below). DEDUP: Egidia de Burgh's brother Richard Óg de Burgh, 2nd Earl of Ulster, already exists as SPJ_RICHARDDEBURGH (round-1 father of Elizabeth de Burgh, Queen of Scots) — referenced by id, not duplicated, linking two round-1 additions through their shared grandparents Walter de Burgh & Aveline FitzJohn. Adele of France's father is the EXISTING ROBERTIFR (Robert I of France), referenced by id (not a new node); this is a SEPARATE, unknown-mother union from the tree's existing U_robertifr_beatv (Robert I x Beatrice of Vermandois -> Hugh the Great), since Adele's maternity is not confirmed as Beatrice's. FLAGGED disputed/traditional identifications (source given in each note): Judith of Bavaria/Sülichgau's mother's identity (modern scholarship vs. traditional Judith of Friuli); Cassander (Antigone's father) is NOT the famous Diadoch king of the same name (he was Antipater's brother, not son); Margaret Graham's father (John Graham of Abercorn vs. Scots Peerage's David Graham of Montrose); Edith Stourton's mother (Alice, 'presumably'); Emilia Pannocchieschi vs. Wikipedia's 'Camilla Pannocchieschi' (same generational slot, different first name across sources, not resolved); Giovanni de' Bardi vs. Wikipedia's naming of his brother Alessandro as Contessina de' Bardi's actual father (round-1 data not altered, discrepancy flagged only); Theophylact Dalassenos as father of Adrianos Dalassenos is Wikipedia's own hedge ('most likely', not certain); Rollo's mother (Hildr/Ragnhild Hrólfsdóttir) is saga-only (Heimskringla/Orkneyinga Saga), matching the existing ⚠ flag already on SPE_ROGNVALD; Matilda of Château-du-Loir's grandparents (Robert 'Brochard' & Élisabeth) are sourced to genealogical compilations (FamilySearch/Geneanet) since Wikipedia's own article on Gervais II does not document his parents. SKIPPED (undocumented parentage / unnamed placeholders, no fabrication): SPE_EADBURH (Asser names no specific father; modern historians propose conflicting, unconsensused candidates — Abels' descent from Cenwulf vs. Mommaerts-Browne's descent from Wigmund); SPE_ALEXIOSCHARON ('very little is known of his life' per Bryennios, no parents recorded); SPL_LOTWIFE (Genesis 19:26 names no parents); SPH_BILLUNG_FRANK (Vita Mathildis traditional figure, no further ancestry given); SPE_AETHELREDMUCEL (a father 'Mucil' is only speculative — 'hardly anything is known for certain'); SPE_ANDRONIKOSDOUKAS_ELDER (Constantine X's father's own parents are not named in any primary source); SPE_MALCI_MOTHER (unnamed '—' placeholder, no identity to research); SPE_JOHNDOUKAS_MOTHER (unnamed '—' placeholder); SPG_MAGASMAC (Wikipedia: 'an obscure local', no parents documented); SPH_AEDA (Vita Mathildis traditional figure, no further ancestry given). Web-verified July 2026 against Wikipedia (English and French) and, where flagged, genealogical compilations (Geneanet, FamilySearch, WikiTree, soc.genealogy.medieval).",
+  "families": [
+    {
+      "a": {"id": "R2L_EBERHARD_SULICHGAU", "label": "Count Eberhard of Sülichgau<br/>d.after 889 · count in the Sülichgau · Wikipedia"},
+      "b": {"id": "R2L_GISELA_VERONA", "label": "Gisela of Verona<br/>fl.880s · wife of Count Eberhard of Sülichgau · Wikipedia"},
+      "children": ["SPH_JUDITH_ARNULFW"],
+      "note": "Judith, wife of Arnulf 'the Bad', Duke of Bavaria: modern scholarship (Wikipedia 'Judith, Duchess of Bavaria') identifies her as daughter of Count Eberhard of Sülichgau & Gisela of Verona, displacing the traditional identification as Judith of Friuli (chronologically impossible — Judith of Friuli died c.881, decades before children are attested). ⚠ disputed identification, flagged in label. No documented siblings for this Judith found."
+    },
+    {
+      "a": {"id": "R2L_CASSANDER_ANTIPATERBRO", "label": "Cassander<br/>· obscure Macedonian nobleman, brother of Antipater · not the Diadoch king of the same name · Wikipedia"},
+      "b": {"id": "R2L_CASSANDER_MOTHER", "label": "—"},
+      "children": ["SPG_ANTIGONEMAC"],
+      "note": "Antigone (niece of Antipater, wife of Magas, mother of Berenice I) was daughter of Cassander, a minor Macedonian noble who was Antipater's BROTHER — Wikipedia ('Berenice I') does not confirm or deny whether this is the same person as the far more famous King Cassander (Antipater's SON, already in the tree as MAC_CASSANDER); since the relationships differ (brother vs. son) they are treated as distinct, and the ambiguity is flagged in the label rather than assumed. Mother unrecorded."
+    },
+    {
+      "a": {"id": "R2L_WALTERDEBURGH", "label": "Walter de Burgh<br/>1230-1271 · 1st Earl of Ulster · Wikipedia"},
+      "b": {"id": "R2L_AVELINEFITZJOHN", "label": "Aveline FitzJohn<br/>fl.1257 · dau. of Sir John FitzGeoffrey, Justiciar of Ireland · Wikipedia"},
+      "children": [
+        "SPG_EGIDIADEBURGH",
+        "SPJ_RICHARDDEBURGH",
+        {"id": "R2L_THEOBALDDEBURGH", "label": "Theobald de Burgh<br/>· son of Walter de Burgh, 1st Earl of Ulster · Wikipedia"},
+        {"id": "R2L_WILLIAMDEBURGH2", "label": "William de Burgh<br/>· son of Walter de Burgh, 1st Earl of Ulster · Wikipedia"},
+        {"id": "R2L_THOMASDEBURGH", "label": "Thomas de Burgh<br/>· son of Walter de Burgh, 1st Earl of Ulster · Wikipedia"}
+      ],
+      "note": "Egidia de Burgh's parents are Walter de Burgh, 1st Earl of Ulster, & Aveline FitzJohn (Wikipedia 'Walter de Burgh, 1st Earl of Ulster'). DEDUP: her brother Richard Óg de Burgh, 2nd Earl of Ulster, is the EXISTING SPJ_RICHARDDEBURGH (round-1 father of Elizabeth de Burgh, Queen of Scots) — referenced by id, not duplicated, so this links two round-1 additions through their shared grandparents. Full brothers Theobald, William, Thomas also documented by Wikipedia."
+    },
+    {
+      "a": {"id": "R2L_SOZZODEBARDI", "label": "Sozzo de' Bardi<br/>d.after 1375 · Signore di Vernio · Wikipedia/Geneanet"},
+      "b": {"id": "R2L_BEATRICEMOZZI", "label": "Beatrice Mozzi<br/>· wife of Sozzo de' Bardi · Geneanet"},
+      "children": [
+        "SPI_GIOVANNI_BARDI",
+        {"id": "R2L_ALESSANDRODEBARDI", "label": "Alessandro de' Bardi<br/>· Count of Vernio · per Wikipedia, father (not Giovanni) of Contessina de' Bardi · Wikipedia"},
+        {"id": "R2L_SIMONEDEBARDI", "label": "Simone de' Bardi<br/>b.1372 · son of Sozzo de' Bardi · Geneanet"},
+        {"id": "R2L_FRANCESCADEBARDI", "label": "Francesca de' Bardi<br/>· daughter of Sozzo de' Bardi · Geneanet"}
+      ],
+      "note": "Giovanni de' Bardi (1354-1442), Count of Vernio, was son of Sozzo de' Bardi, Signore di Vernio, & Beatrice Mozzi, with full siblings Alessandro, Simone, and Francesca (Geneanet 'Sozzo de' Bardi' family tree). ⚠ FLAG: current Wikipedia ('Contessina de' Bardi') names his brother Alessandro — not Giovanni — as the father of Contessina de' Bardi (by Camilla Pannocchieschi); this discrepancy with the tree's existing round-1 assignment (Giovanni x Emilia Pannocchieschi -> Contessina) is noted but NOT altered here, as correcting round-1 attributions is out of scope for this batch."
+    },
+    {
+      "a": {"id": "R2L_RANIERO_PANNOCCHIESCHI", "label": "Raniero di Guido Pannocchieschi<br/>· Count of Elci · Wikipedia"},
+      "b": {"id": "R2L_RANIERO_PANNOCCHIESCHI_MOTHER", "label": "—"},
+      "children": ["SPI_EMILIA_PANNOCCHIESCHI"],
+      "note": "Per Wikipedia ('Contessina de' Bardi'), the Pannocchieschi wife of the Bardi Count of Vernio (mother of Contessina) was daughter of Raniero di Guido Pannocchieschi, Count of Elci. ⚠ FLAG: Wikipedia names her Camilla Pannocchieschi, not Emilia as already in this tree (round-1) — treated here as the same person/generational slot, first-name discrepancy flagged rather than resolved. Mother unrecorded."
+    },
+    {
+      "a": {"id": "R2L_RAYMONDI_TURENNE", "label": "Raymond I<br/>c.1070-1122 · Viscount of Turenne · French Wikipedia"},
+      "b": {"id": "R2L_MATHILDE_PERCHE", "label": "Mathilde (Maude) du Perche<br/>· dau. of Geoffroy II, Count of Perche · French Wikipedia"},
+      "children": [
+        "SPG_MARGTURENNE",
+        {"id": "R2L_BOSONII_TURENNE", "label": "Boson II de Turenne<br/>1122-1143 · 8th Viscount of Turenne · French Wikipedia"},
+        {"id": "R2L_MAGNE_TURENNE", "label": "Magne de Turenne<br/>· m. Aymeri III de Gourdon · French Wikipedia"}
+      ],
+      "note": "Marguerite de Turenne's parents were Raymond I, Viscount of Turenne (himself son of Boson, 6th viscount, d.1091 on pilgrimage to Jerusalem, & Gerberge, dau. of Bernard, comtor de Terrasson), & Mathilde du Perche. Full siblings Boson II (succeeding viscount) and Magne, per French Wikipedia 'Raymond Ier de Turenne'."
+    },
+    {
+      "a": {"id": "R2L_JOHNSTOURTON_D1438", "label": "Sir John Stourton<br/>d.1438 · of Stourton, Wiltshire; Escheator of Somerset &amp; Dorset · Wikipedia"},
+      "b": {"id": "R2L_ALICE_STOURTONW", "label": "Alice<br/>d.1407 · 2nd wife of Sir John Stourton (presumed mother of Edith) · FamilySearch"},
+      "children": [
+        "SPF_EDITHSTOURTON",
+        {"id": "R2L_MARGARETSTOURTON", "label": "Margaret Stourton<br/>· Abbess of Shaftesbury Abbey · Wikipedia"}
+      ],
+      "note": "Edith Stourton's father was Sir John Stourton (d.1438); her mother is only 'presumed' (FamilySearch, not certain) to be his 2nd wife Alice (d.1407) — flagged. Full sibling (by the same father, likely Alice) Margaret Stourton, Abbess of Shaftesbury (Wikipedia 'John Stourton (died 1438)'); an elder HALF-brother William Stourton (by the father's FIRST wife) is excluded as not a full sibling."
+    },
+    {
+      "a": {"id": "R2L_JOHNGRAHAM_ABERCORN", "label": "Sir John de Graham<br/>· of Abercorn · Wikipedia (⚠ Scots Peerage instead names Sir David Graham of Montrose)"},
+      "b": {"id": "R2L_JOHNGRAHAM_ABERCORN_MOTHER", "label": "—"},
+      "children": ["SPI_MARGARET_GRAHAM_ROSS"],
+      "note": "Margaret Graham's father is given as Sir John de Graham of Abercorn per Wikipedia 'Hugh, Earl of Ross'; J. Balfour Paul's Scots Peerage instead names her as a daughter of Sir David Graham of Montrose — a documented scholarly disagreement, flagged rather than silently resolved. Mother unrecorded. No documented siblings."
+    },
+    {
+      "a": {"id": "R2L_TOMOS_AP_LLYWELYN", "label": "Tomos (Thomas) ap Llywelyn<br/>1302-1343 · Lord of Deheubarth/Is Coed · Wikipedia"},
+      "b": {"id": "R2L_TOMOS_AP_LLYWELYN_MOTHER", "label": "—"},
+      "children": [
+        "SPL_MARGEDTOMOS",
+        {"id": "R2L_ELEN_FERCH_TOMOS", "label": "Elen ferch Tomos<br/>b.c.1335 · mother of Owain Glyndŵr · Wikipedia"}
+      ],
+      "note": "Marged ferch Tomos was daughter of Tomos (Thomas) ap Llywelyn, Lord of Deheubarth (1302-1343); her full sister Elen ferch Tomos married Gruffudd Fychan ap Gruffudd ap Madog Crupl and was the mother of Owain Glyndŵr, per Wikipedia 'Tudur ap Goronwy' / 'Maredudd ap Tudur'. Mother unrecorded."
+    },
+    {
+      "a": {"id": "R2L_ROTHARD_ARGENGAU", "label": "Rothard<br/>fl.760s · of the Argengau · Wikipedia"},
+      "b": {"id": "R2L_ROTHARD_ARGENGAU_MOTHER", "label": "—"},
+      "children": ["SPG_WELF1ALTDORF"],
+      "note": "Welf I, Count of Altdorf (c.776-825, father of Empress Judith and of the tree's existing Emma of Altdorf sibling-pair via SPG_HEILWIG), was son of Rothard of the Argengau, per Wikipedia 'Welf (father of Judith)'. No documented siblings for Welf I. Mother unrecorded."
+    },
+    {
+      "a": {"id": "R2L_HARDRAD", "label": "Hardrad<br/>fl.740s · grandfather of Welf I, Count of Altdorf · Wikipedia"},
+      "b": {"id": "R2L_HARDRAD_MOTHER", "label": "—"},
+      "children": ["R2L_ROTHARD_ARGENGAU"],
+      "note": "Rothard of the Argengau (Welf I's father) was himself son of Hardrad, per Wikipedia 'Welf (father of Judith)' ('son of Rothard of the Argengau and grandson of Hardrad') — added here as the grandparent generation for SPG_WELF1ALTDORF."
+    },
+    {
+      "a": {"id": "R2L_ISANBARD_SAXONY", "label": "Isanbard<br/>· Saxon count · Wikipedia"},
+      "b": {"id": "R2L_ISANBARD_MOTHER", "label": "—"},
+      "children": ["SPG_HEILWIG"],
+      "note": "Heilwig (Hedwig) of Saxony, wife of Welf I (later Abbess of Chelles), was daughter of the Saxon count Isanbard (Isambart), per Wikipedia 'Welf (father of Judith)'. No documented siblings. Mother unrecorded."
+    },
+    {
+      "a": {"id": "R2L_LOURENCO_FATHER", "label": "Lourenço<br/>fl.1330s · Lisbon merchant, called 'o da Praça' · Wikipedia"},
+      "b": {"id": "R2L_SANCHAMARTINS", "label": "Sancha Martins<br/>fl.1330s · Lisbon merchant · Wikipedia"},
+      "children": ["SPE_TERESALOURENCO"],
+      "note": "Teresa Lourenço's parents were Lourenço and Sancha Martins, both Lisbon merchants, per Wikipedia 'Teresa Lourenço' ('Her parents were Lourenço and Sancha Martins, who were merchants'). No documented siblings."
+    },
+    {
+      "a": {"id": "R2L_BURCHARDII_SWABIA", "label": "Burchard II<br/>d.926 · Duke of Swabia · Wikipedia"},
+      "b": {"id": "R2L_REGELINDA_ZURICH", "label": "Regelinda (Reginlind)<br/>· dau. of Count Eberhard I of Zürich · Wikipedia"},
+      "children": [
+        "SPH_HICHA_SWABIA",
+        {"id": "R2L_GISELA_WALDKIRCH", "label": "Gisela<br/>905-923/925 · Abbess of Waldkirch · Wikipedia"},
+        {"id": "R2L_BURCHARDIII_SWABIA", "label": "Burchard III<br/>915-973 · Duke of Swabia · Wikipedia"},
+        {"id": "R2L_BERTHA_SWABIA", "label": "Bertha<br/>907-966 · m. Rudolf II, King of Burgundy · Wikipedia"}
+      ],
+      "note": "Hicha of Swabia's parents were Burchard II, Duke of Swabia (d.926), & Regelinda, dau. of Count Eberhard I of Zürich — confirming the round-1 'presumed' label as documented. Full siblings Gisela (Abbess of Waldkirch), Burchard III (Duke of Swabia), and Bertha (m. Rudolf II of Burgundy), per Wikipedia 'Burchard II, Duke of Swabia'."
+    },
+    {
+      "a": {"id": "R2L_THOMASBITTLESGATE", "label": "Thomas Bittlesgate<br/>· of Knightstone, Ottery St Mary, Devon · WikiTree/soc.genealogy.medieval"},
+      "b": {"id": "R2L_JOANBEAUCHAMP_WELLINGTON", "label": "Joan Beauchamp<br/>· dau. &amp; co-heiress of William Beauchamp of Wellington, Somerset · WikiTree/soc.genealogy.medieval"},
+      "children": ["SPF_JOANBITTLESGATE"],
+      "note": "Joan Bittlesgate's parents were Thomas Bittlesgate, Esq., of Knightstone, Devon, & Joan Beauchamp, dau. and co-heiress of William Beauchamp of Wellington, Somerset — per the Complete Peerage correction thread (soc.genealogy.medieval mailing list) and WikiTree. No documented siblings."
+    },
+    {
+      "a": "ROBERTIFR",
+      "b": {"id": "R2L_ROBERTIFR_MOTHER", "label": "—"},
+      "children": ["SPG_ADELEFR"],
+      "note": "Adele's father is the EXISTING ROBERTIFR (👑 Robert I of France), referenced by id, not duplicated. Her identification remains contested: Werner and Settipani argue the 'Adèle' who married Herbert II of Vermandois may have been Robert I's DAUGHTER (as shown here) rather than his WIFE, by an unrecorded mother — this is kept as a SEPARATE union from the tree's existing U_robertifr_beatv (Robert I x Beatrice of Vermandois -> Hugh the Great), since Adele's maternity is not established as Beatrice's. ⚠ disputed/traditional, per Wikipedia 'Robert I of France' (already flagged in the round-1 label)."
+    },
+    {
+      "a": {"id": "R2L_JOHNSAY", "label": "Sir John Say<br/>c.1415-1478 · Speaker of the House of Commons · Wikipedia"},
+      "b": {"id": "R2L_ELIZABETHCHENEY", "label": "Elizabeth Cheney<br/>1422-1473 · Lady Say · Wikipedia"},
+      "children": [
+        "SPH_ANNE_SAY",
+        {"id": "R2L_WILLIAMSAY", "label": "Sir William Say<br/>· son of Sir John Say &amp; Elizabeth Cheney · Wikipedia"},
+        {"id": "R2L_THOMASSAY", "label": "Thomas Say<br/>· son of Sir John Say &amp; Elizabeth Cheney · Wikipedia"},
+        {"id": "R2L_LEONARDSAY", "label": "Leonard Say<br/>· son of Sir John Say &amp; Elizabeth Cheney · Wikipedia"},
+        {"id": "R2L_MARYSAY", "label": "Mary Say<br/>· dau. of Sir John Say &amp; Elizabeth Cheney · Wikipedia"},
+        {"id": "R2L_MARGARETSAY", "label": "Margaret Say<br/>· dau. of Sir John Say &amp; Elizabeth Cheney · Wikipedia"},
+        {"id": "R2L_KATHERINESAY", "label": "Katherine Say<br/>· dau. of Sir John Say &amp; Elizabeth Cheney · Wikipedia"}
+      ],
+      "note": "Anne Say's parents were Sir John Say & Elizabeth Cheney, Lady Say (also great-grandmother, via another daughter Margery, of Jane Seymour). Six full siblings documented: William, Thomas, Leonard, Mary, Margaret, Katherine Say. Wikipedia 'Elizabeth Cheney (gentry)' / 'Anne Say'."
+    },
+    {
+      "a": {"id": "R2L_ADRIANDALASSENOS", "label": "Adrianos Dalassenos<br/>fl.1020s · Byzantine nobleman of the Dalassenos clan · Wikipedia"},
+      "b": {"id": "R2L_ADRIANDALASSENOS_MOTHER", "label": "—"},
+      "children": ["SPE_DALASSENEMOTHER"],
+      "note": "Anna Dalassene's mother (the tree's SPE_DALASSENEMOTHER) was daughter of Adrianos Dalassenos, per Wikipedia 'Theophylact Dalassenos' / 'Alexios Charon'. Mother unrecorded; no documented siblings for her."
+    },
+    {
+      "a": {"id": "R2L_THEOPHYLACTDALASSENOS", "label": "Theophylact Dalassenos<br/>fl.990s-1020s · son of Damian Dalassenos, doux of Antioch · ⚠ probable (not certain) father of Adrianos · Wikipedia"},
+      "b": {"id": "R2L_THEOPHYLACTDALASSENOS_MOTHER", "label": "—"},
+      "children": ["R2L_ADRIANDALASSENOS"],
+      "note": "Grandparent generation for SPE_DALASSENEMOTHER: Wikipedia 'Theophylact Dalassenos' states 'Theophylact was most likely the father of Adrianos' — a probable, scholarly-reconstructed (not definitively documented) link, flagged as such in the label."
+    },
+    {
+      "a": {"id": "R2L_HROLFNEFJA", "label": "Hrólfr Nefja (Rolv Nefja)<br/>fl.9th c. · Jarl of Trondheim · saga tradition (Heimskringla/Orkneyinga Saga)"},
+      "b": {"id": "R2L_HROLFNEFJA_MOTHER", "label": "—"},
+      "children": ["SPE_ROLLO_MOTHER"],
+      "note": "Per saga tradition (matching the ⚠ saga-only flag already on the tree's SPE_ROGNVALD), Rognvald Eysteinsson's wife — Rollo's mother — was Hildr/Ragnhild Hrólfsdóttir, daughter of Hrólfr Nefja, Jarl of Trondheim, per Wikipedia 'Hildr Hrólfsdóttir'. No documented siblings for her; mother unrecorded."
+    },
+    {
+      "a": {"id": "R2L_WILLIAMMONTIFEX", "label": "Sir William de Montifex (Montfitchet)<br/>c.1280-1366 · of Auchterarder · WikiTree/Geni"},
+      "b": {"id": "R2L_MARGARETDECLARE_MONTIFEX", "label": "Margaret de Clare<br/>b.1275 · wife of Sir William Montifex · WikiTree/Geni"},
+      "children": ["SPH_MARY_MONTIFEX"],
+      "note": "Mary Montifex's parents were Sir William de Montifex (Montfitchet) of Auchterarder & Margaret de Clare, per WikiTree/Geni family trees (no dedicated Wikipedia article for this generation). He is recorded as leaving three daughters at his death, but only Mary is named in the sources found — unnamed sisters omitted, no fabrication."
+    },
+    {
+      "a": {"id": "R2L_GERVAISII", "label": "Gervais II<br/>c.1030-1095 · Lord of Château-du-Loir · Wikipedia"},
+      "b": {"id": "R2L_EREMBURGE_CHATEAUDULOIR", "label": "Éremburge<br/>· 1st wife of Gervais II · Wikipedia/Geneanet"},
+      "children": ["SPH_MATILDA_CHATEAUDULOIR"],
+      "note": "Confirms the round-1 label: Matilda's father was Gervais II, Lord of Château-du-Loir; his first wife (Matilda's presumed mother, married before the late 1060s, predeceasing him) was Éremburge, per Wikipedia 'Gervais II, Lord of Château-du-Loir'."
+    },
+    {
+      "a": {"id": "R2L_ROBERTBROCHARD", "label": "Robert 'Brochard'<br/>· Lord of Château-du-Loir · Geneanet/FamilySearch"},
+      "b": {"id": "R2L_ELISABETH_CHATEAUDULOIR", "label": "Élisabeth<br/>· wife of Robert 'Brochard' · Geneanet/FamilySearch"},
+      "children": ["R2L_GERVAISII"],
+      "note": "Grandparent generation for Matilda of Château-du-Loir: Gervais II's own parents are named on Geneanet/FamilySearch as Robert 'Brochard', Lord of Château-du-Loir, & Élisabeth. Wikipedia's own article on Gervais II does not document his parents, so this generation is sourced to genealogical compilations only — flagged as lower-certainty than the Wikipedia-sourced entries in this batch."
+    }
+  ]
+}

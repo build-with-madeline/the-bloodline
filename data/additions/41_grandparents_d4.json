@@ -1,0 +1,186 @@
+{
+  "families": [
+    {
+      "a": {"id": "R2G_CHARLES2_NAPLES", "label": "👑 Charles II of Naples 'the Lame'<br/>1254-1309 · King of Naples · Wikipedia"},
+      "b": {"id": "R2G_MARY_HUNGARY", "label": "Mary of Hungary<br/>1257-1323 · Queen of Naples, Arpad princess · Wikipedia"},
+      "children": [
+        "SPI_MARG_ANJOU_NAPLES",
+        "SPH_MARGARET_ANJOU_NAPLES",
+        {"id": "R2G_ROBERT_NAPLES", "label": "👑 Robert 'the Wise'<br/>1276-1343 · King of Naples, succeeded his father · Wikipedia"}
+      ],
+      "note": "Charles II of Naples & Mary of Hungary -> Margaret of Anjou-Naples (1st wife of Charles of Valois) + brother Robert the Wise, King of Naples. NOTE: SPI_MARG_ANJOU_NAPLES (batch d4) and SPH_MARGARET_ANJOU_NAPLES (batch u2) are DUPLICATE round-1 ids for the same historical woman (Margaret/Marguerite, Countess of Anjou, dau. of Charles II of Naples) — both linked here to avoid a second fabricated parent set. Wikipedia 'Margaret of Anjou, Countess of Anjou'."
+    },
+    {
+      "a": {"id": "R2G_HENRY1_NAVARRE", "label": "👑 Henry I 'the Fat'<br/>1244-1274 · King of Navarre · Wikipedia"},
+      "b": {"id": "R2G_BLANCHE_ARTOIS", "label": "Blanche of Artois<br/>c.1248-1302 · Queen of Navarre, later Countess of Lancaster (2nd marriage) · Wikipedia"},
+      "children": ["SPE_JOANNAVARRE"],
+      "note": "Joan I of Navarre (Queen of France) is daughter of Henry I of Navarre & Blanche of Artois. Wikipedia 'Joan I of Navarre'."
+    },
+    {
+      "a": "PIII",
+      "b": {"id": "R2G_MARIA_BRABANT", "label": "Maria of Brabant<br/>c.1254-1322 · 2nd queen of Philip III of France · Wikipedia"},
+      "children": [
+        "SPI_MARGARET_FRANCE",
+        {"id": "R2G_LOUIS_EVREUX", "label": "Louis, Count of Évreux<br/>1276-1319 · founder of the House of Évreux; ancestor of the Kings of Navarre · Wikipedia"}
+      ],
+      "note": "Margaret of France (2nd queen of Edward I) is daughter of Philip III of France (existing PIII) by his 2nd wife Maria of Brabant; full brother Louis, Count of Évreux, added. Wikipedia 'Margaret of France, Queen of England'."
+    },
+    {
+      "a": {"id": "R2G_LOUISBRIENNE", "label": "Louis de Brienne<br/>d.1297 · Viscount of Beaumont-au-Maine · Wikipedia"},
+      "b": {"id": "R2G_AGNES_BEAUMONT", "label": "Agnes de Beaumont<br/>d.1301 · Viscountess of Beaumont-au-Maine (heiress) · Wikipedia"},
+      "children": ["SPG_HENRYBEAUMONT"],
+      "note": "Henry de Beaumont, Earl of Buchan (jure uxoris), is son of Louis de Brienne, Viscount of Beaumont, & Agnes de Beaumont, heiress of Beaumont-au-Maine. Wikipedia 'Henry de Beaumont'."
+    },
+    {
+      "a": "SPG_JOHNBRIENNE",
+      "b": {"id": "R2G_BERENGARIA_LEON", "label": "Berengaria of León<br/>d.1237 · 3rd wife of John of Brienne; dau. of Alfonso IX of León · Wikipedia"},
+      "children": ["R2G_LOUISBRIENNE"],
+      "note": "Louis de Brienne, Viscount of Beaumont (father of Henry de Beaumont), is son of John of Brienne, King of Jerusalem (existing SPG_JOHNBRIENNE, from his 3rd marriage) & Berengaria of León. Wikipedia 'John of Brienne'."
+    },
+    {
+      "a": "HIII",
+      "b": "EOP",
+      "children": [{"id": "R2G_EDMUND_CROUCHBACK", "label": "👑 Edmund 'Crouchback'<br/>1245-1296 · 1st Earl of Lancaster; younger son of Henry III · Wikipedia"}],
+      "note": "Edmund Crouchback, 1st Earl of Lancaster, is son of Henry III of England (existing HIII) & Eleanor of Provence (existing EOP), full brother of Edward I. Union merges with existing HIII+EOP marriage. Wikipedia 'Edmund Crouchback'."
+    },
+    {
+      "a": "R2G_EDMUND_CROUCHBACK",
+      "b": "R2G_BLANCHE_ARTOIS",
+      "children": [
+        "SPJ_HENRY3LANCASTER",
+        {"id": "R2G_THOMAS_LANCASTER", "label": "Thomas, 2nd Earl of Lancaster<br/>c.1278-1322 · leader of baronial opposition to Edward II; executed · Wikipedia"}
+      ],
+      "note": "Henry, 3rd Earl of Lancaster, is son of Edmund Crouchback & his 2nd wife Blanche of Artois (her 2nd marriage, after Henry I of Navarre — cross-links to Joan I of Navarre's family above). Full brother Thomas, 2nd Earl of Lancaster, added. Wikipedia 'Henry, 3rd Earl of Lancaster'."
+    },
+    {
+      "a": {"id": "R2G_PATRICK_CHAWORTH", "label": "Patrick de Chaworth<br/>d.1283 · Lord of Kidwelly · Wikipedia"},
+      "b": {"id": "R2G_ISABEL_BEAUCHAMP", "label": "Isabel de Beauchamp<br/>d.1306 · dau. of William de Beauchamp, 9th Earl of Warwick · Wikipedia"},
+      "children": ["SPJ_MAUDCHAWORTH"],
+      "note": "Maud Chaworth is daughter of Patrick de Chaworth, Lord of Kidwelly, & Isabel de Beauchamp. Wikipedia 'Maud Chaworth'."
+    },
+    {
+      "a": {"id": "R2G_ALEXANDER_COMYN", "label": "Alexander Comyn of Buchan<br/>d.c.1308 · brother of John Comyn, 3rd Earl of Buchan · Wikipedia"},
+      "b": {"id": "R2G_ALICECOMYN_MOTHER", "label": "—"},
+      "children": ["SPG_ALICECOMYN"],
+      "note": "Alice Comyn, Countess of Buchan (suo jure heir after the Comyn forfeiture), per Wikipedia 'Alice Comyn, Countess of Buchan' is daughter of Alexander Comyn of Buchan; mother not documented. Moderate-confidence identification — flagged."
+    },
+    {
+      "a": "SPI_DENIS_PORTUGAL",
+      "b": "SPI_ELIZABETH_ARAGON",
+      "children": ["SPG_AFONSO4PORTUGAL"],
+      "note": "SPG_AFONSO4PORTUGAL (this batch) is a DUPLICATE round-1 id for Afonso IV of Portugal, already present as SPI_AFONSO4_PORTUGAL (child of King Denis I & St. Elizabeth of Aragon, batch u3). Reusing those existing parent ids rather than fabricating new ones; union merges with the existing Denis I + Elizabeth of Aragon marriage."
+    },
+    {
+      "a": {"id": "R2G_WENCESLAUS2_BOHEMIA", "label": "👑 Wenceslaus II<br/>1271-1305 · King of Bohemia & Poland · Wikipedia"},
+      "b": {"id": "R2G_JUDITH_HABSBURG", "label": "Judith (Guta) of Habsburg<br/>1271-1297 · Queen of Bohemia, dau. of Rudolf I of Habsburg · Wikipedia"},
+      "children": [
+        "SPJ_ELIZBOHEMIA",
+        {"id": "R2G_WENCESLAUS3_BOHEMIA", "label": "👑 Wenceslaus III<br/>1289-1306 · King of Bohemia & Hungary; last Přemyslid king, assassinated · Wikipedia"}
+      ],
+      "note": "Elizabeth of Bohemia (queen of John of Bohemia) is daughter of Wenceslaus II of Bohemia & Judith (Guta) of Habsburg; full brother Wenceslaus III, last Přemyslid king. Wikipedia 'Elizabeth of Bohemia'."
+    },
+    {
+      "a": "SANCHOIV",
+      "b": {"id": "R2G_MARIA_MENESES", "label": "María Alfonso de Meneses 'de Ulloa'<br/>fl.1290s · mistress of Sancho IV of Castile · Wikipedia"},
+      "kind": "concubine",
+      "mistress": "MARIAMOLINA",
+      "children": ["SPG_BEATRICECASTILE"],
+      "note": "Beatrice of Castile (queen of Afonso IV of Portugal) is an illegitimate daughter of Sancho IV of Castile (existing SANCHOIV) & his mistress María Alfonso de Meneses ('de Ulloa'); Sancho's official wife was Maria de Molina (existing MARIAMOLINA). Wikipedia 'Beatrice of Castile, Queen of Portugal'."
+    },
+    {
+      "a": {"id": "R2G_HENRY7_LUX", "label": "👑 Henry VII<br/>c.1273-1313 · Holy Roman Emperor (Henry of Luxembourg) · Wikipedia"},
+      "b": {"id": "R2G_MARGARET_BRABANT2", "label": "Margaret of Brabant<br/>1276-1311 · Holy Roman Empress · Wikipedia"},
+      "children": [
+        "SPJ_JOHNBLIND",
+        {"id": "R2G_MARIE_LUX", "label": "Marie of Luxembourg<br/>1304-1324 · Queen of France, 2nd wife of Charles IV · Wikipedia"}
+      ],
+      "note": "John 'the Blind' of Bohemia is son of Henry VII, Holy Roman Emperor (Henry of Luxembourg — distinct from the unrelated existing English HVII/Henry VII Tudor), & Margaret of Brabant; full sister Marie of Luxembourg, queen of Charles IV of France. Wikipedia 'John of Bohemia'."
+    },
+    {
+      "a": {"id": "R2G_GORONWY_TUDUR", "label": "Goronwy ap Tudur<br/>14th c. · of Penmynydd, Anglesey; Ednyfed Fychan lineage · Bartrum, Welsh Genealogies"},
+      "b": {"id": "R2G_TUDUR_MOTHER", "label": "—"},
+      "children": ["SPL_TUDURGORONWY"],
+      "note": "Tudur Fychan ap Goronwy's father is Goronwy ap Tudur, per the standard Penmynydd Tudor pedigree (Ednyfed Fychan -> Goronwy ap Ednyfed -> Tudur ap Goronwy -> Goronwy ap Tudur -> Tudur Fychan ap Goronwy), as summarized in Wikipedia's 'House of Tudor' ancestry section / P.C. Bartrum's Welsh genealogical tracts. Mother not recorded."
+    },
+    {
+      "a": {"id": "R2G_LOUIS1_BOURBON", "label": "👑 Louis I 'the Lame', Duke of Bourbon<br/>1279-1341 · Wikipedia"},
+      "b": {"id": "R2G_MARY_AVESNES", "label": "Mary of Avesnes<br/>1280-1354 · Duchess of Bourbon (Marie de Hainaut) · Wikipedia"},
+      "children": [
+        "SPL_PETERIBOURBON",
+        {"id": "R2G_JAMES1_BOURBON", "label": "James I of Bourbon, Count of La Marche<br/>1319-1362 · ancestor of the Bourbon-Vendôme line · Wikipedia"}
+      ],
+      "note": "Peter I, Duke of Bourbon (killed at Poitiers), is son of Louis I 'the Lame', Duke of Bourbon, & Mary of Avesnes; full brother James I of Bourbon, Count of La Marche. Wikipedia 'Peter I, Duke of Bourbon'."
+    },
+    {
+      "a": "CHARLESVALOIS",
+      "b": {"id": "R2G_MAHAUT_CHATILLON", "label": "Mahaut de Châtillon-Saint-Pol<br/>c.1293-1358 · 3rd wife of Charles of Valois · Wikipedia"},
+      "children": [
+        "SPL_ISABELLAVALOIS",
+        {"id": "R2G_MARIE_VALOIS", "label": "Marie of Valois<br/>1309-1332 · Duchess of Calabria, m. Charles, Duke of Calabria · Wikipedia"}
+      ],
+      "note": "Isabella of Valois (wife of Peter I of Bourbon) is daughter of Charles of Valois (existing CHARLESVALOIS) by his 3rd wife Mahaut de Châtillon-Saint-Pol — a different marriage/mother from Charles's 1st wife Margaret of Anjou-Naples (Philip VI's mother) already in the tree. Full sister Marie of Valois added. Wikipedia 'Isabella of Valois, Duchess of Bourbon'."
+    },
+    {
+      "a": {"id": "R2G_ALFONSO4_ARAGON", "label": "👑 Alfonso IV 'the Kind', King of Aragon<br/>1299-1336 · Wikipedia"},
+      "b": {"id": "R2G_TERESA_ENTENZA", "label": "Teresa d'Entença<br/>d.1327 · Countess of Urgell, 1st wife of Alfonso IV of Aragon · Wikipedia"},
+      "children": [
+        "SPK_PETERIV_ARAGON",
+        {"id": "R2G_JAMES_URGELL", "label": "James, Count of Urgell<br/>1321-1347 · Wikipedia"}
+      ],
+      "note": "Peter IV of Aragon is son of Alfonso IV of Aragon & his 1st wife Teresa d'Entença, Countess of Urgell; full brother James, Count of Urgell. Wikipedia 'Peter IV of Aragon'."
+    },
+    {
+      "a": "SPG_AFONSO4PORTUGAL",
+      "b": "SPG_BEATRICECASTILE",
+      "children": ["SPE_PEDROI"],
+      "note": "SPE_PEDROI (this batch, Peter I of Portugal) is a DUPLICATE round-1 id for the same person as SPG_PETER1PORTUGAL (child of Afonso IV of Portugal & Beatrice of Castile, batch u1, alongside sister Maria of Portugal). Reusing the existing parent ids (both also this batch's items) rather than duplicating them."
+    },
+    {
+      "a": {"id": "R2G_PETER2_SICILY", "label": "👑 Peter II of Sicily<br/>1304-1342 · King of Trinacria (Sicily) · Wikipedia"},
+      "b": {"id": "R2G_ELISABETH_CARINTHIA", "label": "Elisabeth of Carinthia-Tyrol<br/>d.1352 · Queen of Sicily · Wikipedia"},
+      "children": [
+        "SPK_ELEANOR_SICILY",
+        {"id": "R2G_LOUIS_SICILY", "label": "👑 Louis of Sicily<br/>1338-1355 · King of Trinacria, succeeded his father · Wikipedia"},
+        {"id": "R2G_ELISABETH_SICILY", "label": "Elisabeth of Sicily<br/>d.1349 · m. Stephen II, Duke of Bavaria · Wikipedia"}
+      ],
+      "note": "Eleanor of Sicily (3rd queen of Peter IV of Aragon) is daughter of Peter II of Sicily (King of Trinacria) & Elisabeth of Carinthia-Tyrol; siblings King Louis of Sicily and Elisabeth of Sicily (who links onward to Stephen III of Bavaria below) added. Wikipedia 'Eleanor of Sicily'."
+    },
+    {
+      "a": {"id": "R2G_STEPHEN2_BAVARIA", "label": "👑 Stephen II, Duke of Bavaria<br/>1319-1375 · Wikipedia"},
+      "b": "R2G_ELISABETH_SICILY",
+      "children": ["SPK_STEPHENIII_BAV"],
+      "note": "Stephen III of Bavaria-Ingolstadt is son of Stephen II, Duke of Bavaria, & Elisabeth of Sicily (daughter of Peter II of Sicily — same union added just above, making Eleanor of Sicily and Stephen III of Bavaria first cousins). Wikipedia 'Stephen II, Duke of Bavaria'."
+    },
+    {
+      "a": "ALFONSOXI",
+      "b": {"id": "R2G_ELEANOR_GUZMAN", "label": "Eleanor (Leonor) de Guzmán<br/>c.1310-1351 · longtime mistress of Alfonso XI of Castile · Wikipedia"},
+      "kind": "concubine",
+      "mistress": "MARIAPORT",
+      "children": [
+        "SPG_HENRY2CASTILE",
+        "SPK_FADRIQUE_ALFONSO",
+        "SPH_SANCHO_ALBURQ",
+        {"id": "R2G_TELLO_CASTILE", "label": "Tello, Lord of Biscay<br/>1337-1370 · Wikipedia"}
+      ],
+      "note": "Henry II 'of Trastámara' (twin of Fadrique Alfonso, per his own label) and Sancho Alfonso, 1st Count of Alburquerque, are — together with Fadrique — illegitimate sons of Alfonso XI of Castile (existing ALFONSOXI) & his longtime mistress Eleanor de Guzmán; Alfonso's official wife was Maria of Portugal (existing MARIAPORT). Brother Tello, Lord of Biscay, added. Wikipedia 'Henry II of Castile' / 'Eleanor de Guzmán'."
+    },
+    {
+      "a": {"id": "R2G_RALPH2_NEVILLE", "label": "Ralph Neville, 2nd Baron Neville de Raby<br/>c.1291-1367 · Wikipedia"},
+      "b": {"id": "R2G_ALICE_AUDLEY", "label": "Alice Audley<br/>d.1351 · dau. of Hugh de Audley · Wikipedia"},
+      "children": ["SPJ_JOHNNEVILLE3"],
+      "note": "John Neville, 3rd Baron Neville de Raby, is son of Ralph Neville, 2nd Baron Neville de Raby, & Alice Audley. Wikipedia 'John Neville, 3rd Baron Neville de Raby'."
+    },
+    {
+      "a": {"id": "R2G_JUANMANUEL_VILLENA", "label": "Juan Manuel, Prince of Villena<br/>1282-1348 · author of El Conde Lucanor · Wikipedia"},
+      "b": {"id": "R2G_BLANCA_LARA", "label": "Blanca Núñez de Lara<br/>d.1347 · 3rd wife of Juan Manuel of Villena · Wikipedia"},
+      "children": ["SPG_JUANAMANUEL"],
+      "note": "Juana Manuel (queen of Henry II of Castile, see union above) is daughter of Juan Manuel, Prince of Villena, & his 3rd wife Blanca Núñez de Lara. Wikipedia 'Juana Manuel of Castile'."
+    },
+    {
+      "a": {"id": "R2G_WILLIAM_BOHUN", "label": "William de Bohun, 1st Earl of Northampton<br/>c.1312-1360 · Wikipedia"},
+      "b": {"id": "R2G_ELIZABETH_BADLESMERE", "label": "Elizabeth de Badlesmere<br/>1313-1356 · Wikipedia"},
+      "children": ["SPE_HUMPHREYBOHUN"],
+      "note": "Humphrey de Bohun, 7th Earl of Hereford, is son of William de Bohun, 1st Earl of Northampton, & Elizabeth de Badlesmere. Wikipedia 'Humphrey de Bohun, 7th Earl of Hereford'."
+    }
+  ]
+}

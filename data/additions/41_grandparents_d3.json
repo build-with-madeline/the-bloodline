@@ -1,0 +1,311 @@
+{
+  "families": [
+    {
+      "note": "Margaret I, Countess of Flanders -> parents Thierry (Diederik) of Alsace, Count of Flanders, & Sibylla of Anjou; full siblings Philip of Alsace (Count of Flanders), Matthew of Alsace (Count of Boulogne), Gertrude of Flanders. Wikipedia.",
+      "a": {"id": "R2F_THIERRY_ALSACE", "label": "Thierry of Alsace<br/>c.1099-1168 · Count of Flanders · Wikipedia"},
+      "b": {"id": "R2F_SIBYLLA_ANJOU", "label": "Sibylla of Anjou<br/>c.1112-1165 · Countess of Flanders, later a nun at Bethany · Wikipedia"},
+      "children": [
+        "SPK_MARGARET_FLAN",
+        {"id": "R2F_PHILIP_FLANDERS", "label": "Philip of Alsace<br/>c.1143-1191 · Count of Flanders · Wikipedia"},
+        {"id": "R2F_MATTHEW_ALSACE", "label": "Matthew of Alsace<br/>d.1173 · Count of Boulogne (by marriage) · Wikipedia"},
+        {"id": "R2F_GERTRUDE_FLANDERS", "label": "Gertrude of Flanders<br/>d.1186 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Baldwin V, Count of Hainaut (Baldwin VIII of Flanders) -> parents Baldwin IV, Count of Hainaut, & Alice (Alix) of Namur; full siblings Yolande and Agnes of Hainaut. Wikipedia.",
+      "a": {"id": "R2F_BALDWINIV_HAIN", "label": "Baldwin IV<br/>c.1108-1171 · Count of Hainaut · Wikipedia"},
+      "b": {"id": "R2F_ALICE_NAMUR", "label": "Alice of Namur<br/>c.1110-1169 · Countess of Hainaut; heiress bringing Namur claim · Wikipedia"},
+      "children": [
+        "SPK_BALDWINV_HAIN",
+        {"id": "R2F_YOLANDE_HAINAULT", "label": "Yolande of Hainaut<br/>· Wikipedia"},
+        {"id": "R2F_AGNES_HAINAULT", "label": "Agnes of Hainaut<br/>· Wikipedia"}
+      ]
+    },
+    {
+      "note": "Urraca of Portugal, Queen of Leon -> parents Afonso I 'Henriques', first King of Portugal, & Matilda (Maud) of Savoy; full siblings Sancho I (successor as King of Portugal), Teresa, Mafalda. Wikipedia.",
+      "a": {"id": "R2F_AFONSOI_PORTUGAL", "label": "👑 Afonso I 'Henriques'<br/>1109-1185 · first King of Portugal · Wikipedia"},
+      "b": {"id": "R2F_MATILDA_SAVOY", "label": "Matilda of Savoy<br/>c.1125-1157/58 · Queen of Portugal · Wikipedia"},
+      "children": [
+        "SPI_URRACA_PORTUGAL",
+        {"id": "R2F_SANCHOI_PORTUGAL", "label": "👑 Sancho I 'the Populator'<br/>1154-1211 · King of Portugal · Wikipedia"},
+        {"id": "R2F_TERESA_PORTUGAL", "label": "Teresa of Portugal<br/>c.1157-1218 · Infanta of Portugal · Wikipedia"},
+        {"id": "R2F_MAFALDA_PORTUGAL", "label": "Mafalda of Portugal<br/>1153-aft.1162 · Infanta of Portugal · Wikipedia"}
+      ]
+    },
+    {
+      "note": "John of Brienne, King of Jerusalem & Latin Emperor -> parents Erard II, Count of Brienne, & Agnes of Montfaucon; brother Walter III, Count of Brienne. Wikipedia.",
+      "a": {"id": "R2F_ERARDII_BRIENNE", "label": "Erard II<br/>d.1191 · Count of Brienne · Wikipedia"},
+      "b": {"id": "R2F_AGNES_MONTFAUCON", "label": "Agnes of Montfaucon<br/>· Countess of Brienne · Wikipedia"},
+      "children": [
+        "SPG_JOHNBRIENNE",
+        {"id": "R2F_WALTERIII_BRIENNE", "label": "Walter III<br/>d.1205 · Count of Brienne · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Andrew II of Hungary -> parents Béla III, King of Hungary, & his first wife Agnes of Antioch (Anne de Châtillon); full siblings Emeric (successor as King of Hungary), Margaret (empress consort of Byzantium via Isaac II Angelos), Constance (queen consort of Bohemia via Ottokar I). Wikipedia.",
+      "a": {"id": "R2F_BELAIII_HUNGARY", "label": "👑 Béla III<br/>c.1148-1196 · King of Hungary · Wikipedia"},
+      "b": {"id": "R2F_AGNES_ANTIOCH", "label": "Agnes of Antioch<br/>d.1184 · Anne de Châtillon; Queen of Hungary · Wikipedia"},
+      "children": [
+        "SPH_ANDREW2_HUNGARY",
+        {"id": "R2F_EMERIC_HUNGARY", "label": "👑 Emeric<br/>1174-1204 · King of Hungary · Wikipedia"},
+        {"id": "R2F_MARGARET_HUNGARY", "label": "Margaret of Hungary<br/>c.1175-1223 · empress consort of Byzantium (m. Isaac II Angelos) · Wikipedia"},
+        {"id": "R2F_CONSTANCE_HUNGARY", "label": "Constance of Hungary<br/>d.1240 · queen consort of Bohemia (m. Ottokar I) · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Peter II 'the Catholic', King of Aragon, AND his brother Alfonso II, Count of Provence -> parents Alfonso II, King of Aragon, & Sancha of Castile (daughter of Alfonso VII of Leon-Castile); full siblings Constance (Queen of Hungary, later Holy Roman Empress via Frederick II) and Eleanor (Countess of Toulouse via Raymond VI). Wikipedia.",
+      "a": {"id": "R2F_ALFONSOII_ARAGON", "label": "👑 Alfonso II<br/>1157-1196 · King of Aragon · Wikipedia"},
+      "b": {"id": "R2F_SANCHA_CASTILE_ARAGON", "label": "Sancha of Castile<br/>1155-1208 · Queen of Aragon; dau. of Alfonso VII of Leon-Castile · Wikipedia"},
+      "children": [
+        "SPG_PETER2ARAGON",
+        "SPI_ALFONSO2_PROVENCE",
+        {"id": "R2F_CONSTANCE_ARAGON", "label": "Constance of Aragon<br/>1179-1222 · Queen of Hungary, later Holy Roman Empress · Wikipedia"},
+        {"id": "R2F_ELEANOR_ARAGON", "label": "Eleanor of Aragon<br/>1182-1226 · Countess of Toulouse · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Thomas I, Count of Savoy -> parents Humbert III, Count of Savoy, & his fourth wife Beatrice of Viennois; only son (half-sisters Alice & Sofia from Humbert's third marriage omitted as not full siblings). Wikipedia.",
+      "a": {"id": "R2F_HUMBERTIII_SAVOY", "label": "😇 Humbert III<br/>1136-1189 · Count of Savoy; Blessed · Wikipedia"},
+      "b": {"id": "R2F_BEATRICE_VIENNOIS", "label": "Beatrice of Viennois<br/>d.1194 · fourth wife of Humbert III · Wikipedia"},
+      "children": [
+        "SPH_THOMAS1_SAVOY"
+      ]
+    },
+    {
+      "note": "William VI Taillefer, Count of Angoulême -> parents Wulgrin (Vulgrin) II, Count of Angoulême, & his first wife Poncia, daughter of Roger the Poitevin. Wikipedia.",
+      "a": {"id": "R2F_WULGRINII_ANGOULEME", "label": "Wulgrin II<br/>d.1181 · Count of Angoulême · Wikipedia"},
+      "b": {"id": "R2F_PONCIA_POITEVIN", "label": "Poncia<br/>dau. of Roger the Poitevin · Wikipedia"},
+      "children": [
+        "SPG_WILLIAM6ANG"
+      ]
+    },
+    {
+      "note": "Garsenda of Sabran, Countess of Forcalquier -> parents Rainou (Rénier) de Sabran, lord of Caylar and Ansouis, & Garsende, heiress of Forcalquier (daughter of William IV of Forcalquier; Garsenda was named for her mother and inherited Forcalquier from her grandfather after her mother predeceased him). Wikipedia.",
+      "a": {"id": "R2F_RAINOU_SABRAN", "label": "Rainou de Sabran<br/>· lord of Caylar and Ansouis · Wikipedia"},
+      "b": {"id": "R2F_GARSENDE_FORCALQUIER", "label": "Garsende of Forcalquier<br/>d. before her father · dau. of William IV of Forcalquier · Wikipedia"},
+      "children": [
+        "SPI_GARSENDA_SABRAN"
+      ]
+    },
+    {
+      "note": "Simon of Dammartin, Count of Aumale -> parents Alberic (Aubry) III, Count of Dammartin, & Mathilde of Clermont (heiress of Clermont, dau. of Renaud II, Count of Clermont); brother Renaud I, Count of Dammartin & Boulogne. Wikipedia.",
+      "a": {"id": "R2F_ALBERICIII_DAMMARTIN", "label": "Alberic III<br/>· Count of Dammartin · Wikipedia"},
+      "b": {"id": "R2F_MATHILDE_CLERMONT", "label": "Mathilde of Clermont<br/>· heiress of the county of Clermont · Wikipedia"},
+      "children": [
+        "SPJ_SIMONDAMMARTIN",
+        {"id": "R2F_RENAUDI_DAMMARTIN", "label": "Renaud I<br/>d.1227 · Count of Dammartin & Boulogne · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Margaret of Geneva -> parents William I, Count of Geneva, & Beatrice of Faucigny; full siblings Amadeus (Bishop of Maurienne) and William II (successor as Count of Geneva). Wikipedia.",
+      "a": {"id": "R2F_WILLIAMI_GENEVA", "label": "William I<br/>d.1195 · Count of Geneva · Wikipedia"},
+      "b": {"id": "R2F_BEATRICE_FAUCIGNY", "label": "Beatrice of Faucigny<br/>c.1160-1196 · Wikipedia"},
+      "children": [
+        "SPH_MARGARET_GENEVA",
+        {"id": "R2F_AMADEUS_GENEVA", "label": "✝ Amadeus of Geneva<br/>· Bishop of Maurienne · Wikipedia"},
+        {"id": "R2F_WILLIAMII_GENEVA", "label": "William II<br/>d.1252 · Count of Geneva · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Marie of Montpellier -> parents William VIII, Lord of Montpellier, & his first wife Eudokia Komnene (niece of Byzantine emperor Manuel I Komnenos); only child of this marriage (William VIII's second marriage to Agnes of Aragon-adjacent kin was later annulled and its children declared illegitimate). Wikipedia.",
+      "a": {"id": "R2F_WILLIAMVIII_MONTPELLIER", "label": "William VIII<br/>d.1202 · Lord of Montpellier · Wikipedia"},
+      "b": {"id": "R2F_EUDOKIA_KOMNENE", "label": "Eudokia Komnene<br/>· Lady of Montpellier; niece of Manuel I Komnenos · Wikipedia"},
+      "children": [
+        "SPG_MARIEMONTPELLIER"
+      ]
+    },
+    {
+      "note": "Maria of Montferrat, Queen of Jerusalem -> parents Conrad, Marquis of Montferrat, & Isabella I, Queen of Jerusalem; only child, born posthumously after Conrad's assassination in 1192 (Isabella's children by her other three husbands are half-siblings, omitted). Wikipedia.",
+      "a": {"id": "R2F_CONRAD_MONTFERRAT", "label": "Conrad<br/>d.1192 · Marquis of Montferrat, King of Jerusalem jure uxoris · Wikipedia"},
+      "b": {"id": "R2F_ISABELLAI_JERUSALEM", "label": "👑 Isabella I<br/>1172-1205 · Queen of Jerusalem · Wikipedia"},
+      "children": [
+        "SPG_MARIAMONTFERRAT"
+      ]
+    },
+    {
+      "note": "Marie, Countess of Ponthieu -> parents William IV Talvas, Count of Ponthieu, & Alys of France, Countess of the Vexin (daughter of Louis VII of France & his 2nd wife Constance of Castile); only surviving child. Wikipedia.",
+      "a": {"id": "R2F_WILLIAMIV_PONTHIEU", "label": "William IV Talvas<br/>1179-1221 · Count of Ponthieu · Wikipedia"},
+      "b": {"id": "R2F_ALYS_VEXIN", "label": "Alys of France<br/>1160-aft.1213 · Countess of the Vexin; dau. of Louis VII of France · Wikipedia"},
+      "children": [
+        "SPJ_MARIEPONTHIEU"
+      ]
+    },
+    {
+      "note": "Yolanda de Courtenay, 2nd wife of Andrew II of Hungary -> parents the EXISTING Peter II of Courtenay, Latin Emperor (already in tree as son of Peter I of Courtenay & Elizabeth de Courtenay), & the EXISTING Yolanda of Flanders, Latin Empress (already in tree as child of Baldwin V of Hainaut & Margaret I of Flanders — both also in this batch). Full siblings among their ten children: Robert of Courtenay & Baldwin II of Constantinople (both later Latin Emperors) and Marie de Courtenay (empress consort of Nicaea via Theodore I Laskaris). Wikipedia.",
+      "a": "SPG_PETER2COURTENAY",
+      "b": "SPK_YOLANDA_FLAN",
+      "children": [
+        "SPH_YOLANDA_COURTENAY",
+        {"id": "R2F_ROBERT_COURTENAY", "label": "👑 Robert of Courtenay<br/>d.1228 · Latin Emperor of Constantinople · Wikipedia"},
+        {"id": "R2F_BALDWINII_CONST", "label": "👑 Baldwin II<br/>1217-1273 · last Latin Emperor of Constantinople · Wikipedia"},
+        {"id": "R2F_MARIE_COURTENAY", "label": "Marie de Courtenay<br/>d.c.1228 · empress consort of Nicaea (m. Theodore I Laskaris) · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Agnes of the Palatinate -> parents Henry V, Count Palatine of the Rhine (House of Welf, son of Henry the Lion), & his first wife Agnes of Hohenstaufen, heiress of the Rhenish Palatinate (dau. of Conrad of Hohenstaufen, Count Palatine, half-brother of Frederick Barbarossa). Wikipedia.",
+      "a": {"id": "R2F_HENRYV_PALATINE", "label": "Henry V<br/>1173-1227 · Count Palatine of the Rhine · Wikipedia"},
+      "b": {"id": "R2F_AGNES_HOHENSTAUFEN", "label": "Agnes of Hohenstaufen<br/>1176-1204 · heiress of the Rhenish Palatinate · Wikipedia"},
+      "children": [
+        "SPK_AGNES_PALATINE"
+      ]
+    },
+    {
+      "note": "Alfonso de Molina, Infante of Leon -> parents the EXISTING Alfonso IX, King of Leon, & the EXISTING Berengaria of Castile (already married in the base tree, U_alfonsoix_berengaria, with Ferdinand III as their recorded child — Alfonso de Molina, Ferdinand III's full brother, is appended here). Wikipedia.",
+      "a": "ALFONSOIXLEON",
+      "b": "BERENGARIA",
+      "children": [
+        "SPK_ALFONSO_MOLINA"
+      ]
+    },
+    {
+      "note": "Otto II 'the Illustrious', Duke of Bavaria -> parents Louis I 'the Kelheimer', Duke of Bavaria, & his second wife Ludmilla of Bohemia (NOT Otto I of Bavaria & Agnes of Loon, who are Otto II's grandparents one generation further back). Only child of Louis I & Ludmilla. Wikipedia.",
+      "a": {"id": "R2F_LOUISI_BAVARIA", "label": "👑 Louis I 'the Kelheimer'<br/>1173-1231 · Duke of Bavaria · Wikipedia"},
+      "b": {"id": "R2F_LUDMILLA_BOHEMIA", "label": "Ludmilla of Bohemia<br/>1170-1240 · Duchess of Bavaria · Wikipedia"},
+      "children": [
+        "SPK_OTTOII_BAV"
+      ]
+    },
+    {
+      "note": "Robert de Brus, 5th Lord of Annandale ('the Competitor') -> parents Robert de Brus, 4th Lord of Annandale, & Isobel of Huntingdon (dau. of David of Scotland, 8th Earl of Huntingdon, & Matilda de Kevilloc of Chester — this is the documented line carrying the Bruce claim to the Scottish throne back to David I). Wikipedia.",
+      "a": {"id": "R2F_ROBERTIV_BRUS", "label": "Robert de Brus<br/>c.1195-1245 · 4th Lord of Annandale · Wikipedia"},
+      "b": {"id": "R2F_ISOBEL_HUNTINGDON", "label": "Isobel of Huntingdon<br/>· dau. of David, 8th Earl of Huntingdon · Wikipedia"},
+      "children": [
+        "SPJ_BRUSCOMPETITOR"
+      ]
+    },
+    {
+      "note": "Mayor Alfonso Téllez de Meneses (3rd wife of Alfonso de Molina) -> parents Alfonso Téllez de Meneses 'el Mozo' (the Young) & María Anes de Limia. Wikipedia.",
+      "a": {"id": "R2F_ALFONSOTELLEZ_MOZO", "label": "Alfonso Téllez de Meneses 'el Mozo'<br/>d.c.1257 · Castilian magnate · Wikipedia"},
+      "b": {"id": "R2F_MARIA_LIMIA", "label": "María Anes de Limia<br/>· Wikipedia"},
+      "children": [
+        "SPK_MAYOR_MENESES"
+      ]
+    },
+    {
+      "note": "Isabel de Clare (wife of Robert de Brus the Competitor) -> parents Gilbert de Clare, Earl of Gloucester & Hertford, & Isabel Marshal (dau. of William Marshal, 1st Earl of Pembroke); full siblings Richard de Clare (successor as Earl of Gloucester & Hertford) and Amice de Clare (m. Baldwin de Redvers, Earl of Devon). Wikipedia.",
+      "a": {"id": "R2F_GILBERTDECLARE_GLOUC", "label": "Gilbert de Clare<br/>1180-1230 · Earl of Gloucester & Hertford · Wikipedia"},
+      "b": {"id": "R2F_ISABEL_MARSHAL", "label": "Isabel Marshal<br/>1200-1240 · dau. of William Marshal, 1st Earl of Pembroke · Wikipedia"},
+      "children": [
+        "SPJ_ISABELDECLARE",
+        {"id": "R2F_RICHARDDECLARE_GLOUC", "label": "Richard de Clare<br/>1222-1262 · Earl of Gloucester & Hertford · Wikipedia"},
+        {"id": "R2F_AMICE_DECLARE", "label": "Amice de Clare<br/>· m. Baldwin de Redvers, Earl of Devon · Wikipedia"}
+      ]
+    },
+    {
+      "note": "John II of Avesnes, Count of Holland & Hainaut -> parents John I of Avesnes, Count of Hainaut, & Adelaide (Aleidis) of Holland (dau. of Floris IV, Count of Holland); full brothers Baldwin of Avesnes and Guy of Avesnes (Bishop of Utrecht), among eight children total. Wikipedia.",
+      "a": {"id": "R2F_JOHNI_AVESNES", "label": "John I<br/>1218-1257 · Count of Hainaut · Wikipedia"},
+      "b": {"id": "R2F_ADELAIDE_HOLLAND", "label": "Adelaide of Holland<br/>c.1230-1284 · Countess of Hainaut; dau. of Floris IV of Holland · Wikipedia"},
+      "children": [
+        "SPH_JOHN2_AVESNES",
+        {"id": "R2F_BALDWIN_AVESNES", "label": "Baldwin of Avesnes<br/>d.1299 · Wikipedia"},
+        {"id": "R2F_GUY_AVESNES", "label": "✝ Guy of Avesnes<br/>c.1253-1317 · Bishop of Utrecht · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Robert II, Duke of Burgundy -> parents Hugh IV, Duke of Burgundy, & his first wife Yolande de Dreux; full siblings Eudes (Count of Nevers), Jean, and Adelaide of Burgundy. Wikipedia.",
+      "a": {"id": "R2F_HUGHIV_BURGUNDY", "label": "Hugh IV<br/>1213-1272 · Duke of Burgundy · Wikipedia"},
+      "b": {"id": "R2F_YOLANDE_DREUX", "label": "Yolande de Dreux<br/>1212-1248 · Duchess of Burgundy · Wikipedia"},
+      "children": [
+        "SPI_ROBERT2_BURGUNDY",
+        {"id": "R2F_EUDES_NEVERS", "label": "Eudes<br/>1230-1266 · Count of Nevers · Wikipedia"},
+        {"id": "R2F_ADELAIDE_BURGUNDY", "label": "Adelaide of Burgundy<br/>d.1273 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Philippa of Luxembourg -> parents Henry V 'the Blond', Count of Luxembourg, & Margaret of Bar. Wikipedia.",
+      "a": {"id": "R2F_HENRYV_LUX_BLOND", "label": "Henry V 'the Blond'<br/>1216-1281 · Count of Luxembourg · Wikipedia"},
+      "b": {"id": "R2F_MARGARET_BAR", "label": "Margaret of Bar<br/>· Countess of Luxembourg · Wikipedia"},
+      "children": [
+        "SPH_PHILIPPA_LUXEMBOURG"
+      ]
+    },
+    {
+      "note": "Richard Óg de Burgh, 2nd Earl of Ulster ('the Red Earl') -> parents Walter de Burgh, 1st Earl of Ulster (2nd creation), & Aveline FitzJohn (dau. of Sir John FitzGeoffrey). Wikipedia.",
+      "a": {"id": "R2F_WALTER_DEBURGH", "label": "Walter de Burgh<br/>c.1230-1271 · 1st Earl of Ulster · Wikipedia"},
+      "b": {"id": "R2F_AVELINE_FITZJOHN", "label": "Aveline FitzJohn<br/>· dau. of Sir John FitzGeoffrey · Wikipedia"},
+      "children": [
+        "SPJ_RICHARDDEBURGH"
+      ]
+    },
+    {
+      "note": "James Stewart, 5th High Steward of Scotland -> father Alexander Stewart, 4th High Steward of Scotland (documented); mother's identity is disputed among sources with no primary-source confirmation (Foundation for Medieval Genealogy notes candidates but no proof) — placeholder used per unknown-mother convention. Full brother Sir John Stewart of Bonkyll (ancestor of the Stewarts of Darnley). Wikipedia.",
+      "a": {"id": "R2F_ALEXANDER_STEWART4", "label": "Alexander Stewart<br/>c.1214-1283 · 4th High Steward of Scotland · Wikipedia"},
+      "b": {"id": "R2F_STEWART4_MOTHER", "label": "—"},
+      "children": [
+        "SPG_JAMESSTEWART5",
+        {"id": "R2F_JOHN_STEWART_BONKYLL", "label": "John Stewart of Bonkyll<br/>c.1245-1298 · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Agnes of France, daughter of Louis IX -> parents the EXISTING Louis IX 'Saint Louis' & the EXISTING Margaret of Provence (already married in the base tree). Wikipedia.",
+      "a": "LIX",
+      "b": "MOP",
+      "children": [
+        "SPI_AGNES_FRANCE"
+      ]
+    },
+    {
+      "note": "Denis I, King of Portugal -> parents Afonso III, King of Portugal, & Beatrice of Castile (illegitimate daughter of Alfonso X of Castile, legitimized); full siblings among several children include Afonso, Lord of Portalegre, and Branca (Infanta of Portugal). Wikipedia.",
+      "a": {"id": "R2F_AFONSOIII_PORTUGAL", "label": "👑 Afonso III<br/>1210-1279 · King of Portugal · Wikipedia"},
+      "b": {"id": "R2F_BEATRICE_CASTILE_ILLEG", "label": "Beatrice of Castile<br/>1242-1303 · Queen of Portugal; illegitimate dau. of Alfonso X of Castile · Wikipedia"},
+      "children": [
+        "SPI_DENIS_PORTUGAL",
+        {"id": "R2F_AFONSO_PORTALEGRE", "label": "Afonso<br/>1245-1312 · Lord of Portalegre · Wikipedia"},
+        {"id": "R2F_BRANCA_PORTUGAL", "label": "Branca of Portugal<br/>1259-1321 · Infanta of Portugal · Wikipedia"}
+      ]
+    },
+    {
+      "note": "John Wake, 1st Baron Wake of Liddell -> parents Baldwin Wake, Lord of Bourne, & Hawise de Quincy (dau. of Robert de Quincy & Elen ferch Llywelyn, granddaughter of Llywelyn the Great of Wales). Wikipedia.",
+      "a": {"id": "R2F_BALDWIN_WAKE", "label": "Baldwin Wake<br/>c.1238-1282 · Lord of Bourne · Wikipedia"},
+      "b": {"id": "R2F_HAWISE_QUINCY", "label": "Hawise de Quincy<br/>· dau. of Robert de Quincy & Elen ferch Llywelyn · Wikipedia"},
+      "children": [
+        "SPJ_JOHNWAKE"
+      ]
+    },
+    {
+      "note": "Joan de Fiennes (wife of John Wake) -> parents William de Fiennes, Seigneur de Fiennes, & Blanche de Brienne, Dame de la Loupelande; siblings among seven children include Robert de Fiennes (Seneschal of Ponthieu) and Isabeau de Fiennes. Wikipedia.",
+      "a": {"id": "R2F_WILLIAM_FIENNES", "label": "William de Fiennes<br/>· Seigneur de Fiennes · Wikipedia"},
+      "b": {"id": "R2F_BLANCHE_BRIENNE", "label": "Blanche de Brienne<br/>· Dame de la Loupelande · Wikipedia"},
+      "children": [
+        "SPJ_JOANFIENNES",
+        {"id": "R2F_ROBERT_FIENNES", "label": "Robert de Fiennes<br/>· Seneschal of Ponthieu · Wikipedia"},
+        {"id": "R2F_ISABEAU_FIENNES", "label": "Isabeau de Fiennes<br/>· Wikipedia"}
+      ]
+    },
+    {
+      "note": "Beatrice of Savoy, Marchioness of Saluzzo (2nd wife of Manfred of Sicily) -> parents the EXISTING Amadeus IV of Savoy (already in tree, sibling of batch entries Thomas I of Savoy/Margaret of Geneva's family) & Margaret of Burgundy. Chained below into Manfred's family to reach Constance of Sicily. Wikipedia.",
+      "a": "SPH_AMADEUS4_SAVOY",
+      "b": {"id": "R2F_MARGARET_BURGUNDY_SAVOY", "label": "Margaret of Burgundy<br/>1192-1243 · Countess of Savoy; dau. of Hugh III of Burgundy · Wikipedia"},
+      "children": [
+        {"id": "R2F_BEATRICE_SAVOY_SALUZZO", "label": "Beatrice of Savoy<br/>d.1258 · Marchioness of Saluzzo, later 2nd wife of Manfred of Sicily · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Constance of Sicily (wife of Peter III of Aragon) -> parents the EXISTING Manfred, King of Sicily, & Beatrice of Savoy (above); only child of this, Manfred's second, marriage. Wikipedia.",
+      "a": "MANFRED",
+      "b": "R2F_BEATRICE_SAVOY_SALUZZO",
+      "children": [
+        {"id": "R2F_CONSTANCE_SICILY_ARAGON", "label": "👑 Constance of Sicily<br/>1249-1302 · Queen of Aragon, later Queen regnant of Sicily · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Peter III 'the Great', King of Aragon -> appended as an additional child of the EXISTING James I of Aragon & Violant of Hungary union (already married in the base tree with Violant of Aragon among their recorded children). Wikipedia.",
+      "a": "JAMESIAR",
+      "b": "VIOLANTH",
+      "children": [
+        {"id": "R2F_PETERIII_ARAGON", "label": "👑 Peter III 'the Great'<br/>1239-1285 · King of Aragon · Wikipedia"}
+      ]
+    },
+    {
+      "note": "Elizabeth of Aragon (St. Elizabeth of Portugal) -> parents Peter III of Aragon & Constance of Sicily (both above); full siblings Alfonso III (King of Aragon), James II (King of Aragon), and Frederick III (King of Sicily). Wikipedia.",
+      "a": "R2F_PETERIII_ARAGON",
+      "b": "R2F_CONSTANCE_SICILY_ARAGON",
+      "children": [
+        "SPI_ELIZABETH_ARAGON",
+        {"id": "R2F_ALFONSOIII_ARAGON", "label": "👑 Alfonso III 'the Liberal'<br/>1265-1291 · King of Aragon · Wikipedia"},
+        {"id": "R2F_JAMESII_ARAGON", "label": "👑 James II 'the Just'<br/>1267-1327 · King of Aragon · Wikipedia"},
+        {"id": "R2F_FREDERICKIII_SICILY", "label": "👑 Frederick III<br/>1272-1337 · King of Sicily · Wikipedia"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+ "families": [
+  {
+   "a": {
+    "id": "R2E_CONRAD1SWABIA",
+    "label": "Conrad I<br/>d.997 · Duke of Swabia · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_HERMANN2_MOTHER",
+    "label": "Richlind of Swabia (or Judith of Öhningen)<br/>disputed identity of Hermann II's mother · Wikipedia \"Herman II, Duke of Swabia\""
+   },
+   "children": [
+    "SPG_HERMANN2SWABIA",
+    {
+     "id": "R2E_LIUTOLD_SWABIA",
+     "label": "Liutold<br/>son of Conrad I of Swabia · Wikipedia"
+    },
+    {
+     "id": "R2E_CONRAD_SWABIA_YOUNGER",
+     "label": "Conrad<br/>son of Conrad I of Swabia · Wikipedia"
+    },
+    {
+     "id": "R2E_ITA_SWABIA",
+     "label": "Ita of Swabia<br/>m. Rudolf II, Count of Altdorf · Wikipedia"
+    },
+    {
+     "id": "R2E_JUDITH_SWABIA",
+     "label": "Judith of Swabia<br/>m.1 of Rheinfelden, m.2 Adalbert II, Count of Metz (d.1033) · Wikipedia"
+    },
+    {
+     "id": "R2E_KUNIZZA_SWABIA",
+     "label": "Kunizza 'Hemma'<br/>d.1020 · m. Friedrich I of Dießen · Wikipedia"
+    }
+   ],
+   "note": "Hermann II, Duke of Swabia, was son of Conrad I, Duke of Swabia; mother's identity disputed between two named candidates per Wikipedia. Full siblings per Wikipedia \"Conrad I, Duke of Swabia\"."
+  },
+  {
+   "a": {
+    "id": "R2E_HUMBERT1SAVOY",
+    "label": "Humbert I 'Whitehands'<br/>d.c.1048 · Count of Savoy · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_ANCILLA_SAVOY",
+    "label": "Ancilla (Ancelie)<br/>identity uncertain (poss. 'of Lenzburg' or 'of Aoste') · Wikipedia \"Humbert I, Count of Savoy\""
+   },
+   "children": [
+    "SPJ_OTTOSAVOY",
+    {
+     "id": "R2E_AMADEUS1SAVOY",
+     "label": "Amadeus I<br/>d.1051 · Count of Savoy (Otto's predecessor) · Wikipedia"
+    },
+    {
+     "id": "R2E_AYMON_SION",
+     "label": "✝ Aymon<br/>d.1054 · Bishop of Sion · Wikipedia"
+    },
+    {
+     "id": "R2E_BURCHARD_LYON",
+     "label": "✝ Burchard<br/>d.1068 · Archbishop of Lyon · Wikipedia"
+    }
+   ],
+   "note": "Otto, Count of Savoy, was son of Humbert I 'Whitehands'; mother's exact identity uncertain among named candidates. Full brothers per Wikipedia \"Otto, Count of Savoy\" / \"Humbert I, Count of Savoy\" (Wikipedia notes there may be additional unlisted sons)."
+  },
+  {
+   "a": {
+    "id": "R2E_ULRICMANFRED2_TURIN",
+    "label": "Ulric Manfred II<br/>d.1033 · Margrave of Turin · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_BERTHA_MILAN",
+    "label": "Bertha of Milan<br/>wife of Ulric Manfred II · Wikipedia \"Adelaide of Susa\""
+   },
+   "children": [
+    "SPJ_ADELAIDESUSA",
+    {
+     "id": "R2E_IMMILLA_TURIN",
+     "label": "Immilla of Turin<br/>younger sister of Adelaide of Susa · Wikipedia"
+    },
+    {
+     "id": "R2E_BERTHA_TURIN",
+     "label": "Bertha of Turin<br/>younger sister of Adelaide of Susa · Wikipedia"
+    }
+   ],
+   "note": "Adelaide of Susa, Margravine of Turin, was daughter of Ulric Manfred II, Margrave of Turin, and Bertha of Milan. Full sisters per Wikipedia \"Adelaide of Susa\"."
+  },
+  {
+   "a": "SPJ_AMADEUS2SAVOY",
+   "b": {
+    "id": "R2E_JOAN_GENEVA",
+    "label": "Joan (Jeanne) of Geneva<br/>wife of Amadeus II of Savoy · Wikipedia \"Humbert II, Count of Savoy\""
+   },
+   "children": [
+    "SPG_HUMBERT2SAVOY"
+   ],
+   "note": "CORRECTION: Humbert II 'the Reinforced' is the SON of Amadeus II of Savoy (himself son of Otto & Adelaide of Susa, existing id SPJ_AMADEUS2SAVOY) — i.e. Otto's GRANDSON, not son. Mother per Wikipedia infobox. No documented full siblings found (unverified claims of a sister/brother could not be confirmed against the article text, so omitted)."
+  },
+  {
+   "a": {
+    "id": "R2E_WILLIAM1BURGUNDY",
+    "label": "William I 'the Great'<br/>1020-1087 · Count of Burgundy &amp; Mâcon · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_STEPHANIE_BURGUNDY",
+    "label": "Stephanie (Etiennette)<br/>wife of William I of Burgundy; further identity unsettled · Wikipedia"
+   },
+   "children": [
+    "SPG_GISELABURGUNDY",
+    {
+     "id": "R2E_RENAUD2BURGUNDY",
+     "label": "Renaud II of Burgundy<br/>d. on First Crusade · Wikipedia"
+    },
+    {
+     "id": "R2E_STEPHEN1BURGUNDY",
+     "label": "Stephen I 'the Rash'<br/>1065-1102 · Count of Burgundy · Wikipedia"
+    },
+    {
+     "id": "R2E_RAYMONDBURGUNDY",
+     "label": "Raymond of Burgundy<br/>d.1107 · Count of Galicia; m. Urraca of León and Castile · Wikipedia"
+    },
+    {
+     "id": "R2E_SIBYLLA_BURGUNDY",
+     "label": "Sibylla of Burgundy<br/>Duchess of Burgundy (m. Odo I) · Wikipedia"
+    },
+    {
+     "id": "R2E_CLEMENTIA_BURGUNDY",
+     "label": "Clementia of Burgundy<br/>m.1 Robert II, Count of Flanders, m.2 Godfrey I of Leuven · Wikipedia"
+    },
+    {
+     "id": "R2E_GUY_VIENNE",
+     "label": "✝ Guy of Vienne<br/>elected Pope Callixtus II, 1119 · Wikipedia"
+    },
+    {
+     "id": "R2E_WILLIAM_BURGUNDY_JR",
+     "label": "William of Burgundy<br/>son of William I of Burgundy · Wikipedia"
+    },
+    {
+     "id": "R2E_EUDES_BURGUNDY",
+     "label": "Eudes of Burgundy<br/>son of William I of Burgundy · Wikipedia"
+    },
+    {
+     "id": "R2E_HUGH3_BESANCON",
+     "label": "✝ Hugh III<br/>Archbishop of Besançon · Wikipedia"
+    },
+    {
+     "id": "R2E_STEPHANIE_PEYRINS",
+     "label": "Stephanie of Burgundy<br/>m. Lambert, lord of Peyrins · Wikipedia"
+    },
+    {
+     "id": "R2E_ERMENTRUDE_BURGUNDY",
+     "label": "Ermentrude of Burgundy<br/>m.1065 Theodoric I, Count of Montbéliard · Wikipedia"
+    }
+   ],
+   "note": "Gisela of Burgundy, Countess of Savoy, was daughter of William I 'the Great', Count of Burgundy, and Stephanie (Etiennette). Full siblings per Wikipedia \"William I, Count of Burgundy\". Two siblings (Stephen I, Raymond) are themselves parents of other people in this batch — see linked families below."
+  },
+  {
+   "a": "R2E_STEPHEN1BURGUNDY",
+   "b": {
+    "id": "R2E_BEATRIX_LORRAINE",
+    "label": "Beatrice of Lorraine<br/>d.1116/17 · Countess of Burgundy; dau. of Gérard IV, Duke of Upper Lorraine, &amp; Hadwig · Wikipedia"
+   },
+   "children": [
+    "SPJ_RENAUD3BURGUNDY",
+    {
+     "id": "R2E_ISABELLA_BURGUNDY",
+     "label": "Isabella of Burgundy<br/>m. Hugh I, Count of Champagne · Wikipedia"
+    },
+    {
+     "id": "R2E_WILLIAM3_MACON",
+     "label": "William III of Mâcon<br/>son of Stephen I of Burgundy · Wikipedia"
+    },
+    {
+     "id": "R2E_CLEMENCE_ALBON",
+     "label": "Clemence (Margaret) of Burgundy<br/>d.1163 · m. Guigues IV of Albon, Dauphin de Viennois · Wikipedia"
+    }
+   ],
+   "note": "Renaud III, Count of Burgundy, was son of Stephen I 'the Rash' (himself a documented full brother of Gisela of Burgundy, above) and Beatrice of Lorraine, dau. of Gérard IV, Duke of Upper Lorraine — a distinct person from the more famous Beatrice of Bar/Tuscany. Full siblings per Wikipedia \"Stephen I, Count of Burgundy\"."
+  },
+  {
+   "a": "R2E_RAYMONDBURGUNDY",
+   "b": {
+    "id": "R2E_URRACA_LEONCASTILE",
+    "label": "👑 Urraca<br/>c.1079-1126 · Queen of León, Castile &amp; Galicia in her own right · Wikipedia"
+   },
+   "children": [
+    {
+     "id": "R2E_ALFONSO7_LEONCASTILE",
+     "label": "👑 Alfonso VII<br/>1105-1157 · King of Castile &amp; León ('the Emperor') · Wikipedia"
+    },
+    {
+     "id": "R2E_SANCHA_RAIMUNDEZ",
+     "label": "Sancha Raimúndez<br/>b. before 1095 · Infanta of León, guardian of the León succession · Wikipedia"
+    }
+   ],
+   "note": "Raymond of Burgundy (son of William I of Burgundy, brother of Gisela of Burgundy — see above) and Urraca, Queen of León-Castile-Galicia, are the parents of Alfonso VII, whose own children (Sancho III, Ferdinand II, Sancha) are in this batch. Full sister Sancha Raimúndez per Wikipedia \"Urraca of León and Castile\"."
+  },
+  {
+   "a": "R2E_ALFONSO7_LEONCASTILE",
+   "b": {
+    "id": "R2E_BERENGUELA_BARCELONA",
+    "label": "Berenguela of Barcelona<br/>d.1149 · m.1128, dau. of Ramon Berenguer III, Count of Barcelona · Wikipedia"
+   },
+   "children": [
+    "SPL_SANCHOIII",
+    "SPI_FERDINAND2_LEON",
+    "SPH_SANCHA_CASTILE",
+    {
+     "id": "R2E_CONSTANCE_CASTILE",
+     "label": "Constance of Castile<br/>c.1138-1160 · m. Louis VII of France · Wikipedia"
+    },
+    {
+     "id": "R2E_RAMON_CASTILE_INFANT",
+     "label": "Ramón of Castile<br/>living 1136, d. in childhood · Wikipedia"
+    },
+    {
+     "id": "R2E_GARCIA_CASTILE_INFANT",
+     "label": "García of Castile<br/>c.1142-c.1146 · d. in childhood · Wikipedia"
+    },
+    {
+     "id": "R2E_ALFONSO_CASTILE_INFANT",
+     "label": "Alfonso of Castile<br/>c.1144/48-c.1149 · d. in childhood · Wikipedia"
+    }
+   ],
+   "note": "Alfonso VII of León-Castile & his 1st wife Berenguela of Barcelona are the parents of Sancho III of Castile, Ferdinand II of León, and Sancha of Castile (all already in this batch), plus full siblings Constance (m. Louis VII of France) and three who died young — 7 documented children total per Wikipedia \"Alfonso VII of León and Castile\"."
+  },
+  {
+   "a": {
+    "id": "R2E_FULK3ANJOU",
+    "label": "Fulk III 'Nerra'<br/>c.972-1040 · Count of Anjou · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_HILDEGARDE_SUNDGAU",
+    "label": "Hildegarde of Sundgau<br/>d.1046 · 2nd wife of Fulk III, dau. of Theodoric I, Duke of Upper Lorraine · Wikipedia"
+   },
+   "children": [
+    "SPK_ERMENGARDE_ANJOU",
+    {
+     "id": "R2E_GEOFFREY2MARTEL",
+     "label": "Geoffrey II 'Martel'<br/>1006-1060 · Count of Anjou · Wikipedia"
+    }
+   ],
+   "note": "Ermengarde of Anjou was daughter of Fulk III 'Nerra', Count of Anjou, and his 2nd wife Hildegarde of Sundgau. Full brother Geoffrey II 'Martel' per Wikipedia \"Fulk III, Count of Anjou\" (half-siblings by Fulk's 1st wife excluded)."
+  },
+  {
+   "a": {
+    "id": "R2E_AMAURY1MONTFORT",
+    "label": "Amaury I de Montfort<br/>d.c.1053 · Lord of Montfort-l'Amaury · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_BERTRADE_MONTFORT",
+    "label": "Bertrade<br/>wife of Amaury I de Montfort (fuller identification as 'de Gometz' is secondary-sourced, not Wikipedia-confirmed) · Wikipedia"
+   },
+   "children": [
+    "SPH_SIMON1_MONTFORT",
+    {
+     "id": "R2E_MAINIER_EPERNON",
+     "label": "Mainier de Montfort<br/>d. before 1091 · Seigneur d'Épernon · Wikipedia"
+    },
+    {
+     "id": "R2E_EVA_MONTFORT",
+     "label": "Eva (Eve) de Montfort<br/>d.1099 · Wikipedia"
+    }
+   ],
+   "note": "Simon I de Montfort was son of Amaury I de Montfort and Bertrade. Full siblings per Wikipedia \"Amaury I de Montfort\" (a third 'Amaury' sibling circulates on non-Wikipedia genealogy sites but looks like confusion with Simon's own son — omitted as unconfirmed)."
+  },
+  {
+   "a": {
+    "id": "R2E_RICHARD_EVREUX",
+    "label": "Richard<br/>c.1015-c.1067 · Count of Évreux · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_GODEHILDIS_EVREUX",
+    "label": "Godehildis<br/>(also called Adelaide in some sources) · widow of Roger I of Tosny before marrying Richard · Wikipedia"
+   },
+   "children": [
+    "SPH_AGNES_EVREUX",
+    {
+     "id": "R2E_WILLIAM_EVREUX",
+     "label": "William<br/>d.1118 · Count of Évreux · Wikipedia"
+    },
+    {
+     "id": "R2E_GODEHILDIS_NUN",
+     "label": "Godehildis d'Évreux<br/>nun at St-Sauveur d'Évreux · Wikipedia"
+    }
+   ],
+   "note": "Agnes of Évreux was daughter of Richard, Count of Évreux, and Godehildis. Full siblings per Wikipedia \"Richard, Count of Évreux\" (Ralph de Tosny is a uterine half-brother from the mother's prior marriage, not a full sibling — excluded)."
+  },
+  {
+   "a": {
+    "id": "R2E_DIRK3HOLLAND",
+    "label": "Dirk III (Theodoric III)<br/>c.981-1039 · Count of Holland · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_OTHELINDIS_HOLLAND",
+    "label": "Othelindis (Otgiva)<br/>wife of Dirk III; perhaps dau. of Bernard I, Duke of Saxony (uncertain) · Wikipedia"
+   },
+   "children": [
+    "SPG_FLORIS1HOLLAND",
+    {
+     "id": "R2E_DIRK4HOLLAND",
+     "label": "Dirk IV<br/>d.1049 · Count of Holland (elder brother, predecessor) · Wikipedia"
+    },
+    {
+     "id": "R2E_BERTRADA_KATLENBURG",
+     "label": "Bertrada of Holland<br/>m. Dietrich I of Katlenburg · Wikipedia"
+    },
+    {
+     "id": "R2E_SUANHILDIS_LOON",
+     "label": "Suanhildis (Swanhilde) of Holland<br/>m. Emmo, Count of Loon · Wikipedia"
+    }
+   ],
+   "note": "Floris I, Count of Holland, was son of Dirk III, Count of Holland, and Othelindis. Full siblings per Wikipedia \"Floris I, Count of Holland\" / \"Dirk III, Count of Holland\"."
+  },
+  {
+   "a": {
+    "id": "R2E_BERNARD2SAXONY",
+    "label": "Bernard II<br/>d.1059 · Duke of Saxony · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_EILIKA_SCHWEINFURT",
+    "label": "Eilika of Schweinfurt<br/>wife of Bernard II, Duke of Saxony · Wikipedia"
+   },
+   "children": [
+    "SPG_GERTRUDESAXONY",
+    {
+     "id": "R2E_ORDULF_SAXONY",
+     "label": "Ordulf<br/>c.1020-1072 · Duke of Saxony; m. Ulfhilde of Norway · Wikipedia"
+    },
+    {
+     "id": "R2E_HERMANN_SAXONY",
+     "label": "Hermann of Saxony<br/>son of Bernard II, Duke of Saxony · Wikipedia"
+    },
+    {
+     "id": "R2E_IDA_NAMUR",
+     "label": "Ida of Saxony<br/>m. Albert III, Count of Namur · Wikipedia"
+    }
+   ],
+   "note": "Gertrude of Saxony, Countess of Holland, was daughter of Bernard II, Duke of Saxony, and Eilika of Schweinfurt. Full siblings per Wikipedia \"Gertrude of Saxony\" / \"Bernard II, Duke of Saxony\"."
+  },
+  {
+   "a": {
+    "id": "R2E_JEAN_LAFLECHE",
+    "label": "Jean de la Flèche (de Beaugency)<br/>father of Elias I of Maine · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_PAULA_MAINE",
+    "label": "Paula (Paule) of Maine<br/>dau. of Herbert I 'Wake-Dog' (Éveille-Chien), Count of Maine · Wikipedia"
+   },
+   "children": [
+    "SPH_ELIAS1_MAINE"
+   ],
+   "note": "Elias I of Maine (Hélie de la Flèche) was son of Jean de la Flèche and Paula of Maine. No documented full siblings found in Wikipedia \"Elias I, Count of Maine\" or standard genealogies — treat as undocumented, not confirmed-only-child."
+  },
+  {
+   "a": "SPK_WILLIAMVIII_AQUIT",
+   "b": {
+    "id": "R2E_HILDEGARDE_BURGUNDY_AQ",
+    "label": "Hildegarde of Burgundy<br/>3rd wife of William VIII, Duke of Aquitaine · Wikipedia"
+   },
+   "children": [
+    "SPG_WILLIAM9AQ",
+    {
+     "id": "R2E_AGNES_ARAGON_NAVARRE",
+     "label": "Agnes of Aquitaine<br/>d.1097 · Queen of Aragon &amp; Navarre (m. Peter I) · Wikipedia"
+    }
+   ],
+   "note": "William IX 'the Troubadour' was son of William VIII, Duke of Aquitaine (existing id SPK_WILLIAMVIII_AQUIT, already parented by William V & Agnes of Burgundy in round 1) and Hildegarde of Burgundy, his 3rd wife. Full sister Agnes of Aquitaine per Wikipedia \"William IX, Duke of Aquitaine\" / \"Hildegarde of Burgundy\" (a further 'Beatrice' is flagged '?' by Wikipedia itself and omitted as unconfirmed)."
+  },
+  {
+   "a": {
+    "id": "R2E_WILLIAM4_TOULOUSE",
+    "label": "William IV<br/>Count of Toulouse · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_EMMA_MORTAIN",
+    "label": "Emma of Mortain<br/>dau. of Robert, Count of Mortain · Wikipedia"
+   },
+   "children": [
+    "SPG_PHILIPPATOULOUSE"
+   ],
+   "note": "Philippa, Duchess of Aquitaine, was the only surviving child of William IV, Count of Toulouse, and Emma of Mortain — per Wikipedia \"Philippa, Countess of Toulouse\" (a claimed earlier marriage to Sancho Ramírez of Aragon is flagged there as likely apocryphal)."
+  },
+  {
+   "a": {
+    "id": "R2E_BOSON2_CHATELLERAULT",
+    "label": "Boson II<br/>Viscount of Châtellerault · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_ALEANOR_THOUARS",
+    "label": "Aleanor (Eleanor) de Thouars<br/>wife of Boson II, Viscount of Châtellerault · Wikipedia"
+   },
+   "children": [
+    "SPJ_AIMERYCHATELLERAULT"
+   ],
+   "note": "Aimery I, Viscount of Châtellerault, was son of Boson II and Aleanor de Thouars. No documented full siblings found in Wikipedia \"Aimery I, Viscount of Châtellerault\" — treat as undocumented, not confirmed-only-child."
+  },
+  {
+   "a": {
+    "id": "R2E_BARTHOLOMEW_ILEBOUCHARD",
+    "label": "Bartholomew (Barthélémy)<br/>Lord of L'Île-Bouchard · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_GERBERGE_BLAISON",
+    "label": "Gerberge de Blaison<br/>wife of Bartholomew, Lord of L'Île-Bouchard · Wikipedia"
+   },
+   "children": [
+    "SPJ_DANGEREUSE"
+   ],
+   "note": "Dangereuse de l'Isle Bouchard was daughter of Bartholomew, Lord of L'Île-Bouchard, and Gerberge de Blaison. No documented full siblings found in Wikipedia/French Wikipedia — treat as undocumented, not confirmed-only-child."
+  },
+  {
+   "a": "STEPHENBLOIS",
+   "b": "ADELA",
+   "children": [
+    "SPJ_THEOBALD2CHAMP",
+    {
+     "id": "R2E_WILLIAM_SULLY",
+     "label": "William<br/>c.1085-c.1150 · Count of Sully · Wikipedia"
+    },
+    {
+     "id": "R2E_ADELA_MONTLHERY",
+     "label": "Adela of Blois<br/>m. Milo II of Montlhéry · Wikipedia"
+    },
+    {
+     "id": "R2E_MATILDA_BLOIS",
+     "label": "Matilda of Blois<br/>d.1120 (White Ship) · m. Richard d'Avranches · Wikipedia"
+    },
+    {
+     "id": "R2E_AGNES_LEPUISET",
+     "label": "Agnes of Blois<br/>m. Hugh III of Le Puiset · Wikipedia"
+    },
+    {
+     "id": "R2E_ALIX_BLOIS",
+     "label": "Alix of Blois<br/>c.1095-1145 · Wikipedia"
+    },
+    {
+     "id": "R2E_HENRY_WINCHESTER",
+     "label": "✝ Henry of Blois<br/>c.1096-1171 · Bishop of Winchester · Wikipedia"
+    },
+    {
+     "id": "R2E_ELEANOR_VERMANDOIS",
+     "label": "Eleanor of Blois<br/>d.1147 · m. Ralph I of Vermandois · Wikipedia"
+    }
+   ],
+   "note": "Theobald II, Count of Champagne, was son of Stephen II, Count of Blois (existing id STEPHENBLOIS) and Adela of Normandy (existing id ADELA) — this union already has existing child STEPHENKING (King Stephen of England), not re-added here. Full siblings per Wikipedia \"Stephen II, Count of Blois\" / \"Adela of Normandy\"."
+  },
+  {
+   "a": {
+    "id": "R2E_ENGELBERT2_CARINTHIA",
+    "label": "Engelbert II<br/>Duke of Carinthia · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_UTA_PASSAU",
+    "label": "Uta of Passau<br/>m.c.1103, wife of Engelbert II of Carinthia · Wikipedia"
+   },
+   "children": [
+    "SPJ_MATILDACARINTHIA",
+    {
+     "id": "R2E_ULRIC1_CARINTHIA",
+     "label": "Ulric I<br/>d.1135 · Duke of Carinthia · Wikipedia"
+    },
+    {
+     "id": "R2E_ENGELBERT3_ISTRIA",
+     "label": "Engelbert III<br/>d.1124 · Margrave of Istria, Carniola &amp; Kraiburg · Wikipedia"
+    },
+    {
+     "id": "R2E_HENRY_TROYES",
+     "label": "✝ Henry of Carinthia<br/>d.1145 · Bishop of Troyes · Wikipedia"
+    },
+    {
+     "id": "R2E_RAPOTO1_ORTENBURG",
+     "label": "Rapoto I<br/>Count of Ortenburg &amp; Kraiburg · Wikipedia"
+    },
+    {
+     "id": "R2E_ADELAIDE_GOSS",
+     "label": "Adelaide of Carinthia<br/>d.1146 · Abbess of Göss · Wikipedia"
+    },
+    {
+     "id": "R2E_HARTWIG_REGENSBURG",
+     "label": "✝ Hartwig of Carinthia<br/>d.1155 · Bishop of Regensburg · Wikipedia"
+    },
+    {
+     "id": "R2E_IDA_NEVERS",
+     "label": "Ida of Carinthia<br/>m. William III of Nevers · Wikipedia"
+    }
+   ],
+   "note": "Matilda of Carinthia was daughter of Engelbert II, Duke of Carinthia, and Uta of Passau. Full siblings per Wikipedia \"Engelbert, Duke of Carinthia\"."
+  },
+  {
+   "a": {
+    "id": "R2E_SIMON1_LORRAINE",
+    "label": "Simon I<br/>Duke of Lorraine · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_ADELAIDE_LEUVEN",
+    "label": "Adelaide of Leuven<br/>wife of Simon I, Duke of Lorraine · Wikipedia"
+   },
+   "children": [
+    "SPJ_AGATHALORRAINE"
+   ],
+   "note": "Agatha of Lorraine's parentage (Simon I, Duke of Lorraine, and Adelaide of Leuven) is presented as settled fact by Wikipedia \"Agatha of Lorraine\" (citing Poole 1927), not disputed as sometimes assumed. Siblings not researched/verified — omitted rather than guessed."
+  },
+  {
+   "a": {
+    "id": "R2E_ROGER1_SICILY",
+    "label": "Roger I<br/>d.1101 · Count of Sicily ('the Great Count') · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_ADELAIDE_DELVASTO",
+    "label": "Adelaide del Vasto<br/>3rd wife of Roger I of Sicily · Wikipedia"
+   },
+   "children": [
+    "SPH_ROGER2_SICILY",
+    {
+     "id": "R2E_SIMON_SICILY",
+     "label": "Simon<br/>d.1105 · Count of Sicily (Roger II's predecessor) · Wikipedia"
+    },
+    {
+     "id": "R2E_MATILDA_ALIFE",
+     "label": "Matilda of Sicily<br/>m. Ranulf II of Alife · Wikipedia"
+    },
+    {
+     "id": "R2E_MAXIMILLA_SICILY",
+     "label": "Maximilla of Sicily<br/>dau. of Roger I &amp; Adelaide del Vasto · Wikipedia"
+    }
+   ],
+   "note": "Roger II of Sicily was son of Roger I 'the Great Count' and his 3rd wife Adelaide del Vasto. Full siblings per Wikipedia \"Roger II of Sicily\" / \"Roger I of Sicily\" (Emma, a half-sister from Roger I's earlier marriage, excluded)."
+  },
+  {
+   "a": {
+    "id": "R2E_GUITIER_RETHEL",
+    "label": "Guitier (Ithier), 'Günther'<br/>Count of Rethel · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_BEATRIX_NAMUR",
+    "label": "Beatrix of Namur<br/>wife of Guitier, Count of Rethel · Wikipedia"
+   },
+   "children": [
+    "SPH_BEATRICE_RETHEL"
+   ],
+   "note": "Beatrice of Rethel's father is given in the Wikipedia infobox as Guitier/Ithier, Count of Rethel (the round-1 label's 'Günther' is a variant spelling of the same name), and mother Beatrix of Namur. Wikipedia states she was 'the eldest daughter and one of nine children' without naming her siblings — none added, to avoid fabricating names."
+  },
+  {
+   "a": {
+    "id": "R2E_HENRY9_BAVARIA",
+    "label": "Henry IX 'the Black'<br/>d.1126 · Duke of Bavaria · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_WULFHILD_SAXONY",
+    "label": "Wulfhild (Wulfhilde) of Saxony<br/>dau. of Duke Magnus of Saxony · Wikipedia"
+   },
+   "children": [
+    "SPI_HENRY_PROUD",
+    {
+     "id": "R2E_JUDITH_BAVARIA",
+     "label": "Judith of Bavaria<br/>m. Frederick II, Duke of Swabia · Wikipedia"
+    },
+    {
+     "id": "R2E_CONRAD_BAVARIA",
+     "label": "Conrad of Bavaria<br/>d.1126 · Wikipedia"
+    },
+    {
+     "id": "R2E_WELF6_BAVARIA",
+     "label": "Welf VI<br/>d.1191 · Wikipedia"
+    },
+    {
+     "id": "R2E_SOPHIA_BAVARIA",
+     "label": "Sophia of Bavaria<br/>1105-1145 · m.1 Berthold III of Zähringen, m.2 Leopold, Margrave of Styria · Wikipedia"
+    },
+    {
+     "id": "R2E_WULFHILD_BREGENZ",
+     "label": "Wulfhild of Bavaria<br/>m. Rudolf I, Count of Bregenz · Wikipedia"
+    },
+    {
+     "id": "R2E_MATHILDE_BAVARIA",
+     "label": "Mathilde of Bavaria<br/>m.1 Diepold IV of Vohburg, m.2 Gebhard III of Sulzbach · Wikipedia"
+    },
+    {
+     "id": "R2E_ADALBERT_CORVEY",
+     "label": "✝ Adalbert of Bavaria<br/>Abbot of Corvey · Wikipedia"
+    }
+   ],
+   "note": "Henry X 'the Proud' was son of Henry IX 'the Black', Duke of Bavaria, and Wulfhild of Saxony. Full siblings per Wikipedia \"Henry IX, Duke of Bavaria\"."
+  },
+  {
+   "a": {
+    "id": "R2E_LOTHAIR3_HRE",
+    "label": "👑 Lothair III<br/>1075-1137 · Holy Roman Emperor (Lothair of Supplinburg) · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_RICHENZA_NORTHEIM",
+    "label": "Richenza of Northeim<br/>d.1141 · wife of Emperor Lothair III · Wikipedia"
+   },
+   "children": [
+    "SPI_GERTRUDE_SUPPLIN"
+   ],
+   "note": "Gertrude of Süpplingenburg was the only child of Emperor Lothair III and Richenza of Northeim, confirmed explicitly by Wikipedia \"Gertrude of Süpplingenburg\"."
+  },
+  {
+   "a": "LOUISVI",
+   "b": "ADELMAURIENNE",
+   "children": [
+    "SPG_PETER1COURTENAY",
+    {
+     "id": "R2E_PHILIP_FRANCE_1131",
+     "label": "Philip of France<br/>1116-1131 · crowned junior king; d. riding accident · Wikipedia"
+    },
+    {
+     "id": "R2E_HENRY_REIMS",
+     "label": "✝ Henry of France<br/>1121-1175 · Archbishop of Reims · Wikipedia"
+    },
+    {
+     "id": "R2E_HUGH_FRANCE_YOUNG",
+     "label": "Hugh of France<br/>c.1122 · d. young · Wikipedia"
+    },
+    {
+     "id": "R2E_ROBERT1_DREUX",
+     "label": "Robert I<br/>c.1123-1188 · Count of Dreux · Wikipedia"
+    },
+    {
+     "id": "R2E_CONSTANCE_FRANCE",
+     "label": "Constance of France<br/>c.1128-1176 · m.1 Eustace IV of Boulogne, m.2 Raymond V of Toulouse · Wikipedia"
+    },
+    {
+     "id": "R2E_PHILIP_PARIS_ARCHDEACON",
+     "label": "✝ Philip of France<br/>c.1132-1160 · Archdeacon of Paris · Wikipedia"
+    }
+   ],
+   "note": "Peter I of Courtenay was son of Louis VI of France (existing id LOUISVI) and Adelaide de Maurienne (existing id ADELMAURIENNE) — this union already has existing child LOUISVII, not re-added here. Full siblings per Wikipedia \"Louis VI of France\"."
+  },
+  {
+   "a": {
+    "id": "R2E_RENAUD1_COURTENAY",
+    "label": "Renaud (Reginald) de Courtenay<br/>Lord of Courtenay · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_HELVISE_DONJON",
+    "label": "Helvise du Donjon<br/>1st wife of Renaud de Courtenay (name variance: also 'Josceline de Donjon' in some sources) · Wikipedia"
+   },
+   "children": [
+    "SPG_ELIZCOURTENAY",
+    {
+     "id": "R2E_RENAUD2_COURTENAY",
+     "label": "Renaud II de Courtenay<br/>1125-1194 · Wikipedia"
+    },
+    {
+     "id": "R2E_ADELINE_COURTENAY",
+     "label": "Adeline de Courtenay<br/>dau. of Renaud de Courtenay &amp; Helvise du Donjon · Wikipedia"
+    },
+    {
+     "id": "R2E_GUILLAUME_COURTENAY",
+     "label": "Guillaume de Courtenay<br/>son of Renaud de Courtenay &amp; Helvise du Donjon · Wikipedia"
+    }
+   ],
+   "note": "Elizabeth de Courtenay was daughter of Renaud de Courtenay and his 1st wife Helvise du Donjon. Full siblings per Wikipedia \"Renaud de Courtenay\" (half-siblings Robert &amp; Egeline, from Renaud's 2nd wife Hawise d'Avranches, excluded)."
+  },
+  {
+   "a": {
+    "id": "R2E_GARCIARAMIREZ_NAVARRE",
+    "label": "👑 García Ramírez 'the Restorer'<br/>King of Navarre · Wikipedia"
+   },
+   "b": {
+    "id": "R2E_MARGARET_LAIGLE",
+    "label": "Margaret de l'Aigle<br/>wife of García Ramírez of Navarre · Wikipedia"
+   },
+   "children": [
+    "SPH_SANCHO6_NAVARRE",
+    "SPL_BLANCANAVARRE",
+    {
+     "id": "R2E_MARGARET_NAVARRE_SICILY",
+     "label": "Margaret of Navarre<br/>m. William I of Sicily · Wikipedia"
+    }
+   ],
+   "note": "Sancho VI of Navarre and Blanche of Navarre (both already in this batch, as siblings) are children of García Ramírez of Navarre and Margaret de l'Aigle, along with full sister Margaret (m. William I of Sicily) — per Wikipedia \"García Ramírez of Navarre\" / \"Sancho VI of Navarre\". A contested child Rodrigo/Henry, whose paternity García Ramírez himself refused to recognize, is omitted."
+  }
+ ]
+}

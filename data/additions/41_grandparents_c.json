@@ -1,0 +1,59 @@
+{
+ "_note": "ROUND 2 batch c_0_800AD: one more generation back (parents/grandparents + siblings) for round-1-added parents in the 0-800 AD slab. FILLED 4 of 10 (SPD_SEV_FATHER, SPJ_NICAEAMAC, SPD_CHILPERIC2, SPD_EMMA_ALEM, SPG_AETHELWULF — 5 counting the two-generation Alemannian/Wessex chains as one fill each plus Nicaea's existing-id link). SKIPPED 5 as genuinely undocumented: SPD_SEV_MOTHER (Fulvia Pia — only 'gens Fulvia of Tusculum', no named parents), SPD_MAXIMIAN (ancient sources give only 'humble shopkeeper family near Sirmium', no names), SPD_EUTROPIA (Syrian origin, parents unrecorded), SPD_CARETENA (Gregory of Tours never even names her, let alone her parents — already flagged as later tradition in round 1), SPD_GEROLD_VINZ (his father is unknown per standard genealogical scholarship; an online-database-only 'Hado of Vintzgouw + Gerniu of Swabia' pairing is unconfirmed and not used, per no-fabrication rule). New nodes use the R2C_ prefix. SPJ_NICAEAMAC is filled by REFERENCING the EXISTING union SPB_ANTIPATER + SPB_ANTIPATER_W (already parents of Cassander, Phila & Eurydice per 40_spouseparents_b1.json) — Nicaea is simply appended as a further daughter, no duplicate parents created. Web-verified 2026-07-17 against Wikipedia: 'Publius Septimius Geta (father of Septimius Severus)', 'Gondioc', 'Hnabi', 'Ecgberht, King of Wessex'.",
+
+ "families": [
+  {
+   "a": {"id": "R2C_LUCIUS_SEV", "label": "Lucius Septimius Severus<br/>c.70-aft.110 AD · sufes &amp; prefectus of Leptis Magna at its elevation to a Roman colonia under Trajan; its first duumvir · father of Publius Septimius Geta · Wikipedia"},
+   "b": {"id": "R2C_LUCIUS_SEV_WIFE", "label": "—"},
+   "children": [
+    "SPD_SEV_FATHER",
+    {"id": "R2C_SEPTIMIA_POLLA", "label": "Septimia Polla<br/>c.108 AD · sister of Publius Septimius Geta; aunt of Septimius Severus; apparently never married · Wikipedia"}
+   ],
+   "note": "Publius Septimius Geta's father was Lucius Septimius Severus of Leptis Magna, plus sister Septimia Polla (Geta honored her memory with a silver statue). Mother unnamed. Wikipedia ('Publius Septimius Geta (father of Septimius Severus)')."
+  },
+  {
+   "a": "SPB_ANTIPATER",
+   "b": "SPB_ANTIPATER_W",
+   "children": ["SPJ_NICAEAMAC"],
+   "note": "Nicaea of Macedon is a further documented daughter of the regent Antipater (existing union SPB_ANTIPATER + SPB_ANTIPATER_W, which already parents Cassander, Phila & Eurydice) — appended here, not re-parented. Wikipedia."
+  },
+  {
+   "a": {"id": "R2C_GUNDIOC", "label": "👑 Gundioc (Gondioc)<br/>c.420-473 AD · King of the Burgundians · father of Chilperic II · Gregory of Tours / Wikipedia"},
+   "b": {"id": "R2C_GUNDIOC_WIFE", "label": "—"},
+   "children": [
+    "SPD_CHILPERIC2",
+    {"id": "R2C_GUNDOBAD", "label": "👑 Gundobad<br/>d.516 AD · King of the Burgundians; issuer of the Lex Burgundionum; brother of Chilperic II · Gregory of Tours"},
+    {"id": "R2C_GODEGISEL", "label": "👑 Godegisel (Godigisel)<br/>d.500 AD · King of the Burgundians at Geneva; brother of Chilperic II · Gregory of Tours"},
+    {"id": "R2C_GUNDOMAR1", "label": "👑 Gundomar (Godomar I)<br/>d.c.476/7 AD · King of the Burgundians; brother of Chilperic II · Gregory of Tours"}
+   ],
+   "note": "Chilperic II of Burgundy's father was Gundioc, King of the Burgundians; brothers Gundobad, Godegisel & Gundomar per Gregory of Tours (Historia Francorum), who names the four sons in order Gundobad, Godegisel, Chilperic, Gundomar. Gundioc's wife is named only as 'a sister of the patrician Ricimer', no personal name recorded. Gundioc's own ancestry (a claimed descent from Gundahar, or from the Gothic king Athanaric per Gregory of Tours) is disputed among historians (Reinhold Kaiser rejects the Athanaric claim) and is omitted rather than asserted. Wikipedia ('Gondioc')."
+  },
+  {
+   "a": {"id": "R2C_HNABI", "label": "Hnabi (Nebi)<br/>c.710-789 AD · Duke of the Alemannians · father of Emma/Imma &amp; Ruadbert · Wikipedia"},
+   "b": {"id": "R2C_HNABI_WIFE", "label": "—"},
+   "children": [
+    "SPD_EMMA_ALEM",
+    {"id": "R2C_RUADBERT", "label": "Ruadbert<br/>c.760 AD · Count in the Hegau; brother of Emma/Imma of Alemannia · Wikipedia"}
+   ],
+   "note": "Emma (Imma) of Alemannia's father was Hnabi, Duke of the Alemannians, plus brother Ruadbert, Count in the Hegau. Wikipedia ('Hnabi')."
+  },
+  {
+   "a": {"id": "R2C_HUOCHING", "label": "Huoching<br/>c.685-? AD · Alemannic nobleman; father of Duke Hnabi · genealogy of Hildegard (medieval source) / Wikipedia"},
+   "b": {"id": "R2C_HUOCHING_WIFE", "label": "—"},
+   "children": ["R2C_HNABI"],
+   "note": "Hnabi's own father, per the medieval genealogy of Hildegard ('Huoching begat Hnabi'). A further claim in the same source making Huoching a son of Duke Gotfrid is explicitly doubted by scholars (compared to the legendary Hoc/Hnaef pairing) and is NOT included — stopping the documented chain at Huoching. Wikipedia ('Hnabi')."
+  },
+  {
+   "a": {"id": "R2C_EGBERT_WESSEX", "label": "👑 Ecgberht (Egbert)<br/>c.769/770-839 AD · King of Wessex · father of Æthelwulf · Anglo-Saxon Chronicle / Wikipedia"},
+   "b": {"id": "R2C_EGBERT_WIFE", "label": "—"},
+   "children": ["SPG_AETHELWULF"],
+   "note": "Æthelwulf's father was Ecgberht, King of Wessex. His wife (Æthelwulf's mother) is unnamed in reliable sources — a 15th-century chronicle's 'Redburga, relative of Charlemagne' is dismissed by modern historians (e.g. Janet Nelson, ODNB) as too late/unreliable. No other documented children of Ecgberht; his traditional half-sister Alburga's shared parent with him is not specified in sources, so she is omitted rather than guessed into a union. Wikipedia ('Ecgberht, King of Wessex')."
+  },
+  {
+   "a": {"id": "R2C_EALHMUND_KENT", "label": "👑 Ealhmund<br/>fl.784-786 AD · King of Kent · father of Ecgberht of Wessex · Anglo-Saxon Chronicle / Wikipedia"},
+   "b": {"id": "R2C_EALHMUND_WIFE", "label": "—"},
+   "children": ["R2C_EGBERT_WESSEX"],
+   "note": "Ecgberht of Wessex's father was Ealhmund, King of Kent, per the Anglo-Saxon Chronicle (though historians note Ecgberht's broader West Saxon ancestry claims may have been shaped for dynastic legitimacy). Mother unnamed. Wikipedia ('Ecgberht, King of Wessex')."
+  }
+ ]
+}
